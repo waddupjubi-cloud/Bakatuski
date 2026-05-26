@@ -8,23 +8,23 @@
       "folder": "images/lores/argus/",
       "images": [
         "Prologue.png",
-        "ch 1.png",
-        "ch 2.png",
-        "ch 3.png",
-        "ch 4.png",
-        "ch 5.png",
-        "ch 6.png",
-        "ch 7.png",
-        "ch 8.png",
-        "ch 9.png",
-        "ch 10.png",
-        "ch 11.png",
-        "ch 12.png",
+        "Ch 1.png",
+        "Ch 2.png",
+        "Ch 3.png",
+        "Ch 4.png",
+        "Ch 5.png",
+        "Ch 6.png",
+        "Ch 7.png",
+        "Ch 8.png",
+        "Ch 9.png",
+        "Ch 10.png",
+        "Ch 11.png",
+        "Ch 12.png",
         "Epilogue.png",
         "Appendix.png",
-        "Final Note.png"
+        "FinalNote.png"
       ],
-      "chapters": [
+      "Chapters": [
         {
           "number": "Prologue",
           "title": "The Wings That Burned",
@@ -135,7 +135,7 @@
           "title": "On the Dark Angel",
           "shortDesc": "Argus will try every day to be the Dark Angel, not because he wants to but because he has to.",
           "fullDesc": "Dark Angel. The title is a burden, but also a gift. It reminds Argus of his mother, his sister, the Church that rejected him. He does not know if he will ever be worthy, but he will try. Every day, in every battle, with every swing. He will be strong. He will be relentless. He will be immortal. He will be the Dark Angel. Not because he wants to be. Because he has to be. Because someone has to remind the world that the Light can burn as well as heal. And Argus, the twin born in shadow, has decided that someone will be him.",
-          "imageFile": "Final Note.png"
+          "imageFile": "FinalNote.png"
         }
       ]
     },
@@ -147,23 +147,23 @@
       "folder": "images/lores/fanny/",
       "images": [
         "Prologue.png",
-        "ch 1.png",
-        "ch 2.png",
-        "ch 3.png",
-        "ch 4.png",
-        "ch 5.png",
-        "ch 6.png",
-        "ch 7.png",
-        "ch 8.png",
-        "ch 9.png",
-        "ch 10.png",
-        "ch 11.png",
-        "ch 12.png",
+        "Ch 1.png",
+        "Ch 2.png",
+        "Ch 3.png",
+        "Ch 4.png",
+        "Ch 5.png",
+        "Ch 6.png",
+        "Ch 7.png",
+        "Ch 8.png",
+        "Ch 9.png",
+        "Ch 10.png",
+        "Ch 11.png",
+        "Ch 12.png",
         "Epilogue.png",
         "Appendix.png",
-        "Final Note.png"
+        "FinalNote.png"
       ],
-      "chapters": [
+      "Chapters": [
         {
           "number": "Prologue",
           "title": "The Steel That Refused to Be Ground Down",
@@ -274,7 +274,7 @@
           "title": "On the Blade Dancer",
           "shortDesc": "Fanny will be the Blade Dancer not because she wants to, but because she has to be.",
           "fullDesc": "Blade Dancer. The title is a burden, but also a gift. It reminds Fanny of her brother, her mother, the cables she designed. She does not know if she will ever live up to the expectations, but she will try. Every day, in every battle, with every swing. She will be fast. She will be fearless. She will be free. She will be the Blade Dancer. Not because she wants to be. Because she has to be. Because someone has to watch the skies. And Fanny, the youngest daughter of the Wertz family, has decided that someone will be her.",
-          "imageFile": "Final Note.png"
+          "imageFile": "FinalNote.png"
         }
       ]
     },
@@ -286,23 +286,23 @@
       "folder": "images/lores/ling/",
       "images": [
         "Prologue.png",
-        "ch 1.png",
-        "ch 2.png",
-        "ch 3.png",
-        "ch 4.png",
-        "ch 5.png",
-        "ch 6.png",
-        "ch 7.png",
-        "ch 8.png",
-        "ch 9.png",
-        "ch 10.png",
-        "ch 11.png",
-        "ch 12.png",
+        "Ch 1.png",
+        "Ch 2.png",
+        "Ch 3.png",
+        "Ch 4.png",
+        "Ch 5.png",
+        "Ch 6.png",
+        "Ch 7.png",
+        "Ch 8.png",
+        "Ch 9.png",
+        "Ch 10.png",
+        "Ch 11.png",
+        "Ch 12.png",
         "Epilogue.png",
         "Appendix.png",
-        "Final Note.png"
+        "FinalNote.png"
       ],
-      "chapters": [
+      "Chapters": [
         {
           "number": "Prologue",
           "title": "The Tempest That Refuses to Be Caged",
@@ -413,7 +413,7 @@
           "title": "On the Cyan Finch",
           "shortDesc": "Ling will be the Cyan Finch because someone has to remind the Great Dragon that he made a mistake.",
           "fullDesc": "Cyan Finch. The title is a burden, but also a gift. It reminds Ling of the Great Dragon who rejected him, of Zilong who was chosen, of the tempest within him. He does not know if he will ever be worthy, but he will try. Every day, in every battle, with every leap. He will be fast. He will be precise. He will be untouchable. He will be the Cyan Finch. Not because he wants to be. Because he has to be. Because someone has to remind the Great Dragon that he made a mistake. And Ling, the disciple who was cast aside, has decided that someone will be him.",
-          "imageFile": "Final Note.png"
+          "imageFile": "FinalNote.png"
         }
       ]
     },
@@ -425,23 +425,23 @@
       "folder": "images/lores/aamon/",
       "images": [
         "Prologue.png",
-        "ch 1.png",
-        "ch 2.png",
-        "ch 3.png",
-        "ch 4.png",
-        "ch 5.png",
-        "ch 6.png",
-        "ch 7.png",
-        "ch 8.png",
-        "ch 9.png",
-        "ch 10.png",
-        "ch 11.png",
-        "ch 12.png",
+        "Ch 1.png",
+        "Ch 2.png",
+        "Ch 3.png",
+        "Ch 4.png",
+        "Ch 5.png",
+        "Ch 6.png",
+        "Ch 7.png",
+        "Ch 8.png",
+        "Ch 9.png",
+        "Ch 10.png",
+        "Ch 11.png",
+        "Ch 12.png",
         "Epilogue.png",
         "Appendix.png",
-        "Final Note.png"
+        "FinalNote.png"
       ],
-      "chapters": [
+      "Chapters": [
         {
           "number": "Prologue",
           "title": "The Burden That Forges the Blade",
@@ -552,7 +552,7 @@
           "title": "On the Duke of Shards",
           "shortDesc": "Aamon will fight for his family, because that is his duty and his purpose.",
           "fullDesc": "Duke of Shards. The title is a reflection of my role—a noble who shatters obstacles and an assassin who leaves only crystalline remains. I am a guardian of House Paxley and a cold-blooded executioner. I do not know if I will ever break the curse. I do not know if Gusion will ever forgive me for the harsh decisions I have made. But I will fight for my family, because that is my duty. That is my purpose. 'Don't rely on the weapon. Rely on the accuracy of the arm that wields it.'",
-          "imageFile": "Final Note.png"
+          "imageFile": "FinalNote.png"
         }
       ]
     }
