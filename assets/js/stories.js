@@ -2,6 +2,7 @@
    BAKATUSKI – stories.js
    Full lore gallery with custom cursor, navbar, Swiper modal, lightbox, dark/light theme
    + responsive thumbs (horizontal on mobile)
+   + swipeable gallery lightbox with index navigation
    =================================================== */
 
 'use strict';
@@ -22,7 +23,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const thumbSwiperWrapper = document.getElementById('thumb-swiper-wrapper');
     const modalCaption = document.getElementById('modal-caption');
     const lightbox = document.getElementById('lightbox');
-    const lightboxImg = lightbox?.querySelector('.lightbox-img');
     const lightboxClose = lightbox?.querySelector('.lightbox-close');
     const themeBtn = document.getElementById('theme-switch');
 
@@ -32,6 +32,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     let currentChapterTitles = [];
     let storiesData = [];
     let currentLoreForModal = null;
+    let currentGalleryImages = [];       // store URLs for lightbox
+    let currentGalleryIndex = 0;
+    let lightboxSwiper = null;
 
     // ---------- CUSTOM CURSOR ----------
     function initCursor() {
@@ -219,6 +222,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         if (imageUrls.length === 0) return;
         currentChapterTitles = titles;
+        currentGalleryImages = imageUrls; // store for lightbox
 
         mainSwiperWrapper.innerHTML = '';
         thumbSwiperWrapper.innerHTML = '';
@@ -230,9 +234,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             img.src = url;
             img.alt = `${lore.hero} - ${titles[idx]}`;
             img.setAttribute('data-full', url);
+            img.setAttribute('data-index', idx);
             img.addEventListener('click', (e) => {
                 e.stopPropagation();
-                openLightbox(url);
+                openGallery(idx);
             });
             mainSlide.appendChild(img);
             mainSwiperWrapper.appendChild(mainSlide);
@@ -257,13 +262,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (mainSwiper) mainSwiper.destroy(true, true);
         if (thumbSwiper) thumbSwiper.destroy(true, true);
 
-        // Determine if we are on mobile (width <= 900px) to set thumb direction
         const isMobile = window.innerWidth <= 900;
         
         mainSwiper = new Swiper('.main-swiper', {
             navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
             spaceBetween: 10,
-            loop: false,
+            loop: true,
             on: {
                 slideChange: () => {
                     if (mainSwiper && currentChapterTitles[mainSwiper.activeIndex]) {
@@ -284,7 +288,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         mainSwiper.thumbs.init();
     }
 
-    // Handle window resize to reinit swiper with correct direction
     let resizeTimeout;
     window.addEventListener('resize', () => {
         if (!modal || modal.classList.contains('hidden')) return;
@@ -302,19 +305,86 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (thumbSwiper) { thumbSwiper.destroy(true, true); thumbSwiper = null; }
         currentChapterTitles = [];
         currentLoreForModal = null;
+        currentGalleryImages = [];
     }
 
-    // ---------- Lightbox ----------
-    function openLightbox(src) {
-        if (!lightbox || !lightboxImg) return;
-        lightboxImg.src = src;
+    // ---------- SWIPEABLE LIGHTBOX GALLERY ----------
+    function openGallery(startIndex) {
+        if (!lightbox || !currentGalleryImages.length) return;
+        currentGalleryIndex = startIndex;
+
+        // Clear previous content
+        const lightboxInner = lightbox;
+        // Remove existing swiper container if any
+        const oldSwiperContainer = lightboxInner.querySelector('.lightbox-swiper');
+        if (oldSwiperContainer) oldSwiperContainer.remove();
+
+        // Create new swiper container
+        const swiperContainer = document.createElement('div');
+        swiperContainer.className = 'swiper lightbox-swiper';
+        swiperContainer.style.width = '100%';
+        swiperContainer.style.height = '100%';
+        swiperContainer.style.position = 'relative';
+        
+        const swiperWrapper = document.createElement('div');
+        swiperWrapper.className = 'swiper-wrapper';
+        
+        currentGalleryImages.forEach((url, idx) => {
+            const slide = document.createElement('div');
+            slide.className = 'swiper-slide';
+            slide.style.display = 'flex';
+            slide.style.alignItems = 'center';
+            slide.style.justifyContent = 'center';
+            const img = document.createElement('img');
+            img.src = url;
+            img.style.maxWidth = '100vw';
+            img.style.maxHeight = '100vh';
+            img.style.objectFit = 'contain';
+            img.style.borderRadius = '16px';
+            img.style.boxShadow = '0 0 40px rgba(0,0,0,0.5)';
+            slide.appendChild(img);
+            swiperWrapper.appendChild(slide);
+        });
+        
+        swiperContainer.appendChild(swiperWrapper);
+        
+        // Add navigation buttons
+        const prevBtn = document.createElement('div');
+        prevBtn.className = 'swiper-button-prev';
+        const nextBtn = document.createElement('div');
+        nextBtn.className = 'swiper-button-next';
+        swiperContainer.appendChild(prevBtn);
+        swiperContainer.appendChild(nextBtn);
+        
+        lightboxInner.appendChild(swiperContainer);
+        
+        // Init Swiper
+        if (lightboxSwiper) lightboxSwiper.destroy(true, true);
+        lightboxSwiper = new Swiper('.lightbox-swiper', {
+            initialSlide: startIndex,
+            navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+            loop: true,
+            spaceBetween: 0,
+            grabCursor: true,
+            touchRatio: 1,
+            resistance: true,
+            resistanceRatio: 0.85
+        });
+        
         lightbox.classList.remove('hidden');
         document.body.style.overflow = 'hidden';
     }
+
     function closeLightbox() {
         if (!lightbox) return;
         lightbox.classList.add('hidden');
-        if (lightboxImg) lightboxImg.src = '';
+        if (lightboxSwiper) {
+            lightboxSwiper.destroy(true, true);
+            lightboxSwiper = null;
+        }
+        // Clean up swiper container
+        const swiperContainer = lightbox.querySelector('.lightbox-swiper');
+        if (swiperContainer) swiperContainer.remove();
         document.body.style.overflow = '';
     }
 
@@ -334,7 +404,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (modalClose) modalClose.addEventListener('click', closeModal);
     if (modal) modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
     if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
-    if (lightbox) lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+    // Lightbox backdrop click: close only if clicking on backdrop, NOT on image
+    if (lightbox) {
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) closeLightbox();
+        });
+    }
     if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
