@@ -340,7 +340,7 @@ body.light-theme #search-input:focus {
 /* ---------- LORE GRID (cards) ---------- */
 .lore-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 32px;
   max-width: 1400px;
   margin: 0 auto 80px;
@@ -682,7 +682,7 @@ body.light-theme #search-input:focus {
 /* Extra small phones */
 @media (max-width: 640px) {
   .lore-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
     padding: 0 16px;
   }

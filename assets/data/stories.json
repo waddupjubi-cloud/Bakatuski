@@ -4,7 +4,7 @@
       "id": 1,
       "hero": "Argus",
       "slug": "argus",
-      "cover": "images/stories_covers/argus_cover.jpg",
+      "cover": "images/stories_covers/argus_cover.png",
       "folder": "images/lores/argus/",
       "images": [
         "Prologue.png",
@@ -143,7 +143,7 @@
       "id": 2,
       "hero": "Fanny",
       "slug": "fanny",
-      "cover": "images/stories_covers/fanny_cover.jpg",
+      "cover": "images/stories_covers/fanny_cover.png",
       "folder": "images/lores/fanny/",
       "images": [
         "Prologue.png",
@@ -282,7 +282,7 @@
       "id": 3,
       "hero": "Ling",
       "slug": "ling",
-      "cover": "images/stories_covers/ling_cover.jpg",
+      "cover": "images/stories_covers/ling_cover.png",
       "folder": "images/lores/ling/",
       "images": [
         "Prologue.png",
@@ -421,7 +421,7 @@
       "id": 4,
       "hero": "Aamon",
       "slug": "aamon",
-      "cover": "images/stories_covers/aamon_cover.jpg",
+      "cover": "images/stories_covers/aamon_cover.png",
       "folder": "images/lores/aamon/",
       "images": [
         "Prologue.png",
@@ -560,7 +560,7 @@
       "id": 5,
       "hero": "Layla",
       "slug": "layla",
-      "cover": "images/stories_covers/layla_cover.jpg",
+      "cover": "images/stories_covers/layla_cover.png",
       "folder": "images/lores/layla/",
       "images": [
         "Prologue.png",
@@ -699,7 +699,7 @@
       "id": 6,
       "hero": "Granger",
       "slug": "granger",
-      "cover": "images/stories_covers/granger_cover.jpg",
+      "cover": "images/stories_covers/granger_cover.png",
       "folder": "images/lores/granger/",
       "images": [
         "Prologue.png",
@@ -838,7 +838,7 @@
       "id": 7,
       "hero": "Benedetta",
       "slug": "benedetta",
-      "cover": "images/stories_covers/benedetta_cover.jpg",
+      "cover": "images/stories_covers/benedetta_cover.png",
       "folder": "images/lores/benedetta/",
       "images": [
         "Prologue.png",
@@ -977,7 +977,7 @@
       "id": 8,
       "hero": "Lunox",
       "slug": "lunox",
-      "cover": "images/stories_covers/lunox_cover.jpg",
+      "cover": "images/stories_covers/lunox_cover.png",
       "folder": "images/lores/lunox/",
       "images": [
         "Prologue.png",
@@ -1116,7 +1116,7 @@
       "id": 9,
       "hero": "Sun",
       "slug": "sun",
-      "cover": "images/stories_covers/sun_cover.jpg",
+      "cover": "images/stories_covers/sun_cover.png",
       "folder": "images/lores/sun/",
       "images": [
         "Prologue.png",
@@ -1255,7 +1255,7 @@
       "id": 10,
       "hero": "Kagura",
       "slug": "kagura",
-      "cover": "images/stories_covers/kagura_cover.jpg",
+      "cover": "images/stories_covers/kagura_cover.png",
       "folder": "images/lores/kagura/",
       "images": [
         "Prologue.png",
