@@ -48,103 +48,6 @@
   "members": [
     {
       "id": 1,
-      "slug": "alisha",
-      "name": "Alisha Pakhrin Tamang",
-      "nickname": "PandaPrime",
-      "title": "Moonlit Mage • Tulip Guardian • The Apologetic Assassin",
-      "role": "Mid Lane",
-      "type": "player",
-      "subtype": "starter",
-      "rating": 9.6,
-      "favColor": "#000000",
-      "favFlower": "Tulips — specifically the black ones, which she says 'understand her'",
-      "bio": "Alisha Pakhrin Tamang is what happens when a computer science student, a poetry reader, and a serial killer share one body. By day, she tends to twelve tulip pots on her balcony, listens to lo-fi, and writes clean code that makes her professors nervous. By night, she transforms into '—kaii', a mid lane menace so politely devastating that enemies leave matches unsure whether to report her or send flowers. She has been playing MLBB since 2019 and has logged a 68% win rate on Ling — in mid lane — which is not a conventional choice and which she refuses to explain or justify. She has simply decided it works, and statistically she is correct. Her signature move is the Polite Penta: five kills, perfectly executed, followed immediately by 'sorry everyone, have a great day' in all-chat. Enemies have reported feeling confused, disrespected, and oddly charmed. She once won a 1v3 with 17 HP remaining and apparently didn't notice because she was petting her cat Mochi. Mochi has since received informal credit for two assists. Alisha is the emotional anchor of Bakatuski — the person everyone texts when they're tilted, the one who remembers everyone's birthday, the one who arranges three black tulips on her desk before every match as though she is performing a ritual, because she absolutely is.",
-      "signatureMove": "The 'Polite Penta' — delete all five enemies with mechanical precision, then type 'sorry everyone, have a nice day :)' in all-chat while your team loses their minds in the voice channel.",
-      "deepDive": "Alisha's playstyle is best described as 'soft chaos'. She doesn't flame. She doesn't rage. She doesn't trash-talk. She does, however, silently study your weaknesses for the first two minutes of the game and then dismantle you so thoroughly that your teammates start questioning their life choices. Her Ling in mid lane is statistically her most successful pick, despite being something that no coach has ever recommended or endorsed. When Coach Sabin finally watched the VOD and realized it was working, he added a dedicated section in his draft notes titled 'Alisha Ling — do not question it, just ban the counter'. Her positioning is near-perfect, her rotations are clean, and her mechanical execution is so smooth it looks effortless even during the moments when she insists it was 'pure luck and I almost panicked'. She is lying. She did not almost panic. She never panics. She just types 'uh oh :(' and then outplays you.",
-      "achievements": [
-        "Triple kill while mid-sentence typing 'oops sry' — documented by Deepa, currently at 340k views",
-        "Won a 1v3 engagement at 17 HP without burning flicker — claims she thought she was already dead",
-        "Made an enemy jungler uninstall the game after stealing his buff four consecutive times in one match",
-        "First Bakatuski member to hit Mythical Glory — celebrated with taro bubble tea and tulip arrangement",
-        "Maintained the squad's highest average KDA ratio across three consecutive tournament seasons"
-      ],
-      "funFacts": [
-        "She has a black tulip tattoo on her left wrist that she got after the squad's first tournament win — 'the bloom after the storm', she said",
-        "Her pre-game ritual is non-negotiable: taro bubble tea with extra pearls, three tulips arranged on the desk, lo-fi on the speaker, Mochi settled on her lap",
-        "She once won a full game primarily one-handed because the other hand was occupied holding her cat during a thunderstorm",
-        "She keeps a small notebook of 'nice things to say in all-chat' because she wants enemies to leave feeling okay about themselves",
-        "Her laugh has been described by actual opponents as 'criminally cute', including one player who said so after losing to her 0/7 in lane",
-        "She is the only person who has ever successfully calmed down Biju mid-tilt by texting him a picture of a panda eating bamboo"
-      ],
-      "gamingRitual": "Prepares taro bubble tea with exactly the right number of extra pearls. Arranges three black tulips in the small vase she keeps specifically for this. Settles Mochi on her lap. Plays thirty seconds of lo-fi at low volume. Types 'good luck, have fun, sorry in advance' in squad voice chat. Locks her pick. Then — with the energy of someone going on a pleasant evening walk — proceeds to make the enemy mid laner question everything.",
-      "images": {
-        "icon": "images/members/alisha/roster.png",
-        "roster": "images/members/alisha/roster.png",
-        "popup": "images/members/alisha/roster.png",
-        "gallery": [
-          "images/members/alisha/01.png",
-          "images/members/alisha/02.png",
-          "images/members/alisha/03.png",
-          "images/members/alisha/04.png"
-        ]
-      },
-      "stats": {
-        "Roaming": 7,
-        "Map Sense": 9,
-        "Ganking": 8,
-        "Kill Secure": 10,
-        "Survivability": 5,
-        "Farming": 8,
-        "Team Play": 9,
-        "Mechanical Skill": 9,
-        "Decision Making": 8,
-        "Clutch Factor": 10
-      },
-      "dob": "2001-09-14",
-      "ign": "—kaii",
-      "playerId": "BK001",
-      "likes": [
-        "Tulips — she has twelve pots on her balcony and names them",
-        "Taro bubble tea with extra pearls, consumed slowly and ceremonially",
-        "Prediction kills — hitting a skill before the enemy even makes the wrong decision",
-        "Whispering 'sorry' after every elimination, which she has done 1,204 documented times",
-        "Playing Ling in mid lane purely for the looks on people's faces in draft",
-        "Late-night sessions with rain sounds and her cat Mochi as co-pilot",
-        "When enemies send friend requests after losing to her — it means she made an impression"
-      ],
-      "dislikes": [
-        "Toxic chat — she will respond with 'I understand you're frustrated, I hope your day improves :)' and mean it sincerely, which is somehow worse",
-        "Bright neon skins — 'too aggressive for my eyes, I need aesthetic coherence'",
-        "Getting five-man camped by the jungler — not because it's threatening but because it's boring",
-        "When someone leaves without saying 'gg' — genuinely considers this a moral failure",
-        "Recall spam — 'it's just rude, we're all busy people'"
-      ],
-      "personality": "INFJ",
-      "personalityName": "The Advocate — soft-spoken, deeply empathetic, and absolutely, terrifyingly lethal",
-      "motto": "Bloom where you're planted. Then delete the enemy mid laner with love in your heart.",
-      "jerseyNumber": 9,
-      "favHeroes": [
-        {
-          "name": "Ling",
-          "icon": "images/heroes/ling.png"
-        },
-        {
-          "name": "Kagura",
-          "icon": "images/heroes/kagura.png"
-        },
-        {
-          "name": "Lylia",
-          "icon": "images/heroes/lylia.png"
-        },
-        {
-          "name": "Selena",
-          "icon": "images/heroes/selena.png"
-        }
-      ],
-      "testimonial": "Joined because they let me bring my cat Mochi to scrims and didn't laugh when I said tulips understand me. Now I delete mid laners and say 'sorry' like a chronic people‑pleaser. 10/10 would ragebait again."
-    },
-    {
-      "id": 2,
       "slug": "biju",
       "name": "Biju Maharjan",
       "nickname": "BambooStrike",
@@ -238,7 +141,7 @@
       "testimonial": "I have been kicked out of seven squads for being 'too much' and 'disruptive to team energy'. Bakatuski made me the captain and started selling my catchphrase on hoodies. These pandas looked at all my chaos and said 'more, please'. I have never felt more understood in my life. Also GUTS dies for me regularly, BAKUQT types apologies on my behalf, Salina carries when I'm in my dramatic phase, and Kaii makes sure I don't throw 3v5 fights alone. That's family. Waddup."
     },
     {
-      "id": 3,
+      "id": 2,
       "slug": "salina",
       "name": "Salina Magar",
       "nickname": "OrangeFlash",
@@ -332,9 +235,101 @@
       "testimonial": "Started because I lost to my little brother 10 times. Now I out‑farm everyone while eating a strawberry sandwich one‑handed. The giggle after a triple kill is not optional – it's a warning shot. Slay."
     },
     {
+      "id": 3,
+      "slug": "amisha-thulung-rai",
+      "name": "Amisha Thulung Rai",
+      "nickname": "MysticCat",
+      "title": "The Mystic Midlaner of OWO • Cat's Whisker • Purrfect Predator",
+      "role": "Mid Lane",
+      "type": "player",
+      "subtype": "starter",
+      "rating": 9.2,
+      "favColor": "#FFA500",
+      "bio": "Amisha Thulung Rai – known to the realm as 'Cat >_<' – is the squad's resident feline enigma. Born in the misty hills of eastern Nepal, she grew up surrounded by stray cats, ancient folk tales, and the kind of silence that makes you hear your own heartbeat. She claims she learned MLBB from a cat who sat on her keyboard and accidentally performed a Kadita combo. 'I just watched the paws,' she says. 'The cat knew things.' Whether you believe her or not, her mechanics are undeniable: a 70% win rate on Kadita across 600+ games, and a signature 'Pounce and Purr' combo that leaves enemies wondering what hit them. She mains mages with mobility and burst – Kadita, Harith, Lunox – and her playstyle is a chaotic dance of sudden aggression and graceful retreats, like a cat batting at a toy before losing interest. She joined Bakatuski after a ranked game where she solokilled the enemy mid laner four times in eight minutes, then typed '~ meow, get out of my lane ~' in all‑chat. Biju saw it and sent an invite within seconds. Her response: '~ depends, do you have treats? ~' Biju bought her a bag of cat-shaped cookies. She accepted. Now she is the squad's second mid lane substitute, bringing whimsy, unpredictability, and a laugh that sounds like a contented purr.",
+      "signatureMove": "The 'Pounce and Purr' – as the enemy mid laner steps up to last‑hit, Kadita dives forward in her seafoam form, knocking them up, landing a full Ocean Ode combo, and retreating before the tower even registers the aggression. Type '~ too slow, little mouse ~' in all‑chat and return to farming like nothing happened.",
+      "deepDive": "Amisha's mid lane philosophy is simple: *be where they least expect you, leave before they can react*. Her map movements are erratic by design – she will roam bot, then instantly rotate top, then vanish into the jungle for ten seconds, only to reappear behind the enemy jungler stealing their blue buff. Coach Sabin has noted that 'Amisha's pathing is impossible to predict because even she doesn't know where she's going until she gets there. It's chaos, but it's *effective* chaos.' She also has a habit of typing '~ pspspsps ~' in all‑chat after a kill, which enemies have reported as 'deeply unsettling' and 'weirdly cute'. She is never toxic – she is simply playful, and somehow that's worse.",
+      "achievements": [
+        "Solo killed the enemy mid laner 6 times in a single tournament game – the opponent typed 'can you stop' and she replied '~ no, this is fun ~'",
+        "Her Kadita has a documented 85% first-blood rate – she dives at level 2 before minions even meet, and somehow always wins",
+        "First Bakatuski player to receive a 'Cat's Grace' award from the tournament organisers (they made it up after her performance)",
+        "Made an enemy jungler rage‑quit after she stole his buff three times in a row – each steal was followed by '~ mine now, thanks ~'",
+        "Her laugh in voice chat has been described by teammates as 'audible serotonin' and 'the reason I don't tilt anymore'"
+      ],
+      "funFacts": [
+        "She has a pet cat named 'Whiskers' who sits on her lap during matches. Whiskers has been known to step on her keyboard mid‑combo – she still wins. 'He's my coach,' she says.",
+        "Her pre‑match ritual involves giving Whiskers a treat and saying 'bless the paws'. She has done this 300+ times and never lost after forgetting.",
+        "She drinks warm milk with honey – 'calming, like a cat nap'.",
+        "She has a collection of cat-ear headbands in different colours and matches them to her hero skin. Pink for Kadita, purple for Harith, orange for Lunox.",
+        "She once typed '~ meow ~' in all‑chat after a pentakill. The entire enemy team responded with '...' and one player said 'I'm not even mad, that was cute'."
+      ],
+      "gamingRitual": "Gives Whiskers a treat. Puts on the cat‑ear headband (colour matches the hero). Sips warm milk with honey. Opens draft, locks Kadita, and types '~ pspspsps, let's play ~' in all‑chat. Then proceeds to pounce on the enemy mid laner like a kitten chasing a laser pointer – relentless, unpredictable, and absolutely adorable.",
+      "images": {
+        "icon": "images/members/amisha/roster.png",
+        "roster": "images/members/amisha/roster.png",
+        "popup": "images/members/amisha/roster.png",
+        "gallery": [
+          "images/members/amisha/gallery/01.png",
+          "images/members/amisha/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 8,
+        "Map Sense": 8,
+        "Ganking": 9,
+        "Kill Secure": 9,
+        "Survivability": 7,
+        "Farming": 8,
+        "Team Play": 8,
+        "Mechanical Skill": 9,
+        "Decision Making": 7,
+        "Clutch Factor": 9
+      },
+      "dob": "2000-12-25",
+      "ign": "Cat >_<",
+      "playerId": "BK023",
+      "likes": [
+        "The exact moment a Kadita dive connects – 'like pouncing on a string, very satisfying'",
+        "Watching enemies type '?' after she vanishes into the fog – 'confused little mice, so cute'",
+        "Warm milk with honey – 'it's like a hug for my insides'",
+        "Her cat Whiskers – 'he judges my gameplay, but he stays on my lap, so I win'",
+        "Typing '~ meow ~' after a kill – 'it's polite, it's cute, and it tilts them, triple win'",
+        "Stealing buffs from the enemy jungler – 'finders keepers, and I found it first'",
+        "The panda in the sky – 'it has cat energy. big, fluffy, watching. i respect it.'"
+      ],
+      "dislikes": [
+        "Toxic teammates – 'hiss. bad energy. i mute and purr.'",
+        "When enemies play too safe – 'come out and play, cowards'",
+        "Lag spikes – 'ruins the pounce timing, very rude'",
+        "People who don't say 'gg' – 'manners cost nothing, use them'"
+      ],
+      "personality": "ENFP",
+      "personalityName": "The Campaigner – playful, unpredictable, and powered by cat treats and curiosity",
+      "motto": "Pounce first, ask questions never. ~ meow ~",
+      "jerseyNumber": 8,
+      "favHeroes": [
+        {
+          "name": "Kadita",
+          "icon": "images/heroes/kadita.png"
+        },
+        {
+          "name": "Harith",
+          "icon": "images/heroes/harith.png"
+        },
+        {
+          "name": "Lunox",
+          "icon": "images/heroes/lunox.png"
+        },
+        {
+          "name": "Nana",
+          "icon": "images/heroes/nana.png"
+        }
+      ],
+      "testimonial": "I learned Kadita from a cat sitting on my keyboard. Bakatuski believed me. Now I pounce on mid laners and type '~ meow ~' while they grey screen. Purr."
+    },
+    {
       "id": 4,
       "slug": "aashray",
-      "name": "Aashray",
+      "name": "BakuQT",
       "nickname": "RoamingPanda",
       "title": "Bouncy Boy • Khufra Enthusiast • The Unseen Setter • Guardian of Salina's KDA",
       "role": "Roamer",
@@ -455,10 +450,7 @@
         "icon": "images/members/guts/roster.png",
         "roster": "images/members/guts/roster.png",
         "popup": "images/members/guts/roster.png",
-        "gallery": [
-          "images/members/guts/01.png",
-          "images/members/guts/02.png"
-        ]
+        "gallery": ["images/members/guts/01.png", "images/members/guts/02.png"]
       },
       "stats": {
         "Roaming": 5,
@@ -690,7 +682,7 @@
       "favHeroes": [],
       "testimonial": "I turned GUTS's deaths into content and Biju's 'waddup' into a soundbite. I've never watched a full game. I've watched every death clip twice. Ratio'd a pro player once. Stay mad, stay entertained."
     },
-        {
+    {
       "id": 9,
       "slug": "dr-rooney",
       "name": "Dr. Rooney",
@@ -1213,10 +1205,7 @@
         "icon": "images/members/chou/roster.png",
         "roster": "images/members/chou/roster.png",
         "popup": "images/members/chou/roster.png",
-        "gallery": [
-          "images/members/chou/01.png",
-          "images/members/chou/02.png"
-        ]
+        "gallery": ["images/members/chou/01.png", "images/members/chou/02.png"]
       },
       "stats": {
         "Roaming": 8,
@@ -1638,95 +1627,100 @@
     },
     {
       "id": 20,
-      "slug": "amisha-thulung-rai",
-      "name": "Amisha Thulung Rai",
-      "nickname": "MysticCat",
-      "title": "The Mystic Midlaner of OWO • Cat's Whisker • Purrfect Predator",
+      "slug": "alisha",
+      "name": "Alisha Pakhrin Tamang",
+      "nickname": "PandaPrime",
+      "title": "Moonlit Mage • Tulip Guardian • The Apologetic Assassin",
       "role": "Mid Lane",
       "type": "player",
       "subtype": "substitute",
-      "rating": 9.2,
-      "favColor": "#FFA500",
-      "bio": "Amisha Thulung Rai – known to the realm as 'Cat >_<' – is the squad's resident feline enigma. Born in the misty hills of eastern Nepal, she grew up surrounded by stray cats, ancient folk tales, and the kind of silence that makes you hear your own heartbeat. She claims she learned MLBB from a cat who sat on her keyboard and accidentally performed a Kadita combo. 'I just watched the paws,' she says. 'The cat knew things.' Whether you believe her or not, her mechanics are undeniable: a 70% win rate on Kadita across 600+ games, and a signature 'Pounce and Purr' combo that leaves enemies wondering what hit them. She mains mages with mobility and burst – Kadita, Harith, Lunox – and her playstyle is a chaotic dance of sudden aggression and graceful retreats, like a cat batting at a toy before losing interest. She joined Bakatuski after a ranked game where she solokilled the enemy mid laner four times in eight minutes, then typed '~ meow, get out of my lane ~' in all‑chat. Biju saw it and sent an invite within seconds. Her response: '~ depends, do you have treats? ~' Biju bought her a bag of cat-shaped cookies. She accepted. Now she is the squad's second mid lane substitute, bringing whimsy, unpredictability, and a laugh that sounds like a contented purr.",
-      "signatureMove": "The 'Pounce and Purr' – as the enemy mid laner steps up to last‑hit, Kadita dives forward in her seafoam form, knocking them up, landing a full Ocean Ode combo, and retreating before the tower even registers the aggression. Type '~ too slow, little mouse ~' in all‑chat and return to farming like nothing happened.",
-      "deepDive": "Amisha's mid lane philosophy is simple: *be where they least expect you, leave before they can react*. Her map movements are erratic by design – she will roam bot, then instantly rotate top, then vanish into the jungle for ten seconds, only to reappear behind the enemy jungler stealing their blue buff. Coach Sabin has noted that 'Amisha's pathing is impossible to predict because even she doesn't know where she's going until she gets there. It's chaos, but it's *effective* chaos.' She also has a habit of typing '~ pspspsps ~' in all‑chat after a kill, which enemies have reported as 'deeply unsettling' and 'weirdly cute'. She is never toxic – she is simply playful, and somehow that's worse.",
+      "rating": 9.6,
+      "favColor": "#000000",
+      "favFlower": "Tulips — specifically the black ones, which she says 'understand her'",
+      "bio": "Alisha Pakhrin Tamang is what happens when a computer science student, a poetry reader, and a serial killer share one body. By day, she tends to twelve tulip pots on her balcony, listens to lo-fi, and writes clean code that makes her professors nervous. By night, she transforms into '—kaii', a mid lane menace so politely devastating that enemies leave matches unsure whether to report her or send flowers. She has been playing MLBB since 2019 and has logged a 68% win rate on Ling — in mid lane — which is not a conventional choice and which she refuses to explain or justify. She has simply decided it works, and statistically she is correct. Her signature move is the Polite Penta: five kills, perfectly executed, followed immediately by 'sorry everyone, have a great day' in all-chat. Enemies have reported feeling confused, disrespected, and oddly charmed. She once won a 1v3 with 17 HP remaining and apparently didn't notice because she was petting her cat Mochi. Mochi has since received informal credit for two assists. Alisha is the emotional anchor of Bakatuski — the person everyone texts when they're tilted, the one who remembers everyone's birthday, the one who arranges three black tulips on her desk before every match as though she is performing a ritual, because she absolutely is.",
+      "signatureMove": "The 'Polite Penta' — delete all five enemies with mechanical precision, then type 'sorry everyone, have a nice day :)' in all-chat while your team loses their minds in the voice channel.",
+      "deepDive": "Alisha's playstyle is best described as 'soft chaos'. She doesn't flame. She doesn't rage. She doesn't trash-talk. She does, however, silently study your weaknesses for the first two minutes of the game and then dismantle you so thoroughly that your teammates start questioning their life choices. Her Ling in mid lane is statistically her most successful pick, despite being something that no coach has ever recommended or endorsed. When Coach Sabin finally watched the VOD and realized it was working, he added a dedicated section in his draft notes titled 'Alisha Ling — do not question it, just ban the counter'. Her positioning is near-perfect, her rotations are clean, and her mechanical execution is so smooth it looks effortless even during the moments when she insists it was 'pure luck and I almost panicked'. She is lying. She did not almost panic. She never panics. She just types 'uh oh :(' and then outplays you.",
       "achievements": [
-        "Solo killed the enemy mid laner 6 times in a single tournament game – the opponent typed 'can you stop' and she replied '~ no, this is fun ~'",
-        "Her Kadita has a documented 85% first-blood rate – she dives at level 2 before minions even meet, and somehow always wins",
-        "First Bakatuski player to receive a 'Cat's Grace' award from the tournament organisers (they made it up after her performance)",
-        "Made an enemy jungler rage‑quit after she stole his buff three times in a row – each steal was followed by '~ mine now, thanks ~'",
-        "Her laugh in voice chat has been described by teammates as 'audible serotonin' and 'the reason I don't tilt anymore'"
+        "Triple kill while mid-sentence typing 'oops sry' — documented by Deepa, currently at 340k views",
+        "Won a 1v3 engagement at 17 HP without burning flicker — claims she thought she was already dead",
+        "Made an enemy jungler uninstall the game after stealing his buff four consecutive times in one match",
+        "First Bakatuski member to hit Mythical Glory — celebrated with taro bubble tea and tulip arrangement",
+        "Maintained the squad's highest average KDA ratio across three consecutive tournament seasons"
       ],
       "funFacts": [
-        "She has a pet cat named 'Whiskers' who sits on her lap during matches. Whiskers has been known to step on her keyboard mid‑combo – she still wins. 'He's my coach,' she says.",
-        "Her pre‑match ritual involves giving Whiskers a treat and saying 'bless the paws'. She has done this 300+ times and never lost after forgetting.",
-        "She drinks warm milk with honey – 'calming, like a cat nap'.",
-        "She has a collection of cat-ear headbands in different colours and matches them to her hero skin. Pink for Kadita, purple for Harith, orange for Lunox.",
-        "She once typed '~ meow ~' in all‑chat after a pentakill. The entire enemy team responded with '...' and one player said 'I'm not even mad, that was cute'."
+        "She has a black tulip tattoo on her left wrist that she got after the squad's first tournament win — 'the bloom after the storm', she said",
+        "Her pre-game ritual is non-negotiable: taro bubble tea with extra pearls, three tulips arranged on the desk, lo-fi on the speaker, Mochi settled on her lap",
+        "She once won a full game primarily one-handed because the other hand was occupied holding her cat during a thunderstorm",
+        "She keeps a small notebook of 'nice things to say in all-chat' because she wants enemies to leave feeling okay about themselves",
+        "Her laugh has been described by actual opponents as 'criminally cute', including one player who said so after losing to her 0/7 in lane",
+        "She is the only person who has ever successfully calmed down Biju mid-tilt by texting him a picture of a panda eating bamboo"
       ],
-      "gamingRitual": "Gives Whiskers a treat. Puts on the cat‑ear headband (colour matches the hero). Sips warm milk with honey. Opens draft, locks Kadita, and types '~ pspspsps, let's play ~' in all‑chat. Then proceeds to pounce on the enemy mid laner like a kitten chasing a laser pointer – relentless, unpredictable, and absolutely adorable.",
+      "gamingRitual": "Prepares taro bubble tea with exactly the right number of extra pearls. Arranges three black tulips in the small vase she keeps specifically for this. Settles Mochi on her lap. Plays thirty seconds of lo-fi at low volume. Types 'good luck, have fun, sorry in advance' in squad voice chat. Locks her pick. Then — with the energy of someone going on a pleasant evening walk — proceeds to make the enemy mid laner question everything.",
       "images": {
-        "icon": "images/members/amisha/roster.png",
-        "roster": "images/members/amisha/roster.png",
-        "popup": "images/members/amisha/roster.png",
+        "icon": "images/members/alisha/roster.png",
+        "roster": "images/members/alisha/roster.png",
+        "popup": "images/members/alisha/roster.png",
         "gallery": [
-          "images/members/amisha/gallery/01.png",
-          "images/members/amisha/gallery/02.png"
+          "images/members/alisha/01.png",
+          "images/members/alisha/02.png",
+          "images/members/alisha/03.png",
+          "images/members/alisha/04.png"
         ]
       },
       "stats": {
-        "Roaming": 8,
-        "Map Sense": 8,
-        "Ganking": 9,
-        "Kill Secure": 9,
-        "Survivability": 7,
+        "Roaming": 7,
+        "Map Sense": 9,
+        "Ganking": 8,
+        "Kill Secure": 10,
+        "Survivability": 5,
         "Farming": 8,
-        "Team Play": 8,
+        "Team Play": 9,
         "Mechanical Skill": 9,
-        "Decision Making": 7,
-        "Clutch Factor": 9
+        "Decision Making": 8,
+        "Clutch Factor": 10
       },
-      "dob": "2000-12-25",
-      "ign": "Cat >_<",
-      "playerId": "BK023",
+      "dob": "2001-09-14",
+      "ign": "—kaii",
+      "playerId": "BK001",
       "likes": [
-        "The exact moment a Kadita dive connects – 'like pouncing on a string, very satisfying'",
-        "Watching enemies type '?' after she vanishes into the fog – 'confused little mice, so cute'",
-        "Warm milk with honey – 'it's like a hug for my insides'",
-        "Her cat Whiskers – 'he judges my gameplay, but he stays on my lap, so I win'",
-        "Typing '~ meow ~' after a kill – 'it's polite, it's cute, and it tilts them, triple win'",
-        "Stealing buffs from the enemy jungler – 'finders keepers, and I found it first'",
-        "The panda in the sky – 'it has cat energy. big, fluffy, watching. i respect it.'"
+        "Tulips — she has twelve pots on her balcony and names them",
+        "Taro bubble tea with extra pearls, consumed slowly and ceremonially",
+        "Prediction kills — hitting a skill before the enemy even makes the wrong decision",
+        "Whispering 'sorry' after every elimination, which she has done 1,204 documented times",
+        "Playing Ling in mid lane purely for the looks on people's faces in draft",
+        "Late-night sessions with rain sounds and her cat Mochi as co-pilot",
+        "When enemies send friend requests after losing to her — it means she made an impression"
       ],
       "dislikes": [
-        "Toxic teammates – 'hiss. bad energy. i mute and purr.'",
-        "When enemies play too safe – 'come out and play, cowards'",
-        "Lag spikes – 'ruins the pounce timing, very rude'",
-        "People who don't say 'gg' – 'manners cost nothing, use them'"
+        "Toxic chat — she will respond with 'I understand you're frustrated, I hope your day improves :)' and mean it sincerely, which is somehow worse",
+        "Bright neon skins — 'too aggressive for my eyes, I need aesthetic coherence'",
+        "Getting five-man camped by the jungler — not because it's threatening but because it's boring",
+        "When someone leaves without saying 'gg' — genuinely considers this a moral failure",
+        "Recall spam — 'it's just rude, we're all busy people'"
       ],
-      "personality": "ENFP",
-      "personalityName": "The Campaigner – playful, unpredictable, and powered by cat treats and curiosity",
-      "motto": "Pounce first, ask questions never. ~ meow ~",
-      "jerseyNumber": 8,
+      "personality": "INFJ",
+      "personalityName": "The Advocate — soft-spoken, deeply empathetic, and absolutely, terrifyingly lethal",
+      "motto": "Bloom where you're planted. Then delete the enemy mid laner with love in your heart.",
+      "jerseyNumber": 9,
       "favHeroes": [
         {
-          "name": "Kadita",
-          "icon": "images/heroes/kadita.png"
+          "name": "Ling",
+          "icon": "images/heroes/ling.png"
         },
         {
-          "name": "Harith",
-          "icon": "images/heroes/harith.png"
+          "name": "Kagura",
+          "icon": "images/heroes/kagura.png"
         },
         {
-          "name": "Lunox",
-          "icon": "images/heroes/lunox.png"
+          "name": "Lylia",
+          "icon": "images/heroes/lylia.png"
         },
         {
-          "name": "Nana",
-          "icon": "images/heroes/nana.png"
+          "name": "Selena",
+          "icon": "images/heroes/selena.png"
         }
       ],
-      "testimonial": "I learned Kadita from a cat sitting on my keyboard. Bakatuski believed me. Now I pounce on mid laners and type '~ meow ~' while they grey screen. Purr."
+      "testimonial": "Joined because they let me bring my cat Mochi to scrims and didn't laugh when I said tulips understand me. Now I delete mid laners and say 'sorry' like a chronic people‑pleaser. 10/10 would ragebait again."
     },
     {
       "id": 21,
