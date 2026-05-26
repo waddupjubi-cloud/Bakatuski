@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Bakatuski - Esports Squad">
+    <meta property="og:description"
+        content="Meet the pandas of Bakatuski. We feed with style, we tilt with a smile. Waddup.">
+    <meta property="og:url" content="https://iritachii-cloud.github.io/GSAP_Profile/Bakatuski_Squad/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" id="og-image" content="images/logo/bakatuskisquadlogo.png">
+    <meta name="theme-color" content="#1BDA80">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo/bakatuskisquadlogo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo/bakatuskisquadlogo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/bakatuskisquadlogo.png">
+    <link rel="shortcut icon" href="images/logo/bakatuskisquadlogo.png">
+
+    <title>Bakatuski | Bamboo Esports Squad</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" id="main-css" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a class="nav-logo" href="#home">
+                <div class="nav-logo-img-wrap">
+                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" class="nav-logo-img"
+                        onerror="this.parentElement.innerHTML='<div class=\'logo-svg-fallback\'>🐼</div>'">
+                </div>
+                <span class="nav-brand">BAKATUSKI</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link" data-s="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-s="about">About</a></li>
+                <li><a href="#squad" class="nav-link" data-s="squad">Squad</a></li>
+                <li><a href="#matrix" class="nav-link" data-s="matrix">Roster</a></li>
+                <li><a href="#roadmap" class="nav-link" data-s="roadmap">Roadmap</a></li>
+                <li><a href="#testimonials" class="nav-link" data-s="testimonials">Lab Log</a></li>
+                <li><a href="#contact" class="nav-link" data-s="contact">Contact</a></li>
+                <li><a href="stories.html" class="nav-link" data-s="contact">STORY</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hex-grid-overlay"></div>
+
+        <div class="hero-slides" id="hero-slides"></div>
+        <div class="swiper-dots" id="swiper-dots"></div>
+
+        <div class="hero-scroll-cue">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section about-section reveal-section">
+        <div class="section-tag">01 — About</div>
+        <div class="about-inner">
+            <div class="about-visual">
+                <div class="about-logo-frame">
+                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski"
+                        onerror="this.parentElement.innerHTML='<div class=\'fallback-logo-large\'>🐼</div>'">
+                    <div class="logo-orbit-ring ring-1"></div>
+                    <div class="logo-orbit-ring ring-2"></div>
+                </div>
+                <div class="squad-counters" id="squad-counters"></div>
+            </div>
+            <div class="about-content">
+                <p class="eyebrow">The Origin Story</p>
+                <h2 class="section-title glitch-host" data-glitch="BAKATUSKI">BAKATUSKI</h2>
+                <div class="orange-rule"></div>
+                <p class="body-text" id="about-text"></p>
+                <h3 class="sub-title">How the Panda Squad Rose</h3>
+                <p class="body-text" id="formation-text"></p>
+                <div class="cta-row">
+                    <a href="#squad" class="btn btn-primary">Meet The Squad</a>
+                    <a href="#roadmap" class="btn btn-ghost">Our Journey</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SQUAD SECTION -->
+    <section id="squad" class="section squad-section">
+        <div class="section-tag">02 — Squad</div>
+        <div class="section-header">
+            <p class="eyebrow">The Bamboo Warriors</p>
+            <h2 class="section-title">MEET THE <em>PANDAS</em></h2>
+            <p class="section-sub">Players, coaches &amp; the minds behind the bamboo curtain.</p>
+        </div>
+        <div class="filter-row" id="squad-filter">
+            <button class="filter-pill active" data-filter="all">All Members</button>
+            <button class="filter-pill" data-filter="starter">Starters</button>
+            <button class="filter-pill" data-filter="substitute">Substitutes</button>
+            <button class="filter-pill" data-filter="staff">Staff</button>
+        </div>
+        <div class="cards-grid" id="cards-grid"></div>
+    </section>
+
+    <!-- ROSTER MATRIX -->
+    <section id="matrix" class="section matrix-section">
+        <div class="section-tag">03 — Roster</div>
+        <div class="section-header">
+            <p class="eyebrow">Main Lineup</p>
+            <h2 class="section-title">PLAYER <em>MATRIX</em></h2>
+        </div>
+        <div class="matrix-tabs" id="matrix-tabs">
+            <button class="matrix-tab active" data-tab="starter">Starting Lineup</button>
+            <button class="matrix-tab" data-tab="substitute">Substitute Lineup</button>
+        </div>
+        <div class="table-scroll-wrap">
+            <table class="roster-table" id="roster-table">
+                <thead>
+                    <tr>
+                        <th>Icon</th>
+                        <th>Player</th>
+                        <th>Role</th>
+                        <th>#</th>
+                        <th>Fav Hero</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody id="roster-tbody"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section id="roadmap" class="section roadmap-section">
+        <div class="section-tag">04 — Journey</div>
+        <div class="section-header">
+            <p class="eyebrow">Our History</p>
+            <h2 class="section-title">THE BAMBOO <em>PATH</em></h2>
+        </div>
+        <div class="timeline" id="timeline"></div>
+    </section>
+
+    <!-- TESTIMONIALS / LAB LOG -->
+    <section id="testimonials" class="section testimonials-section">
+        <div class="section-tag">05 — Lab Log</div>
+        <div class="section-header">
+            <p class="eyebrow">Squad Voices</p>
+            <h2 class="section-title">WHAT THE <em>PANDAS</em> SAY</h2>
+        </div>
+        <div class="chat-feed" id="chat-feed"></div>
+    </section>
+
+    <!-- CONTACT + FOOTER -->
+    <section id="contact" class="section contact-section">
+        <div class="section-tag">06 — Contact</div>
+        <div class="contact-inner">
+            <div class="contact-left">
+                <p class="eyebrow">Get In Touch</p>
+                <h2 class="section-title">SLIDE INTO<br>OUR <em>DMS</em></h2>
+                <p class="body-text">Want to challenge us? Partner up? Or just send panda memes? We respond to all —
+                    eventually.</p>
+                <div class="contact-socials" id="contact-socials"></div>
+                <blockquote class="footer-quote" id="footer-quote"></blockquote>
+            </div>
+            <div class="contact-right">
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="c-name">Your IGN / Name</label>
+                            <input id="c-name" name="name" type="text" placeholder="PandaFan99" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="c-email">Email</label>
+                            <input id="c-email" name="email" type="email" placeholder="you@bamboo.gg" required>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="c-subject">Subject</label>
+                        <input id="c-subject" name="subject" type="text" placeholder="Challenge / Partnership / Memes">
+                    </div>
+                    <div class="form-field">
+                        <label for="c-msg">Message</label>
+                        <textarea id="c-msg" name="message" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-wide">
+                        Send via Carrier Panda
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                            <path d="M22 2L11 13M22 2L15 22 11 13 2 9l20-7z" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="form-success hidden" id="form-success">🐼 Message delivered by carrier panda!</div>
+                </form>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" height="36"
+                        onerror="this.style.display='none'">
+                    <span>BAKATUSKI</span>
+                </div>
+                <p class="footer-copy">© 2025 Bakatuski. All rights reserved. Powered by bamboo &amp; orange energy.</p>
+                <nav class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#squad">Squad</a>
+                    <a href="#roadmap">Roadmap</a>
+                </nav>
+            </div>
+        </footer>
+    </section>
+
+    <!-- MEMBER MODAL -->
+    <div class="modal-overlay hidden" id="modal-overlay" role="dialog" aria-modal="true" aria-label="Member profile">
+        <div class="modal-panel" id="modal-panel">
+            <button class="modal-close-btn" id="modal-close" aria-label="Close">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <script id="main-js" src="assets/js/main.js?0426"></script>
+    <script>
+        // Auto cache bust: append timestamp to CSS and JS
+        const cssLink = document.getElementById('main-css');
+        const jsScript = document.getElementById('main-js');
+        const timestamp = new Date().getTime();
+        cssLink.href = 'assets/css/styles.css?t=' + timestamp;
+        jsScript.src = 'assets/js/main.js?t=' + timestamp;
+    </script>
+</body>
+
+</html>

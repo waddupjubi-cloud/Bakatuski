@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Bakatuski | Bamboo Chronicles – Lore Library</title>
+    <meta property="og:title" content="Bakatuski – Bamboo Chronicles">
+    <meta property="og:description" content="Explore the untold legends of Argus, Fanny, Ling, Aamon and more.">
+    <meta property="og:image" content="images/logo/bakatuskisquadlogo.png">
+    <meta name="theme-color" content="#1BDA80">
+    <link rel="icon" type="image/png" href="images/logo/bakatuskisquadlogo.png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Main styles + stories-specific -->
+    <link id="main-css" rel="stylesheet" href="assets/css/styles.css">
+    <link id="stories-css" rel="stylesheet" href="assets/css/stories.css">
+</head>
+<body class="dark-theme">
+    <!-- ========== CUSTOM CURSOR (same as index) ========== -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- ========== NAVBAR (identical structure to index) ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a class="nav-logo" href="index.html">
+                <div class="nav-logo-img-wrap">
+                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski">
+                </div>
+                <span class="nav-brand">BAKATUSKI</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#squad" class="nav-link">Squad</a></li>
+                <li><a href="index.html#matrix" class="nav-link">Roster</a></li>
+                <li><a href="index.html#roadmap" class="nav-link">Roadmap</a></li>
+                <li><a href="index.html#testimonials" class="nav-link">Lab Log</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="stories.html" class="nav-link active" data-s="stories">STORY</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== STORIES HERO ========== -->
+    <section class="stories-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="glitch-text" data-text="BAMBOO CHRONICLES">BAMBOO CHRONICLES</h1>
+            <p>Unfold the legends behind the blades — official MLBB lore, illustrated chapter by chapter.</p>
+            <div class="theme-toggle">
+                <button id="theme-switch" class="theme-btn">🌙 Dark</button>
+            </div>
+        </div>
+    </section>
+    <!-- ========== SEARCH ========== -->
+    <div class="stories-controls">
+        <input type="text" id="search-input" placeholder="🔍 Search hero lore... (Argus, Fanny, Ling, Aamon...)" aria-label="Search lore">
+    </div>
+
+    <!-- ========== LORE GRID ========== -->
+    <section class="lore-grid" id="lore-grid">
+        <div class="loading-indicator">Loading ancient scrolls...</div>
+    </section>
+
+    <!-- ========== MODAL GALLERY ========== -->
+    <div id="lore-modal" class="lore-modal hidden" role="dialog" aria-modal="true">
+        <div class="modal-container">
+            <button class="modal-close" id="modal-close" aria-label="Close gallery">&times;</button>
+            <div class="modal-hero-header">
+                <h2 id="modal-hero-name">Hero Name</h2>
+                <span class="hero-role">Lore Archive · Chapter Gallery</span>
+            </div>
+            <div class="modal-gallery-wrapper">
+                <div class="swiper main-swiper">
+                    <div class="swiper-wrapper" id="main-swiper-wrapper"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="swiper thumb-swiper" direction="vertical">
+                    <div class="swiper-wrapper" id="thumb-swiper-wrapper"></div>
+                </div>
+            </div>
+            <div class="modal-caption" id="modal-caption">—</div>
+        </div>
+    </div>
+
+    <!-- ========== LIGHTBOX ========== -->
+    <div id="lightbox" class="lightbox hidden">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-img" src="" alt="Full size lore illustration">
+    </div>
+    <!-- ========== FOOTER ========== -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" height="36">
+                <span>BAKATUSKI</span>
+            </div>
+            <p class="footer-copy">© 2025 Bakatuski. All rights reserved. Legends live forever.</p>
+            <nav class="footer-nav">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#squad">Squad</a>
+                <a href="stories.html">Lore</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script  src="assets/js/stories.js"></script>
+        <script>
+        // Auto cache bust: append timestamp to CSS and JS
+        const cssLink1 = document.getElementById('main-css');
+        const cssLink2 = document.getElementById('stories-css');
+        const jsScript = document.getElementById('stories-js');
+        const timestamp = new Date().getTime();
+        cssLink1.href = 'assets/css/styles.css?t=' + timestamp;
+        cssLink2.href = 'assets/css/stories.css?t=' + timestamp;
+        jsScript.src = 'assets/js/stories.js?t=' + timestamp;
+    </script>
+</body>
+</html>

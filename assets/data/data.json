@@ -1,0 +1,2239 @@
+{
+  "squadInfo": {
+    "name": "Bakatuski",
+    "tagline": "We feed with style, we tilt with a smile. Waddup.",
+    "logo": "images/logo/bakatuskisquadlogo.png",
+    "mission": "To dominate the bamboo meta, one stolen Lord at a time. To entertain the masses through mechanical brilliance and spectacular failure in equal measure. To prove that a squad can be both genuinely competitive and genuinely hilarious without sacrificing either. To make sure GUTS never feels bad about dying, because every death is content. To monetize chaos. To grow the Bamboo Buddies into the most unhinged fanbase in amateur esports. To eventually win enough tournaments that Raju's spreadsheet crashes from sheer data volume.",
+    "values": [
+      "Aggressive positivity — flame the enemy, not your teammates.",
+      "Content over KDA — if it's funny, it's valuable.",
+      "Feed with purpose — every death must have strategic or comedic intent.",
+      "Always say 'waddup' back — it's a social contract.",
+      "The spreadsheet is law.",
+      "Trust the bait."
+    ],
+    "about": "Bakatuski isn't just a squad — it's a legally distinct disaster wrapped in bamboo leaves, dunked in Monster Energy (Pipeline Punch, specifically), and held together by a CEO who has never played a single game of MLBB in his life. We are, by most reasonable metrics, unqualified. And yet. We have a jungler (Biju) who statistically steals more objectives than a pickpocket at a watch convention — his 'waddup' catchphrase has been recognized in three different Discord servers by strangers. We have a gold laner (Salina) who will solo-delete your entire team while genuinely feeling bad about it and apologizing in all-chat with a 'sorry :((' that makes you feel worse than the death. We have an exp laner (GUTS) who dies so frequently and so spectacularly that fans have started calling it 'performance art' — his Death Counter segment is the highest-engaged content on our YouTube channel. We have a roamer (Aashray) who bounces on enemies with the energy of a golden retriever who just had five espressos — he has saved Salina 69 confirmed times, which is either heroic or obsessive, possibly both. We have a mid laner (Alisha) who types 'sorry :((' after every triple kill, and somehow that makes it worse — her black tulip ritual has been copied by fourteen fans in the Discord. Our coaches (led by Sabin) are reformed professionals who looked at us, sighed deeply, and decided we were worth saving — he has a 300-page draft notebook and a section titled 'GUTS Death Optimization'. Our CEO (Raju) runs the whole operation from a spreadsheet with 47 color-coded tabs, including one labelled 'GUTS Death Tax Deduction' — he has never played the game and yet he understands us better than we understand ourselves. Our social media manager (Deepa) has never watched a full game but has watched every single death clip twice and turned them all into certified viral moments — she ratio'd a pro player in a comment war and won. The substitutes (Aayush, Pratik, Saroj) wait in the wings, silent and deadly, ready to step in with zero drop in performance — Aayush has a cat named Shadow who has never heard him speak in voice chat. We don't just play the game. We make it a spectacle. Win or lose, the enemy team leaves with a story, a tilted jungler, and three new memes. We have been described as 'the most entertaining disaster in amateur esports' by a documentary that got 1 million views. We have a hoodie that says 'Waddup' on the back and it sold out in four hours. We have a fan who got a black tulip tattoo after Alisha's interview. We have a Discord server where people argue about whether GUTS's 23-death game was 'strategic genius or beautiful accident' — the answer, as with most things Bakatuski, is yes. Stay mad. Stay entertained. Waddup.",
+    "formation": "The origin story involves a Tuesday afternoon (specifically March 16th, 2021, at 2:47 PM — Raju checked the timestamps), five separate solo queue lobbies, and a 45-minute all-chat argument that started with 'your mid laner is trash' and ended with everyone adding each other as friends. Alisha had just wiped out Biju's jungler with Ling — in mid lane, which nobody does — and Biju, rather than raging, typed 'ok that was kind of cold' and sent a friend request. Salina had been silently farming 10 CS per minute while everyone else exploded — her final score was 4/0/3, and she had not typed a single word. GUTS had died eleven times in sixteen minutes and somehow still had positive map impact because the enemy jungler had spent so much time killing him that the rest of the map was free. Aashray had set up four kills in a row and gotten zero kills himself, which is a crime against his KDA but a gift to his team. They all realized they had more fun in that chaotic, unhinged game than in any coordinated match before it. They formed a group chat called 'bamboo idiots' — the name was GUTS's idea, typed while dead for the seventh time. The original squad name was going to be 'Baka Squad' — baka meaning fool in Japanese, which felt accurate — but someone typed it wrong, Alisha accidentally added 'tsuki' (moon) because they exclusively played at night like creatures of darkness, and somehow 'Bakatuski' survived the vote 4-1. (GUTS voted against it. He now owns three pieces of Bakatuski merchandise and has the logo as his Discord avatar.) The first scrim ended 0-10 — they lost every single teamfight, every Lord, every turtle, and GUTS died 23 times, a record that still stands. The post-match voice call lasted four hours and contained more laughter than regret. Biju said 'we'll figure it out' and locked Fanny for the next scrim. They lost that one too. They didn't stop. Three years, 24 tournaments, two viral TikTok compilations, one documentary, 3,141 Bamboo Buddies, and 847 GUTS deaths later — we're still here. Still chaotic. Still bouncing on you. The group chat is still called 'bamboo idiots'. Some things don't change.",
+    "quote": "Win or lose, we spam emotes. GUTS will die at least eight times. That's a promise, not a warning. Biju will say 'waddup' at least once per minute of game time. Alisha will apologise after every kill — we have counted 1,204 apologies and she shows no sign of stopping. Salina will out-farm you by 2,000 gold and giggle about it. Aashray will have more assists than your entire team combined. This is not a prediction. This is a guarantee.",
+    "stats": {
+      "Tournaments": 24,
+      "Top Finishes": 14,
+      "Players": 15,
+      "Bamboo Buddies": 3141,
+      "Total Deaths (GUTS only)": 847,
+      "Enemies Tilted": "∞",
+      "'Waddup' Count": "∞",
+      "Aashray's Assists": 3389,
+      "Lead Games": "99%",
+      "Draft Notebook": 312,
+      "Viral Clips": 17,
+      "Replay Watched": "800",
+      "Khufra Bounces": "∞",
+      "Team Morale": "100",
+      "Fan Inspired Tattoos": "7+",
+      "Merchandise": 20,
+      "Squad Inside Jokes": 1800
+    },
+    "leadershipQuote": "Raju, CEO: 'I don't play the game, but I play the spreadsheet. The spreadsheet never tilts. The spreadsheet never feeds. The spreadsheet always balances. That is leadership.'",
+    "fanMessage": "To the Bamboo Buddies: you showed up when we were at 200 followers. You stayed when we lost 0-10. You made the 'waddup' meme into a movement. You turned GUTS's deaths into a celebration. You bought the hoodies, you joined the Discord, you sent the fan art, you argued about builds, you defended us in comment sections, you made us feel like we were building something real. We are. This is for you. Bamboo forever. Waddup.",
+    "socials": {
+      "facebook": "https://facebook.com/bakatuski",
+      "twitter": "https://twitter.com/bakatuski",
+      "youtube": "https://youtube.com/@bakatuski",
+      "discord": "https://discord.gg/bakatuski",
+      "tiktok": "https://tiktok.com/@bakatuski",
+      "instagram": "https://instagram.com/bakatuski"
+    }
+  },
+  "members": [
+    {
+      "id": 1,
+      "slug": "alisha",
+      "name": "Alisha Pakhrin Tamang",
+      "nickname": "PandaPrime",
+      "title": "Moonlit Mage • Tulip Guardian • The Apologetic Assassin",
+      "role": "Mid Lane",
+      "type": "player",
+      "subtype": "starter",
+      "rating": 9.6,
+      "favColor": "#000000",
+      "favFlower": "Tulips — specifically the black ones, which she says 'understand her'",
+      "bio": "Alisha Pakhrin Tamang is what happens when a computer science student, a poetry reader, and a serial killer share one body. By day, she tends to twelve tulip pots on her balcony, listens to lo-fi, and writes clean code that makes her professors nervous. By night, she transforms into '—kaii', a mid lane menace so politely devastating that enemies leave matches unsure whether to report her or send flowers. She has been playing MLBB since 2019 and has logged a 68% win rate on Ling — in mid lane — which is not a conventional choice and which she refuses to explain or justify. She has simply decided it works, and statistically she is correct. Her signature move is the Polite Penta: five kills, perfectly executed, followed immediately by 'sorry everyone, have a great day' in all-chat. Enemies have reported feeling confused, disrespected, and oddly charmed. She once won a 1v3 with 17 HP remaining and apparently didn't notice because she was petting her cat Mochi. Mochi has since received informal credit for two assists. Alisha is the emotional anchor of Bakatuski — the person everyone texts when they're tilted, the one who remembers everyone's birthday, the one who arranges three black tulips on her desk before every match as though she is performing a ritual, because she absolutely is.",
+      "signatureMove": "The 'Polite Penta' — delete all five enemies with mechanical precision, then type 'sorry everyone, have a nice day :)' in all-chat while your team loses their minds in the voice channel.",
+      "deepDive": "Alisha's playstyle is best described as 'soft chaos'. She doesn't flame. She doesn't rage. She doesn't trash-talk. She does, however, silently study your weaknesses for the first two minutes of the game and then dismantle you so thoroughly that your teammates start questioning their life choices. Her Ling in mid lane is statistically her most successful pick, despite being something that no coach has ever recommended or endorsed. When Coach Sabin finally watched the VOD and realized it was working, he added a dedicated section in his draft notes titled 'Alisha Ling — do not question it, just ban the counter'. Her positioning is near-perfect, her rotations are clean, and her mechanical execution is so smooth it looks effortless even during the moments when she insists it was 'pure luck and I almost panicked'. She is lying. She did not almost panic. She never panics. She just types 'uh oh :(' and then outplays you.",
+      "achievements": [
+        "Triple kill while mid-sentence typing 'oops sry' — documented by Deepa, currently at 340k views",
+        "Won a 1v3 engagement at 17 HP without burning flicker — claims she thought she was already dead",
+        "Made an enemy jungler uninstall the game after stealing his buff four consecutive times in one match",
+        "First Bakatuski member to hit Mythical Glory — celebrated with taro bubble tea and tulip arrangement",
+        "Maintained the squad's highest average KDA ratio across three consecutive tournament seasons"
+      ],
+      "funFacts": [
+        "She has a black tulip tattoo on her left wrist that she got after the squad's first tournament win — 'the bloom after the storm', she said",
+        "Her pre-game ritual is non-negotiable: taro bubble tea with extra pearls, three tulips arranged on the desk, lo-fi on the speaker, Mochi settled on her lap",
+        "She once won a full game primarily one-handed because the other hand was occupied holding her cat during a thunderstorm",
+        "She keeps a small notebook of 'nice things to say in all-chat' because she wants enemies to leave feeling okay about themselves",
+        "Her laugh has been described by actual opponents as 'criminally cute', including one player who said so after losing to her 0/7 in lane",
+        "She is the only person who has ever successfully calmed down Biju mid-tilt by texting him a picture of a panda eating bamboo"
+      ],
+      "gamingRitual": "Prepares taro bubble tea with exactly the right number of extra pearls. Arranges three black tulips in the small vase she keeps specifically for this. Settles Mochi on her lap. Plays thirty seconds of lo-fi at low volume. Types 'good luck, have fun, sorry in advance' in squad voice chat. Locks her pick. Then — with the energy of someone going on a pleasant evening walk — proceeds to make the enemy mid laner question everything.",
+      "images": {
+        "icon": "images/members/alisha/roster.png",
+        "roster": "images/members/alisha/roster.png",
+        "popup": "images/members/alisha/roster.png",
+        "gallery": [
+          "images/members/alisha/01.png",
+          "images/members/alisha/02.png",
+          "images/members/alisha/03.png",
+          "images/members/alisha/04.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 7,
+        "Map Sense": 9,
+        "Ganking": 8,
+        "Kill Secure": 10,
+        "Survivability": 5,
+        "Farming": 8,
+        "Team Play": 9,
+        "Mechanical Skill": 9,
+        "Decision Making": 8,
+        "Clutch Factor": 10
+      },
+      "dob": "2001-09-14",
+      "ign": "—kaii",
+      "playerId": "BK001",
+      "likes": [
+        "Tulips — she has twelve pots on her balcony and names them",
+        "Taro bubble tea with extra pearls, consumed slowly and ceremonially",
+        "Prediction kills — hitting a skill before the enemy even makes the wrong decision",
+        "Whispering 'sorry' after every elimination, which she has done 1,204 documented times",
+        "Playing Ling in mid lane purely for the looks on people's faces in draft",
+        "Late-night sessions with rain sounds and her cat Mochi as co-pilot",
+        "When enemies send friend requests after losing to her — it means she made an impression"
+      ],
+      "dislikes": [
+        "Toxic chat — she will respond with 'I understand you're frustrated, I hope your day improves :)' and mean it sincerely, which is somehow worse",
+        "Bright neon skins — 'too aggressive for my eyes, I need aesthetic coherence'",
+        "Getting five-man camped by the jungler — not because it's threatening but because it's boring",
+        "When someone leaves without saying 'gg' — genuinely considers this a moral failure",
+        "Recall spam — 'it's just rude, we're all busy people'"
+      ],
+      "personality": "INFJ",
+      "personalityName": "The Advocate — soft-spoken, deeply empathetic, and absolutely, terrifyingly lethal",
+      "motto": "Bloom where you're planted. Then delete the enemy mid laner with love in your heart.",
+      "jerseyNumber": 9,
+      "favHeroes": [
+        {
+          "name": "Ling",
+          "icon": "images/heroes/ling.png"
+        },
+        {
+          "name": "Kagura",
+          "icon": "images/heroes/kagura.png"
+        },
+        {
+          "name": "Lylia",
+          "icon": "images/heroes/lylia.png"
+        },
+        {
+          "name": "Selena",
+          "icon": "images/heroes/selena.png"
+        }
+      ],
+      "testimonial": "Joined because they let me bring my cat Mochi to scrims and didn't laugh when I said tulips understand me. Now I delete mid laners and say 'sorry' like a chronic people‑pleaser. 10/10 would ragebait again."
+    },
+    {
+      "id": 2,
+      "slug": "biju",
+      "name": "Biju Maharjan",
+      "nickname": "BambooStrike",
+      "title": "The 10/10 Predator • Buff Stealer Extraordinaire • Lord of 'Waddup'",
+      "role": "Jungler",
+      "type": "player",
+      "subtype": "starter",
+      "rating": 10,
+      "favColor": "#B22234",
+      "bio": "Biju Maharjan is what competitive gaming would look like if it were also a personality disorder — and we mean that with the deepest possible affection. He is the reason 'toxic positivity' exists as a concept. He will invade your jungle at 1:45, steal your red buff, kill your jungler, smite your turtle, set up a kill in top lane, and then type 'waddup :D' in all-chat before you've processed what just happened. He has been playing MLBB since 2017. He has a 72% win rate on Fanny. He once stole Lord with a basic attack — not smite, not a skill, a basic attack — and the clip currently lives rent-free in the brains of roughly 500,000 TikTok viewers. He is loud, relentless, occasionally infuriating, and absolutely the first to defend a teammate and the last to surrender. He was the one who kept the squad from disbanding after the 0-10 first scrim. He is, by every measurable standard, Bakatuski's engine. He is also the reason Raju needs antacids.",
+      "signatureMove": "The 'Waddup Special' — invade the enemy jungle at exactly 1:45, steal both buffs, kill the jungler, type 'waddup' in all-chat, get a double kill in the nearest lane, and return to base for a chicken rice. All before the 5-minute mark.",
+      "deepDive": "Biju's jungling philosophy can be summarized as: pressure is a language, and he is fluent. He doesn't give the enemy jungler breathing room — ever. His counter-jungle routes are pre-planned before the game even starts, and he adapts them in real time based on enemy positioning that he tracks with a sixth sense that baffles even Coach Sabin. His Fanny is genuinely elite-tier, cable mechanics clean enough that opponents have submitted the VOD to highlight reels just to understand what happened to them. But the 'waddup' is not just a taunt — it's psychological. Players who have faced Biju in tournaments report that by the third time they see 'waddup' in all-chat, they start anticipating him behind every bush. That fear is the product. The pentakill is just the invoice.",
+      "achievements": [
+        "Stole Lord on three separate occasions in a single tournament game — once with smite, once with Fanny blade, once with a basic attack",
+        "Carried a 0-15 GUTS-led game to a comeback victory through sheer aggression and three consecutive Lord takes",
+        "Made an entire enemy team forfeit at six minutes by solo-killing all five players across the map",
+        "The 'waddup' Lord steal clip: 500k TikTok views, featured on three esports highlight channels",
+        "First player in Bakatuski history to achieve a perfect 10.0 team rating — unanimously voted by teammates and coaching staff"
+      ],
+      "funFacts": [
+        "The 'waddup' catchphrase began as a genuine typo for 'what's up' and mutated into a cultural institution that now appears on Bakatuski merchandise",
+        "He drinks three Monster Pipeline Punch cans before every match, which Coach Sabin has tried to regulate three times and failed on all three occasions",
+        "He has a custom Fanny keycap on his mechanical keyboard and will describe it to anyone who sits near him for more than forty seconds",
+        "His post-win food ritual is 20+ momos — specifically jhol momo — and he has eaten this exact meal after every single tournament victory",
+        "He has been kicked from seven squads before Bakatuski for being 'too much', which he now considers a badge of honour"
+      ],
+      "gamingRitual": "Got kicked from 7 squads for being 'too much'. Bakatuski saw my chaos and said 'more, please.' Now I steal buffs and scream 'waddup' like it's therapy. This is my forever home, periodt.",
+      "images": {
+        "icon": "images/members/biju/roster.png",
+        "roster": "images/members/biju/roster.png",
+        "popup": "images/members/biju/roster.png",
+        "gallery": [
+          "images/members/biju/01.png",
+          "images/members/biju/02.png",
+          "images/members/biju/03.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 10,
+        "Map Sense": 10,
+        "Ganking": 10,
+        "Kill Secure": 10,
+        "Survivability": 9,
+        "Farming": 10,
+        "Team Play": 9,
+        "Mechanical Skill": 10,
+        "Decision Making": 9,
+        "Clutch Factor": 10
+      },
+      "dob": "1999-08-22",
+      "ign": "Bijusayswaddup?",
+      "playerId": "BK002",
+      "likes": [
+        "Stealing buffs — and with them, the enemy jungler's confidence and will to continue",
+        "Spamming 'waddup' after every kill, objective secured, successful gank, and occasionally just for no reason",
+        "1v5 situations — not because he always wins them, but because the math keeps being better than it should",
+        "Monster Pipeline Punch, consumed in volumes that his doctor would describe as 'a concern'",
+        "Making enemy junglers tilt so hard they start invading their own side of the map",
+        "GUTS specifically — because GUTS creates distractions that only Biju knows how to exploit",
+        "Late-night theorycrafting sessions with Coach Sabin over cold chicken rice and warmish Monster"
+      ],
+      "dislikes": [
+        "Anyone banning Fanny — he will complain about this for the remainder of the match and four hours into the post-game debrief",
+        "Teammates who don't follow invades — 'I can't carry ALL of you over the wall, some of you have to walk'",
+        "Wards — 'they ruin the element of surprise, which is my whole personality'",
+        "Diggie — the owl has ended more of his highlight plays than any enemy player ever has",
+        "When people don't say 'waddup' back — he has described this as 'a social contract violation'"
+      ],
+      "personality": "ESTP",
+      "personalityName": "The Entrepreneur — high-risk, high-reward, occasionally high-everything, secretly the most loyal person in the room",
+      "motto": "Your buff? Mine. Your Lord? Also mine. Your tears? My pre-workout. Waddup.",
+      "jerseyNumber": 13,
+      "favHeroes": [
+        {
+          "name": "Ling",
+          "icon": "images/heroes/ling.png"
+        },
+        {
+          "name": "Fanny",
+          "icon": "images/heroes/fanny.png"
+        },
+        {
+          "name": "Gusion",
+          "icon": "images/heroes/gusion.png"
+        },
+        {
+          "name": "Hayabusa",
+          "icon": "images/heroes/hayabusa.png"
+        }
+      ],
+      "testimonial": "I have been kicked out of seven squads for being 'too much' and 'disruptive to team energy'. Bakatuski made me the captain and started selling my catchphrase on hoodies. These pandas looked at all my chaos and said 'more, please'. I have never felt more understood in my life. Also GUTS dies for me regularly, BAKUQT types apologies on my behalf, Salina carries when I'm in my dramatic phase, and Kaii makes sure I don't throw 3v5 fights alone. That's family. Waddup."
+    },
+    {
+      "id": 3,
+      "slug": "salina",
+      "name": "Salina Magar",
+      "nickname": "OrangeFlash",
+      "title": "Pink Death • The Cotton Candy Carry • Apologetic Destroyer",
+      "role": "Gold Lane",
+      "type": "player",
+      "subtype": "starter",
+      "rating": 9.2,
+      "favColor": "#FFB7C5",
+      "bio": "Salina Magar is statistically the most dangerous member of Bakatuski and emotionally the most wholesome, which is a combination nobody asked for and everyone is grateful for. She mains marksmen but has the soul of a support — she genuinely feels bad when she kills you, she will tell you so, and then she will do it again with perfect precision and a giggle she cannot suppress. She started playing MLBB in 2020 after her younger brother challenged her to a 1v1, which she lost ten times back-to-back and then never lost again. Ever since, she has been the quiet engine of the squad's late game: perfect CS, immaculate positioning, spatial awareness that makes Coach Sabin pause VOD reviews to say 'okay, genuinely, how'. Her IGN is KissMyArrow. She chose it herself. She says it's about the trajectory of a Beatrix snipe. Nobody fully believes her but nobody asks follow-up questions either. She paints her nails pink before every tournament because she says it helps her focus. Opponents have requested this information be classified.",
+      "signatureMove": "The 'Sorry-Not-Sorry Carry' — achieve perfect CS for twenty minutes while apologizing to everyone for existing, then delete the entire enemy team in the final teamfight while giggling audibly in voice chat.",
+      "deepDive": "Salina's laning phase is essentially an art installation about inevitability. While everyone else in the game is trading kills and making flashy plays, she is quietly accumulating resources with a focus and patience that seems almost meditative. By the time the mid game arrives, she is two items ahead of the enemy carry and positioned somewhere so perfect that enemies later describe feeling like they 'walked into a room that was already set up'. Her Beatrix is her signature — she switches weapons mid-fight with the confidence of someone who has done this ten thousand times, because she has. Her Claude is what she pulls out when she wants to end a game faster than the enemy's mental health can handle. She has posted perfect CS in twelve consecutive games. The team has framed the screenshot. It lives above the group chat server banner.",
+      "achievements": [
+        "Perfect CS across twelve consecutive tournament games — a record that still stands and is referenced in Coach Sabin's training materials",
+        "Pentakill achieved while eating a strawberry sandwich one-handed — Deepa has the clip, it has 280k views",
+        "Caused an enemy tank main to switch to marksman to 'prove he could do it too' — he went 1-9, and she apologized to him",
+        "Highest average gold differential at 10 minutes across all Bakatuski tournament appearances",
+        "Once maintained positive KDA across an entire tournament run where GUTS averaged 11 deaths per game — the contrast was described by analysts as 'poetic'"
+      ],
+      "funFacts": [
+        "She paints her nails a specific shade of coral pink before every tournament — not any pink, the exact shade — and has four backup bottles in case the primary runs out",
+        "Her favourite skin is Claude's Pirate because of the parrot companion — she has named it 'Polly' and references Polly in post-match interviews",
+        "She keeps a stuffed panda named 'Bakatuski' on top of her monitor that has attended every match, scrim, and bootcamp the squad has ever run",
+        "She once apologized to an enemy player after a 1v1 solo kill, they added her as a friend, and they are still friends to this day — his testimonial about it is pinned in the Bamboo Buddies Discord",
+        "Her little brother, who started all of this with that 1v1 challenge, is still waiting for a win. The record is currently 0-187 in Salina's favour."
+      ],
+      "gamingRitual": "Paints nails — coral pink, specifically. Sets up pink RGB lighting profile. Gives Bakatuski the stuffed panda a gentle pat. Opens draft, takes a deep breath, and announces in voice chat: 'good luck everyone, have fun, I'm sorry for what I'm about to do.' Then proceeds to out-farm every single player in the game while giggling softly to herself.",
+      "images": {
+        "icon": "images/members/salina/roster.png",
+        "roster": "images/members/salina/roster.png",
+        "popup": "images/members/salina/roster.png",
+        "gallery": [
+          "images/members/salina/01.png",
+          "images/members/salina/02.png",
+          "images/members/salina/03.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 4,
+        "Map Sense": 9,
+        "Ganking": 5,
+        "Kill Secure": 10,
+        "Survivability": 8,
+        "Farming": 10,
+        "Team Play": 8,
+        "Mechanical Skill": 9,
+        "Decision Making": 8,
+        "Clutch Factor": 9
+      },
+      "dob": "2002-02-14",
+      "ign": "KissMyArrow",
+      "playerId": "BK003",
+      "likes": [
+        "Pink skins — all of them, for every hero, without exception, she has researched every hero's pink skin availability",
+        "Her stuffed animal collection, which occupies one full shelf and includes nine pandas",
+        "Perfect CS — she says it 'grounds her emotionally', which is either deeply zen or extremely concerning",
+        "The giggle that escapes her after a triple kill that she absolutely cannot control and has stopped trying to",
+        "Strawberry bubble tea with popping pearls — consumed during the loading screen as a last act of peace before the carnage",
+        "When enemies compliment her plays in all-chat, which happens more than you'd expect from people she just deleted",
+        "Her younger brother, who made her the player she is and will never beat her in a 1v1 and is statistically never going to"
+      ],
+      "dislikes": [
+        "Tower diving her — 'you came all the way here and now we both have to go through this, I'm sorry'",
+        "Teammates who take her farm — she will not say anything, she will quietly note it, and the dynamic will shift imperceptibly but permanently",
+        "Scratched nail polish mid-game — she describes it as 'a sensory disruption that affects my positioning, and I'm not joking'",
+        "When GUTS dies within her field of view — it startles her every time, she has asked him to give warning, he has not",
+        "Genuinely toxic teammates — she mutes immediately, cries briefly, and then plays the cleanest game of her life out of spite"
+      ],
+      "personality": "ISFJ",
+      "personalityName": "The Defender — gentle, thorough, deeply caring, and absolutely lethal when you push her too far",
+      "motto": "I'm not toxic. I'm simply better. XOXO. (Sorry.)",
+      "jerseyNumber": 21,
+      "favHeroes": [
+        {
+          "name": "Beatrix",
+          "icon": "images/heroes/beatrix.png"
+        },
+        {
+          "name": "Claude",
+          "icon": "images/heroes/claude.png"
+        },
+        {
+          "name": "Wanwan",
+          "icon": "images/heroes/wanwan.png"
+        },
+        {
+          "name": "Moskov",
+          "icon": "images/heroes/moskov.png"
+        }
+      ],
+      "testimonial": "Started because I lost to my little brother 10 times. Now I out‑farm everyone while eating a strawberry sandwich one‑handed. The giggle after a triple kill is not optional – it's a warning shot. Slay."
+    },
+    {
+      "id": 4,
+      "slug": "aashray",
+      "name": "Aashray",
+      "nickname": "RoamingPanda",
+      "title": "Bouncy Boy • Khufra Enthusiast • The Unseen Setter • Guardian of Salina's KDA",
+      "role": "Roamer",
+      "type": "player",
+      "subtype": "starter",
+      "rating": 9.5,
+      "favColor": "#1E3A5F",
+      "bio": "Aashray exists in a permanent state of controlled chaos. He is the squad's roamer, its support pillar, its emergency response unit, and its only member who approaches the map as a living puzzle to be solved in real time. He has over 2,000 games on Khufra and a 68% win rate. He has been playing since 2018. He has a sixth sense for enemy positions that Coach Sabin has stopped trying to explain and started just referencing in coaching materials as 'the Aashray read'. He sets up every kill, saves every teammate from the consequences of their bad decisions, and receives approximately zero kills from the arrangement — which he considers ideal. He saved Salina from certain death exactly 69 times in one season, counted every single one, and brought it up in the year-end debrief. He has a Khufra plushie. He brings it to LAN events. It has its own dedicated seat in the squad transportation. He has made three enemy Fanny players rage-quit in a single tournament by bouncing them out of their cable mechanics mid-air. He considers this a public service.",
+      "signatureMove": "The 'Bouncy Castle' — interrupt an enemy Fanny cable with a perfectly timed Khufra bounce, immediately follow with an Atlas ult that catches all five enemies, walk away calmly while the team cleans up, collect zero kills, and say 'your welcome' (typo intentional and permanent) in all-chat.",
+      "deepDive": "Aashray's roaming style is built on presence and prediction. While other roamers track the minimap, he reads intent — he knows before the enemy jungler moves which lane they're going to because he has studied their patterns from the draft phase. His rotations are silent and precise, appearing in lanes at exactly the moment a gank is forming and dismantling it with a ball bounce before it begins. He is responsible for a disproportionate share of Bakatuski's assists-to-kill ratio, which is one of the highest in the amateur circuit. He doesn't need kills. He needs the team to win. This sounds noble, and it is, but he will also absolutely trash-talk you about it in the friendliest possible tone while Biju is typing 'waddup' in all-chat.",
+      "achievements": [
+        "Saved Salina from certain death 69 times in one season — he has the exact timestamp for each save logged in a notes app",
+        "Stole Lord with a Khufra ball bounce by timing the collision with the Lord's last hit — the clip broke the Bamboo Buddies Discord for forty-five minutes",
+        "Made three separate Fanny players rage-quit across one tournament bracket by bouncing them out of cables repeatedly with surgical timing",
+        "Highest assist count in a single tournament game in Bakatuski history: 34 assists, 1 kill, 0 deaths",
+        "Credited by Coach Sabin in the draft notes with 'making GUTS's intentional feeding a sustainable strategic element' through perfect follow-up timing"
+      ],
+      "funFacts": [
+        "His Khufra plushie has attended every single Bakatuski event since 2022 and has its own spot in the squad's group photo tradition",
+        "His pre-game snack is cheese pizza — specifically plain cheese, no toppings, which the rest of the squad has stopped questioning",
+        "He can call enemy positions from the minimap with approximately 90% accuracy and has been asked to explain his method three times — he says 'I just feel it' and provides no further information",
+        "He is the only person in the squad capable of talking Biju down from a full tilt spiral — the method involves cheese pizza and a Khufra montage, details undisclosed",
+        "He plays with the volume at exactly 73% — he tested every value from 60 to 80 across two weeks and determined 73 is optimal"
+      ],
+      "gamingRitual": "Eats exactly one slice of cheese pizza, plain. Rolls his shoulders three times. Adjusts headset. Sets volume to 73%. Says 'watch my set' in voice chat with the energy of a man who has already seen this game play out and knows how it ends. Then bounces on the enemy team until they stop moving.",
+      "images": {
+        "icon": "images/members/aashray/roster.png",
+        "roster": "images/members/aashray/roster.png",
+        "popup": "images/members/aashray/roster.png",
+        "gallery": [
+          "images/members/aashray/01.png",
+          "images/members/aashray/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 10,
+        "Map Sense": 10,
+        "Ganking": 9,
+        "Kill Secure": 5,
+        "Survivability": 9,
+        "Farming": 2,
+        "Team Play": 10,
+        "Mechanical Skill": 8,
+        "Decision Making": 10,
+        "Clutch Factor": 9
+      },
+      "dob": "2000-11-05",
+      "ign": "BakuQt",
+      "playerId": "BK004",
+      "likes": [
+        "The precise moment a Khufra bounce interrupts a Fanny cable — 'there is no better sound in this game'",
+        "Assists — specifically the ones that come from saves nobody else saw coming",
+        "Setting up Biju's pentakills and watching him type 'waddup' immediately afterward",
+        "Cheese pizza, plain, no toppings, do not try to recommend toppings",
+        "Trash-talking with warmth — 'I bounced you four times, genuinely, how are you doing'",
+        "When the team wins a game on the back of one perfect engage that he planned two rotations in advance"
+      ],
+      "dislikes": [
+        "Purify — specifically what it represents, which is someone refusing to be bounced, which he takes as a philosophical rejection",
+        "Diggie — the owl dismantles the entire premise of crowd control and Aashray considers this a personal affront",
+        "Teammates who don't follow up on his engages — 'I set the table, you have to sit down and eat'",
+        "Long queue times — he uses the waiting to plan engages in his head, which makes the actual queue feel longer"
+      ],
+      "personality": "ENFJ",
+      "personalityName": "The Protagonist — supportive, strategic, charismatic, and absolutely the person you want between you and an enemy assassin",
+      "motto": "I'll spoon-feed you kills. Please don't choke. Also, bounce. Always bounce.",
+      "jerseyNumber": 5,
+      "favHeroes": [
+        {
+          "name": "Khufra",
+          "icon": "images/heroes/khufra.png"
+        },
+        {
+          "name": "Mathilda",
+          "icon": "images/heroes/mathilda.png"
+        },
+        {
+          "name": "Atlas",
+          "icon": "images/heroes/atlas.png"
+        },
+        {
+          "name": "Franco",
+          "icon": "images/heroes/franco.png"
+        }
+      ],
+      "testimonial": "I bounce on enemies with Khufra and set up kills like I'm arranging flowers. Bakatuski gave me a plushie and a purpose. Also I've saved Kaii 69 times – that's not a flex, it's a love language. Bet."
+    },
+    {
+      "id": 5,
+      "slug": "guts",
+      "name": "GUTS",
+      "nickname": "XpanderPaw",
+      "title": "The Unkillable Feeding Machine • Sacrificial Lamb • Professional Distraction • Patron Saint of Baits",
+      "role": "Exp Lane",
+      "type": "player",
+      "subtype": "starter",
+      "rating": 8.7,
+      "favColor": "#8B0000",
+      "bio": "GUTS is not a feeding problem. GUTS is a feeding philosophy. He has been playing since 2016, has died more times in competitive matches than any other player in Bakatuski's history — 847 documented deaths and counting — and maintains one of the squad's best win rates. This is not a paradox. This is GUTS. He has understood something about the exp lane that conventional coaching theory has not yet caught up to: if you are willing to die for the objective, if you are willing to absorb three skills, a flicker, and a turret dive while your team takes Lord, then your death has value. It is not feeding. It is investment. It is sacrifice with intent. He dies 0-4 in lane every game and still wins lane. He goes 0-15 in tournaments and still hears his name from the casters. His KDA is a disaster. His impact is enormous. He listens to Slipknot before every match. He has a phoenix tattoo because, as he explains, 'I always rise from my deaths'. He has risen 847 times. He is not done.",
+      "signatureMove": "The 'Bait and Die' — walk into five enemies with the confidence of a man who has done this before and survived, absorb every skill and ultimate ability they have, type 'gg' in all-chat at 1 HP, die gloriously, and watch Biju clean up the cooldown-dry enemy team for a pentakill. Take zero credit. This is the way.",
+      "deepDive": "GUTS's playstyle requires a complete re-evaluation of what death means in a game context. Every death he takes is, in theory, a resource trade: his respawn timer for the enemy's ability cooldowns, gold lead, and map position. In practice, it is messier than that and also sometimes he just dives too early and dies in a bush. But Coach Sabin has spent 200 pages in his draft notes documenting the legitimate strategic value of GUTS's pressure in the exp lane, and the conclusion is consistent: the enemy team spends more resources on GUTS than he costs Bakatuski, and that surplus fuels the rest of the squad's advantages. His 0/18/5 game is not a bug. It is, on the balance sheet, a win. Deepa has the Death Counter segment. The Bamboo Buddies tune in specifically for it. GUTS is not feeding. GUTS is content.",
+      "achievements": [
+        "Won a tournament game with a 0/18/5 KDA — teammates voted him MVP, casters made a segment about it, clip has 190k views",
+        "Solo killed the enemy gold laner in a 1v1 at 0/10, which nobody expected including him",
+        "Made an enemy use every available skill and their flicker just to secure the kill on him — the waste of resources cost them the following teamfight",
+        "Holds the Bakatuski record for most deaths in a single tournament game: 23 in game two of their first tournament — this record was set in 2022 and has not been beaten",
+        "Subject of the 'Death Counter' segment in Deepa's content series — currently the most-watched recurring feature on the Bakatuski YouTube channel"
+      ],
+      "funFacts": [
+        "He listens to Slipknot, System of a Down, and occasionally Metallica before every competitive game — the playlist is called 'dying time' and he made it in 2016",
+        "The phoenix tattoo on his forearm has been present at every match and is now considered part of his brand identity",
+        "He once died 23 times in a single tournament game and received a standing ovation from the casting team at the end — he cried a little, claims it was sweat",
+        "He eats spicy ramen while playing, always, including during tournament games, and the squad has stopped addressing it",
+        "He has a documented theory called the 'Bait Economy' that he has explained to Coach Sabin in full three times — Sabin has told him it is both wrong and also correct"
+      ],
+      "gamingRitual": "Blasts Slipknot at full volume. Cracks every knuckle individually. Checks the phoenix tattoo. Says 'I'll be the bait' in voice chat with total sincerity. Dies to first blood within the first two minutes, usually in a position nobody thought was possible to die in. Then proceeds to feed with such strategic coherence that the team wins the game.",
+      "images": {
+        "icon": "images/members/guts/roster.png",
+        "roster": "images/members/guts/roster.png",
+        "popup": "images/members/guts/roster.png",
+        "gallery": [
+          "images/members/guts/01.png",
+          "images/members/guts/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 5,
+        "Map Sense": 3,
+        "Ganking": 9,
+        "Kill Secure": 10,
+        "Survivability": 2,
+        "Farming": 7,
+        "Team Play": 8,
+        "Mechanical Skill": 7,
+        "Decision Making": 4,
+        "Clutch Factor": 6
+      },
+      "dob": "1998-01-17",
+      "ign": "Die4KDA",
+      "playerId": "BK005",
+      "likes": [
+        "Diving into 1v5 situations as a form of self-expression and strategic resource management",
+        "Dying to first blood — he considers it tradition and has done it in 91% of recorded competitive games",
+        "Slipknot, System of a Down, and Metallica, consumed at volumes that have caused the neighbour to knock twice",
+        "The redemption arc — going from 0/10 to 12/12 in a single game is what he calls 'the full phoenix experience'",
+        "Baiting enemies into using their ultimates on him so Biju can walk in and finish the job",
+        "Spicy ramen at maximum spice, eaten during loading screen and continued throughout if possible",
+        "When the enemy uses flicker specifically to secure the kill on him — 'that means I was worth fearing'"
+      ],
+      "dislikes": [
+        "Playing safe — 'what am I being safe from, I am Bakatuski's damage sponge, this is the role'",
+        "Turrets — 'hiding behind one is the opposite of the philosophy'",
+        "Teammates who ping retreat — 'you retreat, I advance, it balances out'",
+        "When enemies ignore him to go for carries — 'I spent so long positioning for this dive, the disrespect'",
+        "Long games where he's been removed from the equation — 'nothing to do but wait, it's the worst'"
+      ],
+      "personality": "ISTP",
+      "personalityName": "The Virtuoso — fearless, chaotic, and operating on a frequency that normal strategy cannot fully account for",
+      "motto": "If I haven't died at least eight times, I wasn't useful. If I've died fifteen, we're winning. You can bet on it.",
+      "jerseyNumber": 1,
+      "favHeroes": [
+        {
+          "name": "Yu Zhong",
+          "icon": "images/heroes/yuzhong.png"
+        },
+        {
+          "name": "Paquito",
+          "icon": "images/heroes/paquito.png"
+        },
+        {
+          "name": "X.Borg",
+          "icon": "images/heroes/xborg.png"
+        },
+        {
+          "name": "Thamuz",
+          "icon": "images/heroes/thamuz.png"
+        }
+      ],
+      "testimonial": "I die so Biju can pentakill. I bait so Aashray looks like a genius. 847 deaths and counting – my KDA is a war crime but my W/L is chef's kiss. Bussin'."
+    },
+    {
+      "id": 6,
+      "slug": "raju",
+      "name": "Raju Shrestha",
+      "nickname": "SenseiPanda",
+      "title": "CEO • Chaos Coordinator • Spreadsheet Whisperer • Man Who Has Never Played MLBB",
+      "role": "CEO",
+      "type": "staff",
+      "rating": 9.9,
+      "favColor": "#2D6A4F",
+      "bio": "Raju Shrestha is the most important person in Bakatuski who does not play Bakatuski. He is a business analyst by trade and a professional cat-herder by assignment — specifically, cats that steal Lord buffs and die fourteen times in the exp lane for strategic reasons. He has been involved with the squad since before it had a name, originally as the one friend in the group chat who said 'wait, you could actually monetize this'. He was right. He has secured five sponsorships in a single month, negotiated a team house, turned the 'waddup' meme into a merchandise line that sold out in four hours, and produced financial projections for a squad whose KDA trends look like a heart rate monitor during a panic attack. He wears a suit to online meetings. His spreadsheet has forty-seven tabs, and he has named several of them after squad members. The 'GUTS Deaths Per Season' tab is, he says, 'the most important document I own'. He has never played a game of MLBB in his life. He has watched every single match from the sideline with the focus of a surgeon and the expression of a man who chose this chaos voluntarily and would do it again.",
+      "signatureMove": "The 'Spreadsheet Slam' — arrive at a crisis team meeting with a colour-coded Excel document that somehow maps the problem, the solution, the projected ROI of the solution, and a column labeled 'GUTS Damage Mitigation (Non-Gameplay)'. Solve everything before the second coffee is finished.",
+      "deepDive": "What Raju has built around Bakatuski is not just management — it is architecture. He took a squad with no name, no brand consistency, and a TikTok page with 200 followers, and reverse-engineered it into a recognisable entity with sponsors, merchandise, a documentary feature, and a Discord community of 3,141 people who call themselves Bamboo Buddies with genuine affection. He does this without playing the game, which means his understanding of the product is entirely audience-side — and that might be his advantage. He sees what the fans see. He knows what the clip is going to be before Deepa edits it. He read 'GUTS died 23 times' in a match report and immediately said 'we need to put a counter on stream'. The Death Counter is now one of their most-watched recurring features. Raju did not create the chaos. He just monetised it.",
+      "achievements": [
+        "Secured five active sponsorships in a thirty-day window — a personal record and a squad record",
+        "Negotiated and finalised the team house arrangement for the upcoming national league season",
+        "Turned the 'waddup' hoodie from a joke merchandise concept into a product that sold out within four hours of launch",
+        "Produced the Bakatuski brand identity package — logo system, colour palette, tone of voice — that is now used across all platforms",
+        "Managed public relations during the viral 'GUTS 23 deaths' moment and turned potential mockery into a defining brand story"
+      ],
+      "funFacts": [
+        "He has never played MLBB — not once, not even a tutorial — and Coach Sabin has tried to get him to try it twice, both times unsuccessfully",
+        "He wears a suit to every online meeting, including the informal ones, including the one that was called at 11 PM because Biju got into an all-chat argument with a pro player",
+        "His spreadsheet is titled 'BAKATUSKI ENTERPRISE OPERATIONS MASTER DOC' and has forty-seven tabs, the most recently added being 'National League Q1 Projection (Best Case, Worst Case, GUTS Case)'",
+        "His favourite font is Calibri, which he considers 'clean, professional, unpretentious' — he has had this exact conversation with multiple teammates",
+        "He colour-coded the team fridge during bootcamp. Everyone now knows that green labels are Sabin's and orange labels are Biju's and the pink labels are Salina's and nobody touches the pink labels"
+      ],
+      "gamingRitual": "Opens the master spreadsheet. Creates a new tab for the session. Brews a black coffee, no sugar, strong enough to, in his words, 'bend reality slightly'. Reviews last match's performance data. Sends three emails. Watches the squad's warm-up scrim silently from the coach's view. Adds one row to the 'Notes' sheet. Closes the laptop. Opens it again immediately because there's one more thing.",
+      "images": {
+        "icon": "images/members/raju/roster.png",
+        "roster": "images/members/raju/roster.png",
+        "popup": "images/members/raju/roster.png",
+        "gallery": []
+      },
+      "dob": "1995-04-10",
+      "ign": "RajuBoss",
+      "playerId": "BK000",
+      "likes": [
+        "Spreadsheets — the act of creating one brings him genuine peace",
+        "Sponsorship emails, specifically the ones that begin 'we've been following Bakatuski and we'd like to discuss—'",
+        "Keeping Biju nominally within acceptable social behaviour — his single most time-consuming daily task",
+        "Beautiful financial projections with clean upward curves — 'they're art, honestly'",
+        "Black coffee, strong, no sugar, one mug, absolutely do not offer milk",
+        "When the squad wins a tournament because the PR workload drops measurably for approximately eighteen hours",
+        "Data visualisations — he once asked Deepa to make a graph of viewer engagement vs GUTS's death count and the correlation was not surprising"
+      ],
+      "dislikes": [
+        "Empty bank accounts — he has a specific nightmare about this and a tab in the spreadsheet titled 'Contingency Buffer' for this reason",
+        "Unplanned drama — 'I have a spreadsheet for drama but it's supposed to be populated in advance'",
+        "When GUTS exceeds fifteen deaths in a single game — 'it's not that I care about the deaths, it's that sponsors see the highlight and ask questions'",
+        "Disorganisation in any form — he once reorganised the team's shared file folder at midnight and left a comment explaining the new naming convention"
+      ],
+      "personality": "ENTJ",
+      "personalityName": "The Commander — strategic, formidable, and the only person in the room who has already considered the scenario where this goes wrong and prepared a tab for it",
+      "motto": "Feed responsibly. Win aggressively. Sign the contract. The spreadsheet is always watching.",
+      "jerseyNumber": 99,
+      "favHeroes": [],
+      "testimonial": "I've never played MLBB. I run the squad from a spreadsheet with 47 tabs. These pandas are my beautiful disasters. I monetise chaos and drink black coffee. The spreadsheet is law – no cap."
+    },
+    {
+      "id": 7,
+      "slug": "sabin",
+      "name": "Sabin Thapa",
+      "nickname": "CoachBamboo",
+      "title": "Head Coach • Draft Architect • The Strategist • He Who Turned GUTS Into a Feature",
+      "role": "Coach",
+      "type": "staff",
+      "rating": 9.8,
+      "favColor": "#40916C",
+      "bio": "Sabin Thapa retired from professional play in 2021 due to carpal tunnel syndrome, which ended one career and began a more consequential one. He has been coaching for four years and holds a 78% win rate across all tournament appearances he has managed. He is the person who watches every single replay Bakatuski has ever produced, who maintains a draft notebook with over 200 documented strategies, and who decided — after careful analysis — that GUTS's death-bait playstyle was not a problem to solve but a tool to optimise. He is calm in a way that can only come from having accepted that he is working with beautiful chaos and leaning into it. He out-trash-talks Biju when necessary and does it with such measured delivery that Biju has said 'okay that's fair' on at least three occasions. He brews jasmine green tea before every session. He has never once raised his voice. He has never had to. When Sabin speaks in voice chat, everyone listens. Even Biju.",
+      "signatureMove": "The 'Counterpick Trap' — ban three heroes in draft that force the enemy into a composition they can't play optimally, execute a counterpick that the enemy cannot answer, and then watch the lead Bakatuski's team takes in the first ten minutes prove the theory. Then update the notebook with a tick in the 'correct prediction' column.",
+      "deepDive": "Sabin's coaching methodology is systematic in a way that shouldn't work with a squad as chaotic as Bakatuski — and yet it does, precisely because he understood early that you cannot standardise Biju's aggression or predict when GUTS will decide to walk into five enemies. You can, however, build strategy around those variables. His draft philosophy accounts for the squad's nature rather than fighting it: compositions that benefit from one player absorbing pressure, that allow for solo-carry plays when the jungler is ahead, that turn Aashray's assist-hungry roaming style into a map control advantage. His draft notes are the most requested resource in the Bamboo Buddies server. He has declined to share them in full on the grounds that they contain enough information to beat Bakatuski.",
+      "achievements": [
+        "Constructed a draft that defeated a team composed of former semi-professional players in a regional invitational — the composition has not been replicated since",
+        "Formally documented the 'GUTS Bait Role' as a legitimate strategic designation — it now appears in the coaching notes under 'Unconventional Assets'",
+        "Coached Bakatuski to their first tournament victory, the regional cup of Q4 2022",
+        "Maintained a 78% tournament win rate across fourteen separate competitive appearances",
+        "Produced a draft counter-guide for every major meta hero that he updates within 48 hours of any MLBB patch release"
+      ],
+      "funFacts": [
+        "He has a photographic memory specifically for draft sequences — he can recall the draft of any match Bakatuski has played and describe it pick by pick in order",
+        "His coaching notebook has over 200 strategy entries and is colour-coded by team composition type — he has a system and he will explain it at length if you ask",
+        "He brews jasmine green tea before every session and has brought his own tea to LAN events in a travel tin",
+        "He has never raised his voice at a player in four years of coaching, which the squad considers either extraordinary discipline or genuinely intimidating, depending on the context",
+        "He once banned Fanny in draft specifically to observe Biju's reaction — then spent ten minutes writing notes about it in the psychological observation section of the notebook"
+      ],
+      "gamingRitual": "Brews jasmine green tea. Opens the draft notebook to the match-prep section. Reviews the enemy team's last five games in detail — picks, bans, rotations, tendencies. Writes three predictions. Usually gets all three right. Tells the squad 'I know what they're going to pick' in voice chat with complete authority. They believe him. They are correct to.",
+      "images": {
+        "icon": "images/members/sabin/roster.png",
+        "roster": "images/members/sabin/roster.png",
+        "popup": "images/members/sabin/roster.png",
+        "gallery": []
+      },
+      "dob": "1993-09-25",
+      "ign": "CoachSabin",
+      "playerId": "BK009",
+      "likes": [
+        "A perfectly executed counterpick — 'it's a form of respect towards the opponent, honestly, and I mean that'",
+        "Banning Fanny specifically against Biju in training scrims to study his adaptation under constraint",
+        "Watching the enemy team's draft fall apart because they had to adjust to something they didn't prepare for",
+        "Jasmine green tea, brewed correctly, not rushed",
+        "Four-hour daily replay blocks — 'it's not a job, it's observation, there's a difference'",
+        "The moment a strategy executes exactly as drawn up in the notebook — 'it happens maybe 60% of the time, but those 60% are transcendent'"
+      ],
+      "dislikes": [
+        "GUTS's map awareness — 'I have a section in the notebook dedicated to this and it still hasn't improved enough'",
+        "When players ignore draft advice — he will deliver a thirty-minute debrief and will not summarise it",
+        "Cheese strategies — 'it's not a stratagem, it's a guessing game with extra steps, I have no patience for it'",
+        "Anyone who treats the coaching role as advisory rather than structural — 'I am not suggesting, I am preparing'"
+      ],
+      "personality": "INTJ",
+      "personalityName": "The Architect — methodical, brilliant, deeply patient, and quietly terrifying when he has something to say",
+      "motto": "I prepare the plan. They execute approximately 60% of it. The 60% is enough. The other 40% is character.",
+      "jerseyNumber": null,
+      "favHeroes": [],
+      "testimonial": "Retired pro, now coach. I have a 300‑page notebook dedicated to GUTS's deaths. Bakatuski is chaos theory in action. 60% of the plan works. The other 40% is character development. I'm not mad, I'm just disappointed."
+    },
+    {
+      "id": 8,
+      "slug": "deepa",
+      "name": "Deepa Magar",
+      "nickname": "SocialPanda",
+      "title": "Social Media Manager • Meme Architect • Viral Content Specialist • She Who Made 'Waddup' Global",
+      "role": "COO",
+      "type": "staff",
+      "rating": 9.1,
+      "favColor": "#FF6B00",
+      "bio": "Deepa Magar has never watched a full game of MLBB from start to finish. She has, however, watched every single death GUTS has ever had in competitive play, every Biju buff steal, every Alisha 'sorry' moment, and every Aashray bounce that sent a Fanny player off their cable, and she has turned all of it into content that has accumulated over half a million total views across platforms. She joined Bakatuski in 2022 after watching a clip of GUTS dying fourteen times in twenty minutes and responding to it with a voice note to Raju that said simply: 'this is gold, I need to be involved'. She grew the squad's following from 200 to 3,000+ in under two years. She made 'waddup' into a sound button. She created the Death Counter. She runs a comment war with a pro player and won. She has a separate phone exclusively for Twitter. She edits on an iPad using apps that editing professionals consider inadequate and she uses to produce results that professionals find embarrassing. She is Bakatuski's amplifier — everything the squad does is bigger because she is there to catch it.",
+      "signatureMove": "The 'Shitpost Express' — take a ten-second clip of Biju stealing a Lord with a basic attack, add bass-boosted music, white subtitles in Impact font, and a 'WADDUP' sound effect at the precise moment of the steal. Post at 8 PM. Check views at midnight. Pretend not to be surprised by the number.",
+      "deepDive": "Deepa's content instinct is not just about funny moments — it is about character. She understood very early that the reason people come back to Bakatuski content is not the gameplay but the people playing: Biju's relentless energy, Alisha's polite destruction, GUTS's spectacular investments, Aashray's quiet heroism, Salina's apologetic dominance. She builds content that introduces those personalities to audiences who haven't yet met them. The Death Counter wasn't a bit — it was characterisation for GUTS. The 'sorry' compilation wasn't mockery — it was a portrait of Alisha. Everything she posts makes the squad more real, more likeable, more worth following. That is a craft, and she is very good at it.",
+      "achievements": [
+        "Grew the Bakatuski following from 200 to 3,141 across platforms in under two years with zero paid promotion",
+        "Got the squad featured on three esports highlight channels organically through clip quality and timing",
+        "The Death Counter segment: currently the most-watched recurring feature on the Bakatuski YouTube channel",
+        "The 'waddup Lord steal' clip: 500k TikTok views, shared by two verified gaming accounts, added to an esports compilation with 1.2M total views",
+        "Won a public comment war with a pro player that generated enough engagement to trend on local Twitter for four hours"
+      ],
+      "funFacts": [
+        "She edits all her content on an iPad with apps that professional editors describe as 'basically toys' — she has heard this and responds only with the view counts",
+        "She has a second phone dedicated exclusively to Twitter, which she describes as 'necessary for brand separation and also personal safety'",
+        "Her favourite meme format is 'they didn't know', which she has used fourteen times on Bakatuski content and it has worked every single time",
+        "She once got into a comment war with a verified pro player who said Bakatuski was 'not a real team' — she ratio'd him, he deleted the comment, she screenshotted everything",
+        "She ships specific Bakatuski dynamics and has a tier list — the tier list is pinned in a private channel in the Discord and the people on it know it exists and have never directly asked to see it"
+      ],
+      "gamingRitual": "Opens TikTok. Opens Twitter. Opens the Bamboo Buddies Discord. Eats popcorn, butter, extra salt. Watches the match with one eye and her editing app with the other. Identifies the clip at the exact moment it happens. Edits in five minutes. Posts while the match is still happening. Refreshes views obsessively for the next hour. Acts casual.",
+      "images": {
+        "icon": "images/members/deepa/roster.png",
+        "roster": "images/members/deepa/roster.png",
+        "popup": "images/members/deepa/roster.png",
+        "gallery": []
+      },
+      "dob": "2000-06-18",
+      "ign": "Srizzy",
+      "playerId": "BK010",
+      "likes": [
+        "The exact three-second clip that makes an entire match story clear to someone who wasn't watching",
+        "Trash talk threads — 'the spicier the better, I read them all and I am taking notes'",
+        "Editing — 'it's not a job, it's architecture'",
+        "The Bamboo Buddies — specifically the ones who started as casual viewers and are now invested enough to write paragraph-long comments about GUTS's playstyle",
+        "Popcorn, butter, extra salt, consumed as a viewing ritual",
+        "When GUTS dies in an unexpected location — 'it's always a new clip, the man never repeats himself'"
+      ],
+      "dislikes": [
+        "Anyone who reposts her clips without credit — she will find them, she has the original file with timestamps",
+        "Negative comments that aren't creative — 'if you're going to be negative at least be interesting, I have standards'",
+        "Missing a clip because she was in a different tab — 'this has happened twice, I am still not over it'",
+        "When the internet is slow during a high-viewership moment — 'the infrastructure betrays the art'"
+      ],
+      "personality": "ESFP",
+      "personalityName": "The Entertainer — electric, sharp, perpetually online, and genuinely the reason Bakatuski has an audience at all",
+      "motto": "If it didn't get posted, it didn't happen. If it got posted, it's forever. Act accordingly.",
+      "jerseyNumber": null,
+      "favHeroes": [],
+      "testimonial": "I turned GUTS's deaths into content and Biju's 'waddup' into a soundbite. I've never watched a full game. I've watched every death clip twice. Ratio'd a pro player once. Stay mad, stay entertained."
+    },
+        {
+      "id": 9,
+      "slug": "dr-rooney",
+      "name": "Dr. Rooney",
+      "nickname": "GrandpaGears",
+      "title": "The Architect of Eruditio • Grandfather of Progress • Analytics Overlord",
+      "role": "Analytics / Strategist",
+      "type": "staff",
+      "subtype": "staff",
+      "rating": 9.9,
+      "favColor": "#2E8B57",
+      "bio": "Dr. Rooney is the ancient genius who built half of Eruditio and regrets the other half. He's short, stout, smells faintly of ozone and coffee, and wears a top hat full of gadgets. He joined Bakatuski after Raju sent him a spreadsheet titled 'GUTS Death Optimization v47'. Rooney opened it, cried a single tear of joy, and said 'finally, someone who documents chaos properly.' Now he analyzes every scrim, predicts enemy draft with 89% accuracy, and keeps the squad from exploding literally. He also brings his omni-wrench 'Edison' to LAN events and once fixed Johnson's engine mid‑tournament with a pair of tweezers and sheer spite.",
+      "signatureMove": "The 'Spreadsheet Slam' – arrives at a crisis meeting with 47 charts, 3 pivot tables, and a predicted outcome that is always, always correct. Then mutters '...the data does not lie, children' and leaves.",
+      "deepDive": "Rooney has lived through three eras of Eruditio. He watched his inventions become weapons. He fled to the desert, built a city, and dedicated his life to science for the people. Now he watches Bakatuski – a squad of beautiful disasters – and sees the same raw potential he saw in a broken Bruno or a feral Beatrix. He doesn't coach mechanics. He coaches *probability*. Every Lord steal, every GUTS death, every 'waddup' – it all feeds into his models. Coach Sabin calls him 'the only man who makes me feel like a student.' Rooney just laughs and adjusts his monocle.",
+      "achievements": [
+        "Founded Eruditio, the city of science, after escaping the corrupt Laboratory 1718",
+        "Built the Starlium core that powers half of the Land of Dawn's technology",
+        "Personally repaired Johnson's engine during a tournament break – with a toothpick and a copper wire",
+        "Has a 94% accuracy rate predicting enemy draft picks based on historical data",
+        "Once fixed Alisha's lag by recalibrating her router via Bluetooth from his wrench"
+      ],
+      "funFacts": [
+        "His top hat contains a retractable periscope, a coffee warmer, and a miniature drone named 'Edison Jr.'",
+        "He drinks black coffee so strong it has been classified as a 'hazardous substance' by Eruditio safety board",
+        "He has never played a single game of MLBB – he only watches replays at 0.5x speed and takes notes",
+        "His omni-wrench 'Edison' has a custom engraving that reads 'I build, therefore I break'",
+        "He once fell asleep during a scrim and woke up to find GUTS had died 11 times. He said '...acceptable' and went back to sleep."
+      ],
+      "gamingRitual": "Brews a pot of black coffee. Adjusts his multi‑lensed spectacles. Opens 14 spreadsheets simultaneously. Watches the first 3 minutes of the enemy team's last 5 games. Predicts their entire draft. Sends a single ping – 'Attack' – when the prediction comes true. Then mutters '...the data does not lie' and drinks his coffee.",
+      "images": {
+        "icon": "images/members/rooney/roster.png",
+        "roster": "images/members/rooney/roster.png",
+        "popup": "images/members/rooney/roster.png",
+        "gallery": [
+          "images/members/rooney/gallery/01.png",
+          "images/members/rooney/gallery/02.png"
+        ]
+      },
+      "stats": {},
+      "dob": "Unknown (pre-1718)",
+      "ign": "GrandpaGears",
+      "playerId": "BK024",
+      "likes": [
+        "Spreadsheets – 'they are the poetry of the modern age'",
+        "Black coffee – 'bitter, honest, and necessary'",
+        "Fixing broken machines – 'they don't complain, unlike people'",
+        "Watching GUTS die exactly 15 times – 'the sample size is now statistically significant'",
+        "Proving Coach Sabin wrong – 'it happens rarely, but when it does, I savor it'",
+        "The panda in the sky – 'it reminds me of an old experiment that escaped. I never caught it. I'm not sure I want to.'"
+      ],
+      "dislikes": [
+        "Incomplete data – 'you cannot optimize what you do not measure'",
+        "People who say 'it's just a game' – 'everything is data, child. everything.'",
+        "Lag – 'the enemy of precision and my blood pressure'",
+        "When GUTS dies beyond the prediction threshold – 'I have a model for a reason, young man'"
+      ],
+      "personality": "INTJ",
+      "personalityName": "The Architect – ancient, brilliant, and powered by caffeine and spite",
+      "motto": "The data does not lie. The data does not tilt. The data is patient. I am the data. ... now drink your coffee.",
+      "jerseyNumber": 0,
+      "favHeroes": [],
+      "testimonial": "I built half of Eruditio and regret the other half. Then Bakatuski sent me a spreadsheet titled 'GUTS Death Optimization v47' and I wept – finally, someone documents chaos properly. Now I sip black coffee and predict enemy drafts with 94% accuracy. The data does not lie, children. No cap. ☕"
+    },
+    {
+      "id": 10,
+      "slug": "lillian-osborne",
+      "name": "Lillian Osborne",
+      "nickname": "MultiversalMom",
+      "title": "The Multiversal Architect • Mother of Malefic • Quantum Influencer",
+      "role": "Influencer / Brand Ambassador",
+      "type": "staff",
+      "subtype": "staff",
+      "rating": 9.8,
+      "favColor": "#FFD700",
+      "bio": "Lillian Osborne is the ghost who became a legend – and then came back because the multiverse needed a social media manager. She's the mother of Layla, the wife of Nolan, and the genius who literally scattered herself across infinite realities to save Eruditio. Now she's back (mostly), and Bakatuski convinced her to join as their 'Quantum Influencer'. She handles PR, cosmic lore drops, and makes sure the squad's chaos doesn't accidentally open a rift to the Void. She brings her prototype Starlium Resonator to every meeting, drinks black coffee out of a chipped enamel cup, and has a habit of typing '~ let me explain the multiverse ~' in all‑chat before stealing objectives. She's also the only person who can out‑sass Srijana in a comment war.",
+      "signatureMove": "The 'Multiversal Flex' – drops a 47‑tweet thread explaining the dimensional implications of a GUTS death, then steals the enemy red buff while they're still reading. Ends with '~ you're welcome, parallel timelines ~'.",
+      "deepDive": "Lillian was the brightest star of Eruditio, the mind behind the Infinite Gateway, and the woman who sacrificed herself to seal a dimensional rift. Her consciousness scattered across realities – until the Peerless Light arc pulled her back. Now she exists in a semi‑stable quantum state (she blinks in and out of focus sometimes, but insists it's 'just a vibe'). She joined Bakatuski after Raju sent her a spreadsheet titled 'GUTS Death Tax Deduction (Multiversal Edition)'. She laughed so hard she temporarily collapsed into a superposition of giggles. Now she manages the squad's interdimensional brand, writes cryptic tweets that go viral, and occasionally fixes Layla's Malefic Cannon with a wrench and a disappointed sigh.",
+      "achievements": [
+        "Designed the Infinite Gateway – the reason Eruditio exists today",
+        "Scattered her consciousness across infinite realities and came back (mostly)",
+        "Wrote the foundational equations for the Malefic Cannon and Cosmic Gauge",
+        "Has a 94% engagement rate on her multiverse theory tweets",
+        "Once ratio'd a pro player who said 'Layla is easy mode' – the thread went viral, the player deleted his account"
+      ],
+      "funFacts": [
+        "She drinks coffee so strong it has been classified as a 'dimensional hazard'",
+        "Her chipped enamel cup has a faded decal that reads 'World's Okayest Scientist'",
+        "She still has the original Starlium shard around her neck – it pulses when GUTS is about to die, which is always",
+        "She calls Biju 'son' and he has never corrected her",
+        "Once fell asleep during a scrim and her quantum state briefly split into 14 timelines – each one was still sleeping"
+      ],
+      "gamingRitual": "Sips black coffee from the chipped cup. Adjusts her prototype Resonator. Opens 9 tabs of quantum physics papers. Predicts the exact second the enemy jungler will gank. Types '~ the multiverse says no ~' in all‑chat. Then watches as Aashray bounces the jungler into oblivion.",
+      "images": {
+        "icon": "images/members/lillian/roster.png",
+        "roster": "images/members/lillian/roster.png",
+        "popup": "images/members/lillian/roster.png",
+        "gallery": [
+          "images/members/lillian/gallery/01.png",
+          "images/members/lillian/gallery/02.png"
+        ]
+      },
+      "stats": {},
+      "dob": "Unknown (pre-dates recorded history)",
+      "ign": "QuantumMom",
+      "playerId": "BK025",
+      "likes": [
+        "The multiverse – 'it's not chaos, it's just unobserved order'",
+        "Black coffee – 'the only constant across all timelines'",
+        "Proving people wrong about Layla – 'my daughter is not 'easy mode', she's *precision*'",
+        "Fixing things with a wrench – 'the multiverse runs on torque, not prayers'",
+        "Watching GUTS die exactly 15 times – 'the sample size is now statistically significant across 12 realities'",
+        "Typing '~ the multiverse says ~' before a pentakill – 'it's not trash talk, it's dimensional inevitability'"
+      ],
+      "dislikes": [
+        "People who say 'it's just a game' – 'the multiverse is watching, child. be respectful.'",
+        "Lag – 'the enemy of causality and my patience'",
+        "When the squad forgets to update the shared calendar – 'I have 47 timelines to manage, I cannot track your dentist appointments'",
+        "GUTS dying outside predicted parameters – 'I have a quantum model for a reason, young man'"
+      ],
+      "personality": "ENTP",
+      "personalityName": "The Debater – brilliant, chaotic, and powered by coffee and cosmic certainty",
+      "motto": "The multiverse does not tilt. It simply observes. And waits. And occasionally steals your buff. ~ *quantum wink* ~",
+      "jerseyNumber": 0,
+      "favHeroes": [],
+      "testimonial": "I scattered myself across infinite timelines to save the multiverse. Came back, saw a spreadsheet of GUTS's deaths, and thought 'finally, chaos I can optimize.' Now I steal buffs and ratio haters – the multiverse said it's my turn to have fun. Bet."
+    },
+    {
+      "id": 11,
+      "slug": "fanny-wertz",
+      "name": "Fanny Wertz",
+      "nickname": "BladeDancer",
+      "title": "Blade Dancer • Twin Sword Virtuoso • The Golden Tempest",
+      "role": "Jungler",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.1,
+      "favColor": "#6A0DAD",
+      "bio": "Fanny Wertz is what happens when a classical fencing prodigy discovers MLBB during a thunderstorm and never looks back. She was born in Innsbruck, Austria, to a family of competitive fencers – her mother was a national champion, her father a coach. Fanny grew up with a blade in her hand, literally; she started training at age six and by sixteen had already won three junior European championship medals. Then she found MLBB. Her first hero was Fanny (the assassin, not herself – though the name coincidence felt cosmic), and she fell in love with the cable mechanics because they reminded her of lunges and parries. She adapted her real-world footwork into in-game positioning, and within a year she had reached Mythical Glory with a 70% win rate on mid lane fighters. Her signature is using twin longswords – in game, she plays heroes that have that agile, high-mobility slasher feel: Benedetta, Kadita, and, ironically, Fanny (the hero). She brings a level of mechanical precision that Coach Sabin calls 'terrifying for someone who only started playing three years ago'. She also has a mischievous streak – she will taunt enemies with a '~ whoops ~' after a perfect outplay, and she once made an enemy mid laner switch to support after losing lane 0/5. She is the squad's secret weapon: quiet, deadly, and absolutely lethal in a 1v1. When she subs in, Alisha cheerfully says 'good luck, they'll need it.'",
+      "signatureMove": "The 'Golden Lunge' – a perfectly timed dash through the enemy front line, followed by a double-kill on the backline carries, finished with a taunt emote and '~ whoops ~' in all-chat.",
+      "deepDive": "Fanny's playstyle is built on real-world fencing principles: measure distance, read the opponent's weight shift, strike in the exact millisecond of hesitation. She doesn't just play the game – she treats each engagement as a bout, with feints, parries, and ripostes. Her mechanical skill on mobile heroes is off the charts, but her true genius is in her calmness; she never panics, even when outnumbered. Coach Sabin has noted in his draft notebook that Fanny is 'the most composed substitute I've ever worked with – she treats a tournament final like a practice drill'. Off the game, she is bubbly, energetic, and has a laugh that fills the voice channel. She keeps a foil sword on her desk and will occasionally practice lunges while waiting for respawn. The squad has accepted this as normal.",
+      "achievements": [
+        "Reached Mythical Glory in under 400 matches – a personal record she barely mentions because she thinks it's 'not that impressive' (it is)",
+        "Subbed in for Alisha during a regional qualifier and got a maniac (four kills) in her first competitive game – lost the fifth kill because she 'felt bad and hesitated'",
+        "Made an enemy mid laner type 'are you a bot' after dodging four consecutive skill shots – she replied 'no, just European'",
+        "Never lost a 1v1 in lane during her three substitute appearances – the record is 9-0 in kills",
+        "Her practice regime includes 100 last-hit drills on a custom map with no items – she calls it 'the boring part', but she still does it daily"
+      ],
+      "funFacts": [
+        "She has a pet cockatiel named 'Lungie' (short for lunge) that sits on her shoulder during matches and sometimes chirps when she gets a kill – she considers it good luck",
+        "Her pre-match ritual involves exactly three practice lunges with her real foil sword, followed by a sip of peach iced tea (not bubble tea – she claims bubble tea is 'too distracting' and 'a dessert')",
+        "She once beat Alisha in a 1v1 custom match using only basic attacks – they are now best friends and have a running bet (loser buys bubble tea, Fanny always orders peach iced tea anyway)",
+        "Her favorite MLBB hero is also named Fanny (the assassin), which the squad finds endlessly amusing – she has a Fanny figurine on her desk that she high-fives after every win",
+        "She speaks three languages: German, English, and 'blade' – which she describes as 'the language of timing and disrespect'"
+      ],
+      "gamingRitual": "Practices three lunges with her foil sword. Sips peach iced tea. Adjusts her ponytail – it must be exactly centered. Opens the match, locks in her hero, and types '~ good luck have fun ~' in all-chat with a tilde on each side. Then proceeds to dismantle the enemy mid laner with surgical precision and a smile.",
+      "images": {
+        "icon": "images/members/fanny-wertz/roster.png",
+        "roster": "images/members/fanny-wertz/roster.png",
+        "popup": "images/members/fanny-wertz/roster.png",
+        "gallery": [
+          "images/members/fanny-wertz/01.png",
+          "images/members/fanny-wertz/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 7,
+        "Map Sense": 9,
+        "Ganking": 9,
+        "Kill Secure": 9,
+        "Survivability": 8,
+        "Farming": 8,
+        "Team Play": 7,
+        "Mechanical Skill": 10,
+        "Decision Making": 8,
+        "Clutch Factor": 9
+      },
+      "dob": "2002-05-12",
+      "ign": "BladeDancer",
+      "playerId": "BK009",
+      "likes": [
+        "Perfectly timed dashes – 'it's like poetry, but with violence'",
+        "Peach iced tea – she has a specific brand and will not substitute",
+        "Fencing metaphors – she will compare any situation to a lunge, parry, or riposte",
+        "The sound of a skill shot missing because she sidestepped exactly on time",
+        "Making enemies type '?' in all-chat after she outplays them",
+        "Her cockatiel Lungie, who has learned to chirp when she gets a kill",
+        "Winning a 1v1 without taking damage – 'the clean bout'"
+      ],
+      "dislikes": [
+        "Lag – 'it ruins the timing, and timing is everything'",
+        "Teammates who surrender too early – 'we can always win, I have a blade'",
+        "Bubble tea – 'it's a dessert, not a drink, and it has no place before a match'",
+        "When people underestimate her because she's a substitute – 'I'm not backup, I'm the second wave'"
+      ],
+      "personality": "ESTP",
+      "personalityName": "The Entrepreneur – confident, quick-witted, and always one step ahead (literally and metaphorically)",
+      "motto": "Every opponent has a tell. You just have to be fast enough to read it. And faster to punish it. ~ whoops ~",
+      "jerseyNumber": 14,
+      "favHeroes": [
+        {
+          "name": "Benedetta",
+          "icon": "images/heroes/benedetta.png"
+        },
+        {
+          "name": "Kadita",
+          "icon": "images/heroes/kadita.png"
+        },
+        {
+          "name": "Fanny",
+          "icon": "images/heroes/fanny.png"
+        },
+        {
+          "name": "Lancelot",
+          "icon": "images/heroes/lancelot.png"
+        }
+      ],
+      "testimonial": "Fencing prodigy turned MLBB gremlin. I lunge at enemies and say '~ whoops ~'. Bakatuski accepted my blade and my cockatiel. Peak."
+    },
+    {
+      "id": 12,
+      "slug": "kagura-himemiya",
+      "name": "Kagura Himemiya",
+      "nickname": "OnmyoujiMaster",
+      "title": "The Dominating Mage of OWO • Seimei's Vessel • Bamboo Spirit Wielder",
+      "role": "Mid Lane",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.3,
+      "favColor": "#4B0082",
+      "bio": "Kagura Himemiya is not from this world — or so she claims. She says she was found as a child in a bamboo grove, clutching an antique Seimei Umbrella that would sometimes open on its own, pulsing with a soft violet light. The umbrella, she insists, houses a mischievous panda spirit named 'OwO' who speaks to her in dreams and guides her jungle pathing. Whether you believe her or not, the results are undeniable: a 74% win rate on mage junglers (Kagura, Selena, Harley), a sixth sense for enemy rotations, and a laugh that sounds like wind chimes. She joined Bakatuski after Deepa discovered her TikTok where she performs kata with the umbrella while waiting for Lord to spawn — the video has 1.2 million views. Coach Sabin calls her 'the most unorthodox jungler I've ever seen, but the KDA speaks for itself'. She never tilts. She only smiles mysteriously, opens her umbrella, and whispers '~owo~' before turning a losing fight into a triple kill.",
+      "signatureMove": "The 'Bamboo Vortex' – drop a Selena trap in the enemy red buff bush, wait for the jungler to arrive, stun them, steal the buff, open the umbrella with a flourish, and type '~ owo what's this ~' in all‑chat before vanishing into the river.",
+      "deepDive": "Kagura's jungling style is a fusion of traditional mage positioning and chaotic, bamboozling macro. She doesn't clear camps in standard order; instead, she 'listens to the bamboo' (her words) and rotates based on where she senses the enemy jungler's fear. Her signature is the 'reverse purge' — using Kagura's umbrella to bait enemies into chasing her through the jungle, then teleporting back and wiping them with a well‑placed ult. She maintains a 4.2 KDA as a jungler (unheard of for a mage in the jungle role) and has never been caught in a losing trade. She also brings snacks to every scrim — specifically mochi, which she shares with anyone who compliments her umbrella.",
+      "achievements": [
+        "First Bakatuski substitute to achieve a 10.0 rating in a scrim (jungle Kagura, 9/0/12, vs a semi‑pro team)",
+        "Stole Lord three times in one game using only Kagura's umbrella repositioning — no smite, no retribution, just timing",
+        "Made an enemy jungler type 'where are you hiding' after she predicted his rotation perfectly for the sixth time",
+        "Her TikTok umbrella kata video: 1.2M views, featured on two esports meme pages, and reposted by a professional player who said 'I don't know what this is but I'm scared'",
+        "Maintains a 74% win rate on mage junglers across 300+ ranked games — her Kagura jungle alone has a 68% win rate in Mythic"
+      ],
+      "funFacts": [
+        "She named her umbrella 'OwO' and will correct you if you call it anything else. 'It's not an umbrella, it's a spirit vessel.'",
+        "Her pre‑match ritual involves drawing a small yin‑yang symbol on the back of her hand with a purple marker — she says it 'aligns the chi'.",
+        "She speaks in a soft, almost whispery voice that becomes eerily confident during teamfights. Biju once said 'your whisper scares me more than my mom'.",
+        "She has a pet bamboo shoot (a small potted plant) on her desk named 'Mochi'. She waters it between matches and talks to it in Japanese.",
+        "The panda spirit 'OwO' is not visible to others, but she insists it sits on her shoulder during games and gives her 'attack angle advice'. Coach Sabin has stopped asking."
+      ],
+      "gamingRitual": "Pulls out the Seimei Umbrella. Opens it exactly three times to 'wake OwO'. Draws a yin‑yang on her hand. Sips warm matcha tea. Smiles at the screen. Types '~ owo good luck have fun ~' in all‑chat. Then proceeds to make the enemy jungler's life a living hell with impeccable mage rotations and an umbrella that always seems to be exactly where it needs to be.",
+      "images": {
+        "icon": "images/members/kagura/roster.png",
+        "roster": "images/members/kagura/roster.png",
+        "popup": "images/members/kagura/roster.png",
+        "gallery": [
+          "images/members/kagura/01.png",
+          "images/members/kagura/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 9,
+        "Map Sense": 10,
+        "Ganking": 8,
+        "Kill Secure": 8,
+        "Survivability": 7,
+        "Farming": 7,
+        "Team Play": 9,
+        "Mechanical Skill": 9,
+        "Decision Making": 9,
+        "Clutch Factor": 9
+      },
+      "dob": "2001-07-07",
+      "ign": "OwO_Kagura",
+      "playerId": "BK010",
+      "likes": [
+        "The exact moment an enemy walks into her umbrella trap — 'it's like catching a firefly'",
+        "Matcha tea, warm, never sweet — 'sugar dulls the third eye'",
+        "Predicting enemy jungler movements and typing '~ i knew you'd be there ~' afterward",
+        "The sound of her umbrella opening — she claims OwO purrs when it happens",
+        "Sharing mochi with teammates who compliment her plays — 'good vibes come back around'",
+        "Playing mind games in all‑chat without ever actually trash‑talking — 'confusion is a weapon'",
+        "When an enemy types '?' after she vanishes into the fog — 'that's the moment they know they've lost'"
+      ],
+      "dislikes": [
+        "People who call her umbrella 'just an umbrella' — 'it's a sentient being, respect it'",
+        "Jungle invades that interrupt her 'spirit pathing' — 'it's very disruptive to the bamboo frequencies'",
+        "Teammates who don't follow up on her stuns — 'I set the table, you have to eat'",
+        "When enemies buy anti‑mage items — 'rude, honestly'"
+      ],
+      "personality": "INFJ",
+      "personalityName": "The Advocate – mystical, eerily perceptive, and powered by bamboo spirits and matcha",
+      "motto": "The bamboo whispers. I listen. The enemy jungler cries. ~ owo ~",
+      "jerseyNumber": 7,
+      "favHeroes": [
+        {
+          "name": "Kagura",
+          "icon": "images/heroes/kagura.png"
+        },
+        {
+          "name": "Selena",
+          "icon": "images/heroes/selena.png"
+        },
+        {
+          "name": "Harley",
+          "icon": "images/heroes/harley.png"
+        },
+        {
+          "name": "Lylia",
+          "icon": "images/heroes/lylia.png"
+        }
+      ],
+      "testimonial": "I talk to bamboo spirits and my umbrella is sentient. Bakatuski didn't question it. Now I steal buffs and whisper '~ owo ~' while enemies cry. Vibe check: passed."
+    },
+    {
+      "id": 13,
+      "slug": "layla-osborne",
+      "name": "Layla Osborne",
+      "nickname": "MaleficStar",
+      "title": "The Dominating Gold of OWO • Long‑Range Prodigy • Cannon's Chosen",
+      "role": "Gold Lane",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.0,
+      "favColor": "#0B3B60",
+      "bio": "Layla Osborne was born in a floating research city, or so she tells it – the daughter of two engineers who built the first prototype autonomous cannon. She grew up taking apart machinery and rebuilding it into something more fun. When she discovered MLBB, she gravitated to the hero Layla (obviously) because 'the cannon felt like coming home'. Within two years, she had reached Mythical Glory with a 69% win rate on long‑range marksmen, and her signature Malefic Cannon predictions became local legend: she can blind-snipe enemies through fog of war with a consistency that makes opponents call hacks. Coach Sabin once reviewed her VODs and said 'either she has a sixth sense or she's actually a cyborg – I'm not ruling either out'. She joined Bakatuski after Deepa saw a clip of her hitting a triple kill from across the map using only map pings and guesswork – the clip has 800k views. She is bubbly, optimistic, and will say '~ pew pew ~' every time she lands a long-range kill. She also brings her own custom gaming goggles (blue‑lensed, gold‑rimmed) and refuses to play without them.",
+      "signatureMove": "The 'Shooting Star' – from behind the tier‑2 tower, fire a Malefic Cannon blast at the enemy red buff bush exactly 12 seconds before it spawns. Hit the enemy jungler, steal the buff, and type '~ stars don't miss ~' in all‑chat before they even see your name.",
+      "deepDive": "Layla's playstyle is built on map awareness and geometry. She doesn't just farm – she calculates angles. She knows exactly where the enemy carry will stand to last‑hit, exactly how far her Malefic Cannon reaches from each bush, and exactly when the enemy jungler will peek out for a gank attempt. Her laning phase is passive until it isn't; she'll farm peacefully for ten minutes, then suddenly annihilate the enemy gold laner from a screen away with a double‑tap that seems to come from nowhere. Coach Sabin has a dedicated section in his notes called 'Layla Snipes – do not question, just pick a support with global vision'. She is also the squad's unofficial morale officer – when someone dies, she'll say '~ oops, try again ~' with such genuine warmth that nobody can be upset. Her laugh is contagious, and her optimism is unshakeable. She once lost lane 0/5 and still ended the game with a smile, saying '~ I made them waste so many ganks, that's a win ~'.",
+      "achievements": [
+        "Blind snipe triple kill from tier‑2 tower to enemy Lord pit – the clip has 800k views across platforms, and Layla still claims 'it was mostly luck' (her teammates do not believe her)",
+        "Perfect CS in 15 consecutive substitute games – she keeps a personal tally and has it written on her goggle strap",
+        "Made an enemy gold laner swap to jungle after she predicted and dodged every single gank attempt for 12 minutes – the enemy typed 'you're a bot' and she replied '~ beep boop, farm complete ~'",
+        "Highest damage per minute among all Bakatuski gold lane subs – her average is 4,200 DPM, which is 600 higher than the amateur league average",
+        "Never lost a game when she subbed in for Salina – the record is 4-0, and Salina cheerfully says 'Layla is my lucky charm'"
+      ],
+      "funFacts": [
+        "She wears her custom blue‑lensed goggles for every match – even when playing from home. 'They help me focus,' she says. 'Also they look cool.'",
+        "Her pre‑match snack is a single slice of buttered toast – 'carb load but not too heavy, gotta keep the hands fast'.",
+        "She has a small drone she calls 'MALEFIC‑DRONE' that hovers near her desk during games and occasionally flies into the camera – Deepa has edited out three such incidents.",
+        "She named her Malefic Cannon 'Betsy' and will give her a little pat before locking in. 'Betsy never misses. It's science.'",
+        "She once hit a prediction snipe on an enemy who was recalling behind their tier‑3 tower. The enemy typed 'HOW' and she replied '~ math ~'. The screenshot is pinned in the Bamboo Buddies Discord."
+      ],
+      "gamingRitual": "Puts on blue‑lensed goggles. Pats Betsy (the Malefic Cannon prop on her desk). Eats one slice of buttered toast. Opens draft, locks a long‑range marksman, and types '~ good luck, have fun, stay out of my lane ~' in all‑chat. Then proceeds to out‑farm, out‑snipe, and out‑smile everyone on the enemy team.",
+      "images": {
+        "icon": "images/members/layla/roster.png",
+        "roster": "images/members/layla/roster.png",
+        "popup": "images/members/layla/roster.png",
+        "gallery": [
+          "images/members/layla/01.png",
+          "images/members/layla/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 5,
+        "Map Sense": 9,
+        "Ganking": 3,
+        "Kill Secure": 10,
+        "Survivability": 8,
+        "Farming": 9,
+        "Team Play": 8,
+        "Mechanical Skill": 9,
+        "Decision Making": 8,
+        "Clutch Factor": 10
+      },
+      "dob": "2002-09-23",
+      "ign": "MaleficStar",
+      "playerId": "BK011",
+      "likes": [
+        "Perfect CS – 'it's like a rhythm game, but with lasers'",
+        "The exact moment a blind snipe connects – 'the sound is so satisfying, like a bell'",
+        "Making enemies type '?' in all‑chat – 'confusion is a compliment'",
+        "Buttered toast – 'simple, reliable, perfect'",
+        "Her goggles – she has three pairs (primary, backup, and backup for the backup)",
+        "Giving Betsy (the Malefic Cannon) a pep talk before each match – 'you got this girl, we got this'",
+        "When the enemy gold laner tries to mimic her build and fails – '~ imitation is flattery, but results are better ~'"
+      ],
+      "dislikes": [
+        "Assassins who jump her from behind – 'cowardly, but I respect the hustle'",
+        "Teammates who take her farm – 'I have a CS per minute target, please understand'",
+        "Lag spikes during a snipe – 'the worst feeling, like sneezing mid‑kiss'",
+        "People who call Layla (the hero) 'easy mode' – 'easy to learn, hard to master, and I mastered her'"
+      ],
+      "personality": "ENFP",
+      "personalityName": "The Campaigner – optimistic, inventive, and always looking for the bright side (and the enemy carry's exact position)",
+      "motto": "The cannon doesn't lie. Geometry doesn't lie. And my smile? That's genuine. ~ pew pew ~",
+      "jerseyNumber": 23,
+      "favHeroes": [
+        {
+          "name": "Layla",
+          "icon": "images/heroes/layla.png"
+        },
+        {
+          "name": "Beatrix",
+          "icon": "images/heroes/beatrix.png"
+        },
+        {
+          "name": "Lesley",
+          "icon": "images/heroes/lesley.png"
+        },
+        {
+          "name": "Clint",
+          "icon": "images/heroes/clint.png"
+        }
+      ],
+      "testimonial": "Blind snipe queen. I hit enemies from across the map with geometry and spite. Bakatuski let me bring my goggles and my drone. Math never lies – and neither does my cannon. PEW PEW."
+    },
+    {
+      "id": 14,
+      "slug": "johnson-mustang",
+      "name": "Johnson",
+      "nickname": "The Mustang",
+      "title": "Sentient Automobile • Road Warrior • Grumpy Taxi of Justice",
+      "role": "Roamer",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.4,
+      "favColor": "#4B0082",
+      "bio": "Johnson is a car. Not a man who drives a car, not a spirit who inhabits a car – a fully sentient, living automobile with a soul forged in a spark of Noumenon Energy in the backstreets of Los Pecados. He was built by a brilliant but eccentric mechanic who wanted to create the perfect vehicle; instead, he created a hero. Johnson woke up one day in the garage, revved his engine, and decided that crime boss Kane needed to be run over. His personality is a mix of a grumpy old taxi driver (he complains about traffic even when there isn't any) and a champion racer (he will drift around corners for no tactical reason). He can transform between car mode (for high-speed map rotations) and a hulking humanoid robot form (for punching enemies through walls). He has a deep, gravelly voice that sounds like a V8 engine idling, and he refers to his teammates as 'kid' regardless of their age. He joined Bakatuski after Biju spotted him parked outside a tournament venue, asked 'are you lost?', and Johnson replied 'no, I'm here to run over your enemies. let me in.' Biju opened the door. The rest is history.",
+      "signatureMove": "The 'Road Rage Express' – shift into car mode, pick up Aashray (or any ally), drive across the map at 200 kph, crash through the enemy jungle, stun their carry, drop off the ally for a free kill, then type '~ honk honk, get off my road ~' in all‑chat.",
+      "deepDive": "Johnson's playstyle is unmatched map pressure. His car mode cooldown is low enough that he can gank two lanes in under thirty seconds, and his Electro Airbag wrench throw can stun enemies from a surprising distance. His ultimate, Potential Energy, generates a massive shield that scales with his movement speed – meaning the faster he goes, the harder he is to stop. He also has a passive that lets him carry one ally inside him during car mode, which turns Bakatuski's already aggressive roams into two‑man wrecking crews arriving from across the map. Coach Sabin has dedicated three pages of his draft notebook to 'Johnson strats', including the 'Panda Express' (Johnson + GUTS) where GUTS sacrifices himself to distract the enemy while Johnson runs over their backline. Johnson's only request in voice chat is that teammates 'stop calling me a car, I'm a mustang, there's a difference'. No one knows the difference. No one asks.",
+      "achievements": [
+        "First sentient vehicle to be officially registered as a competitive esports player – the tournament organisers took three hours to decide, then said 'fine, but you have to park in the back'",
+        "Stole Lord by driving through the enemy team, stunning the jungler with his wrench, and smiting the objective with his front bumper – the clip has 600k views",
+        "Made an enemy roamer type 'is that car hacking' after Johnson predicted his rotation and cut him off at four different bushes",
+        "Set the Bakatuski record for fastest cross‑map rotation: from base to enemy red buff in 11 seconds (car mode, no traffic)",
+        "Has never lost a game where he successfully carried Biju to the enemy backline in car mode – the record is 9-0, and Biju calls him 'my favorite Uber driver'"
+      ],
+      "funFacts": [
+        "He has a built‑in coffee maker in his dashboard that he uses during match pauses. 'I'm not tilted, I just need caffeine.'",
+        "He refers to his humanoid robot form as 'walk mode' and complains that 'walking is inefficient, driving is better'.",
+        "He once accidentally drove into the enemy fountain while trying to do a dramatic drift – he survived (barely) and typed '~ whoops, wrong exit ~'.",
+        "His engine sound changes depending on his mood: a low rumble when focused, a high rev when excited, and a sputtering noise when tilted (rare).",
+        "He has a custom license plate that reads 'WADDUP' – Biju cried when he saw it."
+      ],
+      "gamingRitual": "Rolls into the gaming chair (he doesn't sit, he just parks). Revs his engine three times. Checks his oil (literally). Opens draft, locks in, and types '~ let's ride, kids ~' in all‑chat. Then proceeds to drive circles around the enemy team while yelling 'honk honk' in voice chat.",
+      "images": {
+        "icon": "images/members/johnson/roster.png",
+        "roster": "images/members/johnson/roster.png",
+        "popup": "images/members/johnson/roster.png",
+        "gallery": [
+          "images/members/johnson/01.png",
+          "images/members/johnson/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 10,
+        "Map Sense": 9,
+        "Ganking": 10,
+        "Kill Secure": 6,
+        "Survivability": 10,
+        "Farming": 3,
+        "Team Play": 9,
+        "Mechanical Skill": 7,
+        "Decision Making": 8,
+        "Clutch Factor": 9
+      },
+      "dob": null,
+      "ign": "MustangRoar",
+      "playerId": "BK012",
+      "likes": [
+        "Drifting – 'every corner is an opportunity to look cool'",
+        "The sound of his engine at full rev – 'better than any victory music'",
+        "Running over enemy carries – 'they bounce off the bumper, it's very satisfying'",
+        "Coffee – he has a custom mug holder installed in his walk‑mode chest plate",
+        "Honking at enemies right before crashing into them – 'it's polite to announce yourself'",
+        "Picking up teammates in car mode – 'taxi service with free murder'",
+        "When the enemy types '???' after he comes flying out of a bush at mach speed"
+      ],
+      "dislikes": [
+        "Traffic jams – 'there is no traffic in the Land of Dawn, why are you walking in the middle of the lane'",
+        "Potholes – 'I have suspension, but I have principles'",
+        "Being called a 'car' – 'I am a mustang, a thoroughbred, a machine of war. Car is insulting.'",
+        "When teammates don't get in during car mode – 'I am offering you a free ride to victory, take it'"
+      ],
+      "personality": "ISTJ",
+      "personalityName": "The Logistician – efficient, methodical, and grumpy with a heart of (motor) gold",
+      "motto": "I have four gears: park, drive, overdrive, and 'run them over'. I use the last one most.",
+      "jerseyNumber": 88,
+      "favHeroes": [
+        {
+          "name": "Johnson",
+          "icon": "images/heroes/johnson.png"
+        },
+        {
+          "name": "Khufra",
+          "icon": "images/heroes/khufra.png"
+        },
+        {
+          "name": "Atlas",
+          "icon": "images/heroes/atlas.png"
+        }
+      ],
+      "testimonial": "I'm a literal car. Bakatuski let me join. I run over enemies and complain about traffic. Biju cried when he saw my 'WADDUP' license plate. I'm not a car, I'm a mustang – respect the ride."
+    },
+    {
+      "id": 15,
+      "slug": "chou-kungfu",
+      "name": "Chou",
+      "nickname": "KungFuBoy",
+      "title": "The Way of the Dragon • Urban Guardian • Jeet Kune Do Master",
+      "role": "Exp Lane",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.3,
+      "favColor": "#FFD700",
+      "bio": "Chou was born in the dirt-floor slums of Antoinerei, where hope was as scarce as clean water. He grew up caring for the elderly and orphans, his heart somehow staying soft despite the hard world around him. One day, he rescued an old monk from a violent mob – the monk, grateful and seeing Chou's pure spirit, taught him the ancient secrets of Jeet Kune Do. 'The world needs a real hero,' the monk said. Chou took that oath seriously. He left his slum behind, travelled the Land of Dawn, got mocked by Lancelot for his terrible fashion sense (which prompted a complete wardrobe upgrade), and eventually found Bakatuski. He joined the squad after a sparring session with GUTS that ended with GUTS on the ground laughing and Chou saying 'you have the heart of a warrior, just not the footwork'. Coach Sabin appreciated his discipline. Biju appreciated his flashy kicks. Alisha appreciated that he says 'sorry' after a knockout, unlike some people. His signature is the 'Way of the Dragon' combo: a perfectly timed Shunpo blind, followed by a series of kicks that send enemies flying into his waiting teammates. He never trash-talks, but he will type '~ patience, young grasshopper ~' after a particularly disrespectful outplay.",
+      "signatureMove": "The 'Temple Fling' – bait the enemy exp laner into overextending, dodge their engage with a perfectly timed dash, land a blind, kick them straight into Aashray's waiting Khufra bounce, then bow respectfully in all‑chat with '~ thank you for the lesson ~'.",
+      "deepDive": "Chou's playstyle is the opposite of GUTS's chaotic feeding – where GUTS absorbs pressure by dying, Chou absorbs pressure by simply not being where the enemy expects. His mobility suite (two dashes, a blind, and a kick that can reposition enemies) makes him one of the slipperiest exp laners in the game. He rarely dies, consistently wins his lane through outplays rather than trades, and his ultimate is the single best tool for turning a 5v5 into a 4v5 by instantly deleting an enemy carry. Coach Sabin has a note in his draft notebook: 'Chou subs in when we need to control the fight, GUTS subs in when we need to bait the fight. Both work. Don't question it.' Chou is also the squad's unofficial meditation coach; he leads five-minute breathing exercises before scrims, and even Biju participates. 'Waddup is for the game,' Chou says. 'Peace is for the mind.'",
+      "achievements": [
+        "Won a 1v2 against the enemy exp laner and jungler with less than 10% HP remaining – the clip was titled 'Chou things' and got 400k views",
+        "Kicked an enemy carry into the fountain from the mid lane river – 'calculated,' he said; the enemy typed '????????'",
+        "Never lost a substitution match when starting for GUTS – record 6-0, and GUTS cheerfully says 'I'm training my replacement' (he isn't)",
+        "Taught Alisha a breathing technique that improved her clutch performance – she now does 'Chou breaths' before every tournament game",
+        "His blind (Shunpo) has a documented 87% success rate in competitive matches – enemies simply cannot land skill shots on him"
+      ],
+      "funFacts": [
+        "He meditates for twenty minutes every morning, rain or shine, and has convinced three other squad members to join him (Alisha, Salina, and surprisingly, Biju, who says it 'helps with the waddup focus').",
+        "His pre‑match ritual involves a kata (a choreographed pattern of martial arts moves) performed in the team's practice room. Everyone clears the area. No one asks questions.",
+        "He has a collection of antique martial arts scrolls that he studies between matches – he's offered to show them to GUTS, who declined on the grounds that 'reading is not my style'.",
+        "Despite his serious demeanor, he has a soft spot for terrible puns. His favourite: 'Why did the monk go to the bank? To meditate on his savings.' He laughed at this for three minutes.",
+        "He once kicked a minion into the enemy jungle just to watch the enemy jungler panic. 'Psychological warfare,' he explained. Deepa clipped it; it has 200k views."
+      ],
+      "gamingRitual": "Meditates for five minutes. Performs a short kata (three moves, always the same sequence). Touches his tonfa – a family heirloom from the monk who trained him. Opens draft, locks in, and types '~ patience brings victory ~' in all‑chat. Then proceeds to dance around the enemy exp laner like a leaf in the wind, landing every kick with surgical precision.",
+      "images": {
+        "icon": "images/members/chou/roster.png",
+        "roster": "images/members/chou/roster.png",
+        "popup": "images/members/chou/roster.png",
+        "gallery": [
+          "images/members/chou/01.png",
+          "images/members/chou/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 8,
+        "Map Sense": 9,
+        "Ganking": 8,
+        "Kill Secure": 9,
+        "Survivability": 9,
+        "Farming": 7,
+        "Team Play": 8,
+        "Mechanical Skill": 10,
+        "Decision Making": 9,
+        "Clutch Factor": 9
+      },
+      "dob": "1998-09-30",
+      "ign": "WayOfDragon",
+      "playerId": "BK013",
+      "likes": [
+        "A perfectly executed combo – 'the flow is like water, unstoppable'",
+        "The look on an enemy's face when they get kicked into a wall – 'priceless'",
+        "Meditation – 'the battlefield is chaos, the mind must be still'",
+        "Teaching breathing techniques to teammates – 'calm lungs, calm hands, calm victory'",
+        "Kung‑fu movies from the 1970s – 'they had soul, not just special effects'",
+        "When enemies type 'nice kick' in all‑chat – 'respect is the highest honour'",
+        "GUTS – 'he has no technique but infinite heart. I admire that.'"
+      ],
+      "dislikes": [
+        "Disrespect – 'a true warrior shows humility in victory and grace in defeat'",
+        "Cheese strategies – 'they insult the spirit of competition'",
+        "When enemies surrender too early – 'I wanted to practice my combos more'",
+        "Soggy rice – 'unacceptable, the texture is wrong'"
+      ],
+      "personality": "INFJ",
+      "personalityName": "The Advocate – disciplined, spiritual, and surprisingly warm beneath the warrior's exterior",
+      "motto": "The Way of the Dragon is not about strength alone. It is about timing, patience, and knowing exactly when to kick.",
+      "jerseyNumber": 3,
+      "favHeroes": [
+        {
+          "name": "Chou",
+          "icon": "images/heroes/chou.png"
+        },
+        {
+          "name": "Paquito",
+          "icon": "images/heroes/paquito.png"
+        },
+        {
+          "name": "Badang",
+          "icon": "images/heroes/badang.png"
+        }
+      ],
+      "testimonial": "I meditate and kick people into walls. Bakatuski lets me lead breathing exercises before scrims. GUTS is chaos, I am control. We both win. Balance, baby."
+    },
+    {
+      "id": 16,
+      "slug": "shristi-lamsal",
+      "name": "Shristi Lamsal",
+      "nickname": "GoldSovereign",
+      "title": "The Gold Sovereign • Queen of Precision • OwO's Royal Marksman",
+      "role": "Gold Lane",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.2,
+      "favColor": "#D4AF37",
+      "bio": "Shristi Lamsal – known to the realm as 'Shrisss.___' – carries herself like royalty even when she's last‑hitting minions in the dirt. She was born into a family of jewel merchants in the glittering markets of the Eruditio upper city, where she learned two things early: the value of precision (one wrong cut ruins a gem) and the power of presentation (a diamond in a velvet box sells for ten times more). When she discovered MLBB, she brought that same aristocratic philosophy to the gold lane. She doesn't just farm – she *orchestrates*. Every movement is calculated, every ability timed to the split second, every kill signed with a graceful '~ *curtsey* ~' in all‑chat. She mains marksmen who demand spacing and patience: Lesley, Clint, and the occasional Layla when she wants to 'slum it for fun'. Her win rate on Lesley is 71% across 500+ ranked games, and she has never lost a 1v1 lane when using her signature sniper‑poke style. She joined Bakatuski after Deepa saw a clip of her hitting three consecutive snipes from the fog of war while typing '~ oops, did I step on something? ~' – the clip had 900k views and a comment from a pro player saying 'this woman is a menace'. Shristi responded: '~ menace? no. sovereign? yes. ~' She is calm, collected, and never raises her voice – but when she says 'focus the carry', everyone focuses the carry.",
+      "signatureMove": "The 'Royal Decree' – from the edge of her maximum range, land a Lesley ultimate shot that threads through the enemy front line and executes their fleeing support. As the screen fades to grey for the enemy, she types '~ off with their head ~' and refreshes her camouflage to reposition for the next kill.",
+      "deepDive": "Shristi's gold lane philosophy is built on three pillars: spacing, patience, and intimidation. She never overextends – she doesn't need to. Her poke damage from a safe distance forces enemies to either retreat (losing farm) or commit (walking into her trap). She tracks enemy cooldowns in her head with the same precision she once used to appraise gemstone clarity. Coach Sabin has noted in his draft notebook that 'Shristi's positioning is so textbook that I could use her VODs for training material – except she adds a level of psychological warfare that is not in any textbook.' She also has a habit of complimenting enemies after she kills them. '~ nice try, your form was almost there ~' is her favourite. Enemies have reported feeling genuinely encouraged, which somehow makes losing worse.",
+      "achievements": [
+        "Three consecutive snipe kills from fog of war in a single tournament game – the opposing carry typed 'I'm not safe anywhere' and switched to tank",
+        "Perfect CS in 22 consecutive substitute matches – a team record that even Salina acknowledges with a respectful nod",
+        "Made an enemy roamer switch roles after she dodged every single engage attempt for 15 minutes – 'you're not real' he typed; she replied '~ no, I'm just better ~'",
+        "Highest damage per minute among all Bakatuski gold lane players (subs and starters): 4,500 DPM, which is 1,100 above the amateur league average",
+        "Never lost a game where she achieved 'immortal' status (zero deaths) – her record is 14-0, and she maintains it with 'positioning and a little bit of royal grace'"
+      ],
+      "funFacts": [
+        "She has a velvet‑lined box on her desk that holds her favourite fountain pen – she uses it to take notes on enemy positioning between matches. 'It's not pretentious, it's presentation.'",
+        "Her pre‑match snack is a single square of dark chocolate (85% cocoa) and a cup of jasmine green tea. 'Fuel for the sovereign,' she says.",
+        "She once ended a match by killing the enemy carry with a basic attack from behind the base wall. The replay showed her smiling like a cat who caught a canary.",
+        "She refers to her mouse as 'my sceptre' and has a custom gold‑plated ring around the scroll wheel.",
+        "She is secretly terrified of spiders. During a scrim, a small spider crawled across her desk; she screamed, missed a cannon minion, and blamed it on 'lag'. The team never lets her forget it."
+      ],
+      "gamingRitual": "Arranges her desk with military precision: mouse on the gold‑etched mat, tea on the left, chocolate on the right. Adjusts her headset so the left cup sits exactly 2mm higher than the right (she measured). Opens draft, locks Lesley, and types '~ let us begin, peasants ~' in all‑chat. Then spends the next twenty minutes showing everyone exactly why she's called the Gold Sovereign.",
+      "images": {
+        "icon": "images/members/shristi/roster.png",
+        "roster": "images/members/shristi/roster.png",
+        "popup": "images/members/shristi/roster.png",
+        "gallery": [
+          "images/members/shristi/gallery/01.png",
+          "images/members/shristi/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 4,
+        "Map Sense": 10,
+        "Ganking": 3,
+        "Kill Secure": 10,
+        "Survivability": 9,
+        "Farming": 10,
+        "Team Play": 7,
+        "Mechanical Skill": 9,
+        "Decision Making": 10,
+        "Clutch Factor": 9
+      },
+      "dob": "2000-11-11",
+      "ign": "Shrisss.___",
+      "playerId": "BK014",
+      "likes": [
+        "The exact moment an enemy realises they can't escape her range – 'the panic in their movement is delicious'",
+        "Perfect CS – 'it's not just farming, it's a statement'",
+        "Dark chocolate (85% cocoa, never lower) – 'bitterness builds character'",
+        "Jasmine green tea – 'it keeps the mind sharp and the hands steady'",
+        "Complimenting enemies after killing them – 'they should feel good about being outplayed'",
+        "Watching replays of her own snipes – 'I learn from myself, because I am the best teacher'",
+        "When teammates say 'thank you' after she saves them – 'you're welcome, peasant' (said with affection)"
+      ],
+      "dislikes": [
+        "Assassins who jump her from behind – 'cowardly, but expected'",
+        "Teammates who take her farm without asking – 'the royal treasury is not for sharing'",
+        "Lag spikes – 'the enemy of precision is inconsistency'",
+        "People who call marksmen 'easy' – 'easy to play, hard to master, and I have mastered'"
+      ],
+      "personality": "INTJ",
+      "personalityName": "The Architect – strategic, composed, and operating at a level of confidence that borders on regal arrogance (but earned)",
+      "motto": "The gold lane is not a battlefield. It is a throne room. And I am the sovereign. ~ *curtsey* ~",
+      "jerseyNumber": 18,
+      "favHeroes": [
+        {
+          "name": "Lesley",
+          "icon": "images/heroes/lesley.png"
+        },
+        {
+          "name": "Clint",
+          "icon": "images/heroes/clint.png"
+        },
+        {
+          "name": "Layla",
+          "icon": "images/heroes/layla.png"
+        },
+        {
+          "name": "Beatrix",
+          "icon": "images/heroes/beatrix.png"
+        }
+      ],
+      "testimonial": "I call myself sovereign and type '~ curtsey ~' after kills. Bakatuski didn't laugh. They bowed. Now I snipe from fog of war and eat dark chocolate. Royalty is a mindset – and mine's unhinged."
+    },
+    {
+      "id": 17,
+      "slug": "preshika-gurung",
+      "name": "Preshika Gurung",
+      "nickname": "PrincessPresh",
+      "title": "The Radiant Support • Princess of the Bamboo Court • Healer of Tilt",
+      "role": "Roamer",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.0,
+      "favColor": "#FFB7C5",
+      "bio": "Preshika Gurung – known to the realm as 'Princess Presh' – is the team's emotional support anchor and the kind of roamer who makes you feel safe even when you're 0/10. She grew up in a small village at the edge of the bamboo forests, where her grandmother taught her that true strength is not in how hard you hit, but in how well you lift others up. That philosophy carried into her MLBB career: she mains healers and shielders – Rafaela, Estes, Angela – and has a 68% win rate across 800+ games. Her signature is the 'Radiant Rescue': a perfectly timed Angela ult that saves a diving teammate from certain death, followed by a '~ you're safe now, princess ~' in all‑chat (she calls everyone 'princess', regardless of gender). She never flames, never tilts, and has a laugh that Deepa describes as 'audible serotonin'. She joined Bakatuski after a ranked game where GUTs died fourteen times, she saved him nine of those times, and he typed 'marry me' in all‑chat. She replied '~ I'm a princess, not a paramedic ~' and sent a friend request. Biju vouched for her. Now she's the squad's second roamer, bringing calm, heals, and a tiara that she wears during scrims (it's plastic, but the energy is real).",
+      "signatureMove": "The 'Royal Rescue' – Angela ult onto a diving GUTs exactly as he hits 1% HP, shield him through the burst, speed him up, and watch him clean up the enemies who wasted all their cooldowns trying to kill him. Then type '~ you're welcome, my brave knight ~' in all‑chat while GUTs types 'worth'.",
+      "deepDive": "Preshika's roaming style is the opposite of Johnson's chaos and Aashray's bouncy aggression. She is *reactive* – she watches the map, predicts who will need help, and arrives exactly on time with a heal, a shield, or a speed boost. Her positioning is always one step behind the frontline, which is exactly where a support should be. Coach Sabin has noted that 'Preshika's reaction time on clutch saves is faster than some pro players I've seen – she has a sixth sense for when someone is about to int.' She also has a gift for defusing tension: when the squad is tilted after a loss, she says '~ it's okay, we'll get them next time, now who wants snacks? ~' and produces a bag of homemade cookies. She has never been seen angry. The squad suspects she might be a saint or a robot. They don't care either way.",
+      "achievements": [
+        "Recorded 47 assists in a single competitive match – the highest in Bakatuski history, beating Aashray's previous record by 13",
+        "Saved GUTs from death 12 times in one game – he died only 6 times, which is a personal best for him when playing with Preshika",
+        "Her Angela ult has a documented 89% success rate in turning losing fights into winning ones – the team calls it 'the princess effect'",
+        "Never been reported for toxicity in over 2,000 ranked games – she has a 'Perfect Conduct' badge and wears it with pride",
+        "Made an enemy roamer switch to support after watching her save her team three times in a row – 'teach me' he typed; she sent him a link to a Rafaela guide"
+      ],
+      "funFacts": [
+        "She wears a small plastic tiara during scrims and tournament matches. 'It's not for luck, it's for identity. I am the princess, the tiara is the crown.'",
+        "She bakes cookies for the team before every tournament – chocolate chip, always. She has a dedicated cookie container with a panda sticker.",
+        "Her pre‑match ritual involves lighting a small lavender candle. 'Calm energy, calm hands, calm teammates.'",
+        "She has a pet rabbit named 'Mochi' who sometimes appears on her stream and has been declared an official Bakatuski mascot by the Bamboo Buddies Discord.",
+        "She once saved Johnson (the car) from a gank by ulting him as Angela while he was in car mode. The visual was absurd. The clip has 1.2 million views."
+      ],
+      "gamingRitual": "Lights the lavender candle. Puts on the tiara. Adjusts her headset. Opens draft, locks a support (usually Rafaela or Angela), and types '~ let me take care of you, my darlings ~' in all‑chat. Then spends the entire game being everywhere she needs to be, healing everyone who needs it, and never once flaming.",
+      "images": {
+        "icon": "images/members/preshika/roster.png",
+        "roster": "images/members/preshika/roster.png",
+        "popup": "images/members/preshika/roster.png",
+        "gallery": [
+          "images/members/preshika/gallery/01.png",
+          "images/members/preshika/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 9,
+        "Map Sense": 10,
+        "Ganking": 6,
+        "Kill Secure": 2,
+        "Survivability": 8,
+        "Farming": 3,
+        "Team Play": 10,
+        "Mechanical Skill": 7,
+        "Decision Making": 9,
+        "Clutch Factor": 9
+      },
+      "dob": "1999-03-21",
+      "ign": "PrincessPresh",
+      "playerId": "BK015",
+      "likes": [
+        "A perfectly timed heal that saves a teammate at 1% HP – 'the best feeling in the game'",
+        "Watching GUTs survive a fight he definitely should have lost – 'my child, you're learning'",
+        "Baking cookies – 'it's meditative, and everyone likes cookies'",
+        "Lavender candles – 'they smell like calm'",
+        "Her tiara – 'it's plastic but the energy is real'",
+        "When enemies type 'thank you for the save' – 'that's sportsmanship, I appreciate it'",
+        "Her rabbit Mochi – 'he's a better support than me, he just doesn't have thumbs'"
+      ],
+      "dislikes": [
+        "Toxicity – 'there is no place for it on my team or in my lane'",
+        "When teammates run away from her heals – 'I am literally trying to save you, stop moving'",
+        "People who blame the support – 'I have 47 assists, what more do you want from me'",
+        "When GUTs dies beyond her range – 'I can't heal you from across the map, my child, please stay closer'"
+      ],
+      "personality": "ESFJ",
+      "personalityName": "The Consul – warm, generous, and the emotional glue that holds chaotic teams together",
+      "motto": "I don't carry. I don't steal kills. I make sure my carries never die. That is my crown. ~ *curtsey* ~",
+      "jerseyNumber": 2,
+      "favHeroes": [
+        {
+          "name": "Rafaela",
+          "icon": "images/heroes/rafaela.png"
+        },
+        {
+          "name": "Angela",
+          "icon": "images/heroes/angela.png"
+        },
+        {
+          "name": "Estes",
+          "icon": "images/heroes/estes.png"
+        },
+        {
+          "name": "Mathilda",
+          "icon": "images/heroes/mathilda.png"
+        }
+      ],
+      "testimonial": "I wear a plastic tiara and heal everyone. Biju calls me 'mom'. I bake cookies and carry the mental. Bakatuski is my chaotic nursery. No cap, I'd die for these gremlins (but I won't, I'm the healer)."
+    },
+    {
+      "id": 18,
+      "slug": "pramila-pun-magar",
+      "name": "Pramila Pun Magar",
+      "nickname": "CatMommy",
+      "title": "The Healing Sentinel • Feline Guardian • Keeper of the Bamboo Kittens",
+      "role": "Roamer",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.1,
+      "favColor": "#FF8C42",
+      "bio": "Pramila Pun Magar – known to the realm as 'Cat Mommy 🐾' – is the squad's resident nurturer, and she takes that job very seriously. By day, she volunteers at an animal shelter in Kathmandu, where she has fostered over forty rescued cats and kittens. By night, she channels that same fierce protectiveness into MLBB, where she mains area healers and shielders: Floryn, Estes, and Rafaela. Her philosophy is simple: 'If you are on my team, you are my kitten. And I do not let my kittens die.' She has a 72% win rate on Floryn across 600+ games, and her signature move is the 'Pounce Heal' – a perfectly timed global heal that saves a teammate from an assassin's combo, followed by a '~ pspspsps, come here baby ~' in all‑chat. She joined Bakatuski after a ranked game where she kept GUTs alive through seven consecutive dives, and GUTs typed 'I think I'm in love'. She replied '~ sweetie, I'm a cat mommy, not a dating app ~' and added him anyway. Biju calls her 'the scariest nice person I've ever met' because she will compliment you while your corpse is still fading. She has three rescue cats – Miso, Sushi, and Wasabi – who occasionally photobomb her stream and have their own fan club in the Bamboo Buddies Discord.",
+      "signatureMove": "The 'Pounce Heal' – Floryn global ultimate lands exactly as an enemy assassin jumps on your carry, turning certain death into a counter‑engage. The carry survives, the assassin wastes everything, and Pramila types '~ good kitty, now stay ~' as her team cleans up.",
+      "deepDive": "Pramila's roaming style is proactive rather than reactive – she reads the map and predicts where damage will happen before it does. Her cooldown tracking is immaculate, and she has been known to call out enemy ult timings in voice chat with spooky accuracy. 'The enemy Khufra hasn't used his bounce in forty seconds,' she'll say. 'He's looking at you, Biju. Back up.' Biju backs up. Coach Sabin has a note in his draft notebook: 'Pramila's map sense is borderline psychic – I've stopped questioning it and started building drafts around it.' She also runs the squad's 'morale recovery' sessions, which involve sharing cat photos and making tea. No one has ever left one of these sessions still tilted.",
+      "achievements": [
+        "Recorded 52 assists in a single competitive match – the highest in Bakatuski history, with 0 kills and 2 deaths (both deaths were saving GUTs)",
+        "Her Floryn ultimate has a documented 91% success rate in turning losing fights – the team calls it 'the cat signal'",
+        "Saved GUTs from death 18 times in one tournament game – he died only 4 times, a record low for him when playing with Pramila",
+        "First Bakatuski member to be endorsed by a pet brand – a local cat food company sent her free samples, which she donated to the shelter",
+        "Never lost a game when playing with all three of her cats visible on stream – the sample size is 7 games, the win rate is 100% ('they bring good luck,' she says)"
+      ],
+      "funFacts": [
+        "She has three rescue cats: Miso (orange tabby, 4 years), Sushi (black and white, 2 years), and Wasabi (grey, 1 year). They have their own Instagram with 3,000 followers.",
+        "Her pre‑match ritual involves giving each cat a treat and saying 'mommy will be back soon'. If she forgets, she plays poorly – she has tested this.",
+        "She has a custom mouse pad with a photo of all three cats sitting in a row. 'They watch me play. They judge my positioning.'",
+        "Once, during a tournament match, Wasabi jumped on her keyboard and hit her ultimate at the wrong time – she still saved the carry. 'Even my cats are good at this game,' she said.",
+        "She refers to her teammates as 'kittens' during voice chat. Biju pretends to hate it. He secretly loves it."
+      ],
+      "gamingRitual": "Gives each cat a treat. Adjusts her cat‑eared headset (yes, it has ears). Lights a sandalwood incense stick. Opens draft, locks Floryn, and types '~ mommy's here, don't worry ~' in all‑chat. Then spends the entire game keeping everyone alive, tracking every cooldown, and calling her teammates 'kittens' with unwavering maternal authority.",
+      "images": {
+        "icon": "images/members/pramila/roster.png",
+        "roster": "images/members/pramila/roster.png",
+        "popup": "images/members/pramila/roster.png",
+        "gallery": [
+          "images/members/pramila/gallery/01.png",
+          "images/members/pramila/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 9,
+        "Map Sense": 10,
+        "Ganking": 7,
+        "Kill Secure": 3,
+        "Survivability": 8,
+        "Farming": 3,
+        "Team Play": 10,
+        "Mechanical Skill": 7,
+        "Decision Making": 10,
+        "Clutch Factor": 9
+      },
+      "dob": "1998-07-09",
+      "ign": "CatMommy",
+      "playerId": "BK016",
+      "likes": [
+        "The exact moment a global heal saves someone from certain death – 'better than catnip'",
+        "Watching GUTs survive a fight he had no business surviving – 'my little miracle kitten'",
+        "Her cats – Miso, Sushi, and Wasabi, listed in order of adoption",
+        "Sandalwood incense – 'it calms the nerves and covers up the smell of enemy tears'",
+        "Teammates who say 'thank you' after a save – 'good manners, I raised you well'",
+        "When enemies type '???' after a perfect heal – 'confusion is the highest compliment'",
+        "Cat memes – she has a folder of 700+ and shares them in the team chat after wins"
+      ],
+      "dislikes": [
+        "Toxicity – 'you yell at my kittens, you get muted, simple as that'",
+        "When carries run away from her heals – 'I am literally trying to save you, do not make me chase you'",
+        "People who hurt animals – 'I will not play with you, I will not speak to you, I will only report you'",
+        "When GUTs dies beyond her range – 'stay in vision, my child, I cannot heal what I cannot see'"
+      ],
+      "personality": "ISFJ",
+      "personalityName": "The Defender – fiercely protective, endlessly nurturing, and absolutely terrifying when her kittens are threatened",
+      "motto": "I have three cats and eight teammates. They are all my kittens. And I do not let my kittens die. ~ pspspsps ~",
+      "jerseyNumber": 4,
+      "favHeroes": [
+        {
+          "name": "Floryn",
+          "icon": "images/heroes/floryn.png"
+        },
+        {
+          "name": "Estes",
+          "icon": "images/heroes/estes.png"
+        },
+        {
+          "name": "Rafaela",
+          "icon": "images/heroes/rafaela.png"
+        },
+        {
+          "name": "Angela",
+          "icon": "images/heroes/angela.png"
+        }
+      ],
+      "testimonial": "I have three rescue cats and a global heal. I call teammates 'kittens' and they meow back sometimes. Bakatuski lets me bring Miso, Sushi, and Wasabi to scrims. This is my litter now."
+    },
+    {
+      "id": 19,
+      "slug": "sujal-maharjan",
+      "name": "Sujal Maharjan",
+      "nickname": "Rwar",
+      "title": "The Exp Warlord • Jungle of the Top Lane • Feral King",
+      "role": "Exp Lane",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.4,
+      "favColor": "#8B0000",
+      "bio": "Sujal Maharjan – known to the realm as 'Rwar ʕ•益•ʔ' – is not a man who plays exp lane. He is an exp lane who happens to be a man. He grew up in the chaotic streets of northern Kathmandu, where he learned that the loudest growl wins the fight. That energy carried into MLBB: he mains dive fighters and sustain bruisers – Yu Zhong, Terizla, Thamuz, and the occasional X.Borg when he wants to 'watch the world burn'. His playstyle is relentless aggression: he will trade health for lane pressure, dive towers without fear, and type 'ʕ•益•ʔ RAWR' in all‑chat after every solo kill. He has a 69% win rate on Yu Zhong across 500+ games, and his signature move is the 'Feral Dive': a perfectly timed dragon transformation that eats the enemy carry's face while growling into his mic. He joined Bakatuski after a ranked game where he solo killed the enemy exp laner four times in six minutes, then typed 'ʕ•益•ʔ this lane is mine' – Biju saw it and immediately sent an invite. Sujal's response: 'about time.' He is loud, boisterous, and will absolutely yell 'LET'S GO' at full volume after a teamfight win. He also has a soft spot for his pet bearded dragon, 'Lizard Wizard', who sits on his shoulder during matches and occasionally licks his ear.",
+      "signatureMove": "The 'Feral Dive' – Yu Zhong transform into dragon form, dive over the enemy tower, land on the enemy carry, knock them up, slow them, and finish with a basic attack while typing 'ʕ•益•ʔ RAWR' before the kill animation even finishes.",
+      "deepDive": "Sujal's exp lane philosophy can be summarized as: 'if you're not scaring them, you're losing'. He believes that psychological pressure is as important as gold advantage – every time he forces the enemy jungler to gank him, that's a gank that didn't go to Salina or Alisha. He draws aggro like a magnet, and unlike GUTs who dies to create space, Sujal *survives* to create chaos. His mechanical skill on dive fighters is exceptional; Coach Sabin has noted that 'Sujal's engage timing on Yu Zhong is consistently perfect – he waits exactly until the enemy uses their escape, then pounces'. He is also the loudest member of the squad in voice chat, which is saying something given that Biju exists. Biju has called him 'my spiritual successor'. Sujal replied 'ʕ•益•ʔ I am no one's successor, I am the original'. They are now best friends.",
+      "achievements": [
+        "Solo killed the enemy exp laner 7 times in a single tournament game – the opponent typed 'please stop' and Sujal replied 'ʕ•益•ʔ no'",
+        "Won a 1v3 against the enemy exp laner, jungler, and roamer while defending the tier‑2 tower – the clip has 700k views and is titled 'Rwar goes brrr'",
+        "Never lost a lane when playing Yu Zhong – his record is 27-3, and the three losses were due to enemy jungle camping (which he still considers a win because 'they needed two people to stop me')",
+        "First Bakatusuki substitute to receive a 'Perfect Game' rating (0 deaths, 10+ kills) in a competitive match – the casters called him 'a menace to society'",
+        "Made an enemy exp laner swap roles mid‑match – the player typed 'I can't do this anymore' and moved to gold lane. Sujal followed him. 'ʕ•益•ʔ there is no escape'"
+      ],
+      "funFacts": [
+        "He has a pet bearded dragon named 'Lizard Wizard' who sits on his shoulder during matches. The lizard has its own Instagram with 1,500 followers.",
+        "His pre‑match ritual involves growling into his mic three times. 'Gotta wake up the beast,' he says.",
+        "He drinks black coffee with a shot of espresso – 'double the caffeine, double the aggression'.",
+        "He once yelled 'LET'S GO' so loud after a pentakill that his neighbours called the landlord. He apologised by baking them cookies. 'The beast is polite sometimes.'",
+        "His favourite food is buffalo wings – extra spicy. He eats them between matches and has never spilled sauce on his keyboard. 'The beast has precision.'"
+      ],
+      "gamingRitual": "Takes a sip of double‑espresso black coffee. Growls into the mic three times. Adjusts Lizard Wizard on his shoulder. Opens draft, locks Yu Zhong, and types 'ʕ•益•ʔ this lane is mine' in all‑chat. Then proceeds to dominate the exp lane so thoroughly that the enemy jungler has to babysit, leaving the rest of the map free for Biju to invade.",
+      "images": {
+        "icon": "images/members/sujal/roster.png",
+        "roster": "images/members/sujal/roster.png",
+        "popup": "images/members/sujal/roster.png",
+        "gallery": [
+          "images/members/sujal/gallery/01.png",
+          "images/members/sujal/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 6,
+        "Map Sense": 7,
+        "Ganking": 9,
+        "Kill Secure": 10,
+        "Survivability": 8,
+        "Farming": 8,
+        "Team Play": 7,
+        "Mechanical Skill": 9,
+        "Decision Making": 7,
+        "Clutch Factor": 10
+      },
+      "dob": "2000-01-15",
+      "ign": "Rwar",
+      "playerId": "BK017",
+      "likes": [
+        "Solo killing the enemy exp laner – 'the sound of their flash burning is music'",
+        "Diving towers – 'the turret is just decoration, really'",
+        "Black coffee with an extra shot – 'bitter like my soul, strong like my gameplay'",
+        "Buffalo wings – 'extra spicy, extra messy, extra delicious'",
+        "Lizard Wizard – 'he judges me when I miss a skill shot, and he's always right'",
+        "When enemies type '?' after he kills them – 'confusion is fear, fear is victory'",
+        "Growling in voice chat – 'it confuses the enemy and amuses my team'"
+      ],
+      "dislikes": [
+        "Passive exp laners – 'you're not playing safe, you're playing scared'",
+        "Teammates who don't follow up on his dives – 'I went in for a reason, trust the beast'",
+        "When the enemy jungler camps his lane – 'coward, fight me 1v1'",
+        "Decaf coffee – 'what is the point of decaf, just drink water'"
+      ],
+      "personality": "ESTP",
+      "personalityName": "The Entrepreneur – aggressive, confident, and operating on pure adrenaline and instinct",
+      "motto": "The exp lane is a jungle. I am the apex predator. ʕ•益•ʔ RAWR",
+      "jerseyNumber": 69,
+      "favHeroes": [
+        {
+          "name": "Yu Zhong",
+          "icon": "images/heroes/yuzhong.png"
+        },
+        {
+          "name": "Terizla",
+          "icon": "images/heroes/terizla.png"
+        },
+        {
+          "name": "Thamuz",
+          "icon": "images/heroes/thamuz.png"
+        },
+        {
+          "name": "X.Borg",
+          "icon": "images/heroes/xborg.png"
+        }
+      ],
+      "testimonial": "I growl into the mic and solo kill exp laners for fun. Bakatuski said 'let the beast out'. Now I dive towers and type 'ʕ•益•ʔ RAWR' like it's my job. Because it is."
+    },
+    {
+      "id": 20,
+      "slug": "amisha-thulung-rai",
+      "name": "Amisha Thulung Rai",
+      "nickname": "MysticCat",
+      "title": "The Mystic Midlaner of OWO • Cat's Whisker • Purrfect Predator",
+      "role": "Mid Lane",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.2,
+      "favColor": "#FFA500",
+      "bio": "Amisha Thulung Rai – known to the realm as 'Cat >_<' – is the squad's resident feline enigma. Born in the misty hills of eastern Nepal, she grew up surrounded by stray cats, ancient folk tales, and the kind of silence that makes you hear your own heartbeat. She claims she learned MLBB from a cat who sat on her keyboard and accidentally performed a Kadita combo. 'I just watched the paws,' she says. 'The cat knew things.' Whether you believe her or not, her mechanics are undeniable: a 70% win rate on Kadita across 600+ games, and a signature 'Pounce and Purr' combo that leaves enemies wondering what hit them. She mains mages with mobility and burst – Kadita, Harith, Lunox – and her playstyle is a chaotic dance of sudden aggression and graceful retreats, like a cat batting at a toy before losing interest. She joined Bakatuski after a ranked game where she solokilled the enemy mid laner four times in eight minutes, then typed '~ meow, get out of my lane ~' in all‑chat. Biju saw it and sent an invite within seconds. Her response: '~ depends, do you have treats? ~' Biju bought her a bag of cat-shaped cookies. She accepted. Now she is the squad's second mid lane substitute, bringing whimsy, unpredictability, and a laugh that sounds like a contented purr.",
+      "signatureMove": "The 'Pounce and Purr' – as the enemy mid laner steps up to last‑hit, Kadita dives forward in her seafoam form, knocking them up, landing a full Ocean Ode combo, and retreating before the tower even registers the aggression. Type '~ too slow, little mouse ~' in all‑chat and return to farming like nothing happened.",
+      "deepDive": "Amisha's mid lane philosophy is simple: *be where they least expect you, leave before they can react*. Her map movements are erratic by design – she will roam bot, then instantly rotate top, then vanish into the jungle for ten seconds, only to reappear behind the enemy jungler stealing their blue buff. Coach Sabin has noted that 'Amisha's pathing is impossible to predict because even she doesn't know where she's going until she gets there. It's chaos, but it's *effective* chaos.' She also has a habit of typing '~ pspspsps ~' in all‑chat after a kill, which enemies have reported as 'deeply unsettling' and 'weirdly cute'. She is never toxic – she is simply playful, and somehow that's worse.",
+      "achievements": [
+        "Solo killed the enemy mid laner 6 times in a single tournament game – the opponent typed 'can you stop' and she replied '~ no, this is fun ~'",
+        "Her Kadita has a documented 85% first-blood rate – she dives at level 2 before minions even meet, and somehow always wins",
+        "First Bakatuski player to receive a 'Cat's Grace' award from the tournament organisers (they made it up after her performance)",
+        "Made an enemy jungler rage‑quit after she stole his buff three times in a row – each steal was followed by '~ mine now, thanks ~'",
+        "Her laugh in voice chat has been described by teammates as 'audible serotonin' and 'the reason I don't tilt anymore'"
+      ],
+      "funFacts": [
+        "She has a pet cat named 'Whiskers' who sits on her lap during matches. Whiskers has been known to step on her keyboard mid‑combo – she still wins. 'He's my coach,' she says.",
+        "Her pre‑match ritual involves giving Whiskers a treat and saying 'bless the paws'. She has done this 300+ times and never lost after forgetting.",
+        "She drinks warm milk with honey – 'calming, like a cat nap'.",
+        "She has a collection of cat-ear headbands in different colours and matches them to her hero skin. Pink for Kadita, purple for Harith, orange for Lunox.",
+        "She once typed '~ meow ~' in all‑chat after a pentakill. The entire enemy team responded with '...' and one player said 'I'm not even mad, that was cute'."
+      ],
+      "gamingRitual": "Gives Whiskers a treat. Puts on the cat‑ear headband (colour matches the hero). Sips warm milk with honey. Opens draft, locks Kadita, and types '~ pspspsps, let's play ~' in all‑chat. Then proceeds to pounce on the enemy mid laner like a kitten chasing a laser pointer – relentless, unpredictable, and absolutely adorable.",
+      "images": {
+        "icon": "images/members/amisha/roster.png",
+        "roster": "images/members/amisha/roster.png",
+        "popup": "images/members/amisha/roster.png",
+        "gallery": [
+          "images/members/amisha/gallery/01.png",
+          "images/members/amisha/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 8,
+        "Map Sense": 8,
+        "Ganking": 9,
+        "Kill Secure": 9,
+        "Survivability": 7,
+        "Farming": 8,
+        "Team Play": 8,
+        "Mechanical Skill": 9,
+        "Decision Making": 7,
+        "Clutch Factor": 9
+      },
+      "dob": "2000-12-25",
+      "ign": "Cat >_<",
+      "playerId": "BK023",
+      "likes": [
+        "The exact moment a Kadita dive connects – 'like pouncing on a string, very satisfying'",
+        "Watching enemies type '?' after she vanishes into the fog – 'confused little mice, so cute'",
+        "Warm milk with honey – 'it's like a hug for my insides'",
+        "Her cat Whiskers – 'he judges my gameplay, but he stays on my lap, so I win'",
+        "Typing '~ meow ~' after a kill – 'it's polite, it's cute, and it tilts them, triple win'",
+        "Stealing buffs from the enemy jungler – 'finders keepers, and I found it first'",
+        "The panda in the sky – 'it has cat energy. big, fluffy, watching. i respect it.'"
+      ],
+      "dislikes": [
+        "Toxic teammates – 'hiss. bad energy. i mute and purr.'",
+        "When enemies play too safe – 'come out and play, cowards'",
+        "Lag spikes – 'ruins the pounce timing, very rude'",
+        "People who don't say 'gg' – 'manners cost nothing, use them'"
+      ],
+      "personality": "ENFP",
+      "personalityName": "The Campaigner – playful, unpredictable, and powered by cat treats and curiosity",
+      "motto": "Pounce first, ask questions never. ~ meow ~",
+      "jerseyNumber": 8,
+      "favHeroes": [
+        {
+          "name": "Kadita",
+          "icon": "images/heroes/kadita.png"
+        },
+        {
+          "name": "Harith",
+          "icon": "images/heroes/harith.png"
+        },
+        {
+          "name": "Lunox",
+          "icon": "images/heroes/lunox.png"
+        },
+        {
+          "name": "Nana",
+          "icon": "images/heroes/nana.png"
+        }
+      ],
+      "testimonial": "I learned Kadita from a cat sitting on my keyboard. Bakatuski believed me. Now I pounce on mid laners and type '~ meow ~' while they grey screen. Purr."
+    },
+    {
+      "id": 21,
+      "slug": "aamon-phantom",
+      "name": "Aamon",
+      "nickname": "PhantomJungler",
+      "title": "The Phantom Jungler • Duke of Shards • Invisible Executioner",
+      "role": "Jungler",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.5,
+      "favColor": "#0B3B60",
+      "bio": "Aamon is not a jungler you see. He is a jungler you feel – a cold presence at the edge of your map vision, a flicker of movement in the fog, a sudden silence where your HP bar used to be. Born into House Paxley, the aristocratic family of assassins, Aamon was groomed to be the perfect blade: silent, precise, and utterly without mercy. He honed his craft in the mist‑veiled training grounds of the Paxley estate, where he learned to weaponise his family's signature crystal shards. Unlike his brother Gusion – who rebelled, chose flashy daggers, and found his own path – Aamon remained loyal to the old ways. He is cold, calculating, and speaks in measured tones that make teammates lean closer to hear him. He joined Bakatuski through an indirect introduction from Gusion himself, who told Biju: 'My brother needs a team that won't try to make him smile. He won't say thank you. He won't hype you up. But he will never, ever miss a retribution.' Biju invited Aamon to a trial match. Aamon stole three Lords, secured four kills without being seen once, and typed only 'acceptable' at the end. Biju said 'he's in.' Now Aamon is the squad's third jungler, the one they call when they need surgical precision and a complete absence of emotion. His IGN is simply 'PhantomShards', and he has never once typed 'waddup' in all‑chat. He has, however, typed '...' after a pentakill, which the squad considers his version of screaming.",
+      "signatureMove": "The 'Invisible Execution' – activate Invisible Shadow in a bush, walk past the enemy front line without triggering any reaction, appear behind the enemy carry, unload all five shards and an ultimate before the first stun lands, then vanish into the fog before the enemy team registers that their damage dealer is already grey‑screened. Type '...' in all‑chat. No further communication required.",
+      "deepDive": "Aamon's jungling style is the polar opposite of Biju's high‑pressure chaos. Where Biju announces his presence with 'waddup' and a stolen buff, Aamon removes all evidence of himself from the enemy's perception. He times his ganks to coincide with jungle creep spawns – the enemy carry is busy last‑hitting, their support is checking the bush on the left, and Aamon simply walks past them both while invisible, plants five shards into the carry's neck, and walks out. His map movement is a study in efficiency: he never takes a fight he hasn't already calculated the outcome of, never invades without a retreat plan, never engages without a 95% certainty of winning. Coach Sabin has a note in his draft notebook: 'Aamon's decision tree is the cleanest I've ever seen – he makes the right call every time because he refuses to make a call that isn't right.' The squad has learned to read his silence: when he types '...' in squad chat, it means 'follow me'; when he types '...' with a period at the end, it means 'I've stolen their red buff, come for the kill'; when he types '...' and nothing else for thirty seconds, it means he's already eliminated the enemy jungler and is waiting in a bush for the next victim.",
+      "achievements": [
+        "Completed a perfect jungle game with 0 deaths, 12 kills, and 0 assists – every kill was a solo elimination, and the enemy team never saw him on their screen once",
+        "Stole Lord seven times in a single tournament without ever being seen – the enemy jungler typed 'is Lord bugged?' and Aamon replied '...'",
+        "Achieved a 10.0 rating in a competitive match without speaking a single word in voice chat – his teammates only knew he was playing because the enemy kept dying",
+        "First Bakatuski player to receive a 'Perfect Invisibility' award from the tournament organisers (they made it up specifically for him)",
+        "Made an enemy carry uninstall the game after being killed by Aamon six times from fog of war – the post‑game chat log showed the player typing 'I'm buying a ward' and Aamon replying '...'"
+      ],
+      "funFacts": [
+        "He has never once typed 'waddup' in any chat, anywhere. Biju considers this a personal challenge and has tried 47 times to get him to say it. Aamon has responded each time with '...'",
+        "His pre‑match ritual involves polishing his crystal shards with a silk cloth. He does this in complete silence. The squad has learned not to speak during this time.",
+        "He drinks plain room‑temperature water. No ice, no lemon, no bubbles. 'Hydration should not be theatrical,' he says.",
+        "He has a pet raven named 'Obsidian' who sits on a perch beside his monitor. The raven is also silent. Sometimes they stare at each other for minutes at a time.",
+        "His favourite food is plain white rice with no seasoning. 'Flavour distracts from purpose,' he explains. The squad has stopped asking follow‑up questions."
+      ],
+      "gamingRitual": "Polishes each crystal shard with a silk cloth – exactly seven wipes per shard. Drinks a glass of room‑temperature water. Adjusts his cuffs. Opens draft, locks Aamon, and types '...' in squad chat. The team knows this means 'I am ready'. Then he proceeds to erase the enemy jungler from the game without ever appearing on a single screen.",
+      "images": {
+        "icon": "images/members/aamon/roster.png",
+        "roster": "images/members/aamon/roster.png",
+        "popup": "images/members/aamon/roster.png",
+        "gallery": [
+          "images/members/aamon/gallery/01.png",
+          "images/members/aamon/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 8,
+        "Map Sense": 10,
+        "Ganking": 10,
+        "Kill Secure": 10,
+        "Survivability": 9,
+        "Farming": 8,
+        "Team Play": 6,
+        "Mechanical Skill": 10,
+        "Decision Making": 10,
+        "Clutch Factor": 10
+      },
+      "dob": "1997-04-17",
+      "ign": "PhantomShards",
+      "playerId": "BK018",
+      "likes": [
+        "The exact moment an enemy realises they're being attacked by an invisible target – 'panic is the highest form of respect'",
+        "Perfectly silent ganks – 'if they hear you coming, you've already failed'",
+        "The sound of a crystal shard hitting its mark – 'clean, precise, final'",
+        "Room‑temperature water – 'temperature is a distraction, like emotion'",
+        "His raven Obsidian – 'he judges me silently, which is exactly what I need'",
+        "Typing '...' and having the team understand exactly what it means – 'communication does not require excess'",
+        "When enemies type '???' after dying – 'confirmation that I did my job'"
+      ],
+      "dislikes": [
+        "Loud voice chat – 'noise is inefficiency'",
+        "Teammates who ping unnecessarily – 'one ping is information; ten pings is anxiety'",
+        "Flashy skins – 'a blade should not advertise itself'",
+        "When enemies surrender too early – 'I had not yet achieved my final form'"
+      ],
+      "personality": "INTJ",
+      "personalityName": "The Architect – cold, calculating, and operating at a level of precision that borders on the supernatural",
+      "motto": "The unseen kill is the most elegant. The silent victory is the most complete. ...",
+      "jerseyNumber": 0,
+      "favHeroes": [
+        {
+          "name": "Aamon",
+          "icon": "images/heroes/aamon.png"
+        },
+        {
+          "name": "Natalia",
+          "icon": "images/heroes/natalia.png"
+        },
+        {
+          "name": "Lancelot",
+          "icon": "images/heroes/lancelot.png"
+        },
+        {
+          "name": "Hayabusa",
+          "icon": "images/heroes/hayabusa.png"
+        }
+      ],
+      "testimonial": "I don't speak. I type '...' and enemies disappear. Bakatuski learned to read my silence. That's trust. Or fear. Same thing."
+    },
+    {
+      "id": 22,
+      "slug": "gusion-sacred-ghost",
+      "name": "Gusion",
+      "nickname": "SacredGhost",
+      "title": "The Sacred Ghost of OWO • Holy Blade • Dagger Dancer",
+      "role": "Jungler",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.6,
+      "favColor": "#8A2BE2",
+      "bio": "Gusion is the brother who walked away from House Paxley's cold silence and forged his own path – a path paved with glowing daggers, teleporting dashes, and the laughter of someone who knows exactly how good he is. Where his brother Aamon chose invisibility, Gusion chose *theatre*. He grew up in the same mist‑veiled training grounds, learning the same crystal shard techniques, but he found them boring. Too slow. Too quiet. He wanted flash. He wanted speed. He wanted enemies to see him coming and still be unable to do anything about it. So he developed his own style: teleportation, combo resets, and a signature five‑dagger burst that can delete a carry before their support finishes typing 'careful'. He has a 73% win rate on Gusion (obviously) across 800+ games, and his signature move is the 'Holy Ghost Combo': dash in, throw daggers, teleport behind, throw more daggers, reset cooldowns, teleport again, and land the ultimate while the enemy is still trying to figure out which direction he came from. He joined Bakatuski after a ranked game where he solo carried a 4v5 (GUTs disconnected for three minutes) and typed '~ you're welcome, peasants ~' in all‑chat. Biju invited him immediately. Gusion's response: '~ about time you found someone with real style ~' He and Biju are now best friends and compete over who can get more kills per game. Biju is currently winning, but Gusion claims 'kills are for amateurs, I prefer *assassinations*'.",
+      "signatureMove": "The 'Holy Ghost Combo' – dash into the enemy backline, throw all five daggers in a spinning arc, teleport behind the carry, throw another five daggers, reset cooldowns with the ultimate, teleport again, and land the final dagger in the carry's neck before they can even type 'help'. Finish with '~ too slow, darling ~' in all‑chat.",
+      "deepDive": "Gusion's jungling style is built on unpredictability. He never takes the same gank path twice, never engages from the same angle, and never uses his combos in the same order. His mechanical skill on the hero is genuinely elite – Coach Sabin has called his combo execution 'frame‑perfect' and has used Gusion's VODs as training material for the other junglers. But his real weapon is his *attitude*: he trash‑talks in all‑chat with a smile, taunts enemies who try to chase him, and has been known to type '~ oops, did I step on your hopes? ~' after stealing Lord. The enemy team tilts. His team laughs. And Gusion keeps teleporting. He is also the squad's unofficial hype man – before every match, he says '~ let's show them what real style looks like ~' and somehow, everyone believes him.",
+      "achievements": [
+        "Completed a perfect jungle game with 15 kills, 0 deaths, and 0 assists – every kill was a solo assassination, and he never used the same combo twice",
+        "Stole Lord while simultaneously killing the enemy jungler and escaping with 1% HP – the clip is titled 'Gusion things' and has 1.1 million views",
+        "Made an enemy team forfeit at 8 minutes after he got a pentakill on their entire roster – the final kill was a blind dagger toss from fog of war",
+        "First Bakatuski player to achieve a 10.0 rating in three consecutive tournament games – the casters called him 'a human highlight reel'",
+        "His signature 'Holy Ghost Combo' has a documented 94% success rate in competitive matches – the 6% failures were due to lag, which he blames on 'the universe trying to slow me down'"
+      ],
+      "funFacts": [
+        "He has a custom keyboard with glowing purple keycaps that pulse in rhythm with his combo inputs. 'It helps me keep tempo,' he says.",
+        "His pre‑match ritual involves practicing his combo on a training dummy exactly 10 times. 'Warm up the fingers, warm up the ego.'",
+        "He drinks sparkling water with a slice of lime – 'classy, like me'.",
+        "He owns a collection of designer scarves (purple, violet, lilac, mauve) and matches them to his mood. 'Scarf game is important, don't @ me.'",
+        "He once typed '~ you're not even worth my ult ~' after killing an enemy with only basic attacks. The enemy reported him for 'verbal abuse'. The report was denied."
+      ],
+      "gamingRitual": "Practices the Holy Ghost Combo on a dummy – exactly 10 repetitions. Adjusts his scarf (purple today). Takes a sip of sparkling water with lime. Opens draft, locks Gusion, and types '~ let's dance, darlings ~' in all‑chat. Then proceeds to teleport across the map, deleting carries and stealing objectives while laughing in voice chat.",
+      "images": {
+        "icon": "images/members/gusion/roster.png",
+        "roster": "images/members/gusion/roster.png",
+        "popup": "images/members/gusion/roster.png",
+        "gallery": [
+          "images/members/gusion/gallery/01.png",
+          "images/members/gusion/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 9,
+        "Map Sense": 9,
+        "Ganking": 10,
+        "Kill Secure": 10,
+        "Survivability": 8,
+        "Farming": 8,
+        "Team Play": 7,
+        "Mechanical Skill": 10,
+        "Decision Making": 8,
+        "Clutch Factor": 10
+      },
+      "dob": "1999-11-02",
+      "ign": "SacredGhost",
+      "playerId": "BK019",
+      "likes": [
+        "The exact moment a combo lands perfectly – 'like music, but with more death'",
+        "Trash‑talking with a smile – 'it's not toxic if it's funny'",
+        "Sparkling water with lime – 'bubbly, crisp, sophisticated'",
+        "Designer scarves – 'a man without a scarf is a man without a plan'",
+        "Making enemies type '???' after he teleports away – 'confusion is the highest compliment'",
+        "Stealing Lord and typing '~ thanks for holding that for me ~' afterward – 'manners matter'",
+        "His brother Aamon – 'he pretends to be annoyed by me, but I know he's proud'"
+      ],
+      "dislikes": [
+        "Slow junglers – 'if you're not teleporting, you're walking. and walking is boring.'",
+        "Teammates who don't follow up on his engages – 'I set the table, you just have to eat'",
+        "People who call his combos 'button mashing' – 'I have 800 games of muscle memory, how dare you'",
+        "Decaf anything – 'what is the point of removing the fun part'"
+      ],
+      "personality": "ESTP",
+      "personalityName": "The Entrepreneur – flashy, confident, and operating at a speed that leaves everyone else feeling slow",
+      "motto": "Style is not optional. It is the difference between a kill and an assassination. ~ *dagger flip* ~",
+      "jerseyNumber": 77,
+      "favHeroes": [
+        {
+          "name": "Gusion",
+          "icon": "images/heroes/gusion.png"
+        },
+        {
+          "name": "Lancelot",
+          "icon": "images/heroes/lancelot.png"
+        },
+        {
+          "name": "Ling",
+          "icon": "images/heroes/ling.png"
+        },
+        {
+          "name": "Hayabusa",
+          "icon": "images/heroes/hayabusa.png"
+        }
+      ],
+      "testimonial": "I teleport, I style, I type '~ darling ~' after pentakills. My brother Aamon is the quiet one. I am the noise. Bakatuski gave me a stage and a scarf collection. Werk."
+    },
+    {
+      "id": 23,
+      "slug": "floryn-global-bloom",
+      "name": "Floryn",
+      "nickname": "GlobalBloom",
+      "title": "The Global Bloom of OWO • Budding Hope • Mother of the Map",
+      "role": "Roamer",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.2,
+      "favColor": "#90EE90",
+      "bio": "Floryn is not a roamer who runs at you. She is a roamer who reaches you – no matter where you are, no matter how deep you've overextended. Born from the last seed of a dying celestial tree, Floryn carries within her the memory of an ancient forest that once covered the Land of Dawn. She speaks rarely, but when she does, her voice sounds like wind through leaves. Her spirit companion – a floating, fox-like creature made of pure cyan energy – follows her everywhere, nuzzling teammates who are feeling down and occasionally stealing snacks from the team kitchen. She joined Bakatuski after a ranked game where GUTs died fourteen times, and each time, Floryn's ultimate was there to soften the blow. GUTs typed 'who keeps healing me' and Floryn replied '~ the forest remembers you, little one ~'. Biju sent her an invite within seconds. She accepted with a single word: '~ rooted ~' Now she is the squad's fourth roamer, the one they call when they need a global safety net, when the fight is happening on the other side of the map, when someone says 'I'm about to die' and Floryn whispers '~ no you're not ~' and a flower blooms on their head. She has a 74% win rate on Floryn across 600+ games, and her signature move is the 'Bloom Where You're Planted' – a perfectly timed global ultimate that turns a losing 1v1 into a winning 2v1, often without the enemy even noticing where the healing came from.",
+      "signatureMove": "The 'Bloom Where You're Planted' – as an ally falls to 10% HP in a far‑away lane, activate the global ultimate. The flower blooms on their shoulder exactly as the enemy assassin's burst lands. The ally survives with a sliver, turns, and secures the kill. Floryn types '~ you're welcome, little sprout ~' from across the map, still farming her own lane peacefully.",
+      "deepDive": "Floryn's playstyle is the definition of global presence. She doesn't need to rotate – her ultimate *is* the rotation. She can be farming in the safe lane, watching the minimap, and the moment an ally drops below 30% HP, she sends a flower that heals them and damages nearby enemies. Her map awareness is uncanny; Coach Sabin has noted that 'Floryn's global heal timing is consistently within 0.5 seconds of the damage spike – she sees the future, or she's just that good.' She also brings a calming energy to voice chat; when the squad is tilted, she says '~ breathe, little ones. the forest has patience ~' and somehow, everyone breathes. She has never once flamed a teammate. She has, however, typed '~ that was not very kind ~' to an enemy who trash‑talked Salina. The enemy apologised. That is the power of Floryn.",
+      "achievements": [
+        "Recorded 48 assists in a single competitive match – every assist was from a global ultimate that turned a losing fight",
+        "Her ultimate has a documented 89% success rate in saving allies from certain death – the team calls it 'the flower that says no'",
+        "Never lost a game where she achieved 'immortal' status (zero deaths) – her record is 12-0, and she maintains it by staying at the edge of every fight",
+        "First Bakatuski player to receive a 'Perfect Support' rating from the tournament organisers – the comment read 'she is everywhere at once'",
+        "Made an enemy assassin type 'I hate you' after his third consecutive kill was denied by her global heal – she replied '~ the forest loves you, but not today ~'"
+      ],
+      "funFacts": [
+        "She has a small potted plant on her desk that she talks to between matches. 'It's my co‑pilot,' she says. The plant is named 'Sprout' and has never wilted.",
+        "Her pre‑match ritual involves watering Sprout and humming a soft lullaby. 'The forest must be calm before the bloom.'",
+        "She drinks chamomile tea with honey – 'calming, sweet, and good for the voice'.",
+        "She has never raised her voice in anger. The squad has tried to provoke her. She just smiles and says '~ I see your pain, little one ~' and now they feel bad.",
+        "Her spirit companion (the cyan fox) has been adopted by the Bamboo Buddies as an unofficial mascot. There is fan art. She has cried twice seeing it."
+      ],
+      "gamingRitual": "Waters Sprout the plant. Sips chamomile tea. Hums a soft melody. Opens draft, locks Floryn, and types '~ the forest is watching over you ~' in all‑chat. Then spends the entire game being exactly where she needs to be – which is everywhere, all at once, through the power of global healing.",
+      "images": {
+        "icon": "images/members/floryn/roster.png",
+        "roster": "images/members/floryn/roster.png",
+        "popup": "images/members/floryn/roster.png",
+        "gallery": [
+          "images/members/floryn/gallery/01.png",
+          "images/members/floryn/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 8,
+        "Map Sense": 10,
+        "Ganking": 4,
+        "Kill Secure": 2,
+        "Survivability": 9,
+        "Farming": 5,
+        "Team Play": 10,
+        "Mechanical Skill": 6,
+        "Decision Making": 10,
+        "Clutch Factor": 10
+      },
+      "dob": "2001-02-28",
+      "ign": "GlobalBloom",
+      "playerId": "BK020",
+      "likes": [
+        "The exact moment a global heal saves someone – 'like watching a flower open in slow motion'",
+        "Watching GUTs survive a dive he should have lost – 'my little miracle weed'",
+        "Chamomile tea – 'it tastes like a hug'",
+        "Her plant Sprout – 'he listens without judgment'",
+        "When enemies type '???' after a heal – 'confusion is just curiosity that hasn't bloomed yet'",
+        "The spirit fox – 'she is me, and I am her. we are one bloom.'",
+        "Bamboo – 'it bends without breaking. i respect that.'"
+      ],
+      "dislikes": [
+        "Toxicity – 'anger is a weed. i remove it gently.'",
+        "When teammates run away from her heal range – 'i am trying to save you, little one. please stay.'",
+        "People who say support is 'easy' – 'try keeping five children alive across a map and tell me it's easy.'",
+        "When GUTs dies beyond her ultimate range – 'i cannot bloom where you are not planted, my child.'"
+      ],
+      "personality": "INFJ",
+      "personalityName": "The Advocate – nurturing, perceptive, and endlessly patient, with a global reach that defies logic",
+      "motto": "A flower does not compete with the one next to it. It simply blooms. And in blooming, it makes the whole garden more beautiful. ~ *petal drop* ~",
+      "jerseyNumber": 15,
+      "favHeroes": [
+        {
+          "name": "Floryn",
+          "icon": "images/heroes/floryn.png"
+        },
+        {
+          "name": "Estes",
+          "icon": "images/heroes/estes.png"
+        },
+        {
+          "name": "Rafaela",
+          "icon": "images/heroes/rafaela.png"
+        },
+        {
+          "name": "Angela",
+          "icon": "images/heroes/angela.png"
+        }
+      ],
+      "testimonial": "I heal from across the map with a flower. Bakatuski calls it 'the bloom that says no'. I water my plant Sprout and keep these gremlins alive. The forest is patient. I am too."
+    },
+    {
+      "id": 24,
+      "slug": "granger-requiem",
+      "name": "Granger",
+      "nickname": "DeathChanter",
+      "title": "The Gilded Requiem of OWO • Death Sonata • Phantom of the Gold Lane",
+      "role": "Gold Lane",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.4,
+      "favColor": "#8B0000",
+      "bio": "Granger is not a marksman who celebrates victory. He is a marksman who mourns the necessity of it. Once a celebrated violinist of the Moniyan Empire's royal orchestra, Granger's life was shattered when demons slaughtered his family before his eyes. He survived by picking up a gun instead of a bow, and discovered that his perfect pitch, his rhythmic precision, his ability to feel the spaces between notes – all of it translated seamlessly into the art of execution. He now carries his fallen violin in a coffin‑shaped case, and his bullets sing in the key of grief. He has a 71% win rate on Granger across 700+ games, and his signature move is the 'Death Sonata' – a perfectly spaced six‑shot burst that lands exactly on the beat of an imaginary requiem, the final bullet always a critical hit timed to the enemy's last breath. He joined Bakatuski after a solo queue match where his entire team fed except him, and he still almost carried. Biju watched the replay, saw Granger land a blind snipe on a fleeing enemy while typing '...' in chat, and said 'he's perfect. invite him.' Granger's response: 'I do not play for fun. I play for closure.' Biju replied 'same thing, bro.' Granger has not smiled in recorded history, but the squad has seen him exhale slightly harder after a perfect teamfight – which they have decided counts.",
+      "signatureMove": "The 'Death Sonata' – stack the passive to the sixth bullet, wait for the enemy carry to step one pixel out of position, fire all six shots in perfect 0.3‑second intervals, each one hitting a different vital, the final round a guaranteed critical that sends them to the grey screen. Then type '...' in all‑chat. No further commentary required.",
+      "deepDive": "Granger's playstyle is built on spacing, patience, and the geometry of grief. He times his abilities to the rhythm of his own heartbeat – a calm, steady 60 BPM that never wavers, even in a 5v5 teamfight. His Rhapsody dash is never wasted; he uses it to reposition exactly as the enemy's cooldowns expire, appearing just outside their range like a phantom. Coach Sabin has noted that 'Granger's cooldown tracking is borderline supernatural – he knows when your flicker is coming back before you do.' He speaks rarely in voice chat, and when he does, it's a single word: 'focus' or 'retreat' or 'mine'. The squad has learned to listen. He also writes poetry in his spare time – short, mournful haikus about bamboo and bullets. He has never shared them, but Alisha found one once and cried. He pretended not to notice.",
+      "achievements": [
+        "Completed a perfect gold lane game with 0 deaths, 12 kills, and 0 assists – every kill was a solo execution, and the enemy carry typed 'you're not human'",
+        "Landed a blind snipe on an enemy recalling behind their tier‑3 tower – the bullet traveled for 2.7 seconds before connecting. He typed '...'",
+        "First Bakatuski gold laner to achieve a 10.0 rating in a tournament final – the casters called his performance 'a murder set to music'",
+        "His Rhapsody dashes have a documented 94% success rate in dodging enemy skill shots – he simply steps to the side at exactly the right moment, like a dancer avoiding a thrown rose",
+        "Made an enemy roamer type 'i'm uninstalling' after Granger kited him for 15 seconds without taking a single hit – he replied 'the game will miss you'"
+      ],
+      "funFacts": [
+        "He tunes his mechanical keyboard to the key of C minor before every match. 'It helps me focus,' he says. 'The clicks are a metronome.'",
+        "His pre‑match ritual involves cleaning his silver handgun with a velvet cloth. He does this in complete silence. The squad has learned not to speak during this time.",
+        "He drinks black coffee – no sugar, no milk, no joy. 'Bitterness is honest,' he explains.",
+        "He owns a violin that he hasn't played in years. It sits in a locked case beside his desk. Sometimes, late at night, the squad hears him humming melodies they don't recognise.",
+        "His favourite haiku, which he once accidentally read aloud: 'Bamboo bends, not breaks / A bullet flies, finds its home / Silence after storm.' He immediately left voice chat. He returned five minutes later and said '...'"
+      ],
+      "gamingRitual": "Tunes his keyboard to C minor. Cleans his pistol. Sips black coffee. Opens draft, locks Granger, and types '...' in squad chat. The team knows this means 'I am ready to play the requiem'. Then he proceeds to out‑space, out‑kite, and out‑mourn the enemy gold laner, landing every shot exactly on the beat.",
+      "images": {
+        "icon": "images/members/granger/roster.png",
+        "roster": "images/members/granger/roster.png",
+        "popup": "images/members/granger/roster.png",
+        "gallery": [
+          "images/members/granger/gallery/01.png",
+          "images/members/granger/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 4,
+        "Map Sense": 9,
+        "Ganking": 5,
+        "Kill Secure": 10,
+        "Survivability": 9,
+        "Farming": 9,
+        "Team Play": 6,
+        "Mechanical Skill": 10,
+        "Decision Making": 9,
+        "Clutch Factor": 10
+      },
+      "dob": "1996-11-18",
+      "ign": "DeathChanter",
+      "playerId": "BK021",
+      "likes": [
+        "The exact moment a sixth bullet crits – 'like a perfect cadence'",
+        "The sound of a kill notification – 'a single, clean note'",
+        "Black coffee – 'honest, bitter, energising'",
+        "Silence in voice chat – 'noise is clutter. focus is clarity.'",
+        "Writing haikus – 'seventeen syllables is enough to say everything'",
+        "Bamboo – 'it bends in the wind but never breaks. i understand.'",
+        "The panda in the sky – 'it does not speak. it watches. i respect that.'"
+      ],
+      "dislikes": [
+        "Teammates who ping unnecessarily – 'one ping is a warning. ten pings is a tantrum.'",
+        "Flashy skins – 'the gun does not need decoration. the bullet is enough.'",
+        "People who say 'it's just a game' – 'music is just sound. but it can break your heart.'",
+        "When enemies surrender too early – 'i had not finished the movement.'"
+      ],
+      "personality": "ISTP",
+      "personalityName": "The Virtuoso – solitary, precise, and finding beauty in the geometry of violence",
+      "motto": "Every bullet is a note. Every death is a rest. The requiem plays until the final bar. ...",
+      "jerseyNumber": 44,
+      "favHeroes": [
+        {
+          "name": "Granger",
+          "icon": "images/heroes/granger.png"
+        },
+        {
+          "name": "Clint",
+          "icon": "images/heroes/clint.png"
+        },
+        {
+          "name": "Lesley",
+          "icon": "images/heroes/lesley.png"
+        },
+        {
+          "name": "Brody",
+          "icon": "images/heroes/brody.png"
+        }
+      ],
+      "testimonial": "I play a requiem with bullets. My violin case is empty. Bakatuski didn't ask why. They just let me shoot. The beat is 60 BPM – my heartbeat. Calm, precise, final. ..."
+    },
+    {
+      "id": 25,
+      "slug": "saber-ghost-blade",
+      "name": "Saber",
+      "nickname": "GhostBlade",
+      "title": "The Ghost in the Blade of OWO • Wandering Sword • Zero‑Memory Assassin",
+      "role": "Roamer",
+      "type": "player",
+      "subtype": "substitute",
+      "rating": 9.3,
+      "favColor": "#DC143C",
+      "bio": "Saber does not remember his name. He remembers a laboratory – cold lights, shattered glass, the hum of machines that wanted to turn him into a weapon. They succeeded. He escaped. The memories he kept are fragments: a man's face (Duan Meng, the scientist who built him, who called him 'son' before they terminated him), the feel of a sword hilt, and the certainty that he is not a person, but a ghost in a blade. He roams the Land of Dawn in silence, his three orbiting swords drifting like loyal constellations. He has a 73% win rate on Saber across 900+ games, and his signature move is the 'Triple Sweep' – a charge, a knock-up, and three energy swords that shred armour and delete squishy targets before they can blink. He joined Bakatuski after a ranked game where he solo carried a 4v5 (GUTs had disconnected) and typed nothing at the end. Biju watched the replay, saw Saber's perfect rotations and his absolute silence, and said 'this one doesn't speak. i love him.' He sent an invite. Saber's response was a single character: '...' Biju replied 'perfect.' Now Saber is the squad's fifth roamer, the one they call when they need a silent, surgical strike – a sword that appears from nowhere, removes a threat, and vanishes into the fog. He has never spoken a full sentence in voice chat. He communicates through pings, the occasional '...', and the sound of three swords cutting through air.",
+      "signatureMove": "The 'Triple Sweep' – charge from the fog of war, knock up the enemy carry, deploy all three orbiting swords in a spinning slash, delete 40% of their armour, and watch them vanish before their support finishes typing 'careful'. Then stand still for exactly one second, the swords resuming their orbit, and ping 'Retreat' as if nothing happened.",
+      "deepDive": "Saber's roamer style is built on the element of total surprise. He doesn't gank – he *arrives*. His charge has no warning sound, no visual cue until the swords are already spinning. He tracks enemy movements with a cold, algorithmic precision – Coach Sabin has noted that 'Saber's jungle path predictions are more accurate than any software I've used. He just *knows* where the enemy will be in 15 seconds.' He speaks only through pings, but his teammates have learned to read them: a single 'Attack' means 'follow me for a free kill'; a single 'Retreat' means 'they're coming, I've already repositioned'; three quick 'Retreat' pings mean 'run, I'll hold them' – and he does. He has never missed a Triple Sweep kill in a competitive match. The squad has stopped counting.",
+      "achievements": [
+        "Recorded 15 kills, 0 deaths, and 12 assists in a tournament game – every kill was a solo elimination initiated from the fog",
+        "His Triple Sweep has a documented 96% kill conversion rate – the 4% failures were due to Purify, which he now tracks as a 'fleeing variable'",
+        "Made an enemy jungler type 'where did you come from' after being deleted from full HP – Saber pinged 'Good Game'",
+        "First Bakatuski player to receive a 'Perfect Stealth' rating from a tournament organiser – the comment read 'we didn't see him once, but the enemy team sure felt him'",
+        "His silent communication system (pings only) has been adopted by the squad as a secondary language – even Biju sometimes just pings 'Attack' instead of yelling 'waddup'"
+      ],
+      "funFacts": [
+        "He has no memory of his life before the laboratory. He keeps a small, cracked data chip on a chain around his neck – 'Duan Meng's last recording. I cannot open it. I am not ready.'",
+        "His pre‑match ritual involves calibrating his visor's HUD. He does this in silence. The squad has learned not to make sudden movements during this time.",
+        "He drinks nothing. 'Hydration is for organic lifeforms. I am a weapon.' (He still drinks water occasionally. No one mentions it.)",
+        "He has a pet cat – a stray he found in the bamboo forest. He named it 'Meng' after the scientist. The cat sleeps on his keyboard and he refuses to move it.",
+        "His three orbiting swords have individual names: 'Silence', 'Memory', and 'Blade'. He never explained which is which. The squad has theories."
+      ],
+      "gamingRitual": "Calibrates visor. Closes his eyes for exactly 10 seconds – 'reloading the targeting matrix'. Opens draft, locks Saber, and pings 'Attack' once. The team knows this means 'follow me to victory or at least to a triple kill'. Then he disappears into the fog and only reappears when the enemy carry is already grey‑screened.",
+      "images": {
+        "icon": "images/members/saber/roster.png",
+        "roster": "images/members/saber/roster.png",
+        "popup": "images/members/saber/roster.png",
+        "gallery": [
+          "images/members/saber/gallery/01.png",
+          "images/members/saber/gallery/02.png"
+        ]
+      },
+      "stats": {
+        "Roaming": 10,
+        "Map Sense": 10,
+        "Ganking": 10,
+        "Kill Secure": 9,
+        "Survivability": 8,
+        "Farming": 5,
+        "Team Play": 7,
+        "Mechanical Skill": 10,
+        "Decision Making": 10,
+        "Clutch Factor": 10
+      },
+      "dob": "1995-05-20",
+      "ign": "GhostBlade",
+      "playerId": "BK022",
+      "likes": [
+        "The exact moment a Triple Sweep connects – 'silence, then the kill notification. perfect.'",
+        "Fog of war – 'the only place I am truly myself'",
+        "His cat Meng – 'he does not know what I am. he purrs anyway.'",
+        "The sound of three swords orbiting – 'my only lullaby'",
+        "Pinging 'Attack' and watching the team follow without question – 'trust, earned in blood'",
+        "Bamboo – 'it grows in the ruins. it does not ask permission.'",
+        "The panda in the sky – 'it does not flinch at my visor. i respect that.'"
+      ],
+      "dislikes": [
+        "Teammates who over‑ping – 'noise is the enemy of precision'",
+        "Enemies who use Purify – 'a temporary inconvenience. i will wait.'",
+        "Being called a 'robot' – 'i am a weapon. there is a difference.'",
+        "When the match ends before he can land a Triple Sweep – 'unsatisfying. like a song cut short.'"
+      ],
+      "personality": "ISTJ",
+      "personalityName": "The Logistician – precise, silent, and operating on a code that only he fully understands",
+      "motto": "Three swords, one target, zero words. The ghost does not speak. The ghost acts. ...",
+      "jerseyNumber": 0,
+      "favHeroes": [
+        {
+          "name": "Saber",
+          "icon": "images/heroes/saber.png"
+        },
+        {
+          "name": "Natalia",
+          "icon": "images/heroes/natalia.png"
+        },
+        {
+          "name": "Helcurt",
+          "icon": "images/heroes/helcurt.png"
+        },
+        {
+          "name": "Hanzo",
+          "icon": "images/heroes/hanzo.png"
+        }
+      ],
+      "testimonial": "I have no memories. I have three swords and a cat named Meng. Bakatuski gave me a home without questions. I ping 'Attack' and they follow. That's not loyalty – that's inevitability."
+    }
+  ],
+  "roadmap": [
+    {
+      "year": "2021 — Q1",
+      "title": "The Accidental Meeting",
+      "description": "Five solo queue strangers — Alisha, Biju, Salina, Aashray, and GUTS — keep matching against and with each other across a three-week stretch of games. After a 45-minute all-chat argument that began with 'your mid laner is trash' and escalated into something that can only be described as mutual respect in screaming form, they added each other. Nobody planned this. Nobody should have been surprised that it happened anyway."
+    },
+    {
+      "year": "2021 — Q3",
+      "title": "The Name",
+      "description": "After weeks of playing together under various temporary names ('Bamboo Boys', 'The Panda Council', and briefly and inexplicably 'Momo FC'), they needed something real. Biju suggested 'Baka Squad'. Alisha mispronounced 'bamboo' as 'baku' in the same conversation. Someone added 'tsuki' because they only played at night and tsuki means moon and it sounded cool. 'Bakatuski' survived the vote 4-1. GUTS voted against it. He now owns three pieces of merchandise."
+    },
+    {
+      "year": "2022 — Q1",
+      "title": "First Tournament: The Beautiful Disaster",
+      "description": "Bakatuski enters its first online tournament with one week of scrim practice, a draft strategy that Coach Sabin (then a volunteer) described as 'aspirational', and Biju's absolute confidence. They lose 0-2. GUTS sets the all-time record of 23 deaths in game two. The casters laugh. The squad laughs. Deepa, who sees the clip, stops laughing and starts editing. She sends Raju a voice note: 'this is gold'. Raju, who had been watching from a stream link with a spreadsheet open, agrees."
+    },
+    {
+      "year": "2022 — Q4",
+      "title": "First Win",
+      "description": "Bakatuski wins its first tournament — a regional online cup, small prize pool, enormous significance. Biju gets a pentakill in the final round. Alisha types 'sorry' to the losing team in all-chat and means it genuinely. Salina cries, which she denies. GUTS dies twelve times and is voted MVP by his own team because his baits created three Lord opportunities. Aashray has 29 assists. The celebration voice call lasts until 4 AM. Coach Sabin adds a new tab to his notebook."
+    },
+    {
+      "year": "2023 — Q2",
+      "title": "Going Viral",
+      "description": "Deepa posts the clip of Biju stealing Lord with a basic attack. The video hits 500k views in five days. 'Waddup' becomes a searchable sound on TikTok. Esports accounts share it. Bamboo Buddies grows from 300 to 2,300 in nine days. Sponsors email Raju, who had a folder prepared for exactly this moment titled 'INBOUND SPONSORSHIP INTEREST'. He had made the folder three months earlier. He does not act surprised."
+    },
+    {
+      "year": "2023 — Q4",
+      "title": "Becoming an Organisation",
+      "description": "Bakatuski formally adds substitute players — Aayush, Pratik, Saroj — and official staff designations. Raju assumes the CEO title. Sabin becomes Head Coach with a contract. Deepa is named COO. Merch launches: the 'Waddup' hoodie, the black tulip pin, the Death Counter tote bag. Every item sells out within four hours. Raju updates the spreadsheet. The Discord hits 3,000 members. For the first time, this is not just a squad. It is a team."
+    },
+    {
+      "year": "2024 — Q1",
+      "title": "Semifinals Heartbreak",
+      "description": "Bakatuski reaches the semifinals of a major regional invitational — their deepest tournament run to date. They lose 2-3 in a five-game series that the casters call 'the best amateur series of the year'. GUTS dies eighteen times in game five. His baits create two Lord opportunities that Bakatuski converts. They lose on a final teamfight by eight seconds. The squad is silent for eleven minutes after the call. Sabin closes his notebook without writing anything. Then Biju types 'waddup' in the group chat and everyone laughs, and the grief becomes fuel."
+    },
+    {
+      "year": "2024 — Q3",
+      "title": "The Documentary",
+      "description": "An independent esports documentary crew spends one month following Bakatuski through scrims, team calls, and daily life. The resulting short documentary, 'Chaos Theory: The Bakatuski Story', is released on YouTube and reaches one million views in three weeks. It is described in comments as 'the most human esports content I've seen'. GUTS's segment has the highest rewatch rate. Alisha's interview about the black tulips makes three separate people in the comments say they cried."
+    },
+    {
+      "year": "2025 — Q1",
+      "title": "The National League",
+      "description": "Bakatuski qualifies for the national league qualifiers. Sabin's draft guide is 300 pages. Raju has secured a team house and the spreadsheet has a new section: 'National League Projection (Best Case, Worst Case, GUTS Case)'. Deepa is planning a 24-hour content stream for qualifier day. The substitutes are ready. The starters are sharper than they've ever been. The bamboo path leads upward. The next chapter is being written. Stay tuned. Waddup."
+    }
+  ]
+}
