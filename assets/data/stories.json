@@ -1862,6 +1862,145 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 14,
+      "hero": "Suyou",
+      "slug": "suyou",
+      "cover": "images/stories_covers/suyou_cover.png",
+      "folder": "images/lores/suyou/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Face Behind the Mask",
+          "shortDesc": "Suyou introduces himself as the last exorcist of Zhu'an, the final keeper of the mask of the Immortal Nuo. He carries the burden of his people's faith and the weight of a deity's power.",
+          "fullDesc": "\"I am the last. The final exorcist of the Nuo. The final keeper of the mask. The final vessel of a power that has been passed down through generations since before the written word. They look at me and see a god. They look at my mask and see divinity. They do not see the man behind the mask—the man who bleeds, who doubts, who fears that he is not worthy of the faith they have placed in him. But that is the burden of the exorcist. That is the weight of the mask. To be the bridge between the mortal and the divine, the vessel through which the power of the Immortal Nuo flows into the world. I did not choose this burden. I was born into it. And I will carry it until the day I die—and perhaps beyond.\" — Suyou, speaking to the mask before a ritual. Zhu'an was once a bustling city of exorcists, its masks and rituals the pride of the land. But the echoes of malice shattered its peace. One by one the exorcists fell. Suyou is the last. He walks the mortal plane, purging evil and safeguarding hope, a wandering swordsman with a god's mask on his face.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Cradle of Exorcism",
+          "shortDesc": "Zhu'an: a city where the living and dead coexisted, and exorcists were chosen from birth. Suyou was born into an ancient lineage and trained from childhood to wear the mask.",
+          "fullDesc": "Zhu'an was not built on conquest or commerce. It was built on something older—a place where the boundaries between worlds were thin, and exorcists walked between them. The Temple of Nuo stood at the city's heart, its walls carved with images of the Immortal Nuo's battles. The exorcists were chosen from birth, their bloodlines traced to the founders. Suyou was born into one of the oldest families. His parents were among the finest exorcists of their generation. They trained him from the moment he could walk. \"The mask is not a decoration,\" his father said. \"It is a burden. It will take everything from you. Your youth. Your freedom. Your life.\" Suyou did not understand then. He would learn.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Temple of Nuo and the Ritual of the Mask",
+          "shortDesc": "At twelve, Suyou underwent the sacred ritual. The mask fused to his face, and he saw a vision of the Immortal Nuo and the darkness that would one day consume his home.",
+          "fullDesc": "The Temple of Nuo was a labyrinth of halls, altars, and hidden chambers. At its centre was the Chamber of the Mask, where the sacred relics were stored. When Suyou was twelve, the elders deemed him ready. He knelt on cold stone as incense filled the air and chanting echoed. The mask was placed on his face—dark polished wood, carved with shifting patterns. It pressed against his skin, sank into his bones. A vision came: the Immortal Nuo as a vast, transcendent force. Battles fought, victories, defeats. The faces of exorcists who came before him. And the darkness—the same darkness that would one day consume Zhu'an. He opened his eyes. The mask had sealed itself to his face. \"You are ready,\" the chief elder said. \"You are the vessel of the Immortal Nuo.\"",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Night of Falling Stars",
+          "shortDesc": "When Suyou was seventeen, the darkness from the Shadow Swamp overwhelmed Zhu'an. His parents fell defending the temple. Suyou took up the mask and became the last exorcist.",
+          "fullDesc": "The darkness came from the south, from the Shadow Swamp—a wave of malevolent energy that swept through Zhu'an like a flood. People screamed and died. The exorcists fought. Suyou's parents stood at the gate of the Temple of Nuo, masks glowing, blades flashing. They poured everything into the barrier. But the darkness was endless. Suyou heard his mother scream, his father's voice raised in a final incantation—then silence. He ran to them, but they lay broken, masks cracked. He picked up the mask of the Immortal Nuo—his father's mask—and placed it on his face. Power surged through him, hot and cold. He raised his blade and charged. The battle lasted three days. He drove the darkness back. The city was ruins. The exorcists were dead. Suyou walked away alone.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Anatomy of the Exorcist",
+          "shortDesc": "A detailed description of Suyou: lean build, pale skin, long dark hair streaked with silver, traditional Zhu'an exorcist robes in dark blue and purple, the mask of the Immortal Nuo fused to his face, and the trident-like Blade of Nuo.",
+          "fullDesc": "To look at Suyou is to see a man shaped by loss and duty. He stands about 175 centimetres, lean and wiry—built for explosive movement and precise strikes. His face is hidden behind the mask of the Immortal Nuo: dark polished wood with intricate shifting patterns, narrow eye slits, a grim mouth. Beneath, his features are sharp and angular, his skin pale and almost luminous. A faint blue glow emanates from the mask in the presence of evil. His hair is long and dark, falling past his shoulders, streaked with silver from channelling the deity's power. He wears traditional Zhu'an exorcist robes—dark blue and purple, embroidered with silver stars and moons, loose but reinforced with protective enchantments. A heavy belt holds a ritual short sword and a bundle of exorcism scrolls. His boots are soft and silent. In his hands, the Blade of Nuo: a three-pronged trident of unbreakable wood and unknown metal, glowing with blue light. His aura is calm, focused, sad—the presence of a god barely contained.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Sacred Relics and the Blade of Nuo",
+          "shortDesc": "The mask is the source of Suyou's power; the trident is the expression of it. Both have been passed down through generations, each wearer adding to their strength.",
+          "fullDesc": "The mask of the Immortal Nuo is not the only sacred relic Suyou carries. He also wields the Blade of Nuo—a ritual trident with three prongs representing past, present, and future. The shaft is made of dark, unbreakable wood; the prongs are forged from a metal that does not exist in the Land of Dawn, glowing with faint blue light and humming with the deity's power. When Suyou strikes an evil spirit, the prongs disrupt its connection to the world, forcing it to confront its own dissolution. The trident was given to him by his father, passed down through generations. When Suyou holds it, he feels the presence of his ancestors—their hopes, fears, sacrifices. He is not alone. The mask is the source; the blade is the expression. Together, they make him the Mask of the Immortal.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Abilities of the Mask of the Immortal",
+          "shortDesc": "Suyou can shift between Mortal and Immortal forms. His techniques include Blade Surge (mobility/stun), Soul Sever (damage/cleave), and Evil Queller (slow/snipe).",
+          "fullDesc": "Suyou's combat style is defined by his ability to shift between two forms. Tap-casting any skill puts him in Mortal form, granting movement speed and faster attacks for chasing and dodging. Hold-casting puts him in Immortal form, increasing basic attack damage to 125% and granting damage reduction that scales with his physical attack (up to 40%). Blade Surge (Skill 1): tap-cast throws the weapon and blinks to it for a slashing attack; hold-cast charges forward, stunning enemies in a rectangle. Soul Sever (Skill 2): tap-cast performs a sweeping attack dealing bonus damage based on the target's lost HP; hold-cast performs three cleaves, recovering HP on the final strike. Evil Queller (Skill 3): tap-cast glides backward and swings, slowing enemies; hold-cast charges a long-range arrow that deals massive damage to the first enemy hit. Suyou is a master of adaptation, switching forms to meet any situation.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Road to Redemption",
+          "shortDesc": "After Zhu'an's fall, Suyou wandered the Land of Dawn, performing exorcisms and protecting villages. He accepted gratitude but never sought it, carrying his burden alone.",
+          "fullDesc": "After the fall of Zhu'an, Suyou wandered the Land of Dawn, seeking to make amends for his failure. He could not bring back his city or his parents, but he could protect others. He travelled from village to village, exorcising haunted houses, purifying cursed fields, banishing evil spirits. The people called him the Mask of the Immortal. They did not know his name or his face, but they knew his power. He accepted their gratitude but did not seek it. He was not a hero; he was an exorcist doing his duty. The road was long and lonely. The mask isolated him—people saw a god, not a man. On lonely nights, he asked the mask, \"Am I worthy?\" The mask did not answer. But he had to be enough. He was the last.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Faith of the People",
+          "shortDesc": "In a village on the edge of the Agelta Drylands, Suyou learned that the power of Nuo comes from the people's faith. Their belief makes the mask more than just a mask.",
+          "fullDesc": "The power of the Immortal Nuo comes from the faith of the people. Without their belief, the mask is just a mask. Suyou learned this in a small village on the edge of the Agelta Drylands, where a demon had terrorised the locals for months. The people were sceptical—they had seen charlatans before. \"Why should we believe you?\" the village elder asked. Suyou touched his mask. \"Because I am the last exorcist of Zhu'an. Because I have faced darkness you cannot imagine. Because I carry the power of the Immortal Nuo. And because I have not failed yet.\" He performed the ritual, channelled the deity's power, drove the demon out. The people watched, their fear turning to awe. When he left, the elder asked how to repay him. \"Have faith,\" Suyou said. \"Believe that the darkness can be defeated. That is all I need.\"",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Mask and the Man",
+          "shortDesc": "Suyou has worn the mask so long he forgets his own face. He wonders if the mask has consumed him—but the faith of the people reminds him he is still human.",
+          "fullDesc": "Suyou has worn the mask for so long that he sometimes forgets what his face looks like. He has not seen his own reflection in years. He does not know if he could remove the mask even if he wanted to—the ritual fused it to his skin. He wonders if there is anything left of the man he used to be. Has the mask consumed him? Is he now just a vessel, a puppet of the deity? But then he meets people like the villagers of the Agelta Drylands—people who are afraid, desperate, needing someone to believe in. And he knows he is still himself. He is still Suyou. The mask is part of him, but not all of him. The people's faith—their hope—keeps him human. He has not lost himself. Not yet.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Philosophy of the Exorcist",
+          "shortDesc": "Suyou's guiding beliefs: the power of Nuo comes from the people's faith, duty to protect the innocent, and humility in the face of powers greater than himself.",
+          "fullDesc": "Suyou does not consider himself a philosopher. He is an exorcist, a wanderer, a survivor. But over the years he has developed a philosophy that guides him. \"The power of Nuo comes from the faith of the people.\" Without their belief, he is nothing. He exists to serve them, not the other way around. He believes in duty—not blind obedience, but the deep abiding duty of a protector to those he has sworn to protect. He is the last exorcist of Zhu'an, and he will carry that burden until he dies. He believes in humility. The mask is a symbol of his power but also a reminder of his limitations. He is not a god; he is a man. He can bleed, fail, die. \"The strength to change the world might not be something you're born with—it might be something you earn, one choice at a time, one act of kindness at a time, one step at a time.\"",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Bond with the People of Zhu'an",
+          "shortDesc": "The survivors of Zhu'an are scattered as refugees. Suyou searches for them, offering comfort. He hopes one day to rebuild, but for now he protects them from afar.",
+          "fullDesc": "The people of Zhu'an are scattered now—refugees in a world that does not want them. Some have found new homes; others live on the margins, forgotten and alone. Suyou searches for them whenever he can, offering what comfort he can provide. He does not tell them who he is. The mask would give him away, and he does not want their gratitude. He simply wants to know they are safe. \"I am the last of my kind,\" he says. \"But I am not the last of my people. They live on, in other cities, in other lands, in the memories we carry.\" He hopes one day to rebuild Zhu'an, to restore the exorcists, to make the mask unnecessary. But that day is not today. Today there are demons to fight, rituals to perform, people to protect.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Mask of the Immortal",
+          "shortDesc": "Suyou does not know what the future holds, but he will keep fighting. He is the last exorcist, the wandering mask, the vessel of a god and the hope of a people.",
+          "fullDesc": "Suyou does not know what the future holds. He does not know if he will ever see the end of the darkness, if he will ever remove the mask, if he will ever find peace. But he knows that he will keep fighting. He will keep wandering. He will keep protecting the people who need him, for as long as his body allows. He is Suyou, the Mask of the Immortal. He is the last exorcist of Zhu'an, the vessel of the Immortal Nuo, the wanderer who walks the mortal plane with a god's mask on his face and a people's faith in his heart. He is not a hero. He will never be a hero. But he is not a villain either. He is an exorcist, a survivor, a protector. And he will never stop wandering.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Face That No One Sees",
+          "shortDesc": "Alone in the Cadia Riverlands, Suyou removes his mask and looks at the night sky. He puts it back on and walks into the darkness—the last exorcist still wandering.",
+          "fullDesc": "\"I am the last descendant of the Exorcists of Nuo. I carry the power of the immortal deity within my body. I use it to guide the people toward enlightenment. That is my duty. That is my purpose. The strength to change the world might not be something you're born with—it might be something you earn, one choice at a time, one act of kindness at a time, one step at a time.\" — Suyou, speaking to a child who asked why he wore a mask. The night is quiet in the Cadia Riverlands. Suyou sits on a rock, his mask in his hands, his face exposed to the night air. He does not look in a mirror. He knows his face is not the face of the man he used to be. The mask has changed him inside and out. But he knows he is still himself. He puts the mask back on. The power flows through him, warm and familiar. He stands, adjusts his blade, and looks out at the world. There is still so much to do. He walks into the night, mask glowing faintly, blade humming. The last exorcist of Zhu'an is still wandering.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Suyou's Powers",
+          "shortDesc": "Detailed breakdown of Transient Immortal Buff, Blade Surge, Soul Sever, Evil Queller, and the exorcist's aura.",
+          "fullDesc": "The Nature of His Power: borrowed from the Immortal Nuo. The mask is the source; the blade is the expression. The power is tied to the faith of the people.\n\nTransient Immortal Buff (Passive): tap-cast skills grant Mortal form (+40 Movement Speed, faster basic attacks); hold-cast skills grant Immortal form (+25% basic attack damage, 20% Damage Reduction + up to 40% more from Physical Attack).\n\nBlade Surge (Skill 1): tap-cast throws weapon and blinks to it, slashing opposite direction; hold-cast charges forward, stunning enemies in a rectangle.\n\nSoul Sever (Skill 2): tap-cast sweeping attack deals bonus damage based on target's lost HP; hold-cast three cleaves, recovering HP on final strike.\n\nEvil Queller (Skill 3): tap-cast glides backward and swings, slowing enemies; hold-cast charges an arrow that snipes the first enemy hit.\n\nThe Aura of the Exorcist (Passive): a calm, focused presence that reassures allies and unsettles evil spirits.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Mask of the Immortal",
+          "shortDesc": "Suyou will carry the mask and the burden forever, not because he wants to, but because someone must stand between the darkness and the light.",
+          "fullDesc": "Suyou. Mask of the Immortal. Last Exorcist of Zhu'an. The titles accumulate, each one a weight, each one a reminder of the burden he carries and the battles he has fought. He was born in a city of exorcists, the last in a line that stretched back centuries. He was trained to wear the mask, to channel the power of the Immortal Nuo, to protect the people from the darkness. The darkness came. His parents died. His city fell. He was the only one left. He has been wandering ever since, performing exorcisms, protecting the innocent, safeguarding the hopes of the future. He does not know if he will ever see the end. He does not know if he will ever find peace. But he knows he will keep fighting. He will carry the mask and the burden forever. Not because he wants to. Because someone must stand between the darkness and the light. And Suyou, the last exorcist of Zhu'an, has decided that someone will be him.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
