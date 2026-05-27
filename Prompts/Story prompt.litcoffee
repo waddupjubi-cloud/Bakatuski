@@ -155,7 +155,7 @@ in Short
 Continue each [Chapter X, Panel Y] with exact character references—full name, precise hair-style/color, eye color/shape, facial features, skin tone, clothing details, and pose. Include unique panel layout: setting, action, props, camera angle, and composition that differs from all previous panels. Add dialogue/captions with specific speech bubble style and exact text. Specify art style, color palette, mood, and lighting. Track progress using a simple system: DONE [items completed], ON QUEUE [next], PENDING [awaiting]. Ensure each panel is visually and narratively distinct from all others—no duplicates. Apply safety check: avoid extreme destruction, disintegration, or violence language; replace with symbolic/metaphorical phrasing where needed; emphasize emotional conflict over graphic harm. Keep titles/headings bold and sections clearly layered.
 
 
-Final Note Prompt
+Continue Final Note with
 
 Make sure in the final note prompt have a perfect blend of their half body image like an ink washed letter art and much more cool with signature and stuffs like that. Also a seperate section for their weapon and power image okay. With Very indepth emotions and Hand Written Text that is like a Note from the character to the world as an aspiring letter and how they have lived. Also make it very emotional and professional that suits the character. Original as possible but that represents the character. You might also add one quote in between which is humorous that the character cracks as a joke. now lets make it. The Whole Final Note must actually have aesthetic of that of the character.
 

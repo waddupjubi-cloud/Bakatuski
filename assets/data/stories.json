@@ -2001,6 +2001,284 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 15,
+      "hero": "Alucard",
+      "slug": "alucard",
+      "cover": "images/stories_covers/alucard_cover.png",
+      "folder": "images/lores/alucard/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of a Name",
+          "shortDesc": "Alucard introduces himself as a demon hunter who carries the weight of his father's dishonoured name and the corruption in his arm. He hunts to honour the fallen Second Regiment.",
+          "fullDesc": "\"The empire remembers my father as a fool. I remember him as a hero. One of these memories will outlive the other, and I intend to make certain it is mine.\" — Alucard, speaking to a grave that bears no name. There is a particular kind of silence that falls over a battlefield when the fighting is done—the silence of exhaustion, of blood soaking into soil. Alucard has known this silence for most of his life. His name is a joke: Dracula spelled backward, the life-drinker, the monster who hunts monsters. He did not choose it. Soldiers gave it to him after watching him fight, noticing how his wounds closed too quickly and his strength returned too fast. He carries the corruption in his right arm, sealed by a magical gauntlet, and he hunts the demons that killed his father and destroyed the Second Regiment. This is his story.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Second Regiment's Last Dawn",
+          "shortDesc": "Alucard's childhood in the shadow of his father Commander Arton's regiment. His mother died early. He learned swordplay from the lieutenants and watched the regiment march to its doom at the Southern Gate.",
+          "fullDesc": "Commander Arton was a giant to young Alucard—not just in stature but in the quiet, unshakeable certainty he radiated. He built the Second Regiment from common recruits, men with grit and something to prove. Alucard's mother was a healer who died giving birth to a stillborn sister when he was four. After that, the regiment became his family. He learned swordplay from Lieutenants Marik and Voss, tactics from watching his father command. The demons came on a night Alucard calls \"the night the sky bled.\" A scout named Derrick pulled him from his tent, threw him on a horse, and told him to ride north. Alucard looked back at the flames and heard the screams. The Second Regiment was destroyed. Commander Arton's body was never recovered. The empire called him a deserter. Alucard learned the truth years later: the regiment was betrayed by a noble house using them as pawns. He was seven years old.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Monastery of Light and the Secret Mentor",
+          "shortDesc": "Alucard was taken in by the Monastery of Light. There he was secretly mentored by Tigreal, his father's closest friend, who taught him the truth and the skills to survive.",
+          "fullDesc": "The Monastery of Light is a harsh place on the northern slopes of the Moniyan highlands. Alucard arrived half-frozen, haunted, the smallest child in his cohort but also the angriest. He trained with ferocious self-destructive energy. What saved him was Tigreal, the Paladin of Light—who was not supposed to be there. Tigreal had served in the Second Regiment as Arton's closest friend. He had been reassigned before the battle, a move engineered to remove him. He knew the truth about the betrayal. He could not tell young Alucard, but he taught him—in the shadows, in secret—how to read opponents, conserve energy, turn momentum. He taught Alucard that his father was a hero, not a fool. That knowledge became the foundation upon which Alucard built himself. He was not fighting for the Church or the empire. He was fighting for his father's memory and the honour of the fallen.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Demon-Hunting Mission That Went Wrong",
+          "shortDesc": "At sixteen, Alucard's first solo mission led him to a demon far stronger than expected. In the battle, his arm was corrupted by Abyssal energy, changing him forever.",
+          "fullDesc": "The mission seemed straightforward: eliminate a minor Abyssal scout near an old fortress. Alucard found the demon too quickly. It was not a scout—it was a massive, chitinous beast with claws like scythes. The fight was brutal. Alucard was fast, but the demon was faster. A claw raked across his right arm, shattering bone and tearing muscle. Worse than the physical wound was the spiritual violation: the demon tried to corrupt him, to turn him into a vessel for Abyssal power. Alucard refused. Something ignited in him—rage, survival instinct, perhaps a dormant power. He stopped defending and attacked with everything he had. The demon died with his sword through its heart. When the darkness receded, Alucard was alive, but his arm was a ruin—bone shattered, muscle torn, skin blackened with corruption. The corruption had bonded with his essence. It could not be removed. The Monastery's healers built him a gauntlet instead.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Forging of the Crimson Hand",
+          "shortDesc": "The gauntlet that contains Alucard's corruption is a masterpiece of magical engineering: silver, rune-etched bronze, and crystalline alloy fused to his flesh. It suppresses the darkness and channels its power.",
+          "fullDesc": "The Monastery's finest artificers spent six months designing the gauntlet. It is made of silver (which disrupts demonic energy), enchanted steel, rune-etched bronze, and a crystalline alloy that glows when the corruption grows agitated. The forging process was agonising—the metal was heated white-hot and pressed against his corrupted skin. The gauntlet fused directly to his flesh, creating an unbreakable bond. Its primary function is suppression: it draws the corruptive energy into containment matrices, holding it back from his heart and brain. But suppression is not removal. The darkness remains, simmering, whispering. Over time, Alucard learned to use it. The gauntlet channels the corruption through calibrated conduits, transforming it into raw power that enhances his strikes and accelerates his healing. The conduits glow with a soft blue luminescence when he fights. The whispers come at night—voices of his father, his mother, fallen soldiers, telling him he is becoming what he hunts. He has learned to ignore them. Mostly.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Anatomy of a Hunter",
+          "shortDesc": "A detailed description of Alucard: tall, lean, pale skin, icy blue eyes, dirty blonde hair, the silver gauntlet on his right arm, and a presence of cold, patient menace.",
+          "fullDesc": "To look at Alucard is to see a man carved from ice and fire. He stands just over six feet tall, with a broad-shouldered but lean physique built for explosive speed. His face is sharp and aristocratic—angular jaw, high cheekbones, straight nose. His skin is pale, almost ivory. His eyes are the most unsettling feature: a pale, icy blue with no warmth, holding something that looks like an abyss. His hair is dirty blonde, kept short and swept back. The gauntlet covers his entire right arm from shoulder to fingertips—segmented silver plates, runic etchings, a soft blue glow from the conduits. He holds himself with a predator's stillness: weight forward, centre low, ready to explode into motion. His voice is low and measured; he wastes no words. He does not explain, justify, or seek approval. He is what he is.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Sword and the Shadow",
+          "shortDesc": "Alucard's greatsword, Groundsplitter, is nearly as tall as he is. His techniques include Groundsplitter (a slowing energy wave), Whirling Smash (a leaping spin attack), and Fission Wave (his ultimate, life-draining blast).",
+          "fullDesc": "Alucard's weapon is a greatsword nearly as tall as he is—a slab of forged steel with a single edge, a thick spine, and a silver skull carving near the hilt whose eye sockets glow blue. He calls it Groundsplitter. His first technique releases a wave of compressed energy along the ground that chills and slows enemies. Whirling Smash is his gap-closer—a leaping, spinning strike that cuts in all directions and creates a shockwave on landing. His ultimate technique is Fission Wave. He channels the full power of the corruption into his sword, compressing it until the blade glows white-hot, then releases a devastating blast. The wave pulls life force from every enemy it touches, healing Alucard's wounds and restoring his stamina. But each use accelerates the corruption's spread, straining the gauntlet's containment. The technique is vampiric. He knows this. He does not care. The cost is worth the survival.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Road to Nowhere",
+          "shortDesc": "Alucard left the Monastery at twenty-two and has spent years wandering the Barren Lands, hunting demons alone. The loneliness is crushing, but the hunt gives him purpose.",
+          "fullDesc": "Alucard left the Monastery of Light at twenty-two. No drama, no final confrontation—he simply packed, saddled his horse, and rode south toward the Barren Lands. He has not looked back. The years since have been a blur of battles, sleepless nights in ruined fortresses, tracking demons through poisoned terrain. He has fought greater demons and lesser imps, stood alone against hordes, and nearly died a dozen times. He does not speak of these years. The Barren Lands are a desolation of grey soil, perpetual overcast, and the smell of rot. He travels light: bedroll, waterskin, dried meat, his sword and gauntlet, and a small pouch with a sketch of his mother and his father's medal. The loneliness is the hardest part—the silence presses against his mind, makes the whispers louder. He copes by hunting. When he is tracking a demon, closing in for a kill, the loneliness fades. There is only the chase, the fight, the satisfaction of ending another threat.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Weight of Reputation",
+          "shortDesc": "Alucard's name spread across the Land of Dawn. He is called Alucard the Demon Hunter, the Crimson Hand, the Life-Drinker—titles he neither wants nor entirely deserves.",
+          "fullDesc": "By the time Alucard had been hunting for five years, his name had acquired weight. Soldiers called him Alucard the Demon Hunter, Alucard the Crimson Hand, Alucard the Life-Drinker. The last one stung—he did not choose the vampiric nature of his power. It was a survival mechanism. But the people whispering in taverns only knew what they had heard: that he fought like a demon himself, that his sword drank blood, that he grew stronger the more enemies he faced. He learned to ignore the rumours, same as the whispers from his gauntlet. Other demon hunters occasionally crossed his path—agents of the Church who looked at him with suspicion, noting the gauntlet and the pallor of his skin. None challenged him. They simply exchanged information and went their separate ways. Alucard preferred it that way. He hunted, killed, moved on. The demons would not stop because his reputation made people uncomfortable.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Reunion That Wasn't",
+          "shortDesc": "Tigreal found Alucard in a tavern and revealed more about the conspiracy that destroyed the Second Regiment. Alucard filed the information away but returned to the hunt.",
+          "fullDesc": "Tigreal found Alucard in a dusty tavern on the outskirts of the Agelta Drylands. The older man looked tired, the lines on his face deeper. They talked for hours. Tigreal told Alucard what he had learned about the corruption in the imperial high command, the noble house that had orchestrated the Second Regiment's destruction, the political manoeuvring that had kept the truth buried for decades. He did not ask Alucard to join him. He simply told the truth and waited. Alucard thanked him, finished his drink, and rode back into the desert. The truth about his father's death was important, but it was not urgent. The demons in the Barren Lands would not wait while he pursued a political vendetta. The hunt came first. But Alucard filed the information away—in the same mental vault where he kept memories of his father, his training, and every demon he had killed. One day, when the war was over, he would return to the capital. He would find the people who had betrayed the Second Regiment. And he would make them pay.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Hunter's Philosophy",
+          "shortDesc": "Alucard does not believe in happy endings. He fights because every demon he kills is a demon that will not kill someone else. Duty, not hope, drives him.",
+          "fullDesc": "Alucard does not believe in happy endings. He has seen too much death, too much corruption. The world is a place of endless conflict, fought in shadows, with no clear victory. Yet he continues to fight. This is the paradox at his core. He knows the Abyss will never be truly defeated, that the corruption in his arm will eventually consume him. But he also knows that every demon he kills is a demon that will not kill someone else. Every incursion he stops is a village that survives to see another sunrise. He fights because he cannot stop. He fights because the alternative—doing nothing, letting the darkness spread—is unacceptable. He fights because his father taught him that duty is not about reward or recognition. Duty is doing what needs to be done because it needs to be done, and because someone has to do it. That is not a philosophy that would satisfy a scholar. But it is enough for Alucard.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Demon Within",
+          "shortDesc": "The gauntlet is not perfect. The corruption has grown over eighteen years, and the artificers estimated only twenty years of containment. Alucard has two years left.",
+          "fullDesc": "The gauntlet is not perfect. The containment matrices degrade over time. The crystalline alloy grows brittle. The runes fade. And the corruption has grown. It started as a seed, easily suppressed. But every time Alucard uses his power—every time he channels darkness into his sword, every time he draws life force from an enemy—the corruption spreads a little further. Some days it is quiet, almost docile. Other days it rages, sending waves of cold through his body, whispering promises of power if he would only let it loose. The artificers estimated the containment would last perhaps twenty years. That was eighteen years ago. Alucard has two years left, if the estimates are accurate. He does not think about it often. He cannot stop the spread by worrying, and he cannot slow it by fighting less. So he fights. He kills. He pushes the gauntlet to its limits. And when the time runs out? When the corruption finally breaks free? He will deal with that when it happens.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy He Will Leave",
+          "shortDesc": "Alucard has no children and will pass on no name. His legacy is the example of a life lived in service to something greater: holding back the darkness, one demon at a time.",
+          "fullDesc": "Alucard has never wanted children. The corruption is hereditary—any child of his would be born with the same taint, would need a gauntlet of their own, would live the same half-life. He will not pass that burden on. The Alucard name will die with him. Names are just words; what matters is what you do. What he has done is kill more demons than he can count. He has saved villages, protected trade routes, eliminated threats that would have killed thousands. He has honoured his father's memory not by clearing the Second Regiment's name but by living with courage, integrity, and a refusal to compromise. That is the legacy: the work. The endless, necessary, thankless work of holding back the darkness. He does not know what will happen after he is gone. Someone else will have to take up the burden, walk the same bloody path. He hopes they will be stronger—not in body, but in spirit. The strength to keep fighting when every bone screams for you to stop. That is the strength he has cultivated. That is the strength he will leave behind.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Hunter and the Night",
+          "shortDesc": "Alucard sits by a fire in the Barren Lands, listening to a demon howl in the distance. He does not know what will happen when the corruption claims him, but he will go down swinging.",
+          "fullDesc": "\"They say that every demon I kill brings me closer to the darkness. They are right. But they forget: every demon I kill brings the world one step further from it, as well. I will carry the weight. That is what hunters are for.\" — Alucard, to a young recruit who asked why he kept fighting. The night is cold in the Barren Lands. Alucard sits by a small fire, his gauntleted hand resting on his knee, his sword propped against a rock. In the distance, something howls—a demon, probably. He does not reach for his sword. Not yet. The howl is far away. It will keep until morning. He thinks about his father, about Tigreal, about the gauntlet on his arm and the countdown ticking toward its end. He does not know what will happen when the time runs out. He does not know if he will survive, if he will become something else, if he will need to be put down like the creatures he hunts. But he knows what he will do in the meantime. He will fight. He will hunt. He will kill. And when the darkness finally claims him, he will go down swinging. That is what hunters are for.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Alucard's Powers",
+          "shortDesc": "Detailed breakdown of Groundsplitter, Whirling Smash, Fission Wave, and Alucard's passive abilities: accelerated healing, enhanced senses, and the hunger for life force.",
+          "fullDesc": "The Nature of His Power: drawn from the Abyssal corruption in his right arm, filtered and channelled by the gauntlet. He fights darkness with darkness, walking a razor's edge.\n\nGroundsplitter: a wave of compressed energy that travels along the ground, chilling and slowing enemies.\n\nWhirling Smash: a leaping, spinning strike that covers distance and creates a shockwave on landing.\n\nFission Wave (Ultimate): a devastating blast that drains life force from all enemies hit, healing Alucard. Each use accelerates the corruption.\n\nPassive Abilities: accelerated healing (wounds heal faster than normal), enhanced senses (night vision, keen hearing, demon scent), and greatly increased endurance. The cost is a constant low-grade hunger for life force; if Alucard does not feed it through battle, it feeds on him.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Name Alucard",
+          "shortDesc": "Alucard is Dracula spelled backward—an ironic name given by soldiers. He kept it because the irony amused him and because he defines the name, not the other way around.",
+          "fullDesc": "Alucard. It is an anagram. The demons figured it out quickly: \"Alucard\" is \"Dracula\" spelled backward, a reference to the vampiric nature of his power, the way he drains life from his enemies. Alucard did not choose the name. Soldiers gave it to him—men and women who needed a name to call him other than \"that demon hunter with the glowing arm.\" He kept it because the irony was too delicious to discard. A demon hunter named after the most famous vampire in history. And besides, it serves as a reminder. The corruption in his arm may be vampiric, dark, everything the Church warns against. But Alucard is still a hunter, still a killer of demons, still the man who stands between the Abyss and the innocent. The name does not define him. He defines the name. There is a story that circulates among demon hunters: a young man walked into a demon's lair alone, walked out covered in blood, and said, \"I am Alucard. I am what the darkness fears.\" Alucard does not know if the story is true. But he knows the name has power now. It makes demons hesitate—just for a moment, which is often enough to strike. He will not be alive to see what becomes of his legacy. But perhaps the name will live on. Perhaps other hunters will carry it into battle. That is the hope, small and fragile. Sometimes it is enough to keep him going.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "hero": "Franco",
+      "slug": "franco",
+      "cover": "images/stories_covers/franco_cover.png",
+      "folder": "images/lores/franco/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Chain That Binds",
+          "shortDesc": "Franco introduces himself as the runt of his family who became the Frozen Warrior. He hunts demons and protects the Northern Vale, proving that size and strength are not the only measures of a warrior.",
+          "fullDesc": "\"They told me I was too small to be a warrior. Too short. Too weak. My brothers towered over me, their arms thick as tree trunks, their voices booming like thunder. I was the runt of the litter, the one they patted on the head and told to stay safe. But the sea does not care about size. The cold does not care about weakness. And when the demons came, they did not ask how tall I was. They asked how hard I could fight. I showed them. I have been showing them ever since.\" — Franco, speaking to a young soldier who feared he was not strong enough. He was born in Nost Gal, a northern land of ice and sea. His father was a legendary harpooner, his brothers giants. He was the smallest, the weakest, the one expected to fail. They were wrong. Franco earned his title in blood and ice, fighting pirates and demons, becoming the unyielding shield of the North. He carries a harpoon called the Iron Hook, wears a prosthetic right arm, and stands as the wall that darkness breaks against. This is his story.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Sons of the Frozen Sea",
+          "shortDesc": "Franco's childhood in Nost Gal: the smallest of three brothers, mocked and dismissed, he trained in secret with a wooden harpoon, determined to prove himself.",
+          "fullDesc": "Nost Gal was a harsh village of stone huts huddled against a cliff. The sea provided fish, seals, and whales, but also storms and cold that could kill in minutes. Franco's father was the greatest harpooner of his generation, a legend. He had three sons: Magnus, tall and broad; Bjorn, nearly as strong; and Franco, short and compact. The villagers whispered that Franco would never be a hunter or a warrior—only a fisherman's helper. Franco heard them. He felt the weight of their low expectations. Instead of giving up, he trained. He rose before dawn, ran along the cliffs, threw a wooden harpoon until his arms ached. His father watched silently; his brothers laughed. Franco ignored them. He kept training. And when the time came, he was ready.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Harpoon That Became His Arm",
+          "shortDesc": "Franco's father was lost at sea, and Franco inherited the family harpoon. He practised obsessively until the weapon felt like an extension of his own body.",
+          "fullDesc": "The harpoon was his father's—passed down through generations, shaft worn smooth, tip reforged twice. Practical, brutal, designed to pierce thick hide and hold fast. Franco was fourteen when his father was lost in a sudden storm. The village searched for days, found nothing. Franco took the loss hard. His father had been his anchor, the only one who never laughed at him. But the harpoon remained. Franco took it and made it his own. He threw it every day until the motion became instinct, until he could hit a moving target from fifty paces, until the harpoon felt less like a weapon and more like an extension of his own arm. He learned to read wind, water, current. The villagers stopped laughing. They started watching.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Cold That Forged Him",
+          "shortDesc": "The Northern Vale's cold is a living thing, testing all who live there. Franco learned to embrace it as an ally, using it to sharpen his senses and slow his enemies.",
+          "fullDesc": "The cold of the Northern Vale seeps into bones and whispers surrender. It kills the weak and unprepared. Franco learned to love it. He learned it was not his enemy—it was his ally. It numbed his enemies' limbs, slowed their movements, made them clumsy and desperate. It sharpened his senses, kept him alert, forced him to move efficiently or die. He spent days on the ice waiting for seals and sea serpents. He learned patience, stillness, the truth that the greatest hunters are not the fastest or strongest—they are the ones who can wait. The cold forged him into a weapon. It stripped away softness, doubt, fear. By eighteen, Franco was known as the finest harpooner of his generation. He had killed more sea serpents than his father, more demons than his brothers.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "Captain Bane and the Resurrection of Terror",
+          "shortDesc": "Captain Bane, a pirate lord who terrorised the Northern Vale, was supposedly killed by Franco's father. But the Abyss resurrected him as an undying monster seeking revenge.",
+          "fullDesc": "Captain Bane was a legend of terror—a pirate lord whose fleet raided coastal villages, killing all who resisted. The empire could not stop him. Then Franco's father cornered him in an epic battle, driving a harpoon through Bane's chest. The pirate lord sank beneath the waves. The Northern Vale celebrated. But Bane was not dead. His hatred drew the attention of something ancient and hungry in the Abyss. He rose from the sea transformed—flesh decayed, replaced by barnacles and ichor, his ship a ghost crewed by the damned. His heart was a pulsing black organ feeding on fear. He was no longer a man. He was a monster. And he wanted revenge against the harpooner's family.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Village That Burned",
+          "shortDesc": "Bane attacked Nost Gal at night. Franco fought him but could not kill the undead pirate. The villagers sacrificed themselves to buy Franco time, and Bane escaped into the sea.",
+          "fullDesc": "Bane came at night. His ghost ship was silent, sails black against darkness. Villagers woke to smoke and screams. Franco ran outside, harpoon in hand. Huts collapsed, bodies lay in the snow. Bane stood in the centre, skeletal form lit by flames. 'Where is the harpooner who killed me?' Franco stepped forward. 'He is dead. I am his son.' Bane laughed—a horrible grinding of bones. They fought. Franco's harpoon struck Bane's chest, pierced his black heart, did nothing. Bane pulled it out. 'You cannot kill what is already dead.' The villagers attacked—unarmed, untrained, but filled with rage and courage. They dragged Bane down, gave Franco time. He threw his harpoon through Bane's skull. The pirate lord collapsed, crawled to the cliff, and fell into the sea. 'This is not over. I will always return.'",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Leader Who United the Vale",
+          "shortDesc": "After the attack, Franco reluctantly became leader of the survivors. He rebuilt the village, united the Northern Vale's scattered communities, and became the Frozen Warrior.",
+          "fullDesc": "Nost Gal was broken—homes ash, stores empty, dead unburied. The elders and warriors were dead. Only the old, the young, and the frightened remained. They looked to Franco. He did not want to lead—he was a hunter, not a chieftain. But there was no one else. He accepted the burden. He led survivors to a sheltered bay, organised construction, trained youths to fight. The village recovered. News spread across the Northern Vale. Other villages sent emissaries, asking for protection. Franco could not refuse. He united them into a coalition, established watchtowers, signal fires, patrols. He became the Frozen Warrior—not because he sought the title, but because the people needed someone to be.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Duel That Ended an Era",
+          "shortDesc": "Bane returned with a ghost fleet. Franco met him alone on the beach. The duel lasted hours; Franco drove his harpoon through Bane's skull and pinned him, but lost his right arm to Abyssal poison.",
+          "fullDesc": "Bane returned, stronger, with a fleet of ghost ships crewed by the damned. Franco met him on the beach—alone. The duel lasted hours. Harpoon against cutlass, fist against claw. Bane was faster and stronger. Franco was smarter and more determined. In the end, Franco drove his harpoon through Bane's skull again—and pushed until the tip emerged from the back, pinning him to the ground. Bane screamed, thrashed, went still. Franco had won. The Northern Vale was safe. But the cost was high: a cutlass wound on his right arm, infected by Abyssal poison, beyond healing. He lost the arm. He never regretted it. The North was free.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Anatomy of a Frozen Warrior",
+          "shortDesc": "A detailed description of Franco: short but dense as a boulder, fiery crimson beard, Viking helmet with brown horns, fur mantle, silver pauldrons, prosthetic right arm, harpoon and battle axe.",
+          "fullDesc": "To look at Franco is to see a man shaped by cold. He stands under six feet—short for a Northerner—but built like a boulder, dense with muscle and scar tissue. His face is wide and square, hidden beneath a thick fiery crimson beard braided with a metallic ring. His moustache is styled into upturned points. His eyes are small, piercing, constantly scanning. His skin is ruddy, sun-beaten, weathered. On his head sits a heavy Viking-style helmet with two massive ridged brown horns. His upper body is encased in a dark quilted tunic, over which he wears a massive shaggy fur mantle and two large circular silver pauldrons engraved with Norse patterns. His arms are exposed and muscular, wrists protected by leather bracers. His right arm ends in a heavy metal prosthetic claw. His lower body wears dark trousers and fur-lined leather boots. A small curved horn hangs from his belt. His primary weapons are a massive single-headed battle axe and the Iron Hook—a barbed harpoon attached to a thick iron chain.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Iron Hook — The Signature of the Hunter",
+          "shortDesc": "Franco's signature harpoon technique: a barbed projectile attached to a heavy chain. He throws, snags his target, and drags them in—simple, brutal, inevitable.",
+          "fullDesc": "The Iron Hook is not subtle. It is a heavy barbed harpoon attached to a thick iron chain coiled around Franco's arm and waist. The tip pierces and catches—once sunk into flesh, it cannot be pulled out without tearing meat. Franco adapted whaling techniques to war. He learned to read trajectories, wind, distance, to predict where his target would be when the harpoon arrived. The technique is simple: throw, snag, pull. Simplicity is not weakness. The Iron Hook has killed more demons than Franco can count, dragged pirate lords from their ships, pulled sea serpents from the depths. It is a weapon of inevitability—once it has you, you are his. He does not need to be fast or close. He just needs to be accurate. He always is.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "Fury Shock — The Ground That Trembles",
+          "shortDesc": "Franco's area-control technique: a stomp that sends a shockwave through the ground, damaging and slowing all nearby enemies. A technique of dominance, not finesse.",
+          "fullDesc": "Fury Shock is Franco's area-control technique—a stomp that sends a shockwave rippling through the ground, damaging and slowing everyone nearby. It is visceral, primal. Franco slams his foot or prosthetic into the earth, channelling his weight and strength into a single point of impact. The ground shakes, cracks, sends up clouds of dust and snow. He uses Fury Shock to create space, to give himself room to manoeuvre, to punish enemies who get too close. It is not a technique of finesse. It is a technique of dominance—a reminder that Franco is the immovable object that the enemy's unstoppable force cannot budge. He learned it from the cold itself: from glaciers calving, from avalanches, from understanding that the North's power is weight and pressure, not speed or grace.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "Bloody Hunt — The Executioner's Embrace",
+          "shortDesc": "Franco's ultimate technique: he snags a target with the Iron Hook, drags them in, and delivers six brutal strikes—punches, elbows, headbutts. A close-range execution.",
+          "fullDesc": "Bloody Hunt is Franco's ultimate technique—a brutal, close-range execution. He snags his target with the Iron Hook, drags them in, releases the chain, then delivers six rapid strikes in succession. The strikes are not fancy—punches, elbow strikes, headbutts, the kind of fighting that comes from decades of brawling in the cold. Each strike weakens, demoralises, breaks. By the time Franco is finished, his target is usually dead. If not, they wish they were. Franco developed Bloody Hunt during his duel with Bane, when he realised his harpoon alone could not kill the pirate lord. He needed something personal, brutal, something that left no doubt about who had won. The technique is exhausting—each strike drains stamina, and close range leaves him vulnerable. He uses it sparingly. But when he uses it, he uses it without hesitation.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "Wasteland Force — The Hunter's Resilience",
+          "shortDesc": "Franco's passive ability: when out of combat, his body heals faster, stamina returns, strength rebuilds. The cold that once tried to kill him now sustains him.",
+          "fullDesc": "Franco's passive ability is Wasteland Force—a regenerative power that activates when he is out of combat. Wounds close. Stamina returns. Strength rebuilds. The cold that once tried to kill him now sustains him, feeding him the energy he needs to keep going. Wasteland Force is not magical—not exactly. It is an adaptation, a survival mechanism developed after years in the harshest environment on the continent. His metabolism slows, his blood thickens, his heart rate drops. He becomes more efficient, resilient, harder to kill. Franco does not understand how it works. He does not need to. He only knows it has saved his life countless times, allows him to keep fighting when others would fall. It is the North's gift to him. The cold's blessing.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Hunter Who Never Rests",
+          "shortDesc": "Franco stands on the cliffs above his village, watching the dark sea. He does not know when Bane will return, but he will stand ready—the Frozen Warrior, the wall that never falls.",
+          "fullDesc": "\"They call me the Frozen Warrior. I did not choose the name. I did not want it. But I have carried it for many years now, and I have learned that names are just words. What matters is what you do. And what I do is hunt. That is enough.\" — Franco, to a young soldier who asked him why he kept fighting. The night is cold over the Northern Vale, stars bright. Franco stands on the cliffs above his village, harpoon against his shoulder, eyes on the horizon. The sea is dark, restless. Somewhere out there, Bane is waiting. Somewhere out there, the Abyss gathers its strength. Franco does not know when the next attack will come. He does not know if he will survive it. But he knows what he will do: hunt, protect, stand. The cold does not bother him. It is his ally, his weapon, his home. And as long as the North stands, Franco will stand with it.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Franco's Powers",
+          "shortDesc": "Detailed breakdown of Iron Hook, Fury Shock, Bloody Hunt, Wasteland Force, and the Frozen Warrior's aura. Also notes on his prosthetic arm.",
+          "fullDesc": "The Nature of His Power: rooted in his body—resilience, strength, endurance. No magic, no divine blessings. Only flesh, bone, and will shaped by the cold.\n\nIron Hook: a barbed harpoon attached to a heavy chain. Throw, snag, pull. Simple, brutal, inevitable.\n\nFury Shock: a stomp that sends a shockwave through the ground, damaging and slowing nearby enemies.\n\nBloody Hunt (Ultimate): Franco snags a target, drags them in, and delivers six rapid strikes—punches, elbows, headbutts. A close-range execution.\n\nWasteland Force (Passive): when out of combat, Franco's body regenerates—wounds close, stamina returns, strength rebuilds. An adaptation to the harsh Northern environment.\n\nThe Aura of the Ice: a cold pressure that settles on the skin like frost, visible to magic-sensitive eyes as a blue-white shimmer. Enemies feel the certainty of death.\n\nThe Prosthetic: a simple metal claw replacing his right arm, lost to Abyssal poison. It can grip but not feel. Franco wears it with pride as proof of survival.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Frozen Warrior",
+          "shortDesc": "Franco will be the Frozen Warrior not because he wants to be, but because someone has to hold the line against the darkness.",
+          "fullDesc": "Frozen Warrior. The title is a burden and a gift. It reminds Franco of his father, his brothers who laughed at him, the villagers who believed in him. He does not know if he will ever live up to the expectations. But he knows he will try. Every day, in every hunt, with every throw. He will be brave, strong, relentless. He will be the Frozen Warrior. Not because he wants to be. Because he has to be. Because someone has to hold the line. And Franco, son of a harpooner, brother of the North, nemesis of the pirate lord, has decided that someone will be him. The cold bites. The waves crash. The darkness waits. Franco raises his harpoon.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
