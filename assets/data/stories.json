@@ -1723,6 +1723,145 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 13,
+      "hero": "Chou",
+      "slug": "chou",
+      "cover": "images/stories_covers/chou_cover.png",
+      "folder": "images/lores/chou/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Foot That Refused to Stay Down",
+          "shortDesc": "Chou introduces himself as a street fighter from the slums of Antoinerei who refused to accept his place, using kung fu to kick his way from nothing to something.",
+          "fullDesc": "\"They said I had nothing. No money. No family. No future. They said I should be grateful for the scraps they threw me, should bow my head and accept my place. I did not bow. I kicked. I kicked the door down. I kicked the walls aside. I kicked until the world had no choice but to make room for me. That is what kung fu is. Not fancy moves. Not ancient wisdom. The refusal to stay down.\" — Chou, to a young fighter who asked him the meaning of martial arts. There is a particular kind of silence that falls over the slums of Antoinerei at midnight. It is the silence of exhaustion, of a world that has given everything it has just to survive another day. Chou has known this silence since he was old enough to understand what the slums were. He was born in Antoinerei, a district the maps pretend does not exist. No father. No mother. Just a boy who refused to accept that he didn't matter. He fought, scraped, and clawed his way out one kick at a time. This is his story.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "Antoinerei — The City That Forgave Nothing",
+          "shortDesc": "Chou's childhood in the slums: stealing to survive, sharing food with the elderly, and learning to read from an old man in a collapsed tenement.",
+          "fullDesc": "Antoinerei was not a place where children were supposed to grow up. The buildings were crumbling, the streets dark even at noon, the air thick with smoke and sewage. The people were the empire's forgotten—the desperate, the broken, the unwanted. Chou did not remember his parents. He survived by stealing, not by choice but necessity. He was small, quick, and smart. But he was also kind. He shared his stolen food with the old people of the slums, helped them carry water, chased away bullies. They called him 'Little Tiger.' An old man in a basement taught him to read from a torn book. Chou learned that the world was bigger than Antoinerei, and he resolved to fight his way to it.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Old Monk Who Changed Everything",
+          "shortDesc": "Chou saved an old monk named Master Tien from a mob, and in return the monk taught him the ancient art of kung fu.",
+          "fullDesc": "The monk came to Antoinerei on a night of rain. He was old, with skin like cracked leather and eyes that seemed to see through walls. A mob was chasing him—well-dressed outsiders shouting about heresy. Chou tripped the front runners, threw rocks at their torches, and led them on a chase through the alleys until they gave up. He hid the monk in the basement of a collapsed tenement. 'Thank you, child,' the monk said. 'You have a good heart.' His name was Master Tien, a disciple of an ancient order scattered by war. Chou asked to be taught. 'The path is hard,' Master Tien warned. 'It will hurt. It will change you.' Chou answered, 'I do not want to be the same person. The person I am now is nobody.' And so the training began.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Training That Broke Him and Rebuilt Him",
+          "shortDesc": "Brutal training under Master Tien: learning to breathe, to stand, to fall, and finally to kick. Months of discipline transformed the street rat into a martial artist.",
+          "fullDesc": "The training was brutal. Master Tien did not teach forms at first. He taught Chou to breathe—to control his breath, slow his heart, calm his mind. He taught Chou to stand—to find his centre, root himself to the ground. He taught Chou to fall—to roll with impact, rise without injury. Chou hated it. He wanted to fight. 'The fight is not the enemy,' Master Tien said. 'The enemy is inside you. Your fear. Your anger. Your pride.' Months passed. The breathing became easier. Then came the kicks: front kicks, side kicks, roundhouse kicks, spinning kicks, jumping kicks. Chou practised until his legs ached, until the kicks became instinct. Master Tien watched with pride. 'You are ready to leave. To find your own path.' Chou bowed, thanked him, and walked out of the slums forever.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Way of the Dragon — The Philosophy of the Empty Hand",
+          "shortDesc": "The philosophy Master Tien taught: being like water, flowing around obstacles, moving without resistance. A lesson Chou would only fully understand after his own failures.",
+          "fullDesc": "Master Tien had taught Chou more than techniques. He taught a philosophy: the Way of the Dragon. It was not about fighting—it was about living. Moving through the world without resistance, without attachment, without fear. Being like water—flowing around obstacles, wearing down stone, finding the path of least resistance. Chou did not fully understand when he left the slums. He was still angry, hungry for validation. He wanted to prove he mattered. The philosophy would come later, after he had made mistakes, after he had failed, after he learned that winning fights was not the same as winning at life. For now, he had his kicks, his speed, his determination. It was enough to start.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Anatomy of a Kung Fu Boy",
+          "shortDesc": "A detailed description of Chou's appearance: silver-white undercut, sharp jawline, tan skin, charcoal tactical jumpsuit with yellow accents, and the 'BANG BANG' on his back.",
+          "fullDesc": "To look at Chou is to see a man shaped by the streets. He stands just under six feet, lean and dense, built for explosive speed. His face is sharp—angular jaw, high cheekbones, straight nose. His eyes are dark, piercing, the colour of coffee on a winter morning. His hair is his trademark: stark silver-white in a textured undercut, short on the sides, long and swept forward on top. His skin is a sun-kissed tan, marked by the occasional scar. He wears a dark charcoal tactical jumpsuit with vibrant yellow panels on the shoulders and outer arms. A circular 'MLBB' emblem is on his left breast. His hands are covered in MMA-style grappling gloves—right white, left black with yellow lettering. The trousers have a yellow stripe down each leg. On his back rests an oversized futuristic tonfa, metallic silver and blue. And on his back, printed in comic-book font: 'BANG BANG'.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "Jeet Kune Do — The Way of the Intercepting Fist",
+          "shortDesc": "Chou's fighting philosophy: strike first, strike fast, strike without warning. No styles, no prisons—only adaptation and interception.",
+          "fullDesc": "Jeet Kune Do is not a style. It is a philosophy. Master Tien taught Chou that styles were prisons—the true martial artist adapts to the situation rather than forcing the situation to fit a pattern. Chou took this lesson to heart. His fighting style is a hybrid of everything he learned and everything he invented: kicks like Taekwondo, punches like boxing, movement like capoeira. Unpredictable, fluid, impossible to pin down. The name means 'Way of the Intercepting Fist'—the belief that the best defence is a pre-emptive strike. Chou does not wait for his opponents to attack. He attacks first, attacks fast, attacks without warning. It is not honourable. The old masters would disapprove. But Chou grew up in the slums. He learned that the only unfair fight is the one you lose.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "Shunpo — The Blink That Blinds",
+          "shortDesc": "Chou's signature mobility technique: a burst of speed so fast it appears as teleportation, disorienting enemies and closing distance in an instant.",
+          "fullDesc": "Shunpo is Chou's signature technique—a burst of speed so fast that it appears to be teleportation. The concept is simple: Chou pushes his body to its absolute limit, engaging every muscle fibre, every tendon, every ounce of explosive power. He moves faster than the eye can track, crossing impossible distances between heartbeats. When he reappears, he is already striking. His target is not literally blinded, but mentally disoriented—the sudden shift disrupts their perception, leaves them vulnerable. Chou developed Shunpo during his wandering years, realising his speed was his greatest asset. He trained until the movement became instinct. The technique is exhausting; each use drains his stamina significantly. He uses it sparingly, but when he does, he does not hesitate.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Way of the Dragon — The Kick That Ends Fights",
+          "shortDesc": "Chou's ultimate combo: a Shunpo followed by a flurry of kicks, a launching uppercut kick, and a devastating spinning heel kick that sends enemies flying.",
+          "fullDesc": "Chou's ultimate technique is The Way of the Dragon—a legendary combo that ends most fights before they truly begin. It begins with a Shunpo, closing the distance instantly. The first strike is a flurry of kicks—rapid, relentless, driving the enemy back. The second strike is a powerful uppercut-style kick that launches the enemy into the air, suspending them helplessly. The third strike is the final blow: a spinning heel kick that sends the enemy flying across the battlefield, crashing into anything in their path. The technique is devastating, capable of breaking bones and shattering shields. But it is also risky—if any part fails, Chou is left exposed. He has practised it thousands of times, but he still respects its power. He uses it only when victory is the only option.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Aura of the Street Fighter",
+          "shortDesc": "Chou's passive aura: a crackling intensity that energises allies and intimidates enemies, a natural byproduct of his fighting spirit.",
+          "fullDesc": "To stand before Chou is to feel the energy of the streets. His aura is not visible to most, but it is palpable—a crackling intensity that raises hairs on the back of the neck, a tension that makes the air feel thick with potential violence. Those sensitive to magic can see it: a faint yellow-white shimmer surrounding his body, flickering like the edge of a flame. The aura intensifies when Chou prepares to fight, spreading outward, pressing against enemies like a physical force. Weapons feel heavier. Movements feel slower. Thoughts feel muddier. Chou has learned to control his aura, to direct it at specific targets. Some enemies break under the pressure—they flee, surrender, beg. Chou does not grant mercy. Not because he is cruel, but because the slums taught him that mercy is a luxury he cannot afford.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "Eruditio — The City of Scholars",
+          "shortDesc": "Chou wandered to Eruditio, joined the Rangers, and found a new family. He also met Captain Bruno, who became his friend and mentor.",
+          "fullDesc": "Chou came to Eruditio by accident, following rumours of a tournament that turned out to be a scam. The City of Scholars was everything he had imagined—tall clean buildings, wide paved streets, people who walked with confidence. He felt like an intruder. He found work at a fighting gym, and the retired Ranger owner saw his potential. 'You should join the Rangers. They need fighters like you.' Chou applied, tested, and was accepted. Captain Bruno was not what he expected—loud, confident, almost arrogant. But Bruno genuinely cared. 'Your kicks are good, but your footwork is sloppy,' Bruno said. 'You need to learn to read your opponent.' Chou trained harder. Bruno became his friend, his mentor, his brother. The polished captain and the rough brawler—unlikely, but perfect together.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "Lancelot — The Noble Who Mocked Him",
+          "shortDesc": "Chou met the noble knight Lancelot, who mocked his fashion sense. They became unlikely friends, and Lancelot helped Chou upgrade his wardrobe.",
+          "fullDesc": "Lancelot was everything Chou despised—rich, privileged, beautiful. They met at a gala. 'So you are the famous Kung Fu Boy,' Lancelot said with a smirk. 'I had heard you were rough around the edges. I did not realise they meant literally.' Chou wanted to punch him. But he remembered Bruno's advice: sometimes protecting means swallowing your pride. He walked away. Lancelot followed and apologised. 'I was testing you. Most would have hit me. You walked away. That takes more strength.' They became unlikely friends. Lancelot's greatest contribution was fashion. 'You look like a walking warning sign,' he said of Chou's jumpsuit. He took Chou shopping, taught him about cuts and fabrics. Chou kept the jumpsuit—it was comfortable, and the 'BANG BANG' made him smile. Lancelot sighed, 'Some people cannot be saved.' But he was smiling too.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Hero of the Streets",
+          "shortDesc": "Chou returns to Antoinerei to help, wins a martial arts tournament, and decides his legacy: to keep fighting for the forgotten.",
+          "fullDesc": "Chou returns to Antoinerei whenever he can. He funds schools, clinics, shelters. The people remember him as the boy who shared his food. They call him the Hero of the Slums. He does not like the title—he is just a man who got lucky. But he does what he can. The martial arts tournament in the capital drew fighters from across the empire. Chou entered on a whim. He faced masters, champions, warriors. In the final match, he faced a monk from the Monastery of Light. The fight lasted nearly an hour. In the end, Chou won with a single kick. The crowd chanted his name. He felt pride—not arrogant, but quiet and steady. He knew then that his legacy would not be trophies or titles. It would be the fights he fought for those who could not fight for themselves. He is Chou, the Kung Fu Boy. And he is still kicking.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Foot That Keeps Kicking",
+          "shortDesc": "Chou stands on a rooftop in Eruditio, watching over the city. He does not know what the future holds, but he will keep fighting.",
+          "fullDesc": "\"They call me the Kung Fu Boy. I did not choose the name. I did not want it. But I have carried it for many years now, and I have learned that names are just words. What matters is what you do. And what I do is fight. That is enough.\" — Chou, to a young boy in Antoinerei who asked him how to become a hero. The night is warm over Eruditio, the stars bright. Chou stands on the roof of the Rangers' headquarters, his eyes fixed on the horizon. The city is quiet, peaceful. He thinks about the slums, the monk, Lancelot, Bruno. He does not know what tomorrow will bring. But he knows what he will do in the meantime. He will fight. He will protect. He will kick. The foot never stops. And as long as Chou draws breath, there will be someone standing between the darkness and the light.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Chou's Powers",
+          "shortDesc": "Detailed breakdown of Jeet Kune Do, Shunpo, The Way of the Dragon, and the Street Fighter's aura.",
+          "fullDesc": "The Nature of His Power: rooted in his body—speed, precision, and relentless determination. No magic, no cybernetics. Only flesh, bone, and will.\n\nJeet Kune Do (Passive): the Way of the Intercepting Fist—strike first, strike fast, strike without warning.\n\nShunpo: a burst of speed that appears as teleportation, closing distance instantly.\n\nThe Way of the Dragon (Ultimate): a legendary combo—flurry of kicks, launching uppercut kick, spinning heel kick that sends enemies flying.\n\nThe Aura of the Street Fighter (Passive): a crackling intensity that energises allies and intimidates enemies.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Kung Fu Boy",
+          "shortDesc": "Chou will be the Kung Fu Boy not because he wants to be, but because someone has to stand up for the forgotten.",
+          "fullDesc": "Kung Fu Boy. The title is a burden, but also a gift. It reminds Chou of the monk who taught him to fight, the slums that shaped him, the people who believe in him. He does not know if he will ever be worthy. But he knows he will try. Every day, in every fight, with every kick. He will be brave. He will be strong. He will be relentless. He will be the Kung Fu Boy. Not because he wants to be. Because he has to be. Because someone has to stand up for the forgotten. And Chou, son of the slums, student of the monk, brother of the Rangers, has decided that someone will be him. The night is dark. The fight is long. The kicks keep coming. And Chou never stops.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }

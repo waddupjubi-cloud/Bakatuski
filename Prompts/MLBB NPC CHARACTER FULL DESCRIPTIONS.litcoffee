@@ -2999,3 +2999,79 @@ She gave birth to twins who inherited her exact facial structure, but the church
 
 
 
+Master Tien, The Equilibrium of the Slums
+
+Venerable Physiology and the Weathered Slum-Sage Facial Structure
+This character stands as the ancient, legendary grandmaster of the Cadia Riverlands' forgotten martial arts, disguised as a humble refugee within the impoverished underbelly of Antoinerei, possessing a physical stature that beautifully masks an indomitable fighting spirit beneath a wise, weathered exterior. Standing at a modest, slightly compact height of 168 cm, his body size is lean, wire-strung, and entirely devoid of ostentatious muscle bulk, carrying a deceptively frail, slightly stooped posture that allows him to blend seamlessly into crowds of ordinary beggars. His facial structure is a profound, deeply lined landscape of a lifetime spent navigating both spiritual enlightenment and mortal hardship, featuring a soft, rounded jawline completely softened by age, high but weathered cheekbones, and a wide, grandfatherly forehead. His nose is broad and slightly flat, carrying an approachable, unpretentious charm that immediately radiates a kind-hearted, peaceful demeanor. His skin tone is a deeply sun-bronzed, heavily weathered parchment-like complexion, mapped with a network of laugh lines around his eyes and faint, ancient silver scars across his brow from long-forgotten battles. His eyes are his most transformative asset: small, deeply set, and naturally crinkled into a perpetual expression of warm, gentle amusement, featuring irises of a warm, rich dark-hazel color that can instantly shift from a soft, grandfatherly twinkle to a piercing, hyper-focused gaze of absolute, unreadable martial clarity whenever a threat draws near. He appears to look like a man in his late seventies or early eighties, projecting a profound aura of serene, unshakeable calm that makes him seem less like a target of violence and more like a permanent, peaceful fixture of the earth itself.
+
+The Cloud-White Topknot and the Bare Brow
+His head is defined by a traditional, beautifully austere arrangement of hair that honors his monastic vows and monastic origins. He possesses a long, silken mane of pure, snow-white hair that is immaculately clean despite the soot and grime of the surrounding slums. His hairstyle features a traditional, tightly bound topknot positioned at the crown of his head, secured firmly by a single, smoothed piece of dark bamboo wood, while the remainder of his long white hair cascades down the back of his neck in a neat, straight river that reaches between his shoulder blades. His forehead is completely bare, showcasing a strong, noble brow line and long, sweeping white eyebrows that droop playfully down past the outer corners of his eyes like wisps of mountain mist. He wears absolutely no modern tactical visors, metal crowns, or protective infantry helmets; his only head adornment is his own silvered age, presenting a classic, unmistakable image of an ancient Asian monk whose mind remains completely clear, focused, and unburdened by the chaotic turmoils of the world.
+
+The Ascetic's Robe and Upper Body Simplicity
+The upper torso of this character is wrapped in the practical, multi-layered garments of a traveling ascetic monk, completely eschewing the form-fitting synthetic materials or bold yellow sports panels worn by his future student, Chou. He wears a loose, high-collared monastic inner tunic made of coarse, un-dyed cream-white cotton, which wraps deeply across his chest and fastens at the right ribs with simple cloth toggles. Over this inner layer drapes an oversized, sleeveless outer vestment of a faded, desaturated teal-earth linen, heavily patched at the left shoulder with rough squares of charcoal-grey burlap. The armholes of the vest are wide and loose, exposing his surprisingly ropy, sinewy shoulders and forearms which, despite their aged appearance, possess the density of hardened ironwood. His hands are small, steady, and incredibly calloused along the knuckles from decades of precise striking practice; his wrists are bound in thick, protective wraps of coarse, hand-torn white linen strips that extend halfway up his forearms to reinforce his joints during open-palm defensive maneuvers.
+
+The Pilgrim's Cincture and Lower Body Garments
+Securing his humble, layered garments at the midsection is a thick, multi-knotted rope sash made of dark, twisted hemp cord, wrapped multiple times around his thin waist to provide core stability during deep martial lunges. Hanging loosely from the left side of this rope belt is a large, hollowed-out wooden prayer bead counter, its spherical beads polished to a dark, glossy mahogany sheen by the constant friction of his thumbs during meditation. Below the waist, his attire transitions into loose, billowing harem-style martial trousers made of a durable, dark charcoal linen fabric that allows for absolute, unrestricted leg movement during low sweeps or high defensive deflections. These trousers are generously cut around the thighs to prevent chafing during long hours of cross-legged meditation, tapering sharply at the mid-calf where they are bound securely into thick, interlocking white cloth gaiters that protect his shins from external impacts. His feet are clad in simple, flat-soled pilgrim shoes woven entirely from dark, flexible rice straw, allowing him to step with an absolute, ghostly silence across muddy alleyways and stone courtyards alike without ever disturbing a single grain of dust.
+
+The Sacred Ironwood Staff and the Flowing Emerald Aura
+This character does not carry a weapon designed for lethal slaughter, completely shunning futuristic mechanical batons, cutting daggers, or steel blades; instead, his primary instrument of defense and guidance is a simple, full-length "Sacred Ironwood Staff" measuring 170 cm in length. The staff is carved from an ancient, ultra-dense mountain root, its surface naturally gnarled and polished to a deep, dark ebony finish, featuring an upper head wrapped in thin bronze wire to reinforce the wood and a simple iron ring hanging from the top that clinks softly with every step he takes. The aura carried by this staff, and Master Tien himself, is a breathtaking, therapeutic manifestation of "Flowing Equilibrium." It does not erupt with the toxic green abyssal flames of a dark angel or the heavy, crushing pressure of naval authority; instead, it manifests as a soft, translucent emerald-green and gold mist that gently eddies around his silhouette like a cooling mountain breeze, smelling faintly of dried tea leaves, incense smoke, and fresh river water. When he manifests his internal Kung-Fu to deflect a violent attack, this aura pulses in smooth, rhythmic ripples, creating a localized pocket of absolute kinetic harmony that can effortlessly redirect the most devastating physical impacts back into the earth, demonstrating a absolute mastery of raw human spirit over external violence.
+
+Lore: The Seed of the Dragon's Way
+Long before he became a nameless target for a violent mob within the dangerous back-alleys of Antoinerei, Master Tien was revered as one of the supreme guardians of the Cadia Riverlands’ ancient martial temples. Seeing the spreading darkness and political corruption begin to fracture the Land of Dawn, Tien chose to leave his isolated sanctuary, traveling as a simple, wandering monk to find a soul pure enough to inherit the true, uncorrupted essence of ancient Kung-Fu. His search brought him to the absolute lowest quality slums of the empire, where his deliberate vulnerability drew the attention of vicious pursuers who sought to eliminate the old traditions. When the young, impoverished Chou risked his own life to pull the wounded monk from the clutches of a violent mob, nursing him back to health with a kind, incorruptible heart, Master Tien knew his long quest had finally ended. For months within the hidden shadows of the slums, Tien broke down the boy's crude street-fighting habits, forging Chou's lean physique into a vessel of pure, explosive martial perfection and teaching him the legendary secrets of Jeet Kune Do and the Way of the Dragon. Having passed down the eternal fire of his lineage and instilled the moral duty to end the world's turmoils, Master Tien slipped away into the morning mists as quietly as he had arrived, leaving behind a legendary hero who would carry the unbroken spirit of the ancient masters into the grandest arenas of the world.
+
+Suggested Atmospheric Background
+Master Tien would look exceptionally magnificent sitting cross-legged atop a smooth, weathered stone well at the center of a derelict, mist-shrouded slum courtyard within the lower districts of Antoinerei during a quiet dawn. The background should feature the ramshackle, overlapping wooden and rusted tin rooftops of the slums rising up like chaotic steps, partially softened by a dense, cooling morning fog that filters the early pale blue sunlight. The lighting should be a serene, low-contrast "Misty Dawn Chiaroscuro," where the soft, diffused silver light catches the snow-white strands of his topknot, the gentle laugh lines of his face, and the dark, polished grain of his ironwood staff leaning against his knee. A few stray, glowing emerald energy motes from his resting aura should be shown drifting lazily through the damp air, mingling with the light steam rising from a small, crude clay teacup resting on the stone beside him, creating an intimate, profound atmosphere of absolute spiritual peace existing right at the heart of urban decay.
+
+Before Chou learned to throw his first devastating Jeet Kune Do kick, before he became the explosive, high-tier fighter known across the Land of Dawn, he was just a rough, impoverished street brawler trying to survive the absolute worst slums of Antoinerei. He had the spirit, but he lacked a foundation. That all changed the day he risked his life to drag a seemingly frail, beaten elderly refugee away from a vicious mob.
+
+The mob thought they were clearing out useless street trash. In reality, they had just picked a fight with a living legend.
+
+Meet Master Tien, The Equilibrium of the Slums—the ancient, wandering grandmaster of the Cadia Riverlands' forgotten martial arts, and the ultimate mastermind who forged the legendary Way of the Dragon.
+
+🍵 The Mythic Lore: The Seed of the Dragon's Way
+In the ancient, closely guarded scrolls of the Cadia Riverlands’ hidden temples, Master Tien's true identity is spoken of with absolute reverence. He was a supreme guardian, a martial philosopher who could reportedly catch arrows out of the air with two fingers and alter the flow of raging rivers with an open-palm strike.
+
+But when political corruption and the encroaching shadow of the Abyss began to tear the Land of Dawn apart, Tien didn't stay locked away in a mountain sanctuary. He left. Disguising himself as a frail, stooped beggar standing at a compact 168 cm, he traveled straight into the bleeding heart of urban poverty to find a soul pure enough to inherit his lineage.
+
+                       [THE LINEAGE OF ENLIGHTENMENT]
+                              Master Tien
+                     "To conquer others is strength; 
+                      to conquer oneself is power."
+                                   │
+                                   ▼
+                           [THE INNER CIRCLE]
+              Breaks down crude street-fighting habits;
+             teaches absolute kinetic control & harmony.
+                                   │
+                                   ▼
+                           [THE INHERITOR]
+                                 Chou
+               (Carries the unbroken fire of Kung-Fu)
+When Chou rescued him, the old sage knew his quest was complete. For months, hidden away in a derelict courtyard smelling of cheap tea and incense, Tien broke down Chou’s erratic street-brawling habits, forging the boy's lean frame into a vessel of explosive martial perfection. Once the fire was passed down, Master Tien did what all true legends do: he took his ironwood staff, finished his tea, and vanished into the morning mist without leaving a trace.
+
+🪵 The Weapon: The Sacred Ironwood Staff
+Master Tien treats futuristic mechanical batons, cutting daggers, and steel blades like the clumsy crutches of people who don't know how to use their own hands. His primary instrument of defense and guidance is a simple, full-length Sacred Ironwood Staff measuring 170 cm in length.
+
+The Ironwood Structure
+The Ancient Root: Carved from an ultra-dense mountain root, the wood is naturally gnarled and polished to a deep, dark ebony finish by the friction of his hands.
+
+The Ring of Clarity: The top head is reinforced with thin bronze wire, supporting a single iron ring that clinks softly with every step he takes. This subtle ring isn't for decoration; it functions as a rhythmic focal point for his deep meditation and an audial warning to anyone foolish enough to step into his striking range.
+
+🌀 The Power: "Flowing Equilibrium"
+Master Tien doesn't rely on explosive magical bursts or toxic energy pools. His internal Kung-Fu manifests as a therapeutic, unshakeable aura known as Flowing Equilibrium.
+
+1. The Emerald Ozone Field
+When Master Tien readies himself for a defensive maneuver, a soft, translucent emerald-green and gold mist gently eddies around his wire-strung silhouette. The local air instantly clears, carrying the distinct, peaceful scents of dried tea leaves, mountain incense, and fresh river water. Enemy heroes who attempt to initiate high-speed crowd control or engagement skills within this zone find their momentum entirely decelerated, as if trying to punch through deep water.
+
+2. The Absolute Kinetic Redirection
+With a fluid sweep of his ironwood staff or a precise open-palm deflection, Tien can trigger a localized pocket of total kinetic harmony. If an enemy vanguard hits him with a high-damage physical burst, Tien doesn't take damage; instead, his aura pulses in smooth, rhythmic ripples, absorbing 100% of the impact and immediately redirecting the exact force back into the attacker or casting it harmlessly into the earth. It is the ultimate manifestation of using an opponent's own strength against them.
+
+3. The Ghost-Step Rice-Straw Treads
+Because he wears simple pilgrim shoes woven from flexible rice straw and has his ankles bound securely in thick cloth gaiters, Master Tien moves with absolute, ghostly silence. He ignores all movement-slowing terrain effects, moving across muddy alleyways or slick stone courtyards without disturbing a single grain of dust. His center of gravity is so perfectly balanced that he is completely immune to being knocked airborne.
+
+👴 Why He Is Who He Is: The Unpretentious Sage
+Master Tien is the living embodiment of "True Mastery Cloaked in Humility."
+
+The Slum-Sage: With a deeply sun-bronzed, parchment-like complexion chiseled with laugh lines and ancient silver scars, he looks completely unpretentious. His pure snow-white hair is pinned tightly into a traditional monastic topknot with a sliver of dark bamboo, and his dark-hazel eyes crinkle into a perpetual expression of grandfatherly amusement.
+
+The Architect of the Fist: He is who he is because he understands that the greatest strength is always hidden behind a smile. He let the world think he was a broken old refugee so he could work in peace. Every time Chou executes a perfect Shunpo dash, channels his inner dragon, or delivers an un-blockable signature kick, he is utilizing the exact muscle memory, joint alignment, and spiritual balance that Master Tien quietly carved into him in the dark alleys of Antoinerei.
