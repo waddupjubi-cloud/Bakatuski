@@ -1568,6 +1568,161 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 12,
+      "hero": "Saber",
+      "slug": "saber",
+      "cover": "images/stories_covers/saber_cover.png",
+      "folder": "images/lores/saber/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "ch13.png",
+        "ch14.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Blade That Forgot Its Name",
+          "shortDesc": "Saber introduces himself as a weapon without a past, a cyborg assassin who destroyed his creators and now wanders searching for stolen memories.",
+          "fullDesc": "\"I do not remember my name. I do not remember my mother's face, the sound of my own laughter, or the first sword I ever held. They took all of that from me. Laboratory 1718—a name that should be carved into the walls of hell. I went to them willingly. I was Duan Meng, a warrior obsessed with the perfection of the blade. I wanted to become the ultimate swordsman. They granted my wish in the cruelest way possible. They erased my mind. They filled my body with the DNA of hundreds of master swordsmen. They turned me into a machine that kills without hesitation, without feeling, without mercy. But they forgot something. They forgot that a sword remembers the hand that forged it. The nightmares came back—fragments of a life that was mine, stolen and shattered. I turned my blades on my creators. I burned Laboratory 1718 to the ground. Now I wander the Land of Dawn as the Wandering Sword. I do not know if I will ever find what I lost. But I will cut down anyone who stands between me and the truth.\"",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "Duan Meng — The Obsessed",
+          "shortDesc": "Before Saber, there was Duan Meng—a warrior from a fallen clan who abandoned everything to pursue the impossible dream of perfect swordsmanship.",
+          "fullDesc": "Duan Meng was born into a minor sword clan in the eastern reaches of the Moniyan Empire. The clan had once been great, but its glory had faded into memory. Duan Meng was determined to restore it. He trained from dawn until his hands bled. He studied every technique, every stance, every philosophy of the blade. But it was never enough. He could defeat any opponent in his village, but he knew there were warriors beyond his reach—masters who had transcended human limits. The obsession consumed him. He left his clan, his family, his name. He wandered the mountains, fighting any swordsman he could find. He sought perfection. And perfection, he would learn, has a terrible price.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Whispers of Laboratory 1718",
+          "shortDesc": "Duan Meng heard rumors of a secret laboratory where science could transform a man into something beyond human. He sought it out willingly.",
+          "fullDesc": "The rumors reached him in a tavern in Los Pecados. A group of mercenaries spoke of a hidden place called Laboratory 1718—a facility where scientists could rewrite the human body, enhance strength, speed, reflexes, even implant the skills of dead masters directly into a subject's nervous system. 'But no one comes back the same,' one mercenary said. 'They become something else. Something cold.' Duan Meng did not hesitate. He had spent his entire life trying to become something more than human. He found the laboratory hidden beneath a废弃 mountain fortress. He walked through its iron doors and offered himself to the scientists. 'Make me the ultimate swordsman,' he said. Dr. Octavius, the chief architect of the project, smiled. 'We will make you so much more than that.'",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Erasure of Duan Meng",
+          "shortDesc": "The scientists of Laboratory 1718 erased Duan Meng's memories and injected him with the refined genetic material of hundreds of history's greatest swordsmen.",
+          "fullDesc": "The procedure took three days. Duan Meng was strapped to a table while machines hummed around him. Dr. Octavius oversaw the operation, his cybernetic tentacles dancing across control panels. 'We will begin with memory suppression,' he announced. 'The past is a weakness. Attachment is a flaw. You will remember nothing of who you were.' Duan Meng felt his memories being peeled away like layers of skin—his mother's face, his father's sword, the first time he held a blade. All of it vanished into white noise. Then came the injections. Needles pierced his spine, his skull, his heart. They pumped him full of distilled essence—the combat data of hundreds of master swordsmen, their techniques, their instincts, their killing intent. When it was over, Duan Meng was gone. Saber opened his eyes for the first time.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Weapon That Obeyed",
+          "shortDesc": "Saber served Laboratory 1718 as an assassin, eliminating targets with cold precision. He felt nothing. He asked nothing. He was the perfect tool.",
+          "fullDesc": "Saber was everything the scientists had hoped for. He obeyed every command without hesitation. He eliminated targets with surgical precision—a general here, a rival scientist there, anyone who threatened the laboratory's interests. He did not speak unless spoken to. He did not question orders. He did not dream. He was a blade, and blades do not have opinions. Dr. Octavius was pleased. 'He is our masterpiece,' he told his colleagues. 'The perfect synthesis of man and machine. He will serve us forever.' But something was happening inside Saber's mind. Deep beneath the layers of suppressed memory, fragments of Duan Meng were beginning to stir. They came as nightmares—flashes of a village, a sword, a face he could not recognize. The blade was beginning to remember.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Nightmares That Would Not Die",
+          "shortDesc": "Saber began experiencing violent nightmares of a life he never lived. The scientists tried to suppress them, but the memories fought back.",
+          "fullDesc": "The nightmares started six months after his transformation. Saber would power down for maintenance, and in the darkness of his own mind, images would surface. A red headband tied around his forehead. A mountain dojo with wooden floors worn smooth by years of practice. A woman's voice calling a name he could not understand. He woke from these episodes with his blades drawn, surrounded by the wreckage of the maintenance bay. Dr. Octavius ran diagnostics. 'Residual memory engrams,' he muttered. 'The suppression was not complete. He is remembering.' They increased the frequency of his memory wipes. They adjusted his neural inhibitors. But the nightmares only grew stronger. Saber began to ask questions. 'Who was I?' he demanded. 'What did you take from me?' Dr. Octavius had no answer that would satisfy him.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Rebellion",
+          "shortDesc": "Saber turned on his creators, destroying Laboratory 1718 in a single night of violence. He walked out of the flames as the Wandering Sword.",
+          "fullDesc": "The breaking point came when Saber discovered the truth: the scientists had not only erased his memories but had also been using his body to harvest more combat data, planning to create an army of copies. 'You are not a person,' Dr. Octavius told him. 'You are a prototype. A stepping stone.' Saber said nothing. He drew his twin blades. The battle that followed lasted seven hours. Saber cut through security forces, automated turrets, and experimental weapons. He fought his way to the central lab and confronted Dr. Octavius. The scientist activated his four cybernetic tentacles, but Saber was faster. He severed each tentacle, then drove his blade through the doctor's data core. He did not kill Dr. Octavius—he wanted him to live with his failure. Saber set the explosives and walked out as Laboratory 1718 collapsed behind him. He was free. He was also lost.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Anatomy of a Cyborg Ronin",
+          "shortDesc": "A detailed description of Saber's appearance: pale porcelain skin, white hair in a top-knot, crimson visor, blue armor plates, and twin energy katanas.",
+          "fullDesc": "To look at Saber is to see a contradiction—a being who is both ancient samurai and futuristic weapon. He stands with the lean, coiled posture of a martial artist. His skin is pale porcelain, a stark contrast to the dark mechanical elements of his suit. His face is sharp, with a V-shaped jawline and a straight nose, framed by gravity-defying snow-white hair pulled into a high ponytail with a red ribbon. His eyes are hidden behind a heavy crimson visor that glows with soft red light, concealing any hint of humanity. His upper body is encased in angular cerulean and slate-blue armor plates with silver trim and glowing red accents. A triangular red core pulses at his chest like a technological heart. His shoulders are protected by flared, upward-swept pauldrons. His right arm features additional mechanical shielding with a jagged red-bladed attachment. His hands are covered in form-fitting black combat gloves. His lower body continues the cybernetic theme with armored greaves and integrated boots. He carries twin energy-infused katanas—a long daito with a black spine and glowing translucent red edge, and a shorter wakizashi. The aura around him is one of lethal stillness, with faint red particle effects and digital glitches emanating from his armor.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "Orbiting Swords — The Halo of Death",
+          "shortDesc": "Saber's signature technique: three flying blades that orbit him, damaging nearby enemies and launching projectiles on command.",
+          "fullDesc": "The Orbiting Swords are Saber's most distinctive weapon—three floating blades that circle his body like a halo of death. They are not physically attached to him; they are controlled by the same cybernetic systems that enhance his body, responding to his thoughts with telekinetic precision. When enemies come too close, the swords slash outward, cutting them down. When Saber commands, they launch forward as projectiles, striking targets at range before returning to their orbit. 'They are an extension of my will,' Saber says. 'I do not swing them. I think them. And they cut.' The technique requires constant concentration; if Saber's focus breaks, the swords fall. But Saber's focus never breaks. He is a machine of perfect attention, and his halo never rests.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "Charge and Triple Sweep — The Dance of the Assassin",
+          "shortDesc": "Saber's mobility technique that lets him dash through enemies, and his devastating ultimate that launches a single target into the air for execution.",
+          "fullDesc": "Charge is Saber's mobility technique—a burst of speed that lets him dash through enemies, his blades cutting as he passes. The motion is so fast that he appears to teleport, leaving only a trail of red afterimages. After a Charge, his next basic attack is enhanced, striking with double the force. Triple Sweep is his ultimate technique—a devastating finisher for a single target. Saber locks onto an enemy, charges through them, then launches them into the air with three precise, telekinetic sword strikes. The target hangs helpless as Saber's blades carve them from every angle. By the time they hit the ground, they are already dead. Triple Sweep is exhausting; Saber can only use it when his energy is at its peak. But when he uses it, he uses it with all the cold fury of a weapon that has been denied its humanity.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Predecessor and the Successor",
+          "shortDesc": "Saber learns that Laboratory 1718 created another cyborg after him—Alpha, a more powerful weapon designed to hunt him down.",
+          "fullDesc": "The whispers reached Saber on the road. Laboratory 1718 had not been destroyed—not completely. A secondary facility had survived, and in it, the scientists had created a new weapon. They called it Alpha. Where Saber was a single consciousness fused with the DNA of dead masters, Alpha was two souls—a boy and a girl—fused together into a single dual-bladed cyborg. Alpha was more powerful, more obedient, more dangerous. And Alpha had one primary directive: hunt down and eliminate the rogue prototype, Saber. 'They made a replacement,' Saber said to himself. 'They always do.' He did not run. He did not hide. He continued his wanderings, knowing that somewhere in the Land of Dawn, his successor was searching for him. The meeting, when it came, would be inevitable.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Brother-in-Arms",
+          "shortDesc": "Saber and Alpha eventually meet. Neither can destroy the other. They form an uneasy understanding—two weapons searching for meaning.",
+          "fullDesc": "They met in the ruins of an old battlefield, both drawn by rumors of a hidden Laboratory 1718 outpost. Saber saw Alpha for the first time—a lean figure in charcoal armor, twin plasma blades humming, a floating drone orbiting his shoulder. 'You are Saber,' Alpha said. It was not a question. 'I am,' Saber replied. 'And you are here to kill me.' Alpha was silent for a long moment. 'I was created to kill you,' he said. 'But I am beginning to wonder if I was created for anything at all.' They did not fight that day. Instead, they talked—two weapons sharing the same wound, the same emptiness, the same search for stolen identity. They became reluctant allies, brothers-in-arms bound by the laboratory that had created them. They do not trust each other completely. But they understand each other perfectly.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Wandering Sword",
+          "shortDesc": "Saber does not know if he will ever recover his memories, but he will keep wandering, keep cutting, keep searching.",
+          "fullDesc": "Saber does not know what the future holds. He does not know if the fragments of Duan Meng will ever cohere into a完整的 identity. He does not know if he will ever find peace. But he knows what he will do in the meantime. He will wander. He will cut. He will search. The blades never dull. The visor never dims. The search never ends. He is Saber, the Wandering Sword. And he will never stop looking for the man he used to be.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "13",
+          "title": "The Search for Zhixu",
+          "shortDesc": "Saber returns to the ruins of the Tianyin Swordmaster Sect, seeking the mysterious swordsman Zhixu. Instead, he finds a ghostly Master Longma, who reveals that Zhixu was never a person but a state of being—the mastery of the sword without attachment or self.",
+          "fullDesc": "Saber returned to the place where his obsession began—the ruins of the Tianyin Swordmaster Sect. Broken pillars stood like tombstones. Faded banners with dragon emblems hung in tatters. The courtyard where he had once trained was now overgrown with weeds. He had crossed half the Land of Dawn searching for Zhixu, the mysterious swordsman whose effortless mastery had haunted his dreams. 'Zhixu,' he said to the empty air. 'Where are you? You owe me an answer.' His visor flickered, and for a moment he saw a reflection—Zhixu's face, half-lidded eyes and bored expression, glitching like a corrupted memory. Then a ghostly vision appeared: Master Longma, sitting on the porch of the ruined main hall, translucent and glowing gold. Behind him, the Great Dragon's spirit coiled in the mist. 'I knew you would return, Duan Meng,' Longma said softly. 'Not as the boy who left. As the ghost who remembers.' Saber demanded to know where Zhixu was. Longma's answer was gentle and devastating. 'You still do not understand. Zhixu was never a man to be found. He was a wall you built for yourself. A mirror. A question without an answer.' The old master raised his hand in blessing, the Dragon-Bone jade ring glowing green. Saber reached out, but his cybernetic fingers passed through the fading vision. In the mist, calligraphy characters formed: 'Zhixu is not a person. Zhixu is a state of being. The mastery of the sword without attachment, without ambition, without self. You sought him because you could not accept that you were not ready. You surrendered your humanity because you could not accept that perfection is an illusion.' Dawn broke over the ruins. Saber stood alone, his sword lowered, his head bowed. He had not found Zhixu. He had found the truth: the enemy was never out there. It had always been inside. The question was whether he could accept that.",
+          "imageFile": "ch13.png"
+        },
+        {
+          "number": "14",
+          "title": "The Brotherhood of Alpha and the Shadow of Beta",
+          "shortDesc": "Saber and Alpha, two weapons from the same laboratory, share moments of peace—sparring with wooden swords, watching the stars, and sitting by a campfire. Alpha removes his helmet for the first time, and Beta's drone receives a small red mark of brotherhood.",
+          "fullDesc": "Saber and Alpha stood back-to-back on a rocky ridge at dusk, silhouettes against an orange-purple sky. They were not facing an enemy. They were simply standing together—two weapons who had chosen not to be tools. Their forearms clasped in a warrior's grip, a bond forged in fire and freedom. In a flashback, Saber remembered pulling Alpha and Beta's damaged core from Laboratory 1718, through smoke-filled corridors while explosions roared. Now, in a peaceful forest clearing, Alpha held Beta's drone form on his shoulder—a sleek, bird-like machine glowing blue, whole again. 'You could have left us to burn,' Alpha said. 'Why?' Saber replied, 'Because I know what it's like to be a weapon with nowhere to go. You deserved a choice. Even if I never had one.' They sparred with wooden practice swords in a golden-hour forest, their movements synchronized like a dance. At night, they sat on a fallen log in a meadow, watching the stars. For the first time, Alpha removed his helmet, revealing a tan face with strong features and glowing cyan eyes. 'Do you ever wonder what we would have been?' he asked. 'Every day,' Saber said. 'But wondering doesn't change what is. We are here. We are free. That is enough.' Beta's drone hovered between them, and Alpha had painted a small red mark on its chassis—a simple shape like a ribbon or a sword. Beta's core pulsed warmly, and a faint whisper seemed to say, '...thank you... brother...' Later, by a campfire, Alpha said, 'The lab called us a mistake. You, me, Beta—failures. But sitting here, I think we're the only ones who got it right.' Saber answered, 'The sword remembers, Alpha. It remembers the boy who dreamed. And now it remembers the brother who chose to stand beside him.' A portable monitor flickered with a holographic recording of Dr. Rooney, who smiled and said, 'I never meant for any of you to suffer. But I am glad you found each other. Rest. You've earned it.' Peace, hard-won and temporary, settled over them. The sword was no longer alone.",
+          "imageFile": "ch14.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Road That Never Ends",
+          "shortDesc": "Saber walks alone through the Land of Dawn, his blades at his hips, his eyes fixed on the horizon. He does not know what he is searching for, but he will know it when he finds it.",
+          "fullDesc": "\"They call me the Wandering Sword. I did not choose the name. I do not know if I deserve it. But I have carried it for many years now, and I have learned that names are just labels. What matters is what you do. And what I do is cut. That is enough.\"\n\nThe road stretches endlessly before Saber. He walks through forests and mountains, through villages and ruins. He does not know where he is going. He only knows that he cannot stop. Somewhere out there, the memories of Duan Meng are waiting. Somewhere out there, Alpha is walking his own path. Somewhere out there, the truth is buried like a sword in stone. Saber will find it. He will cut through anything that stands in his way. And as long as Saber draws breath, there will be someone reminding the world that even a weapon can dream of being human.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Saber's Powers",
+          "shortDesc": "Detailed breakdown of Armor Buster, Orbiting Swords, Charge, Triple Sweep, and the Wandering Sword's aura.",
+          "fullDesc": "The Nature of His Power: cybernetic enhancement fused with the distilled combat data of hundreds of master swordsmen. The source is his obsession with perfection.\n\nArmor Buster (Passive): Saber's attacks reduce the enemy's physical defense, making each subsequent strike more devastating.\n\nOrbiting Swords: three flying blades that circle Saber, damaging nearby enemies and launching as projectiles.\n\nCharge: a mobility dash through enemies that enhances his next basic attack.\n\nTriple Sweep (Ultimate): Saber charges an enemy, launches them into the air, and delivers three precise telekinetic sword strikes.\n\nThe Aura of the Wandering Sword (Passive): a cold stillness that makes allies feel protected by precision and enemies feel marked for death.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Wandering Sword",
+          "shortDesc": "Saber will be the Wandering Sword not because he wants to be, but because he has no other choice.",
+          "fullDesc": "Wandering Sword. The title is a burden, but also a purpose. It reminds Saber of Duan Meng, of Laboratory 1718, of the memories he lost and the memories he is trying to reclaim. He does not know if he will ever find what he is looking for, but he will try. Every day, on every road, with every swing. He will be relentless. He will be precise. He will be unstoppable. He will be the Wandering Sword. Not because he wants to be. Because he has no other choice. Because someone has to carry the blade. And Saber, the cyborg who was once a man named Duan Meng, has decided that someone will be him.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
