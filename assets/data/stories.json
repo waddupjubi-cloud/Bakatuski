@@ -3113,6 +3113,145 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 23,
+      "hero": "Hirara",
+      "slug": "hirara",
+      "cover": "images/stories_covers/hirara_cover.png",
+      "folder": "images/lores/hirara/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Dance of the Crimson Promise",
+          "shortDesc": "Hirara introduces herself as the Fallen Scarlet, a geisha ninja who owes a life debt to Hanabi. She walked through hell to claim the Ukifune twin fans and now serves as Hanabi's shadow, protector, and weapon.",
+          "fullDesc": "\"A blade does not ask why it must cut. A shadow does not question where it must fall. A debt of life cannot be weighed against gold or measured in years. I was nothing—a forgotten girl shivering in the gutters of the Scarlet Shadow, my hands empty, my spirit broken, my heart hollow. Then she found me. Hanabi—the Scarlet Flower—saved me from a death that should have claimed me. She did not ask for my gratitude. She did not demand my service. She simply... saw me. And in that moment, I understood that there are debts that cannot be repaid with coin. There is only one currency that can balance the ledger of a life saved. Blood. I will bleed for her. I will kill for her. I will walk through the fires of the Abyss and return with nothing but ash on my skin if it means she never has to suffer. They call me the Fallen Scarlet now. They say I am a monster, a killer, a weapon with no soul. They are wrong. I have a soul. It is not mine. It belongs to her.\" — Hirara, speaking to the embers of a dying fire, her twin fans still wet with the blood of her enemies. She was found half-dead on the outskirts of the Scarlet Shadow's territory. Hanabi saved her. Now Hirara is her shadow, her protector, her Obsidian Dancer—and she will never stop dancing.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Girl in the Gutter",
+          "shortDesc": "Hirara was an orphan, forgotten and alone, until Hanabi found her dying in the mud. Hanabi gave her a name, a purpose, and a debt that could never be repaid.",
+          "fullDesc": "The Cadia Riverlands do not remember the forgotten. Hirara was one of them—no parents, no home, no name. She survived by stealing and lying, learning that trust was weakness. At eight years old, she stumbled into the Scarlet Shadow's territory, half-dead, covered in wounds. The scouts wanted to kill her. But Hanabi, the grandmaster's daughter, intervened. 'She is a person,' Hanabi said. 'I will take responsibility for her.' She knelt in the mud, lifted the girl's head into her lap, poured water through cracked lips, and stayed for three days until the fever broke. 'What is your name?' she asked. The girl could not speak. 'It doesn't matter,' Hanabi said. 'I will give you a new name. Hirara. It means \"the falling scarlet.\" You are not dead yet. You will not die today.' The debt was forged in that moment. Hirara would repay it with blood.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Shadow That Learned to Strike",
+          "shortDesc": "Hirara trained in secret, watching Scarlet warriors, adapting their techniques. She became Hanabi's bodyguard and killed her first assassin at fourteen, her hands wet with blood, her eyes cold.",
+          "fullDesc": "Hanabi gave Hirara a purpose: 'You will be my bodyguard. You will stay by my side, watch my back, and keep me safe.' Hirara had no formal training, no bloodline, no talent—only hunger and loyalty. She watched the Scarlet warriors, memorized their forms, adapted their techniques. Her body became a weapon; her will became steel. The day she first killed for Hanabi, she was fourteen. An assassin infiltrated the compound. Hirara heard the whisper of fabric, felt the shift in air. She caught his wrist, twisted, took his dagger, and plunged it into his throat. The blood was warm on her hands. She did not vomit or weep. She simply stood, waiting for the next threat. Hanabi woke to the sound of the body collapsing. She looked at Hirara—at the blood, the cold resolve—and nodded. 'Good.' That was all.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Debt That Could Not Be Weighed",
+          "shortDesc": "Hirara became Hanabi's shadow, known among the Scarlet Shadow as the silent guardian who never failed. When Hanabi hunted Hanzo alone, Hirara followed and saved her.",
+          "fullDesc": "The years passed. Hirara became known as Hanabi's shadow—the silent guardian who struck without warning, who asked no questions, who never failed. She was not a formal member of the clan. She had no insignia, no rituals. She was simply Hirara, and her only purpose was to protect Hanabi. Then came the betrayal of Hanzo. The Akuma Ninja had fallen to the cursed blade Ame no Habakiri. Hanabi was sent to hunt him alone, slipping away in the night to keep Hirara safe. Hirara woke to an empty room. She followed the trail of rumours, tracked Hanabi into the Shadow Swamp. She found Hanabi fighting Hanzo—wounded, exhausted, losing. Hirara threw herself into the fight, drew Hanzo's attention, and gave Hanabi the opening she needed. Together, they drove him back. Hanabi was furious. 'You could have died.' 'So could you,' Hirara replied. 'I made a promise. I will not let you die. Not ever.' The debt had been repaid a hundred times over. But Hirara did not keep count.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Anatomy of a Geisha Ninja",
+          "shortDesc": "A detailed description of Hirara: 160 cm, slender and athletic, teal-blue hair in a complex updo, vivid pinkish-purple eyes, porcelain skin, asymmetrical combat gear, wooden geta, and the twin fans Ukifune.",
+          "fullDesc": "To look at Hirara is to see a contradiction made physical—a woman who moves like a dancer, fights like a demon, and carries herself with the poise of a geisha even as her fans drip with blood. She stands 160 centimetres, slender and athletic. Her face is sharp and refined, with a V-shaped jawline and high cheekbones. Her skin is porcelain white, her eyes large and vivid pinkish-purple, framed by dark eyeliner. Her hair is deep teal-blue, styled in a complex updo with thick bangs and a spiky bun. She wears a white sarashi under a dark charcoal cropped vest with gold embroidery. Her arms are asymmetrically armoured—an ornate gauntlet on the right, a dark sleeve with gold bands on the left. A thick red sash with a blue floral charm and red tassels cinches her waist, from which flare teal fan-like panels. A short dark skirt exposes her thighs, wrapped in white bandages on the right leg. Her left leg is bare; her right leg wears a thigh-high black stocking with red flame lines. On her feet are black geta with red straps. Her weapons are the Ukifune—Kaerazu (crimson fire fan) and Meisen-e (magenta shadow fan). Her aura is cold, contained fury—the presence of a woman who has learned to move through the world without leaving a trace.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Twin Fans of Ukifune",
+          "shortDesc": "The Ukifune are legendary twin fans of the Scarlet Shadow. Hirara claimed them by walking through a forbidden ritual, proving her obsession stronger than the spirits bound within.",
+          "fullDesc": "The Ukifune are part of the Seven Great Armaments, ancient relics sealed in the Scarlet Shadow's vaults. To claim them, Hirara walked into a forbidden ritual—a hell that should have killed her. The spirits tested not strength, but obsession. They showed her illusions of her past: cold nights, empty stomachs, people who looked through her. They whispered that she was nothing, that Hanabi would forget her. Hirara fought for three days. Her body broke. Her spirit exhausted. Then she remembered Hanabi—the girl who knelt in the mud, who poured water through cracked lips, who saw a dying stray and found something worth saving. She rose. The spirits recoiled. Her obsession was too pure, too absolute. She emerged with the Ukifune in her hands—Kaerazu, the Crimson Bringer, and Meisen-e, the Shadow Weaver. Hanabi watched from the shadows. 'You are no longer my shadow,' she said. 'You are my equal.' 'I am your protector,' Hirara replied. 'That is all I have ever wanted to be.'",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Abilities of the Fallen Scarlet",
+          "shortDesc": "Hirara's combat style: Twin Fans passive, Kaerazu (fan-shaped damage), Meisen-e (double dash), Infernal Torrent (dash spin combo), Falling Maple (untargetable phase), and Momijigari (energy-extending ultimate).",
+          "fullDesc": "Hirara's power is defined by pressure and combo chaining. Twin Fans: Ukifune (Passive)—she wields Kaerazu and Meisen-e. She starts with 4 Crimson/Death Energy stacks. Casting base skills costs 1 energy, combos cost 2. CDR converts to energy recovery. Hitting with both marks immobilises enemies. Kaerazu (Skill 1)—sweeps a fan-shaped attack, dealing damage, then a delayed second strike for double damage. Meisen-e (Skill 2)—dashes twice, slicing enemies, then releases a water wave. Infernal Torrent (Combo 1→2)—dashes forward spinning, deals damage, then spins again for double damage in a wide circle. Falling Maple (Combo 2→1)—becomes untargetable for up to 1 second, then emerges with an AoE sweep and two free dashes. Forbidden Jutsu: Momijigari (Ultimate)—gains burst movement speed, increases max energy to 6 stacks for 10 seconds; each kill or assist extends duration by 4 seconds, enabling snowball combos.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Walk Through Fire",
+          "shortDesc": "Hirara's forbidden ritual to claim the Ukifune nearly killed her, but her obsession with protecting Hanabi proved stronger than the spirits of the dead.",
+          "fullDesc": "The ritual was forbidden, sealed in the oldest texts. It required a sacrifice not of blood, but of self—to face the spirits bound within the Great Armaments and prove that one's will was stronger than the collective hunger of the dead. The elders warned Hirara she would die. Hanabi did not try to stop her. 'You will die,' Hanabi said. 'Perhaps,' Hirara replied. 'But if I live, I will be strong enough to protect you. That is all that matters.' She stepped into the vault, and darkness swallowed her. For three days she fought spirits who tried to consume her identity, who whispered she was nothing. She fought until she could not remember who she was. Then she remembered Hanabi. She rose. The spirits recoiled. She emerged scarred, her hair turned white in places, her soul permanently changed—but alive, with the Ukifune in her hands. The elders bowed. The warriors whispered her name with new respect. Hanabi smiled.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Obsidian Dancer and the Web of Duty",
+          "shortDesc": "Hirara faced Hanzo again, using Falling Maple to phase through his attacks and Infernal Torrent to drive him back. She swore to follow Hanabi into darkness if needed.",
+          "fullDesc": "The Cadia Riverlands are a web of alliances and betrayals. When the Abyss sent agents to corrupt the Scarlet Shadow, Hirara fought them in the shadows. When Hanzo returned, drawn by old grudges, Hirara stood between him and Hanabi. Hanzo laughed. 'You cannot protect her. The darkness will take her.' 'Then I will follow her into the darkness,' Hirara replied, 'and I will drag her back.' She attacked. She used Falling Maple to phase through his claws, to dodge his most devastating strikes. She used Infernal Torrent to close the distance, to deliver blows even he could not ignore. Hanzo retreated, wounded and furious. He would return. He always returned. Hirara did not care. She would be ready. She would keep dancing.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Heart That Never Yielded",
+          "shortDesc": "Years of vigilance left Hirara scarred and lonely. She loved Hanabi with a fierceness she could not name, but she accepted her role as the shadow, the weapon, the protector.",
+          "fullDesc": "The years took their toll. Hirara's body was a map of scars, her mind a fortress of secrets, her heart a vault sealed shut. She did not sleep well—the spirits of the Ukifune whispered to her in the dark, urging violence. But she did not lose herself. Hanabi needed her. The Scarlet Shadow needed her. She trained harder, refined her techniques, became a legend—the Fallen Scarlet, the Obsidian Dancer. But she was lonely. The bond with Hanabi was deeper than friendship, but also more distant. Hanabi was her mistress, her purpose, not her equal. She had no one to confide in, no one to hold her when nightmares came. She did not complain. She had chosen this path. She would walk it to the end. 'Every slash is a prayer for the safety of my master.'",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Philosophy of the Fallen Scarlet",
+          "shortDesc": "Hirara's philosophy: a blade does not ask why it must cut. She believes in loyalty, sacrifice, and the art of battle. She has accepted her role and does not resent it.",
+          "fullDesc": "Hirara does not consider herself a philosopher. She thinks about the next threat, the next battle. But she has developed guiding beliefs. 'A blade does not ask why it must cut. A shadow does not question where it must fall.' She has accepted her role. She believes in loyalty—not blind loyalty, but the deep abiding loyalty of a life to the one who saved it. She owes Hanabi everything, and she will pay that debt for as long as she lives. She believes in sacrifice. She walked through hell, gave everything—her body, her soul, her future—to a single woman. She does not regret it. 'Dancing on a battlefield is the greatest art. It is the only art that matters.'",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Bond with the Fallen Flower",
+          "shortDesc": "Hirara loves Hanabi with a devotion that transcends duty. Hanabi once said, 'You are not my shadow. You are my heart.' Hirara has never forgotten those words.",
+          "fullDesc": "The most important bond in Hirara's life is with Hanabi. She is not Hanabi's friend—friends are equals. She is her protector, her shadow, her weapon. But there is love there—a love never spoken, never acknowledged, but always present. Hirara loves Hanabi with a fierceness she cannot name, a devotion that transcends duty, that goes beyond obligation. Hanabi knows. She does not speak of it, because she cannot offer what Hirara deserves. She is bound to Hayabusa, to her clan, to a destiny that has no room for a shadow. But she has never asked Hirara to leave. 'You are not my shadow,' Hanabi once said. 'You are my heart.' Hirara did not reply. She could not. But she remembered the words. She has never forgotten them.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Obsidian Dancer",
+          "shortDesc": "Hirara does not know if she will ever find peace, but she will keep dancing, keep protecting, keep fighting. She is the Fallen Scarlet, and she will never stop.",
+          "fullDesc": "Hirara does not know what the future holds. She does not know if she will ever find peace, if the Ukifune will ever release her, if the debt she owes will ever be paid in full. But she knows she will keep fighting, protecting, dancing on the edge of the blade for as long as her body allows. She was born in the gutter, forgotten and alone. She was saved by a girl who saw something no one else could see. She walked through hell to claim her power. She is not a hero. She will never be a hero. But she is not a villain. She is a guardian, a protector, a weapon. She is Hirara, the Fallen Scarlet. And she will never stop dancing.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Dance That Never Ends",
+          "shortDesc": "Hirara stands vigil at the Scarlet Shadow's compound, watching over the night. She thinks of Hanabi, the girl in the gutter, and the Ukifune. She keeps dancing.",
+          "fullDesc": "\"Dancing on a battlefield is the greatest art. Every slash is a prayer for the safety of my master.\" — Hirara, standing on the edge of the Scarlet Shadow's compound, her fans raised, her eyes fixed on the horizon. The night is quiet. The moon hangs low. Hirara stands at the edge of the compound, fans in her hands, eyes fixed on the horizon. In the distance, village lights twinkle—people sleeping peacefully, unaware of the woman who watches from the shadows. It is worth it. Every scar, every battle, every sacrifice. She thinks of the girl in the gutter, hoping she is proud. She thinks of Hanabi, hoping she is safe and happy. She thinks of the Ukifune, wondering how much longer she can carry them. 'Dancing on a battlefield is the greatest art,' she whispers. The wind does not answer, but the stars shine brighter. She is not alone. Hanabi is with her, the Ukifune are with her, the memory of the girl in the gutter is with her. The night is quiet. The moon is silver. And Hirara, the Fallen Scarlet, keeps her vigil.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Hirara's Powers",
+          "shortDesc": "Detailed breakdown of Twin Fans passive, Kaerazu, Meisen-e, Infernal Torrent, Falling Maple, and Momijigari. Hirara is a high-mobility assassin who chains combos with unique drag-and-drop mechanics.",
+          "fullDesc": "The Nature of Her Power: earned through a forbidden ritual, focused through the Ukifune twin fans. She operates on Crimson/Death Energy instead of mana or standard cooldowns.\n\nTwin Fans: Ukifune (Passive): wields Kaerazu and Meisen-e. Starts with 4 energy stacks. Base skills cost 1 energy, combos cost 2. CDR converts to energy recovery. Hitting with both marks immobilises enemies for 0.8s.\n\nKaerazu (Skill 1): sweeps a fan-shaped attack, deals damage, then a delayed second strike for double damage.\n\nMeisen-e (Skill 2): dashes twice, slicing enemies, then releases a water wave.\n\nInfernal Torrent (Combo 1→2): dashes forward spinning, deals damage, then spins again for double damage in a wide circle. Primary kill combo.\n\nFalling Maple (Combo 2→1): becomes untargetable for up to 1 second, then emerges with AoE sweep and two free dashes. Ultimate outplay tool.\n\nForbidden Jutsu: Momijigari (Ultimate): gains burst movement speed, increases max energy to 6 stacks for 10 seconds. Kills/assists extend duration by 4 seconds. Snowball tool for teamfight dominance.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Fallen Scarlet",
+          "shortDesc": "Hirara will be the Fallen Scarlet not because she was born to it, but because she chose to dance through hell for a promise made in blood. She will never stop dancing.",
+          "fullDesc": "Hirara. Fallen Scarlet. Obsidian Dancer. She was born in the gutter, an orphan with no name, no home, no future. She was saved by a girl who saw something no one else could see. She became her shadow, her protector, her weapon. She walked through a hell that should have killed her to claim the Ukifune. She is not a hero. She will never be a hero. But she is not a villain. She is a guardian, a protector, a weapon. She will keep dancing, keep protecting, keep fighting. She will be the Fallen Scarlet—not because she was born to it, but because she chose to dance through hell for a promise made in blood. Because someone must stand in the shadows and watch over the ones who matter. And Hirara, the girl from the gutter, the shadow of the Scarlet Flower, the Obsidian Dancer, has decided that someone will be her. She will never stop dancing.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
