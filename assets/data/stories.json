@@ -2835,6 +2835,284 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 21,
+      "hero": "Zhuxin",
+      "slug": "zhuxin",
+      "cover": "images/stories_covers/zhuxin_cover.png",
+      "folder": "images/lores/zhuxin/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Lantern That Held Her Soul",
+          "shortDesc": "Zhuxin introduces herself as the Beacon of Spirits, a wanderer between life and death who guides ember butterflies and grants wishes. For a thousand years she has searched for pure wishes, hoping to find her own.",
+          "fullDesc": "\"What do I wish for? What dost thou crave? What is it that all dream of?\" — Zhuxin, standing at the edge of the Burning Lights Festival, watching mortals bargain with fate. There is a particular quality to the light in Zhu'an at the height of the Burning Lights Festival—warm, golden, alive. Zhuxin has walked the boundary between life and death for a thousand years. She was born an orphan, her Yin energy so strong that villagers crossed themselves when she passed. She died in the cold, abandoned, her last breath fading into darkness. But her Yin energy would not let her soul disappear. The Great Dragon found her, gave her the Lantern of Spirits, and told her: \"You must not sink into the abyss of corruption.\" Now she guides the ember butterflies, hears the desires of mortal hearts, and grants wishes to those who pass her trials. She is still searching for a wish of her own.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Child Who Crawled from a Coffin",
+          "shortDesc": "Zhuxin was orphaned in Zhu'an, discovered crawling from a coffin after her parents' deaths. Her strong Yin energy made the superstitious villagers fear her as an evil omen.",
+          "fullDesc": "Zhu'an was a city of secrets, where the barrier between mortal and spirit realms was thin. The elders said Zhuxin was found crawling out of a coffin after her parents died—some whispered she had been buried alive, others that her Yin energy was so dark it killed them. She possessed extremely strong Yin energy, which the superstitious people took as an evil omen. She was four years old and alone. The villagers avoided her, children threw stones, merchants shooed her away. She could only approach dying embers after crowds went home. On lucky nights she found discarded flower cakes, holding them close, pretending the faint warmth was a mother's embrace. The cold was worse than the hunger.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The War That Swallowed the World",
+          "shortDesc": "When the balance between Yin and Yang shattered, monsters emerged from the Abyss and terrorised the Cadia Riverlands. No one lit their furnaces. The little orphan passed through bitterly cold nights until the warmth within her faded.",
+          "fullDesc": "No one knows what broke the balance—the Black Dragon's awakening or Alice's corruption. Monsters poured from the Shadow Swamp, creatures of nightmare born from the obsessions of the dead. They wanted suffering. The war spread like a plague. Zhu'an was not spared. People hid, shuttered windows, extinguished lights. No one lit furnaces. No one risked the light. Little Zhuxin knew nothing of the war—only that the nights had grown longer, the cold deeper. She passed through many bitterly cold nights, shivering, her breath forming frost. The warmth within her slowly faded. She did not scream or cry. No one would come. She closed her eyes and let the darkness take her.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Light That Descended",
+          "shortDesc": "The Great Dragon found Zhuxin's soul drifting between life and death. It gifted her the flower-shaped Lantern of Spirits and told her she must not sink into the abyss. She was reborn as the Beacon of Spirits.",
+          "fullDesc": "She did not know how long she was dead. She floated in a grey void, suspended between life and death. Then pure light descended. The Great Dragon loomed above her, vast and terrible and beautiful. 'Are you here to drive me away?' she asked. The Dragon did not answer. A flower-shaped lantern descended toward her. The Great Dragon said: Zhuxin, the guardian of the ember butterflies. She must not sink into the abyss of corruption. The lantern landed in her hands, and the cold receded. She found herself at the edge of a river of souls—the boundary between life and death. She could feel the lost, the forgotten, the ones who died with wishes unfulfilled. The Great Dragon had given her a purpose: guide the butterflies, walk between worlds, hear mortal desires, grant wishes to the pure. She was eleven years old, dead for three days, and her new life had just begun.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Anatomy of a Wanderer Between Worlds",
+          "shortDesc": "A detailed description of Zhuxin: slender and pale, long dark hair, vermilion mark between her brows, black-and-red butterfly-embroidered dress, barefoot, carrying the glowing Lantern of Spirits with ember butterflies swirling around her.",
+          "fullDesc": "To look at Zhuxin is to see a woman shaped by death and reborn by light. She stands 165 centimetres, slender and lithe. Her face is delicate but sharp, with high cheekbones and a soft jawline. Her skin is pale, almost luminous, like moonlight on still water. A small vermilion mark—the mark of the Great Dragon—is traced between her brows. Her eyes are deep dark brown, but when she listens to desires, they seem to glow. Her hair is long and dark, falling past her waist, woven with threads of gold and vermilion. She wears a traditional black-and-red dress with butterfly motifs embroidered in gold thread. She walks barefoot. In her hand she carries the Lantern of Spirits—a flower-shaped glass vessel suspended from a chain, carved with glowing runes. The ember butterflies swirl around her like a living cloak. Her aura is calm, quiet, peaceful—but there is a distance, a sense that part of her is always listening to the whispers of the dead.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Ember Butterflies and the Crimson Swarm",
+          "shortDesc": "The ember butterflies are beings of pure spiritual energy, born from Yin essence. They follow Zhuxin's lantern, serving as her companions, soldiers, and eyes in the shadows. They speak in feelings and guide her to those who need her.",
+          "fullDesc": "The ember butterflies are not mortal insects. They are beings of pure spiritual energy, born from the Yin essence that clings to the boundaries between life and death. They exist only in the space between one breath and the next, drawn to strong emotions like moths to flame. Zhuxin's lantern holds them—not as prisoners, but as a swarm that has chosen to follow her. When she is calm, they rest in the lantern. When she is in danger, they pour forth in a crimson tide, forming barriers and weapons. The butterflies speak in feelings rather than words. When one presses against her cheek, it offers comfort. When one circles her head, it warns of danger. They guide her to those who need her, and they protect her from those who would harm her. They are not immortal; they fade. But new butterflies are born from the same Yin essence. Zhuxin does not name them. She mourns them quietly when they fade.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Abilities of the Beacon of Spirits",
+          "shortDesc": "Zhuxin's techniques: Crimson Butterflies (passive mana recovery), Fluttering Grace (slow and Soul Snare), Lantern Flare (channeled damage and airborne capture), and Crimson Beacon (ultimate death vortex).",
+          "fullDesc": "Zhuxin's combat style is defined by area damage and crowd control. Crimson Butterflies (Passive): Every time she channels Lantern Flare, she converts Mana spent into up to 15 Crimson Butterflies. After channeling, each butterfly restores 3% of her Max Mana. Fluttering Grace (Skill 1): Deals Magic Damage in a fan-shaped area, applies 1 Soul Snare stack, slows enemies by 20-40%, and gives herself equal Movement Speed for 1.5 seconds. Lantern Flare (Skill 2): Hold to move the lantern, dealing damage every 0.33 seconds and applying Soul Snare. At 10 stacks, butterflies capture the target airborne for 1 second. Release to throw captured enemies to a location, dealing Magic Damage plus percentage Max HP damage. Crimson Beacon (Ultimate): Unleashes a massive swarm at a target location, dealing continuous Magic Damage and applying multiple Soul Snare stacks—a devastating death vortex that locks down teams.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Thousand-Year Vigil",
+          "shortDesc": "For a thousand years, Zhuxin has walked between life and death, hearing the desires of mortal hearts. The whispers never stop—dreams, fears, hopes pressing against her consciousness endlessly.",
+          "fullDesc": "The Lantern of Spirits is not just a weapon; it is a responsibility. Zhuxin has walked the boundaries between life and death for nearly a thousand years. She has seen empires rise and fall, heroes live and die. She can hear the desires of mortal hearts—a gift that is also a curse. The whispers are always there: the dreams, fears, desperate hopes of every person she passes. They press against her consciousness like a tide, endless and exhausting. Some desires are simple—rain for crops, a child's recovery, a soldier's safe return. She grants those easily. Other desires are dark—greed, revenge, possession. Those she does not grant. To grant a wish born of hatred is to corrupt the lantern, to tip the balance between Yin and Yang. For a thousand years she has wandered in search of pure wishes, hoping to one day find her own.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Trials of the Heart",
+          "shortDesc": "Those who wish to have their desires granted must pass Zhuxin's trials—tests of wealth, power, or love. Most fail. She has never seen anyone pass the trial of love.",
+          "fullDesc": "Zhuxin does not warn or explain. She appears—a figure in shadows, lantern glowing, butterflies swirling—and offers a choice. The test of wealth: give up everything to prove money is not the root of desire. Most fail. The test of power: give up status and titles to prove influence is not what they truly seek. Most fail. The test of love: give up the person they love most, walk away without looking back, and prove they can love without possession. She has never seen anyone pass that trial. 'What do I wish for?' they ask when they have failed. 'That is for you to discover,' she replies. It is the only answer she ever gives. She does not know what she wishes for. She is afraid to know. Because if she knows and tries and fails, she will have nothing left. So she walks. She listens. She waits.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Eve of the Burning Lights Festival",
+          "shortDesc": "For the first time in a thousand years, Zhuxin feels hope. She grants a mother's wish for her dying son, writing 'Live' on a lantern. She wonders what would happen if she wrote a wish for herself.",
+          "fullDesc": "The Burning Lights Festival is Zhu'an's most important night—lanterns released into the sky, each carrying a wish. Zhuxin has attended every year but never participated. This year, something stirs within her. A woman approaches, trembling: 'My son is ill. He will die before the week is out. Can you save him?' Zhuxin feels the desire—pure, unconditional, selfless. 'What will you give?' 'Anything. Everything.' Zhuxin takes the paper lantern and writes a single word: 'Live.' She releases it. The lantern rises, burning brighter than the rest. The son will recover. Zhuxin watches the lanterns float upward, and for the first time, she wonders what would happen if she wrote a wish for herself. She does not know the answer. But she hopes.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Philosophy of the Wisher",
+          "shortDesc": "Zhuxin believes in the purity of wishes and the power of mystery. She does not explain herself. She appears, tests, grants or denies, and disappears—a legend the people tell around campfires.",
+          "fullDesc": "Zhuxin does not consider herself a philosopher. But over centuries she has developed guiding beliefs. 'What do I wish for?' she asks when mortals beg to know her desires—a deflection, not a question. She believes in the purity of wishes: those born of love, sacrifice, selflessness are worth granting; those born of greed, hatred, possession she will not touch. 'What dost thou crave?' she asks—an invitation to self-knowledge. She also believes in mystery. She does not explain or justify. She appears, tests, grants or denies, and disappears. The people of Zhu'an have made her into a legend. She does not correct them. Mystery is a kind of power, and power is a kind of protection. She wishes for peace—the peace of a life fully lived, a home to belong to, someone who loves her for who she is. She has never said this out loud. But she hopes.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Bond with the Cadia Riverlands",
+          "shortDesc": "The Cadia Riverlands are Zhuxin's home and purpose. She walks its mountains and rivers, guides its dead, and occasionally helps heroes like Zilong and Wanwan. She is not a member of the Oriental Fighters—she walks a lonelier path.",
+          "fullDesc": "The Cadia Riverlands are not just Zhuxin's home; they are her purpose. She has walked its mountains and valleys, sailed its rivers, guided its dead to the other side. She knows the land as intimately as herself. 'Zhu'an is a dreamlike place where the supernatural can be found in every nook and cranny'—Zhuxin is part of that dream. The other heroes—Zilong, Ling, Wanwan, Baxia—are her neighbours. She has seen them fight, helped them when wishes aligned with her purpose. She is not a member of the Oriental Fighters. She walks a different, lonelier path. She fights for the souls that cannot fight for themselves. 'I walk between life and death. I guide the ember butterflies. I listen to the desires of mortal hearts. That is my duty. That is my purpose.' The Cadia Riverlands are her charge, and she has never failed them.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Beacon of Spirits",
+          "shortDesc": "Zhuxin does not know what the future holds. But she will keep wandering, listening, granting wishes. She was born an orphan, died in the cold, and was reborn by light. She is still searching.",
+          "fullDesc": "Zhuxin does not know if she will ever find her own wish, if the butterflies will ever fade. But she knows she will keep wandering, listening, granting wishes for as long as her lantern holds its light. She was born an orphan, feared and rejected. She died in the cold, abandoned. She was reborn in the light of a dragon's gift, given a lantern and a purpose that has kept her walking for a thousand years. She is not a hero. She will never be a hero. But she is not a villain. She is a wanderer, a listener, a grantor of wishes. She is Zhuxin, the Beacon of Spirits. And she is still searching. The night is quiet. The moon is silver. The lantern glows. And Zhuxin keeps her vigil.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Wish That Has Not Yet Been Written",
+          "shortDesc": "Standing by the river in Zhu'an, Zhuxin watches the lanterns rise. She does not know what she would wish for. But for the first time in a thousand years, she feels peace.",
+          "fullDesc": "\"A mysterious young woman who guides the ember butterflies using her Lantern of Spirits.\" — The legend of Zhuxin, as told by the people of Zhu'an. The night is quiet in Zhu'an. Zhuxin stands at the edge of the river, lantern glowing, butterflies swirling. In the distance, the lights of the city that once rejected her now revere her. She thinks of the Great Dragon, hoping it is proud. She thinks of the people she has helped, hoping they are happy. She thinks of the thousands of wishes granted and denied. She does not regret. She looks at the lantern and wonders what she would wish for. 'What do I wish for?' she whispers to the wind. The wind does not answer. But the stars shine brighter. The night grows calmer. Zhuxin feels a sense of peace not felt in a thousand years. She is not alone. The butterflies are with her. The Great Dragon watches. The city remembers her name. She will protect them, listen to them, grant their wishes. The night is quiet. The moon is silver. And Zhuxin, the Beacon of Spirits, keeps her vigil.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Zhuxin's Powers",
+          "shortDesc": "Detailed breakdown of Crimson Butterflies, Fluttering Grace, Lantern Flare, and Crimson Beacon. Zhuxin is a zone-control mage who accumulates butterflies to capture and throw enemies.",
+          "fullDesc": "The Nature of Her Power: given by the Great Dragon, rooted in her connection to the boundary between life and death. The Lantern of Spirits is the source; ember butterflies are the expression.\n\nCrimson Butterflies (Passive): channeling Lantern Flare converts Mana spent into up to 15 butterflies. After channeling, each butterfly restores 3% of Max Mana.\n\nFluttering Grace (Skill 1): deals Magic Damage in a fan-shaped area, applies 1 Soul Snare stack, slows enemies 20-40%, and grants equal Movement Speed for 1.5s.\n\nLantern Flare (Skill 2): hold to move the lantern, dealing damage every 0.33s and applying Soul Snare. At 10 stacks, butterflies capture the target airborne for 1s. Release to throw captured enemies to a location, dealing Magic Damage + percentage Max HP damage.\n\nCrimson Beacon (Ultimate): unleashes a massive swarm at a target location, dealing continuous Magic Damage and applying multiple Soul Snare stacks—a devastating death vortex.\n\nThe Aura of the Beacon: calm, quiet power that brings peace to allies and unease to enemies—the presence of one who walks between worlds.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Beacon of Spirits",
+          "shortDesc": "Zhuxin will be the Beacon of Spirits not because she was chosen, but because she accepted the lantern and walked the lonely path between worlds. She is still searching for her own wish.",
+          "fullDesc": "Zhuxin. Beacon of Spirits. Wisher of Zhu'an. She was born an orphan, feared for her Yin energy. She died in the cold, abandoned. She was reborn by the Great Dragon's gift—a lantern, a swarm of butterflies, a thousand years of wandering. She is not a hero. She will never be a hero. But she is not a villain. She is a wanderer, a listener, a grantor of wishes. She walks between life and death, guides ember butterflies, hears mortal desires, and grants wishes to the pure. She does not know if she will ever find her own wish. But she knows she will keep walking. She will be the Beacon of Spirits—not because she was chosen, but because she accepted the lantern and the lonely path. Because someone must listen to the whispers of the dead and the desires of the living. And Zhuxin, the orphan of Zhu'an, the guardian of butterflies, the grantor of wishes, has decided that someone will be her. She is still searching. She hopes. That is enough.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "hero": "Zetian",
+      "slug": "zetian",
+      "cover": "images/stories_covers/zetian_cover.png",
+      "folder": "images/lores/zetian/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Fire That Did Not Burn",
+          "shortDesc": "Zetian, the Phoenix Empress, reflects on her rise from a nameless orphan to the divine ruler of Shendu. She sacrificed her divinity to build a sanctuary for the weak and slept a thousand years, now reborn as a mortal to protect her people.",
+          "fullDesc": "\"I have been called many things. Phoenix Empress. Celestial Ruler. Keeper of the Wordless Stele. Tomb Keeper of the Ancient Clans. They look at me and see power—the power of the phoenix, the power of the divine, the power of a thousand years of rule. They do not see the fire that burned within me. They do not know that I was born nameless, orphaned, forgotten. That I climbed the heights of power with nothing but my wits and my will. That I sacrificed everything—my divinity, my sleep, my very soul—to build a sanctuary for the weak. They do not see the woman behind the throne. They do not know that I weep when my people weep, that I bleed when my city bleeds, that I would burn myself to ash a thousand times over if it meant one child could sleep without fear. I am Zetian. I am the Empress of Shendu. And I have not forgotten what it means to be mortal. That is why I will never fall.\" — Zetian, speaking from the throne of the Divine Capital as the sun rose over the Cadia Riverlands. Shendu was not always here. A thousand years ago, Zetian came to the wilderness, poured her life force into the earth, and built a city from nothing. Then she slept. Now she has awakened, mortal but unbroken, to face the rising shadows of the Ancient Clans.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Child of No Lineage",
+          "shortDesc": "Zetian was born an orphan, abandoned and forgotten. The phoenix spirit came to her in a dream, drawn by her hunger and determination, and she dedicated herself to the path of the phoenix.",
+          "fullDesc": "A thousand years before Shendu, Zetian was born with no name and no family—abandoned on the outskirts of a village, left to die. The villagers raised her out of pity but did not love her. She was not allowed to study at the Dragon Altar or learn from the masters. But Zetian studied in secret, reading stolen scrolls by moonlight, learning to feel the flow of energy beneath the world. The phoenix spirit came to her in a dream—a vast creature of fire and light. 'You have nothing,' it said. 'No name. No family. No patron. But you have hunger—the hunger that moves mountains, that boils seas, that reshapes the world.' Zetian reached out and touched the spirit's wing. The fire did not burn her. From that day, she dedicated herself to the path of the phoenix.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Ascent Through the Mortal Realm",
+          "shortDesc": "Zetian rose through cunning and ambition, serving lesser lords and navigating court intrigue. She became known as the Phoenix Empress—unquenchable, unstoppable, loved by the common people and feared by the nobles.",
+          "fullDesc": "Zetian did not rise by magic alone. She served lesser lords, learned politics, made allies and eliminated enemies. The nobles tried to use her; they failed. She became known as the Phoenix Empress—not because she ruled, but because she could not be extinguished. No matter how many times she was struck down, she rose again. The common people loved her; they saw someone who started with nothing. The nobles feared her; she did not care about lineage or tradition. Her ambition was not for power itself but for what power could achieve. She had seen the suffering of the weak, the cruelty of those born with everything, and she wanted to change it. When she looked upon the wilderness at the edge of the Cadia Riverlands, she decided to build a home for the outcasts.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Sacrifice of the Phoenix",
+          "shortDesc": "Zetian poured the phoenix spirit's power into the land, building Shendu from nothing. The city rose around her—walls, towers, streets, temples. Then she collapsed, the phoenix power exhausted, and slept for a thousand years.",
+          "fullDesc": "She stood at the heart of the wilderness, hands raised, the phoenix spirit blazing within her like a second sun. Shendu rose around her—walls and towers, streets and temples, all flowing from her energy. The people wept with joy. The nobles bowed in awe. The phoenix spirit flickered and dimmed. Zetian felt the power draining, the fire cooling, the spirit's presence growing faint. 'One more moment,' she whispered. 'Just one more moment.' She finished the city. Then she collapsed. The phoenix spirit retreated into her soul. Zetian did not die, but she slept—a deep, dreamless sleep that would last a thousand years. The people built a tomb for her at the city's heart, a Wordless Stele with no words, because no words could capture what she had done.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Anatomy of the Phoenix Empress",
+          "shortDesc": "A detailed description of Zetian: slender and refined, pale skin, a red phoenix mark between her brows, long dark hair with gold and red threads, crimson and gold Hanfu robes, a golden headdress with rubies, barefoot, surrounded by a warm, bright aura.",
+          "fullDesc": "To look at Zetian is to see a woman shaped by a thousand years of dreams and a single moment of sacrifice. She stands 165 centimetres, slender and refined. Her face is delicate but sharp, with high cheekbones and a strong jawline. Her skin is pale and luminous, almost glowing. A small red phoenix mark is tattooed between her brows. Her eyes are deep warm brown, but when she is angry they glow with inner fire. Her hair is long and dark, flowing past her waist, woven with gold and red threads. She wears crimson and gold Hanfu robes, embroidered with birds and flowers. A golden headdress crowns her brow, set with rubies that glow when she casts spells. Her hands are long and elegant; she wears a simple ring on her right hand. Her feet are bare—a deliberate choice, a reminder that she is connected to the earth. Her aura is warm and bright, like the sun on a summer afternoon, comforting allies and pressing heavily on enemies.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Sacred City of Shendu",
+          "shortDesc": "Shendu is a sanctuary built on terraces overlooking Mirror Lake. Its people are craftsmen and merchants, not warriors, but they have kept the city safe for a thousand years, waiting for the Empress's return.",
+          "fullDesc": "Shendu was not built for conquest or commerce. It was built for refuge—a sanctuary for those rejected by the temples and masters. The city is built on terraces carved into a mountain, overlooking Mirror Lake, where the water reflects the sky with perfect fidelity. The streets are narrow and winding, lined with shops, temples, and gardens. The architecture is traditional Chinese—curved roofs, red pillars, courtyards open to the sky. The people of Shendu are craftsmen, merchants, farmers, artists. They are not the richest or most powerful, but they are the happiest. For a thousand years, they have guarded Zetian's tomb, tended the Wordless Stele, and waited for her return. Now she has returned.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Rebirth at Mirror Lake",
+          "shortDesc": "On the night of the phoenix's rebirth, Mirror Lake began to glow. Zetian rose from the depths, reborn as a mortal, the phoenix spirit faded. The people welcomed her home.",
+          "fullDesc": "The awakening came in silence. Mirror Lake began to glow—at first a trick of light, then brighter, warmer, until the entire lake seemed filled with fire. The water bubbled, the air grew thick with ash and renewal. Then Zetian rose. She emerged from the depths, her robes dry, her eyes blazing. The phoenix spirit had faded; she was reborn as something new—a mortal, a human, a woman with no power but her will. She stepped onto the shore, and the people fell to their knees. 'The Empress has returned.' Zetian looked at them—her people, the descendants of those she had saved—and felt warmth spread through her chest. 'I am no longer divine. I am mortal. I am one of you.' The people did not care. 'Shendu is still yours. We have kept it safe for you.' Zetian walked through the streets, and the people wept and cheered. She was home.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Wordless Stele and the Fall of the Ancient Clans",
+          "shortDesc": "At the heart of Shendu stands the Wordless Stele—a monument to the Ancient Clans Zetian destroyed. Now the shadows of those clans are stirring, seeking to reclaim what was taken.",
+          "fullDesc": "The Wordless Stele stands at Shendu's heart—a slab of dark stone, polished to a mirror shine, with no inscriptions. Zetian erected it after destroying the Ancient Clans, the cultivators who had ruled the Cadia Riverlands by crushing the weak. She burned through their ranks, scattered their survivors, erased their names. The stone is smooth and silent because no words can capture the cost. Now, a thousand years later, the shadows of the Ancient Clans are stirring. Zetian feels them in her dreams—echoes of old magic, remnants of ancient bloodlines. They are gathering, planning, waiting for the moment when Shendu is vulnerable. The phoenix spirit is gone. Zetian is mortal. But she will not surrender. 'I will protect you,' she says to her people. 'I will not let the darkness return.'",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Warning of the Dragon Altar",
+          "shortDesc": "A disciple from the Dragon Altar brought news: the Ancient Clans are rising. The Great Dragon cannot help, but he has sent the Oriental Fighters—Zilong, Ling, Wanwan, and Baxia—to fight beside Zetian.",
+          "fullDesc": "The message came from the Dragon Altar, carried by a young disciple who had ridden three days without rest. 'The Empress must be warned. The shadows are gathering. The Ancient Clans are rising. They seek to reclaim what was taken from them.' Zetian received the message in silence. She had known this day would come. 'What of the Dragon Altar? Will they help us?' 'The Great Dragon cannot. He is old, and his power is waning. But he has sent his disciples—Zilong, Ling, Wanwan, Baxia. They will fight beside you.' Zetian nodded. The Oriental Fighters were legends. If they fought beside her, they might have a chance. But she knew the battle would not be won by force alone. 'Prepare the defences. Summon the people. We will not hide. We will not run. We will stand.'",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Gathering of the Guardians",
+          "shortDesc": "The Oriental Fighters arrived at Shendu. Zilong, Ling, Wanwan, and Baxia pledged to fight beside the Empress. Zetian felt hope for the first time in a thousand years.",
+          "fullDesc": "The Oriental Fighters arrived on a stormy evening. Zilong came first, spear gleaming. Ling followed, silent and watchful. Wanwan bounced beside them, crossbow ready. Baxia came last, massive shell shield on his back. 'The Empress,' Zilong said, bowing. 'We have come to fight beside you.' 'I am not an empress anymore. I am just a woman. A mortal. A keeper of a city that may not survive.' 'You are the Phoenix Empress,' Wanwan said. 'That will never change.' Zetian looked at them—warriors who had come to fight for a city not their own, for a people they had never met. She felt something she had not felt in a thousand years: hope. 'We will stand together. We will fight together. And if we fall, we will fall together. That is the only way.' The Oriental Fighters nodded.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Philosophy of the Phoenix",
+          "shortDesc": "Zetian's philosophy: power comes from the faith of the people, true sacrifice is giving for others, and rebirth is always possible. Strength is earned, one choice at a time.",
+          "fullDesc": "Zetian does not consider herself a philosopher. But over centuries she has developed beliefs that guide her. 'What matters is the faith of the people.' Without their belief, she is nothing. She serves them. She believes in sacrifice—not the empty sacrifice of a martyr, but the real sacrifice of giving up comfort, safety, even existence for others. She gave up her divinity for Shendu. She would give up her life. 'I rule all I see'—not a boast, but a responsibility. Her domain is the land, the people, the future. She also believes in rebirth. The phoenix does not burn to die; it burns to be reborn. She has died a thousand times and risen each time. 'Strength to shape the world might not be something you're born with. It might be something you earn, one choice at a time, one sacrifice at a time, one life at a time.'",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Bond with the Cadia Riverlands",
+          "shortDesc": "The Cadia Riverlands are Zetian's home and purpose. She feels the pulse of the ley lines and the whisper of the wind. The Oriental Fighters are her allies and friends.",
+          "fullDesc": "The Cadia Riverlands are not just Zetian's home; they are her purpose. She has walked its mountains and valleys, fought for its survival. She feels the pulse of the ley lines beneath her feet, the whisper of the wind, the presence of ancient spirits. 'The phoenix stands still, and the wind rises through my feathers.' The other heroes of the Cadia Riverlands—Zilong, Ling, Wanwan, Baxia—are her allies, her comrades, her friends. They fight beside her, bleed beside her, share her vision of a future where the weak are not crushed by the strong. 'The people of the Cadia Riverlands are my family. And I will protect them with my life.'",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Phoenix Empress",
+          "shortDesc": "Zetian does not know if Shendu will survive. But she will keep fighting, protecting, and building a world where the outcasts belong. The fire of the phoenix will never die.",
+          "fullDesc": "Zetian does not know what the future holds. She does not know if Shendu will survive the coming storm, if the Ancient Clans will be defeated, if the Cadia Riverlands will ever know peace. But she knows that she will keep fighting, protecting, building a world where the weak can be strong, where the forgotten can be remembered, where the outcasts can belong. She was born nameless, an orphan. She rose through power. She sacrificed her divinity to build a sanctuary. She slept for a thousand years. She returned from Mirror Lake, reborn as a mortal, and reclaimed her throne. She is not a hero. She will never be a hero. But she is not a villain. She is a ruler, a protector, a survivor. She is Zetian, the Phoenix Empress. And the fire of the phoenix will never die.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Fire That Never Dies",
+          "shortDesc": "Zetian stands on the walls of Shendu, watching the sunrise. The city is at peace. She thinks of the phoenix, the Ancient Clans, and her people. She keeps her vigil.",
+          "fullDesc": "\"The phoenix stands still, and the wind rises through my feathers.\" — Zetian, standing on the walls of Shendu, watching the sun rise over the Cadia Riverlands. The night is quiet. The moon hangs low. Zetian stands on the walls, robes billowing, eyes fixed on the horizon. In the distance, the lights of villages she has protected twinkle. She hears laughter, songs, the murmur of a community at peace. It is worth it. Every scar, every battle, every sacrifice. She thinks of the phoenix spirit, hoping it is proud. She thinks of the Ancient Clans, hoping they will find peace. She thinks of her people, hoping they will survive and thrive. 'Strength to shape the world might not be something you're born with,' she whispers. The wind does not answer, but the stars shine brighter. She is not alone. The people of Shendu are with her, the Oriental Fighters are with her, the memory of the phoenix is with her. She will protect them, fight for them, keep them safe. The night is quiet. The moon is silver. And Zetian, the Phoenix Empress, keeps her vigil.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Zetian's Powers",
+          "shortDesc": "Detailed breakdown of Celestial Armament (Phoenix Crown and Celestial Robe), Phoenix Strike, Phoenix Descent, and Fury of the Phoenix. Zetian is a burst mage with a global ultimate.",
+          "fullDesc": "The Nature of Her Power: the phoenix spirit's residue, a spark of divine fire that still burns within her mortal form. She channels it into precise, devastating spells.\n\nCelestial Armament (Passive):\n- Phoenix Crown: Hitting enemies with Phoenix Strike or Phoenix Descent grants 0.5% Spell Vamp per stack (max 5 stacks, 5% Spell Vamp).\n- Celestial Robe: Periodically knocks back and stuns nearby enemies, deals Magic Damage, and grants a shield (120s cooldown).\n\nPhoenix Strike (Skill 1): Releases a Phoenix Wave that travels in a direction, triggering up to three waves. The third wave pulls enemies toward the center. While casting, gains 10% Movement Speed.\n\nPhoenix Descent (Skill 2): Summons a Phoenix Spirit at a target location, dealing Magic Damage and slowing enemies by 50% for 3 seconds, periodically reducing Magic Defense by 10% per hit. Can reactivate to move the spirit.\n\nFury of the Phoenix (Ultimate): Grants the entire team 60% decaying Movement Speed for 3 seconds, deals Magic Damage to all enemy heroes, stuns them for 1 second, and reveals their positions globally.\n\nThe Aura of the Phoenix: warm and bright like the sun, comforting allies and pressing on enemies—the presence of a ruler who has burned and been reborn.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Phoenix Empress",
+          "shortDesc": "Zetian will be the Phoenix Empress not because she was born to it, but because she earned the right through sacrifice. The fire of the phoenix will never die.",
+          "fullDesc": "Zetian. Phoenix Empress. Tomb Keeper of the Ancient Clans. Celestial Ruler of Shendu. She was born nameless, an orphan abandoned on a village's edge. She rose through cunning and determination. She sacrificed her divinity to build a sanctuary for the weak. She slept for a thousand years, dreaming of a future. She returned from Mirror Lake, reborn as a mortal, and reclaimed her throne. She is not a hero. She will never be a hero. But she is not a villain. She is a ruler, a protector, a survivor. She will keep fighting, protecting, building a world where the outcasts belong. She will be the Phoenix Empress—not because she was born to it, but because she earned the right. Because someone must stand against the darkness. And Zetian, the nameless orphan who became the Phoenix Empress, has decided that someone will be her. The fire of the phoenix will never die.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
