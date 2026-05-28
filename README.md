@@ -1,2 +1,0 @@
-# Bakatuski
-BAKATUSKI SQUAD

@@ -29,21 +29,20 @@
 
 /* ---------- LIGHT THEME (soft, warm, no pure white backgrounds) ---------- */
 body.light-theme {
-  --bg-dark: #fff5eb;
-  --surface-dark: #fffbf5;
-  --card-dark: #fff8f0;
-  --text-dark: #2d1f1a;
-  --gray-1: #4a372f;
-  --gray-2: #7a5a4a;
-  --gray-3: #b89a82;
-  --border-dark: #f0dcc8;
-  --green: #2e7d32;
-  --green-d: #1b5e20;
-  --green-g: rgba(46, 125, 50, 0.15);
-  --orange: #e65100;
+  --bg-dark: #f8fdf8;        /* light bamboo surface */
+  --surface-dark: #f0fff0;
+  --card-dark: #ffffff;
+  --text-dark: #1b2e1b;      /* dark green text */
+  --green: #1bda80;
+  --green-d: #0b6640;
+  --green-g: rgba(27, 218, 128, 0.18);
+  --orange: #ff5c00;
   --orange-l: #ff8a40;
-  --orange-g: rgba(230, 81, 0, 0.12);
-  --white: #2d1f1a;
+  --orange-g: rgba(255, 92, 0, 0.18);
+  --gray-1: #3a3a3a;
+  --gray-2: #5a5a5a;
+  --gray-3: #7a7a7a;
+  --border-dark: rgba(27, 218, 128, 0.2);
   background: var(--bg-dark);
   color: var(--text-dark);
 }
@@ -379,10 +378,15 @@ body.light-theme #search-input:focus {
 
 .card-cover {
   height: 280px;
-  background-size: cover;
-  background-position: center 30%;
   position: relative;
   transition: transform 0.5s var(--ease-out);
+}
+
+.card-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
 }
 
 .lore-card:hover .card-cover {

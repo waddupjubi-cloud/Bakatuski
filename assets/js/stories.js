@@ -35,6 +35,37 @@ document.addEventListener('DOMContentLoaded', async () => {
     let currentGalleryImages = [];       // store URLs for lightbox
     let currentGalleryIndex = 0;
     let lightboxSwiper = null;
+    const responsiveWidths = [480, 900];
+
+    function optimizedImageUrl(src, width) {
+        if (!src || !src.startsWith('images/')) return src;
+        return src
+            .replace(/^images\//, `images/optimized/${width}/`)
+            .replace(/\.[^.]+$/, '.jpg');
+    }
+
+    function setResponsiveImage(img, originalSrc, options = {}) {
+        const {
+            sizes = '(max-width: 700px) 92vw, 360px',
+            initialWidth = 900,
+            eager = false,
+            fullSrc = originalSrc
+        } = options;
+
+        img.src = optimizedImageUrl(originalSrc, initialWidth);
+        img.srcset = responsiveWidths
+            .map(width => `${optimizedImageUrl(originalSrc, width)} ${width}w`)
+            .join(', ');
+        img.sizes = sizes;
+        img.loading = eager ? 'eager' : 'lazy';
+        img.decoding = 'async';
+        img.dataset.full = fullSrc;
+        img.onerror = () => {
+            img.onerror = null;
+            img.removeAttribute('srcset');
+            img.src = originalSrc;
+        };
+    }
 
     // ---------- CUSTOM CURSOR ----------
     function initCursor() {
@@ -177,12 +208,21 @@ document.addEventListener('DOMContentLoaded', async () => {
             const card = document.createElement('div');
             card.className = 'lore-card reveal';
             card.innerHTML = `
-                <div class="card-cover" style="background-image: url('${lore.cover}');"></div>
+                <div class="card-cover">
+                    <img alt="${escapeHtml(lore.hero)} cover">
+                </div>
                 <div class="card-content">
                     <h3>${escapeHtml(lore.hero)}</h3>
                     <p>${escapeHtml(lore.description || 'Unveil the untold chapters')}</p>
                 </div>
             `;
+            const coverImg = card.querySelector('.card-cover img');
+            if (coverImg) {
+                setResponsiveImage(coverImg, lore.cover, {
+                    sizes: '(max-width: 520px) 92vw, (max-width: 1000px) 46vw, 300px',
+                    initialWidth: 480
+                });
+            }
             card.addEventListener('click', () => openModal(lore));
             grid.appendChild(card);
         });
@@ -231,10 +271,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             const mainSlide = document.createElement('div');
             mainSlide.className = 'swiper-slide';
             const img = document.createElement('img');
-            img.src = url;
             img.alt = `${lore.hero} - ${titles[idx]}`;
-            img.setAttribute('data-full', url);
             img.setAttribute('data-index', idx);
+            setResponsiveImage(img, url, {
+                sizes: '(max-width: 900px) 92vw, 520px',
+                initialWidth: 900,
+                eager: idx === 0,
+                fullSrc: url
+            });
             img.addEventListener('click', (e) => {
                 e.stopPropagation();
                 openGallery(idx);
@@ -245,8 +289,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             const thumbSlide = document.createElement('div');
             thumbSlide.className = 'swiper-slide';
             const thumbImg = document.createElement('img');
-            thumbImg.src = url;
             thumbImg.alt = `thumb ${titles[idx]}`;
+            setResponsiveImage(thumbImg, url, {
+                sizes: '(max-width: 900px) 22vw, 130px',
+                initialWidth: 480
+            });
             thumbSlide.appendChild(thumbImg);
             thumbSwiperWrapper.appendChild(thumbSlide);
         });

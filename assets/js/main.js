@@ -5,6 +5,32 @@
 
 'use strict';
 
+const responsiveWidths = [480, 900];
+
+function optimizedImageUrl(src, width) {
+  if (!src || !src.startsWith('images/')) return src;
+  return src
+    .replace(/^images\//, `images/optimized/${width}/`)
+    .replace(/\.[^.]+$/, '.jpg');
+}
+
+function responsiveImgHtml(src, alt, options = {}) {
+  if (!src) return '';
+  const {
+    sizes = '(max-width: 700px) 92vw, 360px',
+    initialWidth = 480,
+    eager = false,
+    extraAttrs = '',
+    onerror = ''
+  } = options;
+  const safeAlt = String(alt || '').replace(/"/g, '&quot;');
+  const srcset = responsiveWidths
+    .map(width => `${optimizedImageUrl(src, width)} ${width}w`)
+    .join(', ');
+  const fallback = onerror || `this.onerror=null;this.removeAttribute('srcset');this.src='${src}'`;
+  return `<img src="${optimizedImageUrl(src, initialWidth)}" srcset="${srcset}" sizes="${sizes}" alt="${safeAlt}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" onerror="${fallback}" ${extraAttrs}>`;
+}
+
 /* ─── CUSTOM CURSOR ─── */
 (function initCursor() {
   const dot = document.getElementById('cursor-dot');
@@ -270,7 +296,12 @@ function initHeroSwiper(players) {
 
     const initials = p.name.charAt(0).toUpperCase();
     const imgHtml = rosterImg
-      ? `<img src="${rosterImg}" alt="${p.name}" onerror="this.parentElement.innerHTML='<div class=hero-img-placeholder>${initials}</div>'">`
+      ? responsiveImgHtml(rosterImg, p.name, {
+          sizes: '(max-width: 760px) 86vw, 520px',
+          initialWidth: 900,
+          eager: i === 0,
+          onerror: `this.parentElement.innerHTML='<div class=hero-img-placeholder>${initials}</div>'`
+        })
       : `<div class="hero-img-placeholder">${initials}</div>`;
 
     const fulltext = (p.ign || p.name).replace(/"/g, '&quot;');
@@ -337,7 +368,11 @@ function initHeroSwiper(players) {
       div.className = 'icon-dot' + (idx === activeIdx ? ' active' : '');
       if (iconSrc) {
         const img = document.createElement('img');
-        img.src = iconSrc;
+        img.src = optimizedImageUrl(iconSrc, 480);
+        img.srcset = responsiveWidths.map(width => `${optimizedImageUrl(iconSrc, width)} ${width}w`).join(', ');
+        img.sizes = '56px';
+        img.loading = 'lazy';
+        img.decoding = 'async';
         img.onerror = () => {
           img.style.display = 'none';
           div.innerHTML = `<span class="fallback">${p.name.charAt(0)}</span>`;
@@ -426,7 +461,11 @@ function renderSquadCards(members) {
     const iconSrc = m.images?.icon || '';
     const initials = m.name.charAt(0).toUpperCase();
     const imgHtml = iconSrc
-      ? `<img src="${iconSrc}" alt="${m.name}" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=card-img-placeholder>${initials}</div>'">`
+      ? responsiveImgHtml(iconSrc, m.name, {
+          sizes: '(max-width: 620px) 92vw, 320px',
+          initialWidth: 480,
+          onerror: `this.parentElement.innerHTML='<div class=card-img-placeholder>${initials}</div>'`
+        })
       : `<div class="card-img-placeholder">${initials}</div>`;
 
     const isPlayer = m.type === 'player';
@@ -509,7 +548,12 @@ function openModal(m) {
   const initials = m.name.charAt(0).toUpperCase();
 
   const imgHtml = popupSrc
-    ? `<img src="${popupSrc}" alt="${m.name}" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=modal-img-placeholder>${initials}</div>'">`
+    ? responsiveImgHtml(popupSrc, m.name, {
+        sizes: '(max-width: 760px) 88vw, 420px',
+        initialWidth: 900,
+        eager: true,
+        onerror: `this.parentElement.innerHTML='<div class=modal-img-placeholder>${initials}</div>'`
+      })
     : `<div class="modal-img-placeholder">${initials}</div>`;
 
   const gallery = m.images?.gallery || [];
@@ -520,7 +564,11 @@ function openModal(m) {
       <div class="modal-gallery-slider" id="modal-gallery-slider">
         ${gallery.map((src, idx) => `
           <div class="gallery-slide ${idx === 0 ? 'active' : ''}" data-full="${src}">
-            <img src="${src}" alt="Gallery image" loading="lazy" onerror="this.style.display='none'">
+            ${responsiveImgHtml(src, 'Gallery image', {
+              sizes: '(max-width: 760px) 88vw, 320px',
+              initialWidth: 480,
+              onerror: "this.style.display='none'"
+            })}
           </div>
         `).join('')}
       </div>`;
@@ -655,7 +703,11 @@ function renderMatrixTable(allPlayers) {
       const iconSrc = p.images?.icon || '';
       const initials = p.name.charAt(0).toUpperCase();
       const avatarHtml = iconSrc
-        ? `<div class="table-avatar"><img src="${iconSrc}" alt="${p.name}" onerror="this.parentElement.innerHTML='<div class=table-avatar-fallback>${initials}</div>'"></div>`
+        ? `<div class="table-avatar">${responsiveImgHtml(iconSrc, p.name, {
+            sizes: '56px',
+            initialWidth: 480,
+            onerror: `this.parentElement.innerHTML='<div class=table-avatar-fallback>${initials}</div>'`
+          })}</div>`
         : `<div class="table-avatar"><div class="table-avatar-fallback">${initials}</div></div>`;
 
       const favHero = (p.favHeroes || [])[0];
@@ -749,7 +801,11 @@ function renderTestimonials(members) {
     const iconSrc = m.images?.icon || '';
     const initials = m.name.charAt(0).toUpperCase();
     const avatarHtml = iconSrc
-      ? `<div class="chat-avatar"><img src="${iconSrc}" alt="${m.name}" onerror="this.parentElement.innerHTML='<div class=chat-avatar-fallback style=background:${m.favColor}>${initials}</div>'"></div>`
+      ? `<div class="chat-avatar">${responsiveImgHtml(iconSrc, m.name, {
+          sizes: '48px',
+          initialWidth: 480,
+          onerror: `this.parentElement.innerHTML='<div class=chat-avatar-fallback style=background:${m.favColor}>${initials}</div>'`
+        })}</div>`
       : `<div class="chat-avatar"><div class="chat-avatar-fallback" style="background:${m.favColor || '#333'}">${initials}</div></div>`;
 
     wrap.innerHTML = `
