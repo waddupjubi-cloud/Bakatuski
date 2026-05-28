@@ -35,6 +35,58 @@ document.addEventListener('DOMContentLoaded', async () => {
     let currentGalleryIndex = 0;
     let lightboxSwiper = null;
     const responsiveWidths = [480, 900];
+    const OVERLAY_STATE_KEY = 'bakatuskiStoriesOverlay';
+
+    function canScrollOverlay(target) {
+        return Boolean(target.closest('.nav-links.open, .modal-container, .lightbox-swiper, .swiper-zoom-container'));
+    }
+
+    function preventBackgroundScroll(event) {
+        if (!document.body.classList.contains('page-scroll-locked')) return;
+        if (canScrollOverlay(event.target)) return;
+        event.preventDefault();
+    }
+
+    function lockPageScroll() {
+        if (document.body.classList.contains('page-scroll-locked')) return;
+        document.documentElement.classList.add('page-scroll-locked');
+        document.body.classList.add('page-scroll-locked');
+    }
+
+    function unlockPageScroll() {
+        if (!document.body.classList.contains('page-scroll-locked')) return;
+        document.documentElement.classList.remove('page-scroll-locked');
+        document.body.classList.remove('page-scroll-locked');
+    }
+
+    document.addEventListener('touchmove', preventBackgroundScroll, { passive: false });
+    document.addEventListener('wheel', preventBackgroundScroll, { passive: false });
+
+    function isMobileViewport() {
+        return window.matchMedia('(max-width: 640px)').matches;
+    }
+
+    function setBodyOverlayState(name, active) {
+        document.body.classList.toggle(`${name}-open`, active);
+        const overlayActive = Boolean(
+            document.body.classList.contains('nav-open') ||
+            document.body.classList.contains('lore-modal-open') ||
+            document.body.classList.contains('lightbox-open')
+        );
+        document.body.classList.toggle('stories-overlay-active', overlayActive);
+        if (overlayActive) lockPageScroll();
+        else unlockPageScroll();
+    }
+
+    function currentOverlayState() {
+        return history.state && history.state[OVERLAY_STATE_KEY];
+    }
+
+    function pushOverlayState(name) {
+        if (!isMobileViewport()) return;
+        if (currentOverlayState() === name) return;
+        history.pushState({ ...(history.state || {}), [OVERLAY_STATE_KEY]: name }, '', window.location.href);
+    }
 
     function optimizedImageUrl(src, width) {
         if (!src || !src.startsWith('images/')) return src;
@@ -141,11 +193,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             hamburger.addEventListener('click', () => {
                 hamburger.classList.toggle('open');
                 navLinks.classList.toggle('open');
+                setBodyOverlayState('nav', navLinks.classList.contains('open'));
             });
             navLinks.querySelectorAll('a').forEach(link => {
                 link.addEventListener('click', () => {
                     hamburger.classList.remove('open');
                     navLinks.classList.remove('open');
+                    setBodyOverlayState('nav', false);
                 });
             });
         }
@@ -268,10 +322,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         modalHeroName.innerText = lore.hero;
+        modal.dataset.loreSlug = lore.slug || '';
         initSwiper();
         if (currentChapterTitles[0]) modalCaption.innerText = currentChapterTitles[0];
         modal.classList.remove('hidden');
-        document.body.style.overflow = 'hidden';
+        setBodyOverlayState('lore-modal', true);
+        pushOverlayState('lore-modal');
     }
 
     function initSwiper() {
@@ -286,8 +342,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             loop: true,
             on: {
                 slideChange: () => {
-                    if (mainSwiper && currentChapterTitles[mainSwiper.activeIndex]) {
-                        modalCaption.innerText = currentChapterTitles[mainSwiper.activeIndex];
+                    if (mainSwiper) {
+                        modalCaption.innerText = currentChapterTitles[mainSwiper.realIndex] || currentChapterTitles[0];
                     }
                 }
             }
@@ -313,15 +369,24 @@ document.addEventListener('DOMContentLoaded', async () => {
         }, 150);
     });
 
-    function closeModal() {
+    function closeModalInternal() {
         if (!modal) return;
         modal.classList.add('hidden');
-        document.body.style.overflow = '';
+        modal.removeAttribute('data-lore-slug');
+        setBodyOverlayState('lore-modal', false);
         if (mainSwiper) { mainSwiper.destroy(true, true); mainSwiper = null; }
         if (thumbSwiper) { thumbSwiper.destroy(true, true); thumbSwiper = null; }
         currentChapterTitles = [];
         currentLoreForModal = null;
         currentGalleryImages = [];
+    }
+
+    function closeModal() {
+        if (isMobileViewport() && currentOverlayState() === 'lore-modal') {
+            history.back();
+            return;
+        }
+        closeModalInternal();
     }
 
     // ---------- SWIPEABLE LIGHTBOX GALLERY ----------
@@ -351,6 +416,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             slide.style.display = 'flex';
             slide.style.alignItems = 'center';
             slide.style.justifyContent = 'center';
+            const zoomContainer = document.createElement('div');
+            zoomContainer.className = 'swiper-zoom-container';
             const img = document.createElement('img');
             img.src = url;
             img.style.maxWidth = '100vw';
@@ -358,7 +425,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             img.style.objectFit = 'contain';
             img.style.borderRadius = '16px';
             img.style.boxShadow = '0 0 40px rgba(0,0,0,0.5)';
-            slide.appendChild(img);
+            zoomContainer.appendChild(img);
+            slide.appendChild(zoomContainer);
             swiperWrapper.appendChild(slide);
         });
         
@@ -384,14 +452,20 @@ document.addEventListener('DOMContentLoaded', async () => {
             grabCursor: true,
             touchRatio: 1,
             resistance: true,
-            resistanceRatio: 0.85
+            resistanceRatio: 0.85,
+            zoom: {
+                maxRatio: 4,
+                minRatio: 1
+            }
         });
-        
+
         lightbox.classList.remove('hidden');
-        document.body.style.overflow = 'hidden';
+        lightbox.dataset.loreSlug = currentLoreForModal?.slug || '';
+        setBodyOverlayState('lightbox', true);
+        pushOverlayState('lightbox');
     }
 
-    function closeLightbox() {
+    function closeLightboxInternal() {
         if (!lightbox) return;
         lightbox.classList.add('hidden');
         if (lightboxSwiper) {
@@ -401,7 +475,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Clean up swiper container
         const swiperContainer = lightbox.querySelector('.lightbox-swiper');
         if (swiperContainer) swiperContainer.remove();
-        document.body.style.overflow = '';
+        lightbox.removeAttribute('data-lore-slug');
+        setBodyOverlayState('lightbox', false);
+    }
+
+    function closeLightbox() {
+        if (isMobileViewport() && currentOverlayState() === 'lightbox') {
+            history.back();
+            return;
+        }
+        closeLightboxInternal();
     }
 
     // ---------- Search ----------
@@ -430,6 +513,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (e.key === 'Escape') {
             if (lightbox && !lightbox.classList.contains('hidden')) closeLightbox();
             else if (modal && !modal.classList.contains('hidden')) closeModal();
+        }
+    });
+    window.addEventListener('popstate', () => {
+        if (lightbox && !lightbox.classList.contains('hidden') && currentOverlayState() !== 'lightbox') {
+            closeLightboxInternal();
+            return;
+        }
+        if (modal && !modal.classList.contains('hidden') && !currentOverlayState()) {
+            closeModalInternal();
         }
     });
 

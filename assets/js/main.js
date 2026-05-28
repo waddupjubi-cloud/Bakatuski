@@ -7,6 +7,42 @@
 
 const responsiveWidths = [480, 900];
 
+function hasOpenOverlay() {
+  return document.body.classList.contains('nav-open') ||
+    document.body.classList.contains('member-modal-open') ||
+    document.body.classList.contains('lightbox-open');
+}
+
+function canScrollOverlay(target) {
+  return Boolean(target.closest('.nav-links.open, .modal-panel, .modal-gallery-slider, .lightbox, .audio-panel'));
+}
+
+function preventBackgroundScroll(event) {
+  if (!document.body.classList.contains('page-scroll-locked')) return;
+  if (canScrollOverlay(event.target)) return;
+  event.preventDefault();
+}
+
+function lockPageScroll() {
+  if (document.body.classList.contains('page-scroll-locked')) return;
+  document.documentElement.classList.add('page-scroll-locked');
+  document.body.classList.add('page-scroll-locked');
+}
+
+function unlockPageScroll() {
+  if (!document.body.classList.contains('page-scroll-locked')) return;
+  document.documentElement.classList.remove('page-scroll-locked');
+  document.body.classList.remove('page-scroll-locked');
+}
+
+function syncPageScrollLock() {
+  if (hasOpenOverlay()) lockPageScroll();
+  else unlockPageScroll();
+}
+
+document.addEventListener('touchmove', preventBackgroundScroll, { passive: false });
+document.addEventListener('wheel', preventBackgroundScroll, { passive: false });
+
 function optimizedImageUrl(src, width) {
   if (!src || !src.startsWith('images/')) return src;
   return src
@@ -116,12 +152,16 @@ function responsiveImgHtml(src, alt, options = {}) {
   ham && ham.addEventListener('click', () => {
     ham.classList.toggle('open');
     links && links.classList.toggle('open');
+    document.body.classList.toggle('nav-open', Boolean(links?.classList.contains('open')));
+    syncPageScrollLock();
   });
 
   document.querySelectorAll('.nav-link').forEach(a => {
     a.addEventListener('click', () => {
       ham && ham.classList.remove('open');
       links && links.classList.remove('open');
+      document.body.classList.remove('nav-open');
+      syncPageScrollLock();
     });
   });
 
@@ -646,7 +686,8 @@ function openModal(m) {
     </div>`;
 
   overlay.classList.remove('hidden');
-  document.body.style.overflow = 'hidden';
+  document.body.classList.add('member-modal-open');
+  syncPageScrollLock();
 
   requestAnimationFrame(() => {
     body.querySelectorAll('.modal-stat-fill').forEach(bar => {
@@ -668,7 +709,13 @@ function openModal(m) {
           lightbox.className = 'lightbox';
           lightbox.innerHTML = `<img src="${fullSrc}" alt="Full size"><div class="lightbox-close">✕</div>`;
           document.body.appendChild(lightbox);
-          lightbox.addEventListener('click', () => lightbox.remove());
+          document.body.classList.add('lightbox-open');
+          syncPageScrollLock();
+          lightbox.addEventListener('click', () => {
+            lightbox.remove();
+            document.body.classList.remove('lightbox-open');
+            syncPageScrollLock();
+          });
         }
       });
     });
@@ -678,7 +725,10 @@ function openModal(m) {
 function closeModal() {
   const overlay = document.getElementById('modal-overlay');
   if (overlay) overlay.classList.add('hidden');
-  document.body.style.overflow = '';
+  document.body.classList.remove('member-modal-open');
+  document.querySelectorAll('.lightbox').forEach(lightbox => lightbox.remove());
+  document.body.classList.remove('lightbox-open');
+  syncPageScrollLock();
   // Remove the query parameter from URL without reloading
   const newUrl = window.location.pathname;
   window.history.pushState({}, '', newUrl);

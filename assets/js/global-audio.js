@@ -92,9 +92,15 @@
       <div class="audio-actions">
         <button class="audio-btn audio-prev" type="button" aria-label="Previous track">${icons.prev}</button>
         <button class="audio-btn audio-next" type="button" aria-label="Next track">${icons.next}</button>
+        <button class="audio-btn audio-volume" type="button" aria-label="Adjust volume">Vol</button>
         <button class="audio-btn audio-library" type="button" aria-label="Open music library">${icons.library}</button>
       </div>
       <div class="audio-progress"><div class="audio-progress-fill"></div></div>
+      <div class="audio-volume-popover" aria-label="Music volume">
+        <span class="audio-volume-label">Volume</span>
+        <input class="audio-volume-range" type="range" min="0" max="100" step="1" value="${Math.round(state.audio.volume * 100)}" aria-label="Music volume">
+        <span class="audio-volume-value">${Math.round(state.audio.volume * 100)}%</span>
+      </div>
     `;
 
     const panel = document.createElement('div');
@@ -120,6 +126,7 @@
     renderLibrary(panel);
     updateModeButtons(panel);
     updateNowPlaying();
+    setVolume(state.audio.volume);
   }
 
   function bindControls(dock, panel) {
@@ -127,6 +134,16 @@
     dock.querySelector('.audio-prev').addEventListener('click', previousTrack);
     dock.querySelector('.audio-next').addEventListener('click', nextTrack);
     dock.querySelector('.audio-library').addEventListener('click', () => setPanelOpen(!state.panelOpen, panel));
+    dock.querySelector('.audio-volume').addEventListener('click', (event) => {
+      event.stopPropagation();
+      setVolumeOpen(!dock.classList.contains('volume-open'), dock);
+    });
+    dock.querySelector('.audio-volume-range').addEventListener('input', (event) => {
+      setVolume(Number(event.target.value) / 100);
+    });
+    document.addEventListener('click', (event) => {
+      if (!dock.contains(event.target)) setVolumeOpen(false, dock);
+    });
     panel.querySelector('.audio-close').addEventListener('click', () => setPanelOpen(false, panel));
 
     panel.querySelectorAll('.audio-mode').forEach(btn => {
@@ -190,6 +207,26 @@
   function setPanelOpen(open, panel = document.querySelector('.audio-panel')) {
     state.panelOpen = open;
     panel?.classList.toggle('open', open);
+  }
+
+  function setVolumeOpen(open, dock = document.querySelector('.audio-dock')) {
+    dock?.classList.toggle('volume-open', open);
+  }
+
+  function setVolume(volume) {
+    const nextVolume = Math.max(0, Math.min(1, Number.isFinite(volume) ? volume : state.audio.volume));
+    state.audio.volume = nextVolume;
+    localStorage.setItem('bakatuski-audio-volume', String(nextVolume));
+    document.querySelectorAll('.audio-volume-range').forEach(range => {
+      range.value = String(Math.round(nextVolume * 100));
+    });
+    document.querySelectorAll('.audio-volume-value').forEach(value => {
+      value.textContent = `${Math.round(nextVolume * 100)}%`;
+    });
+    document.querySelectorAll('.audio-volume').forEach(btn => {
+      btn.classList.toggle('muted', nextVolume === 0);
+      btn.setAttribute('aria-label', `Adjust volume, currently ${Math.round(nextVolume * 100)}%`);
+    });
   }
 
   function setSubtitle(text) {

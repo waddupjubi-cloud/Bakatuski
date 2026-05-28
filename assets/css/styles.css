@@ -51,6 +51,12 @@ body {
   cursor: none;
 }
 
+html.page-scroll-locked,
+body.page-scroll-locked {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -1911,13 +1917,41 @@ select {
   position: fixed;
   inset: 0;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 24% 18%, rgba(27, 218, 128, 0.16), transparent 28%),
+    radial-gradient(circle at 78% 78%, rgba(255, 92, 0, 0.14), transparent 30%),
+    rgba(0, 0, 0, 0.86);
   backdrop-filter: blur(12px);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  animation: fadeIn 0.25s;
+  animation: modalOverlayBloom 0.42s var(--ease-out);
+}
+
+.modal-overlay::before,
+.modal-overlay::after {
+  content: "";
+  position: absolute;
+  inset: -24%;
+  pointer-events: none;
+  opacity: 0;
+  mix-blend-mode: screen;
+}
+
+.modal-overlay::before {
+  background:
+    repeating-linear-gradient(100deg, transparent 0 24px, rgba(27, 218, 128, 0.14) 25px 27px, transparent 28px 54px),
+    linear-gradient(120deg, transparent 38%, rgba(255, 92, 0, 0.2), transparent 62%);
+  animation: memberModalSweep 0.9s ease-out both;
+}
+
+.modal-overlay::after {
+  background:
+    radial-gradient(circle at 22% 24%, rgba(27, 218, 128, 0.18), transparent 12%),
+    radial-gradient(circle at 76% 68%, rgba(255, 92, 0, 0.16), transparent 14%);
+  animation: memberModalSpark 1.1s ease-out both;
 }
 
 .modal-overlay.hidden {
@@ -1942,9 +1976,11 @@ select {
   max-width: 1000px;
   max-height: 90vh;
   overflow-y: auto;
+  overscroll-behavior: contain;
   position: relative;
+  z-index: 1;
   padding: 40px;
-  animation: slideUp 0.35s var(--ease-out);
+  animation: memberPanelGate 0.58s var(--ease-out);
 }
 
 @keyframes slideUp {
@@ -2321,6 +2357,34 @@ select {
 }
 
 @media (max-width: 900px) {
+  body.nav-open .audio-dock,
+  body.nav-open .audio-panel,
+  body.nav-open .theme-switcher,
+  body.member-modal-open .audio-dock,
+  body.member-modal-open .audio-panel,
+  body.member-modal-open .theme-switcher,
+  body.lightbox-open .audio-dock,
+  body.lightbox-open .audio-panel,
+  body.lightbox-open .theme-switcher {
+    display: none;
+  }
+
+  body.nav-open .navbar {
+    z-index: 3800;
+    background:
+      linear-gradient(180deg, rgba(4, 12, 8, 0.98), rgba(8, 20, 13, 0.94));
+    border-bottom-color: rgba(27, 218, 128, 0.34);
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(22px) saturate(1.15);
+  }
+
+  body.light-theme.nav-open .navbar {
+    background:
+      linear-gradient(180deg, rgba(247, 251, 241, 0.98), rgba(231, 245, 224, 0.94));
+    border-bottom-color: rgba(22, 138, 76, 0.24);
+    box-shadow: 0 18px 40px rgba(40, 80, 43, 0.16);
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
@@ -2337,7 +2401,50 @@ select {
 
   .nav-links.open {
     display: flex;
-    height: 100vh;
+    min-height: calc(100svh - 72px);
+    height: auto;
+    justify-content: center;
+    gap: 12px;
+    padding: 24px 22px max(34px, env(safe-area-inset-bottom));
+    background:
+      radial-gradient(circle at 18% 12%, rgba(27, 218, 128, 0.16), transparent 28%),
+      radial-gradient(circle at 82% 74%, rgba(255, 92, 0, 0.12), transparent 30%),
+      linear-gradient(180deg, rgba(3, 3, 10, 0.98), rgba(7, 18, 12, 0.98));
+    border-bottom: 1px solid rgba(27, 218, 128, 0.28);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  body.light-theme .nav-links.open {
+    background:
+      radial-gradient(circle at 18% 12%, rgba(22, 138, 76, 0.12), transparent 28%),
+      radial-gradient(circle at 82% 74%, rgba(217, 121, 24, 0.1), transparent 30%),
+      linear-gradient(180deg, rgba(247, 251, 241, 0.98), rgba(235, 247, 229, 0.98));
+  }
+
+  .nav-links.open .nav-link {
+    width: min(360px, 86vw);
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(27, 218, 128, 0.16);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.035);
+    color: var(--gray-1);
+    font-size: 1.05rem;
+    letter-spacing: 0.08em;
+  }
+
+  .nav-links.open .nav-link.active,
+  .nav-links.open .nav-link:hover {
+    background: linear-gradient(135deg, rgba(27, 218, 128, 0.2), rgba(255, 92, 0, 0.12));
+    border-color: rgba(27, 218, 128, 0.44);
+    color: var(--white);
+  }
+
+  .nav-links.open .nav-link::after {
+    display: none;
   }
 
   .hamburger {
@@ -2949,4 +3056,68 @@ select {
 /* Right-align fade out */
 .chat-bubble-wrap.right-align.fade-out {
   transform: translateX(20px) scale(0.8);
+}
+
+@keyframes modalOverlayBloom {
+  from {
+    opacity: 0;
+    backdrop-filter: blur(0);
+  }
+
+  to {
+    opacity: 1;
+    backdrop-filter: blur(12px);
+  }
+}
+
+@keyframes memberModalSweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-22%) skewX(-10deg);
+  }
+
+  34% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(22%) skewX(-10deg);
+  }
+}
+
+@keyframes memberModalSpark {
+  0% {
+    opacity: 0;
+    transform: scale(0.82) rotate(-8deg);
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.12) rotate(3deg);
+  }
+}
+
+@keyframes memberPanelGate {
+  0% {
+    opacity: 0;
+    transform: translateY(34px) scale(0.94) rotateX(8deg);
+    filter: blur(10px) saturate(1.3);
+  }
+
+  62% {
+    opacity: 1;
+    transform: translateY(-4px) scale(1.01) rotateX(0);
+    filter: blur(0) saturate(1.08);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
 }
