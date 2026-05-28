@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const modalCaption = document.getElementById('modal-caption');
     const lightbox = document.getElementById('lightbox');
     const lightboxClose = lightbox?.querySelector('.lightbox-close');
-    const themeBtn = document.getElementById('theme-switch');
 
     // Swiper instances
     let mainSwiper = null;
@@ -149,36 +148,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     navLinks.classList.remove('open');
                 });
             });
-        }
-    }
-
-    // ---------- THEME ----------
-    function initTheme() {
-        const saved = localStorage.getItem('stories-theme');
-        const body = document.body;
-        if (saved === 'light') {
-            body.classList.add('light-theme');
-            body.classList.remove('dark-theme');
-            if (themeBtn) themeBtn.textContent = '☀️ Light';
-        } else {
-            body.classList.add('dark-theme');
-            body.classList.remove('light-theme');
-            if (themeBtn) themeBtn.textContent = '🌙 Dark';
-        }
-    }
-    function toggleTheme() {
-        const body = document.body;
-        const isDark = body.classList.contains('dark-theme');
-        if (isDark) {
-            body.classList.remove('dark-theme');
-            body.classList.add('light-theme');
-            localStorage.setItem('stories-theme', 'light');
-            themeBtn.textContent = '☀️ Light';
-        } else {
-            body.classList.remove('light-theme');
-            body.classList.add('dark-theme');
-            localStorage.setItem('stories-theme', 'dark');
-            themeBtn.textContent = '🌙 Dark';
         }
     }
 
@@ -457,7 +426,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (e.target === lightbox) closeLightbox();
         });
     }
-    if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
             if (lightbox && !lightbox.classList.contains('hidden')) closeLightbox();
@@ -468,6 +436,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     // ---------- Initialize ----------
     initCursor();
     initNavbar();
-    initTheme();
     await loadStories();
 });

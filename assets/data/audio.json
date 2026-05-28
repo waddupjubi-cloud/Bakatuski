@@ -1,0 +1,38 @@
+{
+  "basePath": "assets/audio/",
+  "playlists": [
+    {
+      "id": "site-themes",
+      "name": "Site Themes",
+      "tracks": [
+        {
+          "id": "bamboo-theme",
+          "title": "Bamboo Forest Theme",
+          "artist": "Bakatuski",
+          "src": "themes/bamboo-theme.mp3",
+          "mood": "Bamboo"
+        },
+        {
+          "id": "dark-theme",
+          "title": "Dark Bamboo Theme",
+          "artist": "Bakatuski",
+          "src": "themes/dark-theme.mp3",
+          "mood": "Dark"
+        },
+        {
+          "id": "light-theme",
+          "title": "Light Bamboo Theme",
+          "artist": "Bakatuski",
+          "src": "themes/light-theme.mp3",
+          "mood": "Light"
+        }
+      ]
+    },
+    {
+      "id": "player-themes",
+      "name": "Player Themes",
+      "tracks": []
+    }
+  ],
+  "playerTrackPattern": "players/{slug}.mp3"
+}

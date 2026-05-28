@@ -15,9 +15,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Main styles + stories-specific -->
     <link id="main-css" rel="stylesheet" href="assets/css/styles.css">
+    <link id="global-theme-css" rel="stylesheet" href="assets/css/global-theme.css">
+    <link id="global-audio-css" rel="stylesheet" href="assets/css/global-audio.css">
     <link id="stories-css" rel="stylesheet" href="assets/css/stories.css">
+    <link id="bamboo-css" rel="stylesheet" href="assets/css/bamboo-theme.css">
 </head>
 <body class="dark-theme">
+    <div class="bamboo-atmosphere" aria-hidden="true">
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+    </div>
     <!-- ========== CUSTOM CURSOR (same as index) ========== -->
     <div class="cursor-dot" id="cursor-dot"></div>
     <div class="cursor-ring" id="cursor-ring"></div>
@@ -53,9 +70,6 @@
         <div class="hero-content">
             <h1 class="glitch-text" data-text="BAMBOO CHRONICLES">BAMBOO CHRONICLES</h1>
             <p>Unfold the legends behind the blades — official MLBB lore, illustrated chapter by chapter.</p>
-            <div class="theme-toggle">
-                <button id="theme-switch" class="theme-btn">🌙 Dark</button>
-            </div>
         </div>
     </section>
     <!-- ========== SEARCH ========== -->
@@ -113,15 +127,27 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script id="theme-js" src="assets/js/theme-toggle.js"></script>
+    <script id="audio-js" src="assets/js/global-audio.js"></script>
     <script id="stories-js" src="assets/js/stories.js"></script>
         <script>
         // Auto cache bust: append timestamp to CSS and JS
         const cssLink1 = document.getElementById('main-css');
-        const cssLink2 = document.getElementById('stories-css');
+        const cssLink2 = document.getElementById('global-theme-css');
+        const cssLink3 = document.getElementById('global-audio-css');
+        const cssLink4 = document.getElementById('stories-css');
+        const cssLink5 = document.getElementById('bamboo-css');
+        const themeScript = document.getElementById('theme-js');
+        const audioScript = document.getElementById('audio-js');
         const jsScript = document.getElementById('stories-js');
         const timestamp = new Date().getTime();
         cssLink1.href = 'assets/css/styles.css?t=' + timestamp;
-        cssLink2.href = 'assets/css/stories.css?t=' + timestamp;
+        cssLink2.href = 'assets/css/global-theme.css?t=' + timestamp;
+        cssLink3.href = 'assets/css/global-audio.css?t=' + timestamp;
+        cssLink4.href = 'assets/css/stories.css?t=' + timestamp;
+        cssLink5.href = 'assets/css/bamboo-theme.css?t=' + timestamp;
+        themeScript.src = 'assets/js/theme-toggle.js?t=' + timestamp;
+        audioScript.src = 'assets/js/global-audio.js?t=' + timestamp;
         jsScript.src = 'assets/js/stories.js?t=' + timestamp;
     </script>
 </body>

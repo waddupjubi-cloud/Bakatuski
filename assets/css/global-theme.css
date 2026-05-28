@@ -1,0 +1,263 @@
+/* ===================================================
+   BAKATUSKI - global dark/light theme + fixed switch
+   =================================================== */
+
+:root {
+  color-scheme: dark;
+}
+
+html.light-theme {
+  color-scheme: light;
+}
+
+body.dark-theme {
+  color-scheme: dark;
+}
+
+body.light-theme {
+  color-scheme: light;
+  --bg-0: #f7fbf1;
+  --bg-1: #eef8ed;
+  --bg-2: #ffffff;
+  --bg-3: #e0f0dc;
+  --green: #168a4c;
+  --green-d: #0d5d35;
+  --green-g: rgba(22, 138, 76, 0.16);
+  --orange: #d97918;
+  --orange-l: #b96512;
+  --orange-g: rgba(217, 121, 24, 0.16);
+  --white: #17251a;
+  --gray-1: #263b2b;
+  --gray-2: #5e7661;
+  --gray-3: #8fa191;
+  --border: rgba(22, 138, 76, 0.16);
+  --border-g: rgba(22, 138, 76, 0.28);
+  background:
+    radial-gradient(circle at 10% 12%, rgba(22, 138, 76, 0.1), transparent 30%),
+    radial-gradient(circle at 88% 18%, rgba(217, 121, 24, 0.09), transparent 26%),
+    linear-gradient(180deg, #f7fbf1, #edf7e9 48%, #fff8ed);
+  color: var(--gray-1);
+}
+
+body.light-theme .navbar.scrolled {
+  background: rgba(247, 251, 241, 0.88);
+  border-color: rgba(22, 138, 76, 0.16);
+  box-shadow: 0 14px 34px rgba(40, 80, 43, 0.1);
+}
+
+body.light-theme .nav-link {
+  color: #526a55;
+}
+
+body.light-theme .nav-link:hover,
+body.light-theme .nav-link.active,
+body.light-theme .nav-brand {
+  color: #142619;
+}
+
+body.light-theme .hamburger span {
+  background: #142619;
+}
+
+body.light-theme .hero-section {
+  background:
+    radial-gradient(ellipse at 70% 50%, rgba(22, 138, 76, 0.08), transparent 58%),
+    linear-gradient(180deg, #f7fbf1, #edf7e9);
+}
+
+body.light-theme .hero-slide {
+  color: #263b2b;
+}
+
+body.light-theme .hero-bg-color {
+  opacity: 0.72;
+}
+
+body.light-theme .hero-img-frame,
+body.light-theme .about-logo-frame,
+body.light-theme .member-card,
+body.light-theme .timeline-card,
+body.light-theme .contact-form,
+body.light-theme .modal-panel,
+body.light-theme .table-scroll-wrap {
+  background: rgba(255, 255, 250, 0.78);
+  border-color: rgba(22, 138, 76, 0.18);
+  box-shadow: 0 18px 36px rgba(40, 80, 43, 0.1);
+  backdrop-filter: blur(14px);
+}
+
+body.light-theme .member-card:hover,
+body.light-theme .timeline-item.open .timeline-card {
+  border-color: rgba(22, 138, 76, 0.45);
+  box-shadow: 0 24px 46px rgba(40, 80, 43, 0.15), 0 0 0 2px rgba(22, 138, 76, 0.12);
+}
+
+body.light-theme .section-title,
+body.light-theme .hero-player-name,
+body.light-theme .modal-name,
+body.light-theme .timeline-title,
+body.light-theme .footer-brand span {
+  color: #142619;
+}
+
+body.light-theme .section-sub,
+body.light-theme .body-text,
+body.light-theme .timeline-desc,
+body.light-theme .modal-testimonial,
+body.light-theme .footer-copy,
+body.light-theme .footer-nav a {
+  color: #5e7661;
+}
+
+body.light-theme .btn-ghost,
+body.light-theme input,
+body.light-theme textarea {
+  background: rgba(255, 255, 250, 0.72);
+  border-color: rgba(22, 138, 76, 0.2);
+  color: #142619;
+}
+
+body.light-theme .site-footer {
+  border-top-color: rgba(22, 138, 76, 0.16);
+  background: rgba(247, 251, 241, 0.66);
+}
+
+.theme-switcher {
+  --theme-switch-pos: 0px;
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 3600;
+  width: 112px;
+  height: 48px;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid rgba(149, 187, 110, 0.34);
+  border-radius: 999px;
+  background:
+    linear-gradient(180deg, rgba(6, 14, 10, 0.96), rgba(12, 26, 16, 0.72)),
+    repeating-linear-gradient(90deg, rgba(141, 182, 98, 0.16) 0 7px, rgba(26, 42, 28, 0.24) 7px 10px);
+  color: #c8c8e0;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.16),
+    inset 0 -12px 18px rgba(0, 0, 0, 0.28),
+    0 20px 42px rgba(0, 0, 0, 0.34);
+  backdrop-filter: blur(18px) saturate(1.15);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.theme-switcher::before {
+  content: "";
+  position: absolute;
+  inset: 5px auto 5px 6px;
+  width: 40px;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 50% 24%, rgba(255, 255, 255, 0.64) 0 12%, transparent 13%),
+    linear-gradient(180deg, #f6f9e3, #d6e99d 30%, #afc95c 54%, #72a046 70%, #2f4a21 100%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.18),
+    inset 0 -8px 10px rgba(43, 68, 27, 0.32),
+    0 10px 18px rgba(5, 14, 7, 0.42);
+  transform: translateX(var(--theme-switch-pos));
+  transition:
+    transform 0.48s cubic-bezier(0.16, 1, 0.3, 1),
+    background 0.48s,
+    box-shadow 0.48s;
+}
+
+.theme-switcher::after {
+  content: "";
+  position: absolute;
+  inset: 9px;
+  border-radius: inherit;
+  border: 1px solid rgba(134, 171, 86, 0.28);
+  background:
+    repeating-linear-gradient(90deg, rgba(115, 148, 54, 0.16) 0 5px, transparent 5px 9px),
+    radial-gradient(circle at center, rgba(16, 58, 26, 0.7), rgba(5, 10, 6, 0.12) 62%, transparent 66%);
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.theme-switcher-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-head, system-ui, sans-serif);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-indent: 0.12em;
+  color: rgba(255, 255, 255, 0.84);
+  mix-blend-mode: screen;
+}
+
+body.light-theme .theme-switcher {
+  background:
+    linear-gradient(180deg, rgba(251, 255, 244, 0.92), rgba(238, 248, 217, 0.76)),
+    repeating-linear-gradient(90deg, rgba(157, 190, 73, 0.18) 0 7px, rgba(223, 243, 178, 0.28) 7px 10px);
+  border-color: rgba(119, 152, 48, 0.34);
+  color: #142619;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.58),
+    inset 0 -12px 18px rgba(205, 222, 161, 0.26),
+    0 20px 42px rgba(85, 113, 31, 0.14);
+}
+
+body.light-theme .theme-switcher::before {
+  transform: translateX(var(--theme-switch-pos));
+  background:
+    radial-gradient(circle at 50% 24%, rgba(255, 255, 255, 0.78) 0 12%, transparent 13%),
+    linear-gradient(180deg, #fffef4, #eff7be 30%, #bfd663 56%, #89a84a 72%, #4f6630 100%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.26),
+    inset 0 -8px 10px rgba(82, 118, 29, 0.28),
+    0 10px 18px rgba(93, 120, 49, 0.28);
+}
+
+body.light-theme .theme-switcher::after {
+  border-color: rgba(140, 166, 68, 0.34);
+  background:
+    repeating-linear-gradient(90deg, rgba(178, 210, 95, 0.22) 0 5px, transparent 5px 9px),
+    radial-gradient(circle at center, rgba(255, 255, 255, 0.34), rgba(231, 243, 200, 0.58) 62%, transparent 66%);
+}
+
+body.light-theme .theme-switcher-label {
+  color: rgba(20, 38, 25, 0.78);
+  mix-blend-mode: multiply;
+}
+
+@keyframes themeSwitchGlow {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@media (max-width: 640px) {
+  .theme-switcher {
+    right: 14px;
+    bottom: 20px;
+    width: 86px;
+    height: 42px;
+  }
+
+  .theme-switcher::before {
+    width: 34px;
+  }
+
+  body.light-theme .theme-switcher::before {
+    transform: translateX(var(--theme-switch-pos));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-switcher::after {
+    animation: none;
+  }
+}

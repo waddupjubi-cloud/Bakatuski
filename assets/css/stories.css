@@ -29,31 +29,30 @@
 
 /* ---------- LIGHT THEME (soft, warm, no pure white backgrounds) ---------- */
 body.light-theme {
-  --bg-dark: #f8fdf8;        /* light bamboo surface */
-  --surface-dark: #f0fff0;
-  --card-dark: #ffffff;
-  --text-dark: #1b2e1b;      /* dark green text */
-  --green: #1bda80;
-  --green-d: #0b6640;
-  --green-g: rgba(27, 218, 128, 0.18);
-  --orange: #ff5c00;
-  --orange-l: #ff8a40;
-  --orange-g: rgba(255, 92, 0, 0.18);
-  --gray-1: #3a3a3a;
-  --gray-2: #5a5a5a;
-  --gray-3: #7a7a7a;
-  --border-dark: rgba(27, 218, 128, 0.2);
-  background: var(--bg-dark);
+  --bg-dark: #f7fbf1;
+  --surface-dark: #edf7e9;
+  --card-dark: rgba(255, 255, 250, 0.88);
+  --text-dark: #1c3120;
+  --green: #168a4c;
+  --green-d: #0d5d35;
+  --green-g: rgba(22, 138, 76, 0.16);
+  --orange: #d97918;
+  --orange-l: #b96512;
+  --orange-g: rgba(217, 121, 24, 0.16);
+  --white: #17251a;
+  --gray-1: #263b2b;
+  --gray-2: #5e7661;
+  --gray-3: #8fa191;
+  --border-dark: rgba(22, 138, 76, 0.18);
   color: var(--text-dark);
 }
 
 /* Light theme specific element overrides */
 body.light-theme .stories-hero {
-  background: radial-gradient(
-    ellipse at 30% 40%,
-    rgba(46, 125, 50, 0.1),
-    transparent
-  );
+  background:
+    radial-gradient(ellipse at 30% 35%, rgba(22, 138, 76, 0.18), transparent 42%),
+    radial-gradient(ellipse at 78% 64%, rgba(217, 121, 24, 0.12), transparent 34%),
+    linear-gradient(180deg, rgba(247, 251, 241, 0.92), rgba(237, 247, 233, 0.84));
 }
 
 body.light-theme .hero-overlay {
@@ -62,9 +61,9 @@ body.light-theme .hero-overlay {
 
 body.light-theme .glitch-text {
   text-shadow:
-    0 0 12px var(--green),
-    0 0 25px rgba(46, 125, 50, 0.3);
-  color: #3e2a21;
+    0 8px 20px rgba(22, 138, 76, 0.14),
+    0 0 1px rgba(13, 93, 53, 0.4);
+  color: #142619;
 }
 
 body.light-theme .glitch-text::before {
@@ -76,48 +75,81 @@ body.light-theme .glitch-text::after {
 }
 
 body.light-theme .hero-content p {
-  color: #5a4035;
+  color: #526a55;
 }
 
 body.light-theme .theme-btn {
-  background: rgba(255, 248, 240, 0.9);
-  border-color: var(--orange);
-  color: var(--orange);
+  background: rgba(255, 255, 250, 0.72);
+  border-color: rgba(22, 138, 76, 0.28);
+  color: #175a35;
+  box-shadow: 0 14px 28px rgba(40, 80, 43, 0.12);
 }
 
 body.light-theme .theme-btn:hover {
-  background: var(--orange);
+  background: var(--green);
   color: white;
+  border-color: var(--green);
 }
 
 body.light-theme .lore-card {
   background: var(--card-dark);
-  border: 1px solid #f0dcc8;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(22, 138, 76, 0.18);
+  box-shadow: 0 18px 34px rgba(40, 80, 43, 0.09);
+  backdrop-filter: blur(12px);
 }
 
 body.light-theme .lore-card:hover {
-  border-color: var(--orange);
+  border-color: var(--green);
   box-shadow:
-    0 20px 30px rgba(0, 0, 0, 0.08),
-    0 0 0 2px var(--orange-g);
+    0 24px 42px rgba(40, 80, 43, 0.14),
+    0 0 0 2px var(--green-g);
 }
 
 body.light-theme .card-content h3 {
-  color: #3e2a21;
+  color: #17391f;
 }
 
 body.light-theme .card-content p {
-  color: #7a5a4a;
+  color: #8b5b24;
 }
 
 body.light-theme .modal-container {
-  background: #fffbf5;
-  border-color: var(--green-d);
+  background: rgba(255, 255, 250, 0.96);
+  border-color: rgba(22, 138, 76, 0.32);
+  box-shadow: 0 30px 80px rgba(29, 58, 34, 0.24);
+}
+
+body.light-theme .lore-modal {
+  background: rgba(236, 247, 232, 0.78);
+  backdrop-filter: blur(18px) saturate(1.08);
+}
+
+body.light-theme .modal-close {
+  background: rgba(255, 255, 250, 0.88);
+  color: var(--green-d);
+  box-shadow: 0 10px 24px rgba(40, 80, 43, 0.14);
+}
+
+body.light-theme .modal-close:hover {
+  background: var(--green);
+  color: white;
+}
+
+body.light-theme .main-swiper {
+  background:
+    linear-gradient(180deg, rgba(244, 250, 238, 0.95), rgba(225, 241, 221, 0.9));
+  box-shadow:
+    inset 0 0 0 1px rgba(22, 138, 76, 0.1),
+    0 18px 34px rgba(40, 80, 43, 0.13);
+}
+
+body.light-theme .thumb-swiper .swiper-slide {
+  background: rgba(255, 255, 250, 0.72);
+  border-color: rgba(22, 138, 76, 0.08);
 }
 
 body.light-theme .modal-hero-header h2 {
-  color: var(--green);
+  color: #17391f;
 }
 
 body.light-theme .hero-role {
@@ -125,19 +157,20 @@ body.light-theme .hero-role {
 }
 
 body.light-theme .modal-caption {
-  background: rgba(0, 0, 0, 0.05);
-  color: #4a372f;
+  background: rgba(22, 138, 76, 0.08);
+  color: #263b2b;
 }
 
 body.light-theme .swiper-button-next,
 body.light-theme .swiper-button-prev {
-  background: rgba(0, 0, 0, 0.1);
-  color: var(--orange);
+  background: rgba(255, 255, 250, 0.78);
+  color: var(--green-d);
+  box-shadow: 0 8px 22px rgba(40, 80, 43, 0.14);
 }
 
 body.light-theme .swiper-button-next:hover,
 body.light-theme .swiper-button-prev:hover {
-  background: var(--orange);
+  background: var(--green);
   color: white;
 }
 
@@ -146,22 +179,23 @@ body.light-theme .thumb-swiper .swiper-slide-thumb-active {
 }
 
 body.light-theme .navbar.scrolled {
-  background: rgba(255, 245, 235, 0.92);
+  background: rgba(247, 251, 241, 0.86);
   backdrop-filter: blur(20px);
-  border-color: #f0dcc8;
+  border-color: rgba(22, 138, 76, 0.16);
+  box-shadow: 0 14px 34px rgba(40, 80, 43, 0.1);
 }
 
 body.light-theme .nav-link {
-  color: #7a5a4a;
+  color: #526a55;
 }
 
 body.light-theme .nav-link:hover,
 body.light-theme .nav-link.active {
-  color: #2d1f1a;
+  color: #142619;
 }
 
 body.light-theme .nav-link::after {
-  background: var(--orange);
+  background: var(--green);
 }
 
 body.light-theme .hamburger span {
@@ -169,24 +203,25 @@ body.light-theme .hamburger span {
 }
 
 body.light-theme .site-footer {
-  border-top-color: #f0dcc8;
+  border-top-color: rgba(22, 138, 76, 0.18);
+  background: rgba(247, 251, 241, 0.64);
 }
 
 body.light-theme .footer-brand span,
 body.light-theme .footer-copy {
-  color: #8b6b58;
+  color: #526a55;
 }
 
 body.light-theme .footer-nav a {
-  color: #8b6b58;
+  color: #526a55;
 }
 
 body.light-theme .footer-nav a:hover {
-  color: var(--orange);
+  color: var(--green-d);
 }
 
 body.light-theme .lightbox {
-  background: rgba(255, 245, 235, 0.96);
+  background: rgba(247, 251, 241, 0.96);
 }
 
 body.light-theme .lightbox-close {
@@ -198,14 +233,21 @@ body.light-theme .lightbox-close:hover {
 }
 
 body.light-theme #search-input {
-  background: #fffbf5;
-  border-color: #f0dcc8;
-  color: #2d1f1a;
+  background: rgba(255, 255, 250, 0.82);
+  border-color: rgba(22, 138, 76, 0.2);
+  color: #142619;
+  box-shadow: 0 16px 34px rgba(40, 80, 43, 0.08);
 }
 
 body.light-theme #search-input:focus {
   border-color: var(--green);
-  box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.15);
+  box-shadow:
+    0 0 0 3px rgba(22, 138, 76, 0.12),
+    0 18px 38px rgba(40, 80, 43, 0.1);
+}
+
+body.light-theme #search-input::placeholder {
+  color: #839987;
 }
 
 /* ---------- STORIES HERO SECTION ---------- */

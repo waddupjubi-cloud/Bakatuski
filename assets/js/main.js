@@ -1003,6 +1003,148 @@ function findMemberBySlug(members, slug) {
 }
 
 /* ─── MAIN INIT ─── */
+/* Jersey showcase */
+function initJerseyShowcase() {
+  const stage = document.getElementById('jersey-stage');
+  const img = document.getElementById('jersey-main-img');
+  const controls = document.getElementById('jersey-controls');
+  const title = document.getElementById('jersey-view-title');
+  const desc = document.getElementById('jersey-view-desc');
+  if (!stage || !img || !controls || !title || !desc) return;
+
+  const views = {
+    full: {
+      src: 'images/Esports_Jersey/FullI.png',
+      alt: 'Bakatuski full jersey kit',
+      title: 'Full <span>Kit</span>',
+      desc: 'Complete jersey presentation for the main hero display and launch visuals.',
+      rotate: 0
+    },
+    front: {
+      src: 'images/Esports_Jersey/front.png',
+      alt: 'Bakatuski jersey front view',
+      title: 'Front <span>View</span>',
+      desc: 'The squad mark, center panel, and front color flow built for first-glance recognition.',
+      rotate: -6
+    },
+    back: {
+      src: 'images/Esports_Jersey/back.png',
+      alt: 'Bakatuski jersey back view',
+      title: 'Back <span>View</span>',
+      desc: 'Back profile with the nameplate area and clean contrast for player identity.',
+      rotate: 6
+    },
+    left: {
+      src: 'images/Esports_Jersey/left.png',
+      alt: 'Bakatuski jersey left side view',
+      title: 'Left <span>Side</span>',
+      desc: 'Side contour view for sleeve shape, side graphics, and profile balance.',
+      rotate: -18
+    },
+    right: {
+      src: 'images/Esports_Jersey/right.png',
+      alt: 'Bakatuski jersey right side view',
+      title: 'Right <span>Side</span>',
+      desc: 'Alternate side profile with matching sleeve weight and bamboo-line movement.',
+      rotate: 18
+    },
+    overview: {
+      src: 'images/Esports_Jersey/JerseyOverview.png',
+      alt: 'Bakatuski jersey overview',
+      title: 'Kit <span>Overview</span>',
+      desc: 'Presentation board view for comparing the complete jersey design language.',
+      rotate: 0
+    }
+  };
+
+  let activeView = 'full';
+  let isAnimating = false;
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function setActiveButton(view) {
+    controls.querySelectorAll('.jersey-view-btn').forEach(btn => {
+      const active = btn.dataset.view === view;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-pressed', String(active));
+    });
+  }
+
+  function switchView(view) {
+    const current = views[activeView];
+    const next = views[view];
+    if (!next || view === activeView || isAnimating) return;
+    isAnimating = true;
+    activeView = view;
+    setActiveButton(view);
+
+    const showNext = () => {
+      img.src = next.src;
+      img.alt = next.alt;
+      title.innerHTML = next.title;
+      desc.textContent = next.desc;
+
+      if (prefersReducedMotion) {
+        isAnimating = false;
+        return;
+      }
+
+      img.animate([
+        { opacity: 0, transform: `translateX(36px) rotateY(${next.rotate * -1}deg) scale(0.94)`, filter: 'blur(8px) drop-shadow(0 30px 36px rgba(0,0,0,0.5))' },
+        { opacity: 1, transform: `translateX(0) rotateY(${next.rotate}deg) scale(1)`, filter: 'blur(0) drop-shadow(0 36px 42px rgba(0,0,0,0.6))' }
+      ], {
+        duration: 560,
+        easing: 'cubic-bezier(0.16, 1, 0.3, 1)',
+        fill: 'forwards'
+      }).finished.finally(() => {
+        isAnimating = false;
+      });
+    };
+
+    if (prefersReducedMotion) {
+      showNext();
+      return;
+    }
+
+    img.animate([
+      { opacity: 1, transform: `translateX(0) rotateY(${current.rotate}deg) scale(1)`, filter: 'blur(0) drop-shadow(0 36px 42px rgba(0,0,0,0.6))' },
+      { opacity: 0, transform: 'translateX(-36px) rotateY(-18deg) scale(0.94)', filter: 'blur(8px) drop-shadow(0 24px 30px rgba(0,0,0,0.45))' }
+    ], {
+      duration: 260,
+      easing: 'cubic-bezier(0.7, 0, 0.84, 0)',
+      fill: 'forwards'
+    }).finished.then(showNext);
+  }
+
+  controls.addEventListener('click', e => {
+    const btn = e.target.closest('.jersey-view-btn');
+    if (!btn) return;
+    switchView(btn.dataset.view);
+  });
+
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    stage.addEventListener('mousemove', e => {
+      const rect = stage.getBoundingClientRect();
+      const x = (e.clientX - rect.left) / rect.width - 0.5;
+      const y = (e.clientY - rect.top) / rect.height - 0.5;
+      img.style.transform = `rotateY(${x * 12}deg) rotateX(${-y * 8}deg) translateZ(18px)`;
+    });
+    stage.addEventListener('mouseleave', () => {
+      img.style.transform = '';
+    });
+  }
+
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.18 });
+
+  document.querySelectorAll('.jersey-reveal').forEach(el => revealObserver.observe(el));
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     const res = await fetch('assets/data/data.json');
@@ -1020,6 +1162,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderCounters(data.squadInfo);
     renderSocials(data.squadInfo.socials);
     initContactForm();
+    initJerseyShowcase();
 
     const aboutEl = document.getElementById('about-text');
     const formEl = document.getElementById('formation-text');

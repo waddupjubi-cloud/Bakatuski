@@ -25,9 +25,26 @@
         href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Bebas+Neue&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" id="main-css" href="assets/css/styles.css">
+    <link rel="stylesheet" id="global-theme-css" href="assets/css/global-theme.css">
+    <link rel="stylesheet" id="global-audio-css" href="assets/css/global-audio.css">
+    <link rel="stylesheet" id="bamboo-css" href="assets/css/bamboo-theme.css">
 </head>
 
 <body>
+    <div class="bamboo-atmosphere" aria-hidden="true">
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+        <span class="bamboo-leaf"></span>
+    </div>
 
     <!-- CUSTOM CURSOR -->
     <div class="cursor-dot" id="cursor-dot"></div>
@@ -48,6 +65,7 @@
                 <li><a href="#about" class="nav-link" data-s="about">About</a></li>
                 <li><a href="#squad" class="nav-link" data-s="squad">Squad</a></li>
                 <li><a href="#matrix" class="nav-link" data-s="matrix">Roster</a></li>
+                <li><a href="#jersey" class="nav-link" data-s="jersey">Jersey</a></li>
                 <li><a href="#roadmap" class="nav-link" data-s="roadmap">Roadmap</a></li>
                 <li><a href="#testimonials" class="nav-link" data-s="testimonials">Lab Log</a></li>
                 <li><a href="#contact" class="nav-link" data-s="contact">Contact</a></li>
@@ -148,9 +166,71 @@
         </div>
     </section>
 
+    <!-- JERSEY SHOWCASE -->
+    <section id="jersey" class="section jersey-section">
+        <div class="section-tag">04 — Jersey</div>
+        <div class="section-header">
+            <p class="eyebrow">Squad Kit</p>
+            <h2 class="section-title">BAMBOO <em>ARMOR</em></h2>
+            <p class="section-sub">Front, back, side profile, and full kit views for the Bakatuski match jersey.</p>
+        </div>
+        <div class="jersey-showcase">
+            <div class="jersey-copy jersey-reveal">
+                <p class="eyebrow">Match Ready</p>
+                <h3 class="sub-title">Built For The Bamboo Path</h3>
+                <p class="body-text">A sharp esports kit with the squad mark up front, clean side contours, and a full presentation view for drops, posts, and roster reveals.</p>
+                <div class="jersey-specs">
+                    <div class="jersey-spec"><span>Main View</span><span>Full Kit</span></div>
+                    <div class="jersey-spec"><span>Palette</span><span>Bamboo Green / Night Black</span></div>
+                    <div class="jersey-spec"><span>Energy</span><span>Competitive Streetwear</span></div>
+                </div>
+            </div>
+            <div class="jersey-stage jersey-reveal" id="jersey-stage">
+                <div class="jersey-orbit"></div>
+                <div class="jersey-main-frame">
+                    <img id="jersey-main-img" class="jersey-main-img" src="images/Esports_Jersey/FullI.png" alt="Bakatuski full jersey kit">
+                    <div class="jersey-shadow"></div>
+                </div>
+            </div>
+            <div class="jersey-panel jersey-reveal">
+                <div>
+                    <div class="jersey-view-title" id="jersey-view-title">Full <span>Kit</span></div>
+                    <p class="jersey-view-desc" id="jersey-view-desc">Complete jersey presentation for the main hero display and launch visuals.</p>
+                </div>
+                <div class="jersey-controls" id="jersey-controls">
+                    <button class="jersey-view-btn active" type="button" data-view="full" aria-pressed="true">
+                        <img src="images/Esports_Jersey/FullI.png" alt="">
+                        <span>Full<small>Main kit view</small></span>
+                    </button>
+                    <button class="jersey-view-btn" type="button" data-view="front" aria-pressed="false">
+                        <img src="images/Esports_Jersey/front.png" alt="">
+                        <span>Front<small>Logo face</small></span>
+                    </button>
+                    <button class="jersey-view-btn" type="button" data-view="back" aria-pressed="false">
+                        <img src="images/Esports_Jersey/back.png" alt="">
+                        <span>Back<small>Nameplate side</small></span>
+                    </button>
+                    <button class="jersey-view-btn" type="button" data-view="left" aria-pressed="false">
+                        <img src="images/Esports_Jersey/left.png" alt="">
+                        <span>Left<small>Side profile</small></span>
+                    </button>
+                    <button class="jersey-view-btn" type="button" data-view="right" aria-pressed="false">
+                        <img src="images/Esports_Jersey/right.png" alt="">
+                        <span>Right<small>Side profile</small></span>
+                    </button>
+                    <button class="jersey-view-btn" type="button" data-view="overview" aria-pressed="false">
+                        <img src="images/Esports_Jersey/JerseyOverview.png" alt="">
+                        <span>Overview<small>Presentation</small></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bamboo-node-line"></div>
+    </section>
+
     <!-- ROADMAP -->
     <section id="roadmap" class="section roadmap-section">
-        <div class="section-tag">04 — Journey</div>
+        <div class="section-tag">05 — Journey</div>
         <div class="section-header">
             <p class="eyebrow">Our History</p>
             <h2 class="section-title">THE BAMBOO <em>PATH</em></h2>
@@ -160,7 +240,7 @@
 
     <!-- TESTIMONIALS / LAB LOG -->
     <section id="testimonials" class="section testimonials-section">
-        <div class="section-tag">05 — Lab Log</div>
+        <div class="section-tag">06 — Lab Log</div>
         <div class="section-header">
             <p class="eyebrow">Squad Voices</p>
             <h2 class="section-title">WHAT THE <em>PANDAS</em> SAY</h2>
@@ -170,7 +250,7 @@
 
     <!-- CONTACT + FOOTER -->
     <section id="contact" class="section contact-section">
-        <div class="section-tag">06 — Contact</div>
+        <div class="section-tag">07 — Contact</div>
         <div class="contact-inner">
             <div class="contact-left">
                 <p class="eyebrow">Get In Touch</p>
@@ -223,6 +303,7 @@
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#squad">Squad</a>
+                    <a href="#jersey">Jersey</a>
                     <a href="#roadmap">Roadmap</a>
                 </nav>
             </div>
@@ -241,13 +322,25 @@
         </div>
     </div>
 
+    <script id="theme-js" src="assets/js/theme-toggle.js"></script>
+    <script id="audio-js" src="assets/js/global-audio.js"></script>
     <script id="main-js" src="assets/js/main.js?0426"></script>
     <script>
         // Auto cache bust: append timestamp to CSS and JS
         const cssLink = document.getElementById('main-css');
+        const globalThemeCssLink = document.getElementById('global-theme-css');
+        const globalAudioCssLink = document.getElementById('global-audio-css');
+        const bambooCssLink = document.getElementById('bamboo-css');
+        const themeScript = document.getElementById('theme-js');
+        const audioScript = document.getElementById('audio-js');
         const jsScript = document.getElementById('main-js');
         const timestamp = new Date().getTime();
         cssLink.href = 'assets/css/styles.css?t=' + timestamp;
+        globalThemeCssLink.href = 'assets/css/global-theme.css?t=' + timestamp;
+        globalAudioCssLink.href = 'assets/css/global-audio.css?t=' + timestamp;
+        bambooCssLink.href = 'assets/css/bamboo-theme.css?t=' + timestamp;
+        themeScript.src = 'assets/js/theme-toggle.js?t=' + timestamp;
+        audioScript.src = 'assets/js/global-audio.js?t=' + timestamp;
         jsScript.src = 'assets/js/main.js?t=' + timestamp;
     </script>
 </body>
