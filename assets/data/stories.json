@@ -2696,6 +2696,145 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 20,
+      "hero": "Lukas",
+      "slug": "lukas",
+      "cover": "images/stories_covers/lukas_cover.png",
+      "folder": "images/lores/lukas/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Dawn That Would Not Come",
+          "shortDesc": "Lukas, the Sacred Beast of Light, awakens from a thousand-year sleep in the Imperial Sanctuary. Silvanna, descendant of his old friend Emperor Gaius, calls him to help save the crumbling Moniyan Empire.",
+          "fullDesc": "\"I was there when the Moniyan Empire was nothing but a dream in the heart of a man who refused to bow. I stood beside Gaius as he raised his banner over the first stone of Lumina City. I fought beside him in the Covenant of the Leonine, when the Great Lion of the Peaks looked into his soul and saw something worthy of eternity. They call me the Beast of Light now. They say I am a legend, a myth, a creature of the age before memory. But I am none of these things. I am Lukas—the friend who watched Gaius grow old, who carried him to his final rest, who slept for a thousand years because there was nothing left to wake for. They woke me—Silvanna, the last light of his bloodline—and I opened my eyes to a world that had forgotten my name. But I have not forgotten my purpose. I will fight. I will protect. I will stand beside the descendant of the man I loved, and I will help her build an empire worthy of his memory. The darkness is rising, and the old guard are gone. But I am still here. The Beast of Light still breathes. And I will not let the Moniyan Empire fall.\"",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Covenant of the Leonine",
+          "shortDesc": "Before the empire, Lukas was a lone Sacred Beast roaming the Lantis Peaks. A mortal named Gaius climbed the mountain and challenged the beast—not with weapons, but with a dream of unity. Their soul-bond founded the Moniyan Empire.",
+          "fullDesc": "Before the Moniyan Empire, before Lumina City, there was a mountain and a man and a beast. Lukas was the guardian of the Lantis Peaks, a being of primordial light, alone for centuries. Then Gaius climbed the peaks—not with armies, but with a spear and a dream. He spoke to the wind of uniting the warring tribes, of building an empire that would outlast him. Lukas watched for three days, then stepped from the shadows. 'You are a fool.' 'Perhaps,' Gaius replied, 'but I am a fool who will not give up.' They made the Covenant of the Leonine—a soul-bond that connected their consciousnesses. 'From this day forward, we are one. Where you go, I will go. Where you fight, I will fight. And when you fall, I will carry your memory into the ages.' The Covenant gave Gaius the visible endorsement of a divine creature. Tribe after tribe submitted. Fifteen years later, the Moniyan Empire was born.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Birth of an Empire",
+          "shortDesc": "Lukas fought beside Gaius for decades, helping build Lumina City and establish the Imperial Knights. He became a symbol of the bond between man and nature, proof that the empire was chosen by something greater.",
+          "fullDesc": "The war for the west was long and bloody. Lukas fought beside Gaius in a hundred battles, his massive form a beacon of power and hope. They swept across the western plains, and tribe after tribe submitted to Gaius's vision—not out of fear, but out of recognition that this man and his beast represented a future worth fighting for. Lukas stood beside Gaius as the first stones of Lumina City were laid, as the first laws were carved into tablets of stone, as the first knights swore their oaths to protect the weak and uphold the Light. He was not just a weapon; he was a living testament to the power of cooperation, a reminder that the strongest empires are built on bonds, not conquest.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Long Sleep",
+          "shortDesc": "Gaius grew old and died. Lukas carried his friend's body to the Lantis Peaks, laid him down where the Covenant was sealed, and curled up beside him. He slept for a thousand years, waiting to be awakened.",
+          "fullDesc": "A thousand years is a long time, even for a Sacred Beast. Lukas watched Gaius grow old. The fire in the emperor's eyes dimmed; the hands that had wielded the Imperial Spear trembled. 'You knew this day would come,' Gaius said on the balcony of the palace. 'I knew. You are mortal. I am not. This was the price of the Covenant.' 'Do you regret it?' 'Never.' Gaius smiled and closed his eyes for the last time. Lukas carried his friend's body to the Lantis Mountains, to the peak where they had first met, and laid him down on the stone of the Covenant. He curled up beside his friend and closed his eyes. 'I will wait for you to return. And when you do, I will be ready.' He slept. Empires rose and fell. Heroes lived and died. The Abyss grew stronger. And in the Imperial Sanctuary, hidden from all but the most trusted, the cocoon of light pulsed gently, waiting for someone worthy to break the seal.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Anatomy of a Sacred Beast",
+          "shortDesc": "A detailed description of Lukas: 180 cm, lean and athletic, wild blonde spiked hair, golden-brown eyes that glow when angry, wearing Imperial Knight armour, with an ethereal golden dragon spirit manifesting around him when he fights.",
+          "fullDesc": "To look at Lukas in human form is to see a contradiction made physical. He stands 180 centimetres, lean and athletic, with sharp angular features and a strong jawline. His skin is fair, almost luminous, with a subtle golden glow. His eyes are deep golden-brown, but when he channels the Sacred Beast's power, they seem to glow with inner fire. His hair is a wild tangle of pale creamy blonde spikes, with two tufts curving inward near his forehead like small horns. He wears light Imperial Knight armour of silver and gold, etched with the Leonine crest. His most distinctive feature is the ethereal golden dragon spirit that manifests around him when he fights—a spectral form with spread wings and blazing eyes. His aura is raw, untamed power mixed with warmth. The ground trembles beneath his feet, the air crackles with energy, and the beast within stirs, waiting to be unleashed.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Awakening in the Imperial Sanctuary",
+          "shortDesc": "Silvanna, desperate and seeking a miracle, enters the sealed chamber of the Imperial Sanctuary. She finds Lukas suspended in a cocoon of golden light and speaks his name. He opens his eyes.",
+          "fullDesc": "Silvanna did not know what she was looking for. Rumours spoke of a guardian sleeping in the heart of the sanctuary, waiting for the day the empire would need him. She was desperate—the Abyss pressed at the borders, her brother Dyrroth was corrupted by Alice, and the Lightborn were exhausted. She found the sealed chamber, smaller than expected, lined with pulsing runes. At its centre, suspended in a sphere of golden light, was a young man—naked, scarred, sleeping. 'Lukas,' she whispered. 'Beast of Light. Guardian of the Moniyan Empire. I am Silvanna, descendant of Gaius. I have come to wake you.' The light flared. The runes blazed. Lukas opened his eyes. For a moment, he saw Gaius in her bloodline. 'Gaius,' he whispered. 'No,' she said. 'I am his descendant. His blood flows through my veins, but I am not him.' He rose, the light fading. 'Why did you wake me?' 'Because the empire is dying. Because I need your help.' 'Then let us fight. Together.'",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Oath to Silvanna",
+          "shortDesc": "Lukas adjusts to a world that has forgotten him. He sees Gaius's fire in Silvanna's eyes and swears to fight beside her—not because of her blood, but because she reminds him of hope.",
+          "fullDesc": "The first days after awakening were disorienting. The empire had changed—the Light corrupted by politics, the faith replaced by fear. But Silvanna was different. She had the same fire as Gaius: determination, refusal to accept a broken world, willingness to sacrifice for those she loved. 'I will fight beside you,' Lukas said. 'Not because of your blood. Because you remind me of him. Because I believe you can carry his legacy forward. Because I have not forgotten what it means to hope.' 'That is enough,' Silvanna said. He smiled—the first genuine smile in a thousand years. 'Then let us begin.' He joined the Lightborn, meeting Tigreal, Alucard, Fanny, Harith, and Granger. Some were wary, some curious, some silent. But one by one, they accepted him. He was no longer alone.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Bonds of the Lightborn",
+          "shortDesc": "Lukas finds new family in the Lightborn: Tigreal offers wisdom, Alucard warns him warily, Fanny spars with him, Harith asks endless questions, Granger says nothing. They become his comrades.",
+          "fullDesc": "Tigreal was first to accept him. 'We could use your strength.' 'And I could use your wisdom.' They clasped hands. Alucard was more wary—the golden aura made his demonic arm uneasy. 'If you hurt her, I will hunt you to the ends of the Land of Dawn.' 'I would expect nothing less.' Fanny challenged him to a spar. She was fast, but the beast within him was faster. He pinned her to the ground. 'You are strong.' 'So are you.' They became friends. Harith asked endless questions about sleeping for a thousand years. Granger simply nodded and cleaned his violin. Together, they were the Lightborn—protectors of the empire, shield against the Abyss.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Beast Unleashed",
+          "shortDesc": "In his first major battle, Lukas unleashes his Sacred Beast form for the first time. The transformation is terrifying and glorious—he tears through a demon horde, becoming a golden storm of claws and fangs.",
+          "fullDesc": "The first time Lukas unleashed the beast, the Lightborn did not know what to expect. A horde of demons poured from a rift in the Barren Lands. Resolve built in Lukas's chest—a second heart burning brighter with every kill. When it peaked, he roared, 'Unleash the Beast!' His body exploded with golden light. The human form melted away into something vast and terrible—the Sacred Beast, twice his size, with golden fur, claws like scythes, fangs like daggers, and a tail that could crush stone. The light blazed from his eyes, his mouth, his claws. He charged. He tore through demons like a scythe through wheat. In minutes, the battle was over. Harith said, 'That was terrifying.' Fanny said, 'That was incredible.' Lukas looked at Silvanna. 'I told you. I will protect you.' 'I know. I never doubted it.'",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Shadow of the Abyss",
+          "shortDesc": "Alice takes note of Lukas's awakening. She sends Dyrroth to confront the beast. Lukas and Dyrroth fight—Lukas prevails, but Dyrroth swears the battle is not over.",
+          "fullDesc": "The Abyss did not take Lukas's awakening lightly. Alice, the Queen of Blood, had been watching the empire for centuries, waiting for weakness. The Sacred Beast was a complication. She sent Dyrroth—the prince she had stolen, the weapon she had forged—to confront him. They met on a cold winter morning, the sun rising behind the mountains. 'You are the Beast of Light.' 'And you are the Prince of the Abyss.' 'We are the same, you and I.' 'We are nothing alike.' They fought. Dyrroth was fast, his demonic arm crackling, his claws drawing blood. But Lukas was stronger. He channeled the Sacred Beast's power, meeting fury with fury, and drove the prince back. 'This is not over,' Dyrroth said, retreating into darkness. 'No,' Lukas agreed. 'It is not.'",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Philosophy of the Beast",
+          "shortDesc": "Lukas reflects on his purpose: fighting is not a burden but the instinctive expression of his spirit. He vows to bring a new dawn to the Moniyan Empire, illuminating every corner with hope.",
+          "fullDesc": "Lukas does not consider himself a philosopher. He is a fighter, a protector, a friend. But he has developed a guiding philosophy over the centuries. 'Fighting is not only my duty but the instinctive expression of my spirit.' It is not a boast; it is a simple statement of fact. He was born to fight, to protect, to serve. 'I will create something as brilliant as the dawning sun to illuminate every corner of the Moniyan Empire.' He believes in loyalty—not blind obedience, but the deep abiding loyalty of a friend. He loved Gaius, and he loves Silvanna, not because of their blood, but because of their spirits. 'The dawning sun is a new day. A new beginning. A new hope. That is what I will bring to the Moniyan Empire.'",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Bond with Silvanna",
+          "shortDesc": "Lukas sees Gaius in Silvanna—not as a replacement, but as a continuation of his legacy. He vows to herald a new era at her side, protecting her from the shadows as she carries the weight of the empire.",
+          "fullDesc": "The most important bond in Lukas's life is with Silvanna. She is not Gaius—she will never be Gaius—but she carries his legacy in her blood, his hope in her heart. 'You remind me of him,' Lukas says. 'Is that a compliment?' 'It is the highest compliment I can give.' He watches her fight, leads her in battle, protects her from the shadows. She is strong, but young, and the weight of the empire is heavy. He will not let her carry it alone. 'I vowed to herald a new era for the Empire at her side.' He has made many vows in his long life, and he has never broken one.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Beast of Light",
+          "shortDesc": "Lukas does not know if the empire will ever know peace. But he will keep fighting, keep protecting, keep standing beside Silvanna. His light will never fade.",
+          "fullDesc": "Lukas does not know what the future holds. He does not know if the Abyss will ever be defeated, if Dyrroth will ever be saved, if the Moniyan Empire will ever know peace. But he knows that he will keep fighting, protecting, standing beside Silvanna for as long as she needs him. He was born from the light of the Lantis Peaks, a creature of raw elemental power. He made a bond with a man who dreamed of building an empire. He fought beside him, helped him build, and watched him die. He slept for a thousand years, waiting for someone to wake him. Silvanna came, and he opened his eyes to a world that had forgotten him. He will not let them forget. He will fight. He will protect. He will herald a new era. His light will never fade.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Dawn That Finally Came",
+          "shortDesc": "Lukas stands on the walls of Lumina City, watching the sunrise. He thinks of Gaius, Silvanna, and the Lightborn. He feels peace for the first time in a thousand years. The dawn has finally come.",
+          "fullDesc": "\"The dawning sun is a new day. A new beginning. A new hope. That is what I will bring to the Moniyan Empire.\" — Lukas, standing on the walls of Lumina City, watching the sun rise over the empire he has sworn to protect. The night is quiet in Lumina City. Lukas stands on the city walls, his eyes fixed on the horizon. In the distance, the lights of villages he has protected twinkle. Laughter of children, songs of farmers—a community at peace. It is worth it. Every scar, every battle, every sacrifice. He thinks of Gaius, hoping he is proud. He thinks of Silvanna, hoping she is safe and happy. He thinks of the Lightborn, his family. 'The dawning sun is a new day,' he whispers to the wind. The wind does not answer, but the stars shine brighter, the night grows calmer. He feels a sense of peace not felt in a thousand years. He is not alone. He has never been alone. The night is quiet. The moon is silver. And Lukas, the Beast of Light, keeps his vigil.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Lukas's Powers",
+          "shortDesc": "Detailed breakdown of Hero's Resolve, Flash Combo, Flash Step, and Unleash the Beast. Lukas is a dual-form fighter who builds Resolve to transform into a devastating Sacred Beast.",
+          "fullDesc": "The Nature of His Power: innate to his Sacred Beast bloodline. He gains Resolve over time or by dealing damage to enemies. When Resolve is full, he transforms into his true form—a massive beast with enhanced attributes.\n\nHero's Resolve (Passive): gains 1 Resolve per second, 2 when damaging enemy heroes. Consumes 10 Resolve per second in Sacred Beast form.\n\nFlash Combo (Skill 1 - Human): enhances Basic Attacks; with stacks, stuns, pulls, and gains Control Immunity.\n\nFlash Combo (Skill 1 - Beast): transforms into a tail swing that recovers HP.\n\nFlash Step (Skill 2): dashes, blinks behind enemy, increases attack range, Movement Speed, and Attack Speed.\n\nUnleash the Beast (Ultimate): transforms into Sacred Beast form, increasing all attributes by 15-20% and unlocking enhanced skills. Fires a Shockwave Explosion that detonates on enemy hit or at max range, dealing Physical Damage with aftershocks.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Beast of Light",
+          "shortDesc": "Lukas will be the Beast of Light not because he was born to it, but because he chose to wake from his slumber and fight for a world that had forgotten him. His light will never fade.",
+          "fullDesc": "Lukas. Beast of Light. Sacred Beast of the Moniyan Empire. He was born from the light of the Lantis Peaks, a creature of raw elemental power. He made a bond with a man who dreamed of building an empire. He fought beside him, helped him build, and watched him die. He slept for a thousand years, waiting for someone to wake him. Silvanna came, and he opened his eyes to a world that had forgotten him. He will not let them forget. He will fight. He will protect. He will herald a new era for the Moniyan Empire. Not because he was born to it. Because he chose to wake. Because he chose to hope. Because someone must stand against the darkness. And Lukas, companion of Gaius, protector of Silvanna, Beast of Light, has decided that someone will be him. The dawning sun is a new day. His light will never fade.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
