@@ -1010,6 +1010,8 @@ function initJerseyShowcase() {
   const controls = document.getElementById('jersey-controls');
   const title = document.getElementById('jersey-view-title');
   const desc = document.getElementById('jersey-view-desc');
+  const titleMobile = document.getElementById('jersey-view-title-mobile');
+  const descMobile = document.getElementById('jersey-view-desc-mobile');
   if (!stage || !img || !controls || !title || !desc) return;
 
   const views = {
@@ -1059,7 +1061,9 @@ function initJerseyShowcase() {
 
   let activeView = 'full';
   let isAnimating = false;
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+    window.matchMedia('(pointer: coarse)').matches ||
+    window.matchMedia('(hover: none)').matches;
 
   function setActiveButton(view) {
     controls.querySelectorAll('.jersey-view-btn').forEach(btn => {
@@ -1082,8 +1086,10 @@ function initJerseyShowcase() {
       img.alt = next.alt;
       title.innerHTML = next.title;
       desc.textContent = next.desc;
+      if (titleMobile) titleMobile.innerHTML = next.title;
+      if (descMobile) descMobile.textContent = next.desc;
 
-      if (prefersReducedMotion) {
+      if (reducedMotion) {
         isAnimating = false;
         return;
       }
@@ -1100,7 +1106,7 @@ function initJerseyShowcase() {
       });
     };
 
-    if (prefersReducedMotion) {
+    if (reducedMotion) {
       showNext();
       return;
     }

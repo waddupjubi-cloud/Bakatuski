@@ -297,7 +297,7 @@ body.light-theme .audio-btn.active {
     left: 12px;
     right: auto;
     bottom: 12px;
-    width: min(320px, calc(100vw - 24px));
+    width: min(300px, calc(100vw - 124px));
     grid-template-columns: 40px minmax(0, 1fr) auto;
     padding: 8px;
   }
@@ -309,6 +309,6 @@ body.light-theme .audio-btn.active {
   .audio-panel {
     left: 12px;
     bottom: 70px;
-    width: calc(100vw - 24px);
+    width: min(520px, calc(100vw - 24px));
   }
 }
