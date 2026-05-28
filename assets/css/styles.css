@@ -1623,6 +1623,8 @@ select {
 
 .timeline-item.open .timeline-desc {
   max-height: 200px;
+  overflow: scroll;
+    scrollbar-width: none;
 }
 
 .timeline-arrow {

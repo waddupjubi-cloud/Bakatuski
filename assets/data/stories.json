@@ -2279,6 +2279,423 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 17,
+      "hero": "Alice",
+      "slug": "alice",
+      "cover": "images/stories_covers/alice_cover.png",
+      "folder": "images/lores/alice/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Blood That Remembers",
+          "shortDesc": "Alice introduces herself as the Queen of Blood, a fallen noble who was blindfolded by her family's shame and turned to the Abyss. She is now the primary antagonist of the Land of Dawn.",
+          "fullDesc": "\"They say I was born a monster. They say the Abyss corrupted me, twisted me, turned me into something evil. They are wrong. I was born a victim. I was the youngest daughter of a powerful family, blindfolded by their shame, valued only for the alliances my marriage could secure. I was nothing to them. Less than nothing. So I became something else. I became the thing that monsters fear. I became the Queen of Blood. And now, when the nobles of the empire pray for salvation, they pray to the Light. But when they lie awake at night, afraid of the dark, they whisper my name. Alice. Alice. The one who will come for them when their sins have grown too heavy to bear.\" — Alice, to a dying noble who begged her for mercy. There is a particular silence after the Queen of Blood passes—the silence of emptiness, of a world drained of life. Alice has known this silence for millennia. Once a girl of the Antalus family, she was the illegitimate, the forgotten. The Abyss found her resentment and offered power. She accepted. Now she is immortal, the mastermind behind the Abyss's most devastating plots, the queen who turned a prince into a weapon and an empire into a graveyard. This is her story.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The House of Antalus and the Stain of Illegitimacy",
+          "shortDesc": "Alice was born the illegitimate daughter of a wealthy noble family. Her brothers were cherished while she was hidden away, a pawn for political marriage, treated as less than nothing.",
+          "fullDesc": "The Antalus family was one of the oldest and most powerful in the Moniyan Empire. But they had a stain: a daughter born on the wrong side. Alice's mother was a servant dismissed after pregnancy. The baby was brought back, but her mother was never seen again. Alice grew up in the shadows of the manor—fed and clothed but never acknowledged. She ate in the kitchen, slept in the attic. Her two legitimate brothers were cherished; she was a tool, a bargaining chip to be married off for alliance. She watched from a distance, her heart hardening each year. She learned to read by stealing books, to write on scraps, to think by eavesdropping. The resentment grew like a cancer. She was ready when the Abyss came calling.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Whispers from the Void",
+          "shortDesc": "The Abyss spoke to Alice in feelings—despair, betrayal, loneliness. It found the cracks in her soul and promised power, revenge, and the ability to change her fate.",
+          "fullDesc": "The Abyss does not speak in words. It speaks in feelings—cold despair, sharp betrayal, hollow loneliness. It finds the cracks in a person's soul and pours itself in. Alice was full of cracks. The whispers started when she was fourteen. A soft, seductive voice told her she deserved better, that her family was wrong, that she had the power to change her fate. At first she was frightened, thought she was going mad. She tried to pray it away. But the voice returned each night, wearing down her resistance. 'You are special,' it said. 'The strong only rule because the weak let them. Power is not given—it is taken. You can take it, if you want it badly enough.' Alice wanted it more than anything.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The First Kill and the Taste of Freedom",
+          "shortDesc": "Guided by the Abyss, Alice killed her father's cruel steward. She expected horror but felt nothing—only the cold satisfaction of power. It was the first step on her dark path.",
+          "fullDesc": "The first person Alice killed was her father's steward, Garrick—a cruel man who pinched maids and struck kitchen boys. The voice told her to kill him. 'It will be easy. He trusts you. You are invisible to him.' Alice hesitated. She had never killed anyone. 'The first time is always the hardest,' the voice said. 'After that, it becomes easier.' She killed him in the wine cellar with a stolen kitchen knife. He did not see her coming. The blade slid between his ribs and punctured his heart. Alice stood over the body, hands shaking. She expected horror, guilt, remorse. She felt nothing. The voice was pleased. 'You see? You are stronger than you knew.' Alice smiled. It was the first time she had smiled in years.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Seizure of the Family",
+          "shortDesc": "Over years, Alice manipulated, poisoned, and killed her way to control of House Antalus. She eliminated her brothers, broke her father's will, and publicly executed all who resisted.",
+          "fullDesc": "The voice guided Alice through the following years. It taught her to manipulate, deceive, turn the family's weaknesses against them. She poisoned her father's mind against her brothers, sowed discord, exploited every crack. One brother died in a 'hunting accident.' Another was disgraced by a manufactured scandal. Her father grew sick, his will crumbling. When the time was right, Alice seized control. She gathered the servants, retainers, distant relatives, and declared herself the new head of House Antalus. Some questioned her authority, whispered that she was illegitimate. She killed them publicly, messily, so no one would forget. The survivors fell in line. Alice was no longer a pawn. She was a player. And she was just getting started.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Betrayal of the Lord of Light",
+          "shortDesc": "Alice despised the Lord of Light as the symbol of hypocrisy that justified her suffering. She led her family in a mass betrayal, renouncing the Light and pledging allegiance to the Abyss.",
+          "fullDesc": "The Antalus family had always been devout—they worshipped the Lord of Light, attended cathedral services, donated generously. Alice despised him. She saw the Lord of Light as the ultimate symbol of the hypocrisy that had oppressed her—the divine justification for cruelty, the excuse the strong used to dominate the weak. The voice encouraged her rebellion. 'The Lord of Light is not your god. He is your enemy. He decreed that you should be blindfolded, silent, accepting.' Alice believed. She turned her family against the Church, encouraged them to question priests, doubt doctrines, explore forbidden texts. She led them in a mass betrayal, renouncing the Lord of Light and pledging allegiance to the Abyss. The Church was outraged. The Lord of Light's wrath came as a curse: the Antalus family transformed into blood demons—pale skin, red eyes, sharp fangs. Alice watched with satisfaction. They had been monsters beneath their polite smiles. Now they looked the part.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Anatomy of a Blood Demon",
+          "shortDesc": "A detailed description of Alice: pale porcelain skin, crimson glowing eyes, brilliant white hair, obsidian-black horns, massive leathery bat wings, and ornate blood-red armour.",
+          "fullDesc": "To look at Alice is to see a creature of terrible beauty. She stands just over five and a half feet, slender and graceful. Her face is sharp and aristocratic—high cheekbones, straight nose, pale luminous skin. Her eyes are deep vibrant crimson, glowing with inner fire. Her hair is stark brilliant white, styled side-swept. From her crown rise two large obsidian-black horns, curving upward into wicked points. From her back spread massive leathery bat wings in bruised purple and vibrant magenta, with thick black skeletal structures and glowing vein-like patterns. Her attire is a fusion of ornate armour and regal fabrics in obsidian black and blood-red—a form-fitting bodice with plunging neckline, wing-like shoulder protrusions, metallic clawed gauntlets, an ornate golden crest at her waist, and a layered skirt of sharp petal-like plates leading into a long split cape lined with glowing red. She carries no weapon. Her entire form is a living weapon of magical devastation.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "Flowing Blood — The Orb That Returns",
+          "shortDesc": "Alice's signature technique: an orb of concentrated blood energy thrown at enemies, damaging them on the way out and again on the return, draining their vitality.",
+          "fullDesc": "Flowing Blood is Alice's signature technique—an orb of concentrated blood energy that she throws at her enemies, damaging them as it travels and returning to her, damaging them again on the way back. The orb is made of her own blood, infused with the Abyss's power, programmed to seek out life force and drain it. When it strikes an enemy, it absorbs a fraction of their vitality, returning it to Alice when the orb completes its circuit. The technique is not exhausting. Alice can use it as often as she likes, as long as she has blood to spare. But each use depletes her reserves, and she must feed to replenish them. She has learned to use it to wear down enemies, to chip away at their strength, to make them weaker with each pass of the orb.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "Blood Dance — The Dash That Consumes",
+          "shortDesc": "Alice's mobility and sustain technique: she transforms into crimson mist, dashes to a target, reforms, and sinks her claws in to absorb blood, healing herself.",
+          "fullDesc": "Blood Dance is Alice's mobility and sustain technique—a dash that allows her to close distance quickly and absorb blood from her target. She transforms into a cloud of crimson mist, darts toward her target, and reforms beside them, her claws sinking into their flesh. She drinks from them, drawing their life force into her own body, healing her wounds and restoring her strength. The technique is exhausting. Each dash drains Alice's reserves, and the close range leaves her vulnerable to counterattack. She uses it sparingly, reserving it for moments when she needs to heal, to finish a wounded enemy, or to escape danger. The mist moves on instinct, seeking the nearest source of blood. Alice has learned to trust her instincts, to let the hunger guide her.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "Blood Ode — The Transformation That Makes Her Immortal",
+          "shortDesc": "Alice's ultimate technique: she rises into the air, spreads her wings, and releases a wave of crimson energy that drains all nearby enemies, making her unkillable while victims remain.",
+          "fullDesc": "Blood Ode is Alice's ultimate technique—a transformation that turns her into a true queen of darkness, draining the life force of all nearby enemies continuously. She spreads her wings, rises into the air, and releases a wave of crimson energy that washes over the battlefield. Enemies caught in the wave begin to bleed—not from wounds, but from their very life force, which flows out of them and into Alice. As long as enemies are within the radius of Blood Ode, Alice cannot die. The life force she drains heals her faster than any damage can be inflicted. She becomes an immortal vortex of death, a storm of blood and shadow that consumes everything in its path. Blood Ode is exhausting. Each use drains her reserves completely, leaving her weak and vulnerable for minutes afterwards. She can use it only once in a battle. But when she uses it, she uses it with all the hunger in her immortal heart.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Aura of the Blood Queen",
+          "shortDesc": "Alice's passive aura: a cold, oppressive pressure that empowers allies and terrifies enemies. Those sensitive to magic see a faint crimson shimmer around her.",
+          "fullDesc": "To stand before Alice is to feel the weight of eternity. Her aura is not visible to most, but it is palpable—a cold pressure settling on the skin like frost, a hunger gnawing at the edges of the mind. Those sensitive to magic can see it: a faint crimson shimmer surrounding her body, flickering like the light of a dying flame. The aura is oppressive, suffocating, terrifying—the aura of a predator who has been hunting for millennia, of a queen who has crushed empires, of a woman who has never lost a war. Allies feel empowered, emboldened, as if her presence is a blessing that makes them stronger. Enemies feel a certainty that they are going to die—not as a possibility, but as an inevitability. Some flee. Some freeze. Some fight. It does not matter. Alice has seen it all before.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Royal Plan — Infiltration and the Prince of the Abyss",
+          "shortDesc": "Alice infiltrated the imperial palace, kidnapped the infant prince Aurelius III, and raised him as Dyrroth—the Prince of the Abyss, her ultimate weapon against the empire.",
+          "fullDesc": "The Royal Plan was Alice's masterpiece. Decades of preparation, years of execution, the patience of a being who had lived for centuries. The goal: infiltrate the Moniyan Empire's palace, kidnap the infant prince, raise him as a weapon of the Abyss. She entered on the night of the prince's first birthday, when guards were distracted and wards weakened. She found the nursery, took the sleeping infant—Aurelius III. Alarms sounded. She killed dozens of guards, her claws and magic tearing through armour. She emerged with the prince in her arms, wings spread, eyes blazing, and escaped into the night. She renamed him Dyrroth. She raised him in the Abyss, in a fortress of obsidian and shadow, without love but with purpose. She taught him to fight, hate, dominate. She twisted his memories, corrupted his soul. He became the Prince of the Abyss, her champion, her masterpiece—unaware of the sister who still searched for him.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The War Against the Lightborn and the Queen Who Never Rests",
+          "shortDesc": "Alice wages relentless war against the Lightborn, sending Dyrroth to lead her armies. She is patient, immortal, and will never stop fighting for a world she believes should be hers.",
+          "fullDesc": "Alice's war against the Lightborn is relentless. She sends Dyrroth to lead her armies, to break the empire's defences, to kill all who stand in her way. She directs demons to attack from shadows, corrupt the land, weaken the empire's hold. She faces the heroes personally—Silvanna, Tigreal, Alucard—fighting them, taunting them, nearly killing them. She enjoys the battles; they remind her she is alive, powerful, transcendent. But the war is strategic. Every battle, death, victory brings her closer to her ultimate goal: the destruction of the empire that rejected her, the humiliation of the Light that cursed her, the domination of a world that blindfolded her. She is patient. She has been patient for millennia. She can wait a little longer. She does not know what the future holds—if the Abyss will conquer, if Dyrroth will break free, if she will ever find peace. But she knows what she will do: scheme, conquer, feed. The blood never stops. The hunger never fades. She is Alice, the Queen of Blood, and she will never stop fighting.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Blood That Never Dries",
+          "shortDesc": "Alice stands on her fortress balcony overlooking the empire. She does not mourn the girl she was. She is stronger now—the Queen of Blood, the sovereign of the Abyss.",
+          "fullDesc": "\"They call me the Queen of Blood. I did not choose the name. I did not want it. But I have carried it for millennia, and I have learned that names are just words. What matters is what you do. And what I do is survive. That is enough.\" — Alice, to a demon who asked her why she kept fighting. The night is dark over the Abyss, stars invisible through the veil of shadow. Alice stands on the balcony of her fortress, wings folded, eyes fixed on the distant lights of the empire. Dyrroth is out there fighting her war. The Lightborn scramble to contain the damage. The empire is bleeding. She thinks about her father who rejected her, her brothers who died by her hand, the girl she used to be. She does not mourn her. She does not miss her. She is stronger now, more powerful, more herself than ever. The blood sings in her veins. The hunger stirs. The ambition burns. She smiles. The night is young. There is still so much to do.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Alice's Powers",
+          "shortDesc": "Detailed breakdown of Flowing Blood, Blood Dance, Blood Ode, and the Blood Queen's aura. Alice is an immortal life-drain mage who thrives on the suffering of enemies.",
+          "fullDesc": "The Nature of Her Power: rooted in her nature as a blood demon—cursed to drink blood to survive, but the curse grants immortality, strength, and the ability to manipulate life force. The source is blood: her own, her enemies', the innocent's. She drinks, and it fuels her magic, heals her wounds, strengthens her body.\n\nFlowing Blood: an orb of concentrated blood energy thrown at enemies, damaging on the way out and again on the return, draining vitality.\n\nBlood Dance: a dash transforming into crimson mist, reforming beside a target to absorb blood and heal.\n\nBlood Ode (Ultimate): Alice rises into the air, spreads her wings, and releases a wave that drains all nearby enemies continuously, making her unkillable while victims remain.\n\nThe Aura of the Blood Queen (Passive): a cold, oppressive pressure that empowers allies and terrifies enemies; visible as a faint crimson shimmer.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Queen of Blood",
+          "shortDesc": "Alice will be the Queen of Blood not because she wants to be, but because someone has to rule the darkness—and she has decided that someone will be her.",
+          "fullDesc": "Queen of Blood. The title is a burden and a gift. It reminds Alice of the family that rejected her, the Abyss that saved her, Dyrroth the prince she raised as a weapon. She does not know if she will ever live up to the expectations that come with it. But she knows she will try. Every day, in every battle, with every drop of blood. She will be strong, cunning, cruel. She will be the Queen of Blood. Not because she wants to be. Because she has to be. Because someone has to rule the darkness. And Alice, daughter of a noble house, survivor of betrayal, sovereign of the Abyss, has decided that someone will be her. The night is dark. The blood is hot. The hunger is strong. And Alice never stops.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "hero": "Hanabi",
+      "slug": "hanabi",
+      "cover": "images/stories_covers/hanabi_cover.png",
+      "folder": "images/lores/hanabi/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The River of Lost Souls",
+          "shortDesc": "Hanabi introduces herself through the vision of the Higanbana—a river of darkness where lost souls drown. She has known this river since childhood, and it has shaped her destiny as the Scarlet Flower.",
+          "fullDesc": "\"The Higanbana blooms on the shore, as if consumed in flames. Unable to relinquish their obsessions, the lost souls plunge into the abyss. They no longer remember their past lives, and the future is a mystery. They are lured to this place, which condemns them to hell.\" — Higanbana, Seven Armaments of the Scarlet Shadow. There is a river that flows through the dreams of those who seek power without understanding its cost—not water, but darkness. Hanabi has known this river since she was seven, when she first touched the Higanbana and was engulfed by the ancient armament. The crowd cheered her as the chosen successor of Scarlet, but they did not see the black waters. Hanabi saw them. She has spent her life deciding whether to drown or learn to swim. This is the story of the Scarlet Flower—a kunoichi who learned that victory is not everything.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Daughter of the Grandmaster",
+          "shortDesc": "Hanabi was born the oldest daughter of the Scarlet Supreme Grandmaster, destined to lead the Scarlet Sect. Trained from childhood, she excelled at everything—but the river of Higanbana haunted her dreams.",
+          "fullDesc": "In the hidden valleys of the Cadia Riverlands lies a village not on any map—home of the Scarlet Shadow, a clan of ninja split into the Scarlet Sect (weapons) and the Shadow Sect (ninjutsu). Hanabi was born as the oldest daughter of the Scarlet Supreme Grandmaster. Her fate was sealed: she would be the successor, carrying generations of weight. She trained from dawn to dusk, her body aching, her spirit tested. She became the finest student of her generation, believing strength was absolute, that the strong never lose. On her seventh birthday, she accidentally activated the Higanbana, was swallowed by darkness, and emerged to cheers. The river entered her dreams that night and never left.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Arrival of the Shadow",
+          "shortDesc": "Hayabusa, the second son of the Shadow Supreme Grandmaster, arrived at the Scarlet Sect. Hanabi, accustomed to winning, lost to him repeatedly—and their rivalry under the moonlight became her obsession.",
+          "fullDesc": "The knowledge exchange program brought Hayabusa—the second son of the Shadow Supreme Grandmaster—to the Scarlet Sect. He was quiet, unnaturally so, moving like smoke. Hanabi expected to crush him. Instead, she lost. Again and again. Every full moon, she tracked him down and challenged him to a duel. Every full moon, she lost. He would say, \"Because... the moon looks lovely tonight,\" infuriating her with his frivolity. But she kept returning. The defeats mounted, but she could not stop. She told herself it was ambition. The truth, which she would not acknowledge for years, was simpler: she had fallen in love with the boy who could not be beaten.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Weight of Silence",
+          "shortDesc": "Hanabi suppressed her feelings behind a ninja's mask. On the night of the coming-of-age ceremony, she prepared red bean rice as a gift, but found Hayabusa standing with Kagura—and fled into the rain.",
+          "fullDesc": "For a girl of the Scarlet Sect, love was a luxury. Hanabi learned to hide her emotions, to build a fortress around her heart. Her feelings for Hayabusa were a prisoner in the deepest dungeon. On the night of the coming-of-age ceremony, she dressed carefully, cooked red bean rice with her own hands—despite countless failed attempts—and went to find him. The rain was heavy. She found him standing with Kagura, the young spiritualist, so natural together that Hanabi understood: she was too late. Hayabusa saw her, offered his umbrella. She refused, fled into the rain clutching the box, and wept on a rooftop under the moonlight. After that night, Hayabusa left the Scarlet Shadow. She never saw him again.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Anatomy of a Scarlet Flower",
+          "shortDesc": "A detailed description of Hanabi: lean and athletic, sharp features, deep purple eyes, long dark hair in a high ponytail with a red ribbon, a black face mask, and the Higanbana—a bladed chakram.",
+          "fullDesc": "To look at Hanabi is to see a paradox of beauty and death. She stands 165 centimetres, lean and athletic, with sharp high cheekbones, a strong jawline, and large deep purple eyes. Her skin is fair and smooth. Her long dark hair is tied in a high ponytail with a large ornate red ribbon, a single strand framing her left eye. A black handkerchief covers the lower half of her face—a ninja's mask hiding her emotions. She wears a dark form-fitting bodysuit with lightweight armour on her shoulders, forearms, and shins, overlaid with a flowing crimson outer robe. The Higanbana is a bladed chakram that folds compactly; when deployed, its blades extend into a lethal ring of steel that glows with crimson light. Her posture is straight, commanding, but there is a weariness in her bearing—a woman who has seen too much.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Seven Armaments and the Seal of Higanbana",
+          "shortDesc": "The Higanbana is one of the Seven Great Armaments, forged from the souls of the dead. To wield it is to dance with their obsessions. The first Scarlet leader sealed his grief within it.",
+          "fullDesc": "The Higanbana is one of the Seven Great Armaments—ancient weapons forged by the Akakage clan's founders. Its power is rooted in the boundary between life and death. Its blades are forged from the souls of those who died with unresolved obsessions, trapped like Red Spider Lilies on the afterlife's shore. To wield the Higanbana is to dance with the dead, drawing on their resentments as fuel. The cost is the erosion of the self. The first Scarlet leader, who sacrificed everything for power—missing his wife's deathbed—went mad with grief and sealed his power and sorrow within the blade. To break the seal, a wielder must understand that power without emotion is hollow. Hanabi approached the Higanbana as a problem to be solved. The weapon tried to consume her.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Abilities of the Scarlet Flower",
+          "shortDesc": "Hanabi's techniques: Petal Barrage (bouncing petal blades), Equinox (shield with crowd control immunity), Soul Scroll (marking kunai), and Higanbana (ultimate immobilising flower field).",
+          "fullDesc": "Hanabi's combat style is defined by the Higanbana. Ninjutsu: Petal Barrage (Passive)—each basic attack launches a petal blade that bounces to nearby enemies up to four times. Ninjutsu: Equinox (Skill 1)—creates a shield granting immunity to all crowd control effects, increased movement and attack speed, and replenishes by dealing damage. Ninjutsu: Soul Scroll (Skill 2)—throws a kunai charged with Higanbana energy in a line, damaging and slowing enemies, and marking them so subsequent petal blades deal full damage. Forbidden Jutsu: Higanbana (Ultimate)—throws the weapon; upon hitting an enemy, it blooms into a field of crimson flowers that immobilizes everyone within range for two seconds and deals damage; if enemies remain, another flower blooms, renewing the effect. It is a technique of suffocating beauty—the dead do not let go easily.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Betrayal of Hanzo",
+          "shortDesc": "Hanzo, a powerful ninja, betrayed the Scarlet Shadow and absconded with the cursed blade Ame no Habakiri. Hanabi saw in him a dark mirror of her own struggle with the Higanbana.",
+          "fullDesc": "Hanzo, one of the clan's strongest ninja, betrayed the Scarlet Shadow, taking the Ame no Habakiri—another of the Seven Great Armaments—and becoming a demon fused with the blade's power. The two sects united to hunt him. For Hanabi, the mission was personal. She saw in Hanzo a dark mirror: a prodigy who had reached too far, who had sworn allegiance to his weapon and been consumed. The same whispers that drove him now whispered to her. The mission was also a chance to prove herself to Hayabusa, who led the Shadow Sect's contingent. She tracked Hanzo to a remote clearing, surrounded by bodies. She attacked.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Black River",
+          "shortDesc": "In her battle with Hanzo, Hanabi nearly drowned in the Higanbana's black river. Desperate, she swore allegiance to the weapon—but Hayabusa's voice pierced the darkness and saved her.",
+          "fullDesc": "The battle with Hanzo was unlike any she had faced. He was faster, stronger, and his cursed blade anticipated her moves. She felt herself slipping. The black river rose in her mind—the thick, frigid waters of her nightmares. She could not lose. She swore her undying allegiance to the Higanbana, offering her body as a vessel. The souls of the dead rose around her. The crash of waves resounded in her ears. Win! Win! Win! She sank deeper. Then she heard his voice: Hanabi! Hanabi! Hanabi! Hayabusa. His voice pierced the void. She saw moonlight reflected on the river's surface. The dead retreated. The waters subsided. She understood: the first Scarlet leader had lost everything—his wife, his happiness—because he pursued only victory. She was not him. She looked at the shore, now within reach, and saw his silhouette with his wife under the moonlight.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Blooming of the Flower",
+          "shortDesc": "Hanabi emerged from the abyss as the true master of the Higanbana. She finally understood Hayabusa's words: \"The moon looks lovely tonight\"—a reminder that there is more to life than winning.",
+          "fullDesc": "When Hanabi came to her senses, Hayabusa was beside her. Hanzo had escaped, but that was a mere setback. The Higanbana rested gently in her hand; she had unlocked its secrets and become its true owner. Free from her obsessions, she saw clearly for the first time. \"Because... the moon looks lovely tonight\"—he had never been mocking her. He had been trying to tell her that there are things worth more than winning: the moonlight, the breeze, sharing a quiet moment with someone who understands. She had been so focused on victory that she missed everything else. She raised her head and looked at the night sky. The moon was beautiful. She no longer needed guidance. No matter what direction she took, all roads led to her shore. The Scarlet Flower had finally blossomed.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Leader's Burden",
+          "shortDesc": "Hanabi inherited leadership of the Scarlet Sect. She leads differently from her father, embracing emotion rather than suppressing it. Her feelings for Hayabusa remain unspoken but present.",
+          "fullDesc": "The Scarlet Sect of the present is not the sect Hanabi grew up in. She inherited her father's position but not his philosophy. The old ways—rigid hierarchies, suppression of emotion, victory at any cost—have been challenged. She leads with a balance of strength and feeling. The Higanbana taught her that power without emotion is hollow. Her relationship with Hayabusa remains complicated. He leads the Shadow Sect now. They work together when necessary, but the intimacy of their childhood rivalry has been replaced by distance. Kagura's umbrella still haunts her. When she sees them together, the old pain returns. She tells herself she has moved past it, but the heart does not listen to commands, and the Higanbana whispers that unresolved obsessions are the deadliest kind.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Obsession and the Letting Go",
+          "shortDesc": "Hanabi has learned that obsession is a prison, but commitment is a choice. She fights without being consumed, leads without losing herself, and feels without being controlled.",
+          "fullDesc": "The Higanbana's power is rooted in obsession—the inability to let go. The first Scarlet leader was destroyed by his obsession with power. Hanabi understands obsession better than most. She has spent her life obsessed with winning, with proving herself, with defeating Hayabusa. But she has learned that obsession is not the same as commitment. Commitment is a choice; obsession is a prison. She has learned to fight without being consumed by the fight, to lead without losing herself, to feel without allowing her feelings to control her. The dead still call, their resentments rising like tides. But Hanabi does not drown. She floats, watches, waits. \"The enemy often knows you better than you do,\" she says. But they do not understand that she has already faced those obsessions, conquered those weaknesses. The Higanbana's river is deep, but Hanabi has learned to swim.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Scarlet Flower",
+          "shortDesc": "Hanabi stands on the rooftop under the moonlight, remembering the duels and the rain. She whispers a promise to Hayabusa: \"Come back alive. I'll be waiting.\"",
+          "fullDesc": "Hanabi does not know what the future holds—whether she will ever see Hayabusa's eyes soften, whether the Scarlet Sect will survive, whether peace will come. But she knows who she is. She is the leader of the Scarlet Sect, the one who carries the Higanbana and the weight of her people's history. She has learned that victory without meaning is hollow. The only victories worth winning are those that leave you with something worth keeping. She stands on the high rooftop, moonlight on her face, the Higanbana in her hand. She whispers to the night air: \"Hayabusa, be careful out there and come back alive. I'll be waiting. Our duel isn't over yet, and I will be the strongest ninja—the one who takes the name Akakage!\" The words are for herself. A promise. A reminder. The Higanbana glows, petals catching moonlight. The Scarlet Flower blooms eternal.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Moonlight and the Promise",
+          "shortDesc": "On a quiet night, Hayabusa stands beside Hanabi on the rooftop. He says, \"The moon is beautiful tonight.\" She says nothing, but her heart understands.",
+          "fullDesc": "\"All our friends who grew up with us are here—everyone except you, drifting far away with the cherry blossoms. Hayabusa, be careful out there. Come back alive. I'll be waiting.\" — Hanabi, speaking to the wind on a moonlit night. The night is quiet in the Cadia Riverlands. Hanabi stands alone on the high rooftop, the Higanbana sheathed. Footsteps approach—someone who knows the shadows, who moves like a ghost. Hayabusa stands beside her. He does not speak. He looks up at the moon. \"The moon is beautiful tonight,\" he says. Hanabi does not respond. She simply stands there, allowing herself to feel the weight of his presence, the simple pleasure of sharing a quiet moment with someone who understands. The dead within the Higanbana are silent. Even they appreciate a moonlit night. Two ninja, standing side by side, watching the moon. It is enough.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Hanabi's Powers",
+          "shortDesc": "Detailed breakdown of Petal Barrage, Equinox, Soul Scroll, and the Higanbana ultimate. The Higanbana draws power from the souls of the dead and the wielder's obsessions.",
+          "fullDesc": "The Nature of Her Power: spiritual and emotional. The Higanbana draws on the souls of the dead—those who died with unresolved obsessions. The cost is the erosion of the self. The weapon's power peaks under the full moon.\n\nNinjutsu: Petal Barrage (Passive): basic attacks launch a petal blade that bounces to nearby enemies up to four times, dealing reduced damage with each bounce.\n\nNinjutsu: Equinox (Skill 1): creates a shield that grants immunity to all crowd control effects, increased movement and attack speed. The shield replenishes by dealing damage.\n\nNinjutsu: Soul Scroll (Skill 2): throws a kunai in a line, damaging and slowing enemies, marking them so subsequent petal blades deal full damage.\n\nForbidden Jutsu: Higanbana (Ultimate): throws the weapon; upon hitting an enemy, it blooms into a field that immobilizes all enemies within range for two seconds, deals damage, and renews the effect if they remain.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Scarlet Flower",
+          "shortDesc": "Hanabi will be the Scarlet Flower not because she was born to it, but because she chose to bloom after learning that victory is not everything.",
+          "fullDesc": "Scarlet Flower. Leader of the Scarlet Sect. Heir to the Higanbana. Hanabi was raised to believe that winning was everything, to suppress her emotions, to be a weapon. But the Higanbana taught her otherwise. The dead showed her the black river and the shore where the first Scarlet leader and his wife stand side by side under the moonlight. She learned that the moon is beautiful and that a gift of red bean rice is worth giving even if never received. She does not know what the future holds—whether she will ever speak the words locked in her heart, whether the Scarlet Sect will survive. But she knows who she is. She blooms eternal. She is still waiting. And she will be the Scarlet Flower—not because she was born to it, but because she chose to blossom after learning that victory is not everything. The night is quiet. The moon is beautiful. Hanabi watches and waits.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "hero": "Martis",
+      "slug": "martis",
+      "cover": "images/stories_covers/martis_cover.png",
+      "folder": "images/lores/martis/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Blade That Has Never Been Blunted",
+          "shortDesc": "Martis introduces himself as the Ashura King, a three-headed, six-armed god of war who has conquered a thousand worlds. Bored with eternal victory, he seeks a worthy opponent to give him a glorious death.",
+          "fullDesc": "\"They say I am a monster. A demon. A god of slaughter who has left a trail of corpses across a thousand worlds. They are not wrong. I am Martis, the Ashura King. I was born in the heart of a dying star, forged in the fires of cosmic conflict, raised on the blood of conquered civilisations. My brothers and I—the Ashura, the three-headed, six-armed warrior gods—were the terror of the universe. We conquered worlds not for resources, not for power, but for the sheer joy of battle. The clash of steel, the spray of blood, the scream of a defeated enemy—these are the only things that make existence bearable. I have killed so many that I have lost count. I have ruled so many worlds that their names blur together. I am bored. Boredom is the true enemy of an immortal. There is no challenge left, no opponent who can make my heart race, no blade that can pierce my skin. I came to the Land of Dawn seeking a worthy death. The Great Dragon sealed me instead. But now I am free. And I am still searching. I am Martis, the Ashura King. And I will not rest until I find a warrior who can finally end me.\"",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Heart of the Dying Star",
+          "shortDesc": "Martis was born from the cosmic energies of a dying star, the largest and strongest of his brood. The other Ashura feared him, and he quickly rose to become their deadliest warrior.",
+          "fullDesc": "The Ashura are born from the cosmic energies that coalesce in the hearts of dying stars. Martis's birth star was a red giant, swollen and unstable. He emerged from the Ashura forges with three heads—each with its own consciousness—and six arms, each clutching a blade forged from the star's own matter. His skin was pale as marble, his eyes glowed with violet fire, and a crimson sigil pulsed on his forehead—the mark of the Ashura King, though he did not know it yet. The other Ashura feared him. The elders whispered that he was an anomaly, a mutation, a sign that the Ashura race was evolving. They were right. Martis grew quickly, his three heads arguing constantly—one strategist, one berserker, one cold calculator. They always agreed on one thing: Martis would be the greatest warrior the Ashura had ever produced. He proved them right within a decade.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Conquest of the Thousand Worlds",
+          "shortDesc": "Martis led the Ashura army on a rampage across the universe, conquering world after world. Victory became routine, and the thrill of battle faded into boredom.",
+          "fullDesc": "Martis's first conquest was a small world of bird-like creatures. 'Why?' his lieutenant asked. 'Because they are there,' Martis replied. The conquest took three days. He stood on their greatest temple steps, blades dripping. 'Is this all there is?' No one answered. The conquests continued. World after world, civilisation after civilisation. He developed a routine: arrive, conquer, move on. He stopped remembering the names of the worlds he destroyed, stopped caring about the faces of his enemies. He became the Ashura King, undisputed ruler of the Ashura race. His word was law. His whim was destiny. His blade was death. He was bored.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Boredom of the Immortal",
+          "shortDesc": "After conquering a thousand worlds and killing a million enemies, Martis felt nothing. He began to crave death—his own death—and left the Ashura realm to search for a worthy opponent.",
+          "fullDesc": "Boredom is a peculiar torture for an immortal. Mortals fear death; immortals fear eternity. Martis had conquered a thousand worlds, fought a thousand battles, killed a million enemies. He had felt nothing for the last five hundred years. The thrill was gone. The challenge was absent. He began to seek danger—walking into traps, challenging the strongest warriors, offering his enemies advantages that should have been fatal. Nothing worked. He always won. He began to crave his own death. 'I want to feel fear again,' he said. The Ashura elders were alarmed. 'You cannot seek death.' 'The Ashura do not need me,' Martis replied. 'They need a leader. Any leader. I am tired.' He left the Ashura realm and travelled across the universe, searching for a worthy opponent. He heard whispers of the Land of Dawn and decided to go there.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Descent into the Mortal Realm",
+          "shortDesc": "Martis tore a rift into the Land of Dawn, emerging near the Dragon Altar. His powers were reduced by the effort. The Great Dragon sensed his arrival and sent disciples to investigate.",
+          "fullDesc": "The journey to the Land of Dawn was not easy. The mortal realm was sealed against beings of Martis's power. He tore a rift through the dimensional barriers, forcing his way into a reality that did not want him. The effort cost him—his powers were reduced, his body weakened, his connection to his Ashura army severed. He emerged in the Cadia Riverlands, near the Dragon Altar. The Great Dragon sensed his intrusion immediately and dispatched disciples to investigate. Martis waited. He was in no hurry. He had eternity. The disciples found him standing in a clearing, his six arms folded, his three heads watching the forest. They attacked. They died. Martis barely noticed.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Duel with the Great Dragon",
+          "shortDesc": "The Great Dragon fought Martis for three days. Unable to kill him, the Dragon sealed Martis in a dimensional rift of frozen time—not mercy, but necessity.",
+          "fullDesc": "The Great Dragon came personally after the disciples failed. He looked at Martis and saw a being of immense power—a god of war, a conqueror of worlds. 'You are not welcome here,' the Dragon said. 'Fight me,' Martis replied. The duel lasted three days. The Great Dragon was powerful—more powerful than any opponent Martis had faced in centuries. He did not fight to kill; he fought to contain. Martis fought to die. In the end, the Great Dragon did not kill him. He sealed him—trapped him in a dimensional rift, a prison of frozen time where Martis could not move, fight, or die. 'This is not mercy,' the Dragon said. 'This is necessity. You are too dangerous to roam free. You will wait.' Martis screamed. The rift closed. He was alone.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Eons of Silence",
+          "shortDesc": "Martis floated in the dimensional void for eons, unable to move or die. When the seal finally weakened, he shattered the rift and fell back into the Land of Dawn.",
+          "fullDesc": "The dimensional rift was a place without time. Martis floated in the void, unable to move, speak, or die. His three heads argued endlessly. The strategist plotted escapes that never came. The berserker raged against the prison's walls. The calculator analysed the seal for weaknesses. There were none. Martis lost track of time—days or centuries? He began to dream of conquered worlds, of the Great Dragon's words: 'Perhaps, in time, you will find the peace that eludes you.' He did not find peace. Then the seal weakened—perhaps the Great Dragon's power had waned, perhaps the Abyss's corruption had spread. The walls cracked. Martis pushed. The rift shattered. He fell into the mortal realm, landing hard on the slopes of the Dragon Altar, his body smoking, his power surging. He was free.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Anatomy of a Warrior God",
+          "shortDesc": "A detailed description of Martis: seven feet tall, pale skin, glowing violet eyes, a crimson third-eye sigil, wild white hair, obsidian organic armour, and twin scimitars called the Ashura Teeth.",
+          "fullDesc": "To look at Martis is to see a being carved from divine fury. He stands over seven feet tall, with a lean, dense physique. His skin is pale, porcelain white. His face is sharp and aristocratic—angular jaw, high cheekbones, straight nose. His eyes are glowing violet, lacking pupils. A crimson sigil pulses on his forehead—the third eye. His hair is a wild mane of spiked white locks flowing like frozen flames. He wears ornate obsidian-coloured organic armour with glowing magenta veins. Massive shoulder guards with horn-like protrusions frame his head. His torso is partially exposed, revealing a disciplined core. His gauntlets end in claw-like fingers. A tattered purple cape hangs behind him. His lower body is clad in black trousers and pointed metal boots. His weapons are the Ashura Teeth—massive curved scimitars with serrated obsidian edges, infused with magenta energy, their hilts integrated into his gauntlets.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "Ashura's Wrath — The Fury That Grows",
+          "shortDesc": "Martis's passive ability: his attack speed increases with each successive hit, stacking multiple times. The more he strikes, the faster he becomes.",
+          "fullDesc": "Ashura's Wrath is Martis's passive ability—a power that increases his attack speed with each successive hit, stacking up to multiple times. The ability is a manifestation of his battle fury. The more he strikes, the faster he becomes. His blades blur, his movements accelerate, his enemies fall before they can react. Ashura's Wrath is automatic. Martis does not need to activate it. It simply happens whenever he commits to combat. He has learned to use the ability to build momentum, to overwhelm his enemies, to turn the tide of battles that seem hopeless. In the centre of a fight, he becomes a whirlwind of crimson steel—unstoppable, relentless, eternal.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "Mortal Coil and Decimation — The Dance of Execution",
+          "shortDesc": "Mortal Coil is a clawing dash that drags enemies. Decimation is his ultimate: a cleave that executes enemies below a health threshold and resets its cooldown, allowing chain kills.",
+          "fullDesc": "Mortal Coil is Martis's mobility and crowd-control technique—a clawing dash that allows him to drag enemies with him, pulling them out of position and dealing damage. He lunges forward, claws extended, and grabs any enemy in his path. Mortal Coil is moderately exhausting but can be used several times per battle. Decimation is his ultimate technique—a devastating cleave that instantly executes enemies below a certain health threshold and resets its cooldown. He raises his blades; they glow with crimson energy. When he brings them down, enemies before him are cleaved in two. If the target is below the threshold, they die instantly. The cooldown resets. He can strike again. And again. Decimation is exhausting, but the reset mechanic allows him to keep fighting, keep killing—transforming him into a crimson whirlwind that can slaughter an entire army.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Awakening and the Weakened Power",
+          "shortDesc": "Martis's imprisonment cost him—his powers reduced, his body scarred. For the first time in centuries, he could bleed. He began to hunt the Land of Dawn's strongest heroes.",
+          "fullDesc": "Martis's imprisonment had cost him. His powers were reduced. His connection to the Ashura army was severed. His body, once invincible, now bore the scars of the dimensional rift. He was still powerful—far more than any mortal—but he was no longer invincible. He could bleed. He could be wounded. He could, perhaps, be killed. This excited him. For the first time in centuries, he felt something other than boredom: hope. The hope that there might be a warrior in this world capable of ending him. He began to hunt. He sought out the strongest heroes—Silvanna, Tigreal, Alucard, Zilong. He challenged them to duels, fought them with everything he had. Some wounded him. None defeated him. He was disappointed. But he did not give up.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Thrill of the Hunt",
+          "shortDesc": "Martis began to enjoy the hunt itself. He respected the heroes who fought for something—family, home, ideals—unlike his own empty existence. Their passion intrigued him.",
+          "fullDesc": "Martis began to enjoy the hunt itself. The Land of Dawn was vast, filled with warriors of surprising skill. Each battle was different, each opponent offered a new challenge. He learned to respect the heroes he fought. They were not as strong as he was, but they were brave. They did not surrender or flee. They fought to protect their world, their families, their ideals. Martis had never fought for anything except boredom. 'You fight like you have something to lose,' he told Silvanna. 'I do,' she replied. 'My people. My brother. My home.' Martis considered her words. He had never had a home, a people, anything to lose. Perhaps that was why he was so empty. But their passion intrigued him. He kept hunting, not just for death, but to understand what gave these mortals their fire.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Ashura King",
+          "shortDesc": "Martis does not know if he will ever find a worthy death. But he will keep fighting, keep hunting, keep seeking—the Ashura King never stops.",
+          "fullDesc": "Martis does not know what the future holds. He does not know if he will ever find a warrior worthy of killing him. He does not know if the Great Dragon will seal him again. He does not know if the Ashura will ever reclaim him. But he knows what he will do in the meantime. He will fight. He will hunt. He will seek. The blades never stop. The fury never fades. The search never ends. He is Martis, the Ashura King. And he will never stop looking for a death worth dying. He thinks about the Great Dragon who sealed him, the heroes who wounded him, the Ashura he left behind. He does not know if he will ever find what he is looking for. But he knows he will keep moving. The blades wait. The fury burns. The search continues.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Blade That Still Hungers",
+          "shortDesc": "Martis stands on a hill overlooking the Dragon Altar, blades ready. Somewhere, a warrior trains. Perhaps that warrior can finally end him. He will keep searching.",
+          "fullDesc": "\"They call me the Ashura King. I did not choose the name. I do not care about names. I care about the next battle, the next opponent, the next chance to feel something other than boredom. I am Martis. I have conquered a thousand worlds. I have killed a million enemies. I have never been defeated. And I am still searching. Searching for a warrior who can finally end me. Searching for a death that means something. Searching for a reason to exist.\" — Martis, to a dying hero who asked him why he keeps fighting. The night is dark over the Cadia Riverlands. Martis stands on a hill overlooking the Dragon Altar, his blades resting beside him, his eyes fixed on the horizon. Somewhere, a warrior is training. Somewhere, a hero prepares for battle. Somewhere, perhaps, is the one who can finally end him. He does not know if he will ever find what he seeks. But he will keep fighting, hunting, seeking. The blades wait. The fury burns. And as long as Martis draws breath, there will be someone hunting for a death worth dying.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Martis's Powers",
+          "shortDesc": "Detailed breakdown of Ashura's Wrath, Ashura Aura, Mortal Coil, Decimation, and the Ashura King's aura. Martis is a relentless melee fighter and ultimate executioner.",
+          "fullDesc": "The Nature of His Power: rooted in his nature as an Ashura—a being of pure martial essence born from a dying star. His power is innate, fuelled by his fury and boredom.\n\nAshura's Wrath (Passive): increases attack speed with each successive hit, stacking multiple times. The more he strikes, the faster he becomes.\n\nAshura Aura: an area-control pull that draws enemies toward him, grouping them for his cleaves.\n\nMortal Coil: a clawing dash that grabs and drags enemies with him, pulling them out of position.\n\nDecimation (Ultimate): a devastating cleave that instantly executes enemies below a health threshold and resets its cooldown, allowing chain kills.\n\nThe Aura of the Ashura King (Passive): a constant pressure that empowers allies and makes enemies feel doomed—a natural byproduct of his divine nature.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Ashura King",
+          "shortDesc": "Martis will be the Ashura King not because he wants to be, but because someone must seek the death that gives life meaning—and he has decided that someone will be him.",
+          "fullDesc": "Ashura King. The title is a burden and a gift. It reminds Martis of the Ashura he left behind, the Great Dragon who sealed him, the heroes who wounded him. He does not know if he will ever be worthy of the title or live up to its expectations. But he knows he will try. Every day, in every battle, with every cleave. He will be strong, relentless, unstoppable. He will be the Ashura King. Not because he wants to be. Because he has to be. Because someone must seek the death that gives life meaning. And Martis, the conqueror of a thousand worlds, the prisoner of the Great Dragon, the hunter of heroes, has decided that someone will be him. The night is dark. The blades are ready. The fury burns. And Martis never stops seeking.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
