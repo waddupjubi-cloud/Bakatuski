@@ -13,10 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="image" href="images/logo/bakatuskisquadlogo.png">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link id="main-css" rel="stylesheet" href="assets/css/styles.css">
-    <link id="global-theme-css" rel="stylesheet" href="assets/css/global-theme.css">
-    <link id="global-audio-css" rel="stylesheet" href="assets/css/global-audio.css">
-    <link id="vehicle-css" rel="stylesheet" href="assets/css/vehicle.css">
+    <script src="assets/js/cache-bust.js?v=1"></script>
+    <script>BakatuskiCacheBust.css('main-css', 'assets/css/styles.css');</script>
+    <script>BakatuskiCacheBust.css('global-theme-css', 'assets/css/global-theme.css');</script>
+    <script>BakatuskiCacheBust.css('global-audio-css', 'assets/css/global-audio.css');</script>
+    <script>BakatuskiCacheBust.css('vehicle-css', 'assets/css/vehicle.css');</script>
 </head>
 <body class="dark-theme">
     <div class="cursor-dot" id="cursor-dot"></div>
@@ -136,8 +137,8 @@
         </div>
     </footer>
 
-    <script id="theme-js" src="assets/js/theme-toggle.js"></script>
-    <script id="audio-js" src="assets/js/global-audio.js"></script>
-    <script id="vehicle-js" src="assets/js/vehicle.js"></script>
+    <script>BakatuskiCacheBust.js('theme-js', 'assets/js/theme-toggle.js');</script>
+    <script>BakatuskiCacheBust.js('audio-js', 'assets/js/global-audio.js');</script>
+    <script>BakatuskiCacheBust.js('vehicle-js', 'assets/js/vehicle.js');</script>
 </body>
 </html>

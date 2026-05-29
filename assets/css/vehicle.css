@@ -701,7 +701,7 @@ body.light-theme .vehicle-lightbox-close {
   z-index: 3900;
   display: grid;
   place-items: center;
-  padding: 14px;
+  /* padding: 14px; */
 }
 
 .vehicle-modal.hidden {
@@ -720,9 +720,9 @@ body.light-theme .vehicle-lightbox-close {
 
 .vehicle-modal-panel {
   position: relative;
-  width: min(1480px, 96vw);
-  height: min(840px, 92vh);
-  padding: 14px 56px;
+  width: 100vw;
+  height: 100vh;
+  /* padding: 14px 56px; */
   border: 1px solid color-mix(in srgb, var(--vehicle-a, var(--vehicle-green)) 42%, transparent);
   border-radius: 8px;
   background:
@@ -803,6 +803,7 @@ body.light-theme .vehicle-lightbox-close {
   cursor: grab;
   isolation: isolate;
   perspective: 1200px;
+  border-radius: 20px;
 }
 
 .modal-carousel::before {
@@ -1134,13 +1135,13 @@ body.light-theme .vehicle-lightbox-close {
 
 .modal-action {
   min-height: 36px;
-  padding: 0 13px;
+  padding: 0 10px;
   border-radius: 8px;
   border: 1px solid var(--vehicle-line);
   background: rgba(255, 255, 255, 0.04);
   color: var(--vehicle-muted);
   font-family: var(--font-head);
-  font-size: 0.86rem;
+  font-size: 10px !important;
   font-weight: 800;
   cursor: pointer;
   white-space: nowrap;
@@ -1158,11 +1159,11 @@ body.light-theme .vehicle-lightbox-close {
   width: 100%;
   height: auto;
   min-height: 0;
-  max-height: none;
+  max-height: 300px;
   border: 1px solid var(--vehicle-line);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.04);
-  overflow: auto;
+  overflow: scroll;
   scrollbar-width: none;
 }
 
@@ -1221,7 +1222,7 @@ body.light-theme .vehicle-lightbox-close {
 
 .modal-spec-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   margin: 14px 0;
 }
@@ -1918,10 +1919,122 @@ body.vehicle-lightbox-open .theme-switcher {
     object-fit: fill;
   }
 
-  .modal-panel-copy{
+  .modal-panel-copy {
     margin: 10px 10px;
     padding: 10px;
     border-radius: 10px;
     background: var(--vehicle-panel);
   }
+
+  .detail-image-wrap {
+    min-height: 444px;
+  }
+
+  .vehicle-detail {
+    max-height: none;
+  }
+
+  .hero-telemetry {
+    grid-template-columns: repeat(5, 60px);
+    gap: 20px;
+  }
+
+  .telemetry-cell {
+    min-height: 70px;
+    min-width: 70px;
+    text-align: center;
+  }
+
+  .telemetry-cell strong {
+    font-size: 8px;
+  }
+
+  .telemetry-cell span {
+    font-size: 5px;
+    margin-bottom: 0;
+  }
+
+  .vehicle-controls {
+    gap: 0;
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+
+  .control-field label {
+    font-size: 10px;
+  }
+
+  .vehicle-kicker {
+    font-size: 8px;
+  }
+
+  .vehicle-hero h1 {
+    font-size: 24px;
+    line-height: 0.9;
+  }
+
+  .vehicle-hero-copy>p:last-child {
+    margin-top: 5px;
+    font-size: 9px;
+    padding: 10px;
+  }
+
+  #vehicle-search,
+  .control-field select {
+    font-size: 8px;
+    min-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .vehicle-workbench {
+    padding: 10px;
+  }
+
+  .vehicle-list {
+    grid-template-columns: 1fr;
+    padding: 0;
+    max-height: 500px;
+    scrollbar-width: none;
+  }
+
+  .vehicle-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+    min-height: 0;
+    padding: 4px;
+  }
+
+  .vehicle-row strong {
+    font-size: 10px;
+  }
+
+  .vehicle-row small {
+    display: none;
+  }
+
+  .row-score {
+    display: none;
+  }
+
+  .vehicle-workbench {
+    grid-template-columns: 50px 1fr;
+  }
+
+  .detail-image {
+    padding: 10px;
+  }
+
+  .detail-open {
+    top: 0;
+    right: 0;
+    font-size: 5px;
+  }
+
+  .detail-badge {
+    font-size: 8px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
 }

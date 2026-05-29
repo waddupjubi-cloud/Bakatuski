@@ -18,11 +18,12 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Main styles + stories-specific -->
-    <link id="main-css" rel="stylesheet" href="assets/css/styles.css">
-    <link id="global-theme-css" rel="stylesheet" href="assets/css/global-theme.css">
-    <link id="global-audio-css" rel="stylesheet" href="assets/css/global-audio.css">
-    <link id="stories-css" rel="stylesheet" href="assets/css/stories.css">
-    <link id="bamboo-css" rel="stylesheet" href="assets/css/bamboo-theme.css">
+    <script src="assets/js/cache-bust.js?v=1"></script>
+    <script>BakatuskiCacheBust.css('main-css', 'assets/css/styles.css');</script>
+    <script>BakatuskiCacheBust.css('global-theme-css', 'assets/css/global-theme.css');</script>
+    <script>BakatuskiCacheBust.css('global-audio-css', 'assets/css/global-audio.css');</script>
+    <script>BakatuskiCacheBust.css('stories-css', 'assets/css/stories.css');</script>
+    <script>BakatuskiCacheBust.css('bamboo-css', 'assets/css/bamboo-theme.css');</script>
 </head>
 <body class="dark-theme">
     <div class="bamboo-atmosphere" aria-hidden="true">
@@ -133,8 +134,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script id="theme-js" src="assets/js/theme-toggle.js"></script>
-    <script id="audio-js" src="assets/js/global-audio.js"></script>
-    <script id="stories-js" src="assets/js/stories.js"></script>
+    <script>BakatuskiCacheBust.js('theme-js', 'assets/js/theme-toggle.js');</script>
+    <script>BakatuskiCacheBust.js('audio-js', 'assets/js/global-audio.js');</script>
+    <script>BakatuskiCacheBust.js('stories-js', 'assets/js/stories.js');</script>
 </body>
 </html>

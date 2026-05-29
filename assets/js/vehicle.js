@@ -286,6 +286,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     return (vehicle.features || []).map(feature => `<span>${escapeHtml(feature)}</span>`).join('');
   }
 
+  function heroBackdropUrl(vehicle) {
+    const path = `images/heroes/${vehicle.slug}.png`;
+    return `url("${new URL(path, window.location.href).href}")`;
+  }
+
   function modalVehicleSet() {
     if (filtered.some(vehicle => vehicle.slug === activeSlug)) return filtered;
     return vehicles;
@@ -301,18 +306,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!vehicle || !target) return;
     const accent = vehicle.accent || '#1bda80';
     const secondary = vehicle.secondary || '#ff5c00';
-    const ownerImage = vehicle.fallbackImage || `images/heroes/${vehicle.slug}.png`;
+    const ownerImage = heroBackdropUrl(vehicle);
     target.style.setProperty('--vehicle-a', accent);
     target.style.setProperty('--vehicle-b', secondary);
-    target.style.setProperty('--vehicle-owner-image', `url("${ownerImage}")`);
+    target.style.setProperty('--vehicle-owner-image', ownerImage);
     target.style.setProperty('--vehicle-theme-dark', `linear-gradient(135deg, color-mix(in srgb, ${accent} 22%, #06080d), color-mix(in srgb, ${secondary} 18%, #11131a))`);
     target.style.setProperty('--vehicle-theme-light', `linear-gradient(135deg, color-mix(in srgb, ${accent} 16%, #fffaf0), color-mix(in srgb, ${secondary} 14%, #f8fff7))`);
     if (target === modal && modalPanel) {
       modalPanel.style.setProperty('--vehicle-a', accent);
       modalPanel.style.setProperty('--vehicle-b', secondary);
-      modalPanel.style.setProperty('--vehicle-owner-image', `url("${ownerImage}")`);
+      modalPanel.style.setProperty('--vehicle-owner-image', ownerImage);
       modalPanel.style.setProperty('--vehicle-theme-dark', `linear-gradient(135deg, color-mix(in srgb, ${accent} 22%, #06080d), color-mix(in srgb, ${secondary} 18%, #11131a))`);
       modalPanel.style.setProperty('--vehicle-theme-light', `linear-gradient(135deg, color-mix(in srgb, ${accent} 16%, #fffaf0), color-mix(in srgb, ${secondary} 14%, #f8fff7))`);
+      modalCarousel?.style.setProperty('--vehicle-owner-image', ownerImage);
+      modalCarousel?.style.setProperty('--vehicle-a', accent);
+      modalCarousel?.style.setProperty('--vehicle-b', secondary);
     }
   }
 
@@ -485,9 +493,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     modalCarouselTrack.innerHTML = set.map((vehicle, index) => {
       const distance = Math.abs(index - activeIndex);
       const side = index < activeIndex ? 'before' : (index > activeIndex ? 'after' : 'center');
-      const ownerImage = vehicle.fallbackImage || `images/heroes/${vehicle.slug}.png`;
+      const ownerImage = heroBackdropUrl(vehicle);
       return `
-        <article class="modal-slide ${vehicle.slug === activeSlug ? 'active' : ''} distance-${Math.min(distance, 4)} ${side}" data-slug="${escapeHtml(vehicle.slug)}" style="--vehicle-a: ${escapeHtml(vehicle.accent)}; --vehicle-b: ${escapeHtml(vehicle.secondary)}; --vehicle-owner-image: url('${escapeHtml(ownerImage)}')">
+        <article class="modal-slide ${vehicle.slug === activeSlug ? 'active' : ''} distance-${Math.min(distance, 4)} ${side}" data-slug="${escapeHtml(vehicle.slug)}" style="--vehicle-a: ${escapeHtml(vehicle.accent)}; --vehicle-b: ${escapeHtml(vehicle.secondary)}; --vehicle-owner-image: ${escapeHtml(ownerImage)}">
           <div class="modal-slide-card">
             <div class="modal-image-shell">
               <button class="modal-slide-frame" type="button" data-full-image="${escapeHtml(vehicle.slug)}" aria-label="Open full image for ${escapeHtml(vehicle.vehicleName)}">
