@@ -21,6 +21,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="images/logo/bakatuskisquadlogo.png">
     <link
         href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Bebas+Neue&display=swap"
         rel="stylesheet">
@@ -55,7 +56,7 @@
         <div class="nav-inner">
             <a class="nav-logo" href="#home">
                 <div class="nav-logo-img-wrap">
-                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" class="nav-logo-img"
+                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" class="nav-logo-img" decoding="async"
                         onerror="this.parentElement.innerHTML='<div class=\'logo-svg-fallback\'>🐼</div>'">
                 </div>
                 <span class="nav-brand">BAKATUSKI</span>
@@ -70,6 +71,7 @@
                 <li><a href="#testimonials" class="nav-link" data-s="testimonials">Lab Log</a></li>
                 <li><a href="#contact" class="nav-link" data-s="contact">Contact</a></li>
                 <li><a href="stories.html" class="nav-link" data-s="contact">STORY</a></li>
+                <li><a href="vehicle.html" class="nav-link" data-s="vehicle">VEHICLE</a></li>
             </ul>
             <button class="hamburger" id="hamburger" aria-label="Toggle menu">
                 <span></span><span></span><span></span>
@@ -99,7 +101,7 @@
         <div class="about-inner">
             <div class="about-visual">
                 <div class="about-logo-frame">
-                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski"
+                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" loading="lazy" decoding="async"
                         onerror="this.parentElement.innerHTML='<div class=\'fallback-logo-large\'>🐼</div>'">
                     <div class="logo-orbit-ring ring-1"></div>
                     <div class="logo-orbit-ring ring-2"></div>
@@ -195,7 +197,7 @@
                 <div class="jersey-stage jersey-reveal" id="jersey-stage">
                     <div class="jersey-orbit"></div>
                     <div class="jersey-main-frame">
-                        <img id="jersey-main-img" class="jersey-main-img" src="images/Esports_Jersey/FullI.png" alt="Bakatuski full jersey kit">
+                        <img id="jersey-main-img" class="jersey-main-img" src="images/Esports_Jersey/FullI.png" alt="Bakatuski full jersey kit" loading="lazy" decoding="async">
                         <div class="jersey-shadow"></div>
                     </div>
                 </div>
@@ -206,27 +208,27 @@
                     </div>
                     <div class="jersey-controls" id="jersey-controls">
                         <button class="jersey-view-btn active" type="button" data-view="full" aria-pressed="true">
-                            <img src="images/Esports_Jersey/FullI.png" alt="">
+                            <img src="images/Esports_Jersey/FullI.png" alt="" loading="lazy" decoding="async">
                             <span>Full<small>Main kit view</small></span>
                         </button>
                         <button class="jersey-view-btn" type="button" data-view="front" aria-pressed="false">
-                            <img src="images/Esports_Jersey/front.png" alt="">
+                            <img src="images/Esports_Jersey/front.png" alt="" loading="lazy" decoding="async">
                             <span>Front<small>Logo face</small></span>
                         </button>
                         <button class="jersey-view-btn" type="button" data-view="back" aria-pressed="false">
-                            <img src="images/Esports_Jersey/back.png" alt="">
+                            <img src="images/Esports_Jersey/back.png" alt="" loading="lazy" decoding="async">
                             <span>Back<small>Nameplate side</small></span>
                         </button>
                         <button class="jersey-view-btn" type="button" data-view="left" aria-pressed="false">
-                            <img src="images/Esports_Jersey/left.png" alt="">
+                            <img src="images/Esports_Jersey/left.png" alt="" loading="lazy" decoding="async">
                             <span>Left<small>Side profile</small></span>
                         </button>
                         <button class="jersey-view-btn" type="button" data-view="right" aria-pressed="false">
-                            <img src="images/Esports_Jersey/right.png" alt="">
+                            <img src="images/Esports_Jersey/right.png" alt="" loading="lazy" decoding="async">
                             <span>Right<small>Side profile</small></span>
                         </button>
                         <button class="jersey-view-btn" type="button" data-view="overview" aria-pressed="false">
-                            <img src="images/Esports_Jersey/JerseyOverview.png" alt="">
+                            <img src="images/Esports_Jersey/JerseyOverview.png" alt="" loading="lazy" decoding="async">
                             <span>Overview<small>Presentation</small></span>
                         </button>
                     </div>
@@ -302,7 +304,7 @@
         <footer class="site-footer">
             <div class="footer-inner">
                 <div class="footer-brand">
-                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" height="36"
+                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" height="36" loading="lazy" decoding="async"
                         onerror="this.style.display='none'">
                     <span>BAKATUSKI</span>
                 </div>
@@ -313,6 +315,8 @@
                     <a href="#squad">Squad</a>
                     <a href="#jersey">Jersey</a>
                     <a href="#roadmap">Roadmap</a>
+                    <a href="stories.html">Lore</a>
+                    <a href="vehicle.html">Vehicles</a>
                 </nav>
             </div>
         </footer>
@@ -332,25 +336,7 @@
 
     <script id="theme-js" src="assets/js/theme-toggle.js"></script>
     <script id="audio-js" src="assets/js/global-audio.js"></script>
-    <script id="main-js" src="assets/js/main.js?0426"></script>
-    <script>
-        // Auto cache bust: append timestamp to CSS and JS
-        const cssLink = document.getElementById('main-css');
-        const globalThemeCssLink = document.getElementById('global-theme-css');
-        const globalAudioCssLink = document.getElementById('global-audio-css');
-        const bambooCssLink = document.getElementById('bamboo-css');
-        const themeScript = document.getElementById('theme-js');
-        const audioScript = document.getElementById('audio-js');
-        const jsScript = document.getElementById('main-js');
-        const timestamp = new Date().getTime();
-        cssLink.href = 'assets/css/styles.css?t=' + timestamp;
-        globalThemeCssLink.href = 'assets/css/global-theme.css?t=' + timestamp;
-        globalAudioCssLink.href = 'assets/css/global-audio.css?t=' + timestamp;
-        bambooCssLink.href = 'assets/css/bamboo-theme.css?t=' + timestamp;
-        themeScript.src = 'assets/js/theme-toggle.js?t=' + timestamp;
-        audioScript.src = 'assets/js/global-audio.js?t=' + timestamp;
-        jsScript.src = 'assets/js/main.js?t=' + timestamp;
-    </script>
+    <script id="main-js" src="assets/js/main.js?v=1"></script>
 </body>
 
 </html>

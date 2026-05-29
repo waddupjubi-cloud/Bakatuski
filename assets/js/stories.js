@@ -168,6 +168,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.addEventListener('mouseup', () => dot.classList.remove('dot-click'));
 
         function loop() {
+            if (document.hidden) {
+                requestAnimationFrame(loop);
+                return;
+            }
             dotX += (mx - dotX) * 0.55;
             dotY += (my - dotY) * 0.55;
             rx += (mx - rx) * 0.12;
@@ -208,7 +212,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // ---------- Load stories.json ----------
     async function loadStories() {
         try {
-            const res = await fetch('assets/data/stories.json');
+            const res = await fetch('assets/data/stories.json', { cache: 'force-cache' });
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             const data = await res.json();
             storiesData = data.lores || [];
@@ -232,7 +236,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             card.className = 'lore-card reveal';
             card.innerHTML = `
                 <div class="card-cover">
-                    <img alt="${escapeHtml(lore.hero)} cover">
+                    <img alt="${escapeHtml(lore.hero)} cover" loading="lazy" decoding="async">
                 </div>
                 <div class="card-content">
                     <h3>${escapeHtml(lore.hero)}</h3>

@@ -123,6 +123,10 @@ function responsiveImgHtml(src, alt, options = {}) {
   document.addEventListener('mouseup', () => dot.classList.remove('dot-click'));
 
   (function loop() {
+    if (document.hidden) {
+      requestAnimationFrame(loop);
+      return;
+    }
     dotX += (mx - dotX) * 0.55;
     dotY += (my - dotY) * 0.55;
     rx += (mx - rx) * 0.12;
@@ -214,6 +218,10 @@ function initParticles() {
   });
 
   function draw() {
+    if (document.hidden) {
+      requestAnimationFrame(draw);
+      return;
+    }
     ctx.clearRect(0, 0, W, H);
     particles.forEach(p => {
       const dx = p.x - mx, dy = p.y - my;
@@ -365,7 +373,7 @@ function initHeroSwiper(players) {
         </div>
         <div class="hero-right">
           <div class="hero-squad-logo">
-            <img src="${logoImg}" alt="Bakatuski" onerror="this.parentElement.innerHTML='🐼'">
+            <img src="${logoImg}" alt="Bakatuski" loading="lazy" decoding="async" onerror="this.parentElement.innerHTML='🐼'">
           </div>
           <div class="hero-meta">
             <div class="hero-meta-id">${p.playerId || ''}</div>
@@ -631,7 +639,7 @@ function openModal(m) {
        ${m.favHeroes.map(h => `
          <div class="hero-chip">
            <div class="hero-chip-icon">
-             ${h.icon ? `<img src="${h.icon}" alt="${h.name}" onerror="this.parentElement.innerHTML='🐼'">` : '🐼'}
+             ${h.icon ? `<img src="${h.icon}" alt="${h.name}" loading="lazy" decoding="async" onerror="this.parentElement.innerHTML='🐼'">` : '🐼'}
            </div>
            ${h.name}
          </div>`).join('')}
@@ -707,7 +715,7 @@ function openModal(m) {
         if (fullSrc) {
           const lightbox = document.createElement('div');
           lightbox.className = 'lightbox';
-          lightbox.innerHTML = `<img src="${fullSrc}" alt="Full size"><div class="lightbox-close">✕</div>`;
+          lightbox.innerHTML = `<img src="${fullSrc}" alt="Full size" decoding="async"><div class="lightbox-close">✕</div>`;
           document.body.appendChild(lightbox);
           document.body.classList.add('lightbox-open');
           syncPageScrollLock();
@@ -763,7 +771,7 @@ function renderMatrixTable(allPlayers) {
       const favHero = (p.favHeroes || [])[0];
       const favHeroHtml = favHero
         ? `<div class="table-hero-chip">
-             <div class="table-hero-icon">${favHero.icon ? `<img src="${favHero.icon}" alt="${favHero.name}" onerror="this.style.display='none'">` : '🐼'}</div>
+             <div class="table-hero-icon">${favHero.icon ? `<img src="${favHero.icon}" alt="${favHero.name}" loading="lazy" decoding="async" onerror="this.style.display='none'">` : '🐼'}</div>
              <span>${favHero.name}</span>
            </div>`
         : '—';
@@ -1203,7 +1211,7 @@ function initJerseyShowcase() {
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    const res = await fetch('assets/data/data.json');
+    const res = await fetch('assets/data/data.json', { cache: 'force-cache' });
     const data = await res.json();
 
     const rosterPlayers = data.members.filter(m => m.type === 'player');

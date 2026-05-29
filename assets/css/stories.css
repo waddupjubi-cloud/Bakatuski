@@ -1213,3 +1213,16 @@ body.light-theme #search-input::placeholder {
     top: 95%;
   }
 }
+
+@supports (content-visibility: auto) {
+  .lore-grid,
+  .site-footer {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 900px;
+  }
+
+  .story-card {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 430px;
+  }
+}

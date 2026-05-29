@@ -37,8 +37,8 @@
 
   async function loadAudioData() {
     const [audioConfig, squadData] = await Promise.all([
-      fetch('assets/data/audio.json').then(res => res.ok ? res.json() : null).catch(() => null),
-      fetch('assets/data/data.json').then(res => res.ok ? res.json() : null).catch(() => null)
+      fetch('assets/data/audio.json', { cache: 'force-cache' }).then(res => res.ok ? res.json() : null).catch(() => null),
+      fetch('assets/data/data.json', { cache: 'force-cache' }).then(res => res.ok ? res.json() : null).catch(() => null)
     ]);
 
     const config = audioConfig || { basePath: 'assets/audio/', playlists: [] };

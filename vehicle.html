@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Bakatuski | Hero Vehicle Bay</title>
+    <meta property="og:title" content="Bakatuski - Hero Vehicle Bay">
+    <meta property="og:description" content="A dynamic garage of the vehicles, mounts, and signature rides built for the heroes of the Land of Dawn.">
+    <meta property="og:image" content="images/logo/bakatuskisquadlogo.png">
+    <meta name="theme-color" content="#1BDA80">
+    <link rel="icon" type="image/png" href="images/logo/bakatuskisquadlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="images/logo/bakatuskisquadlogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link id="main-css" rel="stylesheet" href="assets/css/styles.css">
+    <link id="global-theme-css" rel="stylesheet" href="assets/css/global-theme.css">
+    <link id="global-audio-css" rel="stylesheet" href="assets/css/global-audio.css">
+    <link id="vehicle-css" rel="stylesheet" href="assets/css/vehicle.css">
+</head>
+<body class="dark-theme">
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a class="nav-logo" href="index.html">
+                <div class="nav-logo-img-wrap">
+                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" decoding="async">
+                </div>
+                <span class="nav-brand">BAKATUSKI</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#squad" class="nav-link">Squad</a></li>
+                <li><a href="index.html#matrix" class="nav-link">Roster</a></li>
+                <li><a href="index.html#roadmap" class="nav-link">Roadmap</a></li>
+                <li><a href="index.html#testimonials" class="nav-link">Lab Log</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="stories.html" class="nav-link">STORY</a></li>
+                <li><a href="vehicle.html" class="nav-link active" data-s="vehicle">VEHICLE</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="vehicle-page">
+        <section class="vehicle-hero">
+            <div class="vehicle-hero-media" aria-hidden="true">
+                <div class="track-lines"></div>
+                <div class="garage-ring"></div>
+            </div>
+            <div class="vehicle-hero-copy">
+                <p class="vehicle-kicker">Bakatuski Engineering Division</p>
+                <h1>Hero Vehicle Bay</h1>
+                <p>Signature rides designed around each hero's lore, combat rhythm, region, and power style.</p>
+            </div>
+            <div class="hero-telemetry" id="hero-telemetry"></div>
+        </section>
+
+        <section class="vehicle-controls" aria-label="Vehicle filters">
+            <div class="search-shell control-field">
+                <label for="vehicle-search">Search</label>
+                <input id="vehicle-search" type="search" placeholder="Search hero, vehicle, region, or tech..." aria-label="Search vehicles">
+            </div>
+            <div class="control-field">
+                <label for="vehicle-type-filter">Type</label>
+                <select id="vehicle-type-filter" aria-label="Filter by vehicle type"></select>
+            </div>
+            <div class="control-field">
+                <label for="vehicle-region-filter">Region</label>
+                <select id="vehicle-region-filter" aria-label="Filter by region"></select>
+            </div>
+            <div class="control-field">
+                <label for="vehicle-sort">Sort</label>
+                <select id="vehicle-sort" aria-label="Sort vehicles">
+                    <option value="id">Hero order</option>
+                    <option value="speed">Fastest</option>
+                    <option value="armor">Most armored</option>
+                    <option value="magic">Most arcane</option>
+                    <option value="control">Best control</option>
+                    <option value="name">Name A-Z</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="vehicle-workbench">
+            <aside class="vehicle-list" id="vehicle-list" aria-label="Vehicle roster"></aside>
+            <section class="vehicle-stage" id="vehicle-stage" aria-live="polite">
+                <div class="loading-indicator">Initializing vehicle bay...</div>
+            </section>
+        </section>
+
+        <section class="vehicle-grid-section">
+            <div class="section-heading">
+                <p class="vehicle-kicker">Garage Index</p>
+                <h2>All Registered Rides</h2>
+            </div>
+            <div class="vehicle-grid" id="vehicle-grid"></div>
+        </section>
+    </main>
+
+    <div class="vehicle-modal hidden" id="vehicle-modal" role="dialog" aria-modal="true" aria-labelledby="modal-vehicle-name">
+        <div class="vehicle-modal-backdrop" data-close-modal></div>
+        <article class="vehicle-modal-panel">
+            <button class="modal-close" id="vehicle-modal-close" type="button" aria-label="Close vehicle details">&times;</button>
+            <button class="modal-nav modal-nav-prev" id="modal-vehicle-prev" type="button" aria-label="Previous vehicle">&#8249;</button>
+            <div class="modal-carousel" id="modal-carousel" aria-label="Vehicle popup carousel">
+                <div class="modal-carousel-track" id="modal-carousel-track"></div>
+            </div>
+            <button class="modal-nav modal-nav-next" id="modal-vehicle-next" type="button" aria-label="Next vehicle">&#8250;</button>
+            <div class="modal-carousel-meter" id="modal-vehicle-count"></div>
+        </article>
+    </div>
+
+    <div class="vehicle-lightbox hidden" id="vehicle-lightbox" role="dialog" aria-modal="true" aria-label="Full vehicle image">
+        <button class="vehicle-lightbox-close" id="vehicle-lightbox-close" type="button" aria-label="Close full vehicle image">&times;</button>
+        <img id="vehicle-lightbox-image" alt="" decoding="async">
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" height="36" loading="lazy" decoding="async">
+                <span>BAKATUSKI</span>
+            </div>
+            <p class="footer-copy">&copy; 2025 Bakatuski. All rights reserved. Legends ride forever.</p>
+            <nav class="footer-nav">
+                <a href="index.html#home">Home</a>
+                <a href="stories.html">Lore</a>
+                <a href="vehicle.html">Vehicles</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script id="theme-js" src="assets/js/theme-toggle.js"></script>
+    <script id="audio-js" src="assets/js/global-audio.js"></script>
+    <script id="vehicle-js" src="assets/js/vehicle.js"></script>
+</body>
+</html>

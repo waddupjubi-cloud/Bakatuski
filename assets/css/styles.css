@@ -1958,6 +1958,29 @@ select {
   display: none;
 }
 
+body.member-modal-open .audio-dock,
+body.member-modal-open .audio-panel,
+body.member-modal-open .theme-switcher {
+  display: none;
+}
+
+@supports (content-visibility: auto) {
+  .section,
+  .site-footer {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 920px;
+  }
+
+  .cards-grid,
+  .timeline,
+  .chat-feed,
+  .roster-table,
+  .jersey-showcase {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 720px;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0

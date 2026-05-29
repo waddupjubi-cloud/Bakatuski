@@ -10,6 +10,10 @@
     <meta name="theme-color" content="#1BDA80">
     <link rel="icon" type="image/png" href="images/logo/bakatuskisquadlogo.png">
     <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preload" as="image" href="images/logo/bakatuskisquadlogo.png">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -44,7 +48,7 @@
         <div class="nav-inner">
             <a class="nav-logo" href="index.html">
                 <div class="nav-logo-img-wrap">
-                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski">
+                    <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" decoding="async">
                 </div>
                 <span class="nav-brand">BAKATUSKI</span>
             </a>
@@ -57,6 +61,7 @@
                 <li><a href="index.html#testimonials" class="nav-link">Lab Log</a></li>
                 <li><a href="index.html#contact" class="nav-link">Contact</a></li>
                 <li><a href="stories.html" class="nav-link active" data-s="stories">STORY</a></li>
+                <li><a href="vehicle.html" class="nav-link" data-s="vehicle">VEHICLE</a></li>
             </ul>
             <button class="hamburger" id="hamburger" aria-label="Toggle menu">
                 <span></span><span></span><span></span>
@@ -107,13 +112,13 @@
     <!-- ========== LIGHTBOX ========== -->
     <div id="lightbox" class="lightbox hidden">
         <span class="lightbox-close">&times;</span>
-        <img class="lightbox-img" src="" alt="Full size lore illustration">
+        <img class="lightbox-img" src="" alt="Full size lore illustration" decoding="async">
     </div>
     <!-- ========== FOOTER ========== -->
     <footer class="site-footer">
         <div class="footer-inner">
             <div class="footer-brand">
-                <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" height="36">
+                <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" height="36" loading="lazy" decoding="async">
                 <span>BAKATUSKI</span>
             </div>
             <p class="footer-copy">© 2025 Bakatuski. All rights reserved. Legends live forever.</p>
@@ -122,6 +127,7 @@
                 <a href="index.html#about">About</a>
                 <a href="index.html#squad">Squad</a>
                 <a href="stories.html">Lore</a>
+                <a href="vehicle.html">Vehicles</a>
             </nav>
         </div>
     </footer>
@@ -130,25 +136,5 @@
     <script id="theme-js" src="assets/js/theme-toggle.js"></script>
     <script id="audio-js" src="assets/js/global-audio.js"></script>
     <script id="stories-js" src="assets/js/stories.js"></script>
-        <script>
-        // Auto cache bust: append timestamp to CSS and JS
-        const cssLink1 = document.getElementById('main-css');
-        const cssLink2 = document.getElementById('global-theme-css');
-        const cssLink3 = document.getElementById('global-audio-css');
-        const cssLink4 = document.getElementById('stories-css');
-        const cssLink5 = document.getElementById('bamboo-css');
-        const themeScript = document.getElementById('theme-js');
-        const audioScript = document.getElementById('audio-js');
-        const jsScript = document.getElementById('stories-js');
-        const timestamp = new Date().getTime();
-        cssLink1.href = 'assets/css/styles.css?t=' + timestamp;
-        cssLink2.href = 'assets/css/global-theme.css?t=' + timestamp;
-        cssLink3.href = 'assets/css/global-audio.css?t=' + timestamp;
-        cssLink4.href = 'assets/css/stories.css?t=' + timestamp;
-        cssLink5.href = 'assets/css/bamboo-theme.css?t=' + timestamp;
-        themeScript.src = 'assets/js/theme-toggle.js?t=' + timestamp;
-        audioScript.src = 'assets/js/global-audio.js?t=' + timestamp;
-        jsScript.src = 'assets/js/stories.js?t=' + timestamp;
-    </script>
 </body>
 </html>
