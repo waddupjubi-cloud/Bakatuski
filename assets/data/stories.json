@@ -3252,6 +3252,284 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 24,
+      "hero": "Yu Zhong",
+      "slug": "yu-zhong",
+      "cover": "images/stories_covers/yuzhong_cover.png",
+      "folder": "images/lores/yuzhong/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Scale That Devours Memory",
+          "shortDesc": "Yu Zhong introduces himself as the Black Dragon, a nameless orphan who rose to become a calamity. He stole the forbidden Reverse Scale, plunged it into his chest, and devoured the ancient Black Dragon's consciousness to claim its power.",
+          "fullDesc": "\"They say I was a monster long before I became one. They say the Black Dragon chose me because it recognised its own kind—a soul already twisted by ambition, already hollowed out by hunger. They are not wrong. I cannot remember a time when the desire for power did not burn within me. I was an orphan of the Cadia Riverlands, a feral child who survived on the outskirts of civilisation through cunning and an unbreakable will. I had nothing. I was nothing. But I wanted everything. The Great Dragon saw something in me—or so he claimed. He took me in, fed me, clothed me, trained me. He called me his disciple. He taught me that balance was the highest virtue, that harmony was the greatest good. He was wrong. Balance is stagnation. Harmony is submission. I wanted to be free. I wanted to be strong. I wanted to reshape the world in my own image. The Reverse Scale whispered to me from its prison, promising the power to overthrow the stagnant order of the heavens. I listened. I stole the Scale. I plunged it into my own chest. The ancient Black Dragon tried to devour me, to claim my consciousness as its own. But I was not a vessel. I was a rival. I devoured it instead. Now I am the Black Dragon. I am the calamity that will burn away the old order and forge a new one from the ashes. I am Yu Zhong, the Black Dragon. And I will never bow again.\"",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Feral Child of the Cadia Riverlands",
+          "shortDesc": "Yu Zhong was a nameless orphan, surviving on the outskirts of civilisation through theft and violence. He had nothing and no one, but his fierce, defiant eyes caught the attention of the Great Dragon.",
+          "fullDesc": "The Cadia Riverlands were vast and beautiful, but they had a shadow side. Yu Zhong was one of the forgotten—no parents, no home, no future. He survived by stealing food, sleeping in doorways, fighting other strays over scraps. He learned that the world was cruel, that kindness was weakness, that the only way to survive was to be stronger than everyone else. An old woman once said, 'You have the eyes of a predator. The same eyes as the Black Dragon, before the Great Dragon sealed him.' Yu Zhong did not know who the Black Dragon was. He only knew that he was hungry, and he would not let anyone stand in his way. Then the Great Dragon found him in a back alley, watching him fight off a group of thugs. The boy was outnumbered, bleeding, but he did not run. The Great Dragon stepped from the shadows: 'You have potential. Come with me. I will teach you.' Yu Zhong followed.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Disciple of the Dragon Altar",
+          "shortDesc": "The Great Dragon took Yu Zhong to the Dragon Altar, a place of discipline and meditation. Yu Zhong struggled at first, but he trained alongside Zilong and Baxia, growing stronger with each passing day.",
+          "fullDesc": "The Dragon Altar demanded discipline, meditation, and rigorous training. Yu Zhong struggled—he was not used to stillness or trust. The other disciples looked at him with suspicion, sensing the wildness beneath his skin. But the Great Dragon assigned him to train alongside Zilong, the most promising disciple of his generation. Zilong was everything Yu Zhong was not: patient, humble, devoted to the cause. Their training sessions were brutal. Yu Zhong pushed himself harder than anyone else, desperate to prove his worth. He learned the spear, the sword, the art of combat. He learned to channel his inner energy, to calm his restless spirit. But beneath the surface, a hunger gnawed at him. 'You are growing stronger,' Zilong said. 'I am not strong enough,' Yu Zhong replied. 'My anger is what drives me. Without it, I am nothing.' Zilong did not understand. The rift between them began to grow.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Training of the Prodigy",
+          "shortDesc": "Yu Zhong became the most brilliant disciple of his generation, but he chafed against the Great Dragon's philosophy of balance. He believed the strong should rule and that chaos was the only true path to evolution.",
+          "fullDesc": "Yu Zhong mastered every technique the Dragon Altar offered. He surpassed his fellow disciples, earned the grudging respect of his masters, and became friends with Zilong and Baxia. He trained alongside Luo Yi, the geomancer who would later become his most loyal strategist. But the deeper he delved into the Great Dragon's teachings, the more a hunger gnawed at his soul. He perceived the philosophy of 'balance' not as wisdom, but as a cage—a deliberate suppression of the strong to coddle the weak. 'The world is meant to be ruled by the powerful,' he told Zilong. 'Harmony is submission. Chaos is evolution.' Zilong warned him against such heretical thoughts. Yu Zhong did not listen. His ambition festered, waiting for the moment to ignite.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Forbidden Knowledge",
+          "shortDesc": "Yu Zhong discovered the Reverse Scale—a shard of draconic power from the primordial Black Dragon—sealed in the Forbidden Area beneath the Dragon Altar. It whispered to him, promising the power to overthrow the heavens.",
+          "fullDesc": "The Reverse Scale was the most closely guarded secret of the Dragon Altar—a shard of draconic power, the last remnant of the primordial Black Dragon that the Great Dragon had vanquished eons ago. Yu Zhong found it by accident while exploring the lower levels. The Scale floated in a field of golden light, pulsing with dark, rhythmic energy. 'You are the one,' a voice whispered. 'The one who will break the chains. The one who will free me.' Yu Zhong did not know if the voice was real. He did not care. 'How?' he whispered. 'Take me. Let me into your heart. Let me become part of you. Together, we will reshape the world.' Yu Zhong reached for the Scale. His fingers brushed its surface. The energy surged.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Hunger Within",
+          "shortDesc": "The Reverse Scale awakened something within Yu Zhong. His skin darkened, his eyes glowed red, and scales grew on his body. Zilong confronted him, but Yu Zhong stormed out of the Dragon Altar, vowing never to return.",
+          "fullDesc": "The Reverse Scale did not corrupt Yu Zhong—it awakened something that had always been there. He began to change: his skin grew darker, his eyes glowed with faint red light, his body developed shimmering obsidian scales. The other disciples whispered, afraid of the monster growing in their midst. Zilong confronted him. 'What is happening to you?' 'I am becoming what I was meant to be.' 'You are becoming a monster. The Great Dragon can help you.' 'I do not need help. I need power.' Words were exchanged that could not be taken back. Zilong accused Yu Zhong of betrayal. Yu Zhong accused Zilong of cowardice. 'The Great Dragon does not keep us weak. He teaches us to find strength in harmony.' 'Harmony is submission. I will not bow to anyone.' He stormed out of the Altar that night, vowing never to return.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Wanderer's Path",
+          "shortDesc": "For years, Yu Zhong wandered the Land of Dawn, challenging powerful warriors and growing stronger. Then he met Luo Yi, who revealed that he was the reincarnation of the Black Dragon.",
+          "fullDesc": "For years, Yu Zhong wandered through the Moniyan Empire, the Agelta Drylands, the Barren Lands. He sought out powerful warriors, challenged them to duels, absorbed their strength. He grew stronger with each battle, but he lacked purpose. Then he met Luo Yi. She found him collapsed in the desert, the Reverse Scale devouring him, the ancient Black Dragon's consciousness fighting for control. She did not fear him. 'You are the one. The reincarnation of the Black Dragon. I have been waiting for you.' She nursed him back to health, taught him to control the Scale's power, and revealed the truth: he was the ancient enemy of the Great Dragon, the champion of chaos. 'You have a choice. Continue wandering, nameless and purposeless. Or embrace your destiny. Become the Black Dragon. Reshape the Cadia Riverlands in your own image.' Yu Zhong looked at his trembling hands—not with fear, but with anticipation. 'It is time to stop running.'",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Anatomy of a Calamity",
+          "shortDesc": "A detailed description of Yu Zhong: tall and imposing, sharp angular jaw, glowing red eyes, smoky charcoal hair, black goatee, armour with glowing red chest seam, dragon-headed pauldron, scale cape, red horns, and his terrifying Black Dragon form.",
+          "fullDesc": "To look at Yu Zhong is to see a being caught between two worlds. He stands tall with a lean, powerful physique. His face is sharp and angular, with high cheekbones and a straight, noble nose. His eyes glow with piercing red light, framed by eyebrows that angle upward like dragon horns. A dark mark lies between his brows. His hair is smoky charcoal, swept back, with a neat dark goatee. His upper body wears interlocking plate armour of gunmetal silver and deep violet, with a glowing red vertical seam on his chest. A segmented gauntlet with talons covers his right arm; his left shoulder bears a massive pauldron shaped like a dragon's head with a glowing red eye. A heavy cape of overlapping purple and lavender scales flows from his left shoulder, its edges tattered with silver spikes. His lower body is protected by heavy greaves and armoured sabatons. Two glowing red horns emerge from his temples, curving backward. In his Black Dragon form, he becomes a colossal serpentine dragon of shadow and fire, his scales gleaming like obsidian, his wings blotting out the sun. His aura is oppressive, suffocating—the presence of a primordial calamity.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "Cursing Touch — The Hunger That Feeds",
+          "shortDesc": "Yu Zhong's passive ability applies Sha Residue with each hit. At five stacks, the residue erupts, dealing damage based on missing HP, healing Yu Zhong, and granting movement speed and spell vamp.",
+          "fullDesc": "Cursing Touch is Yu Zhong's passive ability—the manifestation of the Reverse Scale's hunger. Every time he deals damage, he applies Sha Residue, stacking up to five times. At five stacks, the residue erupts, consuming one stack every half-second. Each eruption deals 40 (+30% Extra Physical Attack) + 2% of the target's lost HP as physical damage, restores 8% of his lost HP, and increases his movement speed. When fully charged, Sha Essence grants him 40% movement speed and 20% spell vamp. The ability rewards aggression: the more he fights, the more he heals. It favours one-on-one situations but also makes him formidable in crowded team fights. 'Your pain is my pleasure,' Yu Zhong says, as the Sha Residue erupts. He embraces the chaos, turning every wound into fuel for his relentless advance.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "Dragon Tail, Soul Grip, and Furious Dive — The Tools of Destruction",
+          "shortDesc": "Dragon Tail spins his cloak for area damage. Soul Grip launches a draconic claw that slows and knocks back. Furious Dive dashes twice and knocks enemies airborne. These skills build Sha Residue and enable his ultimate.",
+          "fullDesc": "Dragon Tail (Skill 1) infuses his power into his cloak, causing it to spin after a short delay. The inner area deals 200-380 physical damage; the sharpened edge deals 250% damage and applies two stacks of Sha Residue. Max this skill first for its low cooldown and high damage. Soul Grip (Skill 2) unleashes the Dragon Soul, dealing 150-225 physical damage in a line, slowing enemies by 60% for one second, and enhancing his next basic attack to knock back the target. Hitting multiple targets applies Sha Residue multiple times. This is his primary engage tool. Furious Dive (Skill 3) leaps to a designated area, dealing 180-270 physical damage, then allows a second dash. After a short delay, enemies in the area are knocked airborne and take additional damage. This is his best crowd-control skill, ideal for chasing or dodging. Together, these techniques build Sha Residue, set up his ultimate, and turn him into a whirlwind of destruction.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Return to the Dragon Altar",
+          "shortDesc": "Years after his exile, Yu Zhong returned to the Dragon Altar as the Black Dragon, leading an army of the discontented. He fought Zilong, Baxia, and Ling, broke the seal, and merged fully with the Reverse Scale.",
+          "fullDesc": "Yu Zhong returned to the Dragon Altar with his army of followers. Zilong met him at the gates with Baxia and Ling. 'You should not have come back.' 'I was never gone. The time has come for change.' 'Change is not destruction.' 'Destruction is the only change that matters.' They fought. Zilong was stronger than Yu Zhong remembered; Baxia's shell absorbed blow after blow; Ling's blade struck from unexpected angles. But Yu Zhong had the power of the Reverse Scale. He drove them back, reached the Forbidden Area, and broke the seal. The Scale merged fully with his body. He became the complete Black Dragon. 'You have lost. The old order is dead. A new one will rise from its ashes.' Zilong struggled to his feet. 'The Great Dragon's teachings will never die.' Yu Zhong laughed coldly, transformed into his draconic form, and flew into the sky, his wings blotting out the sun.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Strategist's Gambit",
+          "shortDesc": "Luo Yi had planned for Yu Zhong's rise, but she also harboured her own vision for the world. She warned him that she served only as long as their goals aligned, and watched him from the shadows.",
+          "fullDesc": "Luo Yi had known that Yu Zhong would return, break the seal, and become the Black Dragon. She had gathered intelligence, forged alliances, positioned her pieces. But she also hidden her own vision—a world that might not align with Yu Zhong's. 'Do not trust me,' she told him, as they stood on a mountain peak. 'I serve you because our goals align. When they diverge, I will follow my own path.' Yu Zhong's red eyes were unreadable. 'I do not expect loyalty. I expect competence. As long as you provide it, you will have a place at my side.' Luo Yi inclined her head. 'That is all I ask.' She had found the reincarnated Black Dragon, helped him gather strength, and prepared for a comeback. But she was also watching, waiting, planning. The Black Dragon was not the only one with ambition.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Black Dragon",
+          "shortDesc": "Yu Zhong does not know if he will succeed in crushing the Dragon Altar, but he will keep conquering. He is the Black Dragon—the calamity that will burn away the old order and forge a new world from ashes.",
+          "fullDesc": "Yu Zhong does not know what the future holds. He does not know if he will succeed in crushing the Dragon Altar, if Luo Yi will betray him, if the Reverse Scale will eventually consume him. But he knows what he will do in the meantime. He will conquer. He will destroy. He will rebuild. The hunger never stops. The flames never die. The dragon never rests. He was a nameless orphan who had nothing. He became a disciple who had everything. He chose to embrace the monster within. Now he is the Black Dragon, the reincarnation of an ancient evil, the calamity that will burn away the old order. He will keep fighting for the world that he believes should be his. And he will never stop conquering.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Fire That Burns Forever",
+          "shortDesc": "Yu Zhong stands on a peak overlooking the Dragon Altar, his wings spread, his eyes fixed on the distant lights. The battle is coming, and he is ready. He will never stop.",
+          "fullDesc": "\"They call me the Black Dragon. I did not choose the name. I do not care about names. I care about power—the endless, intoxicating, eternal power that flows through the Reverse Scale and transforms me into something greater than a man. I am Yu Zhong. I am the reincarnation of an ancient evil. I am the calamity that will burn away the old order. And I will never stop.\" — Yu Zhong, standing on the peak of a mountain, his wings spread, his eyes fixed on the Dragon Altar below. The night is dark over the Cadia Riverlands. Yu Zhong stands on a peak, his draconic wings folded, his eyes fixed on the distant lights of the Dragon Altar. The disciples are preparing. The Great Dragon is watching. The battle is coming. He thinks about the stray who had nothing, the disciple who had everything, the monster who chose to embrace his nature. He does not know if the hunger will ever end. But he knows what he will do: conquer, destroy, rebuild. The wings wait. The fire burns. The dragon is ready. And as long as Yu Zhong draws breath, there will be someone fighting to reshape the Cadia Riverlands in flames and shadow.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Yu Zhong's Powers",
+          "shortDesc": "Detailed breakdown of Cursing Touch (Sha Residue), Dragon Tail (cloak spin), Soul Grip (claw slow/knockback), Furious Dive (dash knock-up), and Black Dragon Form (ultimate CC immunity and transformation).",
+          "fullDesc": "The Nature of His Power: rooted in the Reverse Scale, fused with his body through will and hunger. He devoured the ancient Black Dragon's consciousness and claimed its power.\n\nCursing Touch (Passive): each hit applies Sha Residue (max 5 stacks). At 5 stacks, residue erupts every 0.5s, dealing 40 (+30% Extra Physical Attack) + 2% target's lost HP damage, restoring 8% lost HP, and increasing movement speed. At full charge, gains 40% movement speed and 20% spell vamp.\n\nDragon Tail (Skill 1): after a short delay, spins his cloak, dealing 200-380 (+100% Extra Physical Attack) physical damage. Outer area deals 250% damage and applies 2 Sha stacks. Cooldown 6-4.5s.\n\nSoul Grip (Skill 2): unleashes a line attack dealing 150-225 (+120% Extra Physical Attack) physical damage, slowing by 60% for 1s, then enhanced basic attack knocks back enemies. Cooldown 12s.\n\nFurious Dive (Skill 3): leaps twice, dealing 180-270 (+90% Extra Physical Attack) damage per dash; after a short delay, knocks enemies airborne and deals additional damage.\n\nBlack Dragon Form (Ultimate): transforms into a colossal dragon for up to 17s, gaining CC immunity, HP increase, and collision knockback (once per target).\n\nThe Aura of the Black Dragon: oppressive, suffocating, terrifying—the presence of a primordial calamity that makes allies feel empowered and enemies feel doomed.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Black Dragon",
+          "shortDesc": "Yu Zhong will be the Black Dragon not because he was born to it, but because he chose to tear down the old order. He will keep conquering, burning, and remaking the world in his image.",
+          "fullDesc": "Black Dragon. The title is a burden and a gift. It reminds Yu Zhong of the stray who had nothing, the disciple who had everything, the monster he chose to become. He does not know if he will ever be worthy of the title or live up to its expectations. But he knows he will try. Every day, in every battle, with every eruption. He will be strong, ruthless, unstoppable. He will be the Black Dragon. Not because he wants to be. Because he has to be. Because someone has to tear down the old order. And Yu Zhong, the nameless orphan, the prodigal disciple, the reincarnation of an ancient evil, has decided that someone will be him. The night is dark. The flames burn. The dragon waits. And Yu Zhong never stops conquering.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "hero": "Fredrinn",
+      "slug": "fredrinn",
+      "cover": "images/stories_covers/fredrinn_cover.png",
+      "folder": "images/lores/fredrinn/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Scar That Never Fades",
+          "shortDesc": "Fredrinn introduces himself as the Rogue Appraiser, a treasure hunter carrying a crystal in his chest—a gift from his dying best friend Fray. He searches for Fray's ghost across Los Pecados, never stopping, never giving up.",
+          "fullDesc": "\"They say I am a money-grubber. A treasure-hungry scavenger who would trade his own mother for a fistful of gold. They whisper that I killed my best friend for a magical crystal—that I stabbed him in the back, ripped the gem from his chest, and sewed it into my own flesh to steal his power. They are wrong about everything except the scar. The scar on my chest is real. It is jagged, ugly, a violent tear in my flesh that I never bothered to hide. The crystal beneath it has long since merged with my heart, pulsing with an energy that is not entirely my own. I did not steal this crystal. It was given to me—pressed into my hands by a dying man who smiled even as the light faded from his eyes. His name was Fray. He was my best friend, my brother in everything but blood. We met on the road, two runaways from worlds that had tried to cage us. He was a scholar fleeing a temple that demanded too much. I was a noble fleeing a family that expected too little. We had nothing in common except our hunger for adventure and our refusal to be bound. He saved my life in a crumbling altar, and I have been trying to repay that debt ever since. The compass he left behind still spins, pointing toward something I cannot see. And the crystal in my chest hums with a rhythm that matches my heartbeat—a reminder that he is not gone, only waiting. I am Fredrinn, the Rogue Appraiser. I am the son of Duke Vance who chose freedom over fortune. I am the treasure hunter who has been searching for a ghost for more years than I care to count. And I will not stop until I find him. Not because I want to. Because I made a promise.\"",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Gilded Cage",
+          "shortDesc": "Fredrinn was born the eldest son of Archduke Waldo Vance, heir to Castle Grandrock. Raised without affection, trained in swordplay and diplomacy, he learned to suppress his emotions—until his father arranged a political marriage he refused.",
+          "fullDesc": "Castle Grandrock was a monument to the Vance family's power—a fortress of grey stone and gleaming spires. Fredrinn was born in the highest tower. His father visited once a week, measuring his growth like a piece of property. 'He has potential,' the Archduke said. 'We will cultivate it.' His mother was a ghost, invisible to survive. Fredrinn was trained from age four in swordplay, from six in diplomacy, from ten in manipulation. His tutors were merciless. Failure was punished; success was expected. 'You are a Vance. You do not fail. You do not hesitate. You do not feel.' He learned to smile at people he despised, to laugh at jokes that were not funny, to bow to nobles who would have sold him. His half-sister Lesley was a cold markswoman; his younger brother Harley was a chaotic prodigy. Fredrinn loved them, but he could not stay.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Engagement That Broke the Camel's Back",
+          "shortDesc": "At a grand banquet, Archduke Vance announced Fredrinn's engagement to a woman he had never met. Fredrinn refused. His father gave him a choice: obey, or leave and be erased from the family records.",
+          "fullDesc": "The announcement came during a banquet with roasted peacocks and imported wine. The Archduke declared that his eldest son would wed the daughter of a powerful southern house. Fredrinn had never met the woman. He excused himself. His father followed him into the corridor. 'You will do this.' 'I will not.' The argument lasted hours. Accusations were hurled, insults exchanged. In the end, the Archduke gave his son a choice: obey, or leave. 'If you walk out that door, you are no longer a Vance. Your name will be erased. Your siblings will be told you are dead. You will have nothing.' 'I already have nothing,' Fredrinn said. He walked out into the night.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Wanderer's Road",
+          "shortDesc": "Fredrinn wandered the Land of Dawn, surviving on his wits. A bar fight nearly killed him; a passing merchant saved him. He recovered and decided to become a treasure hunter, seeking adventure beyond the gilded halls of his past.",
+          "fullDesc": "The first months were hardest. Fredrinn had grown up in luxury; now he fended for himself—sleeping in barns, eating stale bread, fighting with his hands. He travelled through the Moniyan Empire, the Cadia Riverlands, the Agelta Drylands. He saw poverty that made his childhood complaints absurd, kindness from strangers who had nothing, cruelty from those who had everything. A wound from a bar fight nearly killed him. He lay in a gutter for three days, feverish, alone. A passing merchant dragged him to a healer. He recovered slowly, losing weight and illusions—but gaining a hunger for adventure. He decided to become a treasure hunter.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Meeting at the Crossroads",
+          "shortDesc": "Fredrinn met Fray, a disgraced scholar with ink-stained fingers and a passion for ancient history. They became partners, then friends, then brothers in everything but blood.",
+          "fullDesc": "Fredrinn met Fray at a crossroads in the Cadia Riverlands. Fray was sitting on a rock, studying a map older than the kingdoms it depicted. 'You are lost.' 'I am exactly where I need to be. The question is whether you are.' They travelled together for months. Fray was a former acolyte expelled for asking too many questions. He had ink-stained fingers, a disheveled appearance, and a mind that could decipher inscriptions that baffled the empire's finest scholars. He treated Fredrinn like an equal. They explored ruins, shared findings, argued about interpretations. Fray taught Fredrinn to read ancient scripts; Fredrinn taught Fray to fight. They became partners, then friends, then brothers in everything but blood.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Altar and the Ritual",
+          "shortDesc": "Following a rumour, Fredrinn and Fray entered an ancient altar in the Agelta Drylands. The ceiling collapsed. Fray pressed a glowing crystal into Fredrinn's hands and told him to go. Fredrinn woke outside alone.",
+          "fullDesc": "A half-crazed traveller claimed to have seen an ancient altar in a dream. The description matched inscriptions Fray had decoded. The altar was buried beneath centuries of sand in the Agelta Drylands—a chamber of ritual where ancient mages performed ceremonies long dismissed as myth. Fredrinn and Fray entered together. The tunnels were dark, the traps deadly. They found the heart: a chamber filled with ghostly figures. The ritual was already in progress. The collapse began without warning. Stone shattered. Fray reached for a glowing crystal embedded in the altar's centre. 'Take it. It will lead you out.' 'Not without you.' The ceiling collapsed between them. When Fredrinn woke, he was outside, the crystal in his hand, Fray's compass beside him. Fray was gone.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Compass That Never Points North",
+          "shortDesc": "Fredrinn searched the rubble for days, finding nothing. The compass spun wildly, never pointing north. He stayed in Los Pecados, becoming a treasure appraiser to fund his search for Fray's ghost.",
+          "fullDesc": "Fredrinn searched the rubble for days, digging with his bare hands, calling Fray's name until his throat was raw. He found nothing. The altar had swallowed his friend, leaving no trace. He sat on the rocks, the crystal warm against his chest, the compass spinning in his hand. 'He is not dead. He is missing. And I will find him.' The compass never pointed to a fixed direction, but sometimes the needle would quiver—pointing toward a distant ruin, a forgotten city, a place where clues might be hidden. Fredrinn stayed in Los Pecados, city of sin, where information was bought and sold. He became a treasure appraiser, a 'money-grubber,' accumulating wealth not for its own sake, but because wealth bought access to the network he needed.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Anatomy of a Treasure Hunter",
+          "shortDesc": "A detailed description of Fredrinn: six feet tall, lean and powerful, tanned skin, piercing blue eyes, chestnut brown hair with a braid, scarred chest with a crystal, navy blue coat, and a massive rune-etched broadsword.",
+          "fullDesc": "To look at Fredrinn is to see a man shaped by freedom and scarred by loss. He stands over six feet, lean and powerful—dense muscle from years of climbing ruins and fighting monsters. His face has a strong jawline, high cheekbones, a straight nose. His skin is tanned, weathered by desert sun. His eyes are piercing blue—the colour of the sea at twilight, always searching. His hair is chestnut brown, swept back with a single braid over his shoulder. He dresses like a noble who forgot how to care: a long navy blue coat, embroidered with silver thread, stained and patched, hanging open over a white shirt and dark trousers. A thick leather belt holds pouches, a compass, a crystal, a dagger, a notebook. His hands are scarred, calloused, steady. His weapon is a massive broadsword, nearly as tall as he is, etched with runes that glow in the dark. The scar on his chest is jagged and ugly—a map of his past, a testament to his survival. The crystal beneath pulses with a rhythm that matches his heartbeat.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "Crystalline Armour — The Heart That Remembers",
+          "shortDesc": "Fredrinn's passive ability stores damage as Crystal Energy and converts dealt damage into healing. He gains Combo Points when hitting non-minion enemies, fueling his stronger skills.",
+          "fullDesc": "Crystalline Armour is Fredrinn's passive—the manifestation of the crystal merged with his heart. He stores damage as Crystal Energy; every blow, arrow, spell is absorbed and held. The energy decays over time, but while it lasts, it is a reservoir of power. He converts damage dealt into healing—a percentage of damage to heroes (20%) and minions (10%) returns as health, drawing on stored energy. Each time his skills hit a non-minion enemy, he gains a Combo Point (stacking to 4). Gaining a Combo Point resets the decaying timer. The crystal is not a burden—it is a gift, the last thing Fray gave him. 'I have been waiting for this,' Fredrinn says. 'Let the battle begin.' The scarring on his chest is jagged, never concealed. 'Your fear will be my guidance. Tremble in my presence.'",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "Piercing Strike, Brave Assault, Energy Eruption, and Appraiser's Wrath — The Rhythm of the Rogue",
+          "shortDesc": "Fredrinn's skills: Piercing Strike (thrust and slow), Brave Assault (dash and knock-up), Energy Eruption (taunt, defence boost, cooldown reduction), and Appraiser's Wrath (massive crystal-energy slash that deals 175% damage at centre).",
+          "fullDesc": "Fredrinn's fighting style is a rhythm of thrusts, dashes, and eruptions. Piercing Strike thrusts his sword in a line, dealing damage, slowing by 30% for 2 seconds, and enhancing his next basic attack. 'Shall I demonstrate the appraisal for you?' Brave Assault dashes in a direction, damaging the first non-minion enemy hit; his next basic attack knocks the target airborne for 0.3 seconds. 'Brave like a lion.' Energy Eruption deals damage to nearby enemies, taunts them for 1 second, grants 25-40 physical and magic defence for 3 seconds, and reduces cooldowns of Piercing Strike and Brave Assault by 75%. Consumes 1 Combo Point. 'Now, I see through everything.' Appraiser's Wrath, his ultimate, slams his sword in a fan-shaped area after a brief delay, dealing massive physical damage plus a portion of stored Crystal Energy. Enemies at the centre take 175% increased damage. Consumes 3 Combo Points. 'Appraisal is completed.'",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Network of the Money-Grubber",
+          "shortDesc": "In Los Pecados, Fredrinn cultivated a reputation as a gold-obsessed 'money-grubber' to hide his true purpose. He built a network of smugglers, thieves, and informants to feed him clues about Fray.",
+          "fullDesc": "Los Pecados was a city of sin, lawless frontier where the only law was gold—perfect for a man who needed information. Fredrinn became known as a 'money-grubber,' a treasure hunter obsessed with wealth. It was a reputation he cultivated deliberately. The less people knew about his true purpose, the safer he was. He built a network of contacts: smugglers who knew the desert routes, thieves who had stolen maps from imperial archives, information brokers with ears in every tavern. He paid them generously. Sometimes the scraps led to dead ends, ruins picked clean centuries ago, traps and monsters. But sometimes they led to something real—a map matching Fray's descriptions, an inscription mentioning a ritual of disappearance, a rumour of a ghost haunting the ruins where Fray vanished. Fredrinn followed every lead. He never gave up.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Crystal's Secret",
+          "shortDesc": "Research revealed the crystal might be linked to a lost civilisation that stored energy in crystalline form. Fredrinn learned to listen to its hum, feeling it pulse at ancient ruins—a possible beacon to find Fray.",
+          "fullDesc": "The crystal was more than a power source—it was a key. Research revealed that the gem might be linked to a lost civilisation, a people who had mastered storing energy in crystalline form, who had built the altar that swallowed Fray. The crystal was a fragment of a larger network, a puzzle spanning centuries. Fredrinn studied it with the same intensity Fray had brought to their explorations. He learned to listen to its hum, to feel its pulse, to sense the energy flowing through it. The crystal responded to certain locations—ancient ruins, hidden temples where ley lines converged. It would pulse brighter, hum louder, almost as if trying to communicate. Fredrinn wondered if Fray could feel it too, if the crystal was a beacon that could guide him back. He clung to that hope. It was all he had.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Rogue Appraiser",
+          "shortDesc": "Fredrinn does not know if Fray is alive or dead. But he will keep searching, fighting, never giving up. He is the Rogue Appraiser, and he will never stop looking for his lost friend.",
+          "fullDesc": "Fredrinn does not know what the future holds. He does not know if Fray is alive or dead, if the crystal can ever be removed, if he will ever find the answers he seeks. But he knows what he will do in the meantime. He will search. He will fight. He will never give up. The crystal pulses. The compass spins. The rogue appraiser waits. He is Fredrinn, the Rogue Appraiser. And he will never stop looking for his lost friend. 'Aku mungkin tidak bisa memperbaiki kesalahan masa lalu, tapi satu hal yang bisa kulakukan adalah mencari kebenaran bersama orang yang kupercaya.' 'I may not be able to fix past mistakes, but the one thing I can do is seek the truth with the people I trust.'",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Compass That Finally Points",
+          "shortDesc": "Fredrinn stands on a dune overlooking Los Pecados, compass spinning, crystal pulsing. He feels Fray's presence and whispers, 'I will find you. I promised.' The search continues.",
+          "fullDesc": "\"They call me the Rogue Appraiser. I did not choose the name. I do not care about names. I care about the compass—the broken, spinning, maddening compass that Fray left behind. I am Fredrinn. I am the son who walked away. I am the friend who stayed. I am the treasure hunter who has been searching for a ghost for longer than I care to remember. And I will never stop.\" — Fredrinn, standing on a dune overlooking Los Pecados, the compass in his hand, the crystal pulsing in his chest. The night is warm, the stars bright. The needle is spinning—it always spins. But sometimes, when he closes his eyes and listens to the crystal's hum, he feels a presence. A warmth. A whisper. Fray is out there somewhere. Waiting. Watching. Fredrinn smiles—a sad smile, but not without hope. 'I will find you. I promised.' He walks back toward the city, the compass spinning in his hand. The search continues.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Fredrinn's Powers",
+          "shortDesc": "Detailed breakdown of Crystalline Armour (damage storage and healing, Combo Points), Piercing Strike (slow, enhanced basic attack), Brave Assault (dash, knock-up), Energy Eruption (taunt, defence boost, cooldown reduction), and Appraiser's Wrath (centre-damage ultimate).",
+          "fullDesc": "The Nature of His Power: rooted in the crystal Fray entrusted to him—merged with his heart, storing damage as energy and converting it into healing. He fights with a broadsword etched with runes.\n\nCrystalline Armour (Passive): stores damage as Crystal Energy (decays 10% max HP per second after 5s). Converts 20% of damage to heroes (10% to minions) into healing. Gains 1 Combo Point (max 4) when skills hit non-minion enemies; gaining a point resets the decay timer.\n\nPiercing Strike (Skill 1): thrusts in a direction, dealing 125-250 (+7% Total HP) (+120% Extra Physical Attack) physical damage, slowing by 30% for 2s, and enhancing next basic attack (extra range, 85-135 (+100% Total Physical Attack) damage). 200% damage to non-heroes. Cooldown 7.5-6.5s.\n\nBrave Assault (Skill 2): dashes, dealing 140-215 (+80% Extra Physical Attack) damage to first non-minion enemy hit; enhanced basic attack knocks airborne for 0.3s. Cooldown 7.5-6.5s.\n\nEnergy Eruption (Skill 3): deals 210-300 (+100% Extra Physical Attack) damage to nearby enemies, taunts for 1s, grants 25-40 Physical/Magic Defence for 3s, and reduces cooldowns of Skill 1 and Skill 2 by 75%. Consumes 1 Combo Point. Cooldown 8s.\n\nAppraiser's Wrath (Ultimate): after a brief delay, slams sword in a fan-shaped area, dealing 600-1000 (+100% Extra Physical Attack) (+40% Stored Crystal Energy) physical damage. Enemies at the centre take 175% increased damage. Consumes 3 Combo Points. Cooldown 24-20s.\n\nThe Aura of the Rogue Appraiser: a faint hum, a crackle of crystal energy—allies feel protected, enemies feel the crystal's hunger.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Rogue Appraiser",
+          "shortDesc": "Fredrinn will be the Rogue Appraiser not because he wants to be, but because someone has to carry the crystal and search for the lost. He will never stop searching.",
+          "fullDesc": "Rogue Appraiser. The title is a burden and a gift. It reminds Fredrinn of the father who cast him out, the brother who saved him, the friend he has been searching for all these years. He does not know if he will ever be worthy. But he knows he will try. Every day, in every battle, with every swing. He will be resilient, relentless, hopeful. He will be the Rogue Appraiser. Not because he wants to be. Because he has to be. Because someone has to carry the crystal and search for the lost. And Fredrinn, the son who walked away, the friend who stayed, the treasure hunter of Los Pecados, has decided that someone will be him. The night is dark. The crystal pulses. The compass spins. And Fredrinn never stops searching.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
