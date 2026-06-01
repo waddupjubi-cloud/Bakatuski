@@ -3530,6 +3530,284 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 26,
+      "hero": "Lancelot",
+      "slug": "lancelot",
+      "cover": "images/stories_covers/lancelot_cover.png",
+      "folder": "images/lores/lancelot/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Rose That Learned to Bleed",
+          "shortDesc": "Lancelot introduces himself as the Perfumed Knight, the prodigal son of House Baroque who fell from grace through arrogance, found humility in defeat, and discovered true love with Odette, the Swan Princess.",
+          "fullDesc": "\"They say I was born with a silver sword in my hand and a crown of roses on my head. They say I was the perfect noble—handsome, talented, adored by all who laid eyes upon me. They are not wrong. I was the pride of House Baroque, the greatest fencer of my generation, the man who could make a blade sing. I had wealth, status, beauty, and the admiration of the masses. I thought I was invincible. I thought the world existed for my pleasure. I was wrong. Arrogance is a poison that seeps into the soul and rots it from within. I drank deeply of that poison. I caroused, I brawled, I broke hearts without a second thought. I was the prodigal son, the disappointment, the man my father erased from the family records. Then I met a woman who saw through my masks, who touched my wounds with gentle hands, who showed me that there was more to life than pleasure and pride. I am Lancelot, the Perfumed Knight. I am the brother of Guinevere, the best friend of a street fighter who cannot dress himself, and the protector of a princess who taught me what it means to love. I have made mistakes. I have hurt those who loved me. But I am trying to be better. That is the only redemption there is.\"",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Gilded Cradle of Castle Gorge",
+          "shortDesc": "Lancelot was born into House Baroque, one of the most powerful noble families, known for their fencing art. He was a prodigy—beautiful, talented, adored—and he began to believe his own legend.",
+          "fullDesc": "Castle Gorge was a palace of marble halls, rose gardens, golden fountains. The Baroque family ruled for centuries, their wealth from gold mines. Their greatest art was fencing—elegant, precise, deadly. Lancelot was the eldest son. He picked up a rapier at four, defeated opponents twice his age by six, mastered advanced techniques by ten. The masters said, 'He has the true gift. We have nothing left to teach him.' Lancelot basked in the praise. He was beautiful, talented, wealthy. He had everything. He began to believe his own legend. The arrogance came naturally, like breathing. He thought he was better than everyone else, that rules did not apply to him.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Smothering Love of the Duke",
+          "shortDesc": "Duke Baroque, Lancelot's father, expressed love through expectations and pressure. He arranged a political marriage for Lancelot. Lancelot refused, stormed out of Castle Gorge, and was erased from the family records.",
+          "fullDesc": "Duke Baroque loved his son through demands—'You must be perfect, strong, wise. The family's future rests on your shoulders.' Lancelot wanted to be free—to fence, drink, enjoy pleasure. When he was eighteen, the Duke arranged a political marriage to a noblewoman Lancelot had never met. 'It is for the good of the family.' 'I do not care about the good of the family.' The argument lasted hours, words exchanged that could not be taken back. Lancelot stormed out, vowing never to return. He did not say goodbye to his sister Guinevere, who watched from a window with tears in her eyes. He was done with duty, family, House Baroque. He was free.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Prodigal's Wanderings",
+          "shortDesc": "Lancelot travelled across the empire, drinking, duelling, seducing. He burned through his inheritance and made enemies everywhere. The fun soured; he became emotionally empty and alone.",
+          "fullDesc": "Freedom was not what Lancelot imagined. He travelled across the Moniyan Empire, drinking in taverns, duelling in streets, seducing women in castles. He spent money like water, burned through his inheritance, made enemies wherever he went. The nobles whispered about the prodigal son, the fallen prince. Lancelot did not care—until the fun soured. Drinking lost its appeal. Duels became routine. Women blurred together, faces indistinguishable, names forgotten. He was alone—not physically, but emotionally, spiritually. He began to wonder if his father had been right: maybe he was a disappointment, worthless, nothing more than a handsome face and a quick blade. Doubt gnawed at him. Emptiness grew. He sought refuge in the bottle.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Drunken Brawl and the Lake of Blood",
+          "shortDesc": "In a tavern near Azure Lake, Lancelot drunkenly attacked passing elves. He was ambushed, wounded, and fled into the freezing waters of Azure Lake, where he nearly died.",
+          "fullDesc": "The Rusty Anchor was a dive where wine was cheap and fights frequent. Lancelot had been drinking for hours when a group of elves passed through. In drunken arrogance, he challenged them. They refused. He insulted them. They walked away. He pursued. The first few fights were easy; the elves fell before his blade. He pursued survivors into the mountains, where they regrouped in the high passes. Lancelot stumbled into their trap. They attacked from all sides with blinding, freezing magic. He was wounded—a dozen cuts, a cracked rib, a gash across his chest. He fled, plunging into the cold waters of Azure Lake, swimming until his arms gave out. He floated, helpless, waiting for death.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Hands That Healed",
+          "shortDesc": "Odette, the Swan Princess, found Lancelot floating in the lake. She carried him to Swan Castle and tended his wounds for weeks, refusing to accept the healers' verdict that he would not survive.",
+          "fullDesc": "Odette, princess of Swan Castle, found Lancelot at dawn. She saw a body floating in the water—a handsome man, golden hair tangled with weeds, blue lips barely moving. She waded in, pulled him to shore, carried him to the castle. The healers said he would not survive—wounds too deep, blood loss too severe, infection spreading. Odette refused. She tended him herself: cleaned wounds, changed bandages, fed broth. She stayed by his bedside for days, for weeks. Lancelot drifted in and out of consciousness, dreaming of fire and blood and a soft, kind voice. When he finally opened his eyes, he saw a woman with hair like spun gold and eyes like the summer sky. 'Where am I?' 'Swan Castle. You are safe.'",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Awakening of the Heart",
+          "shortDesc": "During his recovery, Lancelot fell in love with Odette. Her kindness, without judgement, made him want to be a better man. He took her hand, and something between them shifted forever.",
+          "fullDesc": "The weeks that followed were the quietest of Lancelot's life. Odette visited every day with books, flowers, stories. She did not ask about his past or judge his mistakes. She simply was—a presence, a warmth, a light. Lancelot looked forward to her visits. He thought about her when she was not there. He wanted to be a better man, not for himself, but for her. 'You are not what I expected,' she said. 'What did you expect?' 'Someone arrogant, cruel, who would not care that I saved his life.' 'And what do you see now?' 'A man who is lost. A man trying to find his way home.' He reached out and took her hand. She did not pull away. Something shifted between them that day—something that would change both their lives forever.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Anatomy of a Perfumed Knight",
+          "shortDesc": "A detailed description of Lancelot: over six feet tall, lean, golden-blonde hair, piercing blue eyes, chocolate-brown tunic with open chest, sapphire-blue capelet, silver armoured boots, and the rapier Rose Thorn.",
+          "fullDesc": "To look at Lancelot is to see a man sculpted by beauty and broken by pride. He stands over six feet, lean and graceful. His face has a sharp aristocratic jawline, high cheekbones, a straight nose. His eyes are piercing crystalline blue. His hair is a voluminous golden-blonde mane, falling in wavy layers to his shoulders. His upper body wears a deep chocolate-brown tunic open at the chest, revealing a toned torso and a ruffled white cravat with a glowing cyan gemstone. A gold-plated pauldron with a stylised blue rose adorns his right shoulder, from which a sapphire-blue capelet drapes down his back. His hands are in dark leather bracers. He wears form-fitting dark charcoal trousers tucked into elaborate knee-high silver boots with gold floral engravings. His weapon is the rapier Rose Thorn—a long, slender blade with a circular golden bell guard. His aura is a fragrance of roses—a mix of floral grace and deadly intent.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "Puncture — The Charge That Never Ends",
+          "shortDesc": "Lancelot's signature mobility technique: a charging thrust that deals damage, applies a Sword Mark, and resets its cooldown if the target is not already marked, allowing chain charges.",
+          "fullDesc": "Puncture is Lancelot's signature technique—a charging thrust that closes distance quickly, deals physical damage, and applies a Sword Mark to the target. He launches forward, blade extended, body low. If the target does not already bear the Sword Mark, Puncture's cooldown resets, allowing him to charge again—and again, dancing through the battlefield, striking multiple enemies. The technique is the essence of fencing: a lunge, pure and simple, executed with perfect form and devastating speed. Puncture is exhausting; each charge drains stamina, and close range leaves him vulnerable. He uses it to mark high-value targets, to close distance, to set up his ultimate. But when he uses it, he uses it with all the grace in his trained body.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "Thorned Rose and Phantom Execution — The Dance of Invincibility",
+          "shortDesc": "Thorned Rose is a series of rapid thrusts that make Lancelot untargetable. Phantom Execution is his ultimate: an untargetable charge ending in a massive slash, immune to damage.",
+          "fullDesc": "Thorned Rose is Lancelot's area-control technique—a series of rapid thrusts in a fan-shaped area, striking enemies up to three times. During the technique, he is untargetable, his body flickering like a phantom as his blade sings. Each strike slows enemies; stacks accumulate until they can barely move. Thorned Rose is not exhausting; he can use it often, though each use leaves him momentarily vulnerable. Phantom Execution is his ultimate—a breathtaking, untargetable charge that ends in a single, massive slash. He charges forward, body flickering, immune to damage, blade trailing phantom light. The damage is devastating, capable of finishing wounded enemies. Phantom Execution is exhausting—each use drains his reserves completely. He can use it only once per battle, but when he uses it, he uses it with all the fury in his reformed heart.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Return to Castle Gorge",
+          "shortDesc": "Lancelot returned to Castle Gorge a changed, humbler man. His father had erased him from family records. Lancelot apologised; his father walked away in silence.",
+          "fullDesc": "Lancelot returned to Castle Gorge humbler, quieter, more thoughtful. His father had struck his name from family records, disowned him, pretended he never existed. The servants whispered he was not welcome. Lancelot did not argue. 'Father, I have come to apologise.' The Duke looked at him with cold eyes. 'Apologies are cheap. What have you done to earn my forgiveness?' 'I have done nothing. I have only begun to understand how much I have wronged you.' The Duke was silent for a long moment, then turned and walked away. Lancelot did not follow. He had said what he needed to say. The rest was up to his father.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Sister Who Never Stopped Loving",
+          "shortDesc": "Guinevere, Lancelot's sister, welcomed him back with open arms. She had become a powerful anti-gravity sorceress. They reconciled, and he told her about his love for Odette.",
+          "fullDesc": "Guinevere was waiting in the rose garden. No longer the little girl who watched him leave with tears, she was now a woman—beautiful, talented, fierce. She had trained at the Magic Academy, mastered anti-gravity sorcery, become a hero. 'Brother.' 'Sister.' She ran to him and threw her arms around his neck. He held her, feeling the warmth of her embrace, the forgiveness in her touch. 'I am sorry.' 'I know. I have always known.' They sat in the garden for hours, talking, laughing, remembering. She told him about her studies and her plans. He told her about his wanderings, his wounds, his love for Odette. 'You have changed,' she said. 'I hope so,' he replied.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Perfumed Knight",
+          "shortDesc": "Lancelot does not know if his father will forgive him or if he will be worthy of Odette's love. But he will fight, protect, and love. He will never stop trying.",
+          "fullDesc": "Lancelot does not know what the future holds. He does not know if his father will ever forgive him, if he will ever be worthy of Odette's love, if the scars of his past will ever fully heal. But he knows what he will do in the meantime. He will fight. He will protect. He will love. The blade never stops. The rose never fades. The knight never yields. He is Lancelot, the Perfumed Knight. And he will never stop trying to be worthy of the second chance he has been given.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Rose That Finally Bloomed",
+          "shortDesc": "Lancelot stands on the balcony of Swan Castle, watching over Odette as she sleeps. He does not know if he is worthy, but he will protect her forever.",
+          "fullDesc": "\"They call me the Perfumed Knight. I did not choose the name. I did not want it. But I have carried it for many years now, and I have learned that names are just words. What matters is what you do. And what I do is protect those I love. That is enough.\" — Lancelot, to Odette, as they watched the swans glide across the lake. The night is quiet over Swan Castle. Lancelot stands on the balcony overlooking Azure Lake, rapier resting beside him. Odette is inside, sleeping. He watches over her, as he has since she saved his life. He thinks about his father who has not forgiven him, his sister who never stopped loving him, the woman who showed him what love means. He does not know if he is worthy. But he knows what he will do: fight, protect, love. The blade waits. The rose blooms. The knight stands ready. And as long as Lancelot draws breath, someone will protect those who cannot protect themselves.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Lancelot's Powers",
+          "shortDesc": "Detailed breakdown of Soul Cutter (passive damage increase), Puncture (charging thrust with reset), Thorned Rose (untargetable fan thrusts), and Phantom Execution (untargetable ultimate slash).",
+          "fullDesc": "The Nature of His Power: rooted in fencing mastery—no magic, no blessings, only blade, skill, and will. Speed is his weapon.\n\nSoul Cutter (Passive): each charge increases damage by 7.5% for 4 seconds, stacking up to 4 times (30% total).\n\nPuncture (Skill 1): charges forward, dealing physical damage and applying a Sword Mark. If the target has no Sword Mark, cooldown resets, allowing chain charges. Damage: physical (+% Total Physical Attack).\n\nThorned Rose (Skill 2): rapid thrusts in a fan-shaped area, striking enemies up to 3 times. Untargetable during the technique. Each strike slows enemies. Cooldown short.\n\nPhantom Execution (Ultimate): charges forward in an untargetable state, ending with a single massive slash dealing devastating physical damage. Can be used once per battle; drains reserves.\n\nThe Aura of the Perfumed Knight: a fragrance of roses—inspiring allies, unsettling enemies.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Perfumed Knight",
+          "shortDesc": "Lancelot will be the Perfumed Knight not because he wants to be, but because someone has to protect those who cannot protect themselves—and he has decided that someone will be him.",
+          "fullDesc": "Perfumed Knight. The title is a burden and a gift. It reminds Lancelot of his father who disowned him, his sister who never stopped loving him, Odette who saved his life. He does not know if he will ever be worthy. But he knows he will try. Every day, in every battle, with every thrust. He will be graceful, deadly, kind. He will be the Perfumed Knight. Not because he wants to be. Because he has to be. Because someone has to protect those who cannot protect themselves. And Lancelot, the prodigal son of House Baroque, the brother of Guinevere, the lover of Odette, has decided that someone will be him. The night is dark. The blade is ready. The rose blooms eternal. And Lancelot never stops dancing.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "hero": "Odette",
+      "slug": "odette",
+      "cover": "images/stories_covers/odette_cover.png",
+      "folder": "images/lores/odette/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Song That Would Not Die",
+          "shortDesc": "Odette introduces herself as the Swan Princess, the thirteenth-generation heiress of Swan Castle. She left her sheltered life for love, defying her family's legacy of peaceful obscurity to find her own voice.",
+          "fullDesc": "\"Forgive me, Grandfather, for the life I have chosen. Not the life you built—the quiet life, the peaceful life, the life of politics avoided and thrones relinquished. I know you abdicated the crown so that House Alvin could exist in the shadows, so that we could be forgotten, so that we could be safe. But safety is not happiness, and peace is not purpose. I have met a man who sees me—not the princess, not the heiress, not the thirteenth-generation keeper of a legacy I never asked for. He sees me. And in his eyes, I have found a courage I did not know I possessed. I am leaving the castle. I am leaving the lake. I am leaving the life you built for me. And I am not afraid.\" — Odette, in a letter left on the windowsill of her tower on the night she departed Swan Castle. She was born in the highest tower, on a night when the moon was full and the swans were singing. She grew up surrounded by magic and music, the pearl of Azure Lake. But she was restless, yearning for adventure. Then she found a wounded knight on the shore—Lancelot—and fell in love. Now she has left everything behind, following her heart into the unknown. This is her story.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Castle by the Lake",
+          "shortDesc": "Swan Castle, built by Alvin I who abdicated the throne for love, has been home to House Alvin for thirteen generations. Odette grew up surrounded by nature, magic, and the gentle Lakeshore Ambience.",
+          "fullDesc": "Azure Lake sits in the southern hills of the Moniyan Empire, a sapphire tucked into the mountains. On its northern shore stands Swan Castle—not a fortress, but a palace of white stone, tall windows, and gardens of roses and lilies. For thirteen generations, House Alvin has called it home. The first Prince Alvin gave up the throne to marry a woman of humble birth, choosing love over power. His descendants carried on his legacy, valuing happiness over status. Odette, the thirteenth-generation heiress, grew up in this world. She sang to the swans, played with the animals, and learned the magic of Lakeshore Ambience from her father. 'Go outside and look around,' he would say. 'Every tree and flower will make you feel the vitality everywhere. Sing, my child, and then you will feel the love of nature.' Odette sang. And nature answered.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Legacy of Alvin I",
+          "shortDesc": "The story of Prince Alvin I, who abdicated the throne for love, was Odette's favourite. She understood her family's choice but felt the walls of Swan Castle closing in—she wanted more than peaceful obscurity.",
+          "fullDesc": "The story of the first Prince Alvin was Odette's favourite bedtime story. He was handsome, brave, destined to be emperor. But he fell in love with a commoner. The emperor forbade the match. Alvin I abdicated, gave up the throne, and built Swan Castle by the most beautiful lake in the empire. Odette loved the story because it showed her family's character: heroes who chose love over power. But the story also contained a warning. By abdicating, Alvin I had forfeited his family's claim to the throne. The Alvins rarely got involved in domestic politics. Odette understood this, but she did not agree with it. 'You have the right to the throne,' she once told her grandfather. 'Rights are not the same as responsibilities,' he replied. Odette filed the conversation away. She was not content to simply live in peace. She wanted adventure, excitement, love. She wanted to live.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Caged Bird and the Open Sky",
+          "shortDesc": "As Odette grew older, Swan Castle began to feel like a cage. She threw herself into her magic, mastering the Lakeshore Ambience, but the loneliness never left. She longed for a true companion.",
+          "fullDesc": "The walls of Swan Castle began to feel less like protection and more like a cage. Her family loved her, but their vision of 'what was best' was rooted in the past—stay out of affairs, keep heads down, be content. Odette was not content. She spent more time at the lake, confiding in the swans. 'I want to leave,' she whispered. 'I want to see the world. I want to fall in love.' The swans could not answer, but they stayed with her. She threw herself into training, mastering the Lakeshore Ambience, perfecting spells passed down through generations. But the loneliness never fully went away. She was adored by thousands, called the pearl left over by the gods of the mortal realm. Yet Odette felt unbearably lonely. She had never had a true companion. She had never been in love. But she felt something coming—something that would change everything. And she was ready.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Anatomy of a Swan Princess",
+          "shortDesc": "A detailed description of Odette: 165 cm, slender and graceful, honey-blonde hair, warm brown eyes, white and silver bodice with a blue gem, translucent feather cape, magical staff, and dueling sword.",
+          "fullDesc": "To look at Odette is to see a woman shaped by centuries of romantic legacy and gentle magic. She stands 165 centimetres, slender and graceful, with the physique of a dancer. Her face has delicate features, a soft jawline, high cheekbones, and fair, smooth skin. Her eyes are deep warm brown—the colour of earth after rain—but when she sings, they seem to glow. Her hair is rich honey-blonde, often styled in elegant curls, with a silver tiara on her brow. She wears a white and silver bodice with a sweetheart neckline, silver filigree, and a glowing blue gem at her chest—a focus for her magic. Wide translucent sleeves and silver gauntlets cover her arms. Her short ruffled skirt is decorated with blue gems; beneath it, white stockings and silver greaves. Her feet wear elegant silver high-heeled boots. A long translucent feather cape trails behind her. She wields a tall magical staff with a crescent silver head and floating blue crystal, and a slender one-handed dueling sword. Her aura is warm and bright, like sunlight through willow leaves—peaceful but tinged with longing.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Lakeshore Ambience and the Melodies of Power",
+          "shortDesc": "The magic of House Alvin combines elvish music with court music, attacking with sound and emotion. Odette mastered it, learning that the heart is the most powerful weapon.",
+          "fullDesc": "The magic of House Alvin is older, gentler, and perhaps more powerful than other noble families' magic. The Lakeshore Ambience was developed by Prince Alvin I, combining ancient elvish melodies with Moniyan court music. It attacks with sound, emotion, the very essence of the heart. Odette began training as a child. Her father taught her: 'Close your eyes. Listen to the lake. Listen to the swans. Feel the world around you, and let that feeling become a song.' Odette closed her eyes, listened, and sang. The magic responded, flowing through her like water, like light. She mastered the Lakeshore Ambience before she understood what it meant to be in love. But she would learn. The magic taught her that emotion was not weakness, that feeling deeply was not a liability, that the heart was the most powerful weapon in the world. Her ultimate, Swan Song, poured everything—joy, sorrow, hopes, fears—into a melody that condensed into a magical vortex of immense power. 'Sing, my child,' her father had said. 'And you will feel the love of nature.' Odette sang. Nature answered.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Abilities of the Swan Princess",
+          "shortDesc": "Odette's techniques: Lakeshore Ambience (bouncing basic attacks), Avian Authority (slow swan projectile), Blue Nova (bouncing immobilise), and Swan Song (channeled area ultimate with damage reduction and slow).",
+          "fullDesc": "Odette's combat style is defined by area damage and crowd control. Lakeshore Ambience (Passive): after each skill cast, her next Basic Attack gains extra range and bounces between enemies (or herself and one enemy), dealing 144-200 (+50% Total Magic Power) Magic Damage per hit. Skills also trigger this, stacking up to 3 times. Avian Authority (Skill 1): releases a magic swan in a line, dealing 300-550 (+150% Total Magic Power) Magic Damage and slowing enemies by 30% for 2 seconds. Cooldown 6-5s. Blue Nova (Skill 2): releases energy balls forward, dealing 250-400 (+50% Total Magic Power) Magic Damage to the first enemy hit and immobilising them for 1.5 seconds. Another ball splits off to a nearby enemy, dealing the same damage and immobilisation. Swan Song (Ultimate): leaps in a direction (distance scales with movement speed), gains a shield, and creates a vortex for 3 seconds, dealing damage every 0.5 seconds. While channeling, gains 50% damage reduction and applies a 90% decaying slow. Cooldown 50s. The ultimate requires protection—if she is not interrupted, she can melt entire teams.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Wounded Knight on the Shore",
+          "shortDesc": "One morning, Odette found a wounded knight on the lake shore—Lancelot of House Baroque. She healed him with her singing and brought him to Swan Castle, saving his life.",
+          "fullDesc": "The day that changed everything began like any other. Odette went down to the lake to greet the swans. She sang a sad lament of longing and loneliness. Then she heard a groan—someone in pain. She found a young man half-hidden in the reeds, his body crumpled, his clothes torn and bloodied. A deep wound in his side bled freely. He was a knight. 'Help,' he whispered. His eyes were piercing blue, like the lake on a summer afternoon, filled with pain and desperate hope. Odette placed her hands on his wound and began to sing—not a lament, but a healing melody of warmth and light. The magic flowed through her, knitting his flesh together, slowing the bleeding. 'Who are you?' he asked. 'Odette. I am Odette. And you are safe now.' She carried him back to the castle, with the help of servants, and spent the day and night tending his wounds, singing over him, willing him to live. She did not know his name. She only knew she could not let him die.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Courtship of the Swan and the Butterfly",
+          "shortDesc": "Lancelot recovered at Swan Castle. Despite his arrogance, Odette was drawn to his vulnerability. They fell in love, and he proposed by the lake under the moonlight.",
+          "fullDesc": "Lancelot woke three days later. 'You saved me.' 'I did what anyone would have done.' 'No. Only you.' He was a knight of House Baroque, arrogant and charming, convinced of his own superiority. But Odette saw beneath the surface—vulnerability, wounds, a spirit trying to protect itself with bravado. He stayed for weeks. They walked in gardens, sat by the lake, talked about everything. He told her about a defeat that had humbled him, about rebuilding himself from the ground up. 'I spent my whole life trying to be perfect,' he said. 'Perfection is a cage.' 'What changed?' 'You.' The proposal came on a moonlit night by the lake. He knelt, pulling a small box from his pocket. 'I love you, Odette. Will you marry me?' 'Yes,' she whispered. He slipped the ring onto her finger. The swans sang, the moon shone. But happiness was short-lived. A letter arrived from her father: a marriage had been arranged for her with a powerful duke's son—a man she had never met, a man she did not love.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Proposal and the Departure",
+          "shortDesc": "Faced with an arranged marriage, Odette chose Lancelot. She left Swan Castle, defying her family, to pursue love and freedom. She vowed to find her own happiness.",
+          "fullDesc": "Odette was devastated. She showed the letter to Lancelot. 'I cannot marry him. I love you.' 'Then do not marry him. Come with me.' 'But my father—the scandal—' 'None of that matters. What matters is us. Our love.' She looked at him, at the ring on her finger, at the lake that had been her home her entire life. She made her choice. She wrote a letter to her grandfather: 'Forgive me for the life I have chosen. I am leaving. I am not afraid.' She packed her belongings—her staff, her sword, a journal. She slipped out of the castle in the early morning, when the mist was thick and the swans were still sleeping. Lancelot was waiting for her on the road. He took her hand. 'Are you sure?' 'I have never been more sure of anything.' They walked south, toward the unknown, toward adventure, toward a future they would build together. Odette did not look back.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Philosophy of the Swan Princess",
+          "shortDesc": "Odette believes that beauty is not coldness, that a rose's destiny is to bloom freely, and that courage is acting despite fear. She will find her own happiness.",
+          "fullDesc": "Odette does not consider herself a philosopher, but she has guiding beliefs. 'To be beautiful does not mean to be cold.' She has seen nobles who are beautiful outside and hollow within. Beauty is not a weapon; it is a gift to be shared. 'A rose's destiny is to bloom freely.' She is not a bargaining chip or a decoration. She is a person with her own dreams, and she will not let anyone dictate her fate. She believes in love—not shallow infatuation, but the deep commitment of two souls who choose each other through hardship and joy. Love is not something you find; it is something you build. She believes in courage. Courage is not the absence of fear; it is acting despite fear. She was terrified when she left Swan Castle, but she left anyway. 'I will find my own happiness.' It is not a boast; it is a promise.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Bond with Lancelot",
+          "shortDesc": "Odette and Lancelot are lovers and partners. They clash but complement each other. Their bond is celebrated across the Land of Dawn, and they fight side by side with a unique connection.",
+          "fullDesc": "Lancelot is Odette's lover, partner, and reason for leaving everything behind. She would die for him. But their love is not simple. Lancelot is arrogant and impulsive; Odette is thoughtful and cautious. They clash, argue, drive each other crazy. But they also complement each other. His boldness pushes her out of her comfort zone; her caution reins in his excesses. Together they are stronger. 'My brother Lancelot is the most handsome man in the world,' Odette says with a teasing smile, 'but don't tell him I said that—his ego is already large enough.' Lancelot loves her with fierceness. 'You are my heart. I will protect you with my life.' Their bond is celebrated with a unique 'lover mechanic' when they fight side by side. They are one of the great romantic couples of the Land of Dawn, their story told and retold, their adventures celebrated and sung.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Swan Princess",
+          "shortDesc": "Odette does not know what the future holds, but she will keep singing, fighting, and loving. She is the Swan Princess, and she is still singing.",
+          "fullDesc": "Odette does not know what the future holds. She does not know if her father will ever forgive her, if the empire will accept her choices, if the life she has chosen will bring her happiness. But she knows that she will keep singing. She will keep fighting. She will keep loving, for as long as her voice lasts. She is the thirteenth-generation heiress of Swan Castle, the master of Lakeshore Ambience, the woman who left everything behind for love. She is not a hero. She will never be a hero. But she is not a villain. She is a romantic, a dreamer, a woman who followed her heart into the unknown. She is Odette, the Swan Princess. And she is still singing.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Song That Flies Forever",
+          "shortDesc": "Odette sits by a campfire on the road south, Lancelot sleeping beside her. She does not regret leaving. She is free, in love, and still singing.",
+          "fullDesc": "\"Forgive me, Grandfather, for the life I have chosen. But I could not stay. The walls were closing in, and the lake was growing still, and the swans—the swans were singing a song that I could not understand. I had to leave. I had to find my own voice, my own song, my own life. I do not know where this road will lead. I do not know if I will ever return. But I know that I am not afraid. I am Odette. And I am finally free.\" — Odette, from the journal she carried with her on her journey. The night is quiet on the road south. Odette sits by a campfire, her staff propped against a tree, her sword at her side. Beside her, Lancelot sleeps, his hand on his sword hilt. She thinks of her father, fuming in Swan Castle; her mother, who always knew she would leave; the servants, the swans, the animals in the lake. She misses them. But she does not regret leaving. 'A rose's destiny is to bloom freely,' she whispers. The wind does not answer, but the fire crackles, the stars shine brighter. She is not a princess anymore. She is an adventurer, a wanderer, a mage. In love, loved, and free. She is Odette, the Swan Princess. And she is still singing.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Odette's Powers",
+          "shortDesc": "Detailed breakdown of Lakeshore Ambience (bouncing basic attacks), Avian Authority (slow), Blue Nova (bouncing immobilise), and Swan Song (channeled area ultimate with damage reduction and slow).",
+          "fullDesc": "The Nature of Her Power: inherited from House Alvin, combining elvish music with court music. Magic of emotion and heart. Vulnerable when sad, unstoppable when joyful.\n\nLakeshore Ambience (Passive): after each skill cast, next Basic Attack gains extra range and bounces between enemies (or self and enemy), dealing 144-200 (+50% Total Magic Power) Magic Damage per hit. Stacks up to 3 times.\n\nAvian Authority (Skill 1): releases a magic swan in a line, dealing 300-550 (+150% Total Magic Power) Magic Damage and slowing enemies by 30% for 2 seconds. Cooldown 6-5s.\n\nBlue Nova (Skill 2): releases energy balls forward, dealing 250-400 (+50% Total Magic Power) Magic Damage and immobilising first enemy for 1.5s. A second ball splits to a nearby enemy with same damage and immobilisation.\n\nSwan Song (Ultimate): leaps in a direction (distance scales with movement speed), gains a shield, and creates a vortex for 3 seconds dealing damage every 0.5s. While channeling, gains 50% damage reduction and applies a 90% decaying slow. Cooldown 50s. Requires protection; devastating if uninterrupted.\n\nThe Aura of the Swan Princess: warm and bright, like sunlight through willow leaves—peaceful but tinged with longing.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "On the Swan Princess",
+          "shortDesc": "Odette will be the Swan Princess not because she was born to it, but because she chose to leave her cage and sing her own song. She is still singing.",
+          "fullDesc": "Odette. Swan Princess. Thirteenth-generation heiress of Swan Castle. She was born into a family of dreamers who chose love over power, who gave up a throne for a castle by a lake. She was raised to be content with obscurity, to keep her head down and her heart hidden. She could not. She met a wounded knight on the shore and fell in love. She left her castle, her family, her home. She chose adventure over safety, love over duty, freedom over comfort. She is not a hero. She will never be a hero. But she is not a villain. She is a romantic, a dreamer, a woman who followed her heart into the unknown. She will keep singing, fighting, loving. She will be the Swan Princess—not because she was born to it, but because she chose to leave her cage and sing her own song. The night is dark. The road is long. The song flies forever. And Odette never stops singing.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
