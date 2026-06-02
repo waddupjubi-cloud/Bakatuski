@@ -83,6 +83,25 @@
         <input type="text" id="search-input" placeholder="🔍 Search hero lore... (Argus, Fanny, Ling, Aamon...)" aria-label="Search lore">
     </div>
 
+    <!-- ========== STORY READER ========== -->
+    <section class="story-reader-section" aria-labelledby="story-reader-title">
+        <div class="story-reader-header">
+            <span class="eyebrow">Chronicle Reader</span>
+            <h2 id="story-reader-title" class="section-title">Hero Stories</h2>
+            <p class="section-sub">Read every chapter without opening the gallery.</p>
+        </div>
+        <div class="story-reader-shell">
+            <div class="swiper story-reader-swiper" id="story-reader-swiper">
+                <div class="swiper-wrapper" id="story-reader-wrapper">
+                    <div class="swiper-slide story-reader-loading">Loading hero stories...</div>
+                </div>
+                <div class="swiper-button-prev story-reader-prev" aria-label="Previous story"></div>
+                <div class="swiper-button-next story-reader-next" aria-label="Next story"></div>
+            </div>
+            <div class="story-reader-pagination" id="story-reader-pagination" aria-label="Hero story pagination"></div>
+        </div>
+    </section>
+
     <!-- ========== LORE GRID ========== -->
     <section class="lore-grid" id="lore-grid">
         <div class="loading-indicator">Loading ancient scrolls...</div>

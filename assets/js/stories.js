@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const navLinks = document.getElementById('nav-links');
     const grid = document.getElementById('lore-grid');
     const searchInput = document.getElementById('search-input');
+    const storyReaderWrapper = document.getElementById('story-reader-wrapper');
     const modal = document.getElementById('lore-modal');
     const modalClose = document.getElementById('modal-close');
     const modalHeroName = document.getElementById('modal-hero-name');
@@ -30,6 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let thumbSwiper = null;
     let currentChapterTitles = [];
     let storiesData = [];
+    let storyReaderSwiper = null;
     let currentLoreForModal = null;
     let currentGalleryImages = [];       // store URLs for lightbox
     let currentGalleryIndex = 0;
@@ -118,6 +120,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
     }
 
+    function setCoverImage(img, coverSrc) {
+        img.src = coverSrc;
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        img.onerror = () => {
+            img.onerror = null;
+            img.src = 'images/logo/bakatuskisquadlogo.png';
+        };
+    }
+
     // ---------- CUSTOM CURSOR ----------
     function initCursor() {
         if (!dot || !ring) return;
@@ -154,12 +166,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         document.addEventListener('mouseover', e => {
-            if (e.target.closest('a, button, .lore-card, .modal-close, .theme-btn, .swiper-button-next, .swiper-button-prev, .lightbox-close')) {
+            if (e.target.closest('a, button, .lore-card, .modal-close, .theme-btn, .story-reader-pagination .swiper-pagination-bullet, .swiper-button-next, .swiper-button-prev, .lightbox-close')) {
                 ring.classList.add('ring-hover');
             }
         });
         document.addEventListener('mouseout', e => {
-            if (e.target.closest('a, button, .lore-card, .modal-close, .theme-btn, .swiper-button-next, .swiper-button-prev, .lightbox-close')) {
+            if (e.target.closest('a, button, .lore-card, .modal-close, .theme-btn, .story-reader-pagination .swiper-pagination-bullet, .swiper-button-next, .swiper-button-prev, .lightbox-close')) {
                 ring.classList.remove('ring-hover');
             }
         });
@@ -216,11 +228,154 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             const data = await res.json();
             storiesData = data.lores || [];
+            renderStoryReader(storiesData);
             renderCards(storiesData);
         } catch (err) {
             console.error(err);
             if (grid) grid.innerHTML = '<p class="error-msg">⚠️ Failed to load lore data. Please refresh or try again later.</p>';
         }
+    }
+
+    // ---------- Render story reader ----------
+    function renderStoryReader(data) {
+        if (!storyReaderWrapper) return;
+        if (storyReaderSwiper) {
+            storyReaderSwiper.destroy(true, true);
+            storyReaderSwiper = null;
+        }
+
+        storyReaderWrapper.innerHTML = '';
+        if (!data.length) {
+            storyReaderWrapper.innerHTML = '<div class="swiper-slide story-reader-loading">No hero stories found.</div>';
+            const pagination = document.getElementById('story-reader-pagination');
+            if (pagination) pagination.innerHTML = '';
+            return;
+        }
+
+        data.forEach(lore => {
+            const slide = document.createElement('div');
+            slide.className = 'swiper-slide story-reader-slide';
+            slide.dataset.loreSlug = lore.slug || '';
+
+            const content = document.createElement('article');
+            content.className = 'story-reader-card';
+
+            const heroName = document.createElement('h3');
+            heroName.className = 'story-reader-hero';
+            heroName.textContent = lore.hero || 'Unknown Hero';
+            content.appendChild(heroName);
+
+            const chaptersWrap = document.createElement('div');
+            chaptersWrap.className = 'story-reader-chapters';
+            (lore.chapters || []).forEach(chapter => {
+                const chapterEl = document.createElement('section');
+                chapterEl.className = 'story-reader-chapter';
+
+                const title = document.createElement('h4');
+                title.textContent = chapter.title || `Chapter ${chapter.number || ''}`.trim();
+
+                const desc = document.createElement('p');
+                desc.textContent = chapter.fullDesc || chapter.shortDesc || '';
+
+                chapterEl.append(title, desc);
+                chaptersWrap.appendChild(chapterEl);
+            });
+
+            content.appendChild(chaptersWrap);
+            slide.appendChild(content);
+            storyReaderWrapper.appendChild(slide);
+        });
+
+        storyReaderSwiper = new Swiper('.story-reader-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 34,
+            loop: data.length > 1,
+            grabCursor: true,
+            effect: 'creative',
+            creativeEffect: {
+                limitProgress: 3,
+                prev: {
+                    translate: ['-110%', 0, -420],
+                    rotate: [0, 16, -10],
+                    opacity: 0.38,
+                    scale: 0.86
+                },
+                next: {
+                    translate: ['110%', 0, -420],
+                    rotate: [0, -16, 10],
+                    opacity: 0.38,
+                    scale: 0.86
+                }
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true
+            },
+            navigation: {
+                nextEl: '.story-reader-next',
+                prevEl: '.story-reader-prev'
+            },
+            pagination: {
+                el: '#story-reader-pagination',
+                clickable: true,
+                renderBullet(index, className) {
+                    const lore = data[index] || {};
+                    const cover = lore.cover || '';
+                    const hero = escapeHtml(lore.hero || `Story ${index + 1}`);
+                    return `<button class="${className}" type="button" aria-label="${hero} story"><img src="${cover}" alt="${hero}" loading="lazy" decoding="async"></button>`;
+                }
+            },
+            on: {
+                init(swiper) {
+                    setStoryReaderAccent(data[swiper.realIndex]);
+                    updateStoryReaderPagination(data.length, swiper.realIndex);
+                },
+                slideChange(swiper) {
+                    setStoryReaderAccent(data[swiper.realIndex]);
+                    updateStoryReaderPagination(data.length, swiper.realIndex);
+                }
+            }
+        });
+    }
+
+    function setStoryReaderAccent(lore) {
+        const reader = document.getElementById('story-reader-swiper');
+        if (!reader || !lore) return;
+        reader.dataset.loreSlug = lore.slug || '';
+    }
+
+    function updateStoryReaderPagination(total, activeIndex) {
+        const pagination = document.getElementById('story-reader-pagination');
+        if (!pagination) return;
+        const bullets = [...pagination.querySelectorAll('.swiper-pagination-bullet')];
+        if (!bullets.length) return;
+
+        if (total <= 7) {
+            bullets.forEach((bullet, index) => {
+                bullet.classList.remove('story-page-hidden');
+                bullet.dataset.arcOffset = String(index - activeIndex);
+                bullet.style.order = index;
+            });
+            return;
+        }
+
+        const visibleIndexes = Array.from({ length: 7 }, (_, position) => (
+            (activeIndex + position - 3 + total) % total
+        ));
+
+        bullets.forEach((bullet, index) => {
+            const position = visibleIndexes.indexOf(index);
+            if (position === -1) {
+                bullet.classList.add('story-page-hidden');
+                bullet.removeAttribute('data-arc-offset');
+                bullet.style.removeProperty('order');
+                return;
+            }
+
+            bullet.classList.remove('story-page-hidden');
+            bullet.dataset.arcOffset = String(position - 3);
+            bullet.style.order = position;
+        });
     }
 
     // ---------- Render cards ----------
@@ -245,10 +400,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             `;
             const coverImg = card.querySelector('.card-cover img');
             if (coverImg) {
-                setResponsiveImage(coverImg, lore.cover, {
-                    sizes: '(max-width: 520px) 92vw, (max-width: 1000px) 46vw, 300px',
-                    initialWidth: 480
-                });
+                setCoverImage(coverImg, lore.cover);
             }
             card.addEventListener('click', () => openModal(lore));
             grid.appendChild(card);
@@ -315,11 +467,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             const thumbSlide = document.createElement('div');
             thumbSlide.className = 'swiper-slide';
+            thumbSlide.dataset.thumbIndex = String(idx);
             const thumbImg = document.createElement('img');
             thumbImg.alt = `thumb ${titles[idx]}`;
             setResponsiveImage(thumbImg, url, {
                 sizes: '(max-width: 900px) 22vw, 130px',
                 initialWidth: 480
+            });
+            thumbSlide.addEventListener('click', () => {
+                if (mainSwiper) mainSwiper.slideToLoop(idx);
             });
             thumbSlide.appendChild(thumbImg);
             thumbSwiperWrapper.appendChild(thumbSlide);
@@ -348,6 +504,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 slideChange: () => {
                     if (mainSwiper) {
                         modalCaption.innerText = currentChapterTitles[mainSwiper.realIndex] || currentChapterTitles[0];
+                        updateModalThumbArc(currentChapterTitles.length, mainSwiper.realIndex);
                     }
                 }
             }
@@ -355,13 +512,56 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         thumbSwiper = new Swiper('.thumb-swiper', {
             direction: isMobile ? 'horizontal' : 'vertical',
-            slidesPerView: isMobile ? 4 : 5,
+            slidesPerView: 5,
             spaceBetween: 12,
             freeMode: true,
             watchSlidesProgress: true,
         });
         mainSwiper.params.thumbs.swiper = thumbSwiper;
         mainSwiper.thumbs.init();
+        updateModalThumbArc(currentChapterTitles.length, mainSwiper.realIndex || 0);
+    }
+
+    function updateModalThumbArc(total, activeIndex) {
+        if (!thumbSwiperWrapper) return;
+        const thumbs = [...thumbSwiperWrapper.querySelectorAll('.swiper-slide')];
+        if (!thumbs.length) return;
+
+        const activeSet = new Set();
+        if (total <= 5) {
+            thumbs.forEach((thumb, index) => {
+                const offset = index - activeIndex;
+                thumb.classList.remove('modal-thumb-hidden');
+                thumb.classList.toggle('swiper-slide-thumb-active', index === activeIndex);
+                thumb.dataset.arcOffset = String(offset);
+                thumb.style.order = index;
+            });
+            if (thumbSwiper) thumbSwiper.update();
+            return;
+        }
+
+        const visibleIndexes = Array.from({ length: 5 }, (_, position) => (
+            (activeIndex + position - 2 + total) % total
+        ));
+
+        visibleIndexes.forEach(index => activeSet.add(index));
+
+        thumbs.forEach((thumb, index) => {
+            const position = visibleIndexes.indexOf(index);
+            thumb.classList.toggle('modal-thumb-hidden', !activeSet.has(index));
+            thumb.classList.toggle('swiper-slide-thumb-active', index === activeIndex);
+
+            if (position === -1) {
+                thumb.removeAttribute('data-arc-offset');
+                thumb.style.removeProperty('order');
+                return;
+            }
+
+            thumb.dataset.arcOffset = String(position - 2);
+            thumb.style.order = position;
+        });
+
+        if (thumbSwiper) thumbSwiper.update();
     }
 
     let resizeTimeout;
@@ -497,8 +697,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         const term = searchInput.value.trim().toLowerCase();
         const filtered = storiesData.filter(lore =>
             lore.hero.toLowerCase().includes(term) ||
-            (lore.description && lore.description.toLowerCase().includes(term))
+            (lore.description && lore.description.toLowerCase().includes(term)) ||
+            (lore.chapters || []).some(chapter =>
+                `${chapter.title || ''} ${chapter.shortDesc || ''} ${chapter.fullDesc || ''}`.toLowerCase().includes(term)
+            )
         );
+        renderStoryReader(filtered);
         renderCards(filtered);
     }
 
@@ -513,10 +717,60 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (e.target === lightbox) closeLightbox();
         });
     }
+
+    function handleGalleryKeyboard(e, swiper) {
+        if (!swiper) return false;
+        const forwardKeys = ['ArrowRight', 'ArrowDown', 'PageDown', ' '];
+        const backwardKeys = ['ArrowLeft', 'ArrowUp', 'PageUp'];
+
+        if (forwardKeys.includes(e.key)) {
+            e.preventDefault();
+            swiper.slideNext();
+            return true;
+        }
+
+        if (backwardKeys.includes(e.key)) {
+            e.preventDefault();
+            swiper.slidePrev();
+            return true;
+        }
+
+        if (e.key === 'Home') {
+            e.preventDefault();
+            if (swiper.params.loop && typeof swiper.slideToLoop === 'function') swiper.slideToLoop(0);
+            else swiper.slideTo(0);
+            return true;
+        }
+
+        if (e.key === 'End') {
+            e.preventDefault();
+            const lastIndex = Math.max(0, (swiper.slides?.length || 1) - 1);
+            if (swiper.params.loop && typeof swiper.slideToLoop === 'function') {
+                const realLastIndex = Math.max(0, currentGalleryImages.length - 1);
+                swiper.slideToLoop(realLastIndex);
+            } else {
+                swiper.slideTo(lastIndex);
+            }
+            return true;
+        }
+
+        return false;
+    }
+
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
             if (lightbox && !lightbox.classList.contains('hidden')) closeLightbox();
             else if (modal && !modal.classList.contains('hidden')) closeModal();
+            return;
+        }
+
+        if (lightbox && !lightbox.classList.contains('hidden')) {
+            handleGalleryKeyboard(e, lightboxSwiper);
+            return;
+        }
+
+        if (modal && !modal.classList.contains('hidden')) {
+            handleGalleryKeyboard(e, mainSwiper);
         }
     });
     window.addEventListener('popstate', () => {

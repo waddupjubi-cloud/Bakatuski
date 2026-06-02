@@ -254,11 +254,9 @@ body.light-theme #search-input::placeholder {
 .stories-hero {
   height: 45vh;
   min-height: 360px;
-  background: radial-gradient(
-    ellipse at 30% 40%,
-    rgba(27, 218, 128, 0.12),
-    transparent
-  );
+  background: radial-gradient(ellipse at 30% 40%,
+      rgba(27, 218, 128, 0.12),
+      transparent);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -376,6 +374,300 @@ body.light-theme #search-input::placeholder {
 #search-input::placeholder {
   color: var(--gray-3);
   font-size: 0.9rem;
+}
+
+/* ---------- STORY READER SWIPER ---------- */
+.story-reader-section {
+  position: relative;
+  max-width: 1480px;
+  margin: 8px auto 82px;
+  padding: 28px 24px 0;
+  isolation: isolate;
+}
+
+.story-reader-section::before {
+  content: "";
+  position: absolute;
+  inset: 40px 4% 80px;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 18% 24%, rgba(27, 218, 128, 0.14), transparent 28%),
+    radial-gradient(circle at 78% 68%, rgba(255, 92, 0, 0.12), transparent 30%);
+  filter: blur(6px);
+  pointer-events: none;
+}
+
+.story-reader-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.story-reader-shell {
+  position: relative;
+}
+
+.story-reader-swiper {
+  width: 100%;
+  min-height: 680px;
+  padding: 18px 72px 30px;
+  overflow: hidden;
+  perspective: 1400px;
+}
+
+.story-reader-slide {
+  position: relative;
+  min-height: 620px;
+  border-radius: 8px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(27, 218, 128, 0.14), transparent 32%),
+    radial-gradient(circle at 88% 20%, rgba(255, 92, 0, 0.12), transparent 28%),
+    linear-gradient(110deg, rgba(3, 3, 10, 0.98), rgba(6, 12, 10, 0.92));
+  border: 1px solid rgba(27, 218, 128, 0.26);
+  box-shadow:
+    0 34px 80px rgba(0, 0, 0, 0.5),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  transform-style: preserve-3d;
+}
+
+.story-reader-slide::before,
+.story-reader-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.story-reader-slide::before {
+  background:
+    linear-gradient(90deg, rgba(3, 3, 10, 0.72) 0%, rgba(3, 3, 10, 0.36) 52%, rgba(3, 3, 10, 0.52) 100%),
+    repeating-linear-gradient(135deg, rgba(27, 218, 128, 0.055) 0 1px, transparent 1px 34px);
+  z-index: 1;
+}
+
+.story-reader-slide::after {
+  z-index: 2;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent 18%),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 84px);
+  mix-blend-mode: screen;
+  opacity: 0.35;
+}
+
+.story-reader-card {
+  position: relative;
+  z-index: 3;
+  height: 620px;
+  padding: clamp(28px, 4vw, 58px);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: var(--gray-1);
+}
+
+.story-reader-hero {
+  flex: 0 0 auto;
+  font-family: var(--font-head);
+  font-size: clamp(2.6rem, 6vw, 5.8rem);
+  font-weight: 800;
+  line-height: 0.9;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-shadow:
+    0 0 28px rgba(27, 218, 128, 0.26),
+    0 8px 28px rgba(0, 0, 0, 0.72);
+}
+
+.story-reader-chapters {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0 18px 8px 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--green-d) rgba(255, 255, 255, 0.06);
+}
+
+.story-reader-chapters::-webkit-scrollbar {
+  width: 5px;
+}
+
+.story-reader-chapters::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.story-reader-chapters::-webkit-scrollbar-thumb {
+  background: var(--green-d);
+  border-radius: 999px;
+}
+
+.story-reader-chapter {
+  max-width: 980px;
+  padding: 22px 0 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.story-reader-chapter:first-child {
+  border-top-color: rgba(27, 218, 128, 0.42);
+}
+
+.story-reader-chapter h4 {
+  font-family: var(--font-head);
+  font-size: clamp(1.32rem, 2.2vw, 2rem);
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--green);
+  margin-bottom: 10px;
+}
+
+.story-reader-chapter p {
+  max-width: 920px;
+  font-size: clamp(0.95rem, 1.1vw, 1.08rem);
+  line-height: 1.86;
+  color: rgba(225, 231, 224, 0.92);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.48);
+  white-space: pre-line;
+}
+
+.story-reader-loading {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: var(--surface-dark);
+  color: var(--gray-2);
+  font-family: var(--font-head);
+  font-size: 1.2rem;
+}
+
+.story-reader-swiper .swiper-button-next,
+.story-reader-swiper .swiper-button-prev {
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(27, 218, 128, 0.22);
+  background: rgba(3, 3, 10, 0.72);
+  color: var(--green);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+}
+
+.story-reader-swiper .swiper-button-next:hover,
+.story-reader-swiper .swiper-button-prev:hover {
+  background: var(--orange);
+  color: var(--white);
+  border-color: var(--orange);
+}
+
+.story-reader-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: min(1120px, calc(100vw - 32px));
+  margin: 4px auto 0;
+  padding: 10px 12px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  min-height: 96px;
+}
+
+.story-reader-pagination .swiper-pagination-bullet {
+  flex: 0 0 auto;
+  width: 58px;
+  height: 58px;
+  margin: 0 !important;
+  padding: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0.54;
+  background: var(--card-dark);
+  border: 2px solid transparent;
+  filter: grayscale(0.5) brightness(0.78);
+  transition:
+    transform 0.24s var(--ease-out),
+    opacity 0.24s,
+    filter 0.24s,
+    border-color 0.24s;
+}
+
+.story-reader-pagination .story-page-hidden {
+  display: none;
+}
+
+.story-reader-pagination .swiper-pagination-bullet img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+.story-reader-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  filter: grayscale(0) brightness(1.05);
+  transform: translateY(-4px) scale(1.1);
+  border-color: var(--orange);
+  box-shadow:
+    0 0 0 3px rgba(255, 92, 0, 0.12),
+    0 12px 26px rgba(0, 0, 0, 0.34);
+}
+
+.story-reader-pagination .swiper-pagination-bullet[data-arc-offset="-3"],
+.story-reader-pagination .swiper-pagination-bullet[data-arc-offset="3"] {
+  transform: translateY(24px) scale(0.76);
+}
+
+.story-reader-pagination .swiper-pagination-bullet[data-arc-offset="-2"],
+.story-reader-pagination .swiper-pagination-bullet[data-arc-offset="2"] {
+  transform: translateY(14px) scale(0.86);
+}
+
+.story-reader-pagination .swiper-pagination-bullet[data-arc-offset="-1"],
+.story-reader-pagination .swiper-pagination-bullet[data-arc-offset="1"] {
+  transform: translateY(-4px) scale(0.96);
+}
+
+.story-reader-pagination .swiper-pagination-bullet-active[data-arc-offset="0"] {
+  transform: translateY(-16px) scale(1.16);
+}
+
+body.light-theme .story-reader-slide {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(22, 138, 76, 0.12), transparent 32%),
+    radial-gradient(circle at 88% 20%, rgba(217, 121, 24, 0.1), transparent 28%),
+    linear-gradient(110deg, rgba(248, 252, 241, 0.97), rgba(238, 247, 231, 0.9));
+  border-color: rgba(22, 138, 76, 0.22);
+  box-shadow: 0 30px 70px rgba(40, 80, 43, 0.16);
+}
+
+body.light-theme .story-reader-slide::before {
+  background:
+    linear-gradient(90deg, rgba(248, 252, 241, 0.62) 0%, rgba(238, 247, 231, 0.3) 52%, rgba(238, 247, 231, 0.46) 100%),
+    repeating-linear-gradient(135deg, rgba(22, 138, 76, 0.08) 0 1px, transparent 1px 34px);
+}
+
+body.light-theme .story-reader-hero {
+  color: #142619;
+  text-shadow: 0 8px 24px rgba(40, 80, 43, 0.13);
+}
+
+body.light-theme .story-reader-chapter {
+  border-top-color: rgba(22, 138, 76, 0.16);
+}
+
+body.light-theme .story-reader-chapter h4 {
+  color: var(--green-d);
+}
+
+body.light-theme .story-reader-chapter p {
+  color: #263b2b;
+  text-shadow: none;
+}
+
+body.light-theme .story-reader-swiper .swiper-button-next,
+body.light-theme .story-reader-swiper .swiper-button-prev {
+  background: rgba(255, 255, 250, 0.82);
+  color: var(--green-d);
 }
 
 /* ---------- LORE GRID (cards) ---------- */
@@ -652,113 +944,1275 @@ body.light-theme #search-input::placeholder {
   z-index: 2;
 }
 
-.lore-modal[data-lore-slug="argus"], .lightbox[data-lore-slug="argus"] { --lore-a: #6df542; --lore-b: #7028b8; --lore-swipe-effect: radial-gradient(circle, rgba(109,245,66,.3), transparent 28%), linear-gradient(115deg, transparent 35%, rgba(112,40,184,.36), transparent 68%); --lore-slide-animation: abyssWing 700ms var(--ease-out) both; --lore-effect-animation: loreSweep 760ms ease-out both; }
-.lore-modal[data-lore-slug="fanny"], .lightbox[data-lore-slug="fanny"] { --lore-a: #8fd7ff; --lore-b: #d6b36a; --lore-swipe-effect: repeating-linear-gradient(115deg, transparent 0 18px, rgba(143,215,255,.34) 19px 21px, transparent 22px 42px); --lore-slide-animation: cableDash 620ms var(--ease-out) both; --lore-effect-animation: fastSweep 520ms ease-out both; }
-.lore-modal[data-lore-slug="ling"], .lightbox[data-lore-slug="ling"] { --lore-a: #7ce7ff; --lore-b: #b88cff; --lore-swipe-effect: linear-gradient(135deg, transparent 28%, rgba(124,231,255,.26), transparent 48%), linear-gradient(45deg, transparent 52%, rgba(184,140,255,.22), transparent 70%); --lore-slide-animation: cloudStep 680ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="aamon"], .lightbox[data-lore-slug="aamon"] { --lore-a: #b891ff; --lore-b: #7ee8ff; --lore-swipe-effect: radial-gradient(circle at 30% 30%, rgba(184,145,255,.32), transparent 14%), radial-gradient(circle at 70% 62%, rgba(126,232,255,.24), transparent 12%); --lore-slide-animation: shardFade 700ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="layla"], .lightbox[data-lore-slug="layla"] { --lore-a: #49b7ff; --lore-b: #ffd166; --lore-swipe-effect: radial-gradient(circle at 50% 50%, rgba(73,183,255,.4), transparent 18%), linear-gradient(90deg, transparent, rgba(255,209,102,.25), transparent); --lore-slide-animation: cannonPulse 700ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="granger"], .lightbox[data-lore-slug="granger"] { --lore-a: #d94b57; --lore-b: #c8c8e0; --lore-swipe-effect: repeating-linear-gradient(90deg, transparent 0 28px, rgba(217,75,87,.32) 29px 31px), linear-gradient(115deg, transparent, rgba(200,200,224,.24), transparent); --lore-slide-animation: finalBullet 660ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="benedetta"], .lightbox[data-lore-slug="benedetta"] { --lore-a: #ff7a45; --lore-b: #7aa2ff; --lore-swipe-effect: linear-gradient(122deg, transparent 38%, rgba(255,122,69,.34) 39% 42%, transparent 44%); --lore-slide-animation: bladeParry 640ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="lunox"], .lightbox[data-lore-slug="lunox"] { --lore-a: #ffd86b; --lore-b: #8a5cff; --lore-swipe-effect: linear-gradient(90deg, rgba(255,216,107,.24), transparent 48%, rgba(138,92,255,.28)); --lore-slide-animation: dualBalance 760ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="sun"], .lightbox[data-lore-slug="sun"] { --lore-a: #ffb43b; --lore-b: #63e070; --lore-swipe-effect: repeating-radial-gradient(circle, rgba(255,180,59,.28) 0 3px, transparent 4px 18px); --lore-slide-animation: clonePop 700ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="kagura"], .lightbox[data-lore-slug="kagura"] { --lore-a: #ff8fca; --lore-b: #8fd7ff; --lore-swipe-effect: radial-gradient(circle at 50% 50%, transparent 0 18%, rgba(255,143,202,.28) 19% 22%, transparent 23%); --lore-slide-animation: umbrellaSpin 760ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="dyrroth"], .lightbox[data-lore-slug="dyrroth"] { --lore-a: #ff405c; --lore-b: #45127a; --lore-swipe-effect: linear-gradient(135deg, transparent, rgba(255,64,92,.34), rgba(69,18,122,.28), transparent); --lore-slide-animation: abyssRift 700ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="saber"], .lightbox[data-lore-slug="saber"] { --lore-a: #63e7ff; --lore-b: #c9d4ff; --lore-swipe-effect: repeating-linear-gradient(100deg, transparent 0 12px, rgba(99,231,255,.3) 13px 15px, transparent 16px 32px); --lore-slide-animation: cyberCut 620ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="chou"], .lightbox[data-lore-slug="chou"] { --lore-a: #ffcf64; --lore-b: #3fe48f; --lore-swipe-effect: radial-gradient(circle at 42% 56%, rgba(255,207,100,.34), transparent 18%); --lore-slide-animation: kickSnap 620ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="suyou"], .lightbox[data-lore-slug="suyou"] { --lore-a: #a8ffe5; --lore-b: #5a78ff; --lore-swipe-effect: radial-gradient(ellipse at center, rgba(168,255,229,.28), transparent 32%); --lore-slide-animation: spiritMask 760ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="alucard"], .lightbox[data-lore-slug="alucard"] { --lore-a: #f3d17a; --lore-b: #9c3bff; --lore-swipe-effect: linear-gradient(110deg, transparent 30%, rgba(156,59,255,.32), rgba(243,209,122,.22), transparent 70%); --lore-slide-animation: demonHunt 680ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="franco"], .lightbox[data-lore-slug="franco"] { --lore-a: #8ed8ff; --lore-b: #d7f0ff; --lore-swipe-effect: repeating-linear-gradient(0deg, rgba(142,216,255,.18) 0 2px, transparent 3px 16px); --lore-slide-animation: hookDrag 720ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="alice"], .lightbox[data-lore-slug="alice"] { --lore-a: #ff3d7f; --lore-b: #7b1cc9; --lore-swipe-effect: radial-gradient(circle, rgba(255,61,127,.34), transparent 22%), linear-gradient(130deg, transparent, rgba(123,28,201,.24), transparent); --lore-slide-animation: bloodQueen 740ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="hanabi"], .lightbox[data-lore-slug="hanabi"] { --lore-a: #ff4f93; --lore-b: #c7ff5c; --lore-swipe-effect: radial-gradient(circle at 35% 35%, rgba(255,79,147,.26), transparent 18%), radial-gradient(circle at 64% 62%, rgba(199,255,92,.2), transparent 14%); --lore-slide-animation: petalStrike 760ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="martis"], .lightbox[data-lore-slug="martis"] { --lore-a: #ff3333; --lore-b: #ffb13b; --lore-swipe-effect: conic-gradient(from 90deg, transparent, rgba(255,51,51,.32), transparent, rgba(255,177,59,.22), transparent); --lore-slide-animation: ashuraClash 700ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="lukas"], .lightbox[data-lore-slug="lukas"] { --lore-a: #39e08a; --lore-b: #ffd05a; --lore-swipe-effect: radial-gradient(circle at 50% 60%, rgba(57,224,138,.32), transparent 28%); --lore-slide-animation: beastResolve 720ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="zhuxin"], .lightbox[data-lore-slug="zhuxin"] { --lore-a: #81ffd9; --lore-b: #ffcf75; --lore-swipe-effect: radial-gradient(circle at 28% 32%, rgba(129,255,217,.24), transparent 9%), radial-gradient(circle at 72% 58%, rgba(255,207,117,.22), transparent 10%); --lore-slide-animation: lanternDrift 800ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="zetian"], .lightbox[data-lore-slug="zetian"] { --lore-a: #ffb039; --lore-b: #ff495f; --lore-swipe-effect: radial-gradient(ellipse at center, rgba(255,176,57,.32), transparent 28%), linear-gradient(0deg, rgba(255,73,95,.22), transparent 56%); --lore-slide-animation: phoenixRise 820ms var(--ease-out) both; }
-.lore-modal[data-lore-slug="hirara"], .lightbox[data-lore-slug="hirara"] { --lore-a: #ff315e; --lore-b: #101018; --lore-swipe-effect: linear-gradient(120deg, transparent 35%, rgba(255,49,94,.38) 40%, transparent 48%), radial-gradient(circle, rgba(255,255,255,.12), transparent 18%); --lore-slide-animation: scarletDance 760ms var(--ease-out) both; }
+.lore-modal[data-lore-slug="argus"],
+.lightbox[data-lore-slug="argus"] {
+  --lore-a: #6df542;
+  --lore-b: #7028b8;
+  --lore-swipe-effect: radial-gradient(circle, rgba(109, 245, 66, .3), transparent 28%), linear-gradient(115deg, transparent 35%, rgba(112, 40, 184, .36), transparent 68%);
+  --lore-slide-animation: abyssWing 700ms var(--ease-out) both;
+  --lore-effect-animation: loreSweep 760ms ease-out both;
+}
 
-.lightbox[data-lore-slug="argus"] { --lightbox-effect: radial-gradient(ellipse at 44% 54%, rgba(0,0,0,.82), transparent 34%), radial-gradient(circle at 38% 48%, rgba(64,255,63,.34), transparent 12%), repeating-radial-gradient(circle, rgba(2,8,3,.55) 0 6px, transparent 7px 26px); --lightbox-motif: linear-gradient(120deg, transparent 35%, rgba(75,255,73,.28), transparent 62%); --lightbox-effect-animation: smokeShift 1200ms ease-out both; --lightbox-motif-animation: abyssBreath 1100ms ease-out both; }
-.lightbox[data-lore-slug="fanny"] { --lightbox-effect: radial-gradient(circle at 30% 34%, rgba(255,223,121,.72), transparent 3%), radial-gradient(circle at 60% 56%, rgba(255,247,190,.58), transparent 3%), radial-gradient(circle at 76% 28%, rgba(255,184,72,.5), transparent 4%), linear-gradient(115deg, transparent, rgba(255,213,98,.2), transparent); --lightbox-motif: repeating-linear-gradient(115deg, transparent 0 24px, rgba(255,222,130,.5) 25px 27px, transparent 28px 52px); --lightbox-effect-animation: sparkleBurst 900ms ease-out both; --lightbox-motif-animation: fastSweep 620ms ease-out both; }
-.lightbox[data-lore-slug="ling"] { --lightbox-effect: linear-gradient(132deg, transparent 30%, rgba(173,240,255,.62) 31% 33%, transparent 35%), linear-gradient(48deg, transparent 58%, rgba(207,214,255,.42) 59% 61%, transparent 64%); --lightbox-motif: conic-gradient(from 22deg, transparent, rgba(126,231,255,.22), transparent 24%, rgba(255,255,255,.24), transparent 42%); --lightbox-effect-animation: swordFlash 760ms ease-out both; --lightbox-motif-animation: orbitGlimmer 1000ms ease-out both; }
-.lightbox[data-lore-slug="aamon"] { --lightbox-effect: conic-gradient(from 45deg, transparent, rgba(184,145,255,.35), transparent 18%, rgba(126,232,255,.28), transparent 34%), radial-gradient(circle at 28% 30%, rgba(255,255,255,.38), transparent 6%); --lightbox-motif: linear-gradient(35deg, transparent 42%, rgba(216,233,255,.45) 43% 46%, transparent 48%), linear-gradient(145deg, transparent 54%, rgba(184,145,255,.36) 55% 58%, transparent 60%); --lightbox-effect-animation: diamondScatter 940ms ease-out both; --lightbox-motif-animation: shardOrbit 940ms ease-out both; }
-.lightbox[data-lore-slug="layla"] { --lightbox-effect: linear-gradient(90deg, transparent 0 22%, rgba(66,183,255,.92) 43% 48%, rgba(255,255,255,.76) 49% 51%, rgba(66,183,255,.92) 52% 58%, transparent 78%), radial-gradient(circle at 50% 50%, rgba(61,180,255,.42), transparent 19%); --lightbox-motif: radial-gradient(circle at 50% 50%, rgba(255,221,126,.38), transparent 12%); --lightbox-effect-animation: laserFire 780ms ease-out both; --lightbox-motif-animation: cannonRecoil 820ms ease-out both; }
-.lightbox[data-lore-slug="granger"] { --lightbox-effect: radial-gradient(circle at 18% 45%, rgba(255,238,210,.66), transparent 4%), radial-gradient(circle at 36% 45%, rgba(255,238,210,.56), transparent 4%), radial-gradient(circle at 54% 45%, rgba(255,238,210,.5), transparent 4%), linear-gradient(90deg, transparent, rgba(217,75,87,.34), transparent); --lightbox-motif: repeating-linear-gradient(90deg, transparent 0 42px, rgba(255,226,180,.5) 43px 46px, transparent 47px 80px); --lightbox-effect-animation: bulletVolley 820ms ease-out both; --lightbox-motif-animation: muzzleFade 920ms ease-out both; }
-.lightbox[data-lore-slug="benedetta"] { --lightbox-effect: linear-gradient(120deg, transparent 38%, rgba(255,53,72,.72) 39% 42%, rgba(67,255,141,.34) 43% 45%, transparent 48%); --lightbox-motif: linear-gradient(30deg, transparent, rgba(255,255,255,.28), transparent 62%); --lightbox-effect-animation: swordSlash 700ms ease-out both; --lightbox-motif-animation: loreSweep 720ms ease-out both; }
-.lightbox[data-lore-slug="lunox"] { --lightbox-effect: radial-gradient(circle at 34% 50%, rgba(255,216,107,.45), transparent 13%), radial-gradient(circle at 66% 50%, rgba(138,92,255,.48), transparent 13%); --lightbox-motif: conic-gradient(from 180deg, rgba(255,216,107,.24), transparent 28%, rgba(138,92,255,.28), transparent 62%, rgba(255,216,107,.2)); --lightbox-effect-animation: dualOrbs 1200ms ease-out both; --lightbox-motif-animation: orbitGlimmer 1300ms ease-out both; }
-.lightbox[data-lore-slug="sun"] { --lightbox-effect: radial-gradient(ellipse at 30% 50%, rgba(255,255,255,.28), transparent 18%), radial-gradient(ellipse at 66% 42%, rgba(255,226,135,.24), transparent 20%); --lightbox-motif: linear-gradient(90deg, rgba(255,255,255,.18), transparent 35%, rgba(255,180,59,.18), transparent); --lightbox-effect-animation: cloudShift 1200ms ease-out both; --lightbox-motif-animation: clonePop 900ms ease-out both; }
-.lightbox[data-lore-slug="kagura"] { --lightbox-effect: radial-gradient(circle at center, transparent 0 16%, rgba(255,143,202,.58) 17% 19%, transparent 20% 28%, rgba(143,215,255,.36) 29% 31%, transparent 32%); --lightbox-motif: conic-gradient(from 0deg, transparent, rgba(255,143,202,.25), transparent 24%, rgba(143,215,255,.22), transparent 50%); --lightbox-effect-animation: umbrellaShift 1000ms ease-out both; --lightbox-motif-animation: umbrellaSpinFx 980ms ease-out both; }
-.lightbox[data-lore-slug="dyrroth"] { --lightbox-effect: radial-gradient(ellipse at 44% 54%, rgba(47,4,60,.82), transparent 34%), radial-gradient(circle at 42% 50%, rgba(255,38,70,.38), transparent 14%), repeating-radial-gradient(circle, rgba(34,0,44,.54) 0 6px, transparent 7px 28px); --lightbox-motif: linear-gradient(120deg, transparent 32%, rgba(255,42,84,.28), rgba(94,23,160,.24), transparent 68%); --lightbox-effect-animation: smokeShift 1200ms ease-out both; --lightbox-motif-animation: abyssBreath 1100ms ease-out both; }
-.lightbox[data-lore-slug="saber"] { --lightbox-effect: conic-gradient(from 0deg, transparent, rgba(99,231,255,.38), transparent 16%, rgba(255,255,255,.32), transparent 30%, rgba(99,231,255,.3), transparent 48%); --lightbox-motif: repeating-linear-gradient(100deg, transparent 0 18px, rgba(201,212,255,.46) 19px 21px, transparent 22px 44px); --lightbox-effect-animation: bladeOrbit 1050ms ease-out both; --lightbox-motif-animation: cyberCut 760ms ease-out both; }
-.lightbox[data-lore-slug="chou"] { --lightbox-effect: radial-gradient(ellipse at 48% 58%, rgba(255,207,100,.5), transparent 18%), linear-gradient(28deg, transparent 44%, rgba(63,228,143,.34) 45% 48%, transparent 50%); --lightbox-motif: radial-gradient(ellipse at 56% 58%, rgba(255,255,255,.3), transparent 10%); --lightbox-effect-animation: kickImpact 780ms ease-out both; --lightbox-motif-animation: shockRing 860ms ease-out both; }
-.lightbox[data-lore-slug="suyou"] { --lightbox-effect: radial-gradient(ellipse at center, rgba(168,255,229,.46), transparent 24%), linear-gradient(120deg, transparent, rgba(90,120,255,.28), transparent); --lightbox-motif: conic-gradient(from 90deg, transparent, rgba(168,255,229,.24), transparent 38%, rgba(255,255,255,.2), transparent 70%); --lightbox-effect-animation: immortalShift 1100ms ease-out both; --lightbox-motif-animation: spiritMask 980ms ease-out both; }
-.lightbox[data-lore-slug="alucard"] { --lightbox-effect: radial-gradient(ellipse at center, rgba(64,167,255,.38), transparent 30%), linear-gradient(120deg, transparent, rgba(156,59,255,.24), transparent); --lightbox-motif: radial-gradient(circle at 50% 50%, transparent 0 17%, rgba(64,167,255,.42) 18% 20%, transparent 21%); --lightbox-effect-animation: blueAura 1100ms ease-out both; --lightbox-motif-animation: shockRing 980ms ease-out both; }
-.lightbox[data-lore-slug="franco"] { --lightbox-effect: linear-gradient(90deg, transparent 0 18%, rgba(142,216,255,.62) 19% 22%, transparent 23% 100%), repeating-linear-gradient(90deg, transparent 0 32px, rgba(215,240,255,.28) 33px 36px, transparent 37px 68px); --lightbox-motif: radial-gradient(circle at 24% 50%, rgba(215,240,255,.42), transparent 9%); --lightbox-effect-animation: hookPull 900ms ease-out both; --lightbox-motif-animation: hookSpark 920ms ease-out both; }
-.lightbox[data-lore-slug="alice"] { --lightbox-effect: radial-gradient(circle at 50% 50%, rgba(255,22,88,.5), transparent 22%), radial-gradient(ellipse at 40% 70%, rgba(96,0,46,.62), transparent 24%); --lightbox-motif: linear-gradient(180deg, rgba(255,61,127,.28), transparent 64%); --lightbox-effect-animation: bloodWash 980ms ease-out both; --lightbox-motif-animation: bloodDrip 1050ms ease-out both; }
-.lightbox[data-lore-slug="hanabi"] { --lightbox-effect: radial-gradient(ellipse at 30% 36%, rgba(255,34,79,.48), transparent 9%), radial-gradient(ellipse at 56% 64%, rgba(255,79,147,.42), transparent 10%), radial-gradient(ellipse at 72% 38%, rgba(255,34,79,.38), transparent 8%); --lightbox-motif: conic-gradient(from 20deg, transparent, rgba(255,34,79,.26), transparent 18%, rgba(199,255,92,.16), transparent 38%); --lightbox-effect-animation: lilyScatter 1000ms ease-out both; --lightbox-motif-animation: petalStrike 900ms ease-out both; }
-.lightbox[data-lore-slug="martis"] { --lightbox-effect: radial-gradient(ellipse at center, rgba(20,10,27,.86), transparent 36%), conic-gradient(from 90deg, rgba(82,34,141,.4), transparent 26%, rgba(255,255,255,.2), transparent 52%, rgba(0,0,0,.54), transparent 80%); --lightbox-motif: radial-gradient(ellipse at 34% 50%, rgba(255,255,255,.22), transparent 18%), radial-gradient(ellipse at 68% 52%, rgba(255,255,255,.16), transparent 20%); --lightbox-effect-animation: ashuraAura 1200ms ease-out both; --lightbox-motif-animation: smokeShift 1100ms ease-out both; }
-.lightbox[data-lore-slug="lukas"] { --lightbox-effect: linear-gradient(128deg, transparent 38%, rgba(255,255,255,.86) 39% 41%, rgba(85,215,255,.62) 42% 44%, transparent 46%), linear-gradient(48deg, transparent 55%, rgba(255,222,118,.58) 56% 58%, transparent 60%); --lightbox-motif: radial-gradient(circle at 30% 36%, rgba(255,244,168,.52), transparent 4%), radial-gradient(circle at 72% 64%, rgba(255,244,168,.44), transparent 4%); --lightbox-effect-animation: thunderCrack 780ms ease-out both; --lightbox-motif-animation: sparkleBurst 900ms ease-out both; }
-.lightbox[data-lore-slug="zhuxin"] { --lightbox-effect: radial-gradient(ellipse at 28% 42%, rgba(129,255,217,.34), transparent 11%), radial-gradient(ellipse at 66% 58%, rgba(255,207,117,.28), transparent 10%), radial-gradient(ellipse at 52% 30%, rgba(129,255,217,.24), transparent 8%); --lightbox-motif: conic-gradient(from 45deg, transparent, rgba(129,255,217,.22), transparent 22%, rgba(255,207,117,.18), transparent 48%); --lightbox-effect-animation: butterflyDrift 1300ms ease-out both; --lightbox-motif-animation: lanternDrift 1000ms ease-out both; }
-.lightbox[data-lore-slug="zetian"] { --lightbox-effect: radial-gradient(ellipse at 50% 58%, rgba(255,176,57,.48), transparent 20%), linear-gradient(0deg, rgba(255,73,95,.34), transparent 58%); --lightbox-motif: conic-gradient(from 180deg, transparent, rgba(255,176,57,.4), transparent 22%, rgba(255,73,95,.3), transparent 46%); --lightbox-effect-animation: phoenixFlare 1200ms ease-out both; --lightbox-motif-animation: phoenixWing 1100ms ease-out both; }
-.lightbox[data-lore-slug="hirara"] { --lightbox-effect: radial-gradient(ellipse at 38% 62%, rgba(255,49,94,.5), transparent 16%), radial-gradient(ellipse at 62% 54%, rgba(130,49,255,.42), transparent 16%), linear-gradient(0deg, rgba(255,49,94,.24), transparent 62%); --lightbox-motif: conic-gradient(from 220deg, transparent, rgba(255,49,94,.34), transparent 26%, rgba(130,49,255,.3), transparent 54%); --lightbox-effect-animation: twinFlames 1150ms ease-out both; --lightbox-motif-animation: scarletDance 960ms ease-out both; }
+.lore-modal[data-lore-slug="fanny"],
+.lightbox[data-lore-slug="fanny"] {
+  --lore-a: #8fd7ff;
+  --lore-b: #d6b36a;
+  --lore-swipe-effect: repeating-linear-gradient(115deg, transparent 0 18px, rgba(143, 215, 255, .34) 19px 21px, transparent 22px 42px);
+  --lore-slide-animation: cableDash 620ms var(--ease-out) both;
+  --lore-effect-animation: fastSweep 520ms ease-out both;
+}
 
-@keyframes loreSweep { 0% { opacity: 0; transform: translateX(-42%) skewX(-14deg); } 35% { opacity: 1; } 100% { opacity: 0; transform: translateX(42%) skewX(-14deg); } }
-@keyframes fastSweep { 0% { opacity: 0; transform: translateX(-62%); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateX(62%); } }
-@keyframes lorePulseIn { 0% { opacity: .64; transform: scale(.96); filter: saturate(.7); } 100% { opacity: 1; transform: scale(1); filter: saturate(1); } }
-@keyframes abyssWing { 0% { opacity: .5; transform: scale(.9) rotate(-2deg); filter: hue-rotate(34deg) contrast(1.2); } 100% { opacity: 1; transform: scale(1) rotate(0); filter: none; } }
-@keyframes cableDash { 0% { opacity: .2; transform: translateX(42px) skewX(-7deg) scale(.98); } 100% { opacity: 1; transform: none; } }
-@keyframes cloudStep { 0% { opacity: .1; transform: translateY(-26px) scale(1.04); filter: blur(8px); } 100% { opacity: 1; transform: none; filter: none; } }
-@keyframes shardFade { 0% { opacity: 0; transform: scale(1.08); clip-path: polygon(8% 0,100% 0,88% 100%,0 86%); } 100% { opacity: 1; transform: scale(1); clip-path: polygon(0 0,100% 0,100% 100%,0 100%); } }
-@keyframes cannonPulse { 0% { opacity: .4; transform: scale(.92); filter: brightness(1.5); } 62% { transform: scale(1.035); } 100% { opacity: 1; transform: scale(1); filter: none; } }
-@keyframes finalBullet { 0% { opacity: .25; transform: translateX(-34px); filter: contrast(1.45) grayscale(.35); } 100% { opacity: 1; transform: none; filter: none; } }
-@keyframes bladeParry { 0% { opacity: .35; transform: translateX(-30px) rotate(-1.5deg); } 55% { transform: translateX(8px) rotate(.8deg); } 100% { opacity: 1; transform: none; } }
-@keyframes dualBalance { 0% { opacity: .2; transform: rotateY(18deg) scale(.96); filter: hue-rotate(20deg); } 100% { opacity: 1; transform: none; filter: none; } }
-@keyframes clonePop { 0% { opacity: .2; transform: scale(.86); } 50% { filter: drop-shadow(-18px 0 0 rgba(255,180,59,.18)) drop-shadow(18px 0 0 rgba(99,224,112,.16)); } 100% { opacity: 1; transform: scale(1); filter: none; } }
-@keyframes umbrellaSpin { 0% { opacity: .2; transform: rotate(-4deg) scale(.94); } 100% { opacity: 1; transform: rotate(0) scale(1); } }
-@keyframes abyssRift { 0% { opacity: .3; transform: scale(.95) translateY(22px); filter: saturate(1.6); } 100% { opacity: 1; transform: none; filter: none; } }
-@keyframes cyberCut { 0% { opacity: .2; transform: translateX(24px); clip-path: inset(0 0 0 80%); } 100% { opacity: 1; transform: none; clip-path: inset(0); } }
-@keyframes kickSnap { 0% { opacity: .25; transform: translateY(22px) rotate(2deg); } 58% { transform: translateY(-6px) rotate(-.8deg); } 100% { opacity: 1; transform: none; } }
-@keyframes spiritMask { 0% { opacity: .1; transform: scale(1.06); filter: blur(10px); } 100% { opacity: 1; transform: scale(1); filter: none; } }
-@keyframes demonHunt { 0% { opacity: .25; transform: translateX(-24px) scale(.98); filter: sepia(.35); } 100% { opacity: 1; transform: none; filter: none; } }
-@keyframes hookDrag { 0% { opacity: .35; transform: translateX(-48px) scale(.98); } 70% { transform: translateX(6px) scale(1.01); } 100% { opacity: 1; transform: none; } }
-@keyframes bloodQueen { 0% { opacity: .2; transform: scale(.9); filter: saturate(1.8); } 100% { opacity: 1; transform: scale(1); filter: none; } }
-@keyframes petalStrike { 0% { opacity: .3; transform: translate(18px, -18px) rotate(2deg); } 100% { opacity: 1; transform: none; } }
-@keyframes ashuraClash { 0% { opacity: .25; transform: scale(1.08) rotate(-2deg); filter: contrast(1.35); } 100% { opacity: 1; transform: scale(1) rotate(0); filter: none; } }
-@keyframes beastResolve { 0% { opacity: .3; transform: scale(.9); filter: contrast(1.25); } 52% { transform: scale(1.045); } 100% { opacity: 1; transform: scale(1); filter: none; } }
-@keyframes lanternDrift { 0% { opacity: .15; transform: translateY(30px) scale(.98); filter: blur(7px); } 100% { opacity: 1; transform: none; filter: none; } }
-@keyframes phoenixRise { 0% { opacity: .2; transform: translateY(42px) scale(.94); filter: brightness(1.45); } 100% { opacity: 1; transform: none; filter: none; } }
-@keyframes scarletDance { 0% { opacity: .2; transform: translateX(30px) rotate(3deg) scale(.96); } 100% { opacity: 1; transform: none; } }
-@keyframes motifBloom { 0% { opacity: 0; transform: scale(.72) rotate(-10deg); } 42% { opacity: 1; } 100% { opacity: 0; transform: scale(1.18) rotate(8deg); } }
-@keyframes smokeShift { 0% { opacity: 0; transform: translateX(-12%) scale(.88); filter: blur(14px); } 45% { opacity: 1; } 100% { opacity: 0; transform: translateX(12%) scale(1.08); filter: blur(2px); } }
-@keyframes abyssBreath { 0% { opacity: 0; transform: scale(.72); } 50% { opacity: .9; } 100% { opacity: 0; transform: scale(1.16); } }
-@keyframes sparkleBurst { 0% { opacity: 0; transform: scale(.6) rotate(-12deg); } 38% { opacity: 1; } 100% { opacity: 0; transform: scale(1.18) rotate(10deg); } }
-@keyframes swordFlash { 0% { opacity: 0; transform: translateX(-44%) skewX(-18deg); } 35% { opacity: 1; } 100% { opacity: 0; transform: translateX(44%) skewX(-18deg); } }
-@keyframes orbitGlimmer { 0% { opacity: 0; transform: scale(.75) rotate(-80deg); } 45% { opacity: 1; } 100% { opacity: 0; transform: scale(1.12) rotate(80deg); } }
-@keyframes diamondScatter { 0% { opacity: 0; transform: scale(.72) rotate(22deg); filter: blur(8px); } 45% { opacity: 1; } 100% { opacity: 0; transform: scale(1.18) rotate(-16deg); filter: blur(0); } }
-@keyframes shardOrbit { 0% { opacity: 0; transform: rotate(-28deg) scale(.88); } 50% { opacity: 1; } 100% { opacity: 0; transform: rotate(28deg) scale(1.08); } }
-@keyframes laserFire { 0% { opacity: 0; transform: translateX(-55%) scaleX(.35); } 24% { opacity: 1; } 100% { opacity: 0; transform: translateX(38%) scaleX(1.18); } }
-@keyframes cannonRecoil { 0% { opacity: 0; transform: scale(.7); } 38% { opacity: 1; } 100% { opacity: 0; transform: scale(1.28); } }
-@keyframes bulletVolley { 0% { opacity: 0; transform: translateX(-42%); } 28% { opacity: 1; } 100% { opacity: 0; transform: translateX(48%); } }
-@keyframes muzzleFade { 0% { opacity: 0; transform: scale(.7); } 30% { opacity: 1; } 100% { opacity: 0; transform: scale(1.3); } }
-@keyframes swordSlash { 0% { opacity: 0; transform: translateX(-36%) rotate(-7deg); } 35% { opacity: 1; } 100% { opacity: 0; transform: translateX(36%) rotate(-7deg); } }
-@keyframes dualOrbs { 0% { opacity: 0; transform: scale(.82) rotate(-30deg); } 46% { opacity: 1; } 100% { opacity: 0; transform: scale(1.08) rotate(30deg); } }
-@keyframes cloudShift { 0% { opacity: 0; transform: translateX(-18%) scale(.9); filter: blur(10px); } 48% { opacity: 1; } 100% { opacity: 0; transform: translateX(18%) scale(1.12); filter: blur(2px); } }
-@keyframes umbrellaShift { 0% { opacity: 0; transform: scale(.58) rotate(-120deg); } 45% { opacity: 1; } 100% { opacity: 0; transform: scale(1.08) rotate(90deg); } }
-@keyframes umbrellaSpinFx { 0% { opacity: 0; transform: rotate(-160deg) scale(.86); } 50% { opacity: 1; } 100% { opacity: 0; transform: rotate(120deg) scale(1.12); } }
-@keyframes bladeOrbit { 0% { opacity: 0; transform: rotate(-120deg) scale(.68); } 42% { opacity: 1; } 100% { opacity: 0; transform: rotate(120deg) scale(1.14); } }
-@keyframes kickImpact { 0% { opacity: 0; transform: translate(18%, 18%) scale(.7); } 35% { opacity: 1; } 100% { opacity: 0; transform: translate(-4%, -4%) scale(1.22); } }
-@keyframes shockRing { 0% { opacity: 0; transform: scale(.62); } 42% { opacity: 1; } 100% { opacity: 0; transform: scale(1.34); } }
-@keyframes immortalShift { 0% { opacity: 0; transform: scale(.84) rotate(-12deg); filter: blur(12px); } 48% { opacity: 1; } 100% { opacity: 0; transform: scale(1.12) rotate(10deg); filter: blur(0); } }
-@keyframes blueAura { 0% { opacity: 0; transform: scale(.7); filter: blur(14px); } 45% { opacity: 1; } 100% { opacity: 0; transform: scale(1.22); filter: blur(2px); } }
-@keyframes hookPull { 0% { opacity: 0; transform: translateX(-58%) scaleX(.7); } 36% { opacity: 1; } 100% { opacity: 0; transform: translateX(34%) scaleX(1.08); } }
-@keyframes hookSpark { 0% { opacity: 0; transform: translateX(-30%) scale(.7); } 42% { opacity: 1; } 100% { opacity: 0; transform: translateX(22%) scale(1.1); } }
-@keyframes bloodWash { 0% { opacity: 0; transform: translateY(-24%) scale(.9); filter: blur(8px); } 44% { opacity: 1; } 100% { opacity: 0; transform: translateY(14%) scale(1.1); filter: blur(1px); } }
-@keyframes bloodDrip { 0% { opacity: 0; transform: translateY(-18%); } 48% { opacity: .9; } 100% { opacity: 0; transform: translateY(18%); } }
-@keyframes lilyScatter { 0% { opacity: 0; transform: rotate(-22deg) scale(.76); } 45% { opacity: 1; } 100% { opacity: 0; transform: rotate(18deg) scale(1.18); } }
-@keyframes ashuraAura { 0% { opacity: 0; transform: scale(.72) rotate(-28deg); filter: blur(10px); } 44% { opacity: 1; } 100% { opacity: 0; transform: scale(1.18) rotate(28deg); filter: blur(1px); } }
-@keyframes thunderCrack { 0% { opacity: 0; transform: translateY(-18%) skewX(-12deg); } 26% { opacity: 1; } 100% { opacity: 0; transform: translateY(16%) skewX(10deg); } }
-@keyframes butterflyDrift { 0% { opacity: 0; transform: translate(-12%, 12%) scale(.72) rotate(-18deg); } 45% { opacity: 1; } 100% { opacity: 0; transform: translate(12%, -12%) scale(1.12) rotate(18deg); } }
-@keyframes phoenixFlare { 0% { opacity: 0; transform: translateY(16%) scale(.7); filter: blur(8px); } 42% { opacity: 1; } 100% { opacity: 0; transform: translateY(-8%) scale(1.24); filter: blur(0); } }
-@keyframes phoenixWing { 0% { opacity: 0; transform: rotate(-70deg) scale(.72); } 50% { opacity: 1; } 100% { opacity: 0; transform: rotate(56deg) scale(1.18); } }
-@keyframes twinFlames { 0% { opacity: 0; transform: translateY(18%) scale(.72); filter: blur(10px); } 46% { opacity: 1; } 100% { opacity: 0; transform: translateY(-10%) scale(1.18); filter: blur(1px); } }
+.lore-modal[data-lore-slug="ling"],
+.lightbox[data-lore-slug="ling"] {
+  --lore-a: #7ce7ff;
+  --lore-b: #b88cff;
+  --lore-swipe-effect: linear-gradient(135deg, transparent 28%, rgba(124, 231, 255, .26), transparent 48%), linear-gradient(45deg, transparent 52%, rgba(184, 140, 255, .22), transparent 70%);
+  --lore-slide-animation: cloudStep 680ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="aamon"],
+.lightbox[data-lore-slug="aamon"] {
+  --lore-a: #b891ff;
+  --lore-b: #7ee8ff;
+  --lore-swipe-effect: radial-gradient(circle at 30% 30%, rgba(184, 145, 255, .32), transparent 14%), radial-gradient(circle at 70% 62%, rgba(126, 232, 255, .24), transparent 12%);
+  --lore-slide-animation: shardFade 700ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="layla"],
+.lightbox[data-lore-slug="layla"] {
+  --lore-a: #49b7ff;
+  --lore-b: #ffd166;
+  --lore-swipe-effect: radial-gradient(circle at 50% 50%, rgba(73, 183, 255, .4), transparent 18%), linear-gradient(90deg, transparent, rgba(255, 209, 102, .25), transparent);
+  --lore-slide-animation: cannonPulse 700ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="granger"],
+.lightbox[data-lore-slug="granger"] {
+  --lore-a: #d94b57;
+  --lore-b: #c8c8e0;
+  --lore-swipe-effect: repeating-linear-gradient(90deg, transparent 0 28px, rgba(217, 75, 87, .32) 29px 31px), linear-gradient(115deg, transparent, rgba(200, 200, 224, .24), transparent);
+  --lore-slide-animation: finalBullet 660ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="benedetta"],
+.lightbox[data-lore-slug="benedetta"] {
+  --lore-a: #ff7a45;
+  --lore-b: #7aa2ff;
+  --lore-swipe-effect: linear-gradient(122deg, transparent 38%, rgba(255, 122, 69, .34) 39% 42%, transparent 44%);
+  --lore-slide-animation: bladeParry 640ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="lunox"],
+.lightbox[data-lore-slug="lunox"] {
+  --lore-a: #ffd86b;
+  --lore-b: #8a5cff;
+  --lore-swipe-effect: linear-gradient(90deg, rgba(255, 216, 107, .24), transparent 48%, rgba(138, 92, 255, .28));
+  --lore-slide-animation: dualBalance 760ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="sun"],
+.lightbox[data-lore-slug="sun"] {
+  --lore-a: #ffb43b;
+  --lore-b: #63e070;
+  --lore-swipe-effect: repeating-radial-gradient(circle, rgba(255, 180, 59, .28) 0 3px, transparent 4px 18px);
+  --lore-slide-animation: clonePop 700ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="kagura"],
+.lightbox[data-lore-slug="kagura"] {
+  --lore-a: #ff8fca;
+  --lore-b: #8fd7ff;
+  --lore-swipe-effect: radial-gradient(circle at 50% 50%, transparent 0 18%, rgba(255, 143, 202, .28) 19% 22%, transparent 23%);
+  --lore-slide-animation: umbrellaSpin 760ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="dyrroth"],
+.lightbox[data-lore-slug="dyrroth"] {
+  --lore-a: #ff405c;
+  --lore-b: #45127a;
+  --lore-swipe-effect: linear-gradient(135deg, transparent, rgba(255, 64, 92, .34), rgba(69, 18, 122, .28), transparent);
+  --lore-slide-animation: abyssRift 700ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="saber"],
+.lightbox[data-lore-slug="saber"] {
+  --lore-a: #63e7ff;
+  --lore-b: #c9d4ff;
+  --lore-swipe-effect: repeating-linear-gradient(100deg, transparent 0 12px, rgba(99, 231, 255, .3) 13px 15px, transparent 16px 32px);
+  --lore-slide-animation: cyberCut 620ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="chou"],
+.lightbox[data-lore-slug="chou"] {
+  --lore-a: #ffcf64;
+  --lore-b: #3fe48f;
+  --lore-swipe-effect: radial-gradient(circle at 42% 56%, rgba(255, 207, 100, .34), transparent 18%);
+  --lore-slide-animation: kickSnap 620ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="suyou"],
+.lightbox[data-lore-slug="suyou"] {
+  --lore-a: #a8ffe5;
+  --lore-b: #5a78ff;
+  --lore-swipe-effect: radial-gradient(ellipse at center, rgba(168, 255, 229, .28), transparent 32%);
+  --lore-slide-animation: spiritMask 760ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="alucard"],
+.lightbox[data-lore-slug="alucard"] {
+  --lore-a: #f3d17a;
+  --lore-b: #9c3bff;
+  --lore-swipe-effect: linear-gradient(110deg, transparent 30%, rgba(156, 59, 255, .32), rgba(243, 209, 122, .22), transparent 70%);
+  --lore-slide-animation: demonHunt 680ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="franco"],
+.lightbox[data-lore-slug="franco"] {
+  --lore-a: #8ed8ff;
+  --lore-b: #d7f0ff;
+  --lore-swipe-effect: repeating-linear-gradient(0deg, rgba(142, 216, 255, .18) 0 2px, transparent 3px 16px);
+  --lore-slide-animation: hookDrag 720ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="alice"],
+.lightbox[data-lore-slug="alice"] {
+  --lore-a: #ff3d7f;
+  --lore-b: #7b1cc9;
+  --lore-swipe-effect: radial-gradient(circle, rgba(255, 61, 127, .34), transparent 22%), linear-gradient(130deg, transparent, rgba(123, 28, 201, .24), transparent);
+  --lore-slide-animation: bloodQueen 740ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="hanabi"],
+.lightbox[data-lore-slug="hanabi"] {
+  --lore-a: #ff4f93;
+  --lore-b: #c7ff5c;
+  --lore-swipe-effect: radial-gradient(circle at 35% 35%, rgba(255, 79, 147, .26), transparent 18%), radial-gradient(circle at 64% 62%, rgba(199, 255, 92, .2), transparent 14%);
+  --lore-slide-animation: petalStrike 760ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="martis"],
+.lightbox[data-lore-slug="martis"] {
+  --lore-a: #ff3333;
+  --lore-b: #ffb13b;
+  --lore-swipe-effect: conic-gradient(from 90deg, transparent, rgba(255, 51, 51, .32), transparent, rgba(255, 177, 59, .22), transparent);
+  --lore-slide-animation: ashuraClash 700ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="lukas"],
+.lightbox[data-lore-slug="lukas"] {
+  --lore-a: #39e08a;
+  --lore-b: #ffd05a;
+  --lore-swipe-effect: radial-gradient(circle at 50% 60%, rgba(57, 224, 138, .32), transparent 28%);
+  --lore-slide-animation: beastResolve 720ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="zhuxin"],
+.lightbox[data-lore-slug="zhuxin"] {
+  --lore-a: #81ffd9;
+  --lore-b: #ffcf75;
+  --lore-swipe-effect: radial-gradient(circle at 28% 32%, rgba(129, 255, 217, .24), transparent 9%), radial-gradient(circle at 72% 58%, rgba(255, 207, 117, .22), transparent 10%);
+  --lore-slide-animation: lanternDrift 800ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="zetian"],
+.lightbox[data-lore-slug="zetian"] {
+  --lore-a: #ffb039;
+  --lore-b: #ff495f;
+  --lore-swipe-effect: radial-gradient(ellipse at center, rgba(255, 176, 57, .32), transparent 28%), linear-gradient(0deg, rgba(255, 73, 95, .22), transparent 56%);
+  --lore-slide-animation: phoenixRise 820ms var(--ease-out) both;
+}
+
+.lore-modal[data-lore-slug="hirara"],
+.lightbox[data-lore-slug="hirara"] {
+  --lore-a: #ff315e;
+  --lore-b: #101018;
+  --lore-swipe-effect: linear-gradient(120deg, transparent 35%, rgba(255, 49, 94, .38) 40%, transparent 48%), radial-gradient(circle, rgba(255, 255, 255, .12), transparent 18%);
+  --lore-slide-animation: scarletDance 760ms var(--ease-out) both;
+}
+
+.lightbox[data-lore-slug="argus"] {
+  --lightbox-effect: radial-gradient(ellipse at 44% 54%, rgba(0, 0, 0, .82), transparent 34%), radial-gradient(circle at 38% 48%, rgba(64, 255, 63, .34), transparent 12%), repeating-radial-gradient(circle, rgba(2, 8, 3, .55) 0 6px, transparent 7px 26px);
+  --lightbox-motif: linear-gradient(120deg, transparent 35%, rgba(75, 255, 73, .28), transparent 62%);
+  --lightbox-effect-animation: smokeShift 1200ms ease-out both;
+  --lightbox-motif-animation: abyssBreath 1100ms ease-out both;
+}
+
+.lightbox[data-lore-slug="fanny"] {
+  --lightbox-effect: radial-gradient(circle at 30% 34%, rgba(255, 223, 121, .72), transparent 3%), radial-gradient(circle at 60% 56%, rgba(255, 247, 190, .58), transparent 3%), radial-gradient(circle at 76% 28%, rgba(255, 184, 72, .5), transparent 4%), linear-gradient(115deg, transparent, rgba(255, 213, 98, .2), transparent);
+  --lightbox-motif: repeating-linear-gradient(115deg, transparent 0 24px, rgba(255, 222, 130, .5) 25px 27px, transparent 28px 52px);
+  --lightbox-effect-animation: sparkleBurst 900ms ease-out both;
+  --lightbox-motif-animation: fastSweep 620ms ease-out both;
+}
+
+.lightbox[data-lore-slug="ling"] {
+  --lightbox-effect: linear-gradient(132deg, transparent 30%, rgba(173, 240, 255, .62) 31% 33%, transparent 35%), linear-gradient(48deg, transparent 58%, rgba(207, 214, 255, .42) 59% 61%, transparent 64%);
+  --lightbox-motif: conic-gradient(from 22deg, transparent, rgba(126, 231, 255, .22), transparent 24%, rgba(255, 255, 255, .24), transparent 42%);
+  --lightbox-effect-animation: swordFlash 760ms ease-out both;
+  --lightbox-motif-animation: orbitGlimmer 1000ms ease-out both;
+}
+
+.lightbox[data-lore-slug="aamon"] {
+  --lightbox-effect: conic-gradient(from 45deg, transparent, rgba(184, 145, 255, .35), transparent 18%, rgba(126, 232, 255, .28), transparent 34%), radial-gradient(circle at 28% 30%, rgba(255, 255, 255, .38), transparent 6%);
+  --lightbox-motif: linear-gradient(35deg, transparent 42%, rgba(216, 233, 255, .45) 43% 46%, transparent 48%), linear-gradient(145deg, transparent 54%, rgba(184, 145, 255, .36) 55% 58%, transparent 60%);
+  --lightbox-effect-animation: diamondScatter 940ms ease-out both;
+  --lightbox-motif-animation: shardOrbit 940ms ease-out both;
+}
+
+.lightbox[data-lore-slug="layla"] {
+  --lightbox-effect: linear-gradient(90deg, transparent 0 22%, rgba(66, 183, 255, .92) 43% 48%, rgba(255, 255, 255, .76) 49% 51%, rgba(66, 183, 255, .92) 52% 58%, transparent 78%), radial-gradient(circle at 50% 50%, rgba(61, 180, 255, .42), transparent 19%);
+  --lightbox-motif: radial-gradient(circle at 50% 50%, rgba(255, 221, 126, .38), transparent 12%);
+  --lightbox-effect-animation: laserFire 780ms ease-out both;
+  --lightbox-motif-animation: cannonRecoil 820ms ease-out both;
+}
+
+.lightbox[data-lore-slug="granger"] {
+  --lightbox-effect: radial-gradient(circle at 18% 45%, rgba(255, 238, 210, .66), transparent 4%), radial-gradient(circle at 36% 45%, rgba(255, 238, 210, .56), transparent 4%), radial-gradient(circle at 54% 45%, rgba(255, 238, 210, .5), transparent 4%), linear-gradient(90deg, transparent, rgba(217, 75, 87, .34), transparent);
+  --lightbox-motif: repeating-linear-gradient(90deg, transparent 0 42px, rgba(255, 226, 180, .5) 43px 46px, transparent 47px 80px);
+  --lightbox-effect-animation: bulletVolley 820ms ease-out both;
+  --lightbox-motif-animation: muzzleFade 920ms ease-out both;
+}
+
+.lightbox[data-lore-slug="benedetta"] {
+  --lightbox-effect: linear-gradient(120deg, transparent 38%, rgba(255, 53, 72, .72) 39% 42%, rgba(67, 255, 141, .34) 43% 45%, transparent 48%);
+  --lightbox-motif: linear-gradient(30deg, transparent, rgba(255, 255, 255, .28), transparent 62%);
+  --lightbox-effect-animation: swordSlash 700ms ease-out both;
+  --lightbox-motif-animation: loreSweep 720ms ease-out both;
+}
+
+.lightbox[data-lore-slug="lunox"] {
+  --lightbox-effect: radial-gradient(circle at 34% 50%, rgba(255, 216, 107, .45), transparent 13%), radial-gradient(circle at 66% 50%, rgba(138, 92, 255, .48), transparent 13%);
+  --lightbox-motif: conic-gradient(from 180deg, rgba(255, 216, 107, .24), transparent 28%, rgba(138, 92, 255, .28), transparent 62%, rgba(255, 216, 107, .2));
+  --lightbox-effect-animation: dualOrbs 1200ms ease-out both;
+  --lightbox-motif-animation: orbitGlimmer 1300ms ease-out both;
+}
+
+.lightbox[data-lore-slug="sun"] {
+  --lightbox-effect: radial-gradient(ellipse at 30% 50%, rgba(255, 255, 255, .28), transparent 18%), radial-gradient(ellipse at 66% 42%, rgba(255, 226, 135, .24), transparent 20%);
+  --lightbox-motif: linear-gradient(90deg, rgba(255, 255, 255, .18), transparent 35%, rgba(255, 180, 59, .18), transparent);
+  --lightbox-effect-animation: cloudShift 1200ms ease-out both;
+  --lightbox-motif-animation: clonePop 900ms ease-out both;
+}
+
+.lightbox[data-lore-slug="kagura"] {
+  --lightbox-effect: radial-gradient(circle at center, transparent 0 16%, rgba(255, 143, 202, .58) 17% 19%, transparent 20% 28%, rgba(143, 215, 255, .36) 29% 31%, transparent 32%);
+  --lightbox-motif: conic-gradient(from 0deg, transparent, rgba(255, 143, 202, .25), transparent 24%, rgba(143, 215, 255, .22), transparent 50%);
+  --lightbox-effect-animation: umbrellaShift 1000ms ease-out both;
+  --lightbox-motif-animation: umbrellaSpinFx 980ms ease-out both;
+}
+
+.lightbox[data-lore-slug="dyrroth"] {
+  --lightbox-effect: radial-gradient(ellipse at 44% 54%, rgba(47, 4, 60, .82), transparent 34%), radial-gradient(circle at 42% 50%, rgba(255, 38, 70, .38), transparent 14%), repeating-radial-gradient(circle, rgba(34, 0, 44, .54) 0 6px, transparent 7px 28px);
+  --lightbox-motif: linear-gradient(120deg, transparent 32%, rgba(255, 42, 84, .28), rgba(94, 23, 160, .24), transparent 68%);
+  --lightbox-effect-animation: smokeShift 1200ms ease-out both;
+  --lightbox-motif-animation: abyssBreath 1100ms ease-out both;
+}
+
+.lightbox[data-lore-slug="saber"] {
+  --lightbox-effect: conic-gradient(from 0deg, transparent, rgba(99, 231, 255, .38), transparent 16%, rgba(255, 255, 255, .32), transparent 30%, rgba(99, 231, 255, .3), transparent 48%);
+  --lightbox-motif: repeating-linear-gradient(100deg, transparent 0 18px, rgba(201, 212, 255, .46) 19px 21px, transparent 22px 44px);
+  --lightbox-effect-animation: bladeOrbit 1050ms ease-out both;
+  --lightbox-motif-animation: cyberCut 760ms ease-out both;
+}
+
+.lightbox[data-lore-slug="chou"] {
+  --lightbox-effect: radial-gradient(ellipse at 48% 58%, rgba(255, 207, 100, .5), transparent 18%), linear-gradient(28deg, transparent 44%, rgba(63, 228, 143, .34) 45% 48%, transparent 50%);
+  --lightbox-motif: radial-gradient(ellipse at 56% 58%, rgba(255, 255, 255, .3), transparent 10%);
+  --lightbox-effect-animation: kickImpact 780ms ease-out both;
+  --lightbox-motif-animation: shockRing 860ms ease-out both;
+}
+
+.lightbox[data-lore-slug="suyou"] {
+  --lightbox-effect: radial-gradient(ellipse at center, rgba(168, 255, 229, .46), transparent 24%), linear-gradient(120deg, transparent, rgba(90, 120, 255, .28), transparent);
+  --lightbox-motif: conic-gradient(from 90deg, transparent, rgba(168, 255, 229, .24), transparent 38%, rgba(255, 255, 255, .2), transparent 70%);
+  --lightbox-effect-animation: immortalShift 1100ms ease-out both;
+  --lightbox-motif-animation: spiritMask 980ms ease-out both;
+}
+
+.lightbox[data-lore-slug="alucard"] {
+  --lightbox-effect: radial-gradient(ellipse at center, rgba(64, 167, 255, .38), transparent 30%), linear-gradient(120deg, transparent, rgba(156, 59, 255, .24), transparent);
+  --lightbox-motif: radial-gradient(circle at 50% 50%, transparent 0 17%, rgba(64, 167, 255, .42) 18% 20%, transparent 21%);
+  --lightbox-effect-animation: blueAura 1100ms ease-out both;
+  --lightbox-motif-animation: shockRing 980ms ease-out both;
+}
+
+.lightbox[data-lore-slug="franco"] {
+  --lightbox-effect: linear-gradient(90deg, transparent 0 18%, rgba(142, 216, 255, .62) 19% 22%, transparent 23% 100%), repeating-linear-gradient(90deg, transparent 0 32px, rgba(215, 240, 255, .28) 33px 36px, transparent 37px 68px);
+  --lightbox-motif: radial-gradient(circle at 24% 50%, rgba(215, 240, 255, .42), transparent 9%);
+  --lightbox-effect-animation: hookPull 900ms ease-out both;
+  --lightbox-motif-animation: hookSpark 920ms ease-out both;
+}
+
+.lightbox[data-lore-slug="alice"] {
+  --lightbox-effect: radial-gradient(circle at 50% 50%, rgba(255, 22, 88, .5), transparent 22%), radial-gradient(ellipse at 40% 70%, rgba(96, 0, 46, .62), transparent 24%);
+  --lightbox-motif: linear-gradient(180deg, rgba(255, 61, 127, .28), transparent 64%);
+  --lightbox-effect-animation: bloodWash 980ms ease-out both;
+  --lightbox-motif-animation: bloodDrip 1050ms ease-out both;
+}
+
+.lightbox[data-lore-slug="hanabi"] {
+  --lightbox-effect: radial-gradient(ellipse at 30% 36%, rgba(255, 34, 79, .48), transparent 9%), radial-gradient(ellipse at 56% 64%, rgba(255, 79, 147, .42), transparent 10%), radial-gradient(ellipse at 72% 38%, rgba(255, 34, 79, .38), transparent 8%);
+  --lightbox-motif: conic-gradient(from 20deg, transparent, rgba(255, 34, 79, .26), transparent 18%, rgba(199, 255, 92, .16), transparent 38%);
+  --lightbox-effect-animation: lilyScatter 1000ms ease-out both;
+  --lightbox-motif-animation: petalStrike 900ms ease-out both;
+}
+
+.lightbox[data-lore-slug="martis"] {
+  --lightbox-effect: radial-gradient(ellipse at center, rgba(20, 10, 27, .86), transparent 36%), conic-gradient(from 90deg, rgba(82, 34, 141, .4), transparent 26%, rgba(255, 255, 255, .2), transparent 52%, rgba(0, 0, 0, .54), transparent 80%);
+  --lightbox-motif: radial-gradient(ellipse at 34% 50%, rgba(255, 255, 255, .22), transparent 18%), radial-gradient(ellipse at 68% 52%, rgba(255, 255, 255, .16), transparent 20%);
+  --lightbox-effect-animation: ashuraAura 1200ms ease-out both;
+  --lightbox-motif-animation: smokeShift 1100ms ease-out both;
+}
+
+.lightbox[data-lore-slug="lukas"] {
+  --lightbox-effect: linear-gradient(128deg, transparent 38%, rgba(255, 255, 255, .86) 39% 41%, rgba(85, 215, 255, .62) 42% 44%, transparent 46%), linear-gradient(48deg, transparent 55%, rgba(255, 222, 118, .58) 56% 58%, transparent 60%);
+  --lightbox-motif: radial-gradient(circle at 30% 36%, rgba(255, 244, 168, .52), transparent 4%), radial-gradient(circle at 72% 64%, rgba(255, 244, 168, .44), transparent 4%);
+  --lightbox-effect-animation: thunderCrack 780ms ease-out both;
+  --lightbox-motif-animation: sparkleBurst 900ms ease-out both;
+}
+
+.lightbox[data-lore-slug="zhuxin"] {
+  --lightbox-effect: radial-gradient(ellipse at 28% 42%, rgba(129, 255, 217, .34), transparent 11%), radial-gradient(ellipse at 66% 58%, rgba(255, 207, 117, .28), transparent 10%), radial-gradient(ellipse at 52% 30%, rgba(129, 255, 217, .24), transparent 8%);
+  --lightbox-motif: conic-gradient(from 45deg, transparent, rgba(129, 255, 217, .22), transparent 22%, rgba(255, 207, 117, .18), transparent 48%);
+  --lightbox-effect-animation: butterflyDrift 1300ms ease-out both;
+  --lightbox-motif-animation: lanternDrift 1000ms ease-out both;
+}
+
+.lightbox[data-lore-slug="zetian"] {
+  --lightbox-effect: radial-gradient(ellipse at 50% 58%, rgba(255, 176, 57, .48), transparent 20%), linear-gradient(0deg, rgba(255, 73, 95, .34), transparent 58%);
+  --lightbox-motif: conic-gradient(from 180deg, transparent, rgba(255, 176, 57, .4), transparent 22%, rgba(255, 73, 95, .3), transparent 46%);
+  --lightbox-effect-animation: phoenixFlare 1200ms ease-out both;
+  --lightbox-motif-animation: phoenixWing 1100ms ease-out both;
+}
+
+.lightbox[data-lore-slug="hirara"] {
+  --lightbox-effect: radial-gradient(ellipse at 38% 62%, rgba(255, 49, 94, .5), transparent 16%), radial-gradient(ellipse at 62% 54%, rgba(130, 49, 255, .42), transparent 16%), linear-gradient(0deg, rgba(255, 49, 94, .24), transparent 62%);
+  --lightbox-motif: conic-gradient(from 220deg, transparent, rgba(255, 49, 94, .34), transparent 26%, rgba(130, 49, 255, .3), transparent 54%);
+  --lightbox-effect-animation: twinFlames 1150ms ease-out both;
+  --lightbox-motif-animation: scarletDance 960ms ease-out both;
+}
+
+@keyframes loreSweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-42%) skewX(-14deg);
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(42%) skewX(-14deg);
+  }
+}
+
+@keyframes fastSweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-62%);
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(62%);
+  }
+}
+
+@keyframes lorePulseIn {
+  0% {
+    opacity: .64;
+    transform: scale(.96);
+    filter: saturate(.7);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: saturate(1);
+  }
+}
+
+@keyframes abyssWing {
+  0% {
+    opacity: .5;
+    transform: scale(.9) rotate(-2deg);
+    filter: hue-rotate(34deg) contrast(1.2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+    filter: none;
+  }
+}
+
+@keyframes cableDash {
+  0% {
+    opacity: .2;
+    transform: translateX(42px) skewX(-7deg) scale(.98);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes cloudStep {
+  0% {
+    opacity: .1;
+    transform: translateY(-26px) scale(1.04);
+    filter: blur(8px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes shardFade {
+  0% {
+    opacity: 0;
+    transform: scale(1.08);
+    clip-path: polygon(8% 0, 100% 0, 88% 100%, 0 86%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes cannonPulse {
+  0% {
+    opacity: .4;
+    transform: scale(.92);
+    filter: brightness(1.5);
+  }
+
+  62% {
+    transform: scale(1.035);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: none;
+  }
+}
+
+@keyframes finalBullet {
+  0% {
+    opacity: .25;
+    transform: translateX(-34px);
+    filter: contrast(1.45) grayscale(.35);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes bladeParry {
+  0% {
+    opacity: .35;
+    transform: translateX(-30px) rotate(-1.5deg);
+  }
+
+  55% {
+    transform: translateX(8px) rotate(.8deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes dualBalance {
+  0% {
+    opacity: .2;
+    transform: rotateY(18deg) scale(.96);
+    filter: hue-rotate(20deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes clonePop {
+  0% {
+    opacity: .2;
+    transform: scale(.86);
+  }
+
+  50% {
+    filter: drop-shadow(-18px 0 0 rgba(255, 180, 59, .18)) drop-shadow(18px 0 0 rgba(99, 224, 112, .16));
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: none;
+  }
+}
+
+@keyframes umbrellaSpin {
+  0% {
+    opacity: .2;
+    transform: rotate(-4deg) scale(.94);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+}
+
+@keyframes abyssRift {
+  0% {
+    opacity: .3;
+    transform: scale(.95) translateY(22px);
+    filter: saturate(1.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes cyberCut {
+  0% {
+    opacity: .2;
+    transform: translateX(24px);
+    clip-path: inset(0 0 0 80%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+    clip-path: inset(0);
+  }
+}
+
+@keyframes kickSnap {
+  0% {
+    opacity: .25;
+    transform: translateY(22px) rotate(2deg);
+  }
+
+  58% {
+    transform: translateY(-6px) rotate(-.8deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes spiritMask {
+  0% {
+    opacity: .1;
+    transform: scale(1.06);
+    filter: blur(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: none;
+  }
+}
+
+@keyframes demonHunt {
+  0% {
+    opacity: .25;
+    transform: translateX(-24px) scale(.98);
+    filter: sepia(.35);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes hookDrag {
+  0% {
+    opacity: .35;
+    transform: translateX(-48px) scale(.98);
+  }
+
+  70% {
+    transform: translateX(6px) scale(1.01);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes bloodQueen {
+  0% {
+    opacity: .2;
+    transform: scale(.9);
+    filter: saturate(1.8);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: none;
+  }
+}
+
+@keyframes petalStrike {
+  0% {
+    opacity: .3;
+    transform: translate(18px, -18px) rotate(2deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes ashuraClash {
+  0% {
+    opacity: .25;
+    transform: scale(1.08) rotate(-2deg);
+    filter: contrast(1.35);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+    filter: none;
+  }
+}
+
+@keyframes beastResolve {
+  0% {
+    opacity: .3;
+    transform: scale(.9);
+    filter: contrast(1.25);
+  }
+
+  52% {
+    transform: scale(1.045);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: none;
+  }
+}
+
+@keyframes lanternDrift {
+  0% {
+    opacity: .15;
+    transform: translateY(30px) scale(.98);
+    filter: blur(7px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes phoenixRise {
+  0% {
+    opacity: .2;
+    transform: translateY(42px) scale(.94);
+    filter: brightness(1.45);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes scarletDance {
+  0% {
+    opacity: .2;
+    transform: translateX(30px) rotate(3deg) scale(.96);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes motifBloom {
+  0% {
+    opacity: 0;
+    transform: scale(.72) rotate(-10deg);
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.18) rotate(8deg);
+  }
+}
+
+@keyframes smokeShift {
+  0% {
+    opacity: 0;
+    transform: translateX(-12%) scale(.88);
+    filter: blur(14px);
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(12%) scale(1.08);
+    filter: blur(2px);
+  }
+}
+
+@keyframes abyssBreath {
+  0% {
+    opacity: 0;
+    transform: scale(.72);
+  }
+
+  50% {
+    opacity: .9;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.16);
+  }
+}
+
+@keyframes sparkleBurst {
+  0% {
+    opacity: 0;
+    transform: scale(.6) rotate(-12deg);
+  }
+
+  38% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.18) rotate(10deg);
+  }
+}
+
+@keyframes swordFlash {
+  0% {
+    opacity: 0;
+    transform: translateX(-44%) skewX(-18deg);
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(44%) skewX(-18deg);
+  }
+}
+
+@keyframes orbitGlimmer {
+  0% {
+    opacity: 0;
+    transform: scale(.75) rotate(-80deg);
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.12) rotate(80deg);
+  }
+}
+
+@keyframes diamondScatter {
+  0% {
+    opacity: 0;
+    transform: scale(.72) rotate(22deg);
+    filter: blur(8px);
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.18) rotate(-16deg);
+    filter: blur(0);
+  }
+}
+
+@keyframes shardOrbit {
+  0% {
+    opacity: 0;
+    transform: rotate(-28deg) scale(.88);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(28deg) scale(1.08);
+  }
+}
+
+@keyframes laserFire {
+  0% {
+    opacity: 0;
+    transform: translateX(-55%) scaleX(.35);
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(38%) scaleX(1.18);
+  }
+}
+
+@keyframes cannonRecoil {
+  0% {
+    opacity: 0;
+    transform: scale(.7);
+  }
+
+  38% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.28);
+  }
+}
+
+@keyframes bulletVolley {
+  0% {
+    opacity: 0;
+    transform: translateX(-42%);
+  }
+
+  28% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(48%);
+  }
+}
+
+@keyframes muzzleFade {
+  0% {
+    opacity: 0;
+    transform: scale(.7);
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
+
+@keyframes swordSlash {
+  0% {
+    opacity: 0;
+    transform: translateX(-36%) rotate(-7deg);
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(36%) rotate(-7deg);
+  }
+}
+
+@keyframes dualOrbs {
+  0% {
+    opacity: 0;
+    transform: scale(.82) rotate(-30deg);
+  }
+
+  46% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.08) rotate(30deg);
+  }
+}
+
+@keyframes cloudShift {
+  0% {
+    opacity: 0;
+    transform: translateX(-18%) scale(.9);
+    filter: blur(10px);
+  }
+
+  48% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(18%) scale(1.12);
+    filter: blur(2px);
+  }
+}
+
+@keyframes umbrellaShift {
+  0% {
+    opacity: 0;
+    transform: scale(.58) rotate(-120deg);
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.08) rotate(90deg);
+  }
+}
+
+@keyframes umbrellaSpinFx {
+  0% {
+    opacity: 0;
+    transform: rotate(-160deg) scale(.86);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(120deg) scale(1.12);
+  }
+}
+
+@keyframes bladeOrbit {
+  0% {
+    opacity: 0;
+    transform: rotate(-120deg) scale(.68);
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(120deg) scale(1.14);
+  }
+}
+
+@keyframes kickImpact {
+  0% {
+    opacity: 0;
+    transform: translate(18%, 18%) scale(.7);
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-4%, -4%) scale(1.22);
+  }
+}
+
+@keyframes shockRing {
+  0% {
+    opacity: 0;
+    transform: scale(.62);
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.34);
+  }
+}
+
+@keyframes immortalShift {
+  0% {
+    opacity: 0;
+    transform: scale(.84) rotate(-12deg);
+    filter: blur(12px);
+  }
+
+  48% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.12) rotate(10deg);
+    filter: blur(0);
+  }
+}
+
+@keyframes blueAura {
+  0% {
+    opacity: 0;
+    transform: scale(.7);
+    filter: blur(14px);
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.22);
+    filter: blur(2px);
+  }
+}
+
+@keyframes hookPull {
+  0% {
+    opacity: 0;
+    transform: translateX(-58%) scaleX(.7);
+  }
+
+  36% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(34%) scaleX(1.08);
+  }
+}
+
+@keyframes hookSpark {
+  0% {
+    opacity: 0;
+    transform: translateX(-30%) scale(.7);
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(22%) scale(1.1);
+  }
+}
+
+@keyframes bloodWash {
+  0% {
+    opacity: 0;
+    transform: translateY(-24%) scale(.9);
+    filter: blur(8px);
+  }
+
+  44% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(14%) scale(1.1);
+    filter: blur(1px);
+  }
+}
+
+@keyframes bloodDrip {
+  0% {
+    opacity: 0;
+    transform: translateY(-18%);
+  }
+
+  48% {
+    opacity: .9;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(18%);
+  }
+}
+
+@keyframes lilyScatter {
+  0% {
+    opacity: 0;
+    transform: rotate(-22deg) scale(.76);
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(18deg) scale(1.18);
+  }
+}
+
+@keyframes ashuraAura {
+  0% {
+    opacity: 0;
+    transform: scale(.72) rotate(-28deg);
+    filter: blur(10px);
+  }
+
+  44% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.18) rotate(28deg);
+    filter: blur(1px);
+  }
+}
+
+@keyframes thunderCrack {
+  0% {
+    opacity: 0;
+    transform: translateY(-18%) skewX(-12deg);
+  }
+
+  26% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(16%) skewX(10deg);
+  }
+}
+
+@keyframes butterflyDrift {
+  0% {
+    opacity: 0;
+    transform: translate(-12%, 12%) scale(.72) rotate(-18deg);
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(12%, -12%) scale(1.12) rotate(18deg);
+  }
+}
+
+@keyframes phoenixFlare {
+  0% {
+    opacity: 0;
+    transform: translateY(16%) scale(.7);
+    filter: blur(8px);
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-8%) scale(1.24);
+    filter: blur(0);
+  }
+}
+
+@keyframes phoenixWing {
+  0% {
+    opacity: 0;
+    transform: rotate(-70deg) scale(.72);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(56deg) scale(1.18);
+  }
+}
+
+@keyframes twinFlames {
+  0% {
+    opacity: 0;
+    transform: translateY(18%) scale(.72);
+    filter: blur(10px);
+  }
+
+  46% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-10%) scale(1.18);
+    filter: blur(1px);
+  }
+}
 
 /* vertical thumbs by default */
 .thumb-swiper {
@@ -770,17 +2224,42 @@ body.light-theme #search-input::placeholder {
 .thumb-swiper .swiper-slide {
   height: 100px !important;
   opacity: 0.55;
-  transition: 0.2s;
+  transition:
+    transform 0.24s var(--ease-out),
+    opacity 0.24s,
+    filter 0.24s,
+    border-color 0.24s;
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
   border: 2px solid transparent;
+  filter: grayscale(0.45) brightness(0.78);
+  transform-origin: center;
+}
+
+.thumb-swiper .modal-thumb-hidden {
+  display: none;
 }
 
 .thumb-swiper .swiper-slide-thumb-active {
   opacity: 1;
   border-color: var(--orange);
   box-shadow: 0 0 12px var(--orange-g);
+  filter: grayscale(0) brightness(1.06);
+}
+
+.thumb-swiper .swiper-slide[data-arc-offset="-2"],
+.thumb-swiper .swiper-slide[data-arc-offset="2"] {
+  transform: translateX(10px) scale(0.86);
+}
+
+.thumb-swiper .swiper-slide[data-arc-offset="-1"],
+.thumb-swiper .swiper-slide[data-arc-offset="1"] {
+  transform: translateX(-6px) scale(0.96);
+}
+
+.thumb-swiper .swiper-slide-thumb-active[data-arc-offset="0"] {
+  transform: translateX(-18px) scale(1.08);
 }
 
 .thumb-swiper .swiper-slide img {
@@ -876,6 +2355,7 @@ body.light-theme #search-input::placeholder {
 
 /* ========== RESPONSIVE FIX: on tablets & mobile, thumbs become horizontal ========== */
 @media (max-width: 900px) {
+
   body.nav-open .audio-dock,
   body.nav-open .audio-panel,
   body.nav-open .theme-switcher,
@@ -954,6 +2434,30 @@ body.light-theme #search-input::placeholder {
     flex-direction: column;
   }
 
+  .story-reader-section {
+    margin-bottom: 64px;
+    padding-inline: 16px;
+  }
+
+  .story-reader-swiper {
+    min-height: 640px;
+    padding: 12px 48px 24px;
+  }
+
+  .story-reader-slide,
+  .story-reader-card {
+    min-height: 590px;
+    height: 590px;
+  }
+
+  .story-reader-card {
+    padding: 34px 30px;
+  }
+
+  .story-reader-chapter {
+    max-width: 100%;
+  }
+
   /* On narrow screens, thumb swiper becomes horizontal below main */
   .thumb-swiper {
     width: 100%;
@@ -972,6 +2476,20 @@ body.light-theme #search-input::placeholder {
     margin-right: 12px;
   }
 
+  .thumb-swiper .swiper-slide[data-arc-offset="-2"],
+  .thumb-swiper .swiper-slide[data-arc-offset="2"] {
+    transform: translateY(12px) scale(0.86);
+  }
+
+  .thumb-swiper .swiper-slide[data-arc-offset="-1"],
+  .thumb-swiper .swiper-slide[data-arc-offset="1"] {
+    transform: translateY(-3px) scale(0.96);
+  }
+
+  .thumb-swiper .swiper-slide-thumb-active[data-arc-offset="0"] {
+    transform: translateY(-13px) scale(1.08);
+  }
+
   .main-swiper {
     width: 100%;
   }
@@ -987,6 +2505,68 @@ body.light-theme #search-input::placeholder {
 
 /* Extra small phones */
 @media (max-width: 640px) {
+  .story-reader-header {
+    margin-bottom: 18px;
+  }
+
+  .story-reader-swiper {
+    min-height: 580px;
+    /* padding: 8px 0 18px; */
+  }
+
+  .story-reader-slide,
+  .story-reader-card {
+    min-height: 570px;
+    height: 570px;
+  }
+
+  .story-reader-slide {
+    border-radius: 8px;
+  }
+
+  .story-reader-card {
+    padding: 28px 22px;
+    gap: 18px;
+  }
+
+  .story-reader-chapters {
+    padding-right: 10px;
+  }
+
+  .story-reader-chapter {
+    padding: 18px 0 20px;
+  }
+
+  .story-reader-chapter p {
+    line-height: 1.72;
+  }
+
+  .story-reader-swiper .swiper-button-next,
+  .story-reader-swiper .swiper-button-prev {
+    top: auto;
+    bottom: 28px;
+    width: 38px;
+    height: 38px;
+  }
+
+  .story-reader-swiper .swiper-button-prev {
+    left: 18px;
+  }
+
+  .story-reader-swiper .swiper-button-next {
+    right: 18px;
+  }
+
+  .story-reader-pagination {
+    gap: 5px;
+    padding: 12px 0;
+  }
+
+  .story-reader-pagination .swiper-pagination-bullet {
+    width: 48px;
+    height: 48px;
+  }
+
   .lore-grid {
     grid-template-columns: 1fr 1fr;
     gap: 24px;
@@ -998,7 +2578,7 @@ body.light-theme #search-input::placeholder {
   }
 
   .hero-content p {
-    font-size: 0.95rem;
+    font-size: 10px;
   }
 
   .modal-close {
@@ -1021,21 +2601,36 @@ body.light-theme #search-input::placeholder {
 
 @media (max-width: 480px) {
   .stories-hero {
-    min-height: 280px;
+    min-height: 50px;
+    max-height: 100px;
     margin-top: 60px;
   }
 
+  .story-reader-section {
+    padding-inline: 12px;
+  }
+
+  .story-reader-slide,
+  .story-reader-card {
+    min-height: 540px;
+    height: 540px;
+  }
+
+  .story-reader-card {
+    padding: 24px 18px;
+  }
+
   .glitch-text {
-    font-size: 2rem;
+    font-size: 14px;
     letter-spacing: 0.06em;
   }
 
   .card-cover {
-    height: 220px;
+    height: 297px;
   }
 
   .card-content h3 {
-    font-size: 1.4rem;
+    font-size: 14px;
   }
 
   .swiper-button-next,
@@ -1183,15 +2778,18 @@ body.light-theme #search-input::placeholder {
 
 /* Responsive */
 @media (max-width: 640px) {
+
   .lightbox .swiper-button-next,
   .lightbox .swiper-button-prev {
     width: 36px;
     height: 36px;
   }
+
   .lightbox .swiper-button-next:after,
   .lightbox .swiper-button-prev:after {
     font-size: 18px;
   }
+
   .lightbox-close {
     top: 16px;
     right: 20px;
@@ -1200,12 +2798,21 @@ body.light-theme #search-input::placeholder {
 }
 
 @media (max-width: 480px) {
+  .lightbox-swiper,
+  .lightbox-swiper .swiper-slide,
+  .lightbox-swiper .swiper-zoom-container {
+    width: 100vw;
+    height: 100svh;
+  }
+
   .lightbox-swiper .swiper-slide img {
-    width: auto;
-    height: auto;
-    max-width: 96vw;
-    max-height: 88svh;
-    object-fit: contain;
+    width: 100vw;
+    height: 100svh;
+    max-width: 100vw;
+    max-height: 100svh;
+    object-fit: fill;
+    border-radius: 0;
+    border: 0;
   }
 
   .lightbox .swiper-button-next,
@@ -1215,14 +2822,123 @@ body.light-theme #search-input::placeholder {
 }
 
 @supports (content-visibility: auto) {
+
   .lore-grid,
+  .story-reader-section,
   .site-footer {
     content-visibility: auto;
     contain-intrinsic-size: 1px 900px;
   }
+}
 
-  .story-card {
-    content-visibility: auto;
-    contain-intrinsic-size: 1px 430px;
+@media (max-width: 640px) {
+  .story-reader-hero {
+    font-size: 14px;
+  }
+
+  .story-reader-chapter h4 {
+    font-size: 10px;
+  }
+
+  .story-reader-chapter p {
+    font-size: 8px;
+  }
+
+  .story-reader-swiper .swiper-button-next,
+  .story-reader-swiper .swiper-button-prev {
+    top: 50%;
+  }
+
+  .stories-controls {
+    margin: 5px;
+  }
+
+  #search-input {
+    padding: 10px 10px;
+    font-size: 8px;
+  }
+
+  .story-reader-section {
+    padding-top: 10px;
+  }
+
+  .story-reader-pagination {
+    gap: 0;
+    display: none;
+  }
+
+  .card-content p {
+    font-size: 8px;
+  }
+
+  .lore-grid {
+    gap: 5px;
+  }
+
+  .card-cover img {
+    min-height: 120px;
+  }
+
+  .card-content {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .footer-brand {
+    place-self: center;
+  }
+
+  .footer-nav {
+    place-self: center;
+  }
+
+  .thumb-swiper .swiper-slide {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-container {
+    width: min(96vw, 420px);
+    padding: 16px 12px 20px;
+  }
+
+  .modal-gallery-wrapper {
+    gap: 12px;
+    overflow: hidden;
+  }
+
+  .thumb-swiper {
+    width: 100%;
+    max-width: 100%;
+    height: 78px;
+    padding: 12px 2px 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .thumb-swiper .swiper-wrapper {
+    align-items: center;
+  }
+
+  .thumb-swiper .swiper-slide {
+    width: clamp(42px, 14vw, 54px) !important;
+    height: clamp(42px, 14vw, 54px) !important;
+    margin-right: 6px !important;
+  }
+
+  .thumb-swiper .swiper-slide[data-arc-offset="-2"],
+  .thumb-swiper .swiper-slide[data-arc-offset="2"] {
+    transform: translateY(7px) scale(0.84);
+  }
+
+  .thumb-swiper .swiper-slide[data-arc-offset="-1"],
+  .thumb-swiper .swiper-slide[data-arc-offset="1"] {
+    transform: translateY(-2px) scale(0.94);
+  }
+
+  .thumb-swiper .swiper-slide-thumb-active[data-arc-offset="0"] {
+    transform: translateY(-7px) scale(1.04);
   }
 }
