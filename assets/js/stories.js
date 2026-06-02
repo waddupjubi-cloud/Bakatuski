@@ -626,7 +626,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             img.src = url;
             img.style.maxWidth = '100vw';
             img.style.maxHeight = '100vh';
-            img.style.objectFit = 'contain';
+            img.style.objectFit = 'fill';
             img.style.borderRadius = '16px';
             img.style.boxShadow = '0 0 40px rgba(0,0,0,0.5)';
             zoomContainer.appendChild(img);
