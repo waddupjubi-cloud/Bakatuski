@@ -4364,6 +4364,423 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 32,
+      "hero": "First Endless War",
+      "slug": "first-endless-war",
+      "cover": "images/stories_covers/first_endless_war_cover.png",
+      "folder": "images/lores/first_endless_war/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "Before the First Scream",
+          "shortDesc": "Before time began, the Unique God Chronos dreamed alone in the Void. From His dream emerged twin sons—the Lord of Light and the Lord of the Abyss—and the conflict between them would shape the Land of Dawn.",
+          "fullDesc": "\"There was a time before war. It is not a time that any mortal remembers, nor any demon, nor any god—for the gods themselves were born into conflict, and conflict is the only language they have ever known. But before the first scream shattered the silence of the Void, there was a dream. A single, infinite, luminous dream, dreamed by a being who had no need of dreams. And in that dream, for one brief, eternal moment, everything was possible.\" — From the Fragments of the Unspoken, forbidden text buried beneath the Monastery of Light. The Void was not dark. It was absence—no light, no shadow, no time, no space. In this Void dwelled Chronos, the Unique God, alone and eternal. Then He dreamed. From His dream emerged twin brothers: the Lord of Light who said 'Let there be light,' and the Lord of the Abyss who said 'Let there be shadow.' They argued from the moment they opened their eyes. Chronos withdrew, watching in sorrow as His sons began the First Endless War—a conflict that would scar creation itself.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Architect of the Boundless Dream",
+          "shortDesc": "Chronos, the Unique God, is a being of impossible beauty and terrifying indifference. His physical form—a 225 cm figure of condensed starlight, cosmic hair, galaxy-filled eyes, and the Scepter of the Boundless Dream—is described in full detail.",
+          "fullDesc": "Chronos did not create the universe. He dreamed it. His form existed at the intersection of all possibilities: 225 cm tall, with a magnificent voluminous mane of shimmering multi-toned hair transitioning from deep cosmic indigo at roots to brilliant glowing silver-cyan at tips, floating in a slow-motion weightless dance around his head. His eyes were wide, perfectly symmetrical almond-shaped voids filled with a slow-spinning kaleidoscope of entire miniature galaxies, lacking distinct pupils or irises, reflecting the infinite birth and death of stars with boundless serene omniscience. His skin was deep pearlescent platinum with soft internal cosmic luminescence blending into faint swirling nebula patterns across his neck and cheekbones. He wore the Athanor Vestment—a living textile shifting between deep matte-charcoal and pure blinding white. His weapon was the Scepter of the Boundless Dream, a 240 cm staff with a multi-tiered golden orrery housing a swirling vortex of pure unformed creation energy. His aura was one of Absolute Genesis—a dense shimmering field of translucent violet and gold energy that distorted dimensions. He was Chronos. The Dreamer. And He was tired of solitude.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Twins of Light and Shadow",
+          "shortDesc": "The Lord of Light and the Lord of the Abyss emerge from Chronos's dream. The first speaks of order and perfection; the second speaks of chaos and transformation. Their disagreement is immediate and absolute.",
+          "fullDesc": "The Lord of Light rose first—210 cm of streamlined starlight musculature, magnificent platinum-white hair floating like a solar corona, vast almond-shaped eyes of pure blinding white light. He wore Aether-Plate armor of white marble and liquid gold, six angelic wings of pure energy behind his shoulders, and wielded the Scepter of Primal Radiance—a 230 cm staff with a miniature burning sun at its center. 'I will bring order,' He declared. 'I will structure the formless. I will give purpose to the purposeless.' The Lord of the Abyss rose from the same dream-stuff—215 cm of lean, elongated Living Shadow, chaotic midnight-black hair moving as if submerged in deep water, eyes of swirling violet whirlpools leaking black smoke. He wore Dread-Iron plate armor that grew from his flesh, massive curved demon-horn pauldrons, and wielded the Scepter of Eternal Night—a seven-foot polearm of petrified primordial bone with a jagged dark crystal blade housing a vortex of Abyssal energy. 'You would freeze the universe,' he said. 'I would let it flow. You call order creation. I call it death.' The war had begun.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The First Breath of War",
+          "shortDesc": "The twins create their first realms—the Aethelgard (Silver Dominion) and the Nihil Vault (Unmaking Womb)—and their first servants: hollow angels and hungry demons. The dream-stuff begins to scar.",
+          "fullDesc": "The Lord of Light shaped the Aethelgard—a plane of perfect crystalline order where every particle knew its place. He placed the first angels within it: beings of pure radiance, programmed to serve without question, without deviation, without freedom. They were beautiful, perfect, and hollow. The Lord of the Abyss shaped the Nihil Vault—a churning, formless chaos existing in the spaces between his brother's structures. He placed the first demons within it: beings of pure shadow, driven by hunger and instinct, constantly changing, consuming, becoming. They were ugly, imperfect, and alive. Neither twin noticed what their conflict was doing to the dream-stuff around them. Where light fell, mountains rose. Where shadow seeped, chasms opened. Where their energies intertwined, spaces emerged that were neither light nor dark. The Land of Dawn was being born—not as a garden, but as a battlefield.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Hosts of Light and Shadow",
+          "shortDesc": "The Lord of Light creates an army of thinking angels who believe his cause is just. The Lord of the Abyss unleashes hungering demons. The first battle at the boundary between realms echoes across creation.",
+          "fullDesc": "The Lord of Light realized he could not fight his brother alone. He reached into the dream-stuff of the Aethelgard and pulled forth the first hosts of angels—not the hollow servants he had made before, but something more. He gave them the ability to think, to choose, to hate. He told them about the chaos the Abyss represented, and they believed him. They had no reason to doubt. The Lord of the Abyss, seeing his brother's army, simply unleashed his demons. They needed no convincing. They smelled the light of the angels, and they hungered. The first battle took place at the boundary between the Aethelgard and the Nihil Vault. The angels advanced in perfect formation. The demons flowed like black water. The sound of that first clash—the shriek of light against shadow, the scream of angels dying, the howl of demons being unmade—echoed across the dream-stuff and reached the ears of Chronos. The Unique God did not intervene. He simply watched, and felt something he had never felt before: sorrow.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Beasts Are Born",
+          "shortDesc": "From the friction of the endless war, new beings emerge: Lukas, the Beast of Light, and Malakar, the Beast of Abyss. They meet on the battlefield and recognize each other as equals.",
+          "fullDesc": "The constant friction of light against shadow was creating something new. The first of these beings was Lukas—a massive quadrupedal creature of cream-and-gold fur, a mane that glowed like captured sunlight, eyes that burned with golden fire. 'I am the Beast of Light,' he said. 'I am what happens when your radiance lingers too long in one place.' The Lord of the Abyss, learning of this, decided to create his own beast. He gathered the darkest shadows of the Nihil Vault and shaped Malakar—a being of living shadow, with eyes of violet fire. In human form, Malakar appeared as a young man with pale ashen skin, wild jet-black hair streaked with violet, small obsidian horns, and twin jagged sickles forged from abyssal ore. In his true form, he became a colossal abyssal dragon-beast—a dark mirror of Lukas, with six violet eyes, four obsidian horns, enormous leathery dragon wings, and a tail ending in serrated bone blades. Lukas and Malakar met on a battlefield that would later become the Great Chasm. They fought for seven days and seven nights. Neither won. They retreated to opposite sides, recognizing each other as equals in a war defined by the absence of equality.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Dream-Stuff Bleeds",
+          "shortDesc": "The war enters its thousandth year. The constant conflict scars the dream-stuff, and from these scars emerge the first mortals—humans, who are neither angel nor demon, and who possess free will.",
+          "fullDesc": "The war entered its thousandth year—a stalemate. The boundary between the Aethelgard and the Nihil Vault had become a wasteland where nothing grew and nothing lived. The dream-stuff was scarred, and in these scars, something new began to stir. Not angels. Not demons. Not beasts. Mortals. The first humans were small, weak, and short-lived. They emerged from places where light and shadow had mixed most thoroughly—where the dream-stuff had been so traumatized that it could no longer maintain the rigid categories the twins had imposed. These beings were neither wholly light nor wholly shadow, neither ordered nor chaotic, neither good nor evil. They had something neither twin possessed: free will. The Lord of Light noticed them and was disgusted. 'Imperfect things,' he said. 'They will bring chaos into my order.' The Lord of the Abyss noticed them and was intrigued. 'Flexible things,' he said. 'Able to adapt, to change, to become. They could be useful.' The twins did not understand what the humans represented—and when they learned, the war would change forever.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Silence of Chronos",
+          "shortDesc": "Chronos watches the war from his distant withdrawal. He feels regret for the first time. The dream-stuff has been enriched by the conflict, creating humans with free will—neither twin's design.",
+          "fullDesc": "Chronos watched all of this from his distant withdrawal, his galaxy-filled eyes tracking every battle, every death, every birth. He did not intervene. He simply watched, and waited, and felt something that might have been regret. He had dreamed the twins into existence because he had been lonely. He had hoped they would be companions, friends, partners in the endless project of existence. Instead, they had become enemies. Was this his fault? Had he made them wrong? Chronos did not know. For the first time since he had begun to dream, the Unique God was uncertain. And uncertainty, he realized, was a kind of chaos. The Lord of the Abyss would have been pleased. But the dream-stuff had not been damaged by the war—it had been enriched. The constant friction of light against shadow had created humans with free will. The twins had not noticed yet. They did not understand that a being with free will could not be predicted, could not be controlled, could not be used as a tool.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The First Heroes",
+          "shortDesc": "Humans learn to survive in the war-torn wasteland. Some begin to fight back against lesser angels and demons, developing strategies and techniques that would be passed down through generations.",
+          "fullDesc": "The humans who lived through the First Endless War did not have names that survived. They were farmers, herders, craftspeople—ordinary people thrust into extraordinary circumstances. They did not fight for glory or honour. They fought because the alternative was death. And some of them, against all odds, survived. A man picked up a fallen angel's sword and used it to kill a demon threatening his family. A woman learned to channel ambient light energy into protective wards around her village. A child discovered that shadows cast by demonic fires could be shaped into weapons. They did not know what they were doing. They had no training, no tradition, no understanding of the forces they were manipulating. They were making it up as they went along, guided by desperation and instinct. And somehow, impossibly, they succeeded. The Lord of Light heard reports and was confused. The Lord of the Abyss heard reports and was intrigued. The twins began to pay attention to the humans—not as chess pieces, but as potential.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Corruption of Free Will",
+          "shortDesc": "The Lord of Light corrupts a chieftain named Arion, building a theocratic city of order that becomes a prison. The Lord of the Abyss corrupts an outcast named Morwen, leading an anarchic community that devours itself.",
+          "fullDesc": "The Lord of Light reached down and touched Arion, a human chieftain. He filled Arion's mind with visions of order, of structure, of a world where humans lived in harmony under divine law. 'Build a city in my name, and I will protect you from the darkness.' Arion obeyed. The city grew quickly—walls rising in a single night, fields yielding harvests in a single season. But there was a cost: mandatory prayers, mandatory offerings, mandatory reporting of neighbours who showed 'shadow-corruption'—defined broadly enough to include independent thought. The city became a prison. The Lord of the Abyss reached down and touched Morwen, an outcast woman. He filled her mind with visions of chaos, of freedom, of a world where humans were bound by no laws. 'Embrace the shadows. Follow your desires. You will be free.' Morwen gathered other outcasts and led them into the wilderness. They built nothing, planted nothing, simply lived—following impulses, satisfying hungers. But the strong preyed on the weak. The clever exploited the foolish. Morwen watched her community devour itself. She realized that freedom without responsibility was not liberation—it was anarchy. The twins had used humans as tools in their endless war. And the humans, being human, had found ways to resist.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Unraveling of the Dream",
+          "shortDesc": "After ten thousand years of war, the twins have forgotten why they fight. The Land of Dawn is scarred, and Chronos can no longer bear to watch his children destroy each other.",
+          "fullDesc": "The First Endless War had lasted so long that no one—not even the twins—could remember what it was like before. The Aethelgard and Nihil Vault were transformed beyond recognition into patches of scarred, wounded dream-stuff. The Land of Dawn was home to thousands of human settlements—fragile, struggling, but alive. And the twins, locked in their eternal struggle, had begun to fade. Not in power—their power was still immense. But in relevance. The war had become a habit, a ritual, a performance. Neither twin could remember why they were fighting. They only knew they had always fought, and that they could not stop. Chronos watched from his distant withdrawal and felt a weariness that surpassed anything he had felt before. 'This is not what I dreamed,' he said. 'I dreamed of companionship, of creation, of beings who would share my existence. I did not dream this endless, pointless, self-destroying war.' He reached out with his will—not to intervene, not to take sides—but to end.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Binding of the Twins",
+          "shortDesc": "Chronos shapes the Twilight Orb—a prison of unformed dream-stuff that can be neither resisted nor evaded. The Lord of Light and the Lord of the Abyss are sealed into enforced slumber.",
+          "fullDesc": "Chronos gathered the scattered fragments of dream-stuff that had not yet been claimed by light or shadow, and he began to shape them into something new. A prison. A cage. A seal that would bind both twins into a state of enforced slumber—not death, not destruction, but a pause. He called it the Twilight Orb. The Lord of Light sensed its formation. 'What are you doing? You would imprison me? Your own son?' 'I would give you rest,' Chronos replied. 'You have forgotten why you fight. Sleep, my son. Dream of something other than war.' The Lord of the Abyss laughed. 'Imprisonment? I am chaos. I cannot be contained.' 'Chaos can be contained,' Chronos said. 'It is contained every day, in every living thing. Order gives chaos shape. Chaos gives order meaning. You have forgotten that.' The Twilight Orb descended. The Lord of Light was the first to fall—his radiance dimmed, his wings folded, his scepter fell from his grasp. The Lord of the Abyss fought longer, his shadowy tendrils reaching out, but the Orb was smooth, seamless, perfect. 'This is not the end,' he whispered. 'I will return. I always return.' The Orb sealed shut. The First Endless War was over.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The World Without Gods",
+          "shortDesc": "After the Twilight Orb seals the twins, the Land of Dawn falls silent. The humans emerge from hiding. Lukas and Malakar regard each other across the Great Chasm, knowing the gods will one day return.",
+          "fullDesc": "The silence that followed was deafening. For the first time in longer than anyone could remember, the Land of Dawn was quiet. No angelic choirs. No demonic howls. No clash of light against shadow. Just the wind, the rain, the sound of birdsong and running water and human voices raised in confusion and hope. The humans emerged from hiding and looked at the world around them. The scars of the war remained—the mountains, the oceans, the deep places and high places that had been carved by divine conflict. But the conflict itself was gone. Lukas, the Beast of Light, felt the absence of his creator's presence. He looked across the Great Chasm and saw Malakar, the Beast of Abyss, standing on the opposite edge. 'It is over,' Lukas said. 'It is never over,' Malakar replied. 'They will wake. They always wake.' 'Then we will be ready.' Malakar turned and walked into the darkness. Lukas turned and walked into the light. The First Endless War was over. But the world it had created was just beginning.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Seeds of Eternity",
+          "shortDesc": "The Twilight Orb hangs in the sky, a scab over a wound that has healed imperfectly. The gods sleep, but their dreams are restless. The Second Endless War is coming. It always comes.",
+          "fullDesc": "\"They say that the First Endless War ended because the gods grew tired. They say that the Twilight Orb sealed them away, and that the Land of Dawn has been at peace ever since. Both claims are lies. The war did not end because the gods grew tired. It ended because Chronos, the Unique God, could no longer bear to watch his children destroy each other. And the Land of Dawn has never been at peace. It has merely been... quieter. The gods sleep, but their dreams are restless. And sometimes, in the deepest darkness of the night, you can still hear them fighting.\" — From the private journals of Commander Silvanna. The Twilight Orb hangs in the sky above the Land of Dawn, visible only to those who know where to look. It is not a moon or a star. It is a scab—a wound that has healed imperfectly, a reminder of the conflict that shaped the world. The Lord of Light sleeps within, dreaming of a perfect order that will never come. The Lord of the Abyss sleeps within, dreaming of a perfect chaos that will never come. Chronos watches over them both, his galaxy-filled eyes reflecting their dreams and his own. The First Endless War is over. But the Second Endless War is coming. It always comes. The only question is whether the mortals of the Land of Dawn will be ready when it arrives.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "The Primordial Chronology",
+          "shortDesc": "A complete timeline of the First Endless War: the Dreaming, the Emergence of the Twins, the Age of Creation, the First Clash, the Birth of the Beasts, the Stalemate, the Corruption of Free Will, and the Binding.",
+          "fullDesc": "Timeline of the First Endless War:\n- The Dreaming of Chronos: Eons before time, Chronos alone in the Void\n- Emergence of the Twins: Instant—Lord of Light and Lord of the Abyss appear\n- The Age of Creation: 1,000 years—Aethelgard and Nihil Vault shaped\n- First Clash: 500 years—angels battle demons at the boundary\n- Birth of the Beasts: 100 years—Lukas and Malakar emerge\n- The Thousand-Year Stalemate: 1,000 years—angels, demons, first humans\n- The Corruption of Free Will: 500 years—Arion and Morwen corrupted\n- Formation of the Twilight Orb: 1 year—Chronos acts\n- The Binding: Instant—both twins sealed\n\nKey Locations:\n- The Great Chasm: Battle site of Lukas vs Malakar\n- Mount Moniyan: Concentrated divine radiance\n- The Shadow Abyss: Deepest shadow pool\n- The Aethelgard Ruins: Remains of the Silver Dominion\n- The Nihil Vault Remnants: Fading chaos realm\n\nKey Characters:\n- Chronos (The Unique God, The Architect of the Boundless Dream)\n- The Lord of Light (The Order-Bringer, The Solar Tyrant)\n- The Lord of the Abyss (The Entropy-Maker, The Void Eater)\n- Lukas (The Beast of Light, The Radiant Guardian)\n- Malakar (The Beast of Abyss, The Shadow That Walks)\n- Arion (First Chieftain of the Light-Blessed)\n- Morwen (The First Outcast of the Shadow-Followers)",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "The Dream Continues",
+          "shortDesc": "The First Endless War was not an ending but a beginning—the beginning of a world defined by conflict, shaped by struggle, and haunted by the memory of gods who could not stop fighting.",
+          "fullDesc": "The First Endless War was not an ending. It was a beginning—the beginning of a world defined by conflict, shaped by struggle, haunted by the memory of gods who could not stop fighting. The Land of Dawn is that world's name. But it could have been called many things. The Scar. The Wound. The Place Where Light and Shadow Refused to Yield. The humans who inherited this world did not ask to be born into war. They did not choose to be shaped by forces they could not control. But they survived. They adapted. They grew. And in the spaces between the gods' conflict, they built something that neither the Lord of Light nor the Lord of the Abyss could have imagined: a civilization of free beings, capable of choice, capable of change, capable of hope. The gods sleep. The war waits. But the humans dream—dreams that are not given to them by any deity, dreams that emerge from their own hearts and minds, dreams of a world where light and shadow are not enemies but partners. Perhaps that world will never come. Perhaps the Second Endless War will begin before it can be built. But the dreaming matters. The trying matters. The hope matters. Because hope is the one thing that Chronos did not dream. Hope is what happens when mortals look at an impossible situation and say, 'I will try anyway.' And in the Land of Dawn, that is enough.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "hero": "Second Endless War",
+      "slug": "second-endless-war",
+      "cover": "images/stories_covers/second_endless_war_cover.png",
+      "folder": "images/lores/second_endless_war/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Slumber That Was Not Peace",
+          "shortDesc": "The Twilight Orb hangs in the sky, containing the slumbering twin gods. Their dreams leak into the world as golden light and purple shadow. The silence is not peace—it is the breath between heartbeats.",
+          "fullDesc": "\"The Twilight Orb hung in the sky like a second moon—pale, distant, unblinking. The gods slept within it, their dreams leaking into the world below like water through cracked stone. And the world, which had known nothing but war for longer than memory could reach, mistook the silence for peace. It was not peace. It was the breath between heartbeats. The pause between the fall of the hammer and the shattering of the anvil. The gods were not gone. They were waiting. And while they waited, the world forgot how to fear the dark.\" — From the Chronicles of the Northern Vale, author unknown. The First Endless War had ended with Chronos sealing the twins in the Twilight Orb. But the Orb was not a perfect prison. The Lord of Light's dreams leaked as beams of golden light; the Lord of the Abyss's dreams leaked as waves of purple-black shadow. The world mistook the silence for peace—but the Second Endless War had already begun.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Leaking Dream",
+          "shortDesc": "The Twilight Orb's dreams seep into the Land of Dawn. The Lord of Light's dreams bring golden beams of order; the Lord of the Abyss's dreams bring waves of purple corruption that poison the land.",
+          "fullDesc": "The Twilight Orb was not a perfect prison. Chronos had forged it from dream-stuff, but when the twins dreamed, their dreams did not remain contained. The Lord of Light dreamed of crystalline cities, divine law, perfect order—his dreams leaked as golden beams that fell upon mountains, forests, and rivers, infusing them with his essence. The Lord of the Abyss dreamed of entropy, boundaries dissolving, structures crumbling—his dreams leaked as purple-black shadows that seeped into cracks, corrupting everything they touched. The humans living beneath the Orb did not understand. They wove stories about gods who were not dead, about prophecies waiting to be fulfilled. They did not know how close they were to the truth.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Corrosion of the Woodlands",
+          "shortDesc": "The Azrya Woodlands, sacred to the elves, fall to abyssal corruption. Trees turn grey, animals become maddened, and the elves themselves begin to change—becoming the first Dark Elves.",
+          "fullDesc": "The Azrya Woodlands had been sacred to the elves since before humans learned to write. Their king, Estes, had ruled for centuries. But the Woodlands were close to the Land of Despair, corrupted by the Lord of the Abyss during the First Endless War. As the Abyss Lord's dreams drifted south, the trees began to change—leaves turned grey, bark wept black sap, animals grew mad. The elves tried to contain the corruption, but it spread faster than they could flee. The oldest elves resisted, but the younger ones were vulnerable. They heard whispers that the light was a lie, that freedom was found in chaos. Some surrendered and became the first Dark Elves—their skin greyed, their eyes turned crimson and violet. They gathered in the Shadow Swamp and began to worship the promise of chaos.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Fracturing of the Elves",
+          "shortDesc": "King Estes fails to contain the corruption. He orders the borders sealed, but the Dark Elves raid settlements. Broken by the weight of centuries, Estes falls into a deep slumber.",
+          "fullDesc": "Estes, the elven king, was a creature of light and order. He tried to contain the corruption—sealing borders, commanding warriors to kill corrupted creatures, sending emissaries for aid that never came. But the corruption seeped through the ground, crept through the air. When the first elves turned and walked willingly into the Shadow Swamp, Estes faced an impossible choice: declare war on his own people or mourn them as lost. He chose to mourn. It was the worst decision of his long life. The Dark Elves grew bolder, raiding settlements, kidnapping young elves. Estes retreated into himself, stopped holding court, stopped leading. When the Great Crash came—an earthquake that shook the foundations of the Land of Dawn—Estes was standing in the Moonlit Forest, staring at a corrupted tree. The ground opened. He fell. He was taken to the Emerald Woodland and placed in a deep slumber, where he would sleep for centuries.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Serpent and the Flame",
+          "shortDesc": "From the Abyss rise two powers: Thamuz the Fire Demon, who conquers through brute force, and Alice, the Crimson Demon, who manipulates the Dark Elves. They begin to march on the human kingdoms.",
+          "fullDesc": "The Lord of the Abyss was sleeping, but his domain was not empty. Two figures rose above the rest. Thamuz, the Fire Demon, was a massive creature of molten rock and burning rage, forged from primordial chaos. He conquered—marching his legions across the Abyss, burning everything. Alice, the Crimson Demon, had once been human. She approached the Dark Elves not as a conqueror but as a liberator. 'Your king abandoned you. Your gods abandoned you. Serve me, and I will give you purpose.' The Dark Elves bowed to her. Thamuz looked north toward the human kingdoms and commanded, 'Arise, my legions. We will burn everything the light has built.' The fire demons gathered in the Great Furnace, and when they marched north, the Land of Dawn would feel the heat of their approach long before they arrived.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Ancient Pact",
+          "shortDesc": "Kaja, a guardian of the Celestial Palace, breaks the Ancient Ones' rule of non-interference. He descends to help humanity, teaching them to recognize and fight abyssal corruption.",
+          "fullDesc": "Before the First Endless War, the Ancient Ones had ruled the Land of Dawn. They had withdrawn from the world, retreating to hidden sanctuaries, forbidding interference in the affairs of younger races. Kaja, a being of pure lightning and leader of the Nazar guardians, felt the disturbance as the corruption spread. 'The Endless War is beginning again,' he told his fellow guardians. 'The Abyss is rising, and the humans are not ready.' 'We cannot interfere.' 'Observation has never been your strength, Kaja.' 'No. It has not.' He left the Celestial Palace and descended to the world below. He taught humans how to recognize abyssal corruption, how to purify water and soil, how to craft weapons that could harm creatures of shadow and flame. The humans called him a hero. Kaja did not correct them. He simply watched, and waited, and hoped his small interventions would be enough.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Battle of the Bloody Ford",
+          "shortDesc": "Alice leads the Dark Elves across the border. The humans are prepared but overwhelmed by the endless tide of shadow. Alice lets one wounded soldier live to carry a message: the Abyss is already here.",
+          "fullDesc": "The humans built walls along the southern borders, dug trenches, constructed watchtowers, trained every able-bodied person. When the first wave of abyssal creatures emerged from the Shadow Swamp, the humans were waiting. The Battle of the Bloody Ford was not a victory or a defeat—it was a slaughter. Alice did not fight by the rules. She simply unleashed her Dark Elves—a tide of shadow that swept across the river like black water. Archers killed dozens, then hundreds. Pikemen held the line for an hour, then two. Cavalry charged and scattered, regrouped and charged again. But the humans broke. They always broke, when faced with an enemy that felt no fear. Alice stood in the centre of the battlefield, surrounded by corpses, and smiled. 'Tell your emperor that the Abyss is not coming. The Abyss is already here. And the Abyss is hungry.' She let one wounded soldier live to carry the message. The Second Endless War had truly begun.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Calling of the Warriors",
+          "shortDesc": "Emperor Aurelius II calls for champions. Warriors from the northern mountains, southern knights, eastern rangers, and the Oriental Fighters of the Cadia Riverlands answer the call.",
+          "fullDesc": "The Moniyan Empire was not yet the power it would become, but it was organized. Emperor Aurelius II knew he could not lead his armies into battle. He needed champions—warriors who could face the Abyss and survive. From the northern mountains came warriors of the Lupin tribe, who had kept the old ways alive through centuries of peace. From the southern plains came knights of the Light's Order, paladins armed with blessed weapons. From the eastern forests came elves who had fled the corruption. And from the west—from the Cadia Riverlands, where the Great Dragon still watched—came the Oriental Fighters: Zilong, the Great Dragon's apprentice; Wanwan, the young prodigy of the Tangmen clan; Baxia, the ancient creature whose shell could withstand any blow. They did not come because they loved the empire. They came because they recognized a common enemy. The Abyss would consume everything if it were not stopped.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Forging of the Light's Order",
+          "shortDesc": "The Monastery of Light, which stayed neutral during the First Endless War, begins training paladins and demon hunters to fight the Abyss directly. The first Demon Hunter dies in battle, but shows the way.",
+          "fullDesc": "The Monastery of Light had survived the First Endless War by staying neutral. But the Second Endless War was different—the Abyss was attacking mortals, not the Lord of Light. The monastery could no longer stay neutral. They began training a new kind of warrior: paladins who fought, hunters who killed. They blessed weapons with holy light, forged armor against abyssal corruption, taught initiates to exorcise demons. The first Demon Hunter was a farmer's son whose village had been destroyed. He was trained, forged into a weapon, and died in his first major battle. But he had shown the way. Others followed—men and women who had lost everything to the Abyss, who had nothing left to live for but revenge. The Light's Order was born.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Dragon's Fall",
+          "shortDesc": "The corruption spreads to the Cadia Riverlands. Yu Zhong, a fallen disciple of the Great Dragon, drives his blade into the Dragon's heart and becomes the Black Dragon, seizing control of the Riverlands.",
+          "fullDesc": "The Cadia Riverlands had been peaceful for centuries, protected by the Great Dragon. But the corruption did not stop at its borders. It poisoned the soil, fouled the water, turned crops to dust. The Great Dragon's strength waned. And in the darkest hour, the Black Dragon was reborn. Yu Zhong had been a disciple of the Great Dragon, but he had been corrupted by the Abyss. When the Dragon was weakened, Yu Zhong climbed the Dragon's Altar, fought through its defenders, and drove his blade into the Dragon's heart. The Great Dragon did not die, but its power flowed into Yu Zhong, transforming him into the Black Dragon—a creature of shadow and flame. 'The age of the Great Dragon is over,' he declared. 'The age of the Black Dragon has begun.' The Cadia Riverlands fell to the Abyss in a single night.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Desperate Gambit",
+          "shortDesc": "Aurelius II calls a council of war. They realize the Twilight Orb's leaking dreams are the source of corruption. They need a being who can exist between light and shadow—Lunox.",
+          "fullDesc": "The Moniyan Empire was losing. Every victory cost soldiers they could not replace; every defeat cost territory they could not reclaim. Aurelius II called a council of war—the greatest gathering of military leaders and magical experts ever assembled. They debated for three days. The solution was desperate: the Twilight Orb was the source of the corruption. If the Orb could be sealed, perhaps the corruption would stop. But sealing the Orb required a being who could exist between light and shadow—neither good nor evil, neither ordered nor chaotic. No such being existed—or so they thought. Lunox had been born from the Twilight Orb itself when the gods were first sealed. She was a being of pure twilight, capable of holding both light and shadow. She had been living in seclusion, avoiding the war. But when the humans begged her to help—told her the world would burn—she could not refuse.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Deep Slumber of the Warden",
+          "shortDesc": "Edith, the Primal Warden, sleeps beneath Sanctum Island. An earthquake shatters her tomb. A scavenger raises her, but the harmonization of the Twilight Orb awakens her memories and purpose.",
+          "fullDesc": "Edith had been sleeping for centuries, buried beneath the ruins of Sanctum Island. She had been created by the Ancient Ones to guard evil gods imprisoned on the island—deities too dangerous to release. When the Great Crash came—the earthquake that swallowed Estes and cracked the Minoan Labyrinth—Edith's tomb was shattered. She woke buried under rubble, her body broken, her memories fragmented. A scavenger found her, raised her as his own daughter. She grew up knowing nothing of her past. But when Lunox harmonized the Twilight Orb—when the corruption stopped spreading—something touched Edith. Memories flickered. Impulses drove her. She found her mecha—Phylax, the ancient war machine. She climbed into its cockpit, felt its systems come alive, and remembered. She was Edith. She was the Primal Warden. She piloted Phylax toward the mainland, toward the battlefields. She did not know who to fight, but she knew she had to fight—it was the only thing she had ever been made to do.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Harmonization of the Twilight Orb",
+          "shortDesc": "Lunox travels to the Minoan Labyrinth. Guided by Aldous the Immortal Warden, she stands before the Orb and harmonizes its energies—light in her left hand, shadow in her right. The corruption stops spreading.",
+          "fullDesc": "Lunox traveled to the Minoan Labyrinth, guided by Aldous the Immortal—the last of the Minotaur guardians, who had watched over the Orb since the beginning of the war. He led her through corridors that had stood for millennia, past traps and puzzles and the bodies of creatures who had tried to reach the Orb. She stood before the Twilight Orb, feeling its light and shadow wash over her. The light poured into her left hand, warm and golden. The shadow poured into her right hand, cold and purple. She held them in balance, her body trembling, her mind stretched to its limits. And then she pushed. The energies of the Orb—the dreams of the twins that had been leaking into the world for centuries—flowed into Lunox and were contained. Not destroyed, but balanced. Neutralized. The corruption stopped spreading. The Dark Elves faltered, cut off from their power. The fire demons retreated. The Black Dragon flew back to his lair. The Second Endless War was not over, but the tide had turned.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Quiet Before the Storm",
+          "shortDesc": "The Second Endless War ends with exhaustion, not victory. The Abyss pauses. The humans rebuild. The elves mourn. The gods sleep. And everyone knows the Third Endless War is coming.",
+          "fullDesc": "\"The Second Endless War did not end with a great battle or a heroic sacrifice. It ended with a sigh—a long, slow exhalation of relief, as the corruption that had been spreading for centuries finally stopped. The Abyss did not retreat. It simply... paused. Regrouped. Waited. The gods still slept in their Twilight Orb, dreaming dreams that would shape the world for generations to come. The humans rebuilt their cities, planted their fields, raised their children. The elves mourned their lost kin and tended to their wounded king. The demons sharpened their claws and plotted their return. And everyone, everywhere, knew that this peace—this fragile, temporary peace—would not last. The Third Endless War was coming. It was only a matter of time.\" — From the private journals of an unknown scholar, found in the ruins of the Moniyan Imperial Library. The Second Endless War lasted over a thousand years. It left scars that would never fully heal—the Shadow Swamp, the Cadia Riverlands under the Black Dragon, the Minoan Labyrinth where Aldous still waits. It created heroes: Kaja, Lunox, Edith. It set the stage for the Third Endless War—the war that would bring together the Lightborn Squad. The world rests. The Orb glows. The Abyss waits. The peace will not last. But hope, as the humans have learned, is a powerful thing.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "The Second Endless War Compendium",
+          "shortDesc": "A complete timeline of the Second Endless War: the Leaking Dreams, the Corruption of the Woodlands, the Rise of Thamuz, the Intervention of Kaja, the Fall of the Riverlands, the Harmonization, and the Awakening of Edith.",
+          "fullDesc": "Timeline of the Second Endless War:\n- The Leaking of the Dreams: 100 years—Lord of Light, Lord of the Abyss\n- The Corruption of the Azrya Woodlands: 200 years—Estes, Alice, Dark Elves\n- The Fracturing of the Elves: 150 years—Estes, Dark Elves\n- The Rise of Thamuz: 100 years—Thamuz, fire demons\n- The Intervention of Kaja: 50 years—Kaja, human kingdoms\n- The Battle of the Bloody Ford: 1 day—Alice, human army\n- The Fall of the Cadia Riverlands: 10 years—Great Dragon, Yu Zhong (Black Dragon)\n- The Council of War: 3 days—Aurelius II, Lunox\n- The Harmonization of the Twilight Orb: 1 day—Lunox, Aldous\n- The Awakening of Edith: 1 day—Edith, Phylax\n\nKey Factions:\n- The Abyss (Chaos): Alice, Thamuz, Yu Zhong\n- The Light's Order (Order): Monastery of Light\n- The Moniyan Empire: Emperor Aurelius II\n- The Elven Remnants: King Estes (slumbering)\n- The Ancient Ones' Guardians: Kaja, Edith, Aldous\n\nMajor Characters:\n- Alice (The Crimson Demon, Queen of the Dark Elves)\n- Thamuz (The Fire Demon, Lord of Lava)\n- Yu Zhong (The Black Dragon)\n- Estes (King of the Elves)\n- Aurelius II (Emperor of Moniyan)\n- Kaja (Nazar King, Guardian of the Celestial Palace)\n- Lunox (The Twilight Goddess)\n- Aldous (The Immortal Warden)\n- Edith (The Primal Warden)",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "The Lessons of the Second War",
+          "shortDesc": "The Second Endless War taught that the absence of gods does not mean the absence of conflict. Heroes and villains were mortals—ordinary beings who chose to fight, surrender, or find balance.",
+          "fullDesc": "The Second Endless War taught the Land of Dawn a terrible lesson: that the absence of gods does not mean the absence of conflict. The Lord of Light and the Lord of the Abyss slept through most of the war, their dreams doing the fighting for them. The heroes and villains of that age were mortals—not divine instruments, but ordinary beings who chose to fight or surrender, to resist or submit. Some were corrupted. Some were saved. Some found a balance between light and shadow that the twins had never imagined possible. The war ended not because one side triumphed, but because the world could not sustain the conflict. The Twilight Orb was harmonized, the corruption stopped spreading, and the exhausted armies retreated to lick their wounds. There was no grand victory, no heroic sacrifice that turned the tide. There was simply exhaustion. And in that exhaustion, the Land of Dawn found a peace—not perfect, not permanent, but real. The humans rebuilt. The elves mourned. The demons waited. And everyone, everywhere, prepared for the next war. Because the next war was always coming. It always is.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "hero": "Third Endless War",
+      "slug": "third-endless-war",
+      "cover": "images/stories_covers/third_endless_war_cover.png",
+      "folder": "images/lores/third_endless_war/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Breath Before the Storm",
+          "shortDesc": "Thirty years of peace after the Second Endless War. The Twilight Orb hangs balanced, but a whisper stirs the slumbering Lord of the Abyss. Alice hears the call and seeks a vessel of royal blood: the newborn Prince Dyrroth.",
+          "fullDesc": "\"Thirty years. Thirty years of silence. Thirty years of healing. Thirty years of watching the horizon, waiting for the darkness to return. The Twilight Orb hung in the sky, its light and shadow balanced by Lunox's sacrifice, and the Land of Dawn dared to believe that the war was over. That the gods had finally grown tired of fighting. That the children of light and shadow could live in peace. It was a beautiful dream. It was a lie.\" — From the private journals of Commander Silvanna. The Third Endless War did not begin with a roar. It began with a whisper—a soft, insidious murmur that crept into the dreams of the sleeping god. The Lord of the Abyss had been contained for ages, but hunger never truly dies. When the Twilight Orb cracked—just a hairline fracture—the hunger seeped out. It found Alice first. She smiled and knew where to find a vessel of royal blood. The Moniyan Empire had just welcomed a new prince. His name was Dyrroth.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Prince Who Was Promised",
+          "shortDesc": "Prince Dyrroth is born, the hope of the empire. On his first birthday, Alice infiltrates the palace, kills the guards, and steals the child. Eight-year-old Silvanna watches, powerless, and swears to find him.",
+          "fullDesc": "The Moniyan Empire was celebrating. For the first time in generations, the royal family had been blessed with a son—Dyrroth, a prince who would one day lead the empire into prosperity. His sister Silvanna, barely eight years old, held him and vowed to protect him forever. But on the night of his first birthday, Alice came. She moved through the palace like a shadow, killing the guards without a sound. Silvanna woke to the sound of the bodies falling. She crept to the door and watched as a woman in black lifted her brother from his cradle. 'Do not scream, little princess. If you scream, I will kill you. And then who will remember your brother?' Silvanna did not scream. She bit her lip until it bled. When the guards found the bodies the next morning, the prince was gone. Silvanna stood in the centre of it all, her small hands clenched into fists, her eyes blazing with a fury that would not fade for thirty years. She swore to the silent stars that she would find him.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Forging of a Demon",
+          "shortDesc": "Alice brings Dyrroth to the Shadow Abyss. The Lord of the Abyss pours corruption into the child. His hair darkens, his eyes turn violet, horns grow. Raised by demons, Dyrroth becomes the Prince of Darkness.",
+          "fullDesc": "Dyrroth did not die in the Abyss. He was remade. Alice carried the infant through the cracks of the world to the throne of the Lord of the Abyss—not the god Himself, but the font of His corruption. 'A vessel of royal blood. The essence of the beast flows in his veins.' The corruption seeped into the child. At first, his body rejected it—he screamed for days. But the Abyss is patient. Day after day, the corruption seeped deeper. His pale hair darkened to black. His cerulean eyes turned violet. Small horns grew from his temples. Alice raised him as her own, teaching him to hate the light. Thamuz trained him in combat. By twelve, he defeated a demon twice his age. By sixteen, he was known as the Prince of Darkness, the fiercest champion of the Abyss. He was ready to return to the world that had forgotten him.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Vigil of the Princess",
+          "shortDesc": "Silvanna grows into a warrior, searching for her brother for fifteen years. King Aurelius II tells her Dyrroth is lost, but she refuses to give up. She trains to lead the fight against the Abyss.",
+          "fullDesc": "While Dyrroth was being forged into a weapon, Silvanna was being forged into a warrior. She trained with the knights, learned the lance, studied tactics. She searched for her brother in every battlefield, every rumor, every whisper. She interrogated captured demons, bribed informants, traveled to the edges of the Barren Lands. She found nothing. Her father, King Aurelius II, watched with concern. 'You cannot save him. He has been gone for fifteen years. The Abyss has corrupted him beyond recognition.' 'He will always be my brother. I will find him, or I will die trying.' The king sighed and said no more. He knew that look—the same look that had blazed in the eyes of Emperor Gaius. Silvanna was not just a princess. She was a Lightborn. And the Lightborn did not give up.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Dawn Plan",
+          "shortDesc": "On the thirtieth anniversary of Dyrroth's abduction, the Abyss launches a coordinated invasion. Dyrroth commands the abyssal army. The empire is unprepared. Silvanna proposes forming the Lightborn Squad.",
+          "fullDesc": "On the thirtieth anniversary of Dyrroth's abduction, the Abyss finally moved. A coordinated, multi-pronged invasion struck every corner of the empire. Thamuz led the fire legions from the east. Balmond led the orcs from the north. Vexana sent her evil spirits from the west. And at the head of it all was Dyrroth—the Prince of the Abyss. He called his campaign the Dawn Plan. The empire was unprepared. Three border forts fell within a week. The defensive lines were breached. Lumina City came under siege. King Aurelius II gathered his generals. 'Can we hold?' 'The walls will hold for weeks, but the prince—Dyrroth—no single warrior can match him.' Silvanna stepped forward. 'I propose that we stop fighting like an army and start fighting like a squad.' She had been recruiting for years. The Lightborn Squad was ready.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Assembly of the Lightborn",
+          "shortDesc": "Silvanna assembles the Lightborn Squad: Tigreal, Alucard, Fanny, Granger, and Harith. They train at Fort Dawnrise, becoming more than warriors—a family. They march to break the siege of Lumina City.",
+          "fullDesc": "Tigreal was the first—a paladin broken by the loss of the Second Regiment, but ready to fight for something bigger. Alucard was the second—a demon hunter who carried the Abyss in his arm and hated demons more than anything. Fanny was the third—an aerial combat specialist unmatched in speed and precision. Granger was the fourth—a marksman who had lost his squad to the Abyss and carried the guilt of survival. Harith was the fifth—a feline mage whose spatial portals could teleport the squad across vast distances. And Silvanna would lead them all. They trained at Fort Dawnrise, fought each other, bled together, learned to trust. They became more than warriors—they became a family. When the siege of Lumina City reached its darkest hour, they marched to war.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Siege of Lumina City",
+          "shortDesc": "The Lightborn Squad enters the burning capital. Tigreal holds the line, Fanny strikes from the skies, Granger picks off commanders, Harith opens portals, Alucard drains enemies. Silvanna rallies the defenders.",
+          "fullDesc": "The capital was burning. The abyssal army had breached the outer walls and swarmed into the streets. The Lightborn Squad entered at dawn. Tigreal went first, his shield absorbing demonic fire, planting himself in the main plaza and roaring a challenge. Fanny took to the skies, her blades cutting through demonic wings. Granger climbed a collapsed tower, his rifle barking death—abyssal commanders fell one by one. Harith wove portals, opening gateways behind enemy lines. Alucard fought like a demon possessed, his greatsword sweeping through ranks, his gauntlet glowing brighter with every kill. And Silvanna stood in the centre, her lance blazing with golden light, her voice ringing out across the battlefield. 'For the empire! For the Lightborn!' The demons, for the first time since the war began, retreated. The Lightborn Squad had won their first victory.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Hunt for the Prince",
+          "shortDesc": "The Lightborn Squad pushes south, hunting Dyrroth. Tigreal notes he is targeting supply lines. Silvanna refuses to kill him, hoping to save her brother. They track him to the Barren Lands.",
+          "fullDesc": "The Lightborn Squad did not rest. They pushed into the southern provinces, following the trail of destruction. Every village was burned, every field poisoned. Tigreal studied the pattern. 'He's targeting the empire's supply lines. He's trying to starve us.' Alucard said, 'We find him and kill him. The army will crumble without him.' Silvanna was silent. She knew that killing Dyrroth was logical, but he was her brother. 'We find him. But we don't kill him. Not until I've tried to reach him.' Alucard frowned. 'Princess, he's not your brother anymore. He's a demon.' 'You don't know that.' They found Dyrroth at the edge of the Barren Lands, waiting for them. The Prince of the Abyss stood in a circle of black stone, his violet eyes gleaming. He smiled—cold, cruel.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Prince of the Abyss",
+          "shortDesc": "Silvanna confronts Dyrroth, begging him to come home. For a moment, recognition flickers in his eyes. But the darkness reasserts itself, and he attacks. The Lightborn Squad subdues him.",
+          "fullDesc": "Silvanna stepped forward, her lance lowered. 'Dyrroth, I am your sister. I have been searching for you for thirty years. Please—come home.' Dyrroth's smile faltered. For a fraction of a second, something flickered in his violet eyes—recognition, pain. Then the darkness reasserted itself. 'My sister died thirty years ago. I am Dyrroth, Prince of the Abyss. I have no family.' He attacked. The shadows surged—tendrils of darkness lashing out. Tigreal raised his shield. Fanny took to the air. Granger fired, but his bullets passed through shadow. Harith opened a portal, and Alucard stepped through, his greatsword raised. Dyrroth caught the blade with his bare hand and drove his fist into Alucard's chest. Silvanna charged. They fought for what felt like hours. He disarmed her, stood over her with his blade raised. 'Do it. But know that I loved you. I never stopped loving you.' His blade wavered. Then the darkness surged again. The Lightborn Squad attacked together—Tigreal's shield, Fanny's blades, Granger's blessed round, Harith's portal. They bound him in blessed chains.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Fall",
+          "shortDesc": "The Lightborn Squad takes Dyrroth to the Monastery of Light. The priests say there is no cure. Dyrroth briefly breaks free, calls Silvanna 'sister', then the darkness takes him. He flees into the Abyss.",
+          "fullDesc": "The Lightborn Squad carried Dyrroth north to the Monastery of Light. The High Priest examined him. 'The corruption has bonded with his soul. If we remove it, he will die. If we leave it, he remains a demon. There is no third option.' 'Then we find one.' 'You cannot save someone who does not want to be saved.' Silvanna walked to her brother's side and took his hand. 'I will find a way. I promised you. I will never give up.' Dyrroth's eyes opened—for a moment, they were not violet but blue. The same cerulean blue as Silvanna's. 'Sister,' he whispered. Then the darkness returned. The Lord of the Abyss's will surged, shattering the blessed chains, flooding the monastery with shadow. Dyrroth rose, his body wreathed in abyssal fire. 'You cannot save me. The Abyss owns me.' He raised his hand. The shadows tore through the monastery. The Lightborn Squad fought to contain him. Then Dyrroth saw his sister—weeping, broken—and something inside him cracked. He turned and fled into the Abyss.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Battle of the Abyssal Gate",
+          "shortDesc": "The Lightborn Squad follows Dyrroth to the Abyssal Gate, guarded by Thamuz's fire legions. They break through and find Dyrroth waiting. But he is not holding a weapon.",
+          "fullDesc": "Dyrroth retreated to the Abyss, to the heart of the darkness where the Lord of the Abyss's power was strongest. The Lightborn Squad followed. The Abyssal Gate—the tear in reality connecting the Shadow Abyss to the surface—was guarded by Thamuz and his fire legions. 'The Lightborn are coming. Let them come. We will burn them all.' The Lightborn Squad arrived at dawn. Tigreal led the charge. Alucard cut through the fire legions. Fanny rained death from above. Granger picked off demons. Harith wove portals and shields. And Silvanna stood at the centre, her lance blazing, her wings spread. 'For the empire! For the Lightborn!' They broke through Thamuz's defenses. They scattered the fire legions. They reached the Abyssal Gate. And there, waiting, was Dyrroth—his hands at his sides, no weapon, no shadows. Simply standing.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Prince's Choice",
+          "shortDesc": "Dyrroth remembers his sister's face. He says the Lord of the Abyss is waking and will possess him completely if he stays. He chooses to seal himself in the Abyss to save the empire.",
+          "fullDesc": "'You should not have come.' 'I had to. I made a promise.' 'Promises are for children. The Abyss has no use for them.' 'Then why are you not fighting?' Dyrroth was silent. 'I remember,' he said. 'I remember the day Alice took me. I remember you watching from the door. You did not scream. I have been trying to forget for thirty years, but I cannot. The little princess who loved her brother. The girl who promised to find him.' He looked at his claws. 'I am not your brother anymore. But because I remember, I cannot kill you.' 'Then come home. We can fight the corruption together.' 'The Lord of the Abyss is waking. He has been using me as a vessel. If I stay in the world of light, He will possess me completely. I will become a god of destruction.' 'Then what do we do?' 'You seal me in the Abyss. You lock the gate behind me. And you remember me—not as the demon I became, but as the brother you loved.' 'I cannot forget you.' 'Goodbye, Silvanna.' He stepped back through the Abyssal Gate. The shadows rose. The Lightborn Squad sealed the gate. He was gone.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Light That Remains",
+          "shortDesc": "The war ends. The empire mourns the prince. Silvanna stands at the gate for three days. The Lightborn Squad keeps vigil. She turns away, raises her lance, and vows to be ready when the darkness returns.",
+          "fullDesc": "The war ended not with a celebration, but with a funeral. Silvanna stood at the edge of the Abyssal Gate for three days, watching the darkness, waiting for her brother to return. He did not. Tigreal came on the first day and stood in silence. Alucard came on the second day and placed a hand on her shoulder. 'The pain does not go away, but it becomes bearable.' Fanny came on the third day and sat beside her, sharing the silence. Granger stood at a distance, understanding loss. Harith bounced quietly, subdued. At the end of the third day, Silvanna turned away. 'He made his choice. He chose to save the empire. I have to honour that.' She walked back to her squad and raised her lance. 'The war is over. But the Abyss is not gone. We will watch. We will wait. We will be ready.' The Lightborn Squad raised their weapons. 'For the empire. For the Lightborn. For everyone who has ever loved someone they could not save.' The sun rose over the Land of Dawn. The Third Endless War was over. The Lightborn Squad kept their vigil.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Promise",
+          "shortDesc": "The Lightborn Squad returns as heroes, but Silvanna mourns her brother. She honours his choice and vows that the Lightborn will never stop fighting the darkness.",
+          "fullDesc": "\"The Lightborn Squad did not save the world. They saved a moment. A breath. A chance for the empire to heal, to rebuild, to prepare for the darkness that would inevitably return. Dyrroth was not saved. He was not redeemed. He was simply... lost. But his loss was not meaningless. He chose to fall into the Abyss so that his sister could live. He chose to become a monster so that the empire could survive. And Silvanna, who had searched for him for thirty years, who had loved him through the darkness, who had never given up hope—she honoured that choice. She honoured him. Not as the Prince of the Abyss, but as her brother. The baby she had held in her arms. The child she had sworn to protect. He was gone. But he was not forgotten.\" — From the Chronicles of the Lightborn, Volume III. Silvanna stood on the balcony of the imperial palace. Tigreal asked, 'Are you alright, Princess?' 'No. But I will be.' The Lightborn Squad stood together, their weapons raised, their eyes fixed on the horizon. 'We are the Lightborn. We are the sunbound vow. We are the warriors who walk into the darkness so that others do not have to. And we will never stop fighting.' The sun rose. The Third Endless War was over. But the Lightborn Squad was just beginning.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "The Third Endless War Compendium",
+          "shortDesc": "Complete timeline, key factions, full Lightborn Squad roster, and major characters of the Third Endless War. The war lasted seven months and ended with Dyrroth sealed in the Abyss.",
+          "fullDesc": "Timeline of the Third Endless War:\n- Dyrroth's abduction: 30 years before the war (Alice, Silvanna witness)\n- Dyrroth's corruption in the Abyss: 30 years (Alice, Thamuz, Lord of the Abyss)\n- The Dawn Plan launched: Month 1 (Dyrroth, Thamuz, Balmond, Vexana)\n- Fall of the border forts: Month 1-2 (Abyssal army)\n- Siege of Lumina City: Month 2-3 (Lightborn Squad, Abyssal army)\n- The Hunt for the Prince: Months 3-6 (Lightborn Squad, Dyrroth)\n- The Fall of the Monastery: Month 6 (Dyrroth, Lightborn Squad)\n- Battle of the Abyssal Gate: Month 7 (Lightborn Squad, Thamuz, Dyrroth)\n- Sealing of the Abyssal Gate: Month 7 (Lightborn Squad)\n\nKey Factions:\n- The Abyssal Army: Dyrroth, Alice, Thamuz, Balmond, Vexana (Shadow Swamp, Abyss)\n- The Lightborn Squad: Commander Silvanna (Moniyan Empire)\n- The Moniyan Imperial Army: General Marcus, King Aurelius II (The crown)\n- The Monastery of Light: High Priest (Northern mountains)\n\nLightborn Squad Roster:\n- Silvanna (Sunbound Vow, Commander/Frontline, Sunbound Lance)\n- Tigreal (Unyielding Bastion, Defender/Tank, Judgement Hammer & Bastion Shield)\n- Alucard (Crimson Hand, Striker/Assassin, Groundsplitter Greatsword)\n- Fanny (Aerial Tempest, Ranger/Assassin, Twin Blades)\n- Granger (Death Whisper, Overrider/Marksman, Custom heavy rifle)\n- Harith (Spatial Prodigy, Inspirer/Mage, Celestial energy portals)\n\nMajor Characters:\n- Silvanna: Princess of Moniyan, Commander of the Lightborn Squad\n- Dyrroth: Prince of the Abyss, Son of Darkness\n- Alice: The Crimson Demon, Queen of the Dark Elves\n- Thamuz: The Fire Demon\n- Tigreal: The Unyielding Bastion\n- Alucard: The Crimson Hand\n- Fanny: The Aerial Tempest\n- Granger: The Death Whisper\n- Harith: The Spatial Prodigy\n- King Aurelius II: Emperor of Moniyan\n- The Lord of the Abyss: Primordial Deity of Chaos",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "Final Note",
+          "title": "The Dawn That Followed",
+          "shortDesc": "The Third Endless War was not the last war—only another turn of the wheel. The Lightborn Squad kept their vigil, and Silvanna never gave up hope of saving her brother.",
+          "fullDesc": "The Third Endless War was not the last war. It was not the final battle between light and shadow, order and chaos, hope and despair. It was simply... another chapter. Another cycle. Another turn of the wheel. The Lightborn Squad won, but they did not win forever. The Abyss retreated, but it did not retreat forever. Dyrroth was lost, but he was not lost forever. Somewhere in the darkness, the Prince of the Abyss still watches—waiting for a chance to escape, waiting for a chance to see his sister again, waiting for a chance to choose differently. The Lightborn Squad kept their vigil. They trained. They fought. They protected the empire from the shadows that crept at the edges of the world. And they never forgot the promise that Silvanna had made—the promise that she would find her brother, that she would save him, that she would never give up. She never did. And that, perhaps, is the true legacy of the Third Endless War. Not victory. Not defeat. Hope.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
