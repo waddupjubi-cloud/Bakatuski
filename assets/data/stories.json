@@ -5152,7 +5152,563 @@
           "title": "The Dream Continues",
           "shortDesc": "The boy goes home and dreams of golden lions and violet shadows. He does not know he will one day become a hero. The story is not over.",
           "fullDesc": "The boy went home that night and dreamed of golden lions and violet shadows, of a princess with wings and a demon who chose to be a guardian. He woke with tears on his cheeks and a fire in his heart. He did not know that he would one day become a hero. He did not know that the stories he had heard would shape his destiny. He only knew that the world was bigger and stranger and more wonderful than he had ever imagined. And that was enough. Harith closed the library that night and walked home through the quiet streets of Neo-Lumina. The stars were bright—brighter than they had been in centuries. The magic was returning. The world was healing. And somewhere, in a place beyond time and space, Chronos dreamed. The Unique God dreamed of a world without war, where light and shadow walked hand in hand, where every story ended with '...and they lived in peace.' It was a beautiful dream. And for now, that was enough.",
-          "imageFile": "FinatNote.png"
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "hero": "VVitch Xabar",
+      "slug": "vvitch-xabar",
+      "cover": "images/stories_covers/xabar_cover.png",
+      "folder": "images/lores/xabar/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of a Crown",
+          "shortDesc": "X‑abar sits on his throne of skulls, the Demon King of Nyxara, once a holy hunter betrayed by the gods. He waits for his brother Alucard, hoping to save him rather than destroy him.",
+          "fullDesc": "\"They called me a hero once. Then they called me a monster. The truth is simpler: I am what they made me. And I will not apologize for surviving.\" — VVitch X‑abar, speaking to the shadows of his throne room. There is a particular kind of silence that settles over a throne room after the last enemy has fallen. X‑abar has known this silence for centuries. He sits upon a throne of fused demon skulls, the Soul Reaver planted before him, Malphas curled at his feet. His name is VVitch X‑abar, the Demon King of Nyxara. In the celestial records, his name has been erased. The common people whisper it as a curse. His demons whisper it with reverence. And Alucard—his brother, his betrayer, his only equal—whispers it in his sleep. X‑abar did not choose this life. He chose to serve, to fight, to bleed for a heaven that smiled at him while sharpening the knife. When the gods deemed him too powerful, they sent him to die in the void. They sealed the rift behind him. They thought he would be forgotten. They were wrong. The Abyss embraced him. He rose, his skin turned violet, his eyes ignited with molten amber. Now he rules Nyxara, the Shadow East. He does not want to kill Alucard. He wants to save him. The Soul Reaver hums. Malphas stirs. In the distance, the silver light of Aethelgard flickers. X‑abar smiles. \"They feared me,\" he whispers. \"They will learn to fear what they created.\"",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Orphan of the Celestial Order",
+          "shortDesc": "X‑abar arrives at the Monastery of Light as a seven-year-old orphan, the only survivor of a demon attack. He is forged into a weapon, but his determination and resilience set him apart.",
+          "fullDesc": "The Monastery of Light forged souls, not swords. X‑abar arrived at its gates when he was seven, a foundling with no memory of his parents, discovered in the ruins of a demon‑razed village. The monks saw potential in him—a natural affinity for the Light, a resilience that belied his age. The training was merciless. Recruits woke before dawn, ran until their legs gave out, sparred until their knuckles bled. The weak washed out. X‑abar was strong, not because he was the fastest or most talented, but because he refused to break. He had seen the demons' flames, heard the screams of the dying. He would never be helpless again. His instructors singled him out for extra training. He learned to channel holy light, to heal with a touch, to banish lesser demons with a prayer. By twelve, he had been promoted to advanced classes. It was there that he first heard the name Alucard.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Brotherhood of Blood and Light",
+          "shortDesc": "X‑abar meets Alucard, a prodigy three years older, haunted by his vampire heritage. They form an unbreakable bond, training and bleeding together, swearing an oath that no darkness would come between them.",
+          "fullDesc": "Alucard was a legend among the advanced students—unmatched in skill, absolute in dedication, but quiet and haunted. They met in the training yard on a grey autumn morning. X‑abar was matched against the prodigy. The crowd expected a slaughter; they got a draw. Afterward, Alucard offered his hand. 'You're good. You think too much, but you're good.' That night, X‑abar found Alucard alone on the ramparts. 'I was born a monster,' Alucard said. 'Vampire blood runs through my veins. The Order took me in to use me, not to save me.' X‑abar replied, 'The Order uses everyone. They find broken things and turn them into weapons. The question is whether we let ourselves be broken by the using.' From that night, they were inseparable. They trained, prayed, and bled together. They made a pact, sworn upon the Light of Creation, that no darkness would ever come between them. They were young. They were foolish. They believed their bond was unbreakable.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Siege of the Crimson Rift",
+          "shortDesc": "The Crimson Rift opens, spewing primordial demons. X‑abar and Alucard lead the expedition. X‑abar reaches the rift's heart and prepares to seal it with his own life, but the gods betray him.",
+          "fullDesc": "The rift opened on the eve of the Winter Solstice, a tear in the sky that bled abyssal fire. Primordial demons poured through, older than the gods themselves. X‑abar and Alucard led the Celestial Order's finest. The battle lasted three days. The air was thick with ash and the cries of the dying. X‑abar's holy light blazed like a beacon; Alucard fought with ferocious madness. On the third night, X‑abar reached the heart of the rift. He knew he could seal it, but the cost would be his own life. Alucard begged him not to, offered to sacrifice himself instead. X‑abar refused. He pushed Alucard back, raised his hands, and began to channel the Light. Then the gods betrayed him. The energy was redirected, not absorbed. The primordial demon struck, its claws tearing through his armor. A barrier of holy light—the same light that should have protected them—blocked Alucard's path. The Celestial Order had made a pact with the demon: a soul of pure light in exchange for retreat. X‑abar was that sacrifice. As darkness consumed him, he heard the gods' laughter. His faith shattered. In the moment before the void claimed him, he swore: 'If I survive, I will make them pay.' He fell into the abyss. The rift sealed behind him. Alucard's screams echoed in the silence.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Void Between Worlds",
+          "shortDesc": "X‑abar floats in the Abyss, weightless and still. The Abyss speaks to him, showing him the gods' betrayal. He tears out his holy sigil, surrendering his celestial light, and is reborn as a demon king.",
+          "fullDesc": "The darkness did not hurt. X‑abar floated in a profound, weightless stillness. Time had no meaning. He was not alone. The creatures of the Abyss circled him like sharks, their thoughts brushing against his mind. Then the Abyss spoke—not in words, but in truths. 'They feared you. Your power, your influence, your potential. They threw you away.' The Abyss showed him the Celestial Council's debate, their cold nods, their calculated sacrifice. His faith cracked, then shattered. 'They are not worthy of your loyalty. I will give you power, a kingdom, an army. All I ask is that you surrender the last ember of your celestial light.' X‑abar hesitated. The light was all he had left—the only part that still believed in justice, mercy, redemption. But the light had abandoned him. He reached into his chest, closed his fingers around the holy sigil, and tore it out. The pain was exquisite. It was liberation. The Abyss poured into him. His skin turned violet, his eyes ignited with molten amber. He screamed—not in agony, but in triumph. When he opened his eyes, he was no longer a hunter. He was a king.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Forging of the Soul Reaver",
+          "shortDesc": "The Abyss teaches X‑abar void‑forging. He harvests the heart of a dying star, binds it with demon blood and angel tears, and forges the Soul Reaver—a greatsword that consumes life force.",
+          "fullDesc": "The Abyss demanded a price: X‑abar would be its champion. He accepted. His first act was to forge a weapon worthy of his station. The Abyss guided him to the corpse of a dying star, a fragment of celestial matter drifting through the void. He harvested its core—a sphere of compressed fire and gravity. He fed it demon blood, angel tears, and his own white hair, binding the elements with a spell that would have driven a mortal mage mad. The Soul Reaver was born. Its surface was a chaotic swirl of obsidian black and deep nebular purple, a jagged magenta fissure pulsing along the fuller. The crossguard was formed of interlocking skeletal demon fingers, each tipped with a weeping eye that leaked shadows. The hilt was wrapped in pale‑gold angel hide, warm to the touch, a constant reminder of the price of power. The Soul Reaver did not simply kill; it consumed. Every strike drained life force, healing X‑abar. When he unleashed its ultimate fury, a wave of magenta void energy erupted, erasing everything in its path. The Soul Reaver was a covenant—a promise that X‑abar would never be helpless again.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Taming of Malphas",
+          "shortDesc": "X‑abar finds Malphas, an ancient three‑eyed hellhound abandoned in the Abyss. He approaches not as a conqueror but as an equal, and after three days, the beast chooses him as its master.",
+          "fullDesc": "No king rules alone. X‑abar needed a mount, a companion, a symbol of dominion. The Abyss guided him to the hunting grounds of Malphas, an ancient hellhound that had fed on lost souls for millennia. Malphas was a beast of legend: hide of charcoal grey and smoldering ember, a mane of black smoke, four eyes burning with amber fire, and a third eye—vertical, lidless, made of molten gold—that saw not flesh but the soul beneath. X‑abar approached not as a conqueror, but as an equal. He did not raise the Soul Reaver. He sat on a rock and waited. For three days, the hellhound circled him, testing him with growls, feints, and psychic assaults. X‑abar did not flinch. On the fourth day, Malphas lowered its head. X‑abar placed his hand on its brow, over the third eye. The eye pulsed. A bond of blood and will formed. The hellhound was not tamed; it was chosen. It had been waiting for a master who understood that loyalty could not be forced. Now Malphas serves as X‑abar's mount, his guardian, his most trusted ally.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Obsidian Citadel",
+          "shortDesc": "X‑abar unifies the fractured wasteland of Nyxara, defeating demon lords and forging alliances. He builds the Obsidian Citadel, a monument to defiance, and rules from a throne of fused demon skulls.",
+          "fullDesc": "Nyxara was a wasteland of black glass, thorn‑forests, and abyssal rifts when X‑abar arrived. He did not conquer it; he unified it. He challenged the demon lords to single combat, one by one, and killed them with the Soul Reaver. He absorbed their followers, offering a simple choice: serve or be consumed. He forged alliances with vampire courts, offering protection for tribute. He sealed the largest rifts, not to close them, but to harness their energy. The Obsidian Citadel rose from the ashes of a celestial fortress. X‑abar rebuilt it with his own hands, shaping black volcanic glass into walls that shimmered with an oily violet sheen. The citadel was a monument to defiance: towers shaped like grasping claws, gates like a demonic maw. The Hall of Conquered Light displayed the broken relics of the Celestial Order: shattered angel wings, tarnished holy symbols, rusted paladin armor. At the heart, on a throne of fused demon skulls, X‑abar sat, the Soul Reaver planted before him, Malphas curled at his feet. From here, he ruled.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Cult of the Fallen",
+          "shortDesc": "Outcasts, demons, vampires, and technomancers flock to X‑abar. He trains them in shadow magic, giving them purpose and hope. They become the Cult of the Fallen—a family, not a religion.",
+          "fullDesc": "X‑abar did not rule alone. The outcasts came to him in droves: demons enslaved by the Order, vampires hunted for their nature, humans cursed for forbidden knowledge. He gave them purpose, hope. They called themselves the Cult of the Fallen, though X‑abar preferred to think of them as a family. He trained them in the arts of shadow magic, taught them to wield abyssal energy, showed them that darkness was not to be feared but mastered. His generals were demons he had defeated, their loyalty bought with respect rather than fear. His spies were vampires who had infiltrated the Shadow Accord. His engineers were technomancers from the Forge Pact, seeking refuge. The cult was not a religion. X‑abar did not demand worship. He demanded only one thing: that they never forget why they had fallen. The Celestial Order had branded them monsters, outcasts, impurities to be purged. X‑abar saw them for what they truly were: survivors. And survivors, he knew, were the most dangerous of all.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Watcher in the Twilight",
+          "shortDesc": "X‑abar watches Alucard from afar, tracking his brother's exploits. He is proud and furious that Alucard still believes in the gods. He waits, hoping to save his brother.",
+          "fullDesc": "For all his power, X‑abar could not forget Alucard. He sent spies to the mortal realms, tracking his brother's movements. He watched as Alucard became the greatest demon hunter the world had ever known, his legend growing with each passing year. X‑abar was proud of him. And he was furious. Alucard still believed. After everything the Celestial Order had done—after they had sacrificed X‑abar, after they had lied and manipulated and betrayed—Alucard still fought for them. He still wore their holy symbols, still prayed to their gods, still believed the light could redeem his cursed blood. X‑abar did not understand. He wanted to hate his brother for his naivety. He wanted to despise him for his loyalty to a system that never deserved it. But he could not. Because he still loved Alucard. And love was the most dangerous weakness of all. He did not send assassins. He did not launch a crusade. He simply watched, and waited, and hoped that one day Alucard would see the truth. The Sundering was weakening the barriers. Alucard would come to him eventually. And X‑abar would be ready.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Philosophy of the Abyss",
+          "shortDesc": "X‑abar rejects good and evil. He believes the light is indifferent, the darkness is honest. He seeks balance, not destruction—to make the gods see their own reflection in the Abyss.",
+          "fullDesc": "X‑abar does not believe in good and evil. He believes in power, in purpose, in the certainty that the universe is a crucible and only the strong deserve to shape it. The light is order: it builds cathedrals, forges armies, writes scriptures. But it also stifles, controls, destroys. It burns the heretic, silences the questioner, sacrifices the innocent for the greater good. The light is not evil; it is indifferent. And indifference is the cruelest sin. The darkness is chaos: freedom, passion, transformation. It embraces the outcast, empowers the weak, offers a path to the rejected. But it also corrupts, consumes, annihilates. The darkness is not evil; it is honest. And honesty is the rarest virtue. X‑abar does not seek to destroy the light. He seeks to balance it. He wants the gods of the Celestial Order to look into the Abyss and see their own reflection—the fear, the hypocrisy, the petty cruelty behind their golden masks. He wants them to understand that they are not pure, not righteous, not worthy of worship. He wants them to kneel.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Demon Within",
+          "shortDesc": "The Abyss whispers constantly, urging X‑abar to consume and dominate. He resists, clinging to his humanity—not for purity, but because it is his. He fears forgetting Alucard.",
+          "fullDesc": "The Abyss is patient, but it is also hungry. It whispers constantly, urging X‑abar to consume, to dominate, to spread darkness across the mortal realms. It shows him visions of what he could become: a god of shadows, an emperor whose empire spans the stars. These visions are seductive, intoxicating. They promise everything he has ever wanted. X‑abar resists. Not because he is afraid of the power, but because he is afraid of what he would lose. The Abyss would make him a monster, a creature of pure hunger, incapable of love or hope or memory. He would forget Alucard's face. He would forget his mother's prayers. He would forget why he fell in the first place. He clings to his humanity, not because it is pure, but because it is his. The Abyss can have his body, his soul, his power. It cannot have his heart.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy He Will Leave",
+          "shortDesc": "X‑abar does not fear death—he fears irrelevance. He fights to give outcasts a home, to remind the gods they are not infallible. He hopes Alucard will one day understand.",
+          "fullDesc": "X‑abar is not immortal. The Abyss will eventually claim him, or the Celestial Order will find a way to destroy him, or Alucard will strike him down. He does not fear death. He fears irrelevance. He has built a kingdom, an army, a legacy. But kingdoms crumble, armies scatter, and legacies are rewritten by the victors. The Celestial Order will paint him as a monster, a cautionary tale, a warning to those who dare defy the light. He does not care. He does not fight for recognition. He fights because it is necessary—because someone has to stand against the tyranny of the light, because someone has to give the outcasts a home, because someone has to remind the gods that they are not infallible. He hopes that Alucard will understand this, one day. He hopes his brother will see that his fall was not a surrender, but a sacrifice. He gave up his light so that others could keep theirs. He became a monster so that the innocent could sleep peacefully in their beds. It is not a legacy that will be celebrated in songs or carved into statues. But it is a legacy that matters. And in the end, X‑abar believes, that is enough.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Inverted Hunter",
+          "shortDesc": "X‑abar sits on his throne, waiting. The silver light of Aethelgard flickers. He does not know what will happen when Alucard comes, but he will be patient, he will endure, and he will strike when the moment is right.",
+          "fullDesc": "\"They fear me because I am what they could have been. They hate me because I remind them of what they threw away. I am not the villain of this story. I am the consequence.\" — VVitch X‑abar, to a captured angel. The night is cold in Nyxara, colder than any night in the mortal realms. The sky is a bruised purple, the stars obscured by the perpetual twilight of the Abyssal Rifts. X‑abar sits on his throne of skulls, the Soul Reaver planted before him, Malphas curled at his feet. In the distance, through the shattered archway, the faint silver light of Aethelgard flickers. A reminder of what he lost. A promise of what he will reclaim. He closes his eyes. He thinks of Alucard—their childhood, their training, their brotherhood. The moment the holy barrier rose between them. The Abyss, and the voice that whispered in the darkness. He does not know what will happen when his brother finally comes. He does not know if they will fight, or talk, or weep. He does not know if Alucard will understand why he fell, or condemn him as a monster. But he knows he will be here, waiting. Patient. Enduring. Because that is what hunters do. They wait. They watch. And when the moment is right, they strike. The Soul Reaver hums. Malphas stirs. X‑abar smiles. \"They feared me,\" he whispers to the shadows. \"They will learn to fear what they created.\" He closes his eyes and waits for morning.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of X‑abar's Powers",
+          "shortDesc": "The nature of X‑abar's power, the Soul Reaver's techniques (Soul Drain, Void Resonance, Abyssal Cleave, Reality Rend, Cataclysm), and Malphas's abilities (Shadow-Mist, Soul Howl, Twilight Wings).",
+          "fullDesc": "The Nature of His Power: X‑abar is a living conduit for primordial chaos—a fusion of a celestial soul with the Abyss. The magenta crystal in his chest feeds on enemies' life force, sustaining him. He does not dodge; he endures. He does not parry; he overwhelms. His fighting style is attrition: drain, heal, dominate.\n\nThe Soul Reaver:\n- Soul Drain (Passive): Each strike heals X‑abar for 5% of damage dealt (10% vs holy/light enemies).\n- Void Resonance (Passive): Reduces enemy magic resistance within 10m by 15%.\n- Abyssal Cleave (Skill 1): Sweeps a 15‑meter cone of void energy, leaving searing magenta trails.\n- Reality Rend (Skill 2): Thrusts the sword to tear a small rift, pulling enemies inward, dealing damage over time, and creating a zone of instability.\n- Cataclysm (Ultimate): Channels the Soul Reaver's full power, releasing a deafening harmonic shriek, then a massive 25‑meter explosion of magenta void energy that slows and damages all who remain.\n\nMalphas, the Three‑Eyed Hellhound:\n- Shadow‑Mist: Dissolves into intangible shadow, moving through walls and obstacles silently.\n- Soul Howl: A low, resonant cry that severs the connection between spirit and flesh, paralyzing enemies for three heartbeats.\n- Twilight Wings: Spreads wings of pure shadow, casting a twilight that dampens light and empowers darkness.\n\nThe Aura of the Demon King: Oppressive, silent finality—cold air, lengthened shadows, faint scent of ozone and burnt incense. A tomb's stillness, not a storm's crackle.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name \"VVitch\"",
+          "shortDesc": "The name 'VVitch' is a provocation—a deliberate misspelling to reclaim a slur. The double‑V represents duality: light and shadow, hero and monster. X‑abar walks both, waiting to see which side will claim him.",
+          "fullDesc": "The name 'VVitch' is a provocation. A deliberate misspelling of 'witch,' a term the Celestial Order uses to describe those who dabble in forbidden magic. X‑abar chose it for himself, not because he practices witchcraft, but because he wants to reclaim the slur. He wants the Order to know that their labels have no power over him. The 'VV' is a double‑V, a symbol of duality. It represents the two paths he could have taken—the light and the shadow, the holy and the profane, the hero and the monster. He walks both, straddling the line between redemption and damnation, waiting to see which side will claim him first. His enemies call him the Demon King, the Violet Tyrant, the Inverted Hunter. His followers call him Xabar, the Lord of Shadows, the One Who Waits. He does not care what they call him. He cares only about the question that has driven him for centuries: Why? Why did the gods betray him? Why did the light abandon him? Why does Alucard still believe? He may never find the answers. But he will keep searching, keep fighting, keep waiting. Because that is what hunters do. And one day, when the Sundering tears the barriers between worlds and the Celestial Order falls, X‑abar will be there. He will stand in the ashes of their cathedrals, the Soul Reaver in his hand, Malphas at his side, and he will ask them the question they have been dreading for millennia: 'Do you remember me now?'",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "hero": "Vixxy Joe",
+      "slug": "vixxy-joe",
+      "cover": "images/stories_covers/vixxy_joe_cover.png",
+      "folder": "images/lores/vixxy_joe/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of the Ace",
+          "shortDesc": "Vixxy Joe sits on her throne in the infernal casino, waiting. She has won everything, but winning has lost its flavor. The only thing that still excites her is the thought of Harley—her former student—returning to challenge her.",
+          "fullDesc": "\"The demon dealt the cards. I drew the Ace of Spades. He smiled. I smiled back. One of us was about to learn that the game had just begun.\" — Vixxy Joe, dealing her first hand to a soul who thought he could cheat her. There is a particular kind of silence that falls over an infernal casino when the last patron has gone. Vixxy Joe has known this silence for centuries. She sits upon her throne of crimson velvet and black iron, her jade owl beside her, her deck of obsidian cards orbiting her head. She has won so many times that winning has lost its flavor. The only thing that still makes her heart beat faster is the thought of Harley—the street rat she took in, trained, and let go. He is the only one who could beat her, the only one who could make her feel alive again. She waits. The game is not over.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Alleyways of Bones",
+          "shortDesc": "Vicky Josefina Ortega is born in Barcelona, the daughter of a seamstress and a gambler. Her father teaches her to read cards and read people. He loses his final hand to a cold‑eyed stranger and is found dead in an alley.",
+          "fullDesc": "Before the infernal casino, there was a girl named Vicky Josefina Ortega. She was born in the back alleys of Barcelona, where the air smelled of salt and sewage, of fresh bread and old blood. Her mother was a seamstress; her father was a gambler. She learned to count before she could read, to read faces before she could read books. Her father taught her to stack a deck, to palm a card, to read the tells that gave away a man's hand. When she was ten, her father played against a man with cold eyes. He lost his wedding ring, and then he lost his life—found in an alley with his throat cut. Vicky did not cry. She took her mother's hand and began to plan. She had just learned the most important lesson: in the end, everyone loses.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Black Widow's Web",
+          "shortDesc": "Vicky becomes 'La Viuda Negra', a hustler and seductress in Barcelona's underworld. A demon appears in a backroom poker game and offers her a deck that never loses in exchange for her soul. She accepts.",
+          "fullDesc": "The years that followed were a blur of petty cons and small-time hustles. Vicky learned to pick pockets, to run three‑card monte, to seduce men and leave them with empty wallets. She called herself 'La Viuda Negra'—the Black Widow. At seventeen, she heard the name for the first time. Then the demon found her in a backroom poker game. He appeared as a handsome man with ember eyes and a razor smile. He offered her a deck that never loses—obsidian cards humming with power—in exchange for her soul. Vicky looked at the deck, thought of her father's ring, and said, 'Deal.' The demon dealt three Aces of Spades. She picked one, signed the contract, and the infernal casino rose from the ashes of the burned‑out theater. She had traded her soul for a kingdom.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Casino of Cursed Dreams",
+          "shortDesc": "Vicky Joe claims her throne. She learns the secrets of her deck, her cane, and her jade owl. She collects souls and builds a legend, but she grows bored and lonely.",
+          "fullDesc": "The infernal casino grew from the cracked floorboards like a flower of obsidian and velvet. Vicky Joe—she had taken a new name, a gambler's name—walked its halls and felt belonging. She learned the deck's secrets: the cards could steal luck, drain life, seal soul contracts. The cane could manipulate probability, make the impossible happen. The jade owl, perched on its golden stand, could see through lies and screech with shattering force. She collected souls, bound contracts, and never lost. But the wins grew empty, the gamblers forgettable. She began to wander the underworld, watching heroes rise and fall, waiting for a game worth playing. And then a child came to her door in the rain.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Street Rat with Diamond Eyes",
+          "shortDesc": "Harley, a ragged boy with quick hands and diamond‑bright eyes, begs Vixxy Joe to teach him. She takes him in and begins training him in the arts of deception, magic, and gambling.",
+          "fullDesc": "He came on a night when the rain fell so hard the sky seemed to weep. He was a child, perhaps ten, with eyes too old for his face and hands that moved like lightning. 'Teach me everything,' he said. Vixxy Joe saw herself in him—the same hunger, the same cunning. She let him in. She taught him to stack a deck, to read a mark, to manipulate probability with a flick of his fingers. She taught him that magic was not about spells but about perception: making the audience see what you wanted them to see. Harley was a prodigy, learning faster than anyone she had ever taught. She saw the potential for greatness, and the potential for disaster. She told him, 'Never gamble what you are not willing to lose.' He listened. He learned.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Art of Letting Go",
+          "shortDesc": "Harley becomes a young man and decides to leave. Vixxy Joe lets him go with a gift—a top hat with a silver skull—and a warning. She is proud, but also lonely.",
+          "fullDesc": "The years passed. Harley grew into a young man, his body lean, his hands steady, his eyes still diamond‑bright. He came to her on the night of his departure, wearing a suit she had bought him, a top hat with a silver skull on the band. 'I'm leaving,' he said. Vixxy Joe did not try to stop him. She had known he would leave—had known it from the moment she saw the diamond in his eyes. 'Go. Make a name for yourself. Make me proud.' He hesitated. 'Will we meet again?' 'The cards will decide.' He walked out of the casino, and the doors closed with a soft click. Vixxy Joe sat on her throne, her cards orbiting, her owl watching, and felt loneliness for the first time in centuries. She had taught him everything. Now he was gone.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Weight of a Legend",
+          "shortDesc": "Decades pass. Vixxy Joe's legend grows, but she is bored. She hears whispers of Harley's exploits and knows he will return to challenge her. She waits with anticipation.",
+          "fullDesc": "The years passed. The casino grew. Vixxy Joe's legend spread across the underworld, making demons flinch and angels cross themselves. She collected more souls, added more cards to her deck. But the thrill was gone. She began to travel, watching heroes rise and fall—Selvina, Layla, Alucard—but she did not intervene. She was waiting for a game worth playing. Then she heard the whispers: Harley the Magician. Harley the Trickster. Harley the Man Who Made the Devil Blink. He had built his own legend. She was proud of him—prouder than she had ever been of anyone. She knew he would come back, would want to test his skills against the master. She did not know if she wanted him to win or lose. She only knew that she wanted to play.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Anatomy of a Temptress",
+          "shortDesc": "A detailed description of Vixxy Joe: her heart‑shaped face, emerald eyes, black‑and‑maroon hair, gold‑toothed smile, spectacular hourglass figure, revealing attire, and her signature top hat, monocle, and cane.",
+          "fullDesc": "To look at Vixxy Joe is to see a woman who has weaponized every aspect of her being. She stands six feet tall, with a wasp‑thin waist, hips that flare into full curves, and a full G‑cup bust displayed with unapologetic confidence. Her face is a study in sharp elegance: heart‑shaped, with a delicate chin, high cheekbones, and a straight nose. Her lips are full and blood red, curved in a knowing smirk. Her skin is porcelain, flawless. Her eyes are large, almond‑shaped, and startling emerald green, framed by thick lashes. Her hair is a cascade of black and maroon waves. She wears a gold monocle over her left eye, a black velvet choker with an emerald gem, and a top hat with a silver skull. Her attire is black and red: a sharp coat cut low over her cleavage, a red leather mini skirt, and knee‑high boots. Her gold teeth flash when she smiles. Her deck of obsidian cards orbits her head, and her jade owl watches from its golden stand.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Soul Reaper's Tools",
+          "shortDesc": "Vixxy Joe's weapons: the obsidian deck (Ace of Spades steals luck, drains life, seals contracts), the ebony cane (probability manipulation), and the supreme jade owl (all‑seeing, screeching, shielding).",
+          "fullDesc": "The deck is a collection of obsidian slivers, each etched with symbols of luck and fate, each a fragment of a claimed soul. The Ace of Spades—kept in her top hat—can steal luck, drain life, or seal a soul contract. The King of Hearts charms targets; the Queen of Diamonds reveals secrets; the Jack of Clubs paralyzes. The deck orbits her, ready to fly like razors. Her cane of polished ebony is carved into a coiled serpent with emerald eyes. It allows her to manipulate probability—to ensure her cards hit, enemies miss, and the house always wins. The jade owl is her familiar, a construct bound by an ancient contract. It can see through lies, speak in a rustling voice, unleash a screech that shatters glass and stuns enemies, and create a shimmering jade shield. Together, these tools have made her unbeatable. But her true weapon is her mind—her ability to read people and calculate odds.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Gambler's Philosophy",
+          "shortDesc": "Vixxy Joe does not believe in luck; she believes in probability and the human heart. She respects her opponents even as she destroys them. She secretly hopes to one day lose—to feel alive again.",
+          "fullDesc": "Vixxy Joe does not believe in luck. Luck is for fools. She believes in probability, mathematics, and the human heart. Every gambler who walks into her casino gambles against themselves—their greed, desperation, hope. She does not need to cheat; she only watches. She sees the tell, the flicker of fear, the hunger that makes them bet more than they can afford. She respects her opponents the way a predator respects its prey. They come believing they can win. They are wrong. The house always wins. But she has thought about what would happen if she ever lost. She does not know if she would be angry or relieved. She only knows that she wants to find out. That is why she waits for Harley. He is the only one who could beat her, the only one who could make her feel alive again.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Lonely Throne",
+          "shortDesc": "Vixxy Joe sits alone in her empty casino, reflecting on her father, her mother, and the life she might have had. She is immortal, powerful, and utterly bored. She wonders if she made the right choice.",
+          "fullDesc": "The infernal casino is empty. The patrons are gone, the chips swept away. Vixxy Joe sits on her throne, her cards orbiting, her owl watching. She is alone, as she has been for most of her existence. She does not sleep, eat, or age. She has won everything a person could want—wealth, power, respect, fear—and discovered that winning is not the same as being happy. She thinks about her father, the cold‑eyed man who took his ring. She has never found that man. She thinks about her mother, who died of a broken heart. She thinks about the life she could have had—simple, mortal, full of love and loss. She does not regret her choice. Regret is for people who believe in second chances. But sometimes, in the quiet hours, she allows herself to wonder. The questions are the most dangerous gambles of all.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Student's Return",
+          "shortDesc": "Harley returns to the casino, older and legendary. He challenges Vixxy Joe to a game with the highest stakes: his soul against hers. She accepts, eager to finally feel the thrill again.",
+          "fullDesc": "The doors of the infernal casino swing open. The chandeliers flare, the cards orbit faster, the owl's eyes glow. Harley is older now—a man, handsome, wearing a purple suit and the top hat she gave him. 'Hello, Vixxy. I've come to play.' She rises from her throne, cane tapping, cards orbiting. 'What are the stakes?' 'My soul. Against yours.' She laughs—a cold, sharp sound. 'You want to free me? How noble.' 'I want to play. The stakes are just the price of admission.' She looks at him for a long moment. Then she nods. 'Deal.' The game begins. The cards float. The cane taps. The owl watches. Harley picks up his cards and looks at her, not at them. 'You taught me everything except one thing.' 'What's that?' 'How to lose.'",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Hand That Never Ends",
+          "shortDesc": "The game reaches its climax. Harley lays down blank cards, offering Vixxy Joe a choice: keep playing or walk away. She folds, breaks her contract, and becomes mortal again.",
+          "fullDesc": "Vixxy Joe feels a chill. For the first time in centuries, she does not know what the cards mean. The symbols shift, the probabilities uncertain. Harley is not trying to beat her; he is trying to save her. 'Fold,' he says. 'You don't have to play.' 'I always have to play. It's who I am.' 'Then let me show you who you could be.' He lays down his cards. They are blank—no symbols, no suits, just obsidian reflecting her own face. 'Your choice. The only card that matters. The house doesn't always have to win.' She stares at the blank cards, at Harley, at the jade owl. She reaches up, takes the Ace of Spades from her hat, and lays it on the table. 'I fold.' The cards stop orbiting. The cane goes silent. The owl blinks. Vixxy Joe smiles—a real smile, reaching her eyes for the first time in centuries. Her contract is broken. Her soul is restored. She is mortal again.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The House and the Player",
+          "shortDesc": "Vixxy Joe walks away from her casino, her soul freed. She returns to Barcelona, visits her mother's grave, and walks into the sunset with Harley. She has finally learned that the only winning move is to stop playing.",
+          "fullDesc": "\"They say the house always wins. They are wrong. The house is just a building. The cards are just paper. The only thing that matters is the player—and the choice they make when the game is over.\" — Vixxy Joe, after folding her final hand. The infernal casino still stands, but the queen is gone. Vixxy Joe walks the streets of Barcelona, the city of her birth. She finds her mother's grave, overgrown and forgotten, and kneels beside it, weeping. She is mortal now, aging, dying, living. Harley walks beside her, silent and steady. The jade owl sits on her shoulder, its emerald eyes watching the horizon. She takes Harley's hand and walks into the sunset. The game is over. The house has folded. And the gambler has finally learned that the only winning move is to stop playing.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Vixxy Joe's Powers",
+          "shortDesc": "The nature of her infernal power, the deck of obsidian cards (Ace of Spades through Joker), the cane of probability manipulation, the jade owl's abilities, and her signature techniques (Floating Halo, Probabilistic Tap, Soul Contract, Emerald Gaze, Golden Smile).",
+          "fullDesc": "The Nature of Her Power: Vixxy Joe's abilities are the terms of her infernal contract—power in exchange for her soul. She can steal luck, drain life, seal contracts, and manipulate probability.\n\nThe Deck of Obsidian Cards:\n- Ace of Spades: steals luck, drains life, seals soul contracts\n- King of Hearts: charms target\n- Queen of Diamonds: reveals secrets\n- Jack of Clubs: paralyzes\n- Ten of Spades: lethal damage\n- Nine of Hearts: heals Vixxy Joe\n- Eight of Diamonds: creates barrier\n- Seven of Clubs: slows target\n- Six of Spades: blinds target\n- Five of Hearts: steals small luck\n- Four of Diamonds: reveals opponent's card\n- Three of Clubs: poisons\n- Two of Spades: duplicates\n- Joker: random effect\n\nThe Cane of Probability Manipulation: taps to alter odds—ensures her cards land, enemies miss, critical hits land, negative effects reduced, impossible things seem inevitable.\n\nThe Jade Owl's Abilities:\n- All-Seeing Eye: sees through illusions and stealth (50ft radius)\n- Voice of Rustling Leaves: offers counsel; calms allies, disturbs enemies\n- Shattering Screech (once per day): stuns enemies, deals psychic damage (30ft radius)\n- Jade Shield: creates barrier that absorbs and reflects damage\n\nSignature Techniques:\n- Floating Halo: deck orbits her, ready to launch\n- Probabilistic Tap: alters odds within a radius\n- Soul Contract: binds defeated enemy to her service with Ace of Spades\n- Emerald Gaze: reads surface thoughts, anticipates moves\n- Golden Smile: charm wave captivates enemies, slows attacks, lowers defenses",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name \"Vixxy Joe\"",
+          "shortDesc": "The name is a gambler's choice. 'Vixxy' for the fox—cunning, sly. 'Joe' for the everyman—a reminder that even a queen was once a street rat. She has chosen it, and that is all that matters.",
+          "fullDesc": "The name 'Vixxy Joe' was not a birthright; it was a choice—a gambler's name, one that rolls off the tongue like a winning bet. 'Vixxy' for the fox in her soul: cunning, sly, able to slip out of traps that should have held her. 'Joe' for the everyman, the common touch, the reminder that even a queen was once a street rat in Barcelona. The demons call her 'The Gambler of Souls' with respect and fear. The angels call her 'The Temptress' and cross themselves. The mortals call her 'The Black Widow' and pray they never face her across a table. She does not care what they call her. Names are just labels, and labels are just tools. She is Vixxy Joe because she chose to be Vixxy Joe, and after a lifetime of winning, she has finally learned that the only hand worth folding for is the one that buys back your soul. She walks into the sunset with Harley, the jade owl on her shoulder, a smile on her lips, and a heart finally learning to hope.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "hero": "Nene",
+      "slug": "nene",
+      "cover": "images/stories_covers/nene_cover.png",
+      "folder": "images/lores/nene/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Dreamer's Shadow",
+          "shortDesc": "Nene stands at the edge of the twilight paths, the Nightshade boomerang in hand, Sui Feng on her shoulder. She hunts the nightmares that prey on dreamers, and her sister Nana never knows how close the darkness comes.",
+          "fullDesc": "\"Nana dreams of sunshine and butterflies. I dream of the things that eat sunshine and butterflies. She doesn't know. I'll make sure she never does.\" — Nene, to Sui Feng, in the quiet hours before dawn. There is a particular kind of silence that settles over the twilight paths—not the silence of sleep, but the silence between breaths, between heartbeats, between the moment a dream begins and the nightmare slips through. Nene stands at the edge of a mist‑shrouded bridge, the Nightshade boomerang against her shoulder, its dark wood pulsing with faint, hypnotic light. Sui Feng perches on her shoulder, its purple engravings glowing softly. She is the Spirit Hunter of Twilight Whispers, the cautious twin, the watchful sister. She hunts the spirits that prey on the innocent and will never let her sister know how close the darkness comes.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Portent of the Blood Moon",
+          "shortDesc": "Nene and her twin Nana are born under a blood moon. The elders declare that Nene has been touched by the spirit realm—she can see the shadows others cannot, and Nana will be her anchor to the light.",
+          "fullDesc": "The village of the Leonin was nestled in the mist‑shrouded valleys of the Wild Zones. Nene and Nana were born under a blood moon, their first cries mingling with the distant howl of a spirit beast. Nana came first, a child of light and laughter. Nene followed moments later, silent and watchful, her eyes open and aware. The elders declared that Nene had been touched by the spirit realm; she could see what others could not: the shadows that clung to the sleeping, the whispers that crawled through dreams, the nightmares that fed on fear. Nana, they said, would be her anchor—the light that kept Nene from being pulled into the darkness forever. Their father did not understand, but their mother wept with love. The twins grew inseparable, two halves of a whole.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The First Spirit",
+          "shortDesc": "At seven years old, Nana has a nightmare—a shadow creature that wraps around her throat. Nene pulls the spirit from the dream and fights it with her bare hands. She wins, but Nana never remembers the attack.",
+          "fullDesc": "The first spirit came when the twins were seven. Nana had a nightmare—a creature of writhing shadows that wrapped around her throat, stealing her breath. Nene woke to find her sister choking, her face pale, her lips blue. Without thinking, Nene reached into the dream and pulled the creature out. It materialized in the room, a shrieking mass of claws and teeth. Nene fought it with her bare hands, scratching and biting, her small fists pounding against its shadowy form. She won, but she was covered in scratches. Nana never remembered the attack. From that night forward, Nene began to train. She learned to sense spirits, to track them through the twilight paths, to fight them with weapons and will.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Anchor and the Hunter",
+          "shortDesc": "Nana becomes a cheerful, playful girl. Nene becomes quiet and watchful, masking her exhaustion with smiles. She protects Nana from the spirits without her sister ever knowing.",
+          "fullDesc": "As the twins grew, Nana blossomed into a cheerful, playful girl who saw only the bright side of the world. She made friends easily, laughed often, and never seemed to notice the shadows at the edges of her vision. Nene became quiet, watchful, her words sharp and her laughter rare. The other children thought her strange, but Nana never judged. She would hold Nene's hand in the dark, sing to her when the nightmares were loud, and never ask why her twin's eyes sometimes glowed with purple light. Nene loved her sister fiercely, but she could never tell the truth. She could never say, 'I hunt the things that would eat your dreams.' Instead, she sat with Nana during sleepovers, patrolled the twilight paths, and masked her exhaustion with smiles. Sui Feng knew. The kitten would curl in her lap, and Nene would whisper her fears into its fur.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Forging of the Nightshade",
+          "shortDesc": "A twilight spirit named Morvain teaches Nene to hunt and leads her to a tree that grows between waking and sleeping. She carves the Nightshade boomerang with her own bleeding hands.",
+          "fullDesc": "The Nightshade was not a weapon Nene chose; it was a weapon that chose her. Morvain, a creature of twilight who had grown tired of watching nightmares devour dreamers, led her to a tree that grew only in the space between waking and sleeping. The tree was old, older than the mountains, its wood dark and pulsing with swirling patterns of purple and pink. 'You will need a weapon,' Morvain whispered. 'The spirits will not fear your fists. They will fear the mist.' Nene carved the wood with her own hands, her small fingers bleeding, her eyes burning with determination. She shaped it into a boomerang that would return to her and spread a mist of hallucinogenic magic. The Nightshade was taller than she was, more than twice her height, but it felt light in her hands. When she threw it for the first time, the mist spread like a living thing, revealing the hidden paths of the twilight realm. She caught the boomerang and knew she was no longer a child. She was a hunter.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "Sui Feng, the Familiar",
+          "shortDesc": "On the night of her ninth birthday, a kitten with glowing purple runes appears in Nene's dream. It becomes her familiar, Sui Feng, her only confidant and companion.",
+          "fullDesc": "Sui Feng was not a pet found in an alley; the kitten came to Nene in a dream, on the night of her ninth birthday. Nene had been exhausted, her body aching from a hunt that had nearly killed her. When she opened her eyes, she was standing in a meadow of moonflowers, and a small, white kitten was watching her from the grass. Its fur was creamy white, marked with intricate purple runes that glowed faintly. Its eyes were large, luminous, pale lavender. 'You called me,' the kitten said. 'I have been waiting.' Nene did not understand, but the kitten crawled into her lap and began to purr. The warmth healed her wounds and soothed her exhaustion. When she woke, the kitten was curled on her chest. Sui Feng became her familiar, her only confidant, the sole being that knew the full weight of her duty. It can channel dark magic, wrap Nene in protective shadow, and warn her of hidden dangers.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Philosophy of the Liminal",
+          "shortDesc": "Nene does not destroy spirits; she drives them back. She pities them even as she fights. She has written letters for Nana, in case she falls, to explain everything and beg her sister not to be sad.",
+          "fullDesc": "Nene does not believe in destroying spirits. They are not evil; they are hungry, desperate, alone. They feed on dreams because they have no dreams of their own. She drives them back to the void, gives them a chance to find their own light. But she will not hesitate if Nana is threatened. She has thought about what will happen when she is gone. She is not immortal. She has written letters, hidden them where only Nana would find them, explaining everything: the blood moon, the first spirit, the Nightshade, Sui Feng. The letters beg Nana not to be angry or sad, but to remember that every nightmare she never had was a battle her sister won. Nene hopes she never has to send them. But hunters know that hope is the most fragile thing of all.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Secret Smile",
+          "shortDesc": "Nana sometimes looks at Nene with knowing eyes, but Nene hides the truth behind smiles and promises of birthday surprises. Sui Feng knows the weight of her secret.",
+          "fullDesc": "Nana does not know. Nene has made sure of that. She has hidden the scratches, the exhaustion, the distant look in her eyes. She has laughed when Nana laughed, pretended the world was as bright as her sister believed. But sometimes, in quiet moments, Nana will look at Nene with a strange expression—not suspicion, but something softer, like recognition. 'You're hiding something,' Nana will say. 'I can always tell. We're twins.' Nene will smile, a real smile, and say, 'I'm hiding a surprise for your birthday. You'll see.' It is not a lie. The surprise is that Nene has fought a dozen nightmares to keep Nana's dreams peaceful. The surprise is that her love is the only weapon that never dulls. Nana laughs, and the moment passes. But Sui Feng knows. The kitten's runes pulse softly, and Nene feels the weight of her secret settle back onto her shoulders.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Darkening Dreams",
+          "shortDesc": "The Sundering weakens barriers, and spirits cross more frequently. Nene senses something ancient watching Nana. She prepares for the hunt, afraid that her sister will see her fight.",
+          "fullDesc": "The Sundering has weakened the barriers between worlds. Spirits are crossing into the waking realm more frequently than ever. Nene patrols the twilight paths, the Nightshade spinning, hunting nightmares. She has seen her sister's dreams darken, felt the presence of something ancient watching Nana from the edges of sleep. She does not know what it is, but she knows it will come. The spirits are drawn to joy, to the bright ones who have never known fear. Nene has prepared: sharpened the Nightshade, strengthened her bond with Sui Feng, mapped the twilight paths around Nana's dreams. But she is afraid—not of the spirit, but that Nana will see her fight, will witness the monster beneath her quiet twin's skin. She is afraid that her sister will look at her with fear instead of love. Sui Feng nuzzles her cheek. 'I will fight in silence,' Nene whispers. 'In shadow. In the spaces between heartbeats.'",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Watcher at the Edge",
+          "shortDesc": "Every night, Nene sits at the edge of Nana's dreamscape, waiting for the spirit to make its move. She does not sleep. Sui Feng watches with her.",
+          "fullDesc": "The spirit is patient. It has been watching Nana for months, studying her dreams, learning her fears. It knows that Nene is the guardian, and it knows the guardian's weakness is her sister. It has tried to draw Nene away, to create diversions, but Nene refuses to take the bait. She sits at the edge of Nana's dreamscape every night, the Nightshade in her lap, Sui Feng on her shoulder. She watches the shadows, waiting for the spirit to make its move. She does not sleep. She cannot. Sleep would mean leaving the vigil. Sui Feng curls tighter, its runes glowing softly, worried but not protesting. 'Come out,' Nene whispers to the darkness. 'I know you're there. I know you want her. But you'll have to go through me first.' The darkness does not answer, but something moves in the corner of her vision. The Nightshade hums in her hand. The hunt has begun.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Philosophy of the Nightmare",
+          "shortDesc": "Nene pities the spirit that hunts Nana—it is hungry and alone. She will try to drive it back rather than destroy it, but she will not hesitate if Nana is threatened.",
+          "fullDesc": "Nene does not believe in destroying spirits. She believes in driving them back, in reminding them that the waking world is not their hunting ground. The spirit that watches Nana is not evil; it is hungry, desperate, alone. It clings to Nana's brightness because it has no light of its own. Nene pities it, even as she prepares to fight. She has seen what happens to spirits that are destroyed; they do not die, they simply fade, and the fading is slow agony. She would rather drive it back to the void, give it a chance to find its own light. But she will not hesitate. If the spirit threatens Nana, she will destroy it. She will not let her sister suffer for her compassion. Sui Feng meows softly. 'I know,' Nene says. 'But I have to try.'",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Demon Within the Dreams",
+          "shortDesc": "On the night of the new moon, the spirit attacks. Nene fights for hours, using the Nightshade and Sui Feng's shadow magic. She drives the spirit back into the void and collapses, exhausted.",
+          "fullDesc": "The spirit came on the night of the new moon, when the shadows were deepest and the veil was thinnest. It was not a creature of claws and teeth; it was a presence, a pressure against Nene's consciousness, a whisper that promised peace if she would step aside. 'Let me in. Let me taste her light. I only want to feel warm.' Nene did not answer. She raised the Nightshade and threw it. The boomerang spun through the dreamscape, spreading mist, and the spirit shrieked. It tried to flee, but the mist trapped it, confused it. Nene caught the boomerang and threw it again. Sui Feng channeled dark magic, wrapping Nene in a shroud of protective shadow, its runes blazing. The battle lasted hours. Nene was tired, her arms aching, her eyes burning. But she did not stop. In the end, the spirit retreated, its form dissolving into the void. It would not return. Nene collapsed, the Nightshade clattering beside her. Sui Feng curled on her chest. 'Sleep,' the kitten seemed to say. 'I will watch.' For the first time in months, Nene dreamed of sunshine.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Legacy of the Spirit Hunter",
+          "shortDesc": "Nene does not expect statues or songs. Her legacy is Nana's smile, Nana's unbroken dreams. She will keep hunting, keep protecting, keep loving in silence.",
+          "fullDesc": "Nene does not expect to be remembered. She is a ghost, a rumor, a girl who walks the twilight paths and hunts the things that hide in dreams. The historians will never write about her; the songs will never be sung. She does not care. Her legacy will not be statues or songs. It will be Nana's smile, Nana's laughter, Nana's unbroken dreams. It will be the nights her sister slept peacefully, never knowing how close the darkness came. It is not a legacy that will be celebrated or carved into stone. But it is a legacy that matters. And in the end, Nene believes, that is enough.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Sunshine and the Shadow",
+          "shortDesc": "Morning comes. Nana invites Nene to explore the old forest. Nene smiles and goes with her. Tonight, she will hunt again. But for now, the sunshine is warm, and her sister's smile is bright.",
+          "fullDesc": "\"Nana dreams of sunshine and butterflies. I dream of the things that eat sunshine and butterflies. She doesn't know. I'll make sure she never does.\" — Nene, to Sui Feng, in the quiet hours before dawn. The morning is warm in the Leonin village. Nana sits on the porch, humming, a bowl of rice porridge in her hands. Nene sits beside her, the Nightshade hidden beneath her cloak, Sui Feng curled in her lap. 'Nene, you look tired. Did you have nightmares again?' Nene smiles, a real smile. 'No. I slept fine.' Nana grins. 'Good! Today we're going to explore the old forest! I heard there's a waterfall with rainbow mist.' Nene nods. 'Sounds fun.' She will go with her sister. She will laugh and play and pretend the world is as bright as Nana believes. And tonight, when the sun sets, she will take up the Nightshade and walk the twilight paths again. But for now, the sunshine is warm, and her sister's smile is bright, and Sui Feng is purring in her lap. For now, that is enough.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Nene's Powers",
+          "shortDesc": "The nature of Nene's spirit and dream magic, the Nightshade boomerang's techniques (Dream Mist, Twilight Return, Spirit Throw, Fearful Echo, Nightmare Parade), and Sui Feng's familiar abilities.",
+          "fullDesc": "The Nature of Her Power: Nene walks the twilight paths between waking and sleeping. Her Nightshade spreads hallucinogenic mist that bends perception, conjures fears, and blurs reality. She fights with confusion and control, never head‑on.\n\nThe Nightshade Boomerang:\n- Dream Mist (Passive): Enemies hit are afflicted with Hallucination, randomizing movement controls.\n- Twilight Return (Passive): The Nightshade always returns to Nene, passing through walls.\n- Spirit Throw (Skill 1): Throws the boomerang in a large arc, dealing damage and leaving a lingering mist trail.\n- Fearful Echo (Skill 2): Creates a spectral copy that flies in the opposite direction; both deal damage, sowing confusion.\n- Nightmare Parade (Ultimate): Spins the Nightshade around her, creating a dense mist zone. Enemies inside are slowed, blinded, and have drastically reduced vision.\n\nSui Feng, the Kitten Familiar:\n- Shadow Shroud (Passive): Channels dark magic to wrap Nene in protective shadow, reducing incoming damage.\n- Amplify Mist (Active): Enhances the hallucinogenic power of the Nightshade, increasing its area and duration.\n- Spirit Sense (Passive): Warns Nene of hidden spirits and dangers in the twilight paths.\n\nThe Aura of the Twilight Hunter: Watchful stillness, a tension that never fully relaxes. She fades into shadows, her steps silent, her presence almost unnoticeable until she strikes.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name \"Nene\"",
+          "shortDesc": "The name 'Nene' echoes the word for 'sleep' in some languages, a reference to her role as guardian of dreams. It is also a diminutive of 'Nana', the shadow to her sister's light.",
+          "fullDesc": "The name 'Nene' is of uncertain origin, but it carries echoes of the word 'nen' (sleep) in some languages, a reference to her role as guardian of dreams. It is also a diminutive of 'Nana', a reminder that she is the shadow to her sister's light. Her enemies call her the Spirit Hunter, the Dream Walker, the Shadow Twin. Her sister calls her Nene. That is all that matters. Nene does not fight for glory or recognition. She fights so that Nana can sleep peacefully, never knowing how close the darkness came. She is the guardian of the liminal, the hunter of twilight whispers. And she will let no nightmare touch the one person who makes her world worth protecting.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "hero": "Xal'Vur",
+      "slug": "xalvur",
+      "cover": "images/stories_covers/xalvur_cover.png",
+      "folder": "images/lores/xalvur/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of an Ending",
+          "shortDesc": "Xal'Vur, the Hollow Lord, drifts through the Wild Zones—a five‑hundred‑forty‑three‑foot skeleton of obsidian and despair. He was once a god of hope, but the Sundering broke him. Now he walks, and his presence alone erodes the will to live.",
+          "fullDesc": "\"I have seen the pattern. It is not a circle. It is a spiral, tightening, tightening, until the only thing left is the center. And the center is empty.\" — Xal'Vur, the Radiant Vigil, before he forgot how to speak. The ash‑fields of the Wild Zones do not howl with wind. They sigh. The horizon darkens not with storm clouds, but with him. Five hundred and forty‑three feet of obsidian bone and blackened steel, wreathed in a cold jade flame that has never known warmth. His footsteps land with the soft, crushing finality of a book being closed. He carries Weight of Eternity, a sword forged from a collapsed dimension where time and hope perished together. He was a god of hope. Then he watched the endless cycle of sacrifice and realised it would never end. His divine spark went out. Now he is the Hollow Lord, the Echo of a Dead God, the Great Peril of Despair. He walks, and his presence is a question: Why do you keep fighting?",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "Before the First Prayer",
+          "shortDesc": "Xal'Vur was once the Radiant Vigil, a god of hope who guarded a sanctuary at the edge of the Abyss. He tended the embers of mortal dreams and believed that the war against chaos would one day end.",
+          "fullDesc": "Before the Celestial Order codified divine law, there was a forgotten pantheon. Among them was Xal'Vur, the Radiant Vigil—not a god of war or wisdom, but of hope. He walked among mortals in golden armor, his voice a beacon, his sanctuary built on the edge of the Abyss. He did not demand worship; he inspired it. He guarded that sanctuary for eons, watching heroes come and go, empires rise and fall. He believed—truly, deeply—that one day the war would end, that the sun would rise on a world that no longer needed gods to hold back the darkness. He was wrong, but he did not know it yet. His domain was a quiet place where the weary could rest and the hopeless could sit in silence until they remembered why they had once wanted to live.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Sundering's First Whispers",
+          "shortDesc": "A tiny crack appears in the Abyss. Xal'Vur warns the other gods, but they dismiss him. The crack widens into a rift, and primordial chaos begins to unmake reality. One by one, the gods fall.",
+          "fullDesc": "The Sundering began with a crack—a hairline fracture in the fabric of reality, deep in the Abyss. Xal'Vur felt it immediately. He warned the other gods. They dismissed him. The crack widened into a rift, and the rift began to bleed primordial chaos—not evil, but unmaking. Worlds were erased. Gods were forgotten. Xal'Vur stood at the edge of the rift, his golden armor gleaming, and sang a song of hope that slowed the chaos. He sang for three hundred years. Heroes came to fight beside him. They fell. New heroes came. They fell too. And in the quiet moments between battles, Xal'Vur began to see the pattern: the chaos was not advancing randomly. It was following a cycle. A spiral, tightening with each iteration. The victories bought time, but not progress. The war was a holding action, meant to delay the inevitable.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Revelation That Broke Him",
+          "shortDesc": "After three centuries of singing, Xal'Vur stops. The pattern reveals itself fully: the endless cycle of sacrifice and loss. His divine spark flickers and goes out. His golden armor darkens. He becomes the Hollow Lord.",
+          "fullDesc": "In the three hundred and first year, the revelation hit him like a physical blow. The pattern was so clear now—stretching backward into infinite past, forward into infinite future. An endless, grinding cycle of sacrifice and loss, of brief victories and inevitable defeats. The embers he had tended for eons—had they ever truly glowed? His divine spark flickered. He tried to hold onto hope, but it drained away. The chaos surged. He did not raise his sword. He stood frozen, his mind spiraling. The other gods shouted at him, begged him to fight, cursed him for his weakness. He did not hear them. His golden armor darkened to obsidian. His eyes dimmed to jade. His flesh fell away, leaving a skeleton of petrified darkness veined with sickly green light. He did not rage. He did not weep. He simply turned and walked away, into the newly scarred Wild Zones. The Hollow Lord was born.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The First Fifty Years",
+          "shortDesc": "Xal'Vur lies in a crater for fifty years, unmoving. His presence poisons the land, creating the Hollow Ground. He rises again, embracing his nature as the walking monument to futility.",
+          "fullDesc": "The crater was three miles wide and a thousand feet deep. Xal'Vur lay at its centre, half‑buried, his jade eyes flickering weakly. He did not move for fifty years. The land around the crater began to change: plants grew stunted and gray, animals lay down and never rose, hermits experienced dreams of endless darkness. The crater became known as the Hollow Ground. The Celestial Order sent investigators, who found nothing but a skeleton and a feeling of hopelessness so profound that even the most devout paladins questioned their faith. Fifty years passed. Xal'Vur opened his jade eyes and rose. He had not decided to become the Great Peril of Despair; he simply realised that he already was. His presence, his aura, his very existence—all pointed toward the same conclusion. He was the living embodiment of futility. He began to walk.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Path of Despair",
+          "shortDesc": "Xal'Vur wanders aimlessly, his Aura of Hopelessness killing everything in a fifty‑meter radius. The Celestial Order sends a scouting party; only one paladin survives, her mind shattered.",
+          "fullDesc": "Xal'Vur had no destination. He walked, and the world learned to dread his passage. His Aura of Hopelessness radiated constantly: colors washed out, sounds muffled, despair crept in. Animals froze and died. Villages in his path were devastated—not attacked, but simply passed by. The villagers would sit and wait for death. The Celestial Order sent a scouting party of twelve paladins. They never returned. The sole survivor, Seraphina, was found wandering three weeks later, her eyes empty. She never spoke again and died six months later. The Order classified Xal'Vur as a Cataclysmic Threat—the highest level—and issued a standing directive: avoid at all costs. Do not engage. Do not approach. He was not an enemy to be defeated. He was a force of nature to be survived.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Weight of Eternity",
+          "shortDesc": "A paladin named Elara Solheart challenges Xal'Vur and does not break, though her faith crumbles. Curious, Xal'Vur forges a greatsword from a collapsed dimension: Weight of Eternity.",
+          "fullDesc": "Elara Solheart refused to believe the Hollow Lord could not be defeated. She gathered a small company and tracked Xal'Vur to the Amber Wastes. She charged, her holy sword blazing. It shattered against his obsidian armor. Her companions fell to despair. Elara alone remained standing, tears streaming, still fighting though she knew she could not win. Xal'Vur felt a flicker of curiosity. Why did she not break? He did not kill her. He turned and walked away. The question lingered. He went to the place where his pantheon had forged their greatest weapons—a collapsed dimension where time and hope had perished. He pulled out a slab of obsidian green and shaped it into a blade twice his height. He called it Weight of Eternity. The sword was a question forged into steel: Why do you keep fighting?",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Shadow Accord's Curiosity",
+          "shortDesc": "The Shadow Accord sends a vampire diplomat to negotiate with Xal'Vur. The Hollow Lord's presence shatters the vampire's will. The Accord marks him as 'do not approach'.",
+          "fullDesc": "The Shadow Accord learned of Xal'Vur long before the Celestial Order acknowledged him. They sent a diplomat—a vampire lord named Malachar, whose mind was a fortress of calculation. Malachar found Xal'Vur in the Amber Wastes and offered an alliance. The jade eyes turned toward him. The question appeared in his mind: Why do you serve the Accord? His reasons crumbled. His will shattered. He fell to the ground, unable to move, unable to think. Xal'Vur watched him for a moment, then turned away. Malachar crawled back to the Accord three days later, his mind cracked. He never spoke of what he had experienced. The Shadow Accord marked Xal'Vur as 'do not approach' and revised his classification from 'potential asset' to 'unavoidable hazard'.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Forge Pact's Machines",
+          "shortDesc": "The Forge Pact sends a drone to study Xal'Vur. Its data is incomprehensible. When Xal'Vur passes near a research facility, all personnel die of hopelessness. The Pact expands the evacuation radius.",
+          "fullDesc": "The Forge Pact sent Observer-7, a machine without emotions. It followed Xal'Vur for six months, recording everything. The data made no sense. Xal'Vur's aura did not register as any known energy—it was absence, a void where hope should have been. The analysts could not quantify it. Then Xal'Vur's path shifted unexpectedly, bringing him within fifty miles of the Glimmerdeep research facility. The sensors triggered too late. Despair crept in over three days. Researchers could not concentrate; technicians stared at screens; security forgot why they carried weapons. By the end of the third day, everyone was dead—not from violence, but from hopelessness. The Forge Pact sealed the facility and expanded the evacuation radius to one hundred miles. Another note was added to Xal'Vur's file: 'Do not approach under any circumstances.'",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Hero Who Didn't Break",
+          "shortDesc": "Marcus Greymane, the last paladin of a fallen order, confronts Xal'Vur. He cannot defeat the Hollow Lord, but he does not break. Xal'Vur spares him and walks away.",
+          "fullDesc": "Marcus Greymane was the last paladin of the Order of the Silver Dawn. He had lost everything but had not stopped fighting. He heard of the Hollow Lord and went to confront him. The despair hit like a physical blow. His courage wavered. The question echoed in his mind: Why do you keep fighting? He closed his eyes. He thought of his fallen brothers and sisters, the children he had saved, the villages that still stood because someone had been there. 'Because someone has to,' he whispered. Xal'Vur's jade eyes focused on him. The despair did not crush him. Marcus opened his eyes. 'I don't know if I can beat you. But I'm not going to stop fighting. Not because I think I'll win. Because stopping would mean giving up, and I've given up enough already.' Xal'Vur watched him for a long moment, then turned and walked away. Marcus stood alone, still standing. He did not know if he had won, but he was still standing.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Aura of Hopelessness",
+          "shortDesc": "A detailed description of Xal'Vur's passive Aura of Hopelessness: a fifty‑meter radius of cold, gray reality that stacks Despair, muffling sounds, muting colors, and crushing the will to live.",
+          "fullDesc": "The Aura of Hopelessness is not a spell or a curse. It is the natural radiation of a god who has lost his reason for existing. It extends fifty meters in every direction. Within that radius, colors mute, sounds muffle, time seems to slow. Despair stacks accumulate every two seconds, reducing damage, movement speed, and healing. At ten stacks, the target becomes Resigned: silenced and pacified for five seconds. The aura cannot be dispelled. It is not magical; it is existential. Those who stay too long simply give up—their hearts stop, their lungs stop, their minds shut down. There is no cure. Those who leave before the despair becomes absolute may recover, but they carry the memory like a scar. Paladins and heroes with strong purpose resist longer, but no one is immune. Xal'Vur himself feels the despair, but he has lived with it so long it has become part of him.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Weight of Eternity",
+          "shortDesc": "Detailed breakdown of Xal'Vur's greatsword: it severs the soul's tether to purpose. Wounds weep cold green mist. When he plants it, he unleashes Eternal Descent, creating the Hollow Ground.",
+          "fullDesc": "Weight of Eternity is a question, a judgment, a truth that cannot be denied. The blade is twice Xal'Vur's height, a slab of smoky, translucent obsidian green, its surface jagged and cracked. When drawn, colors drain, sounds muffle, time slows, and the despair becomes almost unbearable. The sword does not cut flesh; it severs the soul's tether to purpose. Wounds weep a cold, green mist, and the victim feels a profound, peaceful resignation. Those who survive carry a cold spot in their soul that never fully warms. When Xal'Vur plants the sword point‑first into the earth, he unleashes Eternal Descent: a shockwave of pure despair radiates over a hundred meters. The ground becomes the Hollow Ground for twenty seconds—despair stacks do not decay, damage is doubled, and healing is halved. Those who remain at the end with ten stacks become Soul‑Broken: permanently pacified, wandering away empty. Xal'Vur does not shout a battle cry. He does not need to.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Search for an Answer",
+          "shortDesc": "Xal'Vur has wandered for millennia. He has seen empires rise and fall, but he has not found what he is searching for. Yet there have been moments—a child's laugh, a hero who did not break—that hint at something beyond despair.",
+          "fullDesc": "The Hollow Lord has wandered the Wild Zones for millennia. He has seen empires rise and fall, heroes born and die. He has watched, and waited, and despaired. But he has not found what he is searching for. Not consciously. The pattern—the terrible, endless cycle—is still there. Hope is still a lie. Despair is still the truth. And yet… there have been moments. The paladin who did not break. The heroes who fought not because they believed they could win, but because they believed that fighting was enough. The children who laughed in the shadow of his passing, too young to understand the weight of the despair. Xal'Vur does not understand these moments. He files them away in the deep, empty caverns of his mind and continues walking. Perhaps one day he will find the proof that hope is not a lie. Or perhaps he will not. Either way, he will endure. That is what despair does. It endures.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Silence That Remains",
+          "shortDesc": "Xal'Vur walks through the ash‑fields. A child laughs in the distance. He pauses, then resumes walking. Somewhere, buried deep, an ember flickers. A question: What if I am wrong?",
+          "fullDesc": "\"They say that every step I take brings the world closer to its end. They are wrong. The world is already ending. It has been ending since the first moment of creation. I am merely… acknowledging the truth.\" — Xal'Vur, the last thought he ever consciously formed. The ash‑fields are quiet. Xal'Vur walks. His footsteps land with the soft, crushing finality of a book being closed. He does not know where he is going. He does not remember where he has been. The silence is his companion. In the distance, a child laughs. Xal'Vur pauses. His jade eyes shift toward the sound. A tiny, defiant spark of hope. He does not understand it. He simply listens for a moment, then resumes walking. The child is not his concern. But somewhere, in the deep, empty caverns of his mind, an ember flickers. Not hope. Not even the memory of hope. A question. A possibility. What if I am wrong? The thought does not last. It is swallowed by the silence. But it was there. For a moment, it was there. And Xal'Vur continued walking. The silence continued with him.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Xal'Vur's Powers",
+          "shortDesc": "Complete breakdown of the Aura of Hopelessness (passive despair stacks), Sundering Slash, Crushing Resignation, Weight of Eternity, Eternal Descent, and the Hollow Lord's limitations.",
+          "fullDesc": "The Nature of His Despair: Xal'Vur's despair is not a curse; it is a revelation. He shows the hopelessness that was always there. This is what makes him so dangerous—a truth cannot be defeated, only accepted or denied.\n\nAura of Hopelessness (Passive): 50m radius. Stacks Despair every 2s (3% damage reduction, 2% slow, 2% healing reduction per stack). At 10 stacks: Resigned (silenced, pacified 5s). At 40% HP, radius expands to 60m; at 20% HP, effects intensify. Cannot be dispelled.\n\nSundering Slash (Skill 1): Sweeps Weight of Eternity, sending a 40m cone of obsidian green energy. Deals 300% physical damage + 3 Despair stacks. Enemies at 5+ stacks take 150% psychic damage and are knocked back 20m. Cooldown 15s.\n\nCrushing Resignation (Skill 2): Clenches fist, rooting enemies within 30m for 4s, dealing 120 psychic damage per second, reducing healing by 50%. Doubles duration/damage if target is Resigned. Cooldown 22s.\n\nWeight of Eternity (Passive & Skill 3): Passively extends aura range, grants immunity to fear/charm/taunt, 20% damage reduction. Actively: draws sword (2s cast), expanding aura to 70m, increasing damage, reducing cooldowns. Cooldown 30s.\n\nEternal Descent (Ultimate): Plants sword into the ground over 3s (immobile, 90% damage reduction). Shockwave of despair radiates 100m over 3s, afflicting 5 Despair stacks and silencing for 8s. Creates Hollow Ground for 20s: 200 psychic damage per second, 40% damage reduction, Despair stacks do not decay. Enemies with 10 stacks at the end become Soul‑Broken (permanently pacified). Cooldown 150s.\n\nPassive Defense: Immune to fear/charm/taunt, 20% damage reduction. For each 10% health missing, aura radius +5m and Despair stacks accumulate 10% faster. Below 30% health, damage increased by 30% instead of reduced.\n\nFinal Resignation (Special): Reduces enemy below 10% health, may execute with a gaze (willpower check; automatic at 10 Despair stacks). Successful execution restores 15% health and reduces Crushing Resignation cooldown by 8s.\n\nLimitations: Xal'Vur is slow; cannot dodge or pursue. Vulnerable to holy magic (brief stun). Does not want to fight; those who do not attack him are not attacked in return.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name \"Xal'Vur\"",
+          "shortDesc": "The name is older than the Celestial Order, possibly meaning 'The End of Hope' or 'He Who Walks in Silence'. Xal'Vur himself does not remember. He only knows the silence and the walking.",
+          "fullDesc": "The name 'Xal'Vur' is old—older than the Celestial Order, older than the gods of Kretos, older than the Sundering. It comes from a language that has no name, spoken by beings who have no form. Some scholars believe it means 'The End of Hope.' Others argue for 'He Who Walks in Silence.' A few suggest it is not a name at all, but a sound—the sound of a dying star, a closing door, the last heartbeat fading into nothing. Xal'Vur does not remember what his name means. He does not remember his name at all, not really. He only knows that when others speak it, he feels a faint, distant echo—a memory of warmth, of purpose, of something that might have been love. He does not know that his name was once spoken as a prayer, by heroes who looked to the sky and asked for one more day, one more chance, one more reason to believe. He does not know that the prayers stopped centuries ago. All he knows is the silence, and the walking, and the weight of eternity pressing down on his shoulders. He is not evil. He is not cruel. He is simply empty. And emptiness, once it has consumed you, is the hardest thing in the universe to escape.",
+          "imageFile": "FinalNote.png"
         }
       ]
     }

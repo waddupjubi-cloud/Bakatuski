@@ -1,0 +1,375 @@
+{
+  "world": {
+    "name": "Kretos",
+    "description": "A fractured world born from the embers of a cosmic war between the primordial forces of Order and Chaos. Here, the scars of the Sundering still bleed magic into every stone and sky, creating a realm of impossible contradictions where celestial cathedrals gleam, shadow‑drenched rifts whisper, volcanic empires smolder, and industrial sprawls hum with technomantic ambition.",
+    "cosmology": {
+      "primordialForces": ["Order", "Chaos"],
+      "sundering": "Millennia ago, a catastrophic imbalance nearly destroyed Kretos. The Primordial Deity of Life and Death intervened, sealing the rifts between worlds. However, the echoes of that cataclysm continue to weaken the barriers of reality, allowing demons, cosmic horrors, and forgotten gods to seep back into a world already teetering on the edge of annihilation."
+    },
+    "kingdoms": [
+      {
+        "id": 1,
+        "name": "Aethelgard",
+        "region": "Celestial West",
+        "description": "The gleaming heart of divine order, Aethelgard is a mountainous, forested realm where the Celestial Order's grand cathedrals of white marble and gold pierce the clouds. The land is steeped in holy magic, and the World Tree's silver roots anchor reality against the chaos of the Sundering. Beneath the gilded surface, however, ancient betrayals and divine hypocrisy fester.",
+        "image": "assets/images/kingdoms/aethelgard.png",
+        "mapImage": "assets/images/kingdoms/aethelgard/map.png",
+        "races": ["Angels", "High Elves", "Dragon-blooded", "Dwarves (Iron Mountain Clans)"],
+        "climate": "Temperate highlands, mist‑shrouded valleys, perpetual soft light from celestial bodies.",
+        "culture": "Rigid piety, reverence for the Light, strict hierarchical society. Art and architecture favor soaring spires, stained glass, and silver filigree. Despite the divine mandate, a current of quiet dissent runs among those who remember the Order's betrayals.",
+        "capital": "Lumina Aethel (Floating City)",
+        "landmarks": [
+          {
+            "name": "The Sacred Vale",
+            "description": "A deep, mist‑filled canyon basin carved by the tears of fallen angels. The valley floor is lush with silver‑leafed trees, and rivers of liquid starlight flow from the Tearfall Cascades—waterfalls that rise upward. The roots of the World Tree plunge into the vale, and a jagged scar on the western cliff marks where the fallen Seraph Zartheink was cast down.",
+            "image": "assets/images/kingdoms/aethelgard/landmarks/sacred_vale.png"
+          },
+          {
+            "name": "Lumina Aethel",
+            "description": "The floating capital, accessible only by winged mount or divine blessing. A cluster of marble islands connected by light bridges, dominated by the High Spire where the Archangel Council sits. The Sky‑Docks teem with griffins and winged elves, while the Gilded Cage imprisons those who question the Order's purity.",
+            "image": "assets/images/kingdoms/aethelgard/landmarks/lumina_aethel.png"
+          },
+          {
+            "name": "The World Tree (Argentum Radix)",
+            "description": "A colossal tree whose roots drink from rivers of starlight. Its silver bark is carved with the history of Aethelgard, and its canopy shelters the entire realm. Hollow root‑caverns serve as dungeons and sanctuaries. One of its seven offspring groves is blighted—a dark reminder of the corruption that even holy ground cannot fully escape.",
+            "image": "assets/images/kingdoms/aethelgard/landmarks/world_tree.png"
+          },
+          {
+            "name": "Iron Mountain",
+            "description": "A dormant volcano on the southern border, home to the dwarven clans of the Iron Mountain. Within its depths, celestial steel is forged in halls lit by magma and starlight. The Forge of Kings, at the volcano's heart, produces weapons capable of slaying demons and angels alike. A deep road connects the mountain to Mekhanika's trade routes.",
+            "image": "assets/images/kingdoms/aethelgard/landmarks/iron_mountain.png"
+          },
+          {
+            "name": "Silver Bough Forest",
+            "description": "The ancient woodland of the High Elves, where trees with silver leaves whisper ancient secrets. The Moonlit Path glows only at night, guiding the faithful. The burned ruins of House Pelvet stand as a monument to the Order's betrayal of the huntress Roisin, and elven patrols now avoid the hollow where her ghost is said to linger.",
+            "image": "assets/images/kingdoms/aethelgard/landmarks/silver_bough_forest.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nyxara",
+        "region": "Shadow East",
+        "description": "A land of eternal twilight where the sun never truly rises. Nyxara is a realm of black volcanic glass, tangled thorn‑forests that whisper with the voices of the damned, and subterranean labyrinths carved by ancient demons and the claws of the World‑Eater, Malakar. The Shadow Accord rules from the shadows, and Abyssal Rifts leak primordial chaos into the world.",
+        "image": "assets/images/kingdoms/nyxara.png",
+        "mapImage": "assets/images/kingdoms/nyxara/map.png",
+        "races": ["Vampires", "Revenants", "Necromancers", "Shadow Elves", "Demons", "Voidspawn"],
+        "climate": "Perpetual twilight, cold and damp, with frequent violet‑tinged mists. The air is thick with decay and old magic.",
+        "culture": "Might makes right; personal freedom and power are paramount. The Shadow Accord operates as a loose confederation of lords and cultists. Betrayal is expected, and pacts always come with hidden prices. Art is grotesque yet intricate—bone carvings, shadow‑woven tapestries, and music that echoes with sorrow.",
+        "capital": "The Obsidian Citadel",
+        "landmarks": [
+          {
+            "name": "The Obsidian Citadel",
+            "description": "A fortress of fused demon skulls and abyssal crystals, seat of the Demon King VVitch X‑abar. The Gate of the Damned yawns like a demonic maw, and the Hall of Conquered Light displays broken celestial relics. At its apex, the Throne of Bones overlooks the distant light of Aethelgard—a constant reminder of what was lost.",
+            "image": "assets/images/kingdoms/nyxara/landmarks/obsidian_citadel.png"
+          },
+          {
+            "name": "The Abyssal Rifts",
+            "description": "Tears in reality chewed open by the World‑Eater Malakar. These jagged, violet‑glowing fissures leak primordial chaos and void spawn. The Prime Maw is a star‑shaped hole in the fabric of existence, surrounded by floating islands of black glass. Smaller rifts serve as nesting grounds for horrors, and one rift remains stitched shut with failing divine seals.",
+            "image": "assets/images/kingdoms/nyxara/landmarks/abyssal_rifts.png"
+          },
+          {
+            "name": "The Whispering Woods",
+            "description": "A forest of leafless, claw‑like black trees that weep shadow. The voices of the damned echo through the branches. The Hanging Tree serves as the Shadow Accord's gallows, and shadow panthers stalk the undergrowth. A single Silent Copse—a dead magic zone—offers no whispers, only unnerving stillness.",
+            "image": "assets/images/kingdoms/nyxara/landmarks/whispering_woods.png"
+          },
+          {
+            "name": "The Labyrinth of Malakar",
+            "description": "Subterranean catacombs chewed by the World‑Eater, twisting like the veins of a corpse. The tunnels are organic, with ribbed walls of dried ichor. The Heart Chamber holds a pool of Malakar's black blood, and the deepest level, the Maw's End, opens onto a star‑filled void—the edge of the world.",
+            "image": "assets/images/kingdoms/nyxara/landmarks/labyrinth_of_malakar.png"
+          },
+          {
+            "name": "The Crimson Court",
+            "description": "A hidden valley and estate of the ancient vampire lords. Castle Sanguine's gothic spires are carved with bat‑wing motifs. The Rose Garden of Thirst blooms with white roses marked by red fangs, and the Blood‑Falls cascade into a river of crimson. The Court is the aristocratic heart of the Shadow Accord, where immortal politics are waged in blood.",
+            "image": "assets/images/kingdoms/nyxara/landmarks/crimson_court.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Flamma",
+        "region": "Southern Firelands",
+        "description": "A sun‑scorched realm of volcanic islands, vast deserts of golden sand, and fertile oases fed by underground rivers of magma. Flamma is the birthplace of fire spirits and the eternal phoenix Karkein. Ancient Egyptian‑inspired empires have left their pyramids and cursed tombs half‑buried in the dunes, while the Forge Pact taps geothermal forges deep within the crust.",
+        "image": "assets/images/kingdoms/flamma.png",
+        "mapImage": "assets/images/kingdoms/flamma/map.png",
+        "races": ["Fire Giants", "Sun‑touched Humans", "Phoenix‑kin", "Salamanders", "Desert Tribes"],
+        "climate": "Arid to volcanic, with blistering days and cool nights. Rivers of molten bronze crisscross the land, and ash falls like snow near active calderas.",
+        "culture": "A blend of sun worship, ancestor reverence, and survivalist pragmatism. The desert tribes honor Ra and his earthly vessels, while the lost kingdom of Khemara left behind a legacy of mummification, hieroglyphs, and cursed treasures. Fire is both a tool and a god.",
+        "capital": "None (decentralized city‑states and tribes); the Molten Caldera of Pyrrhos is the spiritual heart.",
+        "landmarks": [
+          {
+            "name": "The Molten Caldera of Pyrrhos",
+            "description": "An active volcanic crater at the heart of Flamma. The lava lake churns with molten bronze, and at its center burns the Eye of Karkein—a blue‑white flame spiral where the eternal phoenix resides. Rim monasteries house fire‑watchers and the Order of the Eternal Flame.",
+            "image": "assets/images/kingdoms/flamma/landmarks/molten_caldera.png"
+          },
+          {
+            "name": "The Glassed Wastes",
+            "description": "A desolate expanse of cracked, reflective glass formed by primordial battles. Impact craters ringed with iridescent shards dot the landscape. The Primordial Impact crater holds a petrified angel wing, and the Field of Shards is lethally sharp. Mirage oases appear and vanish, luring travelers to their doom.",
+            "image": "assets/images/kingdoms/flamma/landmarks/glassed_wastes.png"
+          },
+          {
+            "name": "The Lost Tombs of Khemara",
+            "description": "Egyptian‑inspired pyramids and temples half‑buried in sand. The Pyramid of the Crocodile Queen houses the mummified remains of a cursed ruler, and the Obelisk of Ra's Gaze casts shadows that align with solar magic. Canopic plazas and serpent‑walled corridors are guarded by resentful spirits.",
+            "image": "assets/images/kingdoms/flamma/landmarks/lost_tombs_of_khemara.png"
+          },
+          {
+            "name": "The Emberwood Oasis",
+            "description": "A lush, circular sanctuary surrounding a geothermal spring. Fire‑resistant Emberwood trees with glowing sap provide shade and sustenance. The Heart Spring's waters are imbued with healing runes, and the Grove of the Fire‑Wise is guarded by the monkey spirit Fu‑Kong. Flame‑lilies bloom here, granting temporary fire immunity.",
+            "image": "assets/images/kingdoms/flamma/landmarks/emberwood_oasis.png"
+          },
+          {
+            "name": "Gor'Thak's Path",
+            "description": "A barren, grey scar cut across the desert by the Great Peril of Rage. The Ashen Wake is devoid of life, littered with violet‑black embers of Sunder‑Flame. The Warden's Rest, where Gor'Thak currently dwells, is a magic‑dead zone surrounded by floating chain‑link armor. Offerings of broken weapons lie untouched at the edge of his domain.",
+            "image": "assets/images/kingdoms/flamma/landmarks/gor_thaks_path.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Glaciar",
+        "region": "Frozen North",
+        "description": "An endless expanse of howling tundra, ice‑capped peaks, and the frozen sea of Niflheim. Glaciar is a realm of absolute cold where the aurora borealis paints the sky in ghostly green and blue. Frost giants carve glacier palaces, yeti tribes eke out an existence, and the corrupted primordial bear Ursus Glacialis roams as a walking apocalypse.",
+        "image": "assets/images/kingdoms/glaciar.png",
+        "mapImage": "assets/images/kingdoms/glaciar/map.png",
+        "races": ["Frost Giants (Jotun)", "Yeti", "Ice Elves", "Northern Human Tribes"],
+        "climate": "Arctic, with perpetual winter. Blizzards are common, and the sea remains frozen year‑round except for geothermal vents.",
+        "culture": "Survival is the only law. The frost giants cling to ancient grudges and worship the cold itself. Human tribes are nomadic, following herds of ice‑whales and mammoths. The Celestial Order maintains a token outpost, but it is largely forgotten. Storytelling and rune‑carving preserve history.",
+        "capital": "None; the Jotun Glacier Palaces are the closest to centers of power.",
+        "landmarks": [
+          {
+            "name": "The Frozen Sea of Niflheim",
+            "description": "A vast expanse of shattered sea ice, pressure ridges, and black leads of freezing water. The Shipbreaker Fields are littered with frozen wrecks, some bearing faded Celestial Order insignias from a lost crusade. Leviathan's Breath, a perpetually open polynya, hints at the massive creatures beneath.",
+            "image": "assets/images/kingdoms/glaciar/landmarks/frozen_sea_of_niflheim.png"
+          },
+          {
+            "name": "Ursus Glacialis' Path & The Frozen Heart Rift",
+            "description": "A wide, destructive swath of crushed ice leading to a glowing crevasse in a glacier wall. The path is marked by pulverized ice and blue‑white hellfire embers. The Frozen Heart Rift is the corrupted core of Ursus Glacialis, where the beast rests. Frozen, kneeling figures—those who came to appease—line the approach.",
+            "image": "assets/images/kingdoms/glaciar/landmarks/ursus_glacialis_path.png"
+          },
+          {
+            "name": "The Valley of Frozen Bones",
+            "description": "A winding valley filled with the colossal fossilized remains of leviathans. The Spine Ridge forms a natural elevated pathway, and the Skull of the First Frost serves as a shelter for Ice Elf scouts. The Rib‑Cage Cathedral creates a vaulted space where ancient rituals are still performed.",
+            "image": "assets/images/kingdoms/glaciar/landmarks/valley_of_frozen_bones.png"
+          },
+          {
+            "name": "The Glacier Palaces of the Jotun",
+            "description": "Massive fortresses carved directly into the faces of glaciers. The Ice‑Gouged Gate is flanked by colossal Jotun statues. Within, the Hall of Grudges records millennia of wars against the Celestial Order and demons. The Frozen Throne contains a primordial serpent suspended in clear ice.",
+            "image": "assets/images/kingdoms/glaciar/landmarks/glacier_palaces.png"
+          },
+          {
+            "name": "The Outpost Vigil",
+            "description": "A frozen, crumbling Celestial Order monastery perched on a windswept cliff. The Chapel of the Frozen Dawn holds a single flickering flame. The Beacon Tower has been dark for 300 years. Brother Frost, the last watcher, tends the catacombs of ice‑entombed skeletons and gazes at the distant glow of the Frozen Heart Rift through a collapsed rope bridge.",
+            "image": "assets/images/kingdoms/glaciar/landmarks/outpost_vigil.png"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Mekhanika",
+        "region": "Central Industrial Belt",
+        "description": "The beating, steam‑driven heart of Kretos. Mekhanika is a sprawling urban labyrinth where magic and technology coexist in a volatile, often explosive marriage. Smog‑choked spires, neon‑drenched undercities, and labyrinthine factory districts define the landscape. The Forge Pact pushes the boundaries of transhumanism, while rogue AIs and cyborg outcasts wage shadow wars against their creators.",
+        "image": "assets/images/kingdoms/mekhanika.png",
+        "mapImage": "assets/images/kingdoms/mekhanika/map.png",
+        "races": ["Humans", "Cyborgs", "AIs", "Golems", "Steampunk Inventors", "Technomancers"],
+        "climate": "Perpetually grey with smog; acid rain is common. The air hums with machinery and holographic static.",
+        "culture": "Innovation and ambition are prized above all. The Forge Pact's technocrats value efficiency and progress, often at the expense of ethics. The undercity is a haven for outlaws, black markets, and those seeking freedom from corporate control. Art is a fusion of brass, neon, and digital projections.",
+        "capital": "None officially; the Foundry Spire is the seat of Forge Pact power.",
+        "landmarks": [
+          {
+            "name": "The Foundry Spire",
+            "description": "A towering industrial complex that pierces the smog layer. The Grand Forge at its base channels rivers of molten metal. The Smokestack Ring houses tenement workers. At the summit, the Gear‑Crown houses the Forge Pact Directorate, and the attached Ascension Spire conducts the Omega Protocol experiments.",
+            "image": "assets/images/kingdoms/mekhanika/landmarks/foundry_spire.png"
+          },
+          {
+            "name": "The Undercity Grid",
+            "description": "A dense, chaotic network of neon‑lit streets, toxic canals, and illegal fighting pits beneath the gleaming towers. Rogue AI Eris corrupts the data streams. Selvina's Territory is a notorious arena. The Black Market Bazaar trades in hextech, flesh, and souls.",
+            "image": "assets/images/kingdoms/mekhanika/landmarks/undercity_grid.png"
+          },
+          {
+            "name": "The Neon Corridor",
+            "description": "A straight, infamous thoroughfare lined with flickering holographic advertisements. Valkot's Office offers memory erasure. The Flicker Den shifts between realities. The corridor connects the Black Market to the Infernal Casino's service entrance.",
+            "image": "assets/images/kingdoms/mekhanika/landmarks/neon_corridor.png"
+          },
+          {
+            "name": "The Forge Pact Laboratories",
+            "description": "A hexagonal compound on the outskirts, secured by electrified fences. Pods Alpha and Beta house Projects Saber and Omega. Pod Gamma contains the Ascension Protocols that created Selvina and Layla. The Cortex Core is run by LOGOS, the Pact's central AI. A disposal chute dumps failed prototypes into the toxic canals.",
+            "image": "assets/images/kingdoms/mekhanika/landmarks/forge_pact_labs.png"
+          },
+          {
+            "name": "The Infernal Casino",
+            "description": "An art‑deco and gothic riverfront establishment run by Vixyy Joe, the Gambler of Souls. The Main Floor grinds fortunes, while the VIP Crimson Card Room hosts games for souls and destinies. The Stage of Echoes features resurrected performers. Beneath, the Debtor's Vault holds memories and years of life as collateral.",
+            "image": "assets/images/kingdoms/mekhanika/landmarks/infernal_casino.png"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "The Wild Zones",
+        "region": "Unaligned Periphery",
+        "description": "Vast, untamed lands that belong to no faction. Prehistoric jungles teem with dinosaurs and steampunk dino‑riders. Ancient forests conceal the meditating grounds of forgotten martial arts masters. Desolate ash‑fields serve as the drifting domains of the Great Perils—primordial embodiments of sin and decay. Here, the barriers between dimensions are thinnest, and the echoes of the Sundering are felt most keenly.",
+        "image": "assets/images/kingdoms/wildzones.png",
+        "mapImage": "assets/images/kingdoms/wildzones/map.png",
+        "races": ["Various", "Dinosaurs", "Hermits", "Exiles", "Great Perils", "Precursor Constructs"],
+        "climate": "Extremely varied: dense jungles, arid savannahs, ash‑choked wastes, and misty mountains.",
+        "culture": "No unified culture. Survivalists, outcasts, and hermits live by their own codes. The land itself is sacred to the Natural Balance faction. Ruins of the Precursors offer forbidden knowledge to those brave or foolish enough to seek it.",
+        "capital": "None.",
+        "landmarks": [
+          {
+            "name": "The Amber Wastes",
+            "description": "Domain of the Great Peril of Betrayal (Kaientju Feros). A frozen landscape of golden‑orange amber, where trees and figures are trapped mid‑scream. The Throne of Broken Vows sits at the center, surrounded by shattered hearts and rings. The Whisper Hollows echo with the voices of the betrayed.",
+            "image": "assets/images/kingdoms/wildzones/landmarks/amber_wastes.png"
+          },
+          {
+            "name": "The Gravity Crater",
+            "description": "Domain of the Great Peril of Hunger (Nyx'Vor). A perfectly circular, terraced crater where gravity warps and reality is chewed. The Pulling Fields drag everything inward, and the Maw's Edge is scarred with colossal claw marks. At the center lies the Hunger Eternal—a void‑black pit that consumes even light.",
+            "image": "assets/images/kingdoms/wildzones/landmarks/gravity_crater.png"
+          },
+          {
+            "name": "The Thunder‑Lizard Savannah",
+            "description": "A golden grassland bordered by dense jungle, teeming with dinosaurs. The Great Herd of Thunder‑Lizards (Brontosaurus) migrates across the plain. Rexingu Raide, the steampunk dino‑rider, patrols his territory on a T‑Rex. Shadow‑panthers stalk the jungle edge, and Raptor Canyons echo with pack hunting calls.",
+            "image": "assets/images/kingdoms/wildzones/landmarks/thunder_lizard_savannah.png"
+          },
+          {
+            "name": "The Ruins of the Precursors",
+            "description": "A ziggurat complex of impossible, non‑Euclidean geometry, half‑swallowed by giant cycads and ferns. The Central Ziggurat's steps are ill‑proportioned for humans. The Hall of Shifting Walls rearranges itself, and the Garden of Metal Flowers hums with ancient energy. A mural depicting the Sundering adorns one wall, its central figure defaced.",
+            "image": "assets/images/kingdoms/wildzones/landmarks/ruins_of_the_precursors.png"
+          },
+          {
+            "name": "Yuken's Hermitage",
+            "description": "A serene mountain temple hidden in mist‑shrouded peaks, home to the Chi Master Yuken Leo Lung. The Cloud‑Treading Path winds past meditation cairns and wind chimes. The Pagoda of the Open Palm houses ancient scrolls, and the Training Yard of Ten Thousand Strikes bears the marks of decades of practice. The Tiger's Grotto, behind a waterfall, is where the snow leopard sage meditates.",
+            "image": "assets/images/kingdoms/wildzones/landmarks/yukens_hermitage.png"
+          }
+        ]
+      }
+    ],
+    "factions": [
+      {
+        "id": 1,
+        "name": "Celestial Order",
+        "alignment": "Lawful Good",
+        "description": "Preserve order, enforce divine law, protect against chaos. Their methods are often rigid and unforgiving, and their history is stained by betrayals of their own champions.",
+        "image": "assets/images/factions/celestial.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shadow Accord",
+        "alignment": "Chaotic Evil",
+        "description": "Embrace chaos, personal freedom, and the accumulation of dark power. A loose confederation of vampire lords, necromancers, and demon cultists who thrive in the shadows.",
+        "image": "assets/images/factions/shadow.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Forge Pact",
+        "alignment": "Neutral",
+        "description": "Advance technology, invention, and transhumanism. Pragmatic and amoral, they push the boundaries of science and magic, often exploiting the weak in the name of progress.",
+        "image": "assets/images/factions/forge.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Natural Balance",
+        "alignment": "Neutral Good",
+        "description": "Preserve the ancient rhythms of nature, protect the wild places, and maintain equilibrium between elemental forces. They oppose reckless exploitation and corruption.",
+        "image": "assets/images/factions/nature.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Underworld Syndicates",
+        "alignment": "Chaotic Neutral",
+        "description": "Control crime, information, and illicit trade across Kretos. A decentralized network of fixers, assassins, and brokers who sell to the highest bidder.",
+        "image": "assets/images/factions/syndicate.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Unaffiliated",
+        "alignment": "True Neutral",
+        "description": "Act independently; often caught between factions. Includes wandering heroes, hermits, and those who refuse to swear allegiance to any power.",
+        "image": "assets/images/factions/unaffiliated.jpg"
+      },
+      {
+        "id": 7,
+        "name": "NEW World",
+        "alignment": "Coming Soon",
+        "description": "Something is cooking...",
+        "image": "assets/images/dunnyimage.png"
+      }
+    ],
+    "classes": [
+      {
+        "id": 1,
+        "name": "Warrior",
+        "type": "Physical",
+        "description": "Masters of melee combat, high strength and defense.",
+        "image": "assets/images/classes/warrior.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Mage",
+        "type": "Magical",
+        "description": "Wielders of arcane and elemental forces.",
+        "image": "assets/images/classes/mage.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Rogue",
+        "type": "Agility",
+        "description": "Stealthy assassins, rangers, spies.",
+        "image": "assets/images/classes/rogue.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Divine",
+        "type": "Support/Magic",
+        "description": "Holy warriors, clerics, inquisitors.",
+        "image": "assets/images/classes/divine.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Technomancer",
+        "type": "Hybrid",
+        "description": "Masters of technology, cybernetics, engineering.",
+        "image": "assets/images/classes/technomancer.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Primal",
+        "type": "Hybrid",
+        "description": "Beastmasters, elementalists, giants.",
+        "image": "assets/images/classes/primal.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Support/Wildcard",
+        "type": "Support",
+        "description": "Bards, healers, tacticians, gamblers.",
+        "image": "assets/images/classes/support.jpg"
+      }
+    ],
+    "monsterHierarchy": [
+      {
+        "level": 1,
+        "name": "Minor Creatures",
+        "examples": ["Imps", "Goblins", "Lesser Undead", "Mechanical Spiders"]
+      },
+      {
+        "level": 2,
+        "name": "Common Threats",
+        "examples": ["Hellhounds", "Vampire Spawn", "Stone Golems", "Frost Wraiths"]
+      },
+      {
+        "level": 3,
+        "name": "Elite Monsters",
+        "examples": ["Oni", "Necromancer Lords", "Fire Elementals", "Cyber-Beasts"]
+      },
+      {
+        "level": 4,
+        "name": "Bosses",
+        "examples": ["Abyssal Dragons", "Primordial Elementals", "Titan Constructs", "Elder Vampires"]
+      },
+      {
+        "level": 5,
+        "name": "Cataclysmic Threats",
+        "examples": ["Sundering Echoes", "Primordial Chaos Spawn", "World-Eaters", "Great Perils"]
+      }
+    ]
+  }
+}
