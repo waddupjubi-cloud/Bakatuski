@@ -74,6 +74,11 @@ body.light-theme .glitch-text::after {
   color: var(--green);
 }
 
+.modal-gallery-wrapper #thumb-swiper-wrapper{
+  place-content: center;
+}
+
+
 body.light-theme .hero-content p {
   color: #526a55;
 }

@@ -30,6 +30,7 @@
     <script>BakatuskiCacheBust.css('global-theme-css', 'assets/css/global-theme.css');</script>
     <script>BakatuskiCacheBust.css('global-audio-css', 'assets/css/global-audio.css');</script>
     <script>BakatuskiCacheBust.css('bamboo-css', 'assets/css/bamboo-theme.css');</script>
+    <script>BakatuskiCacheBust.css('mobile-nav-css', 'assets/css/mobile-nav.css');</script>
 </head>
 
 <body>
@@ -74,7 +75,7 @@
                 <li><a href="stories.html" class="nav-link" data-s="contact">STORY</a></li>
                 <li><a href="vehicle.html" class="nav-link" data-s="vehicle">VEHICLE</a></li>
             </ul>
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-controls="nav-links" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
         </div>
@@ -306,7 +307,7 @@
             <div class="footer-inner">
                 <div class="footer-brand">
                     <img src="images/logo/bakatuskisquadlogo.png" alt="Bakatuski" height="36" loading="lazy" decoding="async"
-                        onerror="this.style.display='none'">
+                        onerror="this.onerror=null;this.src='images/ComingSoon.png'">
                     <span>BAKATUSKI</span>
                 </div>
                 <p class="footer-copy">© 2025 Bakatuski. All rights reserved. Powered by bamboo &amp; orange energy.</p>
@@ -337,6 +338,7 @@
 
     <script>BakatuskiCacheBust.js('theme-js', 'assets/js/theme-toggle.js');</script>
     <script>BakatuskiCacheBust.js('audio-js', 'assets/js/global-audio.js');</script>
+    <script>BakatuskiCacheBust.js('image-fallback-js', 'assets/js/image-fallback.js');</script>
     <script>BakatuskiCacheBust.js('main-js', 'assets/js/main.js');</script>
 </body>
 

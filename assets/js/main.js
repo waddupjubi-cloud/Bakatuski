@@ -6,6 +6,7 @@
 'use strict';
 
 const responsiveWidths = [480, 900];
+const FALLBACK_IMAGE = 'images/ComingSoon.png';
 
 function hasOpenOverlay() {
   return document.body.classList.contains('nav-open') ||
@@ -51,7 +52,7 @@ function optimizedImageUrl(src, width) {
 }
 
 function responsiveImgHtml(src, alt, options = {}) {
-  if (!src) return '';
+  src = src || FALLBACK_IMAGE;
   const {
     sizes = '(max-width: 700px) 92vw, 360px',
     initialWidth = 480,
@@ -63,7 +64,7 @@ function responsiveImgHtml(src, alt, options = {}) {
   const srcset = responsiveWidths
     .map(width => `${optimizedImageUrl(src, width)} ${width}w`)
     .join(', ');
-  const fallback = onerror || `this.onerror=null;this.removeAttribute('srcset');this.src='${src}'`;
+  const fallback = onerror || `this.removeAttribute('srcset');if(this.dataset.retriedOriginal){this.onerror=null;this.src='${FALLBACK_IMAGE}'}else{this.dataset.retriedOriginal='true';this.src='${src}'}`;
   return `<img src="${optimizedImageUrl(src, initialWidth)}" srcset="${srcset}" sizes="${sizes}" alt="${safeAlt}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" onerror="${fallback}" ${extraAttrs}>`;
 }
 
@@ -148,25 +149,34 @@ function responsiveImgHtml(src, alt, options = {}) {
   const links = document.getElementById('nav-links');
   if (!nav) return;
 
+  function setMenuOpen(open) {
+    ham?.classList.toggle('open', open);
+    links?.classList.toggle('open', open);
+    ham?.setAttribute('aria-expanded', String(open));
+    ham?.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+    document.body.classList.toggle('nav-open', open);
+    syncPageScrollLock();
+  }
+
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 60);
     highlightActiveLink();
   }, { passive: true });
 
   ham && ham.addEventListener('click', () => {
-    ham.classList.toggle('open');
-    links && links.classList.toggle('open');
-    document.body.classList.toggle('nav-open', Boolean(links?.classList.contains('open')));
-    syncPageScrollLock();
+    setMenuOpen(!links?.classList.contains('open'));
   });
 
   document.querySelectorAll('.nav-link').forEach(a => {
-    a.addEventListener('click', () => {
-      ham && ham.classList.remove('open');
-      links && links.classList.remove('open');
-      document.body.classList.remove('nav-open');
-      syncPageScrollLock();
-    });
+    a.addEventListener('click', () => setMenuOpen(false));
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && links?.classList.contains('open')) setMenuOpen(false);
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 900 && links?.classList.contains('open')) setMenuOpen(false);
   });
 
   function highlightActiveLink() {
@@ -342,15 +352,11 @@ function initHeroSwiper(players) {
           </div>`).join('')
       : '';
 
-    const initials = p.name.charAt(0).toUpperCase();
-    const imgHtml = rosterImg
-      ? responsiveImgHtml(rosterImg, p.name, {
-          sizes: '(max-width: 760px) 86vw, 520px',
-          initialWidth: 900,
-          eager: i === 0,
-          onerror: `this.parentElement.innerHTML='<div class=hero-img-placeholder>${initials}</div>'`
-        })
-      : `<div class="hero-img-placeholder">${initials}</div>`;
+    const imgHtml = responsiveImgHtml(rosterImg, p.name, {
+      sizes: '(max-width: 760px) 86vw, 520px',
+      initialWidth: 900,
+      eager: i === 0
+    });
 
     const fulltext = (p.ign || p.name).replace(/"/g, '&quot;');
 
@@ -373,7 +379,7 @@ function initHeroSwiper(players) {
         </div>
         <div class="hero-right">
           <div class="hero-squad-logo">
-            <img src="${logoImg}" alt="Bakatuski" loading="lazy" decoding="async" onerror="this.parentElement.innerHTML='🐼'">
+            <img src="${logoImg}" alt="Bakatuski" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${FALLBACK_IMAGE}'">
           </div>
           <div class="hero-meta">
             <div class="hero-meta-id">${p.playerId || ''}</div>
@@ -414,21 +420,18 @@ function initHeroSwiper(players) {
       const iconSrc = p.images?.icon || '';
       const div = document.createElement('div');
       div.className = 'icon-dot' + (idx === activeIdx ? ' active' : '');
-      if (iconSrc) {
-        const img = document.createElement('img');
-        img.src = optimizedImageUrl(iconSrc, 480);
-        img.srcset = responsiveWidths.map(width => `${optimizedImageUrl(iconSrc, width)} ${width}w`).join(', ');
-        img.sizes = '56px';
-        img.loading = 'lazy';
-        img.decoding = 'async';
-        img.onerror = () => {
-          img.style.display = 'none';
-          div.innerHTML = `<span class="fallback">${p.name.charAt(0)}</span>`;
-        };
-        div.appendChild(img);
-      } else {
-        div.innerHTML = `<span class="fallback">${p.name.charAt(0)}</span>`;
-      }
+      const img = document.createElement('img');
+      img.src = optimizedImageUrl(iconSrc || FALLBACK_IMAGE, 480);
+      img.srcset = responsiveWidths.map(width => `${optimizedImageUrl(iconSrc || FALLBACK_IMAGE, width)} ${width}w`).join(', ');
+      img.sizes = '56px';
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.onerror = () => {
+        img.onerror = null;
+        img.removeAttribute('srcset');
+        img.src = FALLBACK_IMAGE;
+      };
+      div.appendChild(img);
       div.addEventListener('click', (e) => {
         e.stopPropagation();
         goTo(idx);
@@ -507,14 +510,10 @@ function renderSquadCards(members) {
     card.dataset.type = m.type;
 
     const iconSrc = m.images?.icon || '';
-    const initials = m.name.charAt(0).toUpperCase();
-    const imgHtml = iconSrc
-      ? responsiveImgHtml(iconSrc, m.name, {
-          sizes: '(max-width: 620px) 92vw, 320px',
-          initialWidth: 480,
-          onerror: `this.parentElement.innerHTML='<div class=card-img-placeholder>${initials}</div>'`
-        })
-      : `<div class="card-img-placeholder">${initials}</div>`;
+    const imgHtml = responsiveImgHtml(iconSrc, m.name, {
+      sizes: '(max-width: 620px) 92vw, 320px',
+      initialWidth: 480
+    });
 
     const isPlayer = m.type === 'player';
     const isSub = m.subtype === 'substitute';
@@ -593,16 +592,11 @@ function openModal(m) {
   window.history.pushState({ member: slugToUse }, '', newUrl);
 
   const popupSrc = m.images?.popup || m.images?.roster || '';
-  const initials = m.name.charAt(0).toUpperCase();
-
-  const imgHtml = popupSrc
-    ? responsiveImgHtml(popupSrc, m.name, {
-        sizes: '(max-width: 760px) 88vw, 420px',
-        initialWidth: 900,
-        eager: true,
-        onerror: `this.parentElement.innerHTML='<div class=modal-img-placeholder>${initials}</div>'`
-      })
-    : `<div class="modal-img-placeholder">${initials}</div>`;
+  const imgHtml = responsiveImgHtml(popupSrc, m.name, {
+    sizes: '(max-width: 760px) 88vw, 420px',
+    initialWidth: 900,
+    eager: true
+  });
 
   const gallery = m.images?.gallery || [];
   let galleryHtml = '';
@@ -615,7 +609,7 @@ function openModal(m) {
             ${responsiveImgHtml(src, 'Gallery image', {
               sizes: '(max-width: 760px) 88vw, 320px',
               initialWidth: 480,
-              onerror: "this.style.display='none'"
+              onerror: `this.onerror=null;this.removeAttribute('srcset');this.src='${FALLBACK_IMAGE}'`
             })}
           </div>
         `).join('')}
@@ -639,7 +633,7 @@ function openModal(m) {
        ${m.favHeroes.map(h => `
          <div class="hero-chip">
            <div class="hero-chip-icon">
-             ${h.icon ? `<img src="${h.icon}" alt="${h.name}" loading="lazy" decoding="async" onerror="this.parentElement.innerHTML='🐼'">` : '🐼'}
+             <img src="${h.icon || FALLBACK_IMAGE}" alt="${h.name}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${FALLBACK_IMAGE}'">
            </div>
            ${h.name}
          </div>`).join('')}
@@ -715,7 +709,7 @@ function openModal(m) {
         if (fullSrc) {
           const lightbox = document.createElement('div');
           lightbox.className = 'lightbox';
-          lightbox.innerHTML = `<img src="${fullSrc}" alt="Full size" decoding="async"><div class="lightbox-close">✕</div>`;
+          lightbox.innerHTML = `<img src="${fullSrc || FALLBACK_IMAGE}" alt="Full size" decoding="async" onerror="this.onerror=null;this.src='${FALLBACK_IMAGE}'"><div class="lightbox-close">✕</div>`;
           document.body.appendChild(lightbox);
           document.body.classList.add('lightbox-open');
           syncPageScrollLock();
@@ -759,19 +753,15 @@ function renderMatrixTable(allPlayers) {
       tr.style.transitionDelay = i * 0.05 + 's';
 
       const iconSrc = p.images?.icon || '';
-      const initials = p.name.charAt(0).toUpperCase();
-      const avatarHtml = iconSrc
-        ? `<div class="table-avatar">${responsiveImgHtml(iconSrc, p.name, {
-            sizes: '56px',
-            initialWidth: 480,
-            onerror: `this.parentElement.innerHTML='<div class=table-avatar-fallback>${initials}</div>'`
-          })}</div>`
-        : `<div class="table-avatar"><div class="table-avatar-fallback">${initials}</div></div>`;
+      const avatarHtml = `<div class="table-avatar">${responsiveImgHtml(iconSrc, p.name, {
+        sizes: '56px',
+        initialWidth: 480
+      })}</div>`;
 
       const favHero = (p.favHeroes || [])[0];
       const favHeroHtml = favHero
         ? `<div class="table-hero-chip">
-             <div class="table-hero-icon">${favHero.icon ? `<img src="${favHero.icon}" alt="${favHero.name}" loading="lazy" decoding="async" onerror="this.style.display='none'">` : '🐼'}</div>
+             <div class="table-hero-icon"><img src="${favHero.icon || FALLBACK_IMAGE}" alt="${favHero.name}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${FALLBACK_IMAGE}'"></div>
              <span>${favHero.name}</span>
            </div>`
         : '—';
@@ -857,14 +847,10 @@ function renderTestimonials(members) {
     const wrap = document.createElement('div');
     wrap.className = 'chat-bubble-wrap' + (isRightAlign ? ' right-align' : '');
     const iconSrc = m.images?.icon || '';
-    const initials = m.name.charAt(0).toUpperCase();
-    const avatarHtml = iconSrc
-      ? `<div class="chat-avatar">${responsiveImgHtml(iconSrc, m.name, {
-          sizes: '48px',
-          initialWidth: 480,
-          onerror: `this.parentElement.innerHTML='<div class=chat-avatar-fallback style=background:${m.favColor}>${initials}</div>'`
-        })}</div>`
-      : `<div class="chat-avatar"><div class="chat-avatar-fallback" style="background:${m.favColor || '#333'}">${initials}</div></div>`;
+    const avatarHtml = `<div class="chat-avatar">${responsiveImgHtml(iconSrc, m.name, {
+      sizes: '48px',
+      initialWidth: 480
+    })}</div>`;
 
     wrap.innerHTML = `
       ${avatarHtml}

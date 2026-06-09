@@ -1,6 +1,7 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', async () => {
+  const FALLBACK_IMAGE = 'images/ComingSoon.png';
   const dot = document.getElementById('cursor-dot');
   const ring = document.getElementById('cursor-ring');
   const navbar = document.getElementById('navbar');
@@ -64,13 +65,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     history[method]({ ride: slug }, '', url);
   }
 
-  function imageWithFallback(img, primary, fallback) {
+  function imageWithFallback(img, primary) {
     if (!img) return;
     img.classList.remove('using-fallback');
-    img.src = primary;
+    img.src = primary || FALLBACK_IMAGE;
     img.onerror = () => {
       img.onerror = null;
-      img.src = fallback || 'images/logo/bakatuskisquadlogo.png';
+      img.src = FALLBACK_IMAGE;
       img.classList.add('using-fallback');
     };
   }
@@ -147,18 +148,28 @@ document.addEventListener('DOMContentLoaded', async () => {
     syncScrolled();
 
     if (!hamburger || !navLinks) return;
+    const setMenuOpen = open => {
+      hamburger.classList.toggle('open', open);
+      navLinks.classList.toggle('open', open);
+      hamburger.setAttribute('aria-expanded', String(open));
+      hamburger.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+      document.body.classList.toggle('nav-open', open);
+    };
+
     hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('open');
-      navLinks.classList.toggle('open');
-      document.body.classList.toggle('nav-open', navLinks.classList.contains('open'));
+      setMenuOpen(!navLinks.classList.contains('open'));
     });
 
     navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        hamburger.classList.remove('open');
-        navLinks.classList.remove('open');
-        document.body.classList.remove('nav-open');
-      });
+      link.addEventListener('click', () => setMenuOpen(false));
+    });
+
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && navLinks.classList.contains('open')) setMenuOpen(false);
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 900 && navLinks.classList.contains('open')) setMenuOpen(false);
     });
   }
 
@@ -386,7 +397,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       </article>
     `;
 
-    imageWithFallback(stage.querySelector('.detail-image'), vehicle.image, vehicle.fallbackImage);
+    imageWithFallback(stage.querySelector('.detail-image'), vehicle.image);
     stage.querySelector('[data-open-modal]')?.addEventListener('click', () => openModal(vehicle.slug));
     stage.querySelector('[data-copy-link]')?.addEventListener('click', event => copyRideLink(event.currentTarget));
   }
@@ -414,7 +425,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     grid.querySelectorAll('.vehicle-card').forEach(card => {
       const vehicle = filtered.find(item => item.slug === card.dataset.slug);
-      imageWithFallback(card.querySelector('img'), vehicle?.image, vehicle?.fallbackImage);
+      imageWithFallback(card.querySelector('img'), vehicle?.image);
       card.addEventListener('click', () => selectVehicle(card.dataset.slug, { open: true }));
     });
   }
@@ -519,7 +530,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     modalCarouselTrack.querySelectorAll('.modal-slide').forEach(slide => {
       const vehicle = set.find(item => item.slug === slide.dataset.slug);
-      imageWithFallback(slide.querySelector('img'), vehicle?.image, vehicle?.fallbackImage);
+      imageWithFallback(slide.querySelector('img'), vehicle?.image);
       slide.addEventListener('click', event => {
         if (event.target.closest('[data-full-image]') && isSmallPopupViewport()) return;
         if (suppressModalClick) return;
@@ -578,7 +589,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const vehicle = vehicles.find(item => item.slug === slug);
     if (!vehicle || !vehicleLightbox || !vehicleLightboxImage) return;
     applyVehicleTheme(vehicle, vehicleLightbox);
-    imageWithFallback(vehicleLightboxImage, vehicle.image, vehicle.fallbackImage);
+    imageWithFallback(vehicleLightboxImage, vehicle.image);
     vehicleLightboxImage.alt = `${vehicle.vehicleName} full vehicle concept`;
     vehicleLightbox.classList.remove('hidden');
     document.body.classList.add('vehicle-lightbox-open');

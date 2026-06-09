@@ -18,6 +18,7 @@
     <script>BakatuskiCacheBust.css('global-theme-css', 'assets/css/global-theme.css');</script>
     <script>BakatuskiCacheBust.css('global-audio-css', 'assets/css/global-audio.css');</script>
     <script>BakatuskiCacheBust.css('vehicle-css', 'assets/css/vehicle.css');</script>
+    <script>BakatuskiCacheBust.css('mobile-nav-css', 'assets/css/mobile-nav.css');</script>
 </head>
 <body class="dark-theme">
     <div class="cursor-dot" id="cursor-dot"></div>
@@ -42,7 +43,7 @@
                 <li><a href="stories.html" class="nav-link">STORY</a></li>
                 <li><a href="vehicle.html" class="nav-link active" data-s="vehicle">VEHICLE</a></li>
             </ul>
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-controls="nav-links" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
         </div>
@@ -139,6 +140,7 @@
 
     <script>BakatuskiCacheBust.js('theme-js', 'assets/js/theme-toggle.js');</script>
     <script>BakatuskiCacheBust.js('audio-js', 'assets/js/global-audio.js');</script>
+    <script>BakatuskiCacheBust.js('image-fallback-js', 'assets/js/image-fallback.js');</script>
     <script>BakatuskiCacheBust.js('vehicle-js', 'assets/js/vehicle.js');</script>
 </body>
 </html>

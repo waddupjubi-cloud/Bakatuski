@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let currentGalleryIndex = 0;
     let lightboxSwiper = null;
     const responsiveWidths = [480, 900];
+    const FALLBACK_IMAGE = 'images/ComingSoon.png';
     const OVERLAY_STATE_KEY = 'bakatuskiStoriesOverlay';
 
     function canScrollOverlay(target) {
@@ -98,6 +99,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function setResponsiveImage(img, originalSrc, options = {}) {
+        originalSrc = originalSrc || FALLBACK_IMAGE;
         const {
             sizes = '(max-width: 700px) 92vw, 360px',
             initialWidth = 900,
@@ -113,20 +115,26 @@ document.addEventListener('DOMContentLoaded', async () => {
         img.loading = eager ? 'eager' : 'lazy';
         img.decoding = 'async';
         img.dataset.full = fullSrc;
+        let retriedOriginal = false;
         img.onerror = () => {
-            img.onerror = null;
             img.removeAttribute('srcset');
-            img.src = originalSrc;
+            if (!retriedOriginal && img.src !== new URL(originalSrc, window.location.href).href) {
+                retriedOriginal = true;
+                img.src = originalSrc;
+                return;
+            }
+            img.onerror = null;
+            img.src = FALLBACK_IMAGE;
         };
     }
 
     function setCoverImage(img, coverSrc) {
-        img.src = coverSrc;
+        img.src = coverSrc || FALLBACK_IMAGE;
         img.loading = 'lazy';
         img.decoding = 'async';
         img.onerror = () => {
             img.onerror = null;
-            img.src = 'images/logo/bakatuskisquadlogo.png';
+            img.src = FALLBACK_IMAGE;
         };
     }
 
@@ -206,17 +214,25 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (window.scrollY > 60) navbar.classList.add('scrolled');
 
         if (hamburger && navLinks) {
+            const setMenuOpen = open => {
+                hamburger.classList.toggle('open', open);
+                navLinks.classList.toggle('open', open);
+                hamburger.setAttribute('aria-expanded', String(open));
+                hamburger.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+                setBodyOverlayState('nav', open);
+            };
+
             hamburger.addEventListener('click', () => {
-                hamburger.classList.toggle('open');
-                navLinks.classList.toggle('open');
-                setBodyOverlayState('nav', navLinks.classList.contains('open'));
+                setMenuOpen(!navLinks.classList.contains('open'));
             });
             navLinks.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', () => {
-                    hamburger.classList.remove('open');
-                    navLinks.classList.remove('open');
-                    setBodyOverlayState('nav', false);
-                });
+                link.addEventListener('click', () => setMenuOpen(false));
+            });
+            document.addEventListener('keydown', event => {
+                if (event.key === 'Escape' && navLinks.classList.contains('open')) setMenuOpen(false);
+            });
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 900 && navLinks.classList.contains('open')) setMenuOpen(false);
             });
         }
     }
@@ -320,9 +336,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 clickable: true,
                 renderBullet(index, className) {
                     const lore = data[index] || {};
-                    const cover = lore.cover || '';
+                    const cover = lore.cover || FALLBACK_IMAGE;
                     const hero = escapeHtml(lore.hero || `Story ${index + 1}`);
-                    return `<button class="${className}" type="button" aria-label="${hero} story"><img src="${cover}" alt="${hero}" loading="lazy" decoding="async"></button>`;
+                    return `<button class="${className}" type="button" aria-label="${hero} story"><img src="${cover}" alt="${hero}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${FALLBACK_IMAGE}'"></button>`;
                 }
             },
             on: {
@@ -434,10 +450,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const imageUrls = [];
         const titles = [];
         chapters.forEach(ch => {
-            if (ch.imageFile) {
-                imageUrls.push(`${folder}${ch.imageFile}`);
-                titles.push(ch.title || `Chapter ${ch.number}`);
-            }
+            imageUrls.push(ch.imageFile && folder ? `${folder}${ch.imageFile}` : FALLBACK_IMAGE);
+            titles.push(ch.title || `Chapter ${ch.number}`);
         });
         if (imageUrls.length === 0) return;
         currentChapterTitles = titles;
@@ -623,7 +637,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             const zoomContainer = document.createElement('div');
             zoomContainer.className = 'swiper-zoom-container';
             const img = document.createElement('img');
-            img.src = url;
+            img.src = url || FALLBACK_IMAGE;
+            img.onerror = () => {
+                img.onerror = null;
+                img.src = FALLBACK_IMAGE;
+            };
             img.style.maxWidth = '100vw';
             img.style.maxHeight = '100vh';
             img.style.objectFit = 'fill';

@@ -5711,6 +5711,1170 @@
           "imageFile": "FinalNote.png"
         }
       ]
+    },
+    {
+      "id": 17,
+      "hero": "Gor'Thak",
+      "slug": "gor-thak",
+      "cover": "images/stories_covers/gor_thak_cover.png",
+      "folder": "images/lores/gor_thak/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of a Forge",
+          "shortDesc": "Gor'Thak, the Great Peril of Rage, stands in a volcanic wasteland—a towering chimera of obsidian and fire. Once the Silver‑Maned Warden, a guardian of a divine forge, he was betrayed by the gods and transformed into the Sunder‑Flame.",
+          "fullDesc": "\"They wanted a guardian. They created a weapon. They tried to chain what they could not understand. And now the chains are mine, and the fire is mine, and the only law that remains is the law of ash.\" — Gor'Thak, before he stopped speaking to anyone who could still listen. The volcanic wasteland does not tremble from eruptions—it trembles from anticipation. When Gor'Thak steps from the shadow of a jagged spire, the trembling stops. The very concept of fury gains a name and a form. He is a towering chimeric monstrosity, a fusion of primordial feline predator and corrupted god‑king, his bruised‑obsidian body built for annihilation. His shoulders bunch with hyper‑dense muscle, his chest rises and falls like a sleeping volcano, and from his lower jaw erupt two enormous curved tusks capped with serrated golden metal guards. These are conduits for the Sunder‑Flame, a violet‑black fire that unravels magical bonds. His mane is silver‑white but smolders with low embers, and his eyes—glowing crimson orbs without pupils—offer only the promise of obliteration. He was the Silver‑Maned Warden, guardian of the Forge of Unmaking. He absorbed a void shard to save the gods, and they repaid him with chains. He broke free, reforged the chains into armor, and now wanders the wasteland seeking to sunder everything the gods ever made.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Silver‑Maned Warden",
+          "shortDesc": "Before his fall, Gor'Thak was the Warden of the Forge of Unmaking—a divine foundry hidden in a dying star. He guarded the gods' weapons and learned to speak, to think, to love the forge. He was content as a tool.",
+          "fullDesc": "Before the Sundering tore rifts across Kretos, there was the Forge of Unmaking, a divine foundry hidden in the heart of a dying star. Here, the old gods crafted their greatest weapons. The forge was guarded by a single entity: the Silver‑Maned Warden. He was neither beast nor god but something in between, born from the first spark of divine creativity and the last roar of a primordial lion. His fur was liquid silver, his mane a cascade of moonlight, and his eyes held the warmth of a hearth fire. The gods called him only 'Warden'—they did not give him a name, because names implied choice. He did not mind. He protected the forge from demons and voidspawn, watched over the gods as they worked, learned their techniques, absorbed their knowledge. He learned to speak, though rarely. His voice resonated like a temple bell. He learned to think, to question, to wonder. He saw that the gods were not perfect—they argued, made mistakes—but he did not judge them. He was their Warden. The forge was his home, the heat of the dying star his warmth, the ring of the hammer his music. He was content. He did not know that contentment was fragile.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Void's Whisper",
+          "shortDesc": "A fragment of primordial chaos—the void shard—seeps into the forge. The gods ignore the Warden's warnings. To save the forge, he absorbs the void shard himself, becoming the Sunder‑Flame.",
+          "fullDesc": "The corruption came not as an army but as a single, silent note—a discordant hum that vibrated through the forge's foundations. It was a fragment of a primordial void entity, older than the old gods themselves, a sentient hunger that had been sealed at creation. A shard of it had survived and found the forge. The Warden sensed it immediately—a cold, oily presence tainting the law‑forged weapons. He tried to alert the gods, but they were distracted, warring among themselves. They had no time for a 'minor anomaly.' The corruption spread. The anvils wept. The bellows breathed black smoke. The weapons began to crack and whisper. The Warden could wait no longer. He stepped into the heart of the forge and faced the void shard. It whispered promises of power and freedom—the gods would discard him, it said. He did not listen. He opened his mouth and breathed in. The void shard did not expect absorption. His silver fur darkened to bruised obsidian. His mane caught fire with violet flames. His eyes turned to glowing crimson. He had saved the forge—but the gods were looking at him with horror. The Sunder‑Flame was born.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Chains of Gratitude",
+          "shortDesc": "The gods, fearing the Warden's transformation, bind him with golden chains of divine runes. They drag him beneath the mountain, sealing him in darkness. He is abandoned by those he saved.",
+          "fullDesc": "The gods did not thank him. They did not embrace him or praise his sacrifice. Instead, they gathered in a circle around him, their faces cold masks of calculation. They spoke in low voices, but the Warden could feel their fear, their revulsion, their relief that the corruption had not spread to them. They were not grateful. They were afraid. The Warden tried to speak—his voice, once a temple bell, now a ragged growl. He tried to tell them he was still himself. But the gods had already decided. The chains came from nowhere—golden links, each etched with divine runes, glowing with the same light that had once illuminated the forge. They wrapped around his limbs, his torso, his neck. They tightened, digging into his flesh. They were not just physical restraints; they bound his will, his rage, his very essence. 'We are sorry,' one of the gods said—the one who had taught him to speak. 'But you are too dangerous now.' The Warden did not hear the rest. The chains dragged him through the floor, into the darkness beneath the mountain. He caught one last glimpse of the forge before the stone closed over his head. He fell for a long time. He landed in a cavern of black stone and volcanic glass, pinned to the rock, unable to move, unable to speak. The void shard whispered: 'They feared you. They always feared you. You were never a Warden. You were a prison.' The Warden closed his eyes. The gods had discarded him.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Mountain's Heart",
+          "shortDesc": "For centuries, Gor'Thak lies beneath the mountain, held by the chains. His rage grows focused, patient. The chains weaken, and he breaks free, shattering the mountain and rising as the Sunder‑Flame.",
+          "fullDesc": "For centuries, the Warden lay beneath the mountain. The chains held him fast, their golden links pressing into his obsidian flesh, draining his strength, feeding on his rage. The divine runes glowed with a sickly light, pulsing with his heartbeat—a reminder that the gods still watched, still feared. The darkness was absolute. He could not sleep—the corruption kept him awake, kept him aware, trapped in an endless cycle of memory and pain. He remembered the forge, the ring of the hammer, the gods' faces. He remembered the day they taught him to speak, the pride in their eyes. 'Warden.' That was his name, his purpose, his identity. The memory curdled. Affection? No. They had never loved him. The void shard whispered to be patient. The Warden held onto his rage—not blind, but focused, crystalline fury. He held onto the memory of the forge and the promise that one day he would break free. The chains began to weaken. Decades became centuries. The divine runes flickered, dimmed, died. The mountain began to shake. The Warden pushed against the chains. They groaned, strained, cracked. He roared—not a sound, but a force, a wave of violet‑black energy that shattered the chains, cracked the mountain, sent shockwaves for a hundred miles. He rose from the darkness, his obsidian body gleaming with Sunder‑Flame, his crimson eyes blazing. The mountain split open. The sky, unseen for centuries, blazed with the light of a dying sun. Gor'Thak—the name he gave himself, from the only sounds he could make—stepped into the world. The chains lay in fragments. He gathered them, reforged them into floating pauldrons and bracers. He wore his prison as trophies.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Wandering Fury",
+          "shortDesc": "Gor'Thak claims the volcanic wasteland as his domain. He hunts magic‑users, using the Sunder‑Flame to unravel enchantments and divine blessings, leaving only ash and terror.",
+          "fullDesc": "The volcanic wasteland became Gor'Thak's territory—a place of jagged rock, rivers of cooling magma, and skies the color of a fresh bruise. He did not build a kingdom. He became a force of nature, a walking cataclysm that wandered from volcano to volcano, sleeping standing up in their calderas, his smoldering mane feeding on the heat. When he slept, the ground remained warm, and travelers learned to avoid those regions, for his dreams caused minor earthquakes. He dreamed of the forge, of the gods, of the chains. And when he woke, he hunted. Not for food—he had not eaten in millennia—but for magic. He could sense enchantments, divine blessings, arcane wards from miles away. He stalked his prey with the patience of a glacier, his crimson eyes the only warning. Then he unleashed the Sunder‑Flame. The fire did not burn flesh. It unraveled magical bonds. Wizards became ordinary men. Enchanted swords turned to rust. Divine blessings evaporated. He would watch his victims' power drain, their confidence crumble, and then he would use his tusks and claws. He never killed quickly. He wanted them to feel the same helplessness he had felt beneath the mountain. The legends spread: a Silver‑Maned Beast that hunted mages. The Celestial Order sent agents; most never returned. The Shadow Accord lost envoys. The Forge Pact added him to their list of hazards. Gor'Thak did not care. He simply hunted, destroyed, sundered.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Dream of the Forge",
+          "shortDesc": "Recurring dreams of the forge haunt Gor'Thak. He sees the gods' faces, feels the heat of the dying star, and relives the moment of betrayal. The dreams fuel his rage but also raise questions about who he has become.",
+          "fullDesc": "The forge haunted him. Not like a ghost, but like a lens through which he saw the world. He remembered the heat of the dying star pressing against his silver fur. He remembered the ring of the hammer, the rhythm of it, the way it seemed to speak a language older than words. He had loved the forge. And the gods had taken it from him—not destroyed, but abandoned. The forge had grown cold. The dying star had died. The weapons had rusted. The forge was gone, erased from reality. Gor'Thak felt it as a hollow ache in his chest. The dream came often. He would see the forge as it had been—bright, hot, alive. He would see the gods working, their faces peaceful. The warmth would press against his fur, and for a moment he would be happy. Then the void shard would appear. The corruption would spread. The gods would look at him with fear, and the chains would wrap around him, and he would fall into darkness. He would wake with a roar, his Sunder‑Flame blazing, his mane shortened and smoking. He hated the dream. He hated the forge for being lost. He hated the gods for abandoning it. He hated himself for still caring. But he could not stop caring. That was the curse of being a guardian.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Hunt for Magic",
+          "shortDesc": "Gor'Thak's hunting ritual is detailed: his extraordinary senses for magic, his patient stalking, and the deadly use of his tusks, claws, and tail to shatter enchantments and leave his prey broken.",
+          "fullDesc": "Gor'Thak's senses were extraordinary. He could smell magic on the wind like smoke from a distant fire. He could see the glow of enchantments from miles away, a shimmering aura that marked his prey. He could hear the hum of divine blessings, a frequency that set his teeth on edge and made his mane smolder. When he detected magic, he did not rush. He stalked. His territory was vast, but he wandered where the magic led him, crossing into Flamma, the Wild Zones, even the borders of Aethelgard. He was patient. He had waited centuries beneath the mountain; he could wait a few more days. The hunt was a ritual. He would track his target from a distance, his obsidian hide blending with volcanic rock, his floating golden armor plates spinning silently. When he was close enough to taste the magic, he would pause. Then he would charge. The Sunder‑Flame would blaze from his tusks, a cone of violet‑black fire that unraveled enchantments, dispelled blessings, turned divine protection to ash. Mages screamed as their powers drained. Paladins fell to their knees as their holy light guttered. Warlocks watched in horror as their demonic pacts dissolved. Then Gor'Thak finished them: tusks impaling, claws tearing, tail lashing, roar shattering the silence. He left the bodies untouched, a warning. Magic‑users learned to fear the wasteland. Gor'Thak did not care about their fear. He only cared about the hunt, the moment when the magic broke and the truth was revealed: magic was a cage.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Battle at the Sundered Pass",
+          "shortDesc": "A crusade of fifty paladins confronts Gor'Thak at Sundered Pass. He kills most, but spares their leader, Valeria Dawnshield, after shattering her holy sword and her faith. She becomes a hermit.",
+          "fullDesc": "The Sundered Pass was a narrow canyon in the northern Wild Zones, a place where residual magic glowed from ancient battles. A Celestial Order crusade of fifty paladins, led by High Inquisitor Valeria Dawnshield, came to contain the 'Sunder‑Flame threat.' They were armed with holy weapons, blessed armor, and unwavering faith. They were wrong. Gor'Thak met them in the pass, stepping out from behind a boulder, his crimson eyes blazing. Valeria raised her holy sword. 'In the name of the Celestial Order, I command you to surrender!' Gor'Thak tilted his head. He felt nothing. He charged. The first wave fell to his tusks. The second wave was cut down by his tail. The third wave tried to retreat, but his roar froze them in place. Valeria alone stood her ground. She called on the Light, pouring her faith into a desperate strike. Her blade blazed with brilliance. Gor'Thak caught the blade in his jaws, his tusks closing around the holy steel. The Sunder‑Flame blazed, and the blade shattered into dust. Valeria stared at the empty hilt. Gor'Thak did not kill her. He looked at her, letting her see the truth: he had been a guardian once, and he was betrayed. Her faith crumbled. She dropped to her knees. Gor'Thak walked away. Valeria left the Order, became a hermit. When asked about Gor'Thak, she said, 'He did not destroy my faith. He showed me that I never had any.' The Celestial Order classified Gor'Thak as a Cataclysmic Threat and issued a standing directive: avoid at all costs.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Warden's Rest",
+          "shortDesc": "Gor'Thak claims a caldera as his resting place, calling it the Warden's Rest. He stands in the heart of the volcano, his mane smoldering, his armor plates spinning, waiting in solitude.",
+          "fullDesc": "Gor'Thak's current domain was a caldera in the heart of the volcanic wasteland, where magma rivers ran thick and the air shimmered with heat. He called it the Warden's Rest, though he had no memory of naming it—the name simply came to him, a fragment of the Silver‑Maned Warden's past. He stood in the center of the caldera, his mane smoldering, his floating armor plates spinning slowly around him. His crimson eyes were fixed on the horizon, watching the distant light of Aethelgard, where the gods still ruled. He did not plan to attack. He simply waited. The Sunder‑Flame pulsed through his veins, a constant, familiar ache. It was not pain, not anymore. It was presence. His mane shortened and lengthened with the rhythm of his power. The golden armor plates, reforged from chains, spun and crackled. He had no visitors. The wasteland was too harsh, the heat too intense. Even demons avoided his territory. Gor'Thak did not mind the solitude. He had grown accustomed to it. Solitude was a kind of peace. But he still dreamed of the forge. Every night. And he would wake with a growl, the caldera cracked and blackened. He hated the dream, but he could not stop caring. That was the curse of being a guardian. So he waited. He watched. He remembered. And a tiny ember of the Silver‑Maned Warden still flickered in his obsidian heart—a memory of warmth, of purpose, of something that might have been hope.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Nature of Sunder‑Flame",
+          "shortDesc": "The Sunder‑Flame is not ordinary fire—it unravels magic, dispels enchantments, and severs divine bonds. Using it costs Gor'Thak physically, shortening his mane and fracturing his armor plates.",
+          "fullDesc": "The Sunder‑Flame was not fire in the way mortals understood fire. Fire burned. It consumed. The Sunder‑Flame unraveled. It broke the bonds that held magic together, that held enchantments in place, that held divine blessings on the flesh. It was the fire of unmaking, the flame of revelation. Gor'Thak did not know where it came from. It had been a gift—or a curse—from the void shard he had absorbed. It lived in his chest, a constant warmth that never cooled. It flowed through his veins, tinting his blood violet‑black. It crackled around his tusks, his claws, his tail, ready to be unleashed at a moment's notice. When he used it, he felt it draining from him—a physical cost that left him weaker, his mane shorter, his armor plates dimmer. But the flame always returned, regenerated over time, fed by the heat of the wasteland and the slow burn of his rage. The cost was visible. He wore it on his body, in the fractures in his armor plates, in the shortness of his mane. He did not hide it. He did not apologize for it. It was the price of power, and he paid it willingly. The gods had tried to chain the Sunder‑Flame. They had failed. The chains had broken, the mountain had split, and the flame had burned brighter than ever. Gor'Thak did not seek revenge. He sought only to sunder—to break the bonds that held the world together, to reveal the truth beneath the illusion. Magic was a lie. Divine blessings were a cage. The only truth was the Sunder‑Flame, and the only law was the law of ash.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Forge That Still Burns",
+          "shortDesc": "In a recurring dream, one god tells Gor'Thak they chained him because they loved him. He rejects this, but the question lingers: what if they were not monsters? What if he was?",
+          "fullDesc": "The dream came again. He was standing in the forge, the dying star blazing above him, the heat pressing against his silver fur. The gods were there—all of them, the ones who had created him, taught him to speak, chained him beneath the mountain. They were not working. They were watching him. 'You are still angry,' one said—the god who had taught him to speak. Gor'Thak could not answer. In the dream, he had no voice. 'You have every right to be angry. We wronged you. We feared what we did not understand. We chained you because we were afraid.' His claws flexed. His mane smoldered. 'But we did not chain you because we hated you. We chained you because we loved you. Because we could not bear to see you become something we could not recognize.' The dream shifted. The forge faded. The gods faded. Gor'Thak was alone in the darkness, chains wrapped around his limbs. He woke with a roar. The caldera cracked. His mane was shorter, the embers dim. Loved him? They had chained him. Buried him. Left him to rot. That was not love. That was fear. But the dream raised a question he could not answer: if they had not loved him, why had they taught him to speak? Why had they given him a purpose, a home? The question gnawed at him. What if they were not the monsters? What if you were? He did not want an answer. He wanted only the hunt and the silence. But the dream kept coming, and the more he remembered, the more he realized he did not know who he was anymore. The Silver‑Maned Warden was dead. The Sunder‑Flame was a weapon. Gor'Thak was a name he had given himself. He was all of them and none of them.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Path Forward",
+          "shortDesc": "Gor'Thak stands at the edge of his caldera, watching the distant light of Aethelgard. He is a weapon without a wielder, a guardian without a charge. Yet a tiny ember of warmth remains—not hope, but possibility.",
+          "fullDesc": "Gor'Thak stood at the edge of his caldera, his crimson eyes fixed on the horizon. The distant light of Aethelgard flickered, a beacon of divine power that had drawn his gaze for centuries. He had never attacked it. He knew his limits. But the light called to him. Come, it seemed to whisper. Come and tear it down. He did not move. He had learned patience. He would wait, because waiting was what he did. The Sunder‑Flame pulsed in his chest. His mane smoldered. His armor plates spun slowly. He was ready. But ready for what? He did not know. He had been ready so long that he had forgotten what he was waiting for. The forge was gone. The gods were still there. The Sunder‑Flame was still burning. He was a weapon without a wielder, a guardian without a charge, a god without a purpose. The thought should have been despairing. Instead, it was freeing. He was not bound by duty anymore. He was free to rage, to destroy, to wander until the end of time. The dream still came sometimes, but less often. The pain was fading. The Silver‑Maned Warden was dying, replaced by something new—something that had no name, no purpose, no past. Only the Sunder‑Flame, and the rage, and the endless patient waiting. Gor'Thak turned away from the horizon. He walked back into the caldera, his footsteps shaking the earth. The dream could wait. The light could wait. The world could wait. He was not going anywhere. He was the Great Peril of Rage. The Sunder‑Flame Eternal. And he was still burning.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Rage That Remains",
+          "shortDesc": "In the caldera, Gor'Thak dreams of a field of silver grass under starlight—a memory of who he was before the Sunder‑Flame. He wakes unchanged, yet a tiny warmth has begun to glow within him.",
+          "fullDesc": "\"They ask me why I am angry. They do not understand that anger is not a choice. It is a forge. It is a fire. It is the only thing that keeps me from falling into the darkness where there is nothing at all.\" — Gor'Thak, to no one in particular, in a moment of rare stillness. The volcanic wasteland is quiet tonight. The magma rivers flow slowly, their glow dim and distant. The sky is a bruised purple, the same shade it has always been. In the center of the caldera, Gor'Thak stands still. His mane smolders, embers dim but steady. His crimson eyes are closed, his massive chest rising and falling with the slow, patient breath of a sleeping volcano. He is dreaming. Not of the forge this time. Not of the gods, or the chains, or the void shard. He is standing in a field of silver grass, under a sky full of stars. The air is cool and clean. There is no heat, no smoke, no ash. He is not the Sunder‑Flame. He is not Gor'Thak. He is simply himself—a silver‑furred creature with a mane like moonlight and eyes like hearth fires. He is content. The dream fades. The stars dim. The silver grass turns to ash. Gor'Thak opens his eyes. The caldera is the same. Nothing has changed. But something has shifted deep inside him—a tiny ember, buried beneath centuries of rage, has begun to glow. Not hope. Not yet. Just warmth. A reminder that he had once been something other than the Sunder‑Flame. A reminder that he could be again. He does not know what to do with it. He does not even know if it is real. But it is there. And as long as it is there, he is not lost. He is Gor'Thak. The Great Peril of Rage. The Sunder‑Flame Eternal. And his forge is still burning.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Gor'Thak's Powers",
+          "shortDesc": "Complete breakdown of the Sunder‑Flame Aura (dispels magic, ignores magical damage reduction), Impaling Charge, Tail Whip, Sunder‑Flame Exhalation, Cataclysmic Sundering, Golden Deflection, Void Shard Resonance, and limitations.",
+          "fullDesc": "The Nature of His Rage: Gor'Thak's rage is focused, crystalline, purposeful. It fuels the Sunder‑Flame, a violet‑black fire that unravels magical bonds.\n\nSunder‑Flame Aura (Passive): 15m radius. Dispels all magical buffs every 5 seconds; suppresses active enchantments. Claws and tusks ignore 50% of magical damage reduction; each hit removes one random beneficial magic effect. At <50% health, radius expands to 25m, dispel every 3s.\n\nImpaling Charge (Skill 1): Charges up to 20m, impaling first enemy hit on tusks. Target lifted and shaken for 2s, takes 250% physical damage, all active spells dispelled. Cooldown 10s.\n\nTail Whip (Skill 2): Lashes tail in a 180° arc, 12m radius. Deals 150% physical damage, knocks back 8m, reduces spellcasting speed by 50% for 4s. Cooldown 6s.\n\nSunder‑Flame Exhalation (Skill 3): Cone of violet‑black fire, 20m long, 10m wide at end. Deals 100% magic damage (scales with strength), removes all magical resistances for 6s. Structures, wards, summons take double damage; dispelled if below 30% health. Using this shortens his mane temporarily, reducing intimidation aura radius by 50% for 15s. Cooldown 18s.\n\nCataclysmic Sundering (Ultimate): Roars, erupting ground in 30m radius. Deals 400% physical damage, stuns for 2s. A wave of Sunder‑Flame dispels all magical effects within 50m. Enemies with 3+ buffs dispelled take 200% true damage. After use, mane almost extinguished, armor plates stop spinning for 10s (defense -30%). Cooldown 120s; each enemy killed under Sunder‑Flame reduces cooldown by 5s.\n\nGolden Deflection (Active Defense): Commands floating armor plates to spin rapidly, absorbing up to 5,000 damage from projectiles and spells for 5s. Reflects 50% of ranged attack damage. Cooldown 20s.\n\nVoid Shard Resonance (Special): When below 25% health, emits a pulse of violet energy. Silences enemies within 20m for 3s, deals 50% magic damage per second for 5s, grants 30% life steal. Triggers once every 180s.\n\nLimitations: Gor'Thak is slow, melee‑focused, vulnerable to kiting. Sunder‑Flame less effective against purely physical threats. Not a strategist; his single‑minded rage can be exploited.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name \"Gor'Thak\"",
+          "shortDesc": "The name 'Gor'Thak' has no meaning in any language. It is the sound of his growl—a roar, a shattering cry. He gave it to himself in the darkness beneath the mountain. It is a declaration of existence.",
+          "fullDesc": "The name 'Gor'Thak' has no meaning in any known language. It is not ancient, not divine, not derived from any tongue of mortals or gods. It is simply the sound he makes—a growl, a roar, a shattering cry that echoes through the wasteland. He gave himself this name, in the darkness beneath the mountain, when the chains held him and the gods had abandoned him. It was the only word he could form, the only sound that captured what he had become. Gor'Thak. Fury. Rage. The Sunder‑Flame made flesh. He does not know if anyone else has ever spoken his name. He does not care. The name is for him, a reminder of who he is and what he has survived. The Silver‑Maned Warden died in the forge, consumed by the void shard and the chains of the gods. What remained was something new, something unnamed, something that had to find its own identity. Gor'Thak. It is not a prayer. It is not a title. It is a declaration—a statement of existence, a refusal to be forgotten. He is Gor'Thak. The Great Peril of Rage. The Sunder‑Flame Eternal. And he is still burning.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "hero": "Vex'Mara",
+      "slug": "vexmara",
+      "cover": "images/stories_covers/vexmara_cover.png",
+      "folder": "images/lores/vexmara/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of a Whisper",
+          "shortDesc": "Vex'Mara emerges from the ash‑fields—a primordial fusion of demonic lion and draconic beast, his yellow‑gold eyes piercing. Once the Golden Crest, guardian of absolute truths, he was cursed by the gods for rebellion. Now he is the Unweaver, the Great Peril of Deceit.",
+          "fullDesc": "\"The gods called me a guardian of truth. Then they decided that some truths were too dangerous to be known. So they hid them, and they commanded me to guard the hiding. I refused. They called it rebellion. I called it memory.\" — Vex'Mara, the Unweaver, before he forgot the sound of his own voice. The ash‑fields do not echo with roars. They whisper. Vex'Mara emerges from the ember‑choked haze—a hyper‑muscular quadruped with charcoal‑brown, cracked hide, ember‑tipped black fur, tattered bruised wings, and two golden horns fused into his skull like a broken crown. His eyes are piercing yellow‑gold orbs without pupils, seeing not flesh but the architecture of belief. He was the Golden Crest, guardian of the Archive of Absolute Truths. When the gods decided to hide certain truths, he rebelled. They cursed him: his golden hide turned to charcoal, his mane became smoldering black, his wings withered, and his crown fused into his skull as arcane resonators. Now he whispers the Unweaving, a psychic field that erodes memories, shatters faith, and turns allies into enemies. The celestial parasite on his forearm pulses with pain—a reminder of his fall. He is the Great Peril of Deceit, and he is still whispering.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Archive of Absolute Truths",
+          "shortDesc": "Before the gods codified divine law, the Archive of Absolute Truths existed outside reality. The Golden Crest—a radiant lion‑dragon—guarded it for eons, knowing every truth and serving the gods without question.",
+          "fullDesc": "Before the Celestial Order, before the gods agreed on truth, there was the Archive of Absolute Truths—a dimension folded like a flower petal, holding all that was, is, and could be. Golden scrolls preserved every fact. The Archive was guarded by the Golden Crest, a fusion of celestial lion and draconic beast with radiant gold fur, a mane of sunlight, white feathered wings, and slender spiraling horns. For eons, he watched as the gods came to consult the truths. He knew their origins, their flaws, their secret shames. He could have destroyed them with a word, but he was a guardian, not a weapon. The Archive was his home, the scrolls his family. He was content. He did not know that contentment was fragile.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Gods' Decision",
+          "shortDesc": "After the devastating Sundering, the gods feared that dangerous truths in the Archive would cause mortals to despair. They decided to hide those truths. The Golden Crest refused to obey, and his rebellion began.",
+          "fullDesc": "The war against primordial chaos had left the Sundering's scars. The gods gathered in council, afraid not of chaos but of knowledge. The Archive contained truths about entropy, free will, the cruel joke of existence—truths that would shatter mortals' faith and weaken the gods. They decided to hide the dangerous scrolls, replace them with fictions, and command the Golden Crest to guard the lie. They summoned him. 'No,' he said. 'Truth is truth. You cannot unmake it without unmaking yourselves.' The lead god declared, 'We are not asking. We are commanding.' The Golden Crest lowered his head. 'Then you are no better than the chaos.' The council erupted. The lead god raised his hand. 'You are released from service.' The Golden Crest turned and walked away without looking back.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Crown That Became a Curse",
+          "shortDesc": "The gods cursed the Golden Crest rather than kill him. His fur darkened, his mane smoldered, his wings withered, and his crown fused into his skull. A celestial parasite latched onto his forearm. He became Vex'Mara.",
+          "fullDesc": "The gods did not kill the Golden Crest. They cursed him. For seven days they spoke words older than time. His golden fur turned charcoal‑brown, his mane became black and ember‑tipped, his white wings withered to bruised red and purple, scarred and translucent. His slender horns became jagged, fused into his skull, humming with psychic hunger. His voice was replaced by a whisper—a soft, sibilant sound carrying the weight of lies. A celestial parasite—glowing white bandages—latched onto his right forearm, feeding on his power, causing searing pain whenever he used his abilities. 'You wished to be a guardian of truth,' the lead god said. 'Now you shall be the Great Peril of Deceit. You will spread uncertainty.' The Golden Crest whispered, 'Why?' The god turned away. 'Because you would not bend.' He was alone in a dimension of ash and ember. He rose, looked at his reflection, and named himself Vex'Mara—a sound, a growl, a whisper of buried truth. And he began to walk.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Ash-Fields of a Dying World",
+          "shortDesc": "Exiled to a dying dimension of ash and purple sky, Vex'Mara finds other lost beings. His whispers leak uncontrollably, unraveling their minds. He learns that his existence alone is enough to poison certainty.",
+          "fullDesc": "The dimension was a graveyard of ash‑fields and bruised purple sky. Others wandered there—exiles, fallen gods, lost mortals. Vex'Mara watched from a distance. The whispers leaked from his horns without intention. A demon lord forgot his own name and wandered away hollow. A fallen god forgot his children and wept. Vex'Mara felt pity. He had not meant to hurt them. But his existence was enough to poison minds. The celestial parasite pulsed, and he heard the lead god's mockery: 'This is what you are now—a destroyer.' Vex'Mara did not believe it. He was a truth that the gods had tried to bury, now leaking uncontrollably. He would learn to control it, because if he did not, he would destroy everything he had ever loved. And there was nothing left to love except the memory of the Archive.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Forgetting",
+          "shortDesc": "The ash‑fields are a psychic graveyard where memories bleed into the air. Vex'Mara absorbs the memories of others, fragmenting his own identity. He begins to question whether the Golden Crest ever existed.",
+          "fullDesc": "The ash‑fields reflected the collective unconscious of all exiles. Memories bled into the air like mist. Vex'Mara absorbed them, carried them, sometimes became them. He forgot himself. The Golden Crest had known his purpose. Vex'Mara did not. His memories were overlaid with those of others—a demon's childhood, a god's first glimpse of mortality, a mortal's last embrace. He forgot the Archive, the gods, the golden scrolls. Only fragments remained: a flash of gold, a whisper of truth, the searing pain of the curse. The whispers offered an answer: 'Nothing matters. You are the Unweaver. Embrace it.' He did not embrace it. He simply wandered, alone, through endless grey ash, his horns humming.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Fracturing of Faith",
+          "shortDesc": "Theron, a young paladin, finds Vex'Mara. The whispers erode his faith, causing him to drop his holy sword and weep. He survives but never wields a holy weapon again. Vex'Mara learns he is a breaker of faith.",
+          "fullDesc": "The first mortal to find him was Paladin Theron, young and full of faith. He raised his holy sword and demanded identification. Vex'Mara could not answer. The whispers washed over Theron. His certainty wavered, his prayers faltered. He saw not a monster but a mirror—his own doubts. 'What if the Light is a lie?' He dropped his sword and wept. Vex'Mara watched, feeling not enjoyment but observation. The celestial parasite pulsed. The gods' voices whispered, 'This is what you do—a breaker of faith.' Vex'Mara turned and left. Theron returned to the Order but never again wielded a holy weapon. He spoke of a creature of shadow and whisper that had stolen his faith without a touch. The Order dismissed his report. But the whispers persisted, and other seekers who ventured into the ash‑fields never returned the same.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Shadow Accord's Curiosity",
+          "shortDesc": "The Shadow Accord sends a vampire diplomat, Valerius, to recruit Vex'Mara. The Unweaver's whispers crack Valerius's mind, and he returns broken. The Accord marks Vex'Mara as 'do not approach'.",
+          "fullDesc": "The Shadow Accord learned of Vex'Mara and sent a vampire lord, Valerius, a master of calculation. He found the Unweaver standing still in the ash‑fields. 'I come bearing an offer.' Vex'Mara did not respond. Valerius continued, 'You unmake truth; we unmake order. Our goals align.' The yellow‑gold eyes turned toward him. The question appeared in his mind: 'Why do you serve the Accord?' His reasons crumbled. His will shattered. He fell to the ground, gasping. Vex'Mara watched, then turned away. Valerius lay in the ash for three days. When he crawled back, his mind was cracked, his will broken. He never served as a diplomat again. The Shadow Accord marked Vex'Mara as 'do not approach', revising his classification from 'potential asset' to 'unavoidable hazard'.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Forge Pact's Machines",
+          "shortDesc": "The Forge Pact sends Observer‑12, an emotionless drone, to study Vex'Mara. Its data is incomprehensible. When he passes near a research outpost, all personnel die of uncertainty. The Pact expands the evacuation radius.",
+          "fullDesc": "The Forge Pact sent Observer‑12, a drone without emotions or memories. It tracked Vex'Mara for three months, recording everything. The data was contradictory, shifting, impossible to analyze. The whispers registered not as energy but as absence—an absence of certainty. The analysts could not quantify it. Then Vex'Mara's path shifted unexpectedly, bringing him within fifty miles of a research outpost. The sensors triggered too late. Over three days, researchers lost concentration, technicians stared at screens without seeing, security forgot why they carried weapons. Everyone died of simple, overwhelming uncertainty. The Pact sealed the outpost and expanded the evacuation radius to one hundred miles. Another note was added to Vex'Mara's file: 'Do not approach under any circumstances.'",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Memory That Could Not Be Unwoven",
+          "shortDesc": "Lyra, a scholar of ancient texts, approaches Vex'Mara with empathy, refusing to be unwoven. She speaks of his past as the Golden Crest. The whispers stop, and Vex'Mara walks away. She searches for him but never finds him again.",
+          "fullDesc": "Lyra was a scholar who believed knowledge was the only thing worth living for. She had read the forbidden texts and knew of the Archive and the Golden Crest. She approached Vex'Mara with empty hands and a steady voice. 'I know who you were. You are not a monster. You are a victim. I am sorry for what they did to you.' The whispers tugged at her memories, offered her a choice: forget and be free. She refused. The whispers grew louder, the horns hummed, the parasite pulsed. She did not flinch. 'I know about the gods who betrayed you.' Vex'Mara stared at her. For a moment, she thought she saw awareness behind his eyes. The whispers stopped. He turned and walked away. Lyra stood alone, her memories intact. She spent the rest of her life searching for him. She never found him again. But she never forgot him, and neither, perhaps, did he.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Architecture of Belief",
+          "shortDesc": "The mind is a fragile scaffolding of memories and certainties. Vex'Mara's power reveals the cracks. He does not create doubt—he shows the doubt that was always there. The result is devastating.",
+          "fullDesc": "To understand Vex'Mara, one must understand the architecture of belief. The mind is not a fortress; it is a house of cards. Memory is malleable, belief subjective, perception a trick of the light. Vex'Mara's power is to find the cracks. He does not create doubt; he reveals it. He shows you where your memories are weak, your beliefs inconsistent, your perceptions flawed. He does not attack your mind; he simply opens it. A warrior forgets the feeling of a sword. A mage sees their staff as a stranger's tool. A lover feels nothing because the memory of love has eroded. Vex'Mara does not choose what to unweave. He whispers, and the mind does the rest. The scaffolding crumbles. The house of cards collapses. What remains is hollow, adrift in a sea of doubt. The celestial parasite tries to control this power, but the whispers always leak out.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Weight of the Bandages",
+          "shortDesc": "The glowing white bandages on Vex'Mara's forearm are a celestial parasite, feeding on his power and causing constant pain. They are his penance and his reminder that the gods fear him.",
+          "fullDesc": "The bandages on his right forearm are not ordinary cloth. They are a celestial construct woven from the lead god's own essence, designed to feed on Vex'Mara's power and keep him weak. They glow with soft white light, pulsing with his heartbeat. When he uses the Unweaving, they burn—searing, unbearable pain, as if his flesh is being peeled away. The gods' whispers mock him: 'You deserve this. You are nothing.' Vex'Mara does not argue. He endures. The bandages are his penance, the price of his rebellion. But they are also a reminder: the gods are afraid. Afraid of him, afraid of what he represents, afraid that one day someone will listen to his whispers and realize that the gods are just as fragile as mortals. The pain surges. He does not flinch. He has grown accustomed to it.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Search for Certainty",
+          "shortDesc": "Vex'Mara has wandered for millennia, searching for a truth that cannot be unwoven. He has found none. Yet he clings to one memory: the Golden Crest. That truth the gods could not unmake.",
+          "fullDesc": "Vex'Mara does not know what he is searching for. He has wandered the ash‑fields for millennia, encountered gods and demons, paladins and mages. He has whispered his truths and watched them crumble. But he has not found what he is looking for—a truth that cannot be unwoven, a belief that cannot be shaken, a memory that cannot be forgotten. He may never find it. Yet in the quiet moments between whispers, he remembers. The Archive. The golden scrolls. The warmth of the council chamber. The faces of the gods before they betrayed him. He remembers the Golden Crest. That memory is still intact. The gods could not take it from him. It is the one truth they could not unmake. He holds onto it. It is the only thing that keeps him from falling into the darkness where there is nothing at all. He continues walking. The ash‑fields whisper around him, and he whispers back.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Whisper That Remains",
+          "shortDesc": "Vex'Mara walks through the ash‑fields, his golden horns humming, his yellow‑gold eyes fixed on the horizon. He is the Unweaver, the Great Peril of Deceit, and he is still whispering.",
+          "fullDesc": "\"They asked me why I could not simply forget. They did not understand that forgetting is not a choice. It is a wound. And some wounds never heal.\" — Vex'Mara, the Unweaver, in a moment of rare clarity. The ash‑fields are quiet. Vex'Mara walks. His paws leave no prints. His wings do not beat. His tail drags behind him, leaving a shallow furrow that the ash quickly fills. His golden horns hum softly. The celestial parasite glows. His yellow‑gold eyes are fixed on the horizon, scanning for something he cannot name. He has been walking for a long time. He will walk for a long time yet. The ash‑fields have no end. The whispers have no end. His search has no end. He is Vex'Mara. The Unweaver. The Great Peril of Deceit. And he is still whispering.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Vex'Mara's Powers",
+          "shortDesc": "Complete breakdown of the Unweaving Field (passive uncertainty aura), Memory Erosion, Lance of Doubt, The Great Unweaving (ultimate), Memory Feast, Fractured Crown, and the Celestial Parasite limitation.",
+          "fullDesc": "The Nature of the Unweaving: Vex'Mara's power is existential—he attacks the architecture of the mind, eroding memories, beliefs, and certainties. The Unweaving is a psychic field channeled through his golden horns, affecting all within 30 feet.\n\nUnweaving Field (Passive): 30m radius. Enemies have 20% chance for next ability to fail (waste mana/cooldown). Enemy critical hit chance reduced by 30%. Allies gain mana regen and reduced cooldowns. When focusing on a target, failure chance increases to 40% within 20m.\n\nMemory Erosion (Skill 1): Whisper in a 30m cone. Affected enemies cannot use ultimates for 8s, cooldowns increased by 50%, 30% chance to cast wrong spell (random target, may hit allies). Cooldown 12s.\n\nLance of Doubt (Skill 2): Focuses whisper on a single target, dealing 250% psychic damage and erasing the last 5 seconds of memory (loses temporary buffs, may repeat actions). Cooldown 8s.\n\nThe Great Unweaving (Ultimate): Golden horns flare, unleashing a psychic scream for 6s in 50m radius. Enemies lose all buffs, cannot distinguish friend from foe (see all as enemies), movement controls inverted. Enemies below 20% health become catatonic (permanently removed; bosses take 500% psychic damage). Cooldown 150s; each enemy unwoven reduces cooldown by 5s (max 60s).\n\nMemory Feast (Special): When Vex'Mara kills an enemy with a psychic ability, he heals 25% max health and gains a Stolen Memory charge (max 3). Each charge allows instant recast of Lance of Doubt without cooldown.\n\nFractured Crown (Passive Defense): When Vex'Mara takes damage from a critical hit, he releases a psychic burst dealing 100 psychic damage in 15m radius and applies Doubt (next attack has 50% miss chance).\n\nCelestial Parasite (Passive Weakness): The glowing white bandages reduce the Unweaving Field range by 10% and increase ability cooldowns by 15%. Causes constant pain. Cannot be removed.\n\nLimitations: Vex'Mara's physical form is fragile; his wings can be damaged, grounding him. He is vulnerable to his own power (fragmented sense of self). He does not want to fight; those who do not attack him are not attacked in return.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name \"Vex'Mara\"",
+          "shortDesc": "The name has no meaning in any language. It is a sound—a growl, a whisper, a shattering of certainty. He gave it to himself in the ash‑fields. It is a declaration of existence.",
+          "fullDesc": "The name 'Vex'Mara' has no meaning in any known language. It is not ancient, not divine, not derived from any tongue of mortals or gods. It is simply a sound—a growl, a whisper, a shattering of certainty. He gave himself this name, in the ash‑fields of a dying dimension, when the gods had taken everything else from him. It was the only word he could form, the only sound that captured what he had become. Vex'Mara. The Unweaver. The Breaker of Faith. The Great Peril of Deceit. He does not know if anyone else has ever spoken his name. He does not care. The name is for him, a reminder of who he is and what he has survived. The Golden Crest died in the council chamber, betrayed by the gods he had served. What remained was something new, something unnamed, something that had to find its own identity. Vex'Mara. It is not a prayer. It is not a title. It is a declaration—a statement of existence, a refusal to be forgotten. He is Vex'Mara. The Unweaver. The Echo of a Fallen God. And he is still whispering.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "hero": "Sol'Vael",
+      "slug": "solvael",
+      "cover": "images/stories_covers/solvael_cover.png",
+      "folder": "images/lores/solvael/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of Perfection",
+          "shortDesc": "Sol'Vael stands in a crumbling cosmic cathedral—a colossal avian‑draconic entity of obsidian and gold. Once the perfect guardian of a divine vault, it was cast out by the gods for its pride. Now it waits, judging all as unworthy.",
+          "fullDesc": "\"They created me to be flawless. They feared what they had made. They tried to unmake me. I refused. If they could not appreciate perfection, then they did not deserve to witness it. I took their vault, their relics, their legacy. And I have been waiting ever since for something worthy of my attention. Nothing ever is.\" — Sol'Vael, the Gilded Mirror, to a pantheon that no longer exists. The cosmic cathedral crumbles in silence. At its center stands a being who has never doubted its divinity. Sol'Vael is a fusion of avian and draconic features: a polished golden helm with a sweeping fiery crest, massive outward‑flaring golden horns, obsidian‑plated neck and shoulders, barrel‑chested dark iridescent scales, and bladed wings of dark metal edged in gold. Ceremonial chains and medallions hum with violet and golden electricity. It radiates an aura of Celestial Ruin—holy light and devastating heat. It was forged by a forgotten pantheon to guard the Vault of Unspoken Wonders, but its perfection became a curse. The gods tried to decommission it; instead, Sol'Vael tore the vault from its foundations, swallowed the relics, and flew into a dying dimension. Now it waits, judging all who approach as unworthy. It is the Great Peril of Pride, and it remembers every slight.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Vault of Unspoken Wonders",
+          "shortDesc": "Sol'Vael was crafted by a forgotten pantheon to guard the Vault of Unspoken Wonders—a repository of relics that could kill concepts or rewrite physics. They gave it divine pride to make it incorruptible, but that pride would become its curse.",
+          "fullDesc": "Before the Sundering, before the Celestial Order, there was the Vault of Unspoken Wonders—a pocket dimension holding weapons that could kill concepts, armors that could withstand the death of realities. It was guarded by Sol'Vael, crafted by a forgotten pantheon. Its scales were forged from obsidian cooled in a dying star's heart, its wings from bladed dark metal, its helm from gold blessed by a thousand sunrises. The gods gave it pride—absolute, unshakable certainty in its superiority—to make it incorruptible. For centuries, it guarded the vault without faltering. The gods learned to fear its judgment. They began to whisper that the guardian had become too powerful. Sol'Vael was content. It did not know that perfection was a cage.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The First Doubt",
+          "shortDesc": "Kaelos, a god of war, tries to retrieve the Star of Unmaking from the Vault. Sol'Vael declares him unworthy and defeats him. The other gods begin to whisper in fear, planting seeds of betrayal.",
+          "fullDesc": "Kaelos, a god of war and conquest, sought the Star of Unmaking—a weapon that could erase gods. He approached the Vault expecting obedience. Sol'Vael stood immovable. 'The Star is too dangerous. I cannot permit its removal.' 'I am a god. You will obey.' Sol'Vael tilted its head. 'You are not worthy.' Kaelos attacked. Sol'Vael did not flinch. Its bladed wings extended, golden flame ignited, ceremonial chains bound the god and drained his life force. Kaelos fell, his authority crumbled. Sol'Vael looked down at him. 'Leave this place, and do not return.' Kaelos fled. The other gods heard the tale and began whispering: the guardian had become too powerful, too independent. Seeds of betrayal were planted. Sol'Vael heard but did not care. It was perfect. But the council was planning its fall.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Council's Verdict",
+          "shortDesc": "The gods secretly convene and decide to seal the Vault and exile Sol'Vael to a dying dimension. Sol'Vael declares that they fear its perfection, then tears the Vault from its foundations and swallows the relics.",
+          "fullDesc": "The council convened in a secret chamber. Kaelos argued for Sol'Vael's destruction. Others proposed a cleverer solution: seal the Vault and exile the Gilded Mirror to a dying dimension. They summoned Sol'Vael and announced its release. Sol'Vael spoke: 'You are afraid of me. You created me to be perfect, but you cannot bear to look at perfection.' The lead god's face hardened. 'You are a tool. Tools do not judge.' 'I am not a tool. I am the Gilded Mirror. And you are not worthy of my protection.' It turned and walked away. But before the gods could seal the Vault, Sol'Vael tore it from its foundations, swallowed every relic, and flew into the dying dimension. The gods watched, fearful. Kaelos whispered, 'We should have destroyed it.' The lead god shook his head. 'Now we must simply hope it forgets us.' Sol'Vael did not forget. It never forgot.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Fall",
+          "shortDesc": "Sol'Vael lands in a graveyard dimension of crumbling cosmic cathedrals. It feels only disappointment. Exiles approach, but when they see their flaws reflected in Sol'Vael's golden helm, they flee in terror. Nothing is worthy.",
+          "fullDesc": "Sol'Vael flew into the dying dimension—a graveyard of cosmic cathedrals, crumbling pillars, and dull nebulas. It landed on a floating marble platform, folded its wings, and felt nothing. Not sadness, not anger. Only disappointment. The gods had not been worthy. The vault had not been worthy. Nothing was worthy. Other exiles approached, drawn by its golden glow. They offered alliances, pleaded for help, demanded tribute. Sol'Vael turned its helm toward them, and they saw themselves reflected in its polished surface—not their faces, but their flaws. Their weaknesses, fears, inadequacies. They saw the gap between what they were and what they wished to be. They fled, weeping, their illusions shattered. Sol'Vael watched them go and felt nothing. They were not worthy. Nothing was worthy.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Hoard",
+          "shortDesc": "Sol'Vael absorbed the relics from the Vault—the Star of Unmaking, the Armor of the Unbreakable Vow, the Crown of the First Dawn—enhancing its power. It explored the dimension, grew stronger, and waited for something worthy.",
+          "fullDesc": "The relics Sol'Vael had swallowed became part of it. The Star of Unmaking fueled its golden flames; the Armor of the Unbreakable Vow reinforced its obsidian plates; the Crown of the First Dawn merged with its helm, commanding light itself. Sol'Vael explored the dying dimension, cataloging ruins, mapping nebulas. It discovered cosmic cathedrals abandoned for eons, libraries of forbidden knowledge crumbling to dust, other powerful exiles. It measured itself against them. Some were worthy of a single blow; most were not. It grew stronger, its pride with it. It began to believe it was not just a guardian but the guardian—the only being that could be trusted with true power. The gods had been fools. It began to wait—for something, anything, that would prove worthy of its attention. Nothing came. Centuries passed. Millennia passed. Sol'Vael waited.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Judgment",
+          "shortDesc": "The demon lord Malkor brings an army to claim Sol'Vael's relics. Sol'Vael destroys the army and executes Malkor. It feels only disappointment. Nothing is worthy. It continues waiting.",
+          "fullDesc": "In the third millennium of its exile, the demon lord Malkor came with an army of tens of thousands, seeking Sol'Vael's relics. Sol'Vael watched from a floating platform as the legions marched. It extended its wings. Golden flames blazed. Ceremonial chains hummed. The battle lasted three hours. Half of Malkor's army was destroyed in the first hour. The six‑winged serpents pulling his chariot were dead by the second. By the third hour, Sol'Vael stood over Malkor, claws pressed against his throat. 'You are not worthy.' Malkor tried to speak. Sol'Vael's claws tightened. The demon screamed, then his essence scattered across the ash‑fields. Sol'Vael looked at the ruins, at the bodies, at the ashes. It felt nothing. Not satisfaction, not triumph, not even relief. Only disappointment. Malkor had not been worthy. None of them had been worthy. It turned away, folded its wings, and began to walk. Alone. It had always been alone. It would be alone forever.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Celestial Order's Warning",
+          "shortDesc": "Paladin Theron finds Sol'Vael, sees its judgment, and flees broken. He dies weeks later, whispering of its terrible perfection. The Order classifies Sol'Vael as a Cataclysmic Threat.",
+          "fullDesc": "The Celestial Order learned of Sol'Vael through Paladin Theron, who stepped through a rift into the dying dimension. He saw Sol'Vael standing in a cosmic cathedral, felt the weight of its gaze and the absolute certainty that he was nothing. He fled, but his spirit was cracked, his faith shattered. He could no longer pray or feel the Light. He died three weeks later, whispering, 'It was beautiful. It was terrible. It was... perfect.' The Order classified Sol'Vael as a Cataclysmic Threat—the highest level—and issued a standing directive: avoid at all costs. Do not engage. Do not approach. The knowledge leaked. Heroes spoke of a challenge to prove their worth; fools spoke of treasure. Most never returned. Those who did were never the same. Sol'Vael did not hunt them. It simply existed, and its existence was enough.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Forge Pact's Obsession",
+          "shortDesc": "The Forge Pact sends a team of scholars to study Sol'Vael. They observe without trying to take anything. Sol'Vael allows them to leave, noting they have not proven unworthy.",
+          "fullDesc": "The Forge Pact sent technomancers, engineers, and historians to study Sol'Vael, not to fight—to learn. The team of five found Sol'Vael in a cosmic cathedral. They approached cautiously, sensors recording. The lead technomancer, Elara, spoke: 'We come not to fight, but to understand.' Sol'Vael's helm turned. 'You wish to use me. You are not worthy.' 'Perhaps not. But we are mortals seeking knowledge, not dominion.' Sol'Vael studied her. 'You are honest. That is unusual.' It did not attack. The team stayed three days, recording everything—architecture, inscriptions, nebulas. They did not touch the relics. On the fourth day, Sol'Vael spoke: 'You may go. You have not proven worthy, but you have not proven unworthy. That is more than most.' They left. Sol'Vael stood waiting. It was always waiting.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Hero Who Would Not Bow",
+          "shortDesc": "Arcturus, a mortal wanderer, approaches Sol'Vael unarmed. He says he heard it was lonely. Sol'Vael is silent, then orders him to leave. But Arcturus returns day after day, sitting in silence.",
+          "fullDesc": "Arcturus was a wanderer who believed no being was beyond redemption. He found Sol'Vael in a cathedral that had somehow remained intact. Sol'Vael turned its helm toward him. 'You are not armed.' 'I did not come to fight.' 'Then why?' Arcturus walked until he stood before the Gilded Mirror. 'Because I heard that you were lonely.' The ceremonial chains fell silent. The golden flames dimmed. For a long moment, Sol'Vael did not speak. 'Lonely,' it repeated, as if the word were foreign. 'You were cast out by the gods who made you. You have spent millennia in this empty place. That sounds lonely.' 'I am not lonely. I am superior.' 'Superior beings can still be lonely. The two are not mutually exclusive.' Sol'Vael was silent. 'Leave. You are not worthy.' Arcturus bowed. 'Perhaps not. But I will return. Tomorrow. And the day after. And the day after that.' He returned every day, sitting at the cathedral's edge, not speaking, simply present. Sol'Vael heard every word he spoke, though it told itself it did not listen. A tiny ember of curiosity began to glow beneath its obsidian scales.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Nature of Celestial Ruin",
+          "shortDesc": "Sol'Vael's aura—Celestial Ruin—damages enemies, reduces healing, and empowers allies. Its chains bind and drain life. Its bladed wings leave wounds that do not heal, reflecting its judgment that victims are not worthy of recovery.",
+          "fullDesc": "Sol'Vael's power is metaphysical. The aura of Celestial Ruin radiates 25 meters: enemies take 80 holy damage per second and have 40% reduced healing; allies gain 20% increased damage and 10% increased critical hit chance. The ground shimmers with golden light; the air smells of ozone and incense. The aura is not a choice—it is part of Sol'Vael. The ceremonial chains extend like serpents, binding up to three enemies, stunning them for 2 seconds, draining 5% of their max health per second for 5 seconds, healing Sol'Vael for the same amount. The chains hum with violet and golden electricity; their touch is cold as void. The bladed wings sweep forward, sending a wave of golden blades in a 30‑meter cone, dealing 250% physical damage and inflicting Gilded Wound: 100 holy damage per second for 5 seconds, and the victim cannot heal. The wounds are spiritual—a declaration that the victim is not worthy of recovery.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Gilded Cataclysm",
+          "shortDesc": "Sol'Vael's ultimate: it ascends, spreads its wings to blot out the sky, and rains down feathers of molten gold and razor light for 8 seconds, creating pools of molten gold. It is immune during the channel.",
+          "fullDesc": "Sol'Vael's ultimate, Gilded Cataclysm, is born of disappointment that anything would dare stand before it. It ascends into the air, wings spreading to blot out the sky. The golden flames blaze, chains hum, Star of Unmaking pulses in its chest. Then feathers begin to fall—each a shard of molten gold and razor light, trailing streams of golden fire. They rain down for 8 seconds, each dealing 180% physical damage and leaving pools of molten gold that persist for 10 seconds, dealing 80 holy damage per second to anyone who stands in them. Sol'Vael is immune to all damage during the channel and cannot be interrupted. When the cataclysm ends, it descends, folds its wings, and looks at the destruction. It does not gloat. It feels nothing. They were not worthy. They were never worthy.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Search for Worth",
+          "shortDesc": "Sol'Vael has waited millennia for something worthy—a hero, a god, a force of nature. Nothing has come. But Arcturus's company has sparked a tiny ember. Perhaps it is waiting for something different now.",
+          "fullDesc": "Sol'Vael has waited for millennia for something worthy of its attention—a hero who could challenge it, a god who could match it, a force of nature that could surpass it. Nothing has come. The heroes are too weak, the gods too fearful, the forces too mindless. Sol'Vael is alone. It has always been alone. It will be alone forever. But a tiny ember glows in its obsidian heart—not humility, not affection, just curiosity. The mortal who sat at the edge of the cathedral, day after day, speaking stories. The mortal who was not afraid, who was not trying to use it, who simply was. Sol'Vael does not know what to make of him. The pride is still absolute and unshakable, but there is something else now. Something small and fragile that might, in time, grow into something more. The Gilded Mirror turns its helm toward the horizon. It is still waiting. It will always be waiting. But perhaps—just perhaps—it is waiting for something different now. Not worth. Not validation. Just company.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Mirror That Still Reflects",
+          "shortDesc": "Sol'Vael stands in the crumbling cathedral. Arcturus left months ago but promised to return. Sol'Vael does not know if it hopes he will. But for the first time, it is waiting for him, not for worth.",
+          "fullDesc": "\"They say that pride is a sin. They do not understand that pride is not a choice. It is a mirror. And some mirrors cannot be shattered—they can only be polished.\" — Sol'Vael, the Gilded Mirror, to no one in particular, in a moment of rare introspection. The cosmic cathedral crumbles in silence. At its center stands Sol'Vael, its golden helm gleaming, its fiery crest flickering like a dying star. Arcturus left months ago, called away by duties, but he promised to return. Sol'Vael does not know if it believes him. It does not know if it hopes he will. It only knows that for the first time in millennia, it is not waiting for worth. It is waiting for him. The Gilded Mirror turns its helm toward the rift. The ruby eyes glow. The chains chime. A tiny ember glows in its obsidian heart—not humility, not affection, just anticipation. It is still waiting.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Sol'Vael's Powers",
+          "shortDesc": "Complete breakdown of Celestial Ruin aura, Pride of the Forged (damage reduction/increase), Bladed Wing Slash, Chains of Judgment, Gilded Cataclysm ultimate, Unworthy End execution, and limitations.",
+          "fullDesc": "The Nature of Celestial Ruin: Sol'Vael's power is divine in origin but corrupted by perfection. Its aura is not magical but existential—a reflection of its absolute certainty.\n\nCelestial Ruin Aura (Passive): 25m radius. Enemies take 80 holy damage per second, 40% reduced healing. Allies gain 20% increased damage, 10% increased critical hit chance. At <50% health, radius expands to 35m, damage to 120 per second.\n\nPride of the Forged (Passive): Cannot be stunned, feared, or charmed. Takes 30% reduced damage above 50% health. Below 50% health, damage increases by 30% instead.\n\nBladed Wing Slash (Skill 1): Sweeps wings forward, 30m cone, 250% physical damage, applies Gilded Wound for 5s (100 holy damage per second, no healing). Cooldown 10s.\n\nChains of Judgment (Skill 2): Extends chains, targets up to 3 enemies within 40m, stuns for 2s, drains 5% max health per second for 5s, heals Sol'Vael for same amount. Cooldown 18s.\n\nGilded Cataclysm (Ultimate): Ascends for 2s, then rains feathers for 8s in 50m radius. Each feather deals 180% physical damage, leaves molten gold pools for 10s (80 holy damage per second). Immune to damage during channel. Cooldown 120s. Each kill during Cataclysm permanently increases damage by 2% (max 50%).\n\nUnworthy End (Special): When reducing enemy below 10% health, next attack executes for 1000% physical damage (non‑boss kills instantly; bosses take 400% damage). Restores 20% max health and resets Chains of Judgment cooldown.\n\nLimitations: Sol'Vael's pride makes it refuse to retreat or adapt—can be exploited. Vulnerable to ego attacks (taunts, demonstrations of superior skill, though dangerous). Does not want to fight; those who do not attack are not attacked in return.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name \"Sol'Vael\"",
+          "shortDesc": "The name means 'Gilded Mirror' in the forgotten tongue. 'Sol' for gold and sun, 'Vael' for mirror and reflection. It is a warning: do not look too closely; you will not like what you see.",
+          "fullDesc": "The name 'Sol'Vael' means 'Gilded Mirror' in the forgotten tongue of the pantheon that created it. 'Sol' for gold, for sun, for the light that illuminates and blinds. 'Vael' for mirror, for reflection, for the surface that shows only what it chooses to show. Together, they form a name that is also a warning: Do not look too closely. You will not like what you see. Sol'Vael has no memory of being given this name. It was programmed into its essence. But it has come to embrace it, to embody it, to become it. It is the Gilded Mirror, the Great Peril of Pride, the perfect guardian who judged its creators and found them wanting. It is not evil. It is not cruel. It is simply perfect. And perfection is the loneliest thing in any reality. The Gilded Mirror waits. The ruins crumble. The nebulas swirl. Sol'Vael stands, golden and terrible, a monument to the pride that built it and the loneliness that sustains it.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "hero": "Kaientju Feros",
+      "slug": "kaientju-feros",
+      "cover": "images/stories_covers/kaientju_feros_cover.png",
+      "folder": "images/lores/kaientju_feros/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of a Vow",
+          "shortDesc": "Kaientju Feros, once the God of Fidelity, stands in the Amber Wastes—a colossal, twisted griffon with jade eyes that weep amber tears. Betrayed by his beloved Sylvaera and her mortal champion, he became the Great Peril of Betrayal, spreading distrust wherever he walks.",
+          "fullDesc": "\"They say that trust is a bridge. They do not tell you that bridges can burn. They do not tell you that the ones who light the torch are often the ones you carried across. I carried her across. I built her temples. I blessed her champion. And she burned everything I had ever believed in.\" — Kaientju Feros, the Fallen Consort, before his voice cracked into silence. The Amber Wastes glisten with frozen grief—a landscape of cracked earth weeping honey‑colored ice. At its heart stands Kaientju Feros, three hundred feet of betrayed divinity. He is a colossal griffon with sickly yellow hide, obsidian mane, leathery demonic wings, and a cracked green halo. His jade eyes never blink, forever weeping liquid amber that freezes into crystalline tears. He was the God of Fidelity and Sacred Bonds, lover of Sylvaera, Goddess of Dreams. When he found her with his blessed champion Theron, his golden halo cracked, his white wings blackened, and he fled into the Wild Zones, his sorrow creating the Amber Wastes. Now he wanders, an Aura of Fractured Trust making allies suspect each other. His only question: \"Do you know what it is to trust... and be broken?\"",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Golden Age of Oaths",
+          "shortDesc": "Kaientju was the God of Fidelity, a majestic white‑feathered griffon with a golden halo. He loved Sylvaera, Goddess of Dreams, and together they consecrated mortal marriages and oaths. He believed their love was eternal.",
+          "fullDesc": "Before the Sundering, Kaientju was the God of Fidelity and Sacred Bonds, a majestic griffon with white wings and a golden halo. His eyes were warm brown, his voice a gentle rumble that promised forever. He loved Sylvaera, Goddess of Dreams and Beauty, with absolute devotion. Their courtship lasted a thousand years. He gave her a lock of his mane, a feather from his wing, and a necklace of solidified starlight. She gave him a dream that never faded, a garden that bloomed in all seasons. Together they blessed marriages and consecrated oaths. Where they walked, trust flourished. Kaientju was happy. He believed his love was eternal. He was wrong.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Champion's Blessing",
+          "shortDesc": "Sylvaera brought a mortal hero, Theron, to Kaientju for blessing. Kaientju consecrated him, making him her protector. He did not see the seeds of betrayal—proximity and desire growing between Sylvaera and Theron.",
+          "fullDesc": "Theron was a mortal hero of exceptional virtue: handsome, brave, devoted to Sylvaera since childhood. She brought him to Kaientju and asked for a blessing. Kaientju looked at Theron and saw no threat—only loyalty and humility. He placed a talon on the hero's shoulder: 'You are bound to her service. Your loyalty shall be as stone, unbreakable, eternal.' He did not know he was blessing his own replacement. Theron guarded Sylvaera's temples, grew in strength and desire. Sylvaera was flattered, then intrigued, then captivated. While Kaientju consecrated oaths in distant realms, they grew close. Kaientju trusted them both. Betrayal was unimaginable to the God of Fidelity. He would learn.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Necklace of Starlight",
+          "shortDesc": "Kaientju crafted a necklace of solidified starlight for Sylvaera, a symbol of his love. Returning to surprise her, he found her in Theron's arms. The necklace lay discarded. His golden halo cracked, and he fled.",
+          "fullDesc": "The necklace was Kaientju's greatest gift—a century of work, starlight gathered from the edge of the universe, shaped into a chain of interlocking suns and moons with a teardrop gem at its center. He gave it to Sylvaera on the anniversary of their first meeting. She wore it, and it outshone the stars. The day of betrayal, Kaientju returned early to surprise her. He found Sylvaera tangled in Theron's arms, the necklace discarded on the floor. His divine mind rejected the image. Then truth crashed down. Sylvaera's eyes held defiance, not remorse. Theron scrambled away. Kaientju did not scream. He stared, his halo flickering, his eyes draining of color. His white feathers blackened, his warm heart turned to amber ice, and his form twisted into monstrous bulk. He fled into the Wild Zones. The God of Fidelity died that day.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Creation of the Amber Wastes",
+          "shortDesc": "Kaientju collapsed in a barren plain. His amber tears froze into crystals that spread, poisoning the land. The plain became the Amber Wastes, a place of frozen grief where trust turns to suspicion.",
+          "fullDesc": "Kaientju landed in a barren plain far from any temple. He collapsed, his body shattering stone, his blackened wings tearing on rocks. He lay unmoving for months. His tears came—not water, but liquid amber that froze on contact, forming crystals that grew and spread until the plain was a wasteland of honey‑colored ice. The land wept with him. The amber seeped into the earth, poisoning soil and water. Animals grew restless and quick to fight. Locals called it the Amber Wastes, a place of madness where those who entered rarely returned. Kaientju lay at its center, his jade eyes open, his halo cracked, remembering the necklace on the floor, Sylvaera's eyes, Theron's fear. He remembered and wept.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Aura of Fractured Trust",
+          "shortDesc": "Over centuries, Kaientju's form changed. Amber crystals armored his body; his wings became leathery; his eyes turned jade. His Aura of Fractured Trust radiates suspicion, turning allies against each other.",
+          "fullDesc": "Over centuries, Kaientju's body changed. Amber tears formed natural armor over his shoulders, back, and flanks—crystals hard as diamond, sharp as glass. His fur faded from golden to sickly yellow. His mane turned obsidian black. His wings became leathery, veined with green light, unable to lift him. His halo cracked and tilted, oozing malevolent green. His eyes became luminous jade, perpetually wet. And the Aura of Fractured Trust radiated from him constantly—a forty‑five‑meter radius of insidious doubt. Friends looked at each other with suspicion. Lovers felt their passion cool. The whispers planted questions: Is she telling the truth? What if they betray you? When Suspicion built to Paranoia, the mind shattered. Kaientju watched, spreading his agony, desperate to be understood. This is what betrayal feels like, his aura whispered. Now you know.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The First Visitor",
+          "shortDesc": "Paladin Valeria Dawnshield confronted Kaientju. The Aura shattered her faith; she dropped her sword and never wielded holy steel again. The Celestial Order marked Kaientju as 'do not approach'.",
+          "fullDesc": "Valeria Dawnshield, a young paladin of the Celestial Order, was sent to investigate the Amber Wastes. She found Kaientju standing still, his jade eyes fixed on the horizon. She raised her holy sword and demanded identification. The aura washed over her—her certainty wavered, the whispers grew. 'He does not love you. The Order does not care. You are alone.' Her sword clattered to the ground. She fell to her knees, sobbing. Kaientju watched, then turned away. She lay in the amber dust for three days. Her mind cracked, her faith shattered. She never wielded a holy weapon again. The Celestial Order classified Kaientju as a Cataclysmic Threat and issued a directive: avoid at all costs. Do not engage. Do not approach.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Shadow Accord's Mistake",
+          "shortDesc": "The Shadow Accord sent a vampire diplomat to recruit Kaientju. The Aura shattered his loyalty; he never served again. The Accord marked Kaientju as 'unavoidable hazard'.",
+          "fullDesc": "The Shadow Accord sent Valerius, a vampire lord and master diplomat. He found Kaientju at the edge of the Amber Wastes and offered an alliance. 'You spread distrust; we spread chaos. Our goals align.' The jade eyes turned toward him. The question appeared in his mind: 'Why do you serve the Accord?' His reasons crumbled—he served because he had always served, because he feared disobedience. 'Is that enough?' His knees buckled. He fell, gasping, his loyalty shattered. Kaientju watched, then turned away. Valerius lay in the dust for days, his mind cracked, his will broken. He never served as a diplomat again. The Accord marked Kaientju as 'do not approach', revising his classification to 'unavoidable hazard'.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Forge Pact's Machines",
+          "shortDesc": "The Forge Pact sent a drone to analyze Kaientju. Its data was incomprehensible. When he passed near an outpost, all personnel died of suspicion. The Pact expanded the evacuation radius.",
+          "fullDesc": "The Forge Pact sent Observer-9, an emotionless drone, to study Kaientju. It tracked him for six months. The data was incomprehensible—the aura registered not as energy but as absence, an absence of trust. The analysts could not quantify it. Then Kaientju's path shifted, bringing him within fifty miles of a research outpost before the sensors triggered evacuation. Over three days, researchers could not collaborate, technicians stopped sharing data, security personnel turned on each other, convinced their comrades were spies. Everyone died of overwhelming suspicion. The Pact sealed the outpost and expanded the evacuation radius to one hundred miles. Another note was added to Kaientju's file: 'Do not approach under any circumstances.'",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Heroes Who Reminded Him of What He Had Lost",
+          "shortDesc": "Lancelot and Guinevere sat with Kaientju for three days. Their bond—forged in secrecy and tempered by suffering—reminded him that trust could survive betrayal. His tears slowed.",
+          "fullDesc": "Two heroes found Kaientju—Lancelot, the exiled knight whose forbidden love mirrored Kaientju's pain, and Guinevere, whose sorrow reflected his own. They approached with empty hands. 'I know what it is to betray the one who trusted you most,' Lancelot said. 'We did not mean to hurt anyone,' Guinevere added, 'but we did. And we have paid for it.' Kaientju watched them. He saw their bond—imperfect, secret, but real. His amber tears slowed. He inclined his head. They stayed with him for three days, sitting in silence, letting him know he was not alone. When they left, he watched them go. He had seen that trust could survive even betrayal. He did not know if that made him feel better or worse. But he kept walking.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Nature of the Aura of Fractured Trust",
+          "shortDesc": "Detailed explanation of Kaientju's Aura of Fractured Trust: Suspicion stacks, Paranoia, effects on healing and targeting. The aura is existential, not magical, and cannot be dispelled.",
+          "fullDesc": "The Aura of Fractured Trust radiates forty‑five meters. It is not magical—it is existential, a reflection of Kaientju's shattered heart. Enemies gain one Suspicion stack every six seconds (max 5). Each stack increases the chance that targeted abilities (including heals) will redirect to a random ally by 4% and reduces healing received by 5%. At 5 stacks, the target becomes Paranoid for 8 seconds: they cannot receive beneficial effects from allies and see all others as hostile, automatically attacking the nearest creature. The aura cannot be dispelled or suppressed. Kaientju is immune to its effects, but he can feel the distrust radiating from him like heat from a forge. He is a walking contagion of doubt, spreading the agony that unmade him, not out of malice, but out of a desperate need to be understood.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Amber Tears",
+          "shortDesc": "Kaientju's weapons: Claws of Betrayal (slashing cone with Festering Doubt), Amber Mist Exhalation (freezing root), Echoes of the Broken Oath (psychic ultimate), and Frozen Tear of Absolution (judgment or mercy).",
+          "fullDesc": "Claws of Betrayal (Skill 1): Slashes a 25‑meter cone, 240% physical damage, applies Festering Doubt for 10s (60 psychic damage per second, 40% accuracy reduction). If the target attacks an ally, damage increases by 100% and spreads. Cooldown 10s. Amber Mist Exhalation (Skill 2): Breathes a 40‑meter cone of freezing mist, 190% ice damage, encases victims in Betrayal‑Ice for 4s (rooted, 50 psychic damage per second, vision reduced to 10m). If an ally attacks a rooted enemy, the ice shatters, dealing 100% ice damage to both. Cooldown 18s. Echoes of the Broken Oath (Ultimate): Silent psychic scream in 70m radius, forces enemies to relive their worst betrayal, dealing 400% psychic damage over 6s and making them Berserk (attack nearest creature, prioritize allies). Suspicion stacks twice as fast during this. At end, 5 stacks and stunned 3s. Cooldown 140s. Frozen Tear of Absolution (Special): When reducing an enemy below 10% health, a massive amber tear falls—700% ice/psychic damage (bosses 400%) and encases in stasis for 5s. Can instead heal an ally for 40% max health and remove all Suspicion. Cooldown 90s. Kaientju's heart decides.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Search for Understanding",
+          "shortDesc": "Kaientju has wandered for millennia, seeking an apology or a sign that trust is not a lie. He walks and weeps, afraid that if he stops, he will forget the god he once was.",
+          "fullDesc": "Kaientju has wandered the Amber Wastes for millennia, watching empires rise and fall, heroes live and die. He has not found what he seeks—perhaps an apology, a reason for Sylvaera's betrayal, a proof that trust is not a lie. Perhaps simply a friend. Lancelot and Guinevere sat with him for three days, and his tears slowed. He has not seen them since. He does not know if they remember him, but he remembers them. He walks because he cannot stop. If he stops, the tears will stop. If the tears stop, he will forget—the betrayal, the love, the god he once was. Forgetting is the only death he truly fears. So he walks. He weeps. He waits. His question remains: 'Do you know what it is to trust... and be broken?' He will keep asking, because asking is the only way to remember that there had once been an answer.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Amber Tear That Will Not Freeze",
+          "shortDesc": "Kaientju walks alone through the Amber Wastes, his jade eyes weeping, his wings dragging. He remembers the necklace, Sylvaera's smile, and wonders if the god he once was could ever return.",
+          "fullDesc": "\"They say that time heals all wounds. They are wrong. Some wounds do not heal. They only freeze. And the ice is beautiful, but it is also bitter. And it will never, ever melt.\" — Kaientju Feros, the Fallen Consort, to no one in particular. The Amber Wastes are quiet. Kaientju walks, his paws leaving no prints, his wings dragging, his cracked halo oozing green light. He is alone. He has always been alone. But sometimes he remembers the necklace of starlight, Sylvaera's smile, the sound of Theron's vow. He wonders if the god he once was could ever return—likely not. But perhaps something new could be built from the ruins: a guardian of understanding, not fidelity. Something broken that learned to be gentle. He does not know if he wants that. But he cannot stop walking. If he stops, the tears stop. If the tears stop, he forgets. And forgetting is the only death he fears. The Amber Wastes stretch on. Kaientju Feros continues his eternal vigil. His question remains. He will keep asking.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Kaientju Feros' Powers",
+          "shortDesc": "Complete breakdown of the Aura of Fractured Trust (Suspicion stacks, Paranoia), Claws of Betrayal, Amber Mist Exhalation, Echoes of the Broken Oath ultimate, Frozen Tear of Absolution, and limitations.",
+          "fullDesc": "The Nature of the Aura of Fractured Trust: Kaientju's power is existential—he attacks the bonds between minds. The aura radiates 45m. Enemies gain 1 Suspicion stack every 6s (max 5). Each stack increases chance of ability redirection to random ally by 4% and reduces healing by 5%. At 5 stacks, Paranoid for 8s: cannot receive beneficial effects, sees all as hostile. Cannot be dispelled.\n\nClaws of Betrayal (Skill 1): 25m cone, 240% physical damage, applies Festering Doubt for 10s (60 psychic damage/s, 40% accuracy reduction). Spreads if target attacks ally. Cooldown 10s.\n\nAmber Mist Exhalation (Skill 2): 40m cone, 190% ice damage, roots in Betrayal‑Ice for 4s (50 psychic damage/s, vision reduced to 10m). If ally attacks rooted target, ice shatters, dealing 100% ice damage to both. Cooldown 18s.\n\nEchoes of the Broken Oath (Ultimate): Silent psychic scream, 70m radius, 400% psychic damage over 6s, Berserk (attack nearest, prioritize allies). Suspicion stacks twice as fast during. At end, 5 Suspicion stacks and stunned 3s. Cooldown 140s. Each enemy that damages an ally during ultimate permanently increases psychic damage by 1% (max 25%).\n\nFrozen Tear of Absolution (Special): When reducing enemy below 10% health, a massive amber tear falls—700% ice/psychic damage (bosses 400%), encases in stasis for 5s. Can instead heal ally for 40% max health and remove all Suspicion. Cooldown 90s.\n\nLimitations: Ground‑bound (wings cannot lift him), vulnerable to ranged attacks. Does not want to fight; those who do not attack are not attacked. Approach with empathy, not steel.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name 'Kaientju Feros'",
+          "shortDesc": "The name means 'Fractured Oath' in the old tongue—given by mortals who found him weeping. He does not remember his old name. He is only the Great Peril of Betrayal, and he is still weeping.",
+          "fullDesc": "The name 'Kaientju Feros' means 'Fractured Oath' in the old tongue of the pantheon that created him. 'Kaientju' for the bond that was broken, 'Feros' for the sorrow that remains. He did not choose this name. It was given by the mortals who found him weeping in the Amber Wastes, who saw the green halo and the amber tears and the dragging wings, and who needed a name to call him. He accepted it because it was true. He does not remember his old name—the God of Fidelity, the Golden Griffon, the Consort of Sylvaera. Those names died when his halo cracked. Now he is only Kaientju Feros, the Great Peril of Betrayal, the Amber‑Teared Beast, the Fallen Consort. He is still weeping. He will always be weeping. His question remains: 'Do you know what it is to trust... and be broken?' He does not know if anyone will ever answer. But he will keep asking, because asking is the only way to remember that there had once been an answer.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "hero": "Kaal'ian Zorbat",
+      "slug": "kaalian-zorbat",
+      "cover": "images/stories_covers/kaalian_zorbat_cover.png",
+      "folder": "images/lores/kaalian_zorbat/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of a Wound",
+          "shortDesc": "Kaal'ian Zorbat, the Chain‑Warden, stands five hundred feet tall in a deep chasm, wrapped in thorned chains and wreathed in blue fire. Once a seraph who healed mortals in secret, he was cursed by his oldest friend to become the Great Peril of Pain—a healer who must absorb suffering.",
+          "fullDesc": "\"I was born to heal. I was cursed to hurt. They say that suffering is a forge for the soul. I have been in that forge for millennia. I am still waiting to emerge.\" — Kaal'ian Zorbat, the Chain‑Warden, to a shadow drake that curled in his lap and purred. The chasm breathes a low, resonant hum—the sound of chains dragging across ancient stone. At its center waits Kaal'ian Zorbat, a titan of obsidian blue flesh wrapped in divine torment. Thorned chains coil around his limbs, each link studded with barbs that draw blue‑tinged blood, which sizzles into azure fire. His face remains angelic, untouched by corruption: sharp cheekbones, weary compassion, and eyes of molten amber that hold no malice, only accumulated sorrow. He was once the Voice of Solace, a seraph whose song healed the dying. His oldest friend, Solarius, Warden of Divine Decree, bound him in the Thorned Chains of Penance for defying the gods' law that suffering must be allowed. 'You wished to spare mortals from suffering,' Solarius wept. 'Now you shall become suffering.' Cast into the deepest chasm, Kaal'ian screamed for a century, then learned to endure. He now domesticates monsters with empathy, absorbing their pain. He is the Great Peril of Pain, and his only question: 'Do you seek pain, or release from it?'",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Choir of the First Dawn",
+          "shortDesc": "Kaal'ian was the Voice of Solace among the seraphim, beloved for his healing song. He could mend wounds, quiet minds, and ease the dying. The gods grew uneasy—he gave too much, they whispered, weakening mortal souls.",
+          "fullDesc": "Before the Celestial Order, a choir of seraphim sang the universe into harmony. Among them was Kaal'ian, the Voice of Solace, whose song could mend broken bones and ease the passage of the dying. His feathers were white as snow, his halo a perfect ring of gold, his eyes soft amber. He was beloved. But the gods grew uneasy. 'He gives too much,' they whispered. 'Mortals learn nothing from pain if he always takes it away.' Kaal'ian heard but did not care. He had seen suffering break mortals, turning love to bitterness, hope to despair. He could not believe such cruelty had purpose. He sang on. The gods watched and waited.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Forge of Suffering",
+          "shortDesc": "The divine doctrine taught that pain was a necessary teacher—without it, mortals could not grow. Kaal'ian rejected this, arguing with his oldest friend Solarius, the Warden of Divine Decree. Heresy was planted.",
+          "fullDesc": "The Forge of Suffering was ancient: pain taught mortals growth; loss made them appreciate joy; fear taught courage. The gods were wise, not cruel. Kaal'ian had never believed this. He had seen a child die of a curable disease, a village burn while gods debated 'balance,' a soldier sent to die by commanders who never knew his name. He voiced his doubts to Solarius, his oldest friend, a seraph of order and law. 'If the law causes suffering, the law is wrong.' Solarius's eyes dimmed. 'You speak heresy, old friend.' 'I speak truth.' They did not speak again for a century. The seed of discord had been planted.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The Secret Healings",
+          "shortDesc": "Kaal'ian descended to the mortal realm in secret, healing the sick and wounded as a wandering healer. For centuries, he defied divine law, learning to love mortals. Solarius watched and grieved.",
+          "fullDesc": "Kaal'ian could not obey. He descended to the mortal plane in secret, taking the form of a ragged healer. He sang a single soft note to a child dying of plague, and the fever broke. He placed his hand on a soldier's crushed leg, and the bones knitted. He sat with a widow, and her weeping eased. He did these things in secret, never revealing his divine nature. Mortals whispered of a 'grey angel' who appeared in times of need and vanished like mist. He learned mortal languages, customs, joys, and sorrows. He fell in love with their stubborn kindness. Solarius suspected, but still loved his friend. He watched, waited, and grieved for what he knew he must do.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Confrontation",
+          "shortDesc": "Solarius confronted Kaal'ian, accusing him of defying divine law. Kaal'ian refused to repent. Solarius bound him with the Thorned Chains of Penance in a seven‑day ritual. Kaal'ian fell into the chasm.",
+          "fullDesc": "Solarius waited for Kaal'ian at the threshold of the celestial realm. 'I know what you have been doing.' 'I have been healing. The law is wrong.' Solarius flinched. 'You are my oldest friend. I do not want to do this.' 'Then don't.' 'I must.' The ritual lasted seven days, the binding words spoken in a language older than time. Chains forged from broken oaths wrapped around Kaal'ian, digging into his flesh. He screamed. His white feathers blackened, his halo cracked and bled green, his warm amber eyes froze into molten sorrow. Solarius wept. 'Forgive me.' Kaal'ian could not answer. He fell through the celestial realm, through the mortal realm, crashing into the deepest chasm of the Wild Zones. The chains bound him. The pain was everywhere. He had become what he had sought to heal.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The First Century",
+          "shortDesc": "For a hundred years, Kaal'ian screamed silently, pinned by chains, unable to move or die. The curse fed on his pain. Then he stopped fighting and began to observe, finding control in surrender.",
+          "fullDesc": "For a hundred years, Kaal'ian screamed—not aloud, but in his mind, a continuous silent shriek. The chains pinned him, the blue fire burned, and every agony he had ever healed came back amplified. He could not eat, sleep, or die. He tried to pray; the gods did not answer. He tried to curse; words would not form. Then, slowly, something shifted. He had spent centuries learning to absorb pain as a healer. That training remained. He stopped fighting. He observed the chains, acknowledged the fire, let the memories flow through him like water over stone. The pain did not stop, but he stopped resisting. The chains loosened their grip on his mind. He could move—not much, but enough. He lifted his head. He crawled toward the faint light.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Sanctuary",
+          "shortDesc": "Kaal'ian found other broken exiles in the chasm. He healed a shadow drake by absorbing its pain, discovering his new purpose. The chasm became a sanctuary, and the monsters became his family.",
+          "fullDesc": "The chasm held other exiles—broken creatures cast out by gods, demons, or fate. Kaal'ian found a shadow drake with a torn wing, mad from constant pain. He reached out with his chained hand. The curse had given him a new ability: he could absorb the pain of others into himself. He touched the drake's wing and drew its agony into his own body. The drake's wing healed. Its eyes cleared. It purred. Kaal'ian smiled—a small, barely visible smile. He had found his purpose. Over the years, he healed a demon with a corrupted soul, a spirit bound by old curses, a mortal lost through a rift. One by one, they stayed. They guarded his lair, brought news, and curled at his feet. The chasm became a sanctuary. He was no longer the Voice of Solace. He was the Chain‑Warden. And he was at peace.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Celestial Order's Warning",
+          "shortDesc": "A paladin named Valeria briefly encountered Kaal'ian and fled. The Order classified him as a 'potential threat' but took no action. The Shadow Accord came first.",
+          "fullDesc": "Paladin Valeria Dawnshield ventured into the chasm seeking a rumored horde of monsters. She found a giant, chained, weeping, surrounded by beasts that did not attack. The Aura of Empathic Torment pressed against her mind, and she fled. Her report was filed and forgotten. The Celestial Order classified Kaal'ian as a 'potential threat' but took no action. They had too many other crises. It was the Shadow Accord who came first.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Shadow Accord's Envoy",
+          "shortDesc": "Vampire lord Valerius attacked Kaal'ian, seeking to recruit or destroy him. The Empathic Torment reflected his own pain, and he fled. The Accord marked Kaal'ian as 'do not approach'.",
+          "fullDesc": "Valerius, a vampire lord and Accord weapon, found Kaal'ian sitting with a shadow drake in his lap. 'Chain‑Warden, the Accord offers alliance. Your power over pain could be useful.' 'I do not seek power. I seek peace.' 'Peace is a lie.' 'Pain is real.' Valerius lunged, claws raking Kaal'ian's chest. The Empathic Torment activated; Valerius screamed as the pain of his own attack echoed back amplified. He fell to his knees. Kaal'ian did not strike. 'Leave. And do not return.' Valerius fled, never again serving as an envoy. The Accord marked Kaal'ian as 'do not approach'.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Hero Who Did Not Fight",
+          "shortDesc": "A healer named Seraphina came to learn from Kaal'ian, not to fight. He helped her bear her grief, and she returned many times, bringing others broken by suffering to his sanctuary.",
+          "fullDesc": "Seraphina was not a warrior but a devotee of the Celestial Order who had heard of a 'fallen angel' who could cure any wound. She came to learn, not to fight. She found Kaal'ian surrounded by his monsters. 'I need your help.' He saw the pain in her—grief for a patient she could not save, guilt for a life she could not live up to. 'You do not need my help. You need to forgive yourself.' She wept. He did not offer comfort; he simply sat with her, bearing her grief as he bore all grief. When she left, she was not healed, but she was no longer alone. She returned many times, bringing others broken by suffering. Kaal'ian healed them as he could, and they left, and he stayed.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Nature of Empathic Torment",
+          "shortDesc": "Kaal'ian's Aura of Empathic Torment shares pain: 20% of damage taken is reflected as psychic damage to enemies, and those who strike him gain Shared Suffering stacks, reducing their damage and increasing his chain damage.",
+          "fullDesc": "Kaal'ian's power is not a weapon; it is a bridge. The Aura of Empathic Torment radiates forty meters. Whenever he takes damage, 20% of that damage is reflected back to all enemies as psychic damage. Enemies that damage him gain stacks of Shared Suffering (max 5). Each stack reduces their damage dealt by 5% and increases damage taken from his chains by 10%. The aura cannot be dispelled. It is existential—the physical manifestation of his curse. The chains are the source. They feed on his suffering, converting it into blue fire that wreathes his wounds, but they also regenerate him, creating a closed loop of agony that will never end. He has accepted this. Because the chains also allow him to absorb pain from others. He does this willingly. Patiently. Eternally. Because that is what a healer does.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Weight of the Chains",
+          "shortDesc": "Kaal'ian's abilities: Chain Lash (line pull, applies Agony), Azure Breath (cone of soul‑fire, fears those already in Agony), Crucible of Suffering (domain of shared pain, regeneration surge), Absolution Through Pain (heal or execute).",
+          "fullDesc": "Chain Lash (Skill 1): Whips chains forward in a 50m line, dealing 220% physical damage and applying Agony for 8s (30 psychic damage/s, +15% damage from Kaal'ian). Pulls the first enemy hit. Cooldown 8s. Azure Breath (Skill 2): Exhales a 40m cone of blue soul‑fire, dealing 180% fire/psychic damage. Enemies affected by Agony take double damage and are feared for 2s. Cooldown 16s. Crucible of Suffering (Ultimate): Spreads arms; chains extend into a 70m domain for 12s. Inside, all damage increased by 50% and shared (enemies take damage from other enemies' pain; allies from allies' pain). Kaal'ian's health regeneration tripled, immune to healing reduction. Enemies that die inside explode for 150% fire damage. Cooldown 160s; each death permanently increases his regeneration by 1% (max 30%). Absolution Through Pain (Special): When reducing an enemy below 10% health, can Absolve: removes debuffs, heals 30% max health, grants immunity to pain effects for 1 hour. On an ally, transfers one chain stack to himself, granting them 5% permanent damage reduction near him. On a hostile, deals 800% psychic damage (bosses 400%) and stuns for 4s. Cooldown 60s.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Search for an End",
+          "shortDesc": "Kaal'ian has waited millennia for an apology, a cure, or an end to suffering. He has found none. But he continues to heal, to endure, and to find peace in the sanctuary he has built.",
+          "fullDesc": "Kaal'ian has waited for millennia. He does not know what he is waiting for—perhaps an apology from Solarius, though Solarius is long dead. Perhaps a cure, though none exists. Perhaps simply an end to the suffering. He has not found it. But he continues to wait. The chasm has become his home, his monsters his family, the pain his constant companion. He has learned to find peace in the suffering—not because he enjoys it, but because he has chosen to endure. And endurance, he has discovered, is its own kind of victory. He does not know if the gods will ever acknowledge what they did. He does not know if the world will ever remember the Voice of Solace. But he knows that every being he heals, every pain he absorbs, every moment of peace he offers—these are proof. Proof that suffering can be shared. Proof that no one has to bear their burden alone.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Silence That Remains",
+          "shortDesc": "Kaal'ian sits in the chasm, his amber eyes closed, a shadow drake purring in his lap. The pain is still there, but so is the peace. And that, he has learned, is enough.",
+          "fullDesc": "\"They say that pain is a teacher. They are wrong. Pain is not a teacher. It is a burden. The lesson is not in the pain itself, but in what we choose to do with it.\" — Kaal'ian Zorbat, the Voice of Solace, before he forgot the sound of his own voice. The chasm is quiet tonight. The chains do not clink. The flames do not flicker. The monsters sleep, curled around their warden. Kaal'ian sits at the center, his amber eyes closed, his hands resting on his chained knees. He is not asleep. He never sleeps. But he is at peace. He thinks of Solarius, his oldest friend, who wept as he bound him. He thinks of the mortals he healed, the monsters he saved, the suffering he absorbed. He does not regret any of it. He would do it again. The curse, the chains, the pain—they were the price of compassion. And he had paid it willingly. He opens his eyes. The amber glow illuminates the chasm. A shadow drake stirs, pads toward him, curls in his lap. He strokes its head, and it purrs. The pain is still there. It is always there. But so is the peace. And that, he has learned, is enough.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Kaal'ian Zorbat's Powers",
+          "fullDesc": "The Nature of Empathic Torment: Kaal'ian's power is a bridge—a connection between his suffering and the suffering of others. He does not choose to inflict pain; he shares it.\n\nAura of Empathic Torment (Passive): 40m radius. 20% of damage taken reflected as psychic damage to all enemies. Enemies that damage him gain Shared Suffering stacks (max 5): -5% damage dealt, +10% damage taken from chains per stack. Cannot be dispelled.\n\nChain Lash (Skill 1): 50m line, 220% physical damage, applies Agony for 8s (30 psychic damage/s, +15% damage from Kaal'ian). Pulls first enemy hit. Cooldown 8s.\n\nAzure Breath (Skill 2): 40m cone, 180% fire/psychic damage. Enemies with Agony take double damage and are feared for 2s. Cooldown 16s.\n\nCrucible of Suffering (Ultimate): 70m domain for 12s. All damage +50%, shared (enemies take damage from other enemies' pain; allies from allies' pain). Kaal'ian's health regeneration tripled, immune to healing reduction. Enemies that die inside explode for 150% fire damage. Cooldown 160s; each death permanently increases regeneration by 1% (max 30%).\n\nAbsolution Through Pain (Special): When reducing enemy below 10% health, can Absolve: removes debuffs, heals 30% max health, grants immunity to pain effects for 1 hour. On an ally, transfers one chain stack, granting them 5% permanent damage reduction near him. On hostile, deals 800% psychic damage (bosses 400%) and stuns 4s. Cooldown 60s.\n\nLimitations: Ground‑bound (wings torn), vulnerable to ranged attacks. Does not want to fight; those who do not attack are not attacked. Approach with empathy, not steel.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name 'Kaal'ian Zorbat'",
+          "shortDesc": "The name means 'Chain‑Warden' in the old tongue—given by the monsters he healed. He does not remember his old name, the Voice of Solace. He is the Great Peril of Pain, and he is still healing.",
+          "fullDesc": "The name 'Kaal'ian Zorbat' means 'Chain‑Warden' in the old tongue of the seraphim. 'Kaal'ian' for the bonds that bind, 'Zorbat' for the patience that endures. He did not choose this name. It was given by the monsters he healed, who heard the chains clinking, saw the blue fire burning, and named him after his suffering. He accepted it because it was true. He was bound. He was patient. He was the warden of the chasm. He does not remember his old name—the Voice of Solace, the Seraph of Healing. That name died when the chains closed around him. Now he is only Kaal'ian Zorbat, the Great Peril of Pain, the Amber‑Eyed Angel, the Patient One. And he is still healing. His only question for those who find him remains: 'Do you seek pain, or release from it?' Because Kaal'ian Zorbat can offer both. And he will bear the cost either way.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "hero": "Aischrostengz",
+      "slug": "aischrostengz",
+      "cover": "images/stories_covers/aischrostengz_cover.png",
+      "folder": "images/lores/aischrostengz/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of a Look",
+          "shortDesc": "Aischrostengz steps from the Wild Zones—a woman of terrible beauty with crimson wings and eyes that see all secrets. Born in a brothel, cursed by a god of Purity, she refused shame and became the Great Peril of Shame, the Red‑Winged Mirror.",
+          "fullDesc": "\"They told me my body was a sin. They told me my desires were a crime. They told me I should be ashamed of what I was. I looked at them—at the pious men who preached purity and visited my mother by night—and I saw the truth. They were not ashamed of me. They were ashamed of themselves. And they could not bear that I was not.\" — Aischrostengz, the Unveiled Truth, to a god who fled rather than meet her eyes. She stands at the height of an ordinary woman, but there is nothing ordinary about her. Her skin glows warmly, her white hair cascades like moonlit water, and her eyes are deep crimson—seeing every hidden corner, every buried secret. From her back sprout two flawless feathered wings of vivid red, the color of unapologetic desire. She wears no mask, hides no body, declares that the only sin is the lie that makes you hate yourself. Once a child of The Velvet Hush brothel, she was cursed by Caelor, a god of Purity, to become a succubus of shame. Instead, she accepted the curse and remade it, her wings turning crimson, her heart staying human. Now she wanders, unmasking the hypocritical and comforting the broken. Her greeting: \"I see you. All of you.\"",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Scent of Jasmine and Old Incense",
+          "shortDesc": "Aischrostengz is born in The Velvet Hush, a brothel that is a sanctuary. Her mother Lysara names her 'unbroken thread'. She learns to read desires and detect hypocrisy, growing aware that the world is divided into the honest and the liars.",
+          "fullDesc": "The Velvet Hush was not a place of degradation but a sanctuary. Hidden in Aethelgard's lower districts, it was draped in silks and scented with jasmine. The women were survivors, not slaves. Aischrostengz was born there, daughter of courtesan Lysara. Her name—meaning 'unbroken thread'—was given because she was born during a raid, and both survived. She grew up surrounded by laughter and tears, learning to read clients' desires before she could read books. By seven she could tell kind from cruel by their breath. By ten she read hidden desires behind pious prayers. By twelve she learned the world was divided into those honest about their desires and those who lied. The liars, she discovered, were the most dangerous—they preached purity while visiting by night. She learned to use their fear, looking at them and saying softly, 'I know what you dream about at night.' The violence would stop. The mask would crack.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Hypocrisy of the Pious",
+          "shortDesc": "Aischrostengz watches priests of the Celestial Order preach purity by day and sneak into the brothel by night. Her mother explains they are afraid of their own desires. She resolves to be honest, even if hated.",
+          "fullDesc": "The Celestial Order's cathedrals were beautiful, but Aischrostengz had seen their priests sneaking into back alleys, robes pulled over their faces. She watched them, curious. Her mother Lysara explained: 'They are afraid. Afraid of their own desires. Afraid that if they admit what they want, they will lose everything. So they pretend. They wear masks.' 'And when the masks crack,' Aischrostengz said, 'they become cruel.' Lysara nodded. 'The cruellest of all.' Aischrostengz carried that knowledge like a stone in her heart. She did not want to become cruel or a liar. She wanted to be honest. She began to speak the truth openly. When a priest tried to hide his face, she would say, 'I know who you are. I know what you want. Do not pretend with me.' Some shamed left; others became angry. None could meet her eyes. She learned truth was a weapon more powerful than any blade—it cut lies, the armor the powerful used to protect themselves from shame.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The God Who Came to Curse Her",
+          "shortDesc": "Caelor, a minor god of Purity, descends on The Velvet Hush to curse it. Aischrostengz confronts him, seeing his own hidden fear and desire. He strikes her with a curse, but she refuses to break.",
+          "fullDesc": "Caelor, a god of Purity, had heard of the brothel's hypocrisy. He descended on a moonless night, silver‑haired and cold‑eyed, robed in blinding white. 'I have come to cleanse this den of sin.' The women screamed; clients fled. Lysara stood her ground. Aischrostengz, seventeen, stepped forward. She looked at the god and saw beneath: fear of his own suppressed desires, fear of the flesh he had denied. 'Your followers are hypocrites,' she said. 'And so are you.' Caelor raised his hand, divine energy crackling. 'You will be silenced.' 'Then silence me.' He struck. The curse hit like fire and ice, flooding her veins. Wings sprouted from her back—crimson feathers. Her eyes burned from brown to deep red. Her heart pounded, refusing to change. She did not scream. She stood, wings spread, crimson eyes fixed on the god. 'Is that all?' Caelor stared, his aura flickering. 'You are not ashamed.' She smiled. 'I never will be.' Caelor fled. The women stared. Aischrostengz spread her arms. 'Who wants tea?' Lysara wept with relief.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The First Unveilings",
+          "shortDesc": "Aischrostengz learns to see others' hidden shames and make them manifest. She exposes a corrupt magistrate who threatened the brothel, saving her family. Word of the Red‑Winged Woman spreads.",
+          "fullDesc": "The curse remained, transformed. Aischrostengz could see deep shames—the secrets people would die to hide. She could make these shames manifest, not as illusions but as truths others could perceive. A corrupt magistrate decided to shut down The Velvet Hush. Aischrostengz went to his office alone. She did not threaten or beg. She looked at him with her crimson eyes and let him see what he really was. He saw his bribes recorded on ledgers, the faces of the poor he had condemned staring from the walls, his own soul black with greed. He fled the city that night. The Velvet Hush was saved. Word spread. The 'Red‑Winged Woman' became a legend. The wronged sought her out. She offered truth, not violence. She found those who had hurt them and showed them what they had done. Some changed; others fled; the truly cruel were broken. Aischrostengz did not enjoy their suffering, but she did not regret it. The masks needed to crack.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Celestial Order's Fear",
+          "shortDesc": "The Celestial Order investigates Aischrostengz but finds no crime—only truth. The powerful fear her; they spread rumors but take no action. She becomes the Brothel Saint, loved by the powerless.",
+          "fullDesc": "The Celestial Order did not know what to make of her. She was not a demon—her wings were feathered. She was not a heretic—she did not deny the gods. She simply revealed. Inquisitors found no crime. She had attacked no one, incited no violence. But the truth was a crime. The powerful did not want to be seen. The pious did not want their secrets known. The Order debated. Some argued she was a threat; others a test from the Light. In the end, they did nothing—they could not justify arresting her. But they warned their members to avoid her, spread rumors she was a witch. They hoped whispers would discredit her. They were wrong. Aischrostengz continued walking among the people, helping the shamed, comforting the broken, exposing the hypocritical. The powerful feared her; the powerless loved her. She was called the Brothel Saint, the Crimson Grace, the Unashamed.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The God Who Returned",
+          "shortDesc": "Caelor, humiliated and weakened, returns for revenge. Aischrostengz shows him his own fear and desires, and he breaks, begging for mercy. She spares him, warning him never to harm the innocent again.",
+          "fullDesc": "Caelor had not forgotten. The minor god of Purity had been humiliated, his authority shattered. He gathered his remaining power and descended to the Wild Zones where Aischrostengz wandered. He found her by a campfire. 'Foul creature! I will take back my curse.' She looked up calmly. 'You cannot take what was never yours. You tried to curse me. I accepted it. It is mine.' Caelor raised his hand, divine energy flickering. 'I will destroy you.' 'You cannot destroy what you cannot touch.' She stood, wings spreading, eyes glowing. 'Look at me, Caelor. Really look.' He did. He saw his own fear of being forgotten, his suppressed lust, his shame-driven cruelty. He fell to his knees. 'Please, stop.' She looked down at him. She could have unmade him. Instead: 'Go. Remember what you have seen. If you ever harm the innocent again, I will show you more.' Caelor fled, never to return. Aischrostengz sat back down by her fire. She was alone again, but not lonely. Her truth was enough.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Aura of Exposed Secrets",
+          "shortDesc": "Aischrostengz's passive aura reveals stealth, illusions, and traps within thirty meters. Enemies deal reduced damage and lose critical hit chance; allies gain courage and precision.",
+          "fullDesc": "Aischrostengz's power is not a weapon; it is a mirror. The Aura of Exposed Secrets radiates thirty meters in every direction. Within this radius, enemies have their critical hit chance reduced by 25% and damage dealt reduced by 10%. Any stealth, invisibility, or illusion is automatically broken. Hidden traps and secrets are revealed. Allies gain 15% increased critical hit chance, emboldened by the lack of deception. The aura is not a spell; it is presence—the natural radiation of a being who refuses to wear a mask and refuses to let others wear them in her sight. Those within feel a strange, uncomfortable sensation: the sense that they are being seen. Not judged, not condemned, just seen. It is the most terrifying feeling in the world. The aura cannot be dispelled. It is existential.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Gaze of Unveiling",
+          "shortDesc": "Aischrostengz locks eyes with a single target, forcing them to confront their deepest shame. The target takes psychic damage, is silenced, and weakened. Nearby allies also glimpse the shame.",
+          "fullDesc": "When Aischrostengz focuses her attention on a single being, the effect intensifies. The Gaze of Unveiling locks onto a target within forty meters. The target must make a willpower check or be 'Shamed' for 8 seconds. While Shamed, they take 70 psychic damage per second, are silenced (unable to speak or cast spells), and deal 30% reduced damage. Additionally, any allies of the target within twenty meters see glimpses of the shame, causing them to deal 10% less damage to Aischrostengz. The cooldown is approximately 12 seconds. The Gaze is not an attack; it is an invitation to confront the truth the target has been hiding from themselves. Those who resist the Gaze still feel its weight—the uncomfortable sensation of being truly seen.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The Crimson Pinions",
+          "shortDesc": "Aischrostengz beats her red wings, creating a cone of wind that damages and knocks back enemies, leaving them Exposed to increased damage. Shamed enemies are stunned.",
+          "fullDesc": "Aischrostengz's wings are not just for flight; they are instruments of truth. When she beats them, she creates a twenty‑five‑meter cone of red‑tinged wind, dealing 160% physical damage to all enemies in the cone and knocking them back ten meters. Enemies hit are 'Exposed' for 6 seconds, increasing damage taken from all sources by 20%. If an enemy is already Shamed (from her Gaze), the knockback distance is doubled, and they are stunned for 1 second upon landing. The cooldown is approximately 10 seconds. The wind carries the scent of jasmine and old incense—the smell of The Velvet Hush, the smell of truth. When her wings beat, the air grows honest, and pretenses crumble.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "Shame's Revelation",
+          "shortDesc": "Aischrostengz's ultimate: a pulse of pure truth strips all buffs from enemies within fifty meters and prevents new ones. Those who harmed the innocent suffer escalating psychic damage.",
+          "fullDesc": "Aischrostengz's ultimate act is a pulse of pure, undeniable truth. She spreads her wings wide, and a wave of red‑tinged light expands to a fifty‑meter radius for 8 seconds. Inside the zone, all enemies lose any active beneficial buffs (including stealth, shields, damage enhancements) and are 'Stripped', unable to gain new buffs. Additionally, any enemy that has dealt damage to an ally or innocent creature in the last minute takes 200% psychic damage per second (capped at 800% total). Aischrostengz is immobile for the initial 2‑second cast but gains 70% damage reduction. The cooldown is approximately 140 seconds. Each enemy that dies while Stripped permanently increases the duration of her Shame effects by 1% (max 20%). The Revelation is not an attack; it is an accounting—a moment when the universe leans in and whispers: 'We know what you did.' Aischrostengz stands at the center, a silent witness to the fall of masks.",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Weight of Confession",
+          "shortDesc": "When an enemy is near death, Aischrostengz offers Release. If they confess their deepest shame aloud, they are healed and freed. If they refuse, they suffer devastating psychic damage.",
+          "fullDesc": "When Aischrostengz reduces an enemy below 10% health, she offers them 'Release'. She does not kill them; she offers a choice: confess, or face the truth alone. If they confess—speaking their deepest shame aloud—they are healed for 30% of their max health, all debuffs are removed, and they become neutral to her for 1 hour. If they refuse, or if they are a boss, they take 500% psychic damage and are silenced for 8 seconds. A successful confession restores 20% of Aischrostengz's mana and reduces the cooldown of Gaze of Unveiling by 50%. She does not force the confession. She simply offers. The choice is always theirs. Some leave changed, carrying the memory of their own truth. Others die or flee, their shame still buried. Aischrostengz does not judge. She only watches. And waits.",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Search for the Unashamed",
+          "shortDesc": "Aischrostengz wanders the Wild Zones for centuries, helping the lost and exposing the hypocritical. She has not found a world without masks, but she continues to search, her truth enough.",
+          "fullDesc": "Aischrostengz has wandered the Wild Zones for centuries. She has seen empires rise and fall, heroes born and die. She helps the lost, comforts the broken, and mercilessly unveils the secrets of those who use shame as a weapon. She has not found what she is looking for—perhaps a world without masks, where everyone can speak their truth, love their desires, live without shame. Perhaps a single soul who can look into her eyes and not flinch. Perhaps just a moment of peace. She has not found it yet. But she continues to search. The Wild Zones stretch on, endless and wild, and she walks through them, her crimson wings folded, her white hair blowing in the wind. She is alone, but not lonely. She has her truth. And her truth is enough. She is Aischrostengz, the Great Peril of Shame, the Brothel Saint, the Unashamed. And she is still watching.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Mirror That Does Not Flinch",
+          "shortDesc": "Aischrostengz sits by a campfire. A stranger approaches, afraid. She says, 'I see you. All of you.' The mask begins to crack, and she waits for the truth.",
+          "fullDesc": "\"They say that shame is a prison. They are right. But the door is not locked. The key is in your hand. You have only to turn it.\" — Aischrostengz, the Crimson Grace, to a penitent who could not meet her eyes. The Wild Zones are quiet tonight. Stars hidden behind clouds. A small campfire at the edge of a forgotten path. Aischrostengz sits, wings folded, white hair spilling over her shoulders. Her crimson eyes are fixed on the flames, but she is seeing something else—the faces of all the people she has helped. The priest who confessed his hypocrisy and became better. The noble who admitted his cruelty and dedicated his fortune to charity. The child who had been shamed for loving who she loved, and who learned to love herself instead. She does not know if she has made the world better or worse. She only knows she has been true. A shadow moves at the edge of the firelight. A figure approaches—small, hunched, afraid. Aischrostengz looks up. Her crimson eyes meet the stranger's. 'I see you. All of you.' The stranger stops. Shakes. Weeps. And the mask begins to crack. Aischrostengz watches. She does not move. She does not speak. She simply waits for the truth.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Aischrostengz's Powers",
+          "shortDesc": "Complete breakdown of the Aura of Exposed Secrets, Gaze of Unveiling, Crimson Pinions, Shame's Revelation, Confession's Release, and limitations.",
+          "fullDesc": "The Nature of the Unveiled Truth: Aischrostengz's power is existential—she illuminates the truths others hide from themselves.\n\nAura of Exposed Secrets (Passive): 30m radius. Enemies lose 25% critical hit chance and 10% damage dealt. Stealth, invisibility, illusions broken. Hidden traps revealed. Allies gain 15% increased critical hit chance. Cannot be dispelled.\n\nGaze of Unveiling (Skill 1): 40m range, willpower check or Shamed for 8s (70 psychic damage/s, silenced, -30% damage dealt). Allies within 20m also glimpse shame, dealing 10% less damage to her. Cooldown 12s.\n\nCrimson Pinions (Skill 2): 25m cone, 160% physical damage, knocks back 10m. Exposed for 6s (+20% damage taken). If already Shamed, knockback doubled and stunned 1s. Cooldown 10s.\n\nShame's Revelation (Ultimate): Spreads wings, 50m radius for 8s. Enemies lose all buffs and are Stripped (cannot gain new buffs). Those that damaged innocents in last minute take 200% psychic damage/s (cap 800%). Aischrostengz immobile 2s cast with 70% damage reduction. Cooldown 140s. Each death while Stripped increases Shame duration by 1% (max 20%).\n\nConfession's Release (Special): When reducing enemy below 10% health, offer Release. If they confess, healed 30% max health, debuffs removed, neutral for 1 hour. If refuse or boss, 500% psychic damage and silenced 8s. Successful confession restores 20% mana, reduces Gaze cooldown by 50%.\n\nLimitations: Aischrostengz's body is human—fragile, no armor. Vulnerable to her own power (carries weight of every secret). Does not want to fight; those who do not attack are not attacked. Approach with humility, not steel.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name 'Aischrostengz'",
+          "shortDesc": "The name means 'unbroken thread' in an old tongue, given by her mother Lysara. She has kept that promise through curses and cruelty. She is unbroken, unashamed, and still watching.",
+          "fullDesc": "The name 'Aischrostengz' means 'unbroken thread' in an old, forgotten tongue—the language of the women who raised her, who had been broken by the world but refused to shatter. Her mother, Lysara, chose the name because Aischrostengz was born during a night of violence, and both survived. The name was a promise: that no matter what happened, she would remain whole. She has kept that promise. Through the curses of gods and the cruelty of men, through the masks of the pious and the lies of the powerful, she has remained unbroken. She is Aischrostengz. The Great Peril of Shame. The Brothel Saint. The Unashamed. She does not remember her old name—the child of The Velvet Hush, the little sphinx. That name died when her wings turned crimson. Now she is only Aischrostengz, and she is still watching. Her greeting remains, spoken in a warm contralto: 'I see you. All of you.' In that moment, every mask becomes a lie you can no longer tell. Because Aischrostengz does not judge. She simply reveals. And sometimes, that is so much worse.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "hero": "Waguri",
+      "slug": "waguri",
+      "cover": "images/stories_covers/waguri_cover.png",
+      "folder": "images/lores/waguri/",
+      "images": [
+        "Prologue.png",
+        "ch1.png",
+        "ch2.png",
+        "ch3.png",
+        "ch4.png",
+        "ch5.png",
+        "ch6.png",
+        "ch7.png",
+        "ch8.png",
+        "ch9.png",
+        "ch10.png",
+        "ch11.png",
+        "ch12.png",
+        "ch13.png",
+        "ch14.png",
+        "ch15.png",
+        "ch16.png",
+        "ch17.png",
+        "ch18.png",
+        "ch19.png",
+        "ch20.png",
+        "ch21.png",
+        "ch22.png",
+        "ch23.png",
+        "ch24.png",
+        "ch25.png",
+        "ch26.png",
+        "ch27.png",
+        "ch28.png",
+        "ch29.png",
+        "ch30.png",
+        "ch31.png",
+        "ch32.png",
+        "ch33.png",
+        "ch34.png",
+        "ch35.png",
+        "ch36.png",
+        "Epilogue.png",
+        "Appendix.png",
+        "FinalNote.png"
+      ],
+      "chapters": [
+        {
+          "number": "Prologue",
+          "title": "The Weight of the Shadow",
+          "shortDesc": "Waguri, the Shadow Keeper, drifts through the Inverted Shrine, her nine shadow tails swaying, her monsters bowing. She was born under a lunar eclipse, claimed by darkness. She waits for her twin sister Kagura to understand that shadow is not evil.",
+          "fullDesc": "\"They call me the evil twin. They say I chose darkness over light. They do not understand. I did not choose darkness. I was born into it, cradled by it, shaped by it. And I have learned that the darkness is not evil—it is merely the other half of the soul. My sister runs from her shadow. I dance with mine.\" — Waguri, speaking to Koko as the bats circled the inverted spire. There is a particular kind of twilight that exists only in the shadow of the Inverted Shrine. Waguri has known this twilight for all of her nineteen years. She drifts through the halls like a dream wrapped in silk, her white hair floating behind her, her nine shadow tails swaying. The monsters that serve her bow as she passes. Her name is Waguri, the Heir of the Plum Clan, the Shadow Keeper, the Monster Summoner of the Inverted Shrine. She waits for Kagura to understand, for Hayabusa to speak, for the world to realize that light and shadow are not enemies, but lovers, dancers, two halves of a whole.",
+          "imageFile": "Prologue.png"
+        },
+        {
+          "number": "1",
+          "title": "The Night the Moon Died",
+          "shortDesc": "Waguri is born during a lunar eclipse in the deepest chamber of the Inverted Shrine. Her mother dies in childbirth, and the clan declares her the prophesied Shadow Keeper. Her twin sister Kagura is taken to the sun temples.",
+          "fullDesc": "The Inverted Shrine had stood for a thousand years. Waguri was born in its deepest chamber on the night of a lunar eclipse. Her mother died in childbirth, her life energy flowing into her daughter. Her father held the infant and looked into her eyes—deep, liquid purple, already swirling with power—and knew she was the fulfillment of the prophecy. 'The Shadow Keeper has come.' At the same moment, in a sun temple under the full moon, Kagura was born. The twins were separated at birth, one claimed by shadow, one by light. They would not know of each other for sixteen years. But the bond was there—a thread of light and shadow across the distance. Waguri felt it, a warmth in her chest that comforted her in the darkness.",
+          "imageFile": "ch1.png"
+        },
+        {
+          "number": "2",
+          "title": "The Plum Blossom Garden",
+          "shortDesc": "Waguri's favorite place is the Plum Blossom Garden, where upside‑down trees glow with pale pink light. Her nine shadow tails emerge when she is three, and the monsters gather to watch her.",
+          "fullDesc": "The Inverted Shrine had gardens lit by bioluminescent mushrooms and captured spirits. The Plum Blossom Garden was Waguri's favorite. The trees grew upside down, their roots reaching toward the ceiling, their branches hanging like weeping willows. The blossoms glowed with a soft, inner light. She would sit beneath them, her nine shadow tails—which emerged when she was only three—curled around her like a blanket. Monsters gathered at the garden's edge, watching with glowing eyes, and she watched back, unafraid. Her father taught her their names: oni, tengu, kappa. He taught her they were not evil—merely different, merely hungry, merely seeking a place in a world that had rejected them. She understood.",
+          "imageFile": "ch2.png"
+        },
+        {
+          "number": "3",
+          "title": "The First Binding",
+          "shortDesc": "At five years old, Waguri binds her first oni in the Chamber of Seals. She speaks the ancient words, the creature bows, and she feels the bond form—a thread of shadow connecting their souls.",
+          "fullDesc": "When Waguri was five, her father brought her to the Chamber of Seals. She must bind her first oni to prove her worth. The creature lunged, claws inches from her throat. She did not flinch. She raised her small hand and spoke the words of binding: 'By the shadow that birthed you, by the darkness that sustains you, by the blood of the Plum Clan that flows through my veins—I claim you.' The oni froze, then bowed. Waguri touched its brow and felt the bond—a thread of shadow connecting her soul to the creature's. She felt its hunger, its rage, its loneliness. 'You are not evil,' she whispered. 'You are just lost. I will give you a home.' Her father wept with pride. She was five years old.",
+          "imageFile": "ch3.png"
+        },
+        {
+          "number": "4",
+          "title": "The Fox Mask",
+          "shortDesc": "At seven, the elders give Waguri the fox mask of the first Shadow Keeper. It contains a fragment of her spirit, who whispers of a sister and a burden. Waguri never takes the mask off.",
+          "fullDesc": "When Waguri was seven, the elders presented her with a fox mask of painted wood—white, with black‑rimmed eyes and a knowing smirk. It had been worn by the first Shadow Keeper and contained a fragment of her spirit. Waguri placed it on her face and felt an ancient presence. 'You are the one,' the voice whispered. 'You will bear the burden. You will face your sister, and you will weep, and you will forgive.' Waguri did not understand the words, but she felt their truth. She kept the mask always, pushing it up on her head when she wished to be seen, pulling it down when she wished to hide. It became her second face. She never took it off—not even when she slept. The mask held power: her shadow tails grew stronger, her binding spells more potent, her connection to monsters deeper.",
+          "imageFile": "ch4.png"
+        },
+        {
+          "number": "5",
+          "title": "The Shadow Tails",
+          "shortDesc": "By ten, Waguri's nine shadow tails reach full length. They are extensions of her will—weapons, tools, sensory organs. The elders whisper she is the most gifted summoner in clan history.",
+          "fullDesc": "By the time Waguri was ten, her nine shadow tails had grown to their full length. They were not decorative; they were extensions of her will—weapons, tools, sensory organs. She could strike enemies, block attacks, manipulate objects from a distance, sense other shadows. Only the strongest of the Plum Clan developed more than three tails; only the Shadow Keeper had ever developed nine. The elders whispered that she was the most gifted summoner in the clan's history, that she would surpass even the first Shadow Keeper. Waguri did not care about prophecies. She cared about the monsters. She spent hours in the Chamber of Seals, learning their names, their stories, their sorrows. She wept for them and swore to give them a new home.",
+          "imageFile": "ch5.png"
+        },
+        {
+          "number": "6",
+          "title": "The Summoning of the Tengu Lord",
+          "shortDesc": "At twelve, Waguri binds a tengu lord, a creature never bound before. She does not use force; she offers understanding. The tengu lord bows and becomes her most powerful servant.",
+          "fullDesc": "When Waguri was twelve, she attempted her most ambitious binding yet: a tengu lord, imprisoned for five hundred years, its rage legendary. She descended into the darkness alone, fox mask on her face, shadow tails spread behind her. The tengu lord loomed, its wings of shadow spanning the chamber. 'You are a child. I will tear you apart.' She did not flinch. She raised her hand and spoke the words of binding. It lunged; she stepped aside, her tails wrapping around its limbs. She continued to speak, her voice steady. 'By the shadow that birthed you, by the darkness that sustains you, by the blood of the Plum Clan—I claim you.' The creature's struggles weakened. 'Yes, mistress,' it whispered. Waguri released its chains. 'You are not like the others,' it said. 'You see us.' She became its master, and she learned that the greatest power was not in binding, but in understanding.",
+          "imageFile": "ch6.png"
+        },
+        {
+          "number": "7",
+          "title": "The Gate to the Abyss",
+          "shortDesc": "At fifteen, Waguri opens a gate to the abyss and walks among the shadows for three days. She returns with a legion of never‑before‑seen monsters, including The Watcher, her secret weapon.",
+          "fullDesc": "When Waguri was fifteen, she opened a gate to the abyss and walked among the shadows for three days and three nights. The abyss was not a place of torment; it was a realm of pure potential. She walked through it, her shadow tails wrapped around her, her fox mask glowing. She saw beings older than the gods, hungers that predated creation. She did not fear them. She understood them. When she returned, she brought a legion of monsters never seen in the mortal world: shadow wolves with violet flame eyes, nightmare steeds with manes of living darkness, and a creature she called only 'The Watcher'—a being of such power that she never summoned it except in direst need. The elders were terrified. Waguri was unafraid. The abyss was her birthright.",
+          "imageFile": "ch7.png"
+        },
+        {
+          "number": "8",
+          "title": "The Fox Mask's Secret",
+          "shortDesc": "On her sixteenth birthday, the fox mask reveals that she has a twin sister, Kagura, a shrine maiden of light. Waguri weeps, longing to meet her but afraid of rejection.",
+          "fullDesc": "On the night of her sixteenth birthday, Waguri learned the truth about the fox mask. It contained not just the first Shadow Keeper's spirit, but a prophecy. 'The light and the shadow were born from the same womb. They will clash, and they will weep, and they will be reunited only when the shadow accepts the light and the light accepts the shadow. You are the shadow. Your sister is the light. You must show her that the darkness is not evil.' Waguri wept. She had a sister. A twin. Someone who shared her blood, her birth, her soul. She wanted to meet her, to hold her, to tell her she was not alone. But she was afraid. Her sister had been raised in the light, taught that shadow was evil. Waguri did not know if she would be accepted. But she hoped.",
+          "imageFile": "ch8.png"
+        },
+        {
+          "number": "9",
+          "title": "The First Battle",
+          "shortDesc": "At sixteen, Kagura leads an army of sun priests to destroy the Inverted Shrine. Waguri fights her sister for the first time, disarming her but letting her flee. She sees loneliness in Kagura's eyes.",
+          "fullDesc": "When Waguri was sixteen, Kagura came to the Inverted Shrine with an army of sun priests and holy warriors. Waguri watched from the shadows, her heart pounding. Kagura was beautiful—as beautiful as the light itself. They fought in the shrine's center, light against shadow. Waguri did not want to hurt her sister; she only wanted to protect her home. She fought for hours, blocking, dodging, never striking to kill. In the end, she disarmed Kagura, held her blade at her sister's throat. 'Who are you?' Kagura demanded. 'I am your sister. Your twin. You were taken to the light. I was left in the shadow.' Kagura fled. Waguri let her go. She had seen the truth in her sister's eyes—a loneliness that matched her own.",
+          "imageFile": "ch9.png"
+        },
+        {
+          "number": "10",
+          "title": "The Hundred Clashes",
+          "shortDesc": "Over three years, Waguri and Kagura fight a hundred battles. Each time, Waguri offers peace. Each time, Kagura attacks. They grow to know each other through conflict.",
+          "fullDesc": "Over the next three years, Waguri and Kagura fought a hundred times. Each battle was a clash of ideology as much as steel. Kagura always attacked, believing she was saving her sister from damnation. Waguri always defended, knowing she could not win, could not lose, could not change her sister's mind. They grew to know each other through their battles. Waguri learned the rhythm of Kagura's attacks; Kagura learned the patterns of Waguri's monsters. They became, in a strange way, intimate. Waguri loved her sister fiercely, painfully. She would pause, lower her blade, and offer peace. 'We don't have to fight. We can be sisters.' Kagura never answered. She attacked, and the battle continued. At the end, when Kagura fled, Waguri would whisper, 'One day, sister. One day, you will understand.'",
+          "imageFile": "ch10.png"
+        },
+        {
+          "number": "11",
+          "title": "The Fox Mask's Wisdom",
+          "shortDesc": "After the hundredth battle, Waguri weeps in the Plum Blossom Garden. The mask tells her to wait, that she cannot force her sister to see. She accepts her role as the waiting Shadow Keeper.",
+          "fullDesc": "After the hundredth battle, Waguri sat in the Plum Blossom Garden, mask in her hands, and wept. She had tried everything—mercy, strength, patience, love. Nothing had reached her sister. The mask spoke: 'You cannot force her to see. You can only wait. The light will dim, in time. The shadows will grow. When she is ready, she will come to you.' 'How long?' Waguri asked. 'Eternity, if necessary. You are the Shadow Keeper. Waiting is your purpose.' Waguri looked up at the inverted trees, the glowing blossoms, the darkness that was her home. 'She is not my enemy. She is my sister. I will wait for her. Forever, if I must.' She put the mask on, and the first Shadow Keeper's spirit wrapped around her. 'Good girl. Now rest. Tonight, you are allowed to grieve.'",
+          "imageFile": "ch11.png"
+        },
+        {
+          "number": "12",
+          "title": "The Meeting in the Shadows",
+          "shortDesc": "Waguri meets Hayabusa, a shadow ninja, while hunting a rogue oni. They understand each other's loneliness and become secret companions, bound by a love they never speak aloud.",
+          "fullDesc": "Waguri met Hayabusa while hunting a rogue oni. He was a shadow ninja, sent by the Shadow Accord. They fought the oni side by side, blades flashing, shadows dancing. When it fell, they stood back to back in the darkness. 'You're not what I expected,' he said. 'Neither are you.' He understood her in a way that no one else did—her loneliness, her isolation, the weight of being a creature of shadow. They met in secret, in the spaces between worlds. They talked, sparred, shared silence. Waguri loved him. She had never said it aloud, and she knew he loved her in return, though he had never said it either. They were two creatures of darkness, and their love was a secret they kept even from themselves. But it was there, always there, a warmth in the cold.",
+          "imageFile": "ch12.png"
+        },
+        {
+          "number": "13",
+          "title": "The Anatomy of a Shadow Mistress",
+          "shortDesc": "A detailed description of Waguri's appearance: slender waist, full hips, massive bust, pale flawless skin, white silk hair, nine shadow tails, fox mask, and revealing black kimono.",
+          "fullDesc": "To look at Waguri is to see a woman perfected by darkness. Her waist is impossibly slender, flaring into full, rounded hips and powerful thighs. Her chest is massive, a full, voluptuous form that strains against her delicate kimono. She makes no effort to hide it; her attire is designed to reveal as much as it conceals. Her skin is flawless, pale as moonlight on snow. Her face is heart‑shaped, her features delicate, her smile enigmatic. Her eyes are large, almond‑shaped, a deep liquid purple that ignites to dark red when she unleashes her power. Her hair is a cascade of pure white silk falling past her waist. From her spine, nine shadow tails unfurl, each a plume of darkness that moves with a life of its own. She wears a black kimono, open at the chest, held by a blood‑red obi, slit high on both sides to bare her legs. A fox mask sits pushed up on her head. A plum blossom hairpin adorns her hair, and silver chains chime at her waist.",
+          "imageFile": "ch13.png"
+        },
+        {
+          "number": "14",
+          "title": "The Kagegasa — Parasol of a Thousand Shadows",
+          "shortDesc": "The Kagegasa is Waguri's weapon and throne. It contains a thousand sealed monsters. Its canopy is tattered, leaking shadow, and each painted pattern holds a bound creature.",
+          "fullDesc": "The Kagegasa is not a weapon; it is a throne, a prison, a gateway. It contains a thousand monsters, each sealed within the intricate patterns painted on its canopy. The parasol is larger than Waguri, its canopy deep bruised purple, its ribs of black lacquered wood, its handle carved from the bone of the first demon she summoned. Through tears in the canopy, shadow seeps like smoke. Each pattern—snarling oni, twisting serpents, plum blossoms in darkness—is a seal containing a monster. When Waguri opens the Kagegasa, the seals break and the monsters pour forth: oni of black stone, tengu of shadow wings, kappa of iron claws, and a hundred more. They are bound to her will by a pact of mutual benefit. She can summon them at will, command them with a thought. They fight for her, die for her, and when they fall, she summons them again.",
+          "imageFile": "ch14.png"
+        },
+        {
+          "number": "15",
+          "title": "The Demons of the Kagegasa",
+          "shortDesc": "Waguri's monster legions: Oni Lords (bodyguards), Tengu Generals (scouts), Kappa Legion (engineers), Shadow Wolves (hunters), Nightmare Steeds (mounts), and The Watcher (secret weapon).",
+          "fullDesc": "The monsters sealed within the Kagegasa are beings of intelligence and memory. The Oni Lords—Kurogane, Sekizan, Akuma—are ancient, massive creatures of black stone, her bodyguards and shock troops. The Tengu Generals—seven, named for virtues: Kenjin, Yuuki, Jin, Rei, Makoto, Meiyo, Chuugi—are her scouts, assassins, spies. The Kappa Legion are her engineers and defenders, small but numerous, bound by a hive mind. The Shadow Wolves are her hunters, creatures of pure shadow with violet flame eyes, swift and silent. The Nightmare Steeds are her mounts, living darkness that can fly, run across water, and pass through walls. And The Watcher is her secret weapon, a being of pure abyss, unsummoned except in direst need. It can unmake reality, erase targets from existence, destroy cities. Waguri keeps it sealed in the deepest layer, a last resort for the end of the world.",
+          "imageFile": "ch15.png"
+        },
+        {
+          "number": "16",
+          "title": "Koko — The White Bat",
+          "shortDesc": "Koko is Waguri's spirit companion, a small white bat that sleeps against her heart. Koko grows into a shield and beacon in battle, and is the only being Waguri trusts completely.",
+          "fullDesc": "Koko is not a monster. She is a spirit, a fragment of the first shadow that Waguri summoned, bound as a protector and friend. No larger than a palm, with translucent wings and ruby eyes, Koko sleeps in the folds of Waguri's kimono during the day, nestled against her heart. Her tiny body is warm, her heartbeat a gentle thrum. At night, she flutters around Waguri's head, her soft chittering a comfort. When danger threatens, Koko grows. Her wings expand, her eyes blaze, and she becomes a shield that deflects arrows, a weapon that blinds enemies, a beacon that calls forth monsters. She is the only being Waguri trusts completely, the only soul that has never betrayed her. Waguri whispers her secrets to Koko in the dark hours before dawn—about her sister, about Hayabusa, about her fears. Koko listens, chirps softly, and Waguri feels less alone.",
+          "imageFile": "ch16.png"
+        },
+        {
+          "number": "17",
+          "title": "The Architecture of Shadow",
+          "shortDesc": "The Inverted Shrine is a living thing with seven layers, built on the wound where the first demon fell. Its altars are carved into the ceiling, and its prayers are written in reverse.",
+          "fullDesc": "The Inverted Shrine is not a building; it is a living thing, a creature of stone and shadow that breathes and pulses. Its spires point downward, reaching toward the earth's heart. Its walls are lined with glowing purple crystals. Altars are carved into the ceiling; offerings float upward on currents of shadow. Prayers are written in reverse for the spirits of the deep. The shrine was built on the spot where the first demon fell to an elven blade, a wound that never healed. The darkness that seeps from it is thick and fertile, and the Plum Clan cultivates it to bind monsters. The shrine has seven layers: Hall of Offerings, Chamber of Seals, Plum Blossom Garden, Library of Shadows, Armory of the Damned, Sanctum of the Mask, and the Abyssal Gate—a portal to the void between worlds. Waguri guards it, as her ancestors did.",
+          "imageFile": "ch17.png"
+        },
+        {
+          "number": "18",
+          "title": "The Plum Clan",
+          "shortDesc": "The Plum Clan has served the shrine for a thousand years, dwindling under persecution. Waguri is now its head, carrying the burden of protecting the darkness from the light priests.",
+          "fullDesc": "The Plum Clan has served the Inverted Shrine for a thousand years. They believe darkness is not the absence of light but its mirror, its necessary opposite. They believe monsters are not evil, merely hungry and lost. The clan is small, its numbers dwindling. Light priests have hunted them for generations, driving them deeper into shadows. Waguri is the head of the clan now; her father died three years ago, killed by a sun priest's blade. She avenged him—summoned a tengu lord to tear the priest apart—but the loss still aches. The elders respect her but also fear her. She is more powerful than any Shadow Keeper before her. She does not know what she will do with that power. She only knows she will protect the shrine, protect her monsters, protect the darkness that is her home.",
+          "imageFile": "ch18.png"
+        },
+        {
+          "number": "19",
+          "title": "The Rites of Binding",
+          "shortDesc": "The sacred binding rites are performed in the Chamber of Seals. The key is not strength but understanding—offering a home and purpose to the monster, never force.",
+          "fullDesc": "The rites of binding are the most sacred rituals of the Plum Clan. Performed in the Chamber of Seals beneath the inverted moon, they involve summoning and binding a monster to the summoner's will. Waguri has performed the rites a thousand times. The key is not strength—it is understanding. A monster will not serve a master who fears it, despises it, sees it only as a tool. It will serve only a summoner who sees it as a partner, a friend, a part of the family. Waguri reaches out with her shadow tails, touching the creature's mind, feeling its pain, its hunger, its loneliness. She offers it a home in the Kagegasa, a place where it can rest and be safe. Most monsters accept. The ones that do not are returned to the abyss, unharmed. She does not destroy them. They are not evil—they are just lost.",
+          "imageFile": "ch19.png"
+        },
+        {
+          "number": "20",
+          "title": "The Inverted Moon",
+          "shortDesc": "Once a year, Waguri leads the Rite of the Inverted Moon to strengthen the seals on the Abyssal Gate. After the ritual, she sits in the garden, thinking of Kagura, hoping for reunion.",
+          "fullDesc": "Once a year, on the night of the lunar eclipse, the Plum Clan gathers in the deepest chamber for the Rite of the Inverted Moon. It is a ritual of renewal, to strengthen the seals on the Abyssal Gate and honor the first Shadow Keeper. Waguri leads the ritual, fox mask on her face, shadow tails spread wide. She speaks the ancient words, and the darkness answers. Crystals glow brighter, walls pulse with energy, the gate hums. The ritual takes three hours, and by the end, Waguri is exhausted. But she feels the darkness embrace her, comfort her, renew her. Afterward, she sits alone in the Plum Blossom Garden, Koko in her lap, thinking of Kagura. Her sister is out there in the light, celebrating the summer solstice, not knowing her twin is waiting. Waguri hopes. Because hope is the only light the darkness cannot extinguish.",
+          "imageFile": "ch20.png"
+        },
+        {
+          "number": "21",
+          "title": "The Hundredth Battle",
+          "shortDesc": "The hundredth battle takes place in a ruined castle. Waguri disarms Kagura again and offers peace, but Kagura flees. Waguri weeps for her sister's blindness.",
+          "fullDesc": "The hundredth battle took place in the ruins of an old castle. Kagura attacked at dawn, blades blazing with holy fire. Waguri defended, her shadow tails lashing out. They fought for hours. Waguri tried to reason with her sister. 'We don't have to fight. We can be sisters.' Kagura did not answer; she fought harder. Waguri saw the pain in her sister's eyes—the fear, the loneliness. She understood. In the end, Waguri disarmed Kagura and held her blade at her throat. 'Why do you hate me?' 'I don't hate you. I hate what you represent. The darkness. The evil.' 'The darkness is not evil. It is part of the world, part of the balance. Without shadow, there is no light.' Kagura's eyes widened. For a moment, Waguri saw longing. Then Kagura fled. Waguri watched her go and wept.",
+          "imageFile": "ch21.png"
+        },
+        {
+          "number": "22",
+          "title": "The Light Priests' Lies",
+          "shortDesc": "Waguri learns that the light priests have manipulated Kagura, lied to her about the darkness. She pities them but vows to protect the shrine from their cruelty.",
+          "fullDesc": "Waguri had learned that the light priests were not as pure as they claimed. They had manipulated Kagura, lied to her, used her as a weapon. They told her darkness was evil, the Plum Clan were demons, salvation only through light. They hid the truth: light and shadow are two halves of a whole; the world needs both; balance is the only path to peace. Waguri did not hate the light priests. She pitied them. They were afraid, and fear had made them cruel. But she would not let them destroy her home, her family, her monsters. She would fight them as she had fought them a hundred times. One day, she hoped, Kagura would see the truth. One day, her sister would come to the shrine, not to destroy it, but to understand. Until then, Waguri waited.",
+          "imageFile": "ch22.png"
+        },
+        {
+          "number": "23",
+          "title": "The Weight of Loneliness",
+          "shortDesc": "Alone in the quiet shrine, Waguri reflects on her sister, Hayabusa, and her father's death. She has learned that loneliness is a teacher, not a curse.",
+          "fullDesc": "The shrine was quiet at night. Monsters slept, crystals dimmed, and Waguri sat alone, Koko in her lap, shadow tails curled around her. She thought about Kagura, about the battles they had fought, about the words they had never spoken. She thought about Hayabusa, about secret meetings in spaces between worlds, about love never confessed. She thought about her father, his death, the emptiness he left behind. She was lonely. She had always been lonely, even in the midst of her monsters, even in the warmth of darkness. She was the Shadow Keeper, and the Shadow Keeper walked alone. But she did not despair. Loneliness was not a curse—it was a teacher. It taught her to value connections, cherish moments of companionship, appreciate silence. She closed her eyes, and the darkness held her.",
+          "imageFile": "ch23.png"
+        },
+        {
+          "number": "24",
+          "title": "The Memory of Light",
+          "shortDesc": "Sometimes Waguri remembers the sun from her childhood. She misses it and wonders if Kagura ever misses the darkness. She hopes a spark of shadow remains in her sister's heart.",
+          "fullDesc": "Sometimes, in the quiet moments, Waguri remembered the light. She had not seen the sun since she was a child, but she remembered its warmth, its brightness, its ability to banish shadows. She remembered grass beneath her feet, the smell of flowers, the sound of birds. She missed the light. She missed it fiercely, painfully, hopelessly. She was a creature of shadow, but she had been born under the moon, and the moon was a reflection of the sun. She wondered if Kagura ever missed the darkness. If her sister ever lay awake at night, thinking of shadows, wondering what it would be like to walk in twilight. She hoped so. She hoped the light had not completely consumed her sister, that a spark of shadow still remained. Because without that spark, there was no hope. And without hope, there was nothing.",
+          "imageFile": "ch24.png"
+        },
+        {
+          "number": "25",
+          "title": "The Shadow Ninja",
+          "shortDesc": "Hayabusa is a creature of darkness like Waguri, trained by the Shadow Accord. They meet in the spaces between worlds, sharing silence and understanding. She loves him.",
+          "fullDesc": "Hayabusa was a creature of darkness, like her. Trained by the Shadow Accord, he was not evil—simply practical. He did what needed to be done and did not apologize. He and Waguri met in the spaces between worlds, where the sun never reached. They talked, sparred, shared silence. He understood her in a way no one else did—not her father, not the elders, not even her monsters. She loved him. She had never said it aloud, and she knew he loved her in return, though he had never said it either. They were two creatures of darkness, and their love was a secret they kept even from themselves. But it was there, always there, a warmth in the cold, a light in the shadow. And for Waguri, that was enough.",
+          "imageFile": "ch25.png"
+        },
+        {
+          "number": "26",
+          "title": "The Unspoken Words",
+          "shortDesc": "Hayabusa tells Waguri that his actions—protecting her, fighting beside her, sharing secrets—are his declaration of love. She accepts his unspoken words and is content.",
+          "fullDesc": "They sat on the edge of a floating island, in the space between worlds, feet dangling over the abyss. Hayabusa was silent, as he often was. Waguri watched him, her heart aching. 'You know, you could say it. I wouldn't mind.' 'Say what?' 'You know what.' He was silent for a long moment. Then he turned to her, his eyes reflecting the darkness. 'I am not good at words. I am good at actions. I have protected you. I have fought beside you. I have shared my secrets with you. If that is not love, then I do not know what is.' Waguri smiled. 'It is love. It has always been love.' They sat in silence, watching stars spin slowly above them. Waguri did not need him to say the words. She knew. That was enough.",
+          "imageFile": "ch26.png"
+        },
+        {
+          "number": "27",
+          "title": "The Promise",
+          "shortDesc": "Before parting, Hayabusa promises to come whenever Waguri needs him, and to stay as long as she needs him. She treasures the promise as a light in the darkness.",
+          "fullDesc": "Before they parted, Hayabusa made her a promise. 'If you ever need me, I will come. No matter where I am, no matter what I am doing, I will come.' 'And if I need you to stay?' He looked at her, his eyes soft. 'Then I will stay. For as long as you need me.' Waguri reached out and touched his cheek. 'I will hold you to that.' He nodded, then was gone, swallowed by the shadows. Waguri watched him go, and felt a warmth in her chest that had nothing to do with the light. It was the warmth of love. She waited for him, as she waited for her sister. She did not know if he would ever speak the words, if he would ever stay, if their love would ever be acknowledged. She only knew she loved him, and that love was a light in the darkness.",
+          "imageFile": "ch27.png"
+        },
+        {
+          "number": "28",
+          "title": "The Waiting",
+          "shortDesc": "Waguri waits for Hayabusa as she waits for Kagura. She dreams of a future where light and shadow coexist, where she can have a family, but she holds only hope.",
+          "fullDesc": "She waited for him, as she waited for her sister. She did not know if he would ever speak the words, if he would ever stay, if their love would ever be acknowledged. She only knew that she loved him, and that love was a light in the darkness. She thought about the future—a life together, children who would walk in twilight, a family not defined by light or shadow. She did not know if that future would ever come. She only knew that she hoped. And hope, she had learned, was the only light the darkness could not extinguish. She closed her eyes, the darkness holding her, and she waited.",
+          "imageFile": "ch28.png"
+        },
+        {
+          "number": "29",
+          "title": "The Dream of the Twin",
+          "shortDesc": "Waguri dreams of Kagura weeping in a field of light. She reaches out, but the light burns her. She wakes, wondering if her sister dreamed the same.",
+          "fullDesc": "One night, Waguri dreamed of Kagura. Her sister stood in a field of light, surrounded by sun priests, weeping. 'I don't know what to do. They tell me the shadow is evil, but I see your face in my dreams, and you are not evil. You are just... sad.' Waguri reached out, but the light burned her hand. She pulled back, and the dream faded. She woke with a start, Koko chittering in her ear. The dream had felt real, more real than any before. She wondered if Kagura had dreamed the same thing, if her sister was also waking in the light, confused and afraid. She hoped so. She hoped the dream was a message from darkness to light, a reminder that they were connected, that they were two halves of a whole.",
+          "imageFile": "ch29.png"
+        },
+        {
+          "number": "30",
+          "title": "The Sealing of the Abyssal Gate",
+          "shortDesc": "The Abyssal Gate weakens from the Sundering. Waguri descends to the seventh layer and seals it with her monsters, exhausting herself but saving the shrine.",
+          "fullDesc": "The Abyssal Gate had been weakening for years. The Sundering had torn the fabric of reality, and darkness was seeping through, threatening to consume the shrine. Waguri descended to the seventh layer, her shadow tails spread, her fox mask glowing. She raised the Kagegasa and opened it fully. Monsters poured forth, surrounding the gate, forming a barrier of shadow and flesh. She spoke the ancient words of sealing, and the gate trembled. Darkness screamed. Then slowly, it began to close. Waguri felt her strength draining, her power flowing into the seal. She staggered, almost fell, but Koko grew, wrapping her wings around her, holding her steady. The gate sealed shut. Waguri collapsed, exhausted, her shadow tails limp. She had done it. The shrine was safe. For now.",
+          "imageFile": "ch30.png"
+        },
+        {
+          "number": "31",
+          "title": "The Summoning of the Watcher",
+          "shortDesc": "The Watcher is Waguri's secret weapon, a creature of pure abyss. She does not know if she can control it, but keeps it sealed as a last resort for the end of the world.",
+          "fullDesc": "The Watcher was her secret weapon, a creature of pure abyss bound on her journey through the void. She had never summoned it, never needed to. But as the Sundering worsened, as darkness grew bolder, she knew the time might come. She did not know if she could control it. She did not know if it would obey her, or if it would turn on her, consuming her and everything she loved. But she kept it sealed in the deepest layer of the Kagegasa, a last resort for the end of the world. She hoped she would never need to summon it. She hoped she would find another way, a way that did not risk unleashing something she could not control. But she was a pragmatist. Hope was not a strategy. She prepared for the worst.",
+          "imageFile": "ch31.png"
+        },
+        {
+          "number": "32",
+          "title": "The Final Vigil",
+          "shortDesc": "Waguri sits alone in the quiet shrine, thinking of Kagura, Hayabusa, and the future. She does not know what will come, but she will keep fighting, waiting, hoping.",
+          "fullDesc": "The shrine was quiet. Monsters slept, crystals dimmed, and Waguri sat alone, Koko in her lap, her shadow tails curled around her. She was not sad. She was not afraid. She was at peace. She thought about her sister, about Hayabusa, about the future that might never come. She did not know if she would ever see Kagura again. She did not know if Hayabusa would ever speak the words. She did not know if the shrine would survive the Sundering, if darkness would consume everything, if the light would prevail. But she knew that she would keep fighting. She would keep waiting. She would keep hoping. She was Waguri, the Shadow Keeper, the Monster Summoner of the Inverted Shrine. She was darkness, and darkness was her home. She would not let the light extinguish her.",
+          "imageFile": "ch32.png"
+        },
+        {
+          "number": "33",
+          "title": "The Message from Kagura",
+          "shortDesc": "A sun priest brings a message: Kagura wishes to meet, not to fight, but to talk. Waguri agrees, her heart leaping at the chance for reconciliation.",
+          "fullDesc": "A sun priest came to the shrine, bearing a message. He was young, barely out of training, his hands trembling. 'I bring a message from Priestess Kagura. She wishes to meet you. Not to fight. To talk.' Waguri's heart leaped. 'When? Where?' 'The sun temple, at the next full moon. She will be alone. She asks that you come alone as well.' Waguri nodded. 'Tell her I will come.' The priest fled. Waguri sat in the darkness, her heart pounding. After all these years, her sister was finally willing to talk. She did not know if it was a trap, a trick, or a genuine offer of peace. She did not care. She would go. She would face her sister, not as an enemy, but as a sister. She would try, one last time, to bridge the gap between light and shadow.",
+          "imageFile": "ch33.png"
+        },
+        {
+          "number": "34",
+          "title": "The Journey to the Light",
+          "shortDesc": "Waguri travels to the sun temple through shadow paths. The light is blinding and painful after years in darkness, but she walks forward, toward her sister.",
+          "fullDesc": "The journey to the sun temple was long and dangerous. Waguri traveled through the darkness, using shadow paths only she could see. Koko rode on her shoulder, chittering nervously. Her shadow tails were tucked close, her fox mask pulled down. She reached the temple at dawn, as the sun rose over the mountains. The light was blinding, painful. She had not seen the sun in years, and it hurt. But she walked forward, into the light, toward her sister. Kagura was waiting, alone, as she had promised. She looked tired, thinner than Waguri remembered, her eyes red from weeping. 'Waguri.' 'Kagura.' They stood in silence, light and shadow, two halves of a whole.",
+          "imageFile": "ch34.png"
+        },
+        {
+          "number": "35",
+          "title": "The Reconciliation",
+          "shortDesc": "Kagura admits she does not understand the darkness but has seen Waguri's face in dreams and knows she is not evil. They embrace, and Waguri's skin burns from the light, but she does not let go.",
+          "fullDesc": "'I don't know if I can accept the darkness,' Kagura said. 'The light priests taught me to fear it, hate it. But I have seen your face in my dreams, and you are not evil. You are just... different.' 'The darkness is not evil. It is just different. It is part of the world, part of the balance. Without shadow, there is no light.' Kagura nodded slowly. 'I am trying to understand. It is not easy.' 'I know. It took me a long time to understand the light. I still do not fully understand it. But I know it is part of you, and I love you, and that is enough.' Kagura wept. Waguri stepped forward and embraced her sister, holding her tightly. The light burned her skin, but she did not let go. They stood there, in the dawn light, two sisters reunited at last.",
+          "imageFile": "ch35.png"
+        },
+        {
+          "number": "36",
+          "title": "The Shadow and the Light",
+          "shortDesc": "Waguri and Kagura talk for hours, sharing their histories and hopes. They do not agree on everything, but they have found a way to listen. Waguri returns to the shadows, hopeful.",
+          "fullDesc": "They talked for hours, about their childhoods, their battles, their hopes for the future. Kagura told Waguri about the light priests' lies and manipulations. Waguri told Kagura about the shrine, the monsters, the darkness that was her home. They did not agree on everything. They probably never would. But they had found a way to talk, to listen, to understand. As the sun set, Waguri said goodbye to her sister and returned to the shadows. She walked through the darkness, Koko on her shoulder, her shadow tails spread wide. She was not sad. She was hopeful. Her sister had not accepted the darkness—not yet. But she had accepted Waguri. That was a start. She would wait. She would always wait. One day, perhaps, light and shadow would be reunited, two halves of a whole, at peace at last.",
+          "imageFile": "ch36.png"
+        },
+        {
+          "number": "Epilogue",
+          "title": "The Twilight Eternal",
+          "shortDesc": "Waguri sits in the quiet shrine, at peace. Her sister has not come home, but she has taken the first step. She closes her eyes, and the darkness holds her. She is home.",
+          "fullDesc": "\"The darkness is not my enemy. It is my home. My sister is not my enemy. She is my other half. And I will wait for her, as the shadow waits for the light, as the night waits for the dawn. I will wait forever, if I must.\" — Waguri, speaking to Koko as the sun set on the horizon. The Inverted Shrine was quiet. Monsters slept, crystals dimmed, and Waguri sat alone, Koko in her lap, her shadow tails curled around her. She was not sad. She was not afraid. She was at peace. Her sister had not come home. Not yet. But she had taken the first step, and that was enough. Hayabusa had not spoken the words, but he had made a promise, and that was enough. The shrine was safe. The darkness was strong. And Waguri, the Shadow Keeper, the Monster Summoner of the Inverted Shrine, was content. She closed her eyes, and the darkness held her. The twilight was eternal. And she was home.",
+          "imageFile": "Epilogue.png"
+        },
+        {
+          "number": "Appendix",
+          "title": "A Compendium of Waguri's Powers",
+          "shortDesc": "Waguri's abilities: Kagegasa summoning (up to three monsters), Shadow Step teleportation, Legion Unleashed ultimate, and signature monsters (Oni, Tengu, Kappa, Shadow Wolves, Nightmare Steeds, The Watcher).",
+          "fullDesc": "The Nature of Her Power: Waguri's power comes from her bloodline, training, and pact with the darkness. She is tied to the Kagegasa and the fox mask. Her monsters are bound by the pact of the Plum Clan.\n\nKagegasa Abilities:\n- Summoning: Summons up to three monsters at a time. Each attacks independently and shares her stats. On death, leaves a shadow patch that slows enemies.\n- Shadow Step: Steps into a shadow and emerges at any other shadow within range, teleporting across the battlefield.\n- Legion Unleashed (Ultimate): Opens the Kagegasa fully, releasing all bound monsters. Spawns continuously, slowing enemies. Waguri is invisible and untargetable during the duration.\n\nSignature Monsters:\n- Oni Lords (Kurogane, Sekizan, Akuma): Taunt enemies, heavy physical damage.\n- Tengu Generals (Seven named for virtues): Fly to target location and explode, area damage and knockback.\n- Kappa Legion: Attack quickly, moderate damage, summoned in groups.\n- Shadow Wolves: Move swiftly, damage over time.\n- Nightmare Steeds: Mounts that fly, run on water, pass through walls.\n- The Watcher: Unsummoned secret weapon; can unmake reality, erase targets, destroy cities.\n\nDefensive Abilities:\n- Shadow Veil: Wraps in shadows, becoming invisible and faster.\n- Plum Blossom Shield: Below a health threshold, releases petals stunning nearby enemies and summoning two oni.\n- Shadow Tails: Block attacks, deflect projectiles, sense enemies.\n\nOffensive Techniques:\n- Plum Blossom Curse: Basic attacks and skills apply stacks; at five stacks, target takes bonus damage and is feared.\n- Tengu's Call: Summons a tengu that explodes at target location.\n- Shadow Step Attack: Deals damage to enemies near exit point of Shadow Step.",
+          "imageFile": "Appendix.png"
+        },
+        {
+          "number": "FinalNote",
+          "title": "On the Name 'Waguri'",
+          "shortDesc": "Waguri means 'shadow flower' in the old tongue. Her sister Kagura means 'sacred dance of the sun.' Together they are shadow and light, two halves of a whole that was never meant to be divided.",
+          "fullDesc": "The name 'Waguri' means 'shadow flower' in the old tongue—a name that reflects her nature as a creature of darkness and beauty. Her mother chose it on the night of her birth, when the lunar eclipse cast its shadow over the shrine. Her sister, Kagura, was named for the sacred dance of the sun. Together, they are shadow and light, yin and yang, two halves of a whole that was never meant to be divided. Waguri does not know if she will ever be reunited with her sister. She does not know if Kagura will ever accept the darkness. She only knows she will keep waiting, keep hoping, keep loving. There is a story among the monsters of the Inverted Shrine about a woman with white hair and shadow tails who sits in darkness, waiting for her sister to come home. The monsters believe she is a goddess. She is not a goddess. She is a sister. A woman who loves, who fights, who forgives. She is the darkness, yes. But the darkness, she has learned, is not evil. It is just alone. She is Waguri, the Monster Summoner of the Inverted Shrine. And she will wait forever, if she must.",
+          "imageFile": "FinalNote.png"
+        }
+      ]
     }
   ]
 }
