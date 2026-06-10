@@ -2459,7 +2459,41 @@ The aura that surrounds Akai The Panda is one of profound, earthy warmth and uns
 
 
 
+Fanny 
 
+Appearance
+Face & Structure: Fanny appears as a woman in the prime of her early twenties, her face a study in sharp, modern beauty. Her skin is fair, a porcelain jade that glows with an ethereal luminosity—like fine jade carved by master hands, smooth and immaculate despite the rigors of high-altitude combat. Her facial structure is defined by a sharp, angular jawline and high, sculpted cheekbones that speak of refined aristocratic lineage. Her nose is straight and narrow, her lips full and painted in a bold crimson-red that pops against her pale complexion—always slightly parted, as if ready to speak a challenge or deliver a cutting remark. She has a distinctive mole above her left eyebrow, adding to her distinctive, memorable visage.
+
+Eyes: Her eyes are her most striking feature—sharp, piercing emerald-amber green, large and almond-shaped, framed by thick, dark lashes coated with volumizing mascara that creates a dramatic, fluttery effect. Her eyelids are heavily adorned with smoky green-gold eyeshadow that gradients into black at the outer corners, giving her gaze an intense, predatory quality. Her eyebrows are thick, sharply angled, and dyed to match her hair—black with vivid green highlights—and groomed into thick, jagged arches that frame her forehead with bold definition. When she locks onto a target, her eyes narrow into blades of unwavering intent, glowing with the cold fire of a hunter who has found her prey.
+
+Hair: Her hair is a voluminous cascade of midnight black with emerald-green highlights that shimmer under light like cracks of lightning in a dark sky. It is styled in a trendy layered, textured, and choppy, with the top sections pulled up and gathered into a high, spiky ponytail that flares upward like a flame caught in perpetual motion. The front sections frame her face in jagged, piecey bangs that sweep across her forehead and temples, some strands falling casually over her eyes only to be brushed away with a swift flick of her head. The green highlights are concentrated at the tips of her hair and along the layers, catching the light as she moves, creating an effect like electricity dancing through dark water. Her hair is tousled, intentionally messy, projecting effortless cool.
+
+Makeup: Her makeup is bold, visible, and undeniably edgy. Her eyes are the focal point—heavy smoky eyeshadow in greens and blacks, thick winged eyeliner that extends far beyond her natural eye shape, creating a dramatic cat-eye silhouette. Her lashes are dramatic and oversized, curling upward like the wings of a bird of prey. Her lips are painted in a glossy, bold red that leans toward orange-red, the shade of ripe cherries, always drawing attention. She sometimes adds a subtle green tint to her lips, playing with the color theory of her look. Her cheekbones are highlighted with a pearlescent jade-toned highlighter that gives her skin an otherworldly glow.
+
+Attire
+Overall Aesthetic: Fanny's outfit is a masterful blend of streetwear edge and urban warrior functionality—a modern street-style version of her original aerial combat attire.
+
+Top: She wears an off-shoulder white crop top, the fabric thick and structured, with a subtle ribbed texture. The neckline curves elegantly across her collarbones, revealing the smooth, taut expanse of her shoulders and a hint of her jade-like skin. The sleeves drape loosely around her arms, creating a relaxed, effortless vibe. Embroidered on the front, in bold crimson-red Japanese calligraphy (Reisho and Seisho style), are the characters "FANNY" written in an artistic, flowing script—her name, a signature mark that brands her identity onto her clothing. The calligraphy appears like brush strokes, wild and untamed, a declaration of her presence.
+
+Bottom: She wears black mini shorts, the fabric sleek and slightly glossy, hugging her hips with a snug fit. The shorts are distressed at the hem, adding to their worn-in, street-style appeal. Covering her legs are fishnet leggings—bold, black mesh fabric that climbs up her thick, powerful thighs, the netting stretching over her muscles in a way that emphasizes their power and shape. The fishnet pattern is geometric and tight, creating a second-skin effect that blends edginess with functionality. Her thighs are thick, powerful, and prominent—the thighs of a rider who has gripped the backs of flying beasts since she could walk, now sheathed in the striking contrast of black netting.
+
+Outerwear: Over her shoulders, she wears a cool shearling fur jacket—the ultimate statement piece. The jacket is oversized, with a thick, cream-colored shearling collar that pops against everything beneath it. The body of the jacket is sleek black leather, worn-in and soft, with subtle distressing at the seams. The sleeves are rolled up to her forearms, revealing the fishnet beneath and allowing freedom of movement. The jacket is warm, statement-making, and unmistakably cool—a piece that says she owns every room she enters.
+
+Footwear: On her feet, she wears chunky loafer boots in black leather, the soles thick and platformed, adding height and presence. The boots feature silver hardware—buckles and grommets—that catch the light as she moves. They are modern, sleek, and practical, designed for urban exploration and quick movement. The platforms give her a commanding gait, each step echoing with authority.
+
+Accessories: Around her waist, she wears a slim black belt with a silver buckle, the belt connecting to her hip gear mechanisms. On her forearms, she still wears her signature gauntlets—bulky, purple-reinforced with silver plating and gold accents, though now integrated with her modern look. She wears silver chain necklaces and a single hoop earring in her left ear. Her nails are painted in a matching emerald-green, chipped at the edges for that perfectly undone look.
+
+Gear & Weapons (Preserved)
+Aerial Mobility Gear: Her signature hip gear mechanisms remain unchanged—two heavy, iron-like gear mechanisms, one on each side, which serve as both scabbards for her twin blades and the heart of her mobility. They house high-tension steel cables and grappling hooks that she can fire with a thought. With them, she becomes a phantom of the sky, latching onto walls, pillars, and urban structures to sling herself through the air with breathtaking speed. The gear is worn over her hip bones, connected by a sleek black harness that wraps around her waist.
+
+Twin Long Blades: Her weapons remain a pair of twin long swords—silver blades, sleek and balanced, designed for speed rather than brute force. The wide fullers catch the light, and the crossguards are set with circular emerald-green gems that pulse faintly with technological energy. The hilts are wrapped in high-grip material, ensuring her hold remains absolute even during the most violent aerial maneuvers. She carries one on each hip, drawn并 waiting.
+
+Wires & Cables: The steel cables remain a core part of her identity—thin, high-tension wires that extend from her hip gear, capable of latching onto any surface and pulling her across space with impossible speed. They hum with potential energy, always ready.
+
+Aura
+The aura that surrounds Fanny is one of coiled, streetwise intensity—a blade held at the perfect angle before the strike. She projects modern edge, urban confidence, and deadly precision. There is sharpness in her posture, a readiness to move that hums beneath her relaxed exterior. Her green eyes scan her surroundings with predatory calculation, and her glossy red lips are perpetually curved in a knowing smirk. She is street royalty, a guardian of the urban skies, and her vigil is eternal.
+
+She waits in the shadows of the city, her cables humming, her blades ready, her green eyes glowing like a wolf in the night.
 
 
 
